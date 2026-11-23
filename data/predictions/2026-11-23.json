@@ -1,22 +1,22 @@
 {
  "401910036": {
   "away": "MEM",
-  "chance": 0.6354,
+  "chance": 0.6217,
   "date": "2026-11-23",
-  "edge_vs_market": -0.0604,
+  "edge_vs_market": -0.0467,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.425,
    "p_home": 0.3646
   },
-  "frozen_at": "2026-11-23 21:52 UTC",
+  "frozen_at": "2026-11-23 22:44 UTC",
   "game_id": 401910036,
   "home": "CHA",
   "locked": false,
-  "margin": -4.41,
+  "margin": -3.95,
   "market_p_home": 0.425,
   "neutral": false,
-  "p_home": 0.3646,
+  "p_home": 0.3783,
   "pick": "MEM",
   "tip_utc": "2026-11-24 00:00:00+00:00",
   "why": {
@@ -80,13 +80,7 @@
     ]
    },
    "questionable": {
-    "CHA": [
-     {
-      "pid": 4433287,
-      "player": "Brandon Miller",
-      "status": "Day-To-Day"
-     }
-    ],
+    "CHA": [],
     "MEM": []
    },
    "rest_days": {
@@ -94,7 +88,7 @@
     "MEM": 2
    },
    "strength": {
-    "CHA": -2.97,
+    "CHA": -2.51,
     "MEM": 3.68
    },
    "team_term": {
@@ -104,50 +98,50 @@
    "top_players": {
     "CHA": [
      {
-      "impact": 0.79,
-      "minutes": 21.0,
+      "impact": 1.16,
+      "minutes": 30.9,
       "player": "Brandon Miller",
       "rating": 1.81
      },
      {
-      "impact": 0.65,
-      "minutes": 32.3,
+      "impact": 0.62,
+      "minutes": 30.8,
       "player": "Moussa Diabate",
       "rating": 0.96
      },
      {
-      "impact": 0.53,
-      "minutes": 22.4,
+      "impact": 0.5,
+      "minutes": 21.4,
       "player": "Coby White",
       "rating": 1.13
      },
      {
-      "impact": 0.2,
-      "minutes": 19.9,
+      "impact": 0.19,
+      "minutes": 19.0,
       "player": "Ryan Kalkbrenner",
       "rating": 0.49
      },
      {
-      "impact": 0.13,
-      "minutes": 30.6,
+      "impact": 0.12,
+      "minutes": 29.2,
       "player": "Sion James",
       "rating": 0.21
      },
      {
-      "impact": -0.04,
-      "minutes": 24.2,
+      "impact": -0.03,
+      "minutes": 23.1,
       "player": "Royce O'Neale",
       "rating": -0.07
      },
      {
-      "impact": -0.09,
-      "minutes": 6.9,
+      "impact": -0.08,
+      "minutes": 6.6,
       "player": "PJ Hall",
       "rating": -0.61
      },
      {
-      "impact": -0.25,
-      "minutes": 7.2,
+      "impact": -0.24,
+      "minutes": 6.9,
       "player": "Hannes Steinbach",
       "rating": -1.67
      }
@@ -209,18 +203,18 @@
   "away": "POR",
   "chance": 0.594,
   "date": "2026-11-23",
-  "edge_vs_market": -0.1711,
+  "edge_vs_market": -0.169,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.5528,
    "p_home": 0.406
   },
-  "frozen_at": "2026-11-23 21:52 UTC",
+  "frozen_at": "2026-11-23 22:44 UTC",
   "game_id": 401910037,
   "home": "PHI",
   "locked": false,
   "margin": -3.03,
-  "market_p_home": 0.5771,
+  "market_p_home": 0.575,
   "neutral": false,
   "p_home": 0.406,
   "pick": "POR",
@@ -412,18 +406,18 @@
   "away": "OKC",
   "chance": 0.7008,
   "date": "2026-11-23",
-  "edge_vs_market": -0.0358,
+  "edge_vs_market": -0.0341,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.375,
    "p_home": 0.3559
   },
-  "frozen_at": "2026-11-23 21:52 UTC",
+  "frozen_at": "2026-11-23 22:44 UTC",
   "game_id": 401910038,
   "home": "IND",
   "locked": false,
   "margin": -6.72,
-  "market_p_home": 0.335,
+  "market_p_home": 0.3333,
   "neutral": false,
   "p_home": 0.2992,
   "pick": "OKC",
@@ -647,7 +641,7 @@
    "market_p_home": 0.795,
    "p_home": 0.7576
   },
-  "frozen_at": "2026-11-23 21:52 UTC",
+  "frozen_at": "2026-11-23 22:44 UTC",
   "game_id": 401910039,
   "home": "TOR",
   "locked": false,
@@ -821,7 +815,7 @@
    "market_p_home": 0.825,
    "p_home": 0.8939
   },
-  "frozen_at": "2026-11-23 21:52 UTC",
+  "frozen_at": "2026-11-23 22:44 UTC",
   "game_id": 401910040,
   "home": "MIN",
   "locked": false,
@@ -991,18 +985,18 @@
   "away": "CLE",
   "chance": 0.7643,
   "date": "2026-11-23",
-  "edge_vs_market": -0.0105,
+  "edge_vs_market": -0.0093,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.255,
    "p_home": 0.2421
   },
-  "frozen_at": "2026-11-23 21:52 UTC",
+  "frozen_at": "2026-11-23 22:44 UTC",
   "game_id": 401910041,
   "home": "CHI",
   "locked": false,
   "margin": -9.18,
-  "market_p_home": 0.2462,
+  "market_p_home": 0.245,
   "neutral": false,
   "p_home": 0.2357,
   "pick": "CLE",
@@ -1185,18 +1179,18 @@
   "away": "PHX",
   "chance": 0.6631,
   "date": "2026-11-23",
-  "edge_vs_market": -0.0781,
+  "edge_vs_market": -0.081,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.415,
    "p_home": 0.3194
   },
-  "frozen_at": "2026-11-23 21:52 UTC",
+  "frozen_at": "2026-11-23 22:44 UTC",
   "game_id": 401910042,
   "home": "NOP",
   "locked": false,
   "margin": -5.37,
-  "market_p_home": 0.415,
+  "market_p_home": 0.4179,
   "neutral": false,
   "p_home": 0.3369,
   "pick": "PHX",
@@ -1373,7 +1367,7 @@
    "market_p_home": 0.845,
    "p_home": 0.791
   },
-  "frozen_at": "2026-11-23 21:52 UTC",
+  "frozen_at": "2026-11-23 22:44 UTC",
   "game_id": 401910043,
   "home": "HOU",
   "locked": false,
@@ -1536,7 +1530,7 @@
    "market_p_home": 0.865,
    "p_home": 0.8081
   },
-  "frozen_at": "2026-11-23 21:52 UTC",
+  "frozen_at": "2026-11-23 22:44 UTC",
   "game_id": 401910044,
   "home": "LAL",
   "locked": false,
@@ -1713,18 +1707,18 @@
   "away": "SAS",
   "chance": 0.8497,
   "date": "2026-11-23",
-  "edge_vs_market": -0.0131,
+  "edge_vs_market": -0.0147,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.195,
    "p_home": 0.1489
   },
-  "frozen_at": "2026-11-23 21:52 UTC",
+  "frozen_at": "2026-11-23 22:44 UTC",
   "game_id": 401910045,
   "home": "SAC",
   "locked": false,
   "margin": -13.2,
-  "market_p_home": 0.1634,
+  "market_p_home": 0.165,
   "neutral": false,
   "p_home": 0.1503,
   "pick": "SAS",

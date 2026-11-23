@@ -1,22 +1,22 @@
 {
  "401909314": {
   "away": "DET",
-  "chance": 0.6229,
+  "chance": 0.6358,
   "date": "2026-11-24",
-  "edge_vs_market": -0.0747,
+  "edge_vs_market": -0.0808,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.445,
    "p_home": 0.3771
   },
-  "frozen_at": "2026-11-23 21:52 UTC",
+  "frozen_at": "2026-11-23 22:44 UTC",
   "game_id": 401909314,
   "home": "ORL",
   "locked": false,
-  "margin": -3.99,
-  "market_p_home": 0.4518,
+  "margin": -4.43,
+  "market_p_home": 0.445,
   "neutral": false,
-  "p_home": 0.3771,
+  "p_home": 0.3642,
   "pick": "DET",
   "tip_utc": "2026-11-25 00:00:00+00:00",
   "why": {
@@ -30,6 +30,12 @@
       "minutes": 26.2,
       "pid": 4433621,
       "player": "Jalen Duren",
+      "status": "Out"
+     },
+     {
+      "minutes": 4.5,
+      "pid": 5258459,
+      "player": "Ebuka Okorie",
       "status": "Out"
      },
      {
@@ -69,8 +75,8 @@
    "questionable": {
     "DET": [
      {
-      "pid": 5258459,
-      "player": "Ebuka Okorie",
+      "pid": 4432166,
+      "player": "Cade Cunningham",
       "status": "Day-To-Day"
      }
     ],
@@ -81,7 +87,7 @@
     "ORL": 2
    },
    "strength": {
-    "DET": 7.18,
+    "DET": 7.61,
     "ORL": 2.05
    },
    "team_term": {
@@ -91,50 +97,50 @@
    "top_players": {
     "DET": [
      {
-      "impact": 1.52,
-      "minutes": 26.2,
+      "impact": 1.61,
+      "minutes": 27.8,
       "player": "Kevin Huerter",
       "rating": 2.79
      },
      {
-      "impact": 1.19,
-      "minutes": 22.9,
+      "impact": 1.27,
+      "minutes": 24.3,
       "player": "Paul Reed",
       "rating": 2.51
      },
      {
-      "impact": 0.86,
-      "minutes": 13.8,
+      "impact": 0.91,
+      "minutes": 14.6,
       "player": "Isaiah Joe",
       "rating": 3.0
      },
      {
-      "impact": 0.82,
-      "minutes": 17.3,
+      "impact": 0.87,
+      "minutes": 18.3,
       "player": "Javonte Green",
       "rating": 2.27
      },
      {
-      "impact": 0.56,
-      "minutes": 27.6,
+      "impact": 0.59,
+      "minutes": 29.3,
       "player": "Ausar Thompson",
       "rating": 0.97
      },
      {
-      "impact": 0.27,
-      "minutes": 12.9,
+      "impact": 0.29,
+      "minutes": 13.7,
       "player": "Ronald Holland II",
       "rating": 1.02
      },
      {
       "impact": 0.13,
-      "minutes": 7.3,
+      "minutes": 7.8,
       "player": "Chaz Lanier",
       "rating": 0.83
      },
      {
       "impact": -0.0,
-      "minutes": 3.7,
+      "minutes": 4.0,
       "player": "Tolu Smith",
       "rating": -0.04
      }
@@ -196,18 +202,18 @@
   "away": "BOS",
   "chance": 0.7686,
   "date": "2026-11-24",
-  "edge_vs_market": 0.0037,
+  "edge_vs_market": 0.0153,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.215,
    "p_home": 0.2305
   },
-  "frozen_at": "2026-11-23 21:52 UTC",
+  "frozen_at": "2026-11-23 22:44 UTC",
   "game_id": 401909315,
   "home": "WAS",
   "locked": false,
   "margin": -9.36,
-  "market_p_home": 0.2277,
+  "market_p_home": 0.2161,
   "neutral": false,
   "p_home": 0.2314,
   "pick": "BOS",
@@ -377,18 +383,18 @@
   "away": "DAL",
   "chance": 0.6442,
   "date": "2026-11-24",
-  "edge_vs_market": -0.1058,
+  "edge_vs_market": -0.1096,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.7638,
    "p_home": 0.6442
   },
-  "frozen_at": "2026-11-23 21:52 UTC",
+  "frozen_at": "2026-11-23 22:44 UTC",
   "game_id": 401909316,
   "home": "DEN",
   "locked": false,
   "margin": 4.71,
-  "market_p_home": 0.75,
+  "market_p_home": 0.7538,
   "neutral": false,
   "p_home": 0.6442,
   "pick": "DEN",
