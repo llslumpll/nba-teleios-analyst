@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23 22:52 UTC",
+ "fetched_at": "2026-11-23 23:18 UTC",
  "error": null,
  "players": [
   {
@@ -327,15 +327,6 @@
    "date": "2026-11-23T18:22Z"
   },
   {
-   "player": "Pascal Siakam",
-   "pid": 3149673,
-   "team": "IND",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Siakam is questionable for Monday's game against Oklahoma City due to left hip injury management, according to the NBA's injury report.",
-   "date": "2026-11-23T18:22Z"
-  },
-  {
    "player": "Tyrese Haliburton",
    "pid": 4396993,
    "team": "IND",
@@ -645,10 +636,10 @@
    "player": "Joel Embiid",
    "pid": 3059318,
    "team": "PHI",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Embiid (knee) has been downgraded to questionable for Monday's game against Portland.",
-   "date": "2026-11-23T16:49Z"
+   "status": "Out",
+   "class": "out",
+   "comment": "Embiid (illness) is out for Monday's game against Portland, Austin Krell of OnPattison.com reports.",
+   "date": "2026-11-23T22:49Z"
   },
   {
    "player": "Adem Bona",
@@ -802,24 +793,6 @@
    "class": "out",
    "comment": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports.",
    "date": "2026-10-05T21:43Z"
-  },
-  {
-   "player": "Jaden Bradley",
-   "pid": 4432737,
-   "team": "TOR",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Bradley is questionable for Monday's game against the Bucks due to an ankle sprain, Blake Murphy of Sportsnet.ca reports.",
-   "date": "2026-11-23T17:37Z"
-  },
-  {
-   "player": "Collin Murray-Boyles",
-   "pid": 5093267,
-   "team": "TOR",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Murray-Boyles (concussion) is listed as probable for Monday's game against Milwaukee, Blake Murphy of Sportsnet.ca reports.",
-   "date": "2026-11-22T21:15Z"
   },
   {
    "player": "Nate Bittle",

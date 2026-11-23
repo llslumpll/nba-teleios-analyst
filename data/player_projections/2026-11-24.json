@@ -2,7 +2,7 @@
  "401909314": {
   "away": "DET",
   "date": "2026-11-24",
-  "frozen_at": "2026-11-23 22:52 UTC",
+  "frozen_at": "2026-11-23 23:18 UTC",
   "game_id": 401909314,
   "home": "ORL",
   "locked": false,
@@ -2509,7 +2509,7 @@
  "401909315": {
   "away": "BOS",
   "date": "2026-11-24",
-  "frozen_at": "2026-11-23 22:52 UTC",
+  "frozen_at": "2026-11-23 23:18 UTC",
   "game_id": 401909315,
   "home": "WAS",
   "locked": false,
@@ -5391,7 +5391,7 @@
  "401909316": {
   "away": "DAL",
   "date": "2026-11-24",
-  "frozen_at": "2026-11-23 22:52 UTC",
+  "frozen_at": "2026-11-23 23:18 UTC",
   "game_id": 401909316,
   "home": "DEN",
   "locked": false,
