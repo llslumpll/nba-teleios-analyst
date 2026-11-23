@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 22:44 UTC",
+ "updated": "2026-11-23 22:51 UTC",
  "overall": {
   "games": 0
  },
@@ -10,6 +10,9 @@
   },
   "calibration": [],
   "vs_kalshi": {
+   "games": 0
+  },
+  "margin": {
    "games": 0
   },
   "last_30_days": {
@@ -23,6 +26,14 @@
    "accuracy": 0.6694,
    "brier": 0.2007,
    "log_loss": 0.5857
+  },
+  "margin": {
+   "games": 248,
+   "avg_miss": 11.21,
+   "median_miss": 8.94,
+   "within_5": 0.302,
+   "within_10": 0.552,
+   "bias_home": -0.02
   },
   "calibration": [
    {
@@ -238,5 +249,20 @@
     "accuracy": 0.5552193645990923
    }
   }
+ },
+ "game_log": {
+  "cols": [
+   "date",
+   "away",
+   "home",
+   "pick",
+   "chance",
+   "proj_pick_margin",
+   "actual_pick_margin",
+   "margin_miss",
+   "hit",
+   "market_pick_chance"
+  ],
+  "rows": []
  }
 }

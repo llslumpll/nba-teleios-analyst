@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23 22:44 UTC",
+ "fetched_at": "2026-11-23 22:50 UTC",
  "error": null,
  "games": [
   {
@@ -22,14 +22,14 @@
    "home": "PHI",
    "away": "POR",
    "event": "KXNBAGAME-26NOV23PORPHI",
-   "p_home": 0.575,
+   "p_home": 0.525,
    "home_bid_ask": [
-    0.57,
-    0.58
+    0.52,
+    0.53
    ],
    "away_bid_ask": [
-    0.42,
-    0.43
+    0.47,
+    0.48
    ]
   },
   {
@@ -67,14 +67,14 @@
    "home": "IND",
    "away": "OKC",
    "event": "KXNBAGAME-26NOV23OKCIND",
-   "p_home": 0.3333,
+   "p_home": 0.355,
    "home_bid_ask": [
-    0.33,
-    0.34
+    0.35,
+    0.36
    ],
    "away_bid_ask": [
-    0.66,
-    0.68
+    0.64,
+    0.65
    ]
   },
   {
@@ -82,10 +82,10 @@
    "home": "CHI",
    "away": "CLE",
    "event": "KXNBAGAME-26NOV23CLECHI",
-   "p_home": 0.245,
+   "p_home": 0.2488,
    "home_bid_ask": [
     0.24,
-    0.25
+    0.26
    ],
    "away_bid_ask": [
     0.75,
@@ -172,10 +172,10 @@
    "home": "WAS",
    "away": "BOS",
    "event": "KXNBAGAME-26NOV24BOSWAS",
-   "p_home": 0.2161,
+   "p_home": 0.22,
    "home_bid_ask": [
     0.21,
-    0.22
+    0.23
    ],
    "away_bid_ask": [
     0.77,
@@ -339,12 +339,12 @@
    "event": "KXNBAGAME-26NOV27MIANYK",
    "p_home": null,
    "home_bid_ask": [
-    0.51,
+    0.53,
     0.75
    ],
    "away_bid_ask": [
     0.22,
-    0.54
+    0.55
    ]
   },
   {
@@ -397,13 +397,13 @@
    "home": "BOS",
    "away": "ATL",
    "event": "KXNBAGAME-26NOV27ATLBOS",
-   "p_home": 0.5854,
+   "p_home": 0.5862,
    "home_bid_ask": [
     0.57,
-    0.63
+    0.62
    ],
    "away_bid_ask": [
-    0.41,
+    0.4,
     0.44
    ]
   },
@@ -459,12 +459,12 @@
    "event": "KXNBAGAME-26NOV27NOPLAC",
    "p_home": null,
    "home_bid_ask": [
-    0.5,
-    0.68
+    0.52,
+    0.7
    ],
    "away_bid_ask": [
-    0.34,
-    0.51
+    0.31,
+    0.5
    ]
   },
   {
@@ -474,12 +474,12 @@
    "event": "KXNBAGAME-26NOV28ORLWAS",
    "p_home": null,
    "home_bid_ask": [
-    0.4,
-    0.53
+    0.38,
+    0.52
    ],
    "away_bid_ask": [
-    0.43,
-    0.6
+    0.45,
+    0.61
    ]
   }
  ]

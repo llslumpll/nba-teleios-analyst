@@ -2,7 +2,7 @@
  "401910036": {
   "away": "MEM",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 22:44 UTC",
+  "frozen_at": "2026-11-23 22:51 UTC",
   "game_id": 401910036,
   "home": "CHA",
   "locked": false,
@@ -262,7 +262,7 @@
      },
      "pra": {
       "line": 14.5,
-      "market_p_over": 0.49,
+      "market_p_over": 0.495,
       "teleios_p_over": 0.5113
      },
      "pts": {
@@ -1081,7 +1081,7 @@
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.59,
+      "market_p_over": 0.585,
       "teleios_p_over": 0.4674
      },
      "pts": {
@@ -1322,7 +1322,7 @@
      },
      "reb": {
       "line": 7.5,
-      "market_p_over": 0.415,
+      "market_p_over": 0.42,
       "teleios_p_over": 0.4058
      }
     },
@@ -2716,7 +2716,7 @@
  "401910037": {
   "away": "POR",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 22:44 UTC",
+  "frozen_at": "2026-11-23 22:51 UTC",
   "game_id": 401910037,
   "home": "PHI",
   "locked": false,
@@ -2735,7 +2735,7 @@
      },
      "pra": {
       "line": 34.5,
-      "market_p_over": 0.585,
+      "market_p_over": 0.6,
       "teleios_p_over": 0.5469
      },
      "pts": {
@@ -2971,27 +2971,27 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.425,
+      "market_p_over": 0.45,
       "teleios_p_over": 0.4257
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.525,
+      "market_p_over": 0.515,
       "teleios_p_over": 0.3715
      },
      "pra": {
-      "line": 19.5,
-      "market_p_over": 0.635,
-      "teleios_p_over": 0.5926
+      "line": 24.5,
+      "market_p_over": 0.375,
+      "teleios_p_over": 0.35
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.39,
+      "market_p_over": 0.42,
       "teleios_p_over": 0.3845
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.535,
+      "market_p_over": 0.54,
       "teleios_p_over": 0.428
      }
     },
@@ -3094,27 +3094,27 @@
     "market": {
      "ast": {
       "line": 5.5,
-      "market_p_over": 0.425,
+      "market_p_over": 0.42,
       "teleios_p_over": 0.316
      },
      "fg3m": {
       "line": 2.5,
-      "market_p_over": 0.495,
+      "market_p_over": 0.505,
       "teleios_p_over": 0.3339
      },
      "pra": {
       "line": 34.5,
-      "market_p_over": 0.445,
+      "market_p_over": 0.485,
       "teleios_p_over": 0.2506
      },
      "pts": {
       "line": 24.5,
-      "market_p_over": 0.515,
+      "market_p_over": 0.565,
       "teleios_p_over": 0.324
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.455,
+      "market_p_over": 0.485,
       "teleios_p_over": 0.3222
      }
     },
@@ -3217,7 +3217,7 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.605,
+      "market_p_over": 0.615,
       "teleios_p_over": 0.6159
      },
      "fg3m": {
@@ -3232,7 +3232,7 @@
      },
      "pts": {
       "line": 19.5,
-      "market_p_over": 0.595,
+      "market_p_over": 0.585,
       "teleios_p_over": 0.5367
      },
      "reb": {
@@ -3340,22 +3340,22 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.385,
+      "market_p_over": 0.425,
       "teleios_p_over": 0.3657
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.485,
+      "market_p_over": 0.475,
       "teleios_p_over": 0.3834
      },
      "pra": {
       "line": 29.5,
-      "market_p_over": 0.515,
+      "market_p_over": 0.525,
       "teleios_p_over": 0.4499
      },
      "pts": {
       "line": 19.5,
-      "market_p_over": 0.555,
+      "market_p_over": 0.595,
       "teleios_p_over": 0.519
      },
      "reb": {
@@ -3462,9 +3462,9 @@
    {
     "market": {
      "ast": {
-      "line": 5.5,
-      "market_p_over": 0.635,
-      "teleios_p_over": 0.4471
+      "line": 7.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.2124
      },
      "fg3m": {
       "line": 1.5,
@@ -3473,17 +3473,17 @@
      },
      "pra": {
       "line": 29.5,
-      "market_p_over": 0.53,
+      "market_p_over": 0.545,
       "teleios_p_over": 0.3399
      },
      "pts": {
-      "line": 14.5,
-      "market_p_over": 0.605,
-      "teleios_p_over": 0.529
+      "line": 19.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.2516
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.62,
+      "market_p_over": 0.625,
       "teleios_p_over": 0.4426
      }
     },
@@ -3596,7 +3596,7 @@
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.59,
+      "market_p_over": 0.6,
       "teleios_p_over": 0.6713
      },
      "pts": {
@@ -3709,27 +3709,27 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.515,
+      "market_p_over": 0.535,
       "teleios_p_over": 0.4239
      },
      "fg3m": {
-      "line": 0.5,
-      "market_p_over": 0.625,
-      "teleios_p_over": 0.3549
+      "line": 1.5,
+      "market_p_over": 0.335,
+      "teleios_p_over": 0.1621
      },
      "pra": {
       "line": 34.5,
-      "market_p_over": 0.485,
+      "market_p_over": 0.48,
       "teleios_p_over": 0.2993
      },
      "pts": {
       "line": 19.5,
-      "market_p_over": 0.625,
+      "market_p_over": 0.62,
       "teleios_p_over": 0.4737
      },
      "reb": {
       "line": 7.5,
-      "market_p_over": 0.565,
+      "market_p_over": 0.6,
       "teleios_p_over": 0.4145
      }
     },
@@ -3837,12 +3837,12 @@
      },
      "fg3m": {
       "line": 0.5,
-      "market_p_over": 0.605,
+      "market_p_over": 0.61,
       "teleios_p_over": 0.4852
      },
      "pra": {
       "line": 24.5,
-      "market_p_over": 0.49,
+      "market_p_over": 0.495,
       "teleios_p_over": 0.5215
      },
      "pts": {
@@ -3852,7 +3852,7 @@
      },
      "reb": {
       "line": 11.5,
-      "market_p_over": 0.45,
+      "market_p_over": 0.455,
       "teleios_p_over": 0.4355
      }
     },
@@ -3955,7 +3955,7 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.52,
+      "market_p_over": 0.53,
       "teleios_p_over": 0.5497
      },
      "fg3m": {
@@ -4174,7 +4174,7 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.55,
+      "market_p_over": 0.555,
       "teleios_p_over": 0.5323
      },
      "fg3m": {
@@ -4194,7 +4194,7 @@
      },
      "reb": {
       "line": 1.5,
-      "market_p_over": 0.62,
+      "market_p_over": 0.615,
       "teleios_p_over": 0.6046
      }
     },
@@ -4393,17 +4393,17 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.445,
+      "market_p_over": 0.455,
       "teleios_p_over": 0.3774
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.545,
+      "market_p_over": 0.53,
       "teleios_p_over": 0.5075
      },
      "pra": {
       "line": 14.5,
-      "market_p_over": 0.405,
+      "market_p_over": 0.42,
       "teleios_p_over": 0.472
      },
      "pts": {
@@ -4413,7 +4413,7 @@
      },
      "reb": {
       "line": 1.5,
-      "market_p_over": 0.55,
+      "market_p_over": 0.585,
       "teleios_p_over": 0.5064
      }
     },
@@ -5766,7 +5766,7 @@
  "401910038": {
   "away": "OKC",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 22:44 UTC",
+  "frozen_at": "2026-11-23 22:51 UTC",
   "game_id": 401910038,
   "home": "IND",
   "locked": false,
@@ -5785,7 +5785,7 @@
      },
      "pra": {
       "line": 39.5,
-      "market_p_over": 0.575,
+      "market_p_over": 0.555,
       "teleios_p_over": 0.6736
      },
      "pts": {
@@ -5903,12 +5903,12 @@
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.495,
+      "market_p_over": 0.49,
       "teleios_p_over": 0.4652
      },
      "pra": {
       "line": 29.5,
-      "market_p_over": 0.585,
+      "market_p_over": 0.565,
       "teleios_p_over": 0.6852
      },
      "pts": {
@@ -5918,7 +5918,7 @@
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.545,
+      "market_p_over": 0.54,
       "teleios_p_over": 0.5924
      }
     },
@@ -6031,7 +6031,7 @@
      },
      "pra": {
       "line": 24.5,
-      "market_p_over": 0.51,
+      "market_p_over": 0.505,
       "teleios_p_over": 0.6273
      },
      "pts": {
@@ -6149,7 +6149,7 @@
      },
      "fg3m": {
       "line": 2.5,
-      "market_p_over": 0.495,
+      "market_p_over": 0.485,
       "teleios_p_over": 0.4706
      },
      "pra": {
@@ -6159,7 +6159,7 @@
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.565,
+      "market_p_over": 0.555,
       "teleios_p_over": 0.643
      },
      "reb": {
@@ -6272,12 +6272,12 @@
      },
      "fg3m": {
       "line": 0.5,
-      "market_p_over": 0.65,
+      "market_p_over": 0.645,
       "teleios_p_over": 0.5174
      },
      "pra": {
       "line": 24.5,
-      "market_p_over": 0.53,
+      "market_p_over": 0.51,
       "teleios_p_over": 0.5425
      },
      "pts": {
@@ -6390,17 +6390,17 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.58,
+      "market_p_over": 0.575,
       "teleios_p_over": 0.5448
      },
      "pra": {
       "line": 24.5,
-      "market_p_over": 0.395,
+      "market_p_over": 0.4,
       "teleios_p_over": 0.4672
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.605,
+      "market_p_over": 0.615,
       "teleios_p_over": 0.6731
      },
      "reb": {
@@ -6508,17 +6508,17 @@
     "market": {
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.475,
+      "market_p_over": 0.46,
       "teleios_p_over": 0.3277
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.445,
+      "market_p_over": 0.415,
       "teleios_p_over": 0.3633
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.605,
+      "market_p_over": 0.615,
       "teleios_p_over": 0.5615
      }
     },
@@ -6739,17 +6739,17 @@
     "market": {
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.44,
+      "market_p_over": 0.43,
       "teleios_p_over": 0.4091
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.52,
+      "market_p_over": 0.515,
       "teleios_p_over": 0.5383
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.4,
+      "market_p_over": 0.395,
       "teleios_p_over": 0.3764
      }
     },
@@ -8102,7 +8102,7 @@
  "401910039": {
   "away": "MIL",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 22:44 UTC",
+  "frozen_at": "2026-11-23 22:51 UTC",
   "game_id": 401910039,
   "home": "TOR",
   "locked": false,
@@ -8372,7 +8372,7 @@
      },
      "pts": {
       "line": 19.5,
-      "market_p_over": 0.465,
+      "market_p_over": 0.47,
       "teleios_p_over": 0.3812
      },
      "reb": {
@@ -8495,7 +8495,7 @@
      },
      "pts": {
       "line": 19.5,
-      "market_p_over": 0.535,
+      "market_p_over": 0.54,
       "teleios_p_over": 0.3385
      },
      "reb": {
@@ -8608,12 +8608,12 @@
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.53,
+      "market_p_over": 0.525,
       "teleios_p_over": 0.4475
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.545,
+      "market_p_over": 0.54,
       "teleios_p_over": 0.5015
      },
      "reb": {
@@ -8864,7 +8864,7 @@
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.63,
+      "market_p_over": 0.62,
       "teleios_p_over": 0.5243
      }
     },
@@ -8972,7 +8972,7 @@
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.36,
+      "market_p_over": 0.335,
       "teleios_p_over": 0.2936
      },
      "reb": {
@@ -9080,7 +9080,7 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.34,
+      "market_p_over": 0.33,
       "teleios_p_over": 0.2551
      },
      "fg3m": {
@@ -9223,7 +9223,7 @@
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.42,
+      "market_p_over": 0.415,
       "teleios_p_over": 0.3468
      }
     },
@@ -9336,7 +9336,7 @@
      },
      "pra": {
       "line": 14.5,
-      "market_p_over": 0.535,
+      "market_p_over": 0.54,
       "teleios_p_over": 0.3868
      },
      "pts": {
@@ -9449,7 +9449,7 @@
     "market": {
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.42,
+      "market_p_over": 0.415,
       "teleios_p_over": 0.3147
      },
      "reb": {
@@ -9577,7 +9577,7 @@
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.525,
+      "market_p_over": 0.53,
       "teleios_p_over": 0.4342
      }
     },
@@ -9772,7 +9772,7 @@
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.375,
+      "market_p_over": 0.325,
       "teleios_p_over": 0.2374
      }
     },
@@ -9875,22 +9875,17 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.375,
+      "market_p_over": 0.31,
       "teleios_p_over": 0.1983
-     },
-     "fg3m": {
-      "line": 0.5,
-      "market_p_over": 0.5,
-      "teleios_p_over": 0.3673
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.455,
+      "market_p_over": 0.45,
       "teleios_p_over": 0.3339
      },
      "reb": {
       "line": 7.5,
-      "market_p_over": 0.395,
+      "market_p_over": 0.41,
       "teleios_p_over": 0.2396
      }
     },
@@ -9993,13 +9988,13 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.32,
+      "market_p_over": 0.305,
       "teleios_p_over": 0.1091
      },
      "fg3m": {
-      "line": 1.5,
-      "market_p_over": 0.28,
-      "teleios_p_over": 0.2033
+      "line": 0.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.4181
      },
      "pts": {
       "line": 9.5,
@@ -11535,7 +11530,7 @@
  "401910040": {
   "away": "BKN",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 22:44 UTC",
+  "frozen_at": "2026-11-23 22:51 UTC",
   "game_id": 401910040,
   "home": "MIN",
   "locked": false,
@@ -11682,7 +11677,7 @@
      },
      "pts": {
       "line": 19.5,
-      "market_p_over": 0.38,
+      "market_p_over": 0.375,
       "teleios_p_over": 0.3694
      },
      "reb": {
@@ -11800,7 +11795,7 @@
      },
      "pra": {
       "line": 24.5,
-      "market_p_over": 0.39,
+      "market_p_over": 0.395,
       "teleios_p_over": 0.3603
      },
      "pts": {
@@ -11913,7 +11908,7 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.58,
+      "market_p_over": 0.575,
       "teleios_p_over": 0.4691
      },
      "fg3m": {
@@ -11923,7 +11918,7 @@
      },
      "pra": {
       "line": 29.5,
-      "market_p_over": 0.43,
+      "market_p_over": 0.425,
       "teleios_p_over": 0.3008
      },
      "pts": {
@@ -12041,7 +12036,7 @@
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.425,
+      "market_p_over": 0.415,
       "teleios_p_over": 0.2751
      },
      "pra": {
@@ -12164,7 +12159,7 @@
      },
      "fg3m": {
       "line": 3.5,
-      "market_p_over": 0.475,
+      "market_p_over": 0.48,
       "teleios_p_over": 0.4182
      },
      "pra": {
@@ -12179,7 +12174,7 @@
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.37,
+      "market_p_over": 0.38,
       "teleios_p_over": 0.2796
      }
     },
@@ -12405,7 +12400,7 @@
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.405,
+      "market_p_over": 0.4,
       "teleios_p_over": 0.3351
      },
      "pra": {
@@ -12523,7 +12518,7 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.335,
+      "market_p_over": 0.34,
       "teleios_p_over": 0.2514
      },
      "fg3m": {
@@ -12892,7 +12887,7 @@
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.605,
+      "market_p_over": 0.6,
       "teleios_p_over": 0.4022
      },
      "pra": {
@@ -13202,7 +13197,7 @@
     "market": {
      "fg3m": {
       "line": 0.5,
-      "market_p_over": 0.52,
+      "market_p_over": 0.525,
       "teleios_p_over": 0.4366
      },
      "pts": {
@@ -13212,7 +13207,7 @@
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.53,
+      "market_p_over": 0.535,
       "teleios_p_over": 0.4342
      }
     },
@@ -14739,7 +14734,7 @@
  "401910041": {
   "away": "CLE",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 22:44 UTC",
+  "frozen_at": "2026-11-23 22:51 UTC",
   "game_id": 401910041,
   "home": "CHI",
   "locked": false,
@@ -14758,12 +14753,12 @@
      },
      "pra": {
       "line": 29.5,
-      "market_p_over": 0.545,
+      "market_p_over": 0.55,
       "teleios_p_over": 0.5554
      },
      "pts": {
       "line": 19.5,
-      "market_p_over": 0.415,
+      "market_p_over": 0.425,
       "teleios_p_over": 0.5041
      },
      "reb": {
@@ -14886,7 +14881,7 @@
      },
      "pts": {
       "line": 24.5,
-      "market_p_over": 0.595,
+      "market_p_over": 0.585,
       "teleios_p_over": 0.494
      },
      "reb": {
@@ -15004,7 +14999,7 @@
      },
      "pra": {
       "line": 14.5,
-      "market_p_over": 0.56,
+      "market_p_over": 0.565,
       "teleios_p_over": 0.4806
      },
      "pts": {
@@ -15255,7 +15250,7 @@
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.44,
+      "market_p_over": 0.445,
       "teleios_p_over": 0.3217
      },
      "reb": {
@@ -15717,7 +15712,7 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.34,
+      "market_p_over": 0.335,
       "teleios_p_over": 0.3939
      },
      "fg3m": {
@@ -16059,12 +16054,12 @@
     "market": {
      "fg3m": {
       "line": 2.5,
-      "market_p_over": 0.565,
+      "market_p_over": 0.575,
       "teleios_p_over": 0.3686
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.425,
+      "market_p_over": 0.43,
       "teleios_p_over": 0.3144
      },
      "reb": {
@@ -16457,6 +16452,23 @@
     "team": "CHI"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.54,
+      "teleios_p_over": 0.4516
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.5312
+     },
+     "reb": {
+      "line": 1.5,
+      "market_p_over": 0.6,
+      "teleios_p_over": 0.5426
+     }
+    },
     "minutes": 16.8,
     "opp": "CLE",
     "pid": 4395626,
@@ -17701,7 +17713,7 @@
  "401910042": {
   "away": "PHX",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 22:44 UTC",
+  "frozen_at": "2026-11-23 22:51 UTC",
   "game_id": 401910042,
   "home": "NOP",
   "locked": false,
@@ -17715,12 +17727,12 @@
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.6,
+      "market_p_over": 0.595,
       "teleios_p_over": 0.4387
      },
      "pra": {
       "line": 34.5,
-      "market_p_over": 0.545,
+      "market_p_over": 0.54,
       "teleios_p_over": 0.4191
      },
      "pts": {
@@ -18079,7 +18091,7 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.345,
+      "market_p_over": 0.35,
       "teleios_p_over": 0.2679
      },
      "pra": {
@@ -18197,7 +18209,7 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.37,
+      "market_p_over": 0.365,
       "teleios_p_over": 0.3279
      },
      "fg3m": {
@@ -18207,7 +18219,7 @@
      },
      "pra": {
       "line": 24.5,
-      "market_p_over": 0.43,
+      "market_p_over": 0.42,
       "teleios_p_over": 0.3874
      },
      "pts": {
@@ -18330,7 +18342,7 @@
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.585,
+      "market_p_over": 0.58,
       "teleios_p_over": 0.543
      },
      "pts": {
@@ -18340,7 +18352,7 @@
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.485,
+      "market_p_over": 0.48,
       "teleios_p_over": 0.4118
      }
     },
@@ -18453,7 +18465,7 @@
      },
      "pra": {
       "line": 24.5,
-      "market_p_over": 0.43,
+      "market_p_over": 0.425,
       "teleios_p_over": 0.3879
      },
      "pts": {
@@ -18566,7 +18578,7 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.395,
+      "market_p_over": 0.4,
       "teleios_p_over": 0.3335
      },
      "fg3m": {
@@ -18586,7 +18598,7 @@
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.535,
+      "market_p_over": 0.53,
       "teleios_p_over": 0.4454
      }
     },
@@ -18807,7 +18819,7 @@
      },
      "pra": {
       "line": 14.5,
-      "market_p_over": 0.615,
+      "market_p_over": 0.62,
       "teleios_p_over": 0.5219
      },
      "pts": {
@@ -18817,7 +18829,7 @@
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.545,
+      "market_p_over": 0.535,
       "teleios_p_over": 0.4382
      }
     },
@@ -18940,7 +18952,7 @@
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.39,
+      "market_p_over": 0.395,
       "teleios_p_over": 0.3183
      }
     },
@@ -19043,7 +19055,7 @@
     "market": {
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.285,
+      "market_p_over": 0.29,
       "teleios_p_over": 0.2162
      },
      "reb": {
@@ -19267,7 +19279,7 @@
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.375,
+      "market_p_over": 0.365,
       "teleios_p_over": 0.3365
      }
     },
@@ -19370,7 +19382,7 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.645,
+      "market_p_over": 0.65,
       "teleios_p_over": 0.5595
      },
      "pra": {
@@ -19380,7 +19392,7 @@
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.52,
+      "market_p_over": 0.515,
       "teleios_p_over": 0.5637
      },
      "reb": {
@@ -21017,7 +21029,7 @@
  "401910043": {
   "away": "LAC",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 22:44 UTC",
+  "frozen_at": "2026-11-23 22:51 UTC",
   "game_id": 401910043,
   "home": "HOU",
   "locked": false,
@@ -21277,7 +21289,7 @@
      },
      "pra": {
       "line": 24.5,
-      "market_p_over": 0.525,
+      "market_p_over": 0.52,
       "teleios_p_over": 0.4158
      },
      "pts": {
@@ -21528,7 +21540,7 @@
      },
      "pts": {
       "line": 19.5,
-      "market_p_over": 0.58,
+      "market_p_over": 0.575,
       "teleios_p_over": 0.3918
      },
      "reb": {
@@ -21651,7 +21663,7 @@
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.415,
+      "market_p_over": 0.405,
       "teleios_p_over": 0.3593
      },
      "reb": {
@@ -21882,12 +21894,12 @@
     "market": {
      "fg3m": {
       "line": 0.5,
-      "market_p_over": 0.625,
+      "market_p_over": 0.62,
       "teleios_p_over": 0.5475
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.365,
+      "market_p_over": 0.355,
       "teleios_p_over": 0.4453
      },
      "reb": {
@@ -21995,7 +22007,7 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.305,
+      "market_p_over": 0.295,
       "teleios_p_over": 0.2809
      },
      "fg3m": {
@@ -22118,12 +22130,12 @@
     "market": {
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.445,
+      "market_p_over": 0.43,
       "teleios_p_over": 0.3763
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.645,
+      "market_p_over": 0.62,
       "teleios_p_over": 0.699
      },
      "reb": {
@@ -24531,7 +24543,7 @@
  "401910044": {
   "away": "UTA",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 22:44 UTC",
+  "frozen_at": "2026-11-23 22:51 UTC",
   "game_id": 401910044,
   "home": "LAL",
   "locked": false,
@@ -24540,12 +24552,12 @@
     "market": {
      "ast": {
       "line": 7.5,
-      "market_p_over": 0.56,
+      "market_p_over": 0.555,
       "teleios_p_over": 0.4199
      },
      "fg3m": {
       "line": 4.5,
-      "market_p_over": 0.485,
+      "market_p_over": 0.475,
       "teleios_p_over": 0.3719
      },
      "pra": {
@@ -24668,7 +24680,7 @@
      },
      "fg3m": {
       "line": 2.5,
-      "market_p_over": 0.4,
+      "market_p_over": 0.41,
       "teleios_p_over": 0.3668
      },
      "pra": {
@@ -24801,7 +24813,7 @@
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.605,
+      "market_p_over": 0.61,
       "teleios_p_over": 0.4506
      },
      "reb": {
@@ -24914,12 +24926,12 @@
      },
      "pra": {
       "line": 24.5,
-      "market_p_over": 0.595,
+      "market_p_over": 0.59,
       "teleios_p_over": 0.5206
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.435,
+      "market_p_over": 0.44,
       "teleios_p_over": 0.4101
      },
      "reb": {
@@ -25047,7 +25059,7 @@
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.455,
+      "market_p_over": 0.45,
       "teleios_p_over": 0.4118
      }
     },
@@ -25605,7 +25617,7 @@
     "market": {
      "fg3m": {
       "line": 0.5,
-      "market_p_over": 0.42,
+      "market_p_over": 0.41,
       "teleios_p_over": 0.3164
      },
      "pts": {
@@ -25718,7 +25730,7 @@
     "market": {
      "fg3m": {
       "line": 0.5,
-      "market_p_over": 0.665,
+      "market_p_over": 0.66,
       "teleios_p_over": 0.5079
      },
      "pra": {
@@ -25728,12 +25740,12 @@
      },
      "pts": {
       "line": 4.5,
-      "market_p_over": 0.585,
+      "market_p_over": 0.545,
       "teleios_p_over": 0.5709
      },
      "reb": {
       "line": 1.5,
-      "market_p_over": 0.65,
+      "market_p_over": 0.645,
       "teleios_p_over": 0.5426
      }
     },
@@ -25949,12 +25961,12 @@
      },
      "pra": {
       "line": 14.5,
-      "market_p_over": 0.58,
+      "market_p_over": 0.59,
       "teleios_p_over": 0.5472
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.465,
+      "market_p_over": 0.455,
       "teleios_p_over": 0.491
      },
      "reb": {
@@ -26072,7 +26084,7 @@
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.6,
+      "market_p_over": 0.585,
       "teleios_p_over": 0.7138
      },
      "reb": {
@@ -27631,7 +27643,7 @@
  "401910045": {
   "away": "SAS",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 22:44 UTC",
+  "frozen_at": "2026-11-23 22:51 UTC",
   "game_id": 401910045,
   "home": "SAC",
   "locked": false,
@@ -27655,7 +27667,7 @@
      },
      "pts": {
       "line": 24.5,
-      "market_p_over": 0.435,
+      "market_p_over": 0.425,
       "teleios_p_over": 0.2825
      },
      "reb": {
@@ -27896,12 +27908,12 @@
      },
      "pra": {
       "line": 44.5,
-      "market_p_over": 0.51,
+      "market_p_over": 0.505,
       "teleios_p_over": 0.4412
      },
      "pts": {
       "line": 29.5,
-      "market_p_over": 0.505,
+      "market_p_over": 0.495,
       "teleios_p_over": 0.448
      },
      "reb": {
@@ -28014,7 +28026,7 @@
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.595,
+      "market_p_over": 0.59,
       "teleios_p_over": 0.4206
      },
      "pra": {
@@ -28029,7 +28041,7 @@
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.44,
+      "market_p_over": 0.45,
       "teleios_p_over": 0.3616
      }
     },
@@ -28521,7 +28533,7 @@
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.475,
+      "market_p_over": 0.48,
       "teleios_p_over": 0.4324
      }
     },
@@ -28639,7 +28651,7 @@
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.44,
+      "market_p_over": 0.445,
       "teleios_p_over": 0.2929
      },
      "reb": {
