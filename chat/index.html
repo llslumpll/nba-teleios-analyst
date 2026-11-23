@@ -212,6 +212,8 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const pct = x => x == null ? "–" : Math.round(x * 100) + "%";
 let D = null, sample = null, history = [], busy = false;
+const CLAUDE_URL = "https://claude.ai/artifact/VRcgET2mk2sGsofMeD21qc";
+const ON_GITHUB = /github\.io$/.test(location.hostname);
 
 const etDate = (d = new Date()) => new Intl.DateTimeFormat("en-CA", {timeZone: "America/New_York"}).format(d);
 const tipET = s => { try { return new Date(s.replace(" ", "T").replace(/\+00:00$/, "Z")).toLocaleTimeString("en-US", {timeZone: "America/Chicago", hour: "numeric", minute: "2-digit"}); } catch { return ""; } };
@@ -596,13 +598,15 @@ $("#q").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey)
 $("#form").addEventListener("submit", e => { e.preventDefault(); ask($("#q").value); });
 $("#clear").addEventListener("click", () => { history = []; save(); $("#log").querySelectorAll(".msg").forEach(m => m.remove()); });
 document.addEventListener("click", e => { const gb = e.target.closest("[data-game]"); if (gb) { GS = gb.dataset.game; if (location.hash === "#game") renderGame(); else location.hash = "game"; return; }
-  const c = e.target.closest("[data-q]"); if (!c) return; if (location.hash !== "#chat") location.hash = "chat"; showView(); ask(c.dataset.q); });
+  const c = e.target.closest("[data-q]"); if (!c) return;
+  if (ON_GITHUB) { window.open(CLAUDE_URL + "#chat", "_blank", "noopener"); return; } if (location.hash !== "#chat") location.hash = "chat"; showView(); ask(c.dataset.q); });
 
 async function boot() {
   try { D = await (await fetch("data.json", {cache: "no-store"})).json(); }
   catch (e) { $("#status").textContent = "Couldn't load Teleios's data."; $("#boardBody").innerHTML = '<p class="sub">Couldn\'t load Teleios\'s data.</p>'; return; }
   $("#status").innerHTML = `Data built <b>${esc(D.built)}</b> · ${D.results.rows.length} games this season`;
   const s = slateHTML(); $("#slateBody").innerHTML = s; $("#slateMBody").innerHTML = s; $("#score").innerHTML = scoreHTML();
+  if (ON_GITHUB) { const t = $("#tChat"); t.href = CLAUDE_URL + "#chat"; t.target = "_blank"; t.rel = "noopener"; t.textContent = "Chat ↗"; }
   $("#boardBody").innerHTML = boardHTML() + `<p class="small"><a href="#players">See every player projection →</a></p>`; showView();
   $("#chips").innerHTML = CHIPS.map(c => `<button class="chip" type="button" data-q="${esc(c)}">${esc(c)}</button>`).join("");
   try { const h = JSON.parse(localStorage.getItem("teleios-chat") || "[]"); if (Array.isArray(h) && h.length) { history = h; h.forEach(m => addMsg(m.role === "user" ? "you" : "bot", md(m.content))); } } catch {}

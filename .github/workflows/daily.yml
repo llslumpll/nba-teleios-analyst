@@ -18,6 +18,8 @@ concurrency:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   run:
@@ -44,3 +46,25 @@ jobs:
             sleep $((i * 10))
           done
           exit 1
+      - name: Build website (llslumpll.github.io/nba-teleios-analyst)
+        if: always()
+        run: |
+          python -m teleios.bundle
+          mkdir -p site
+          cp chat/index.html chat/data.json site/
+          touch site/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        if: always()
+        with:
+          path: site
+
+  deploy:
+    needs: run
+    if: always() && needs.run.result != 'cancelled'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
