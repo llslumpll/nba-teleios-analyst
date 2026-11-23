@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 21:38 UTC",
+ "updated": "2026-11-23 21:51 UTC",
  "season": "2026-27",
  "league": {
   "fga": 43802,
@@ -869,13 +869,13 @@
       "share": 0.117,
       "fg_pct": 0.469
      },
-     "dunk": {
-      "share": 0.046,
-      "fg_pct": 0.947
-     },
      "fadeaway": {
       "share": 0.046,
       "fg_pct": 0.395
+     },
+     "dunk": {
+      "share": 0.046,
+      "fg_pct": 0.947
      },
      "stepback": {
       "share": 0.04,
@@ -1421,13 +1421,13 @@
       "share": 0.067,
       "fg_pct": 0.825
      },
-     "tip": {
-      "share": 0.065,
-      "fg_pct": 0.597
-     },
      "stepback": {
       "share": 0.065,
       "fg_pct": 0.355
+     },
+     "tip": {
+      "share": 0.065,
+      "fg_pct": 0.597
      },
      "fadeaway": {
       "share": 0.054,
@@ -3203,13 +3203,13 @@
       "share": 0.058,
       "fg_pct": 0.82
      },
-     "stepback": {
-      "share": 0.049,
-      "fg_pct": 0.238
-     },
      "fadeaway": {
       "share": 0.049,
       "fg_pct": 0.548
+     },
+     "stepback": {
+      "share": 0.049,
+      "fg_pct": 0.238
      },
      "tip": {
       "share": 0.03,
@@ -3343,13 +3343,13 @@
       "share": 0.05,
       "fg_pct": 0.444
      },
-     "dunk": {
-      "share": 0.041,
-      "fg_pct": 0.919
-     },
      "tip": {
       "share": 0.041,
       "fg_pct": 0.459
+     },
+     "dunk": {
+      "share": 0.041,
+      "fg_pct": 0.919
      },
      "hook": {
       "share": 0.014,
@@ -4029,13 +4029,13 @@
       "share": 0.049,
       "fg_pct": 0.86
      },
-     "stepback": {
-      "share": 0.047,
-      "fg_pct": 0.463
-     },
      "tip": {
       "share": 0.047,
       "fg_pct": 0.659
+     },
+     "stepback": {
+      "share": 0.047,
+      "fg_pct": 0.463
      },
      "hook": {
       "share": 0.034,
@@ -6353,13 +6353,13 @@
       "share": 0.067,
       "fg_pct": 0.881
      },
-     "stepback": {
-      "share": 0.043,
-      "fg_pct": 0.447
-     },
      "tip": {
       "share": 0.043,
       "fg_pct": 0.605
+     },
+     "stepback": {
+      "share": 0.043,
+      "fg_pct": 0.447
      },
      "fadeaway": {
       "share": 0.036,
@@ -7449,13 +7449,13 @@
       "share": 0.058,
       "fg_pct": 0.808
      },
-     "stepback": {
-      "share": 0.052,
-      "fg_pct": 0.298
-     },
      "tip": {
       "share": 0.052,
       "fg_pct": 0.638
+     },
+     "stepback": {
+      "share": 0.052,
+      "fg_pct": 0.298
      },
      "fadeaway": {
       "share": 0.049,
@@ -9510,11 +9510,11 @@
      "share": 0.088,
      "fg_pct": 0.478
     },
-    "fadeaway": {
+    "dunk": {
      "share": 0.023,
      "fg_pct": 0.5
     },
-    "dunk": {
+    "fadeaway": {
      "share": 0.023,
      "fg_pct": 0.5
     },
@@ -9630,13 +9630,13 @@
      "share": 0.307,
      "fg_pct": 0.595
     },
-    "jumper": {
-     "share": 0.206,
-     "fg_pct": 0.415
-    },
     "pullup": {
      "share": 0.206,
      "fg_pct": 0.396
+    },
+    "jumper": {
+     "share": 0.206,
+     "fg_pct": 0.415
     },
     "stepback": {
      "share": 0.191,
@@ -10554,66 +10554,6 @@
   },
   {
    "fga": 228,
-   "pts_per_shot": 0.886,
-   "xpts_per_shot": 0.958,
-   "shot_making": -0.072,
-   "assisted_share": 0.366,
-   "zones": {
-    "rim": {
-     "share": 0.088,
-     "fg_pct": 0.7,
-     "fga": 20
-    },
-    "paint": {
-     "share": 0.246,
-     "fg_pct": 0.375,
-     "fga": 56
-    },
-    "mid": {
-     "share": 0.14,
-     "fg_pct": 0.281,
-     "fga": 32
-    },
-    "corner3": {
-     "share": 0.101,
-     "fg_pct": 0.348,
-     "fga": 23
-    },
-    "arc3": {
-     "share": 0.425,
-     "fg_pct": 0.309,
-     "fga": 97
-    }
-   },
-   "shot_types": {
-    "layup": {
-     "share": 0.368,
-     "fg_pct": 0.464
-    },
-    "pullup": {
-     "share": 0.294,
-     "fg_pct": 0.299
-    },
-    "jumper": {
-     "share": 0.167,
-     "fg_pct": 0.263
-    },
-    "stepback": {
-     "share": 0.14,
-     "fg_pct": 0.344
-    },
-    "fadeaway": {
-     "share": 0.031,
-     "fg_pct": 0.286
-    }
-   },
-   "pid": 4277905,
-   "player": "Trae Young",
-   "team": "WAS",
-   "games": 18
-  },
-  {
-   "fga": 228,
    "pts_per_shot": 1.031,
    "xpts_per_shot": 1.018,
    "shot_making": 0.013,
@@ -10670,18 +10610,78 @@
      "share": 0.035,
      "fg_pct": 0.5
     },
-    "hook": {
-     "share": 0.026,
-     "fg_pct": 0.333
-    },
     "dunk": {
      "share": 0.026,
      "fg_pct": 0.833
+    },
+    "hook": {
+     "share": 0.026,
+     "fg_pct": 0.333
     }
    },
    "pid": 4397136,
    "player": "Saddiq Bey",
    "team": "NOP",
+   "games": 18
+  },
+  {
+   "fga": 228,
+   "pts_per_shot": 0.886,
+   "xpts_per_shot": 0.958,
+   "shot_making": -0.072,
+   "assisted_share": 0.366,
+   "zones": {
+    "rim": {
+     "share": 0.088,
+     "fg_pct": 0.7,
+     "fga": 20
+    },
+    "paint": {
+     "share": 0.246,
+     "fg_pct": 0.375,
+     "fga": 56
+    },
+    "mid": {
+     "share": 0.14,
+     "fg_pct": 0.281,
+     "fga": 32
+    },
+    "corner3": {
+     "share": 0.101,
+     "fg_pct": 0.348,
+     "fga": 23
+    },
+    "arc3": {
+     "share": 0.425,
+     "fg_pct": 0.309,
+     "fga": 97
+    }
+   },
+   "shot_types": {
+    "layup": {
+     "share": 0.368,
+     "fg_pct": 0.464
+    },
+    "pullup": {
+     "share": 0.294,
+     "fg_pct": 0.299
+    },
+    "jumper": {
+     "share": 0.167,
+     "fg_pct": 0.263
+    },
+    "stepback": {
+     "share": 0.14,
+     "fg_pct": 0.344
+    },
+    "fadeaway": {
+     "share": 0.031,
+     "fg_pct": 0.286
+    }
+   },
+   "pid": 4277905,
+   "player": "Trae Young",
+   "team": "WAS",
    "games": 18
   },
   {
@@ -11194,13 +11194,13 @@
      "share": 0.05,
      "fg_pct": 0.636
     },
-    "stepback": {
-     "share": 0.032,
-     "fg_pct": 0.286
-    },
     "hook": {
      "share": 0.032,
      "fg_pct": 0.571
+    },
+    "stepback": {
+     "share": 0.032,
+     "fg_pct": 0.286
     },
     "dunk": {
      "share": 0.023,
@@ -11406,70 +11406,6 @@
   },
   {
    "fga": 213,
-   "pts_per_shot": 1.023,
-   "xpts_per_shot": 1.078,
-   "shot_making": -0.055,
-   "assisted_share": 0.779,
-   "zones": {
-    "rim": {
-     "share": 0.202,
-     "fg_pct": 0.698,
-     "fga": 43
-    },
-    "paint": {
-     "share": 0.207,
-     "fg_pct": 0.636,
-     "fga": 44
-    },
-    "mid": {
-     "share": 0.094,
-     "fg_pct": 0.45,
-     "fga": 20
-    },
-    "corner3": {
-     "share": 0.268,
-     "fg_pct": 0.298,
-     "fga": 57
-    },
-    "arc3": {
-     "share": 0.23,
-     "fg_pct": 0.224,
-     "fga": 49
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.479,
-     "fg_pct": 0.265
-    },
-    "pullup": {
-     "share": 0.183,
-     "fg_pct": 0.462
-    },
-    "layup": {
-     "share": 0.127,
-     "fg_pct": 0.556
-    },
-    "tip": {
-     "share": 0.08,
-     "fg_pct": 0.647
-    },
-    "dunk": {
-     "share": 0.075,
-     "fg_pct": 1.0
-    },
-    "fadeaway": {
-     "share": 0.042,
-     "fg_pct": 0.556
-    }
-   },
-   "pid": 4873138,
-   "player": "Ace Bailey",
-   "team": "UTA",
-   "games": 18
-  },
-  {
-   "fga": 213,
    "pts_per_shot": 1.085,
    "xpts_per_shot": 1.069,
    "shot_making": 0.016,
@@ -11535,6 +11471,70 @@
    "player": "Dylan Harper",
    "team": "SAS",
    "games": 15
+  },
+  {
+   "fga": 213,
+   "pts_per_shot": 1.023,
+   "xpts_per_shot": 1.078,
+   "shot_making": -0.055,
+   "assisted_share": 0.779,
+   "zones": {
+    "rim": {
+     "share": 0.202,
+     "fg_pct": 0.698,
+     "fga": 43
+    },
+    "paint": {
+     "share": 0.207,
+     "fg_pct": 0.636,
+     "fga": 44
+    },
+    "mid": {
+     "share": 0.094,
+     "fg_pct": 0.45,
+     "fga": 20
+    },
+    "corner3": {
+     "share": 0.268,
+     "fg_pct": 0.298,
+     "fga": 57
+    },
+    "arc3": {
+     "share": 0.23,
+     "fg_pct": 0.224,
+     "fga": 49
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.479,
+     "fg_pct": 0.265
+    },
+    "pullup": {
+     "share": 0.183,
+     "fg_pct": 0.462
+    },
+    "layup": {
+     "share": 0.127,
+     "fg_pct": 0.556
+    },
+    "tip": {
+     "share": 0.08,
+     "fg_pct": 0.647
+    },
+    "dunk": {
+     "share": 0.075,
+     "fg_pct": 1.0
+    },
+    "fadeaway": {
+     "share": 0.042,
+     "fg_pct": 0.556
+    }
+   },
+   "pid": 4873138,
+   "player": "Ace Bailey",
+   "team": "UTA",
+   "games": 18
   },
   {
    "fga": 213,
@@ -11670,6 +11670,62 @@
   },
   {
    "fga": 210,
+   "pts_per_shot": 1.024,
+   "xpts_per_shot": 1.024,
+   "shot_making": 0.0,
+   "assisted_share": 0.376,
+   "zones": {
+    "rim": {
+     "share": 0.305,
+     "fg_pct": 0.578,
+     "fga": 64
+    },
+    "paint": {
+     "share": 0.376,
+     "fg_pct": 0.519,
+     "fga": 79
+    },
+    "mid": {
+     "share": 0.095,
+     "fg_pct": 0.5,
+     "fga": 20
+    },
+    "corner3": {
+     "share": 0.052,
+     "fg_pct": 0.364,
+     "fga": 11
+    },
+    "arc3": {
+     "share": 0.171,
+     "fg_pct": 0.25,
+     "fga": 36
+    }
+   },
+   "shot_types": {
+    "layup": {
+     "share": 0.576,
+     "fg_pct": 0.529
+    },
+    "jumper": {
+     "share": 0.186,
+     "fg_pct": 0.282
+    },
+    "pullup": {
+     "share": 0.176,
+     "fg_pct": 0.541
+    },
+    "fadeaway": {
+     "share": 0.029,
+     "fg_pct": 0.667
+    }
+   },
+   "pid": 4900671,
+   "player": "Ajay Mitchell",
+   "team": "OKC",
+   "games": 15
+  },
+  {
+   "fga": 210,
    "pts_per_shot": 1.019,
    "xpts_per_shot": 1.046,
    "shot_making": -0.027,
@@ -11729,62 +11785,6 @@
    "games": 17
   },
   {
-   "fga": 210,
-   "pts_per_shot": 1.024,
-   "xpts_per_shot": 1.024,
-   "shot_making": 0.0,
-   "assisted_share": 0.376,
-   "zones": {
-    "rim": {
-     "share": 0.305,
-     "fg_pct": 0.578,
-     "fga": 64
-    },
-    "paint": {
-     "share": 0.376,
-     "fg_pct": 0.519,
-     "fga": 79
-    },
-    "mid": {
-     "share": 0.095,
-     "fg_pct": 0.5,
-     "fga": 20
-    },
-    "corner3": {
-     "share": 0.052,
-     "fg_pct": 0.364,
-     "fga": 11
-    },
-    "arc3": {
-     "share": 0.171,
-     "fg_pct": 0.25,
-     "fga": 36
-    }
-   },
-   "shot_types": {
-    "layup": {
-     "share": 0.576,
-     "fg_pct": 0.529
-    },
-    "jumper": {
-     "share": 0.186,
-     "fg_pct": 0.282
-    },
-    "pullup": {
-     "share": 0.176,
-     "fg_pct": 0.541
-    },
-    "fadeaway": {
-     "share": 0.029,
-     "fg_pct": 0.667
-    }
-   },
-   "pid": 4900671,
-   "player": "Ajay Mitchell",
-   "team": "OKC",
-   "games": 15
-  },
-  {
    "fga": 209,
    "pts_per_shot": 1.187,
    "xpts_per_shot": 1.02,
@@ -11818,17 +11818,17 @@
     }
    },
    "shot_types": {
-    "layup": {
+    "jumper": {
      "share": 0.23,
-     "fg_pct": 0.646
+     "fg_pct": 0.375
     },
     "pullup": {
      "share": 0.23,
      "fg_pct": 0.479
     },
-    "jumper": {
+    "layup": {
      "share": 0.23,
-     "fg_pct": 0.375
+     "fg_pct": 0.646
     },
     "stepback": {
      "share": 0.172,
@@ -11847,66 +11847,6 @@
    "player": "Zach LaVine",
    "team": "SAC",
    "games": 15
-  },
-  {
-   "fga": 206,
-   "pts_per_shot": 1.039,
-   "xpts_per_shot": 1.027,
-   "shot_making": 0.012,
-   "assisted_share": 0.381,
-   "zones": {
-    "rim": {
-     "share": 0.18,
-     "fg_pct": 0.459,
-     "fga": 37
-    },
-    "paint": {
-     "share": 0.214,
-     "fg_pct": 0.386,
-     "fga": 44
-    },
-    "mid": {
-     "share": 0.044,
-     "fg_pct": 0.444,
-     "fga": 9
-    },
-    "corner3": {
-     "share": 0.141,
-     "fg_pct": 0.517,
-     "fga": 29
-    },
-    "arc3": {
-     "share": 0.422,
-     "fg_pct": 0.356,
-     "fga": 87
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.306,
-     "fg_pct": 0.333
-    },
-    "layup": {
-     "share": 0.301,
-     "fg_pct": 0.452
-    },
-    "stepback": {
-     "share": 0.18,
-     "fg_pct": 0.568
-    },
-    "pullup": {
-     "share": 0.175,
-     "fg_pct": 0.361
-    },
-    "fadeaway": {
-     "share": 0.029,
-     "fg_pct": 0.0
-    }
-   },
-   "pid": 3992,
-   "player": "James Harden",
-   "team": "CLE",
-   "games": 16
   },
   {
    "fga": 206,
@@ -11971,6 +11911,66 @@
    "player": "Michael Porter Jr.",
    "team": "BKN",
    "games": 14
+  },
+  {
+   "fga": 206,
+   "pts_per_shot": 1.039,
+   "xpts_per_shot": 1.027,
+   "shot_making": 0.012,
+   "assisted_share": 0.381,
+   "zones": {
+    "rim": {
+     "share": 0.18,
+     "fg_pct": 0.459,
+     "fga": 37
+    },
+    "paint": {
+     "share": 0.214,
+     "fg_pct": 0.386,
+     "fga": 44
+    },
+    "mid": {
+     "share": 0.044,
+     "fg_pct": 0.444,
+     "fga": 9
+    },
+    "corner3": {
+     "share": 0.141,
+     "fg_pct": 0.517,
+     "fga": 29
+    },
+    "arc3": {
+     "share": 0.422,
+     "fg_pct": 0.356,
+     "fga": 87
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.306,
+     "fg_pct": 0.333
+    },
+    "layup": {
+     "share": 0.301,
+     "fg_pct": 0.452
+    },
+    "stepback": {
+     "share": 0.18,
+     "fg_pct": 0.568
+    },
+    "pullup": {
+     "share": 0.175,
+     "fg_pct": 0.361
+    },
+    "fadeaway": {
+     "share": 0.029,
+     "fg_pct": 0.0
+    }
+   },
+   "pid": 3992,
+   "player": "James Harden",
+   "team": "CLE",
+   "games": 16
   },
   {
    "fga": 201,
@@ -12754,13 +12754,13 @@
      "share": 0.303,
      "fg_pct": 0.491
     },
-    "layup": {
-     "share": 0.202,
-     "fg_pct": 0.5
-    },
     "fadeaway": {
      "share": 0.202,
      "fg_pct": 0.474
+    },
+    "layup": {
+     "share": 0.202,
+     "fg_pct": 0.5
     },
     "pullup": {
      "share": 0.149,
@@ -13598,70 +13598,6 @@
   },
   {
    "fga": 165,
-   "pts_per_shot": 1.267,
-   "xpts_per_shot": 1.032,
-   "shot_making": 0.235,
-   "assisted_share": 0.703,
-   "zones": {
-    "rim": {
-     "share": 0.218,
-     "fg_pct": 0.833,
-     "fga": 36
-    },
-    "paint": {
-     "share": 0.315,
-     "fg_pct": 0.538,
-     "fga": 52
-    },
-    "mid": {
-     "share": 0.079,
-     "fg_pct": 0.462,
-     "fga": 13
-    },
-    "corner3": {
-     "share": 0.055,
-     "fg_pct": 0.444,
-     "fga": 9
-    },
-    "arc3": {
-     "share": 0.333,
-     "fg_pct": 0.418,
-     "fga": 55
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.4,
-     "fg_pct": 0.439
-    },
-    "layup": {
-     "share": 0.267,
-     "fg_pct": 0.705
-    },
-    "fadeaway": {
-     "share": 0.115,
-     "fg_pct": 0.526
-    },
-    "hook": {
-     "share": 0.091,
-     "fg_pct": 0.533
-    },
-    "tip": {
-     "share": 0.067,
-     "fg_pct": 0.545
-    },
-    "dunk": {
-     "share": 0.036,
-     "fg_pct": 0.833
-    }
-   },
-   "pid": 3448,
-   "player": "Brook Lopez",
-   "team": "LAC",
-   "games": 15
-  },
-  {
-   "fga": 165,
    "pts_per_shot": 1.042,
    "xpts_per_shot": 1.062,
    "shot_making": -0.02,
@@ -13722,6 +13658,70 @@
    "pid": 4278078,
    "player": "P.J. Washington",
    "team": "DAL",
+   "games": 15
+  },
+  {
+   "fga": 165,
+   "pts_per_shot": 1.267,
+   "xpts_per_shot": 1.032,
+   "shot_making": 0.235,
+   "assisted_share": 0.703,
+   "zones": {
+    "rim": {
+     "share": 0.218,
+     "fg_pct": 0.833,
+     "fga": 36
+    },
+    "paint": {
+     "share": 0.315,
+     "fg_pct": 0.538,
+     "fga": 52
+    },
+    "mid": {
+     "share": 0.079,
+     "fg_pct": 0.462,
+     "fga": 13
+    },
+    "corner3": {
+     "share": 0.055,
+     "fg_pct": 0.444,
+     "fga": 9
+    },
+    "arc3": {
+     "share": 0.333,
+     "fg_pct": 0.418,
+     "fga": 55
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.4,
+     "fg_pct": 0.439
+    },
+    "layup": {
+     "share": 0.267,
+     "fg_pct": 0.705
+    },
+    "fadeaway": {
+     "share": 0.115,
+     "fg_pct": 0.526
+    },
+    "hook": {
+     "share": 0.091,
+     "fg_pct": 0.533
+    },
+    "tip": {
+     "share": 0.067,
+     "fg_pct": 0.545
+    },
+    "dunk": {
+     "share": 0.036,
+     "fg_pct": 0.833
+    }
+   },
+   "pid": 3448,
+   "player": "Brook Lopez",
+   "team": "LAC",
    "games": 15
   },
   {
@@ -13850,74 +13850,6 @@
   },
   {
    "fga": 163,
-   "pts_per_shot": 0.975,
-   "xpts_per_shot": 1.114,
-   "shot_making": -0.139,
-   "assisted_share": 0.618,
-   "zones": {
-    "rim": {
-     "share": 0.288,
-     "fg_pct": 0.681,
-     "fga": 47
-    },
-    "paint": {
-     "share": 0.172,
-     "fg_pct": 0.286,
-     "fga": 28
-    },
-    "mid": {
-     "share": 0.098,
-     "fg_pct": 0.312,
-     "fga": 16
-    },
-    "corner3": {
-     "share": 0.135,
-     "fg_pct": 0.273,
-     "fga": 22
-    },
-    "arc3": {
-     "share": 0.307,
-     "fg_pct": 0.34,
-     "fga": 50
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.362,
-     "fg_pct": 0.305
-    },
-    "layup": {
-     "share": 0.19,
-     "fg_pct": 0.419
-    },
-    "pullup": {
-     "share": 0.129,
-     "fg_pct": 0.381
-    },
-    "dunk": {
-     "share": 0.123,
-     "fg_pct": 0.9
-    },
-    "fadeaway": {
-     "share": 0.11,
-     "fg_pct": 0.222
-    },
-    "tip": {
-     "share": 0.049,
-     "fg_pct": 0.625
-    },
-    "stepback": {
-     "share": 0.031,
-     "fg_pct": 0.4
-    }
-   },
-   "pid": 5095151,
-   "player": "Caleb Wilson",
-   "team": "CHI",
-   "games": 10
-  },
-  {
-   "fga": 163,
    "pts_per_shot": 1.043,
    "xpts_per_shot": 0.978,
    "shot_making": 0.065,
@@ -14026,19 +13958,87 @@
      "share": 0.049,
      "fg_pct": 0.75
     },
-    "tip": {
-     "share": 0.037,
-     "fg_pct": 0.833
-    },
     "stepback": {
      "share": 0.037,
      "fg_pct": 0.5
+    },
+    "tip": {
+     "share": 0.037,
+     "fg_pct": 0.833
     }
    },
    "pid": 4684272,
    "player": "Ja'Kobe Walter",
    "team": "TOR",
    "games": 16
+  },
+  {
+   "fga": 163,
+   "pts_per_shot": 0.975,
+   "xpts_per_shot": 1.114,
+   "shot_making": -0.139,
+   "assisted_share": 0.618,
+   "zones": {
+    "rim": {
+     "share": 0.288,
+     "fg_pct": 0.681,
+     "fga": 47
+    },
+    "paint": {
+     "share": 0.172,
+     "fg_pct": 0.286,
+     "fga": 28
+    },
+    "mid": {
+     "share": 0.098,
+     "fg_pct": 0.312,
+     "fga": 16
+    },
+    "corner3": {
+     "share": 0.135,
+     "fg_pct": 0.273,
+     "fga": 22
+    },
+    "arc3": {
+     "share": 0.307,
+     "fg_pct": 0.34,
+     "fga": 50
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.362,
+     "fg_pct": 0.305
+    },
+    "layup": {
+     "share": 0.19,
+     "fg_pct": 0.419
+    },
+    "pullup": {
+     "share": 0.129,
+     "fg_pct": 0.381
+    },
+    "dunk": {
+     "share": 0.123,
+     "fg_pct": 0.9
+    },
+    "fadeaway": {
+     "share": 0.11,
+     "fg_pct": 0.222
+    },
+    "tip": {
+     "share": 0.049,
+     "fg_pct": 0.625
+    },
+    "stepback": {
+     "share": 0.031,
+     "fg_pct": 0.4
+    }
+   },
+   "pid": 5095151,
+   "player": "Caleb Wilson",
+   "team": "CHI",
+   "games": 10
   },
   {
    "fga": 162,
@@ -14326,13 +14326,13 @@
      "share": 0.297,
      "fg_pct": 0.511
     },
-    "pullup": {
-     "share": 0.146,
-     "fg_pct": 0.391
-    },
     "stepback": {
      "share": 0.146,
      "fg_pct": 0.435
+    },
+    "pullup": {
+     "share": 0.146,
+     "fg_pct": 0.391
     },
     "fadeaway": {
      "share": 0.044,
@@ -14574,13 +14574,13 @@
      "share": 0.052,
      "fg_pct": 0.25
     },
-    "dunk": {
-     "share": 0.039,
-     "fg_pct": 1.0
-    },
     "tip": {
      "share": 0.039,
      "fg_pct": 0.667
+    },
+    "dunk": {
+     "share": 0.039,
+     "fg_pct": 1.0
     },
     "hook": {
      "share": 0.032,
@@ -14638,13 +14638,13 @@
      "share": 0.143,
      "fg_pct": 0.364
     },
-    "fadeaway": {
-     "share": 0.052,
-     "fg_pct": 0.75
-    },
     "stepback": {
      "share": 0.052,
      "fg_pct": 0.625
+    },
+    "fadeaway": {
+     "share": 0.052,
+     "fg_pct": 0.75
     },
     "dunk": {
      "share": 0.045,
@@ -14758,13 +14758,13 @@
      "share": 0.163,
      "fg_pct": 0.48
     },
-    "tip": {
-     "share": 0.105,
-     "fg_pct": 0.688
-    },
     "fadeaway": {
      "share": 0.105,
      "fg_pct": 0.312
+    },
+    "tip": {
+     "share": 0.105,
+     "fg_pct": 0.688
     },
     "hook": {
      "share": 0.065,
@@ -14850,66 +14850,6 @@
   },
   {
    "fga": 151,
-   "pts_per_shot": 0.94,
-   "xpts_per_shot": 1.056,
-   "shot_making": -0.116,
-   "assisted_share": 0.45,
-   "zones": {
-    "rim": {
-     "share": 0.252,
-     "fg_pct": 0.579,
-     "fga": 38
-    },
-    "paint": {
-     "share": 0.205,
-     "fg_pct": 0.355,
-     "fga": 31
-    },
-    "mid": {
-     "share": 0.099,
-     "fg_pct": 0.333,
-     "fga": 15
-    },
-    "corner3": {
-     "share": 0.166,
-     "fg_pct": 0.24,
-     "fga": 25
-    },
-    "arc3": {
-     "share": 0.278,
-     "fg_pct": 0.381,
-     "fga": 42
-    }
-   },
-   "shot_types": {
-    "layup": {
-     "share": 0.331,
-     "fg_pct": 0.4
-    },
-    "jumper": {
-     "share": 0.258,
-     "fg_pct": 0.333
-    },
-    "stepback": {
-     "share": 0.179,
-     "fg_pct": 0.37
-    },
-    "pullup": {
-     "share": 0.152,
-     "fg_pct": 0.435
-    },
-    "fadeaway": {
-     "share": 0.04,
-     "fg_pct": 0.333
-    }
-   },
-   "pid": 4591725,
-   "player": "Ryan Rollins",
-   "team": "MIL",
-   "games": 15
-  },
-  {
-   "fga": 151,
    "pts_per_shot": 1.02,
    "xpts_per_shot": 1.048,
    "shot_making": -0.028,
@@ -14971,6 +14911,66 @@
    "player": "Brayden Burries",
    "team": "MIL",
    "games": 17
+  },
+  {
+   "fga": 151,
+   "pts_per_shot": 0.94,
+   "xpts_per_shot": 1.056,
+   "shot_making": -0.116,
+   "assisted_share": 0.45,
+   "zones": {
+    "rim": {
+     "share": 0.252,
+     "fg_pct": 0.579,
+     "fga": 38
+    },
+    "paint": {
+     "share": 0.205,
+     "fg_pct": 0.355,
+     "fga": 31
+    },
+    "mid": {
+     "share": 0.099,
+     "fg_pct": 0.333,
+     "fga": 15
+    },
+    "corner3": {
+     "share": 0.166,
+     "fg_pct": 0.24,
+     "fga": 25
+    },
+    "arc3": {
+     "share": 0.278,
+     "fg_pct": 0.381,
+     "fga": 42
+    }
+   },
+   "shot_types": {
+    "layup": {
+     "share": 0.331,
+     "fg_pct": 0.4
+    },
+    "jumper": {
+     "share": 0.258,
+     "fg_pct": 0.333
+    },
+    "stepback": {
+     "share": 0.179,
+     "fg_pct": 0.37
+    },
+    "pullup": {
+     "share": 0.152,
+     "fg_pct": 0.435
+    },
+    "fadeaway": {
+     "share": 0.04,
+     "fg_pct": 0.333
+    }
+   },
+   "pid": 4591725,
+   "player": "Ryan Rollins",
+   "team": "MIL",
+   "games": 15
   },
   {
    "fga": 149,
@@ -15078,13 +15078,13 @@
      "share": 0.134,
      "fg_pct": 0.5
     },
-    "fadeaway": {
-     "share": 0.034,
-     "fg_pct": 0.6
-    },
     "stepback": {
      "share": 0.034,
      "fg_pct": 0.2
+    },
+    "fadeaway": {
+     "share": 0.034,
+     "fg_pct": 0.6
     }
    },
    "pid": 5041951,
@@ -15562,66 +15562,6 @@
   },
   {
    "fga": 139,
-   "pts_per_shot": 1.022,
-   "xpts_per_shot": 1.029,
-   "shot_making": -0.007,
-   "assisted_share": 0.831,
-   "zones": {
-    "rim": {
-     "share": 0.151,
-     "fg_pct": 0.571,
-     "fga": 21
-    },
-    "paint": {
-     "share": 0.273,
-     "fg_pct": 0.579,
-     "fga": 38
-    },
-    "mid": {
-     "share": 0.036,
-     "fg_pct": 0.2,
-     "fga": 5
-    },
-    "corner3": {
-     "share": 0.173,
-     "fg_pct": 0.375,
-     "fga": 24
-    },
-    "arc3": {
-     "share": 0.367,
-     "fg_pct": 0.294,
-     "fga": 51
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.41,
-     "fg_pct": 0.333
-    },
-    "layup": {
-     "share": 0.295,
-     "fg_pct": 0.512
-    },
-    "pullup": {
-     "share": 0.165,
-     "fg_pct": 0.435
-    },
-    "stepback": {
-     "share": 0.072,
-     "fg_pct": 0.5
-    },
-    "fadeaway": {
-     "share": 0.043,
-     "fg_pct": 0.333
-    }
-   },
-   "pid": 4066372,
-   "player": "Kevin Huerter",
-   "team": "DET",
-   "games": 16
-  },
-  {
-   "fga": 139,
    "pts_per_shot": 1.065,
    "xpts_per_shot": 1.121,
    "shot_making": -0.056,
@@ -15679,6 +15619,66 @@
    "player": "Kelly Oubre Jr.",
    "team": "IND",
    "games": 15
+  },
+  {
+   "fga": 139,
+   "pts_per_shot": 1.022,
+   "xpts_per_shot": 1.029,
+   "shot_making": -0.007,
+   "assisted_share": 0.831,
+   "zones": {
+    "rim": {
+     "share": 0.151,
+     "fg_pct": 0.571,
+     "fga": 21
+    },
+    "paint": {
+     "share": 0.273,
+     "fg_pct": 0.579,
+     "fga": 38
+    },
+    "mid": {
+     "share": 0.036,
+     "fg_pct": 0.2,
+     "fga": 5
+    },
+    "corner3": {
+     "share": 0.173,
+     "fg_pct": 0.375,
+     "fga": 24
+    },
+    "arc3": {
+     "share": 0.367,
+     "fg_pct": 0.294,
+     "fga": 51
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.41,
+     "fg_pct": 0.333
+    },
+    "layup": {
+     "share": 0.295,
+     "fg_pct": 0.512
+    },
+    "pullup": {
+     "share": 0.165,
+     "fg_pct": 0.435
+    },
+    "stepback": {
+     "share": 0.072,
+     "fg_pct": 0.5
+    },
+    "fadeaway": {
+     "share": 0.043,
+     "fg_pct": 0.333
+    }
+   },
+   "pid": 4066372,
+   "player": "Kevin Huerter",
+   "team": "DET",
+   "games": 16
   },
   {
    "fga": 138,
@@ -16226,58 +16226,54 @@
   },
   {
    "fga": 136,
-   "pts_per_shot": 1.294,
-   "xpts_per_shot": 1.094,
-   "shot_making": 0.2,
-   "assisted_share": 0.97,
+   "pts_per_shot": 1.228,
+   "xpts_per_shot": 1.07,
+   "shot_making": 0.158,
+   "assisted_share": 0.933,
    "zones": {
     "rim": {
-     "share": 0.206,
-     "fg_pct": 0.643,
-     "fga": 28
+     "share": 0.074,
+     "fg_pct": 1.0,
+     "fga": 10
     },
     "paint": {
-     "share": 0.059,
-     "fg_pct": 0.5,
-     "fga": 8
+     "share": 0.081,
+     "fg_pct": 0.182,
+     "fga": 11
     },
     "mid": {
-     "share": 0.037,
-     "fg_pct": 0.6,
-     "fga": 5
+     "share": 0.007,
+     "fg_pct": 1.0,
+     "fga": 1
     },
     "corner3": {
-     "share": 0.265,
-     "fg_pct": 0.444,
-     "fga": 36
+     "share": 0.353,
+     "fg_pct": 0.521,
+     "fga": 48
     },
     "arc3": {
-     "share": 0.434,
-     "fg_pct": 0.441,
-     "fga": 59
+     "share": 0.485,
+     "fg_pct": 0.333,
+     "fga": 66
     }
    },
    "shot_types": {
     "jumper": {
-     "share": 0.551,
-     "fg_pct": 0.493
+     "share": 0.75,
+     "fg_pct": 0.412
     },
     "layup": {
-     "share": 0.206,
-     "fg_pct": 0.607
+     "share": 0.103,
+     "fg_pct": 0.571
     },
     "pullup": {
-     "share": 0.147,
-     "fg_pct": 0.35
-    },
-    "stepback": {
-     "share": 0.059,
+     "share": 0.088,
      "fg_pct": 0.5
     }
    },
-   "pid": 3914044,
-   "player": "Landry Shamet",
-   "team": "NYK",
+   "pid": 4592479,
+   "player": "Julian Champagnie",
+   "team": "SAS",
    "games": 17
   },
   {
@@ -16350,54 +16346,58 @@
   },
   {
    "fga": 136,
-   "pts_per_shot": 1.228,
-   "xpts_per_shot": 1.07,
-   "shot_making": 0.158,
-   "assisted_share": 0.933,
+   "pts_per_shot": 1.294,
+   "xpts_per_shot": 1.094,
+   "shot_making": 0.2,
+   "assisted_share": 0.97,
    "zones": {
     "rim": {
-     "share": 0.074,
-     "fg_pct": 1.0,
-     "fga": 10
+     "share": 0.206,
+     "fg_pct": 0.643,
+     "fga": 28
     },
     "paint": {
-     "share": 0.081,
-     "fg_pct": 0.182,
-     "fga": 11
+     "share": 0.059,
+     "fg_pct": 0.5,
+     "fga": 8
     },
     "mid": {
-     "share": 0.007,
-     "fg_pct": 1.0,
-     "fga": 1
+     "share": 0.037,
+     "fg_pct": 0.6,
+     "fga": 5
     },
     "corner3": {
-     "share": 0.353,
-     "fg_pct": 0.521,
-     "fga": 48
+     "share": 0.265,
+     "fg_pct": 0.444,
+     "fga": 36
     },
     "arc3": {
-     "share": 0.485,
-     "fg_pct": 0.333,
-     "fga": 66
+     "share": 0.434,
+     "fg_pct": 0.441,
+     "fga": 59
     }
    },
    "shot_types": {
     "jumper": {
-     "share": 0.75,
-     "fg_pct": 0.412
+     "share": 0.551,
+     "fg_pct": 0.493
     },
     "layup": {
-     "share": 0.103,
-     "fg_pct": 0.571
+     "share": 0.206,
+     "fg_pct": 0.607
     },
     "pullup": {
-     "share": 0.088,
+     "share": 0.147,
+     "fg_pct": 0.35
+    },
+    "stepback": {
+     "share": 0.059,
      "fg_pct": 0.5
     }
    },
-   "pid": 4592479,
-   "player": "Julian Champagnie",
-   "team": "SAS",
+   "pid": 3914044,
+   "player": "Landry Shamet",
+   "team": "NYK",
    "games": 17
   },
   {
@@ -16602,13 +16602,13 @@
      "share": 0.44,
      "fg_pct": 0.644
     },
-    "jumper": {
-     "share": 0.127,
-     "fg_pct": 0.471
-    },
     "fadeaway": {
      "share": 0.127,
      "fg_pct": 0.235
+    },
+    "jumper": {
+     "share": 0.127,
+     "fg_pct": 0.471
     },
     "hook": {
      "share": 0.119,
@@ -16630,62 +16630,62 @@
   },
   {
    "fga": 132,
-   "pts_per_shot": 1.129,
-   "xpts_per_shot": 1.131,
-   "shot_making": -0.002,
-   "assisted_share": 0.672,
+   "pts_per_shot": 0.939,
+   "xpts_per_shot": 1.183,
+   "shot_making": -0.244,
+   "assisted_share": 0.696,
    "zones": {
     "rim": {
-     "share": 0.333,
-     "fg_pct": 0.727,
-     "fga": 44
+     "share": 0.485,
+     "fg_pct": 0.641,
+     "fga": 64
     },
     "paint": {
-     "share": 0.152,
-     "fg_pct": 0.5,
-     "fga": 20
+     "share": 0.144,
+     "fg_pct": 0.158,
+     "fga": 19
     },
     "mid": {
-     "share": 0.03,
-     "fg_pct": 0.25,
-     "fga": 4
+     "share": 0.023,
+     "fg_pct": 0.0,
+     "fga": 3
     },
     "corner3": {
-     "share": 0.303,
-     "fg_pct": 0.4,
-     "fga": 40
+     "share": 0.068,
+     "fg_pct": 0.333,
+     "fga": 9
     },
     "arc3": {
-     "share": 0.182,
-     "fg_pct": 0.208,
-     "fga": 24
+     "share": 0.28,
+     "fg_pct": 0.243,
+     "fga": 37
     }
    },
    "shot_types": {
     "jumper": {
-     "share": 0.5,
-     "fg_pct": 0.348
+     "share": 0.348,
+     "fg_pct": 0.261
     },
     "layup": {
-     "share": 0.258,
-     "fg_pct": 0.559
-    },
-    "fadeaway": {
-     "share": 0.098,
-     "fg_pct": 0.538
-    },
-    "dunk": {
-     "share": 0.061,
-     "fg_pct": 1.0
+     "share": 0.197,
+     "fg_pct": 0.423
     },
     "tip": {
-     "share": 0.045,
-     "fg_pct": 0.833
+     "share": 0.197,
+     "fg_pct": 0.462
+    },
+    "dunk": {
+     "share": 0.159,
+     "fg_pct": 0.857
+    },
+    "hook": {
+     "share": 0.061,
+     "fg_pct": 0.375
     }
    },
-   "pid": 2995706,
-   "player": "Mario Hezonja",
-   "team": "CLE",
+   "pid": 5105623,
+   "player": "Kel'el Ware",
+   "team": "MIL",
    "games": 17
   },
   {
@@ -16754,63 +16754,119 @@
   },
   {
    "fga": 132,
-   "pts_per_shot": 0.939,
-   "xpts_per_shot": 1.183,
-   "shot_making": -0.244,
-   "assisted_share": 0.696,
+   "pts_per_shot": 1.129,
+   "xpts_per_shot": 1.131,
+   "shot_making": -0.002,
+   "assisted_share": 0.672,
    "zones": {
     "rim": {
-     "share": 0.485,
-     "fg_pct": 0.641,
-     "fga": 64
+     "share": 0.333,
+     "fg_pct": 0.727,
+     "fga": 44
     },
     "paint": {
-     "share": 0.144,
-     "fg_pct": 0.158,
-     "fga": 19
+     "share": 0.152,
+     "fg_pct": 0.5,
+     "fga": 20
     },
     "mid": {
-     "share": 0.023,
-     "fg_pct": 0.0,
-     "fga": 3
+     "share": 0.03,
+     "fg_pct": 0.25,
+     "fga": 4
     },
     "corner3": {
-     "share": 0.068,
-     "fg_pct": 0.333,
-     "fga": 9
+     "share": 0.303,
+     "fg_pct": 0.4,
+     "fga": 40
     },
     "arc3": {
-     "share": 0.28,
-     "fg_pct": 0.243,
-     "fga": 37
+     "share": 0.182,
+     "fg_pct": 0.208,
+     "fga": 24
     }
    },
    "shot_types": {
     "jumper": {
-     "share": 0.348,
-     "fg_pct": 0.261
+     "share": 0.5,
+     "fg_pct": 0.348
     },
     "layup": {
-     "share": 0.197,
-     "fg_pct": 0.423
+     "share": 0.258,
+     "fg_pct": 0.559
     },
-    "tip": {
-     "share": 0.197,
-     "fg_pct": 0.462
+    "fadeaway": {
+     "share": 0.098,
+     "fg_pct": 0.538
     },
     "dunk": {
-     "share": 0.159,
-     "fg_pct": 0.857
-    },
-    "hook": {
      "share": 0.061,
-     "fg_pct": 0.375
+     "fg_pct": 1.0
+    },
+    "tip": {
+     "share": 0.045,
+     "fg_pct": 0.833
     }
    },
-   "pid": 5105623,
-   "player": "Kel'el Ware",
-   "team": "MIL",
+   "pid": 2995706,
+   "player": "Mario Hezonja",
+   "team": "CLE",
    "games": 17
+  },
+  {
+   "fga": 130,
+   "pts_per_shot": 1.277,
+   "xpts_per_shot": 1.225,
+   "shot_making": 0.052,
+   "assisted_share": 0.747,
+   "zones": {
+    "rim": {
+     "share": 0.515,
+     "fg_pct": 0.716,
+     "fga": 67
+    },
+    "paint": {
+     "share": 0.169,
+     "fg_pct": 0.5,
+     "fga": 22
+    },
+    "mid": {
+     "share": 0.008,
+     "fg_pct": 0.0,
+     "fga": 1
+    },
+    "corner3": {
+     "share": 0.008,
+     "fg_pct": 0.0,
+     "fga": 1
+    },
+    "arc3": {
+     "share": 0.3,
+     "fg_pct": 0.41,
+     "fga": 39
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.292,
+     "fg_pct": 0.368
+    },
+    "layup": {
+     "share": 0.277,
+     "fg_pct": 0.528
+    },
+    "dunk": {
+     "share": 0.215,
+     "fg_pct": 0.857
+    },
+    "tip": {
+     "share": 0.169,
+     "fg_pct": 0.591
+    }
+   },
+   "pid": 5105565,
+   "player": "Donovan Clingan",
+   "team": "POR",
+   "games": 16
   },
   {
    "fga": 130,
@@ -16871,62 +16927,6 @@
    "player": "Herbert Jones",
    "team": "NOP",
    "games": 18
-  },
-  {
-   "fga": 130,
-   "pts_per_shot": 1.277,
-   "xpts_per_shot": 1.225,
-   "shot_making": 0.052,
-   "assisted_share": 0.747,
-   "zones": {
-    "rim": {
-     "share": 0.515,
-     "fg_pct": 0.716,
-     "fga": 67
-    },
-    "paint": {
-     "share": 0.169,
-     "fg_pct": 0.5,
-     "fga": 22
-    },
-    "mid": {
-     "share": 0.008,
-     "fg_pct": 0.0,
-     "fga": 1
-    },
-    "corner3": {
-     "share": 0.008,
-     "fg_pct": 0.0,
-     "fga": 1
-    },
-    "arc3": {
-     "share": 0.3,
-     "fg_pct": 0.41,
-     "fga": 39
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.292,
-     "fg_pct": 0.368
-    },
-    "layup": {
-     "share": 0.277,
-     "fg_pct": 0.528
-    },
-    "dunk": {
-     "share": 0.215,
-     "fg_pct": 0.857
-    },
-    "tip": {
-     "share": 0.169,
-     "fg_pct": 0.591
-    }
-   },
-   "pid": 5105565,
-   "player": "Donovan Clingan",
-   "team": "POR",
-   "games": 16
   },
   {
    "fga": 129,
@@ -17598,13 +17598,13 @@
      "share": 0.065,
      "fg_pct": 0.625
     },
-    "hook": {
-     "share": 0.057,
-     "fg_pct": 0.714
-    },
     "fadeaway": {
      "share": 0.057,
      "fg_pct": 0.143
+    },
+    "hook": {
+     "share": 0.057,
+     "fg_pct": 0.714
     }
    },
    "pid": 3064482,
@@ -17658,13 +17658,13 @@
      "share": 0.066,
      "fg_pct": 0.625
     },
-    "fadeaway": {
-     "share": 0.057,
-     "fg_pct": 0.286
-    },
     "tip": {
      "share": 0.057,
      "fg_pct": 0.0
+    },
+    "fadeaway": {
+     "share": 0.057,
+     "fg_pct": 0.286
     },
     "stepback": {
      "share": 0.041,
@@ -17966,6 +17966,58 @@
   },
   {
    "fga": 117,
+   "pts_per_shot": 1.077,
+   "xpts_per_shot": 1.068,
+   "shot_making": 0.009,
+   "assisted_share": 0.685,
+   "zones": {
+    "rim": {
+     "share": 0.265,
+     "fg_pct": 0.677,
+     "fga": 31
+    },
+    "paint": {
+     "share": 0.222,
+     "fg_pct": 0.462,
+     "fga": 26
+    },
+    "mid": {
+     "share": 0.043,
+     "fg_pct": 0.6,
+     "fga": 5
+    },
+    "corner3": {
+     "share": 0.197,
+     "fg_pct": 0.348,
+     "fga": 23
+    },
+    "arc3": {
+     "share": 0.274,
+     "fg_pct": 0.312,
+     "fga": 32
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.393,
+     "fg_pct": 0.326
+    },
+    "layup": {
+     "share": 0.376,
+     "fg_pct": 0.614
+    },
+    "pullup": {
+     "share": 0.128,
+     "fg_pct": 0.4
+    }
+   },
+   "pid": 4592829,
+   "player": "Quenton Jackson",
+   "team": "IND",
+   "games": 17
+  },
+  {
+   "fga": 117,
    "pts_per_shot": 0.812,
    "xpts_per_shot": 0.911,
    "shot_making": -0.099,
@@ -18023,58 +18075,6 @@
    "player": "DeMar DeRozan",
    "team": "DEN",
    "games": 14
-  },
-  {
-   "fga": 117,
-   "pts_per_shot": 1.077,
-   "xpts_per_shot": 1.068,
-   "shot_making": 0.009,
-   "assisted_share": 0.685,
-   "zones": {
-    "rim": {
-     "share": 0.265,
-     "fg_pct": 0.677,
-     "fga": 31
-    },
-    "paint": {
-     "share": 0.222,
-     "fg_pct": 0.462,
-     "fga": 26
-    },
-    "mid": {
-     "share": 0.043,
-     "fg_pct": 0.6,
-     "fga": 5
-    },
-    "corner3": {
-     "share": 0.197,
-     "fg_pct": 0.348,
-     "fga": 23
-    },
-    "arc3": {
-     "share": 0.274,
-     "fg_pct": 0.312,
-     "fga": 32
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.393,
-     "fg_pct": 0.326
-    },
-    "layup": {
-     "share": 0.376,
-     "fg_pct": 0.614
-    },
-    "pullup": {
-     "share": 0.128,
-     "fg_pct": 0.4
-    }
-   },
-   "pid": 4592829,
-   "player": "Quenton Jackson",
-   "team": "IND",
-   "games": 17
   },
   {
    "fga": 116,
@@ -18690,13 +18690,13 @@
      "share": 0.194,
      "fg_pct": 0.381
     },
-    "pullup": {
-     "share": 0.102,
-     "fg_pct": 0.455
-    },
     "stepback": {
      "share": 0.102,
      "fg_pct": 0.273
+    },
+    "pullup": {
+     "share": 0.102,
+     "fg_pct": 0.455
     },
     "fadeaway": {
      "share": 0.046,
@@ -18750,13 +18750,13 @@
      "share": 0.15,
      "fg_pct": 0.812
     },
-    "tip": {
-     "share": 0.112,
-     "fg_pct": 0.583
-    },
     "hook": {
      "share": 0.112,
      "fg_pct": 0.417
+    },
+    "tip": {
+     "share": 0.112,
+     "fg_pct": 0.583
     }
    },
    "pid": 4222252,
@@ -18882,6 +18882,58 @@
   },
   {
    "fga": 105,
+   "pts_per_shot": 1.0,
+   "xpts_per_shot": 1.191,
+   "shot_making": -0.191,
+   "assisted_share": 0.837,
+   "zones": {
+    "rim": {
+     "share": 0.457,
+     "fg_pct": 0.667,
+     "fga": 48
+    },
+    "paint": {
+     "share": 0.276,
+     "fg_pct": 0.31,
+     "fga": 29
+    },
+    "mid": {
+     "share": 0.029,
+     "fg_pct": 0.333,
+     "fga": 3
+    },
+    "corner3": {
+     "share": 0.076,
+     "fg_pct": 0.5,
+     "fga": 8
+    },
+    "arc3": {
+     "share": 0.162,
+     "fg_pct": 0.176,
+     "fga": 17
+    }
+   },
+   "shot_types": {
+    "layup": {
+     "share": 0.429,
+     "fg_pct": 0.444
+    },
+    "jumper": {
+     "share": 0.276,
+     "fg_pct": 0.276
+    },
+    "dunk": {
+     "share": 0.2,
+     "fg_pct": 0.714
+    }
+   },
+   "pid": 5093267,
+   "player": "Collin Murray-Boyles",
+   "team": "TOR",
+   "games": 14
+  },
+  {
+   "fga": 105,
    "pts_per_shot": 1.124,
    "xpts_per_shot": 1.094,
    "shot_making": 0.03,
@@ -18935,58 +18987,6 @@
    "player": "Kenrich Williams",
    "team": "OKC",
    "games": 17
-  },
-  {
-   "fga": 105,
-   "pts_per_shot": 1.0,
-   "xpts_per_shot": 1.191,
-   "shot_making": -0.191,
-   "assisted_share": 0.837,
-   "zones": {
-    "rim": {
-     "share": 0.457,
-     "fg_pct": 0.667,
-     "fga": 48
-    },
-    "paint": {
-     "share": 0.276,
-     "fg_pct": 0.31,
-     "fga": 29
-    },
-    "mid": {
-     "share": 0.029,
-     "fg_pct": 0.333,
-     "fga": 3
-    },
-    "corner3": {
-     "share": 0.076,
-     "fg_pct": 0.5,
-     "fga": 8
-    },
-    "arc3": {
-     "share": 0.162,
-     "fg_pct": 0.176,
-     "fga": 17
-    }
-   },
-   "shot_types": {
-    "layup": {
-     "share": 0.429,
-     "fg_pct": 0.444
-    },
-    "jumper": {
-     "share": 0.276,
-     "fg_pct": 0.276
-    },
-    "dunk": {
-     "share": 0.2,
-     "fg_pct": 0.714
-    }
-   },
-   "pid": 5093267,
-   "player": "Collin Murray-Boyles",
-   "team": "TOR",
-   "games": 14
   },
   {
    "fga": 104,
@@ -19178,6 +19178,58 @@
   },
   {
    "fga": 102,
+   "pts_per_shot": 1.069,
+   "xpts_per_shot": 1.094,
+   "shot_making": -0.025,
+   "assisted_share": 0.63,
+   "zones": {
+    "rim": {
+     "share": 0.304,
+     "fg_pct": 0.742,
+     "fga": 31
+    },
+    "paint": {
+     "share": 0.127,
+     "fg_pct": 0.385,
+     "fga": 13
+    },
+    "mid": {
+     "share": 0.01,
+     "fg_pct": 1.0,
+     "fga": 1
+    },
+    "corner3": {
+     "share": 0.216,
+     "fg_pct": 0.273,
+     "fga": 22
+    },
+    "arc3": {
+     "share": 0.343,
+     "fg_pct": 0.314,
+     "fga": 35
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.402,
+     "fg_pct": 0.317
+    },
+    "layup": {
+     "share": 0.402,
+     "fg_pct": 0.659
+    },
+    "pullup": {
+     "share": 0.137,
+     "fg_pct": 0.286
+    }
+   },
+   "pid": 5214640,
+   "player": "Kasparas Jakucionis",
+   "team": "MIL",
+   "games": 16
+  },
+  {
+   "fga": 102,
    "pts_per_shot": 0.863,
    "xpts_per_shot": 1.009,
    "shot_making": -0.146,
@@ -19235,118 +19287,6 @@
    "player": "Malik Monk",
    "team": "SAC",
    "games": 13
-  },
-  {
-   "fga": 102,
-   "pts_per_shot": 1.069,
-   "xpts_per_shot": 1.094,
-   "shot_making": -0.025,
-   "assisted_share": 0.63,
-   "zones": {
-    "rim": {
-     "share": 0.304,
-     "fg_pct": 0.742,
-     "fga": 31
-    },
-    "paint": {
-     "share": 0.127,
-     "fg_pct": 0.385,
-     "fga": 13
-    },
-    "mid": {
-     "share": 0.01,
-     "fg_pct": 1.0,
-     "fga": 1
-    },
-    "corner3": {
-     "share": 0.216,
-     "fg_pct": 0.273,
-     "fga": 22
-    },
-    "arc3": {
-     "share": 0.343,
-     "fg_pct": 0.314,
-     "fga": 35
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.402,
-     "fg_pct": 0.317
-    },
-    "layup": {
-     "share": 0.402,
-     "fg_pct": 0.659
-    },
-    "pullup": {
-     "share": 0.137,
-     "fg_pct": 0.286
-    }
-   },
-   "pid": 5214640,
-   "player": "Kasparas Jakucionis",
-   "team": "MIL",
-   "games": 16
-  },
-  {
-   "fga": 102,
-   "pts_per_shot": 0.941,
-   "xpts_per_shot": 1.052,
-   "shot_making": -0.111,
-   "assisted_share": 0.568,
-   "zones": {
-    "rim": {
-     "share": 0.304,
-     "fg_pct": 0.742,
-     "fga": 31
-    },
-    "paint": {
-     "share": 0.304,
-     "fg_pct": 0.323,
-     "fga": 31
-    },
-    "mid": {
-     "share": 0.127,
-     "fg_pct": 0.231,
-     "fga": 13
-    },
-    "corner3": {
-     "share": 0.127,
-     "fg_pct": 0.231,
-     "fga": 13
-    },
-    "arc3": {
-     "share": 0.137,
-     "fg_pct": 0.357,
-     "fga": 14
-    }
-   },
-   "shot_types": {
-    "layup": {
-     "share": 0.422,
-     "fg_pct": 0.512
-    },
-    "pullup": {
-     "share": 0.216,
-     "fg_pct": 0.273
-    },
-    "jumper": {
-     "share": 0.176,
-     "fg_pct": 0.333
-    },
-    "fadeaway": {
-     "share": 0.088,
-     "fg_pct": 0.222
-    },
-    "stepback": {
-     "share": 0.049,
-     "fg_pct": 0.6
-    }
-   },
-   "pid": 3907497,
-   "player": "Dejounte Murray",
-   "team": "NOP",
-   "games": 9
   },
   {
    "fga": 102,
@@ -19446,19 +19386,79 @@
      "share": 0.206,
      "fg_pct": 0.714
     },
-    "jumper": {
-     "share": 0.078,
-     "fg_pct": 0.625
-    },
     "hook": {
      "share": 0.078,
      "fg_pct": 0.5
+    },
+    "jumper": {
+     "share": 0.078,
+     "fg_pct": 0.625
     }
    },
    "pid": 4397424,
    "player": "Neemias Queta",
    "team": "BOS",
    "games": 16
+  },
+  {
+   "fga": 102,
+   "pts_per_shot": 0.941,
+   "xpts_per_shot": 1.052,
+   "shot_making": -0.111,
+   "assisted_share": 0.568,
+   "zones": {
+    "rim": {
+     "share": 0.304,
+     "fg_pct": 0.742,
+     "fga": 31
+    },
+    "paint": {
+     "share": 0.304,
+     "fg_pct": 0.323,
+     "fga": 31
+    },
+    "mid": {
+     "share": 0.127,
+     "fg_pct": 0.231,
+     "fga": 13
+    },
+    "corner3": {
+     "share": 0.127,
+     "fg_pct": 0.231,
+     "fga": 13
+    },
+    "arc3": {
+     "share": 0.137,
+     "fg_pct": 0.357,
+     "fga": 14
+    }
+   },
+   "shot_types": {
+    "layup": {
+     "share": 0.422,
+     "fg_pct": 0.512
+    },
+    "pullup": {
+     "share": 0.216,
+     "fg_pct": 0.273
+    },
+    "jumper": {
+     "share": 0.176,
+     "fg_pct": 0.333
+    },
+    "fadeaway": {
+     "share": 0.088,
+     "fg_pct": 0.222
+    },
+    "stepback": {
+     "share": 0.049,
+     "fg_pct": 0.6
+    }
+   },
+   "pid": 3907497,
+   "player": "Dejounte Murray",
+   "team": "NOP",
+   "games": 9
   },
   {
    "fga": 101,
@@ -19730,75 +19730,19 @@
      "share": 0.26,
      "fg_pct": 0.6
     },
-    "tip": {
-     "share": 0.229,
-     "fg_pct": 0.545
-    },
     "dunk": {
      "share": 0.229,
      "fg_pct": 0.818
+    },
+    "tip": {
+     "share": 0.229,
+     "fg_pct": 0.545
     }
    },
    "pid": 4017837,
    "player": "Ivica Zubac",
    "team": "IND",
    "games": 12
-  },
-  {
-   "fga": 96,
-   "pts_per_shot": 1.021,
-   "xpts_per_shot": 1.238,
-   "shot_making": -0.217,
-   "assisted_share": 0.705,
-   "zones": {
-    "rim": {
-     "share": 0.438,
-     "fg_pct": 0.738,
-     "fga": 42
-    },
-    "paint": {
-     "share": 0.083,
-     "fg_pct": 0.25,
-     "fga": 8
-    },
-    "mid": {
-     "share": 0.042,
-     "fg_pct": 0.25,
-     "fga": 4
-    },
-    "corner3": {
-     "share": 0.354,
-     "fg_pct": 0.206,
-     "fga": 34
-    },
-    "arc3": {
-     "share": 0.083,
-     "fg_pct": 0.375,
-     "fga": 8
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.458,
-     "fg_pct": 0.25
-    },
-    "layup": {
-     "share": 0.229,
-     "fg_pct": 0.409
-    },
-    "dunk": {
-     "share": 0.198,
-     "fg_pct": 0.895
-    },
-    "tip": {
-     "share": 0.062,
-     "fg_pct": 0.833
-    }
-   },
-   "pid": 5104155,
-   "player": "Bilal Coulibaly",
-   "team": "WAS",
-   "games": 17
   },
   {
    "fga": 96,
@@ -19861,6 +19805,62 @@
    "games": 13
   },
   {
+   "fga": 96,
+   "pts_per_shot": 1.021,
+   "xpts_per_shot": 1.238,
+   "shot_making": -0.217,
+   "assisted_share": 0.705,
+   "zones": {
+    "rim": {
+     "share": 0.438,
+     "fg_pct": 0.738,
+     "fga": 42
+    },
+    "paint": {
+     "share": 0.083,
+     "fg_pct": 0.25,
+     "fga": 8
+    },
+    "mid": {
+     "share": 0.042,
+     "fg_pct": 0.25,
+     "fga": 4
+    },
+    "corner3": {
+     "share": 0.354,
+     "fg_pct": 0.206,
+     "fga": 34
+    },
+    "arc3": {
+     "share": 0.083,
+     "fg_pct": 0.375,
+     "fga": 8
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.458,
+     "fg_pct": 0.25
+    },
+    "layup": {
+     "share": 0.229,
+     "fg_pct": 0.409
+    },
+    "dunk": {
+     "share": 0.198,
+     "fg_pct": 0.895
+    },
+    "tip": {
+     "share": 0.062,
+     "fg_pct": 0.833
+    }
+   },
+   "pid": 5104155,
+   "player": "Bilal Coulibaly",
+   "team": "WAS",
+   "games": 17
+  },
+  {
    "fga": 95,
    "pts_per_shot": 0.821,
    "xpts_per_shot": 1.082,
@@ -19910,6 +19910,66 @@
    "pid": 4602025,
    "player": "Sion James",
    "team": "CHA",
+   "games": 15
+  },
+  {
+   "fga": 94,
+   "pts_per_shot": 1.16,
+   "xpts_per_shot": 1.2,
+   "shot_making": -0.04,
+   "assisted_share": 0.654,
+   "zones": {
+    "rim": {
+     "share": 0.617,
+     "fg_pct": 0.638,
+     "fga": 58
+    },
+    "paint": {
+     "share": 0.202,
+     "fg_pct": 0.526,
+     "fga": 19
+    },
+    "mid": {
+     "share": 0.0,
+     "fg_pct": null,
+     "fga": 0
+    },
+    "corner3": {
+     "share": 0.106,
+     "fg_pct": 0.2,
+     "fga": 10
+    },
+    "arc3": {
+     "share": 0.074,
+     "fg_pct": 0.429,
+     "fga": 7
+    }
+   },
+   "shot_types": {
+    "layup": {
+     "share": 0.298,
+     "fg_pct": 0.536
+    },
+    "tip": {
+     "share": 0.298,
+     "fg_pct": 0.571
+    },
+    "jumper": {
+     "share": 0.181,
+     "fg_pct": 0.294
+    },
+    "dunk": {
+     "share": 0.138,
+     "fg_pct": 0.846
+    },
+    "hook": {
+     "share": 0.085,
+     "fg_pct": 0.625
+    }
+   },
+   "pid": 4432194,
+   "player": "Day'Ron Sharpe",
+   "team": "BKN",
    "games": 15
   },
   {
@@ -19971,66 +20031,6 @@
    "player": "Keegan Murray",
    "team": "SAC",
    "games": 9
-  },
-  {
-   "fga": 94,
-   "pts_per_shot": 1.16,
-   "xpts_per_shot": 1.2,
-   "shot_making": -0.04,
-   "assisted_share": 0.654,
-   "zones": {
-    "rim": {
-     "share": 0.617,
-     "fg_pct": 0.638,
-     "fga": 58
-    },
-    "paint": {
-     "share": 0.202,
-     "fg_pct": 0.526,
-     "fga": 19
-    },
-    "mid": {
-     "share": 0.0,
-     "fg_pct": null,
-     "fga": 0
-    },
-    "corner3": {
-     "share": 0.106,
-     "fg_pct": 0.2,
-     "fga": 10
-    },
-    "arc3": {
-     "share": 0.074,
-     "fg_pct": 0.429,
-     "fga": 7
-    }
-   },
-   "shot_types": {
-    "tip": {
-     "share": 0.298,
-     "fg_pct": 0.571
-    },
-    "layup": {
-     "share": 0.298,
-     "fg_pct": 0.536
-    },
-    "jumper": {
-     "share": 0.181,
-     "fg_pct": 0.294
-    },
-    "dunk": {
-     "share": 0.138,
-     "fg_pct": 0.846
-    },
-    "hook": {
-     "share": 0.085,
-     "fg_pct": 0.625
-    }
-   },
-   "pid": 4432194,
-   "player": "Day'Ron Sharpe",
-   "team": "BKN",
-   "games": 15
   },
   {
    "fga": 93,
@@ -20298,13 +20298,13 @@
      "share": 0.089,
      "fg_pct": 0.375
     },
-    "dunk": {
-     "share": 0.067,
-     "fg_pct": 0.833
-    },
     "fadeaway": {
      "share": 0.067,
      "fg_pct": 0.5
+    },
+    "dunk": {
+     "share": 0.067,
+     "fg_pct": 0.833
     }
    },
    "pid": 4873153,
@@ -20526,19 +20526,71 @@
      "share": 0.149,
      "fg_pct": 0.846
     },
-    "jumper": {
-     "share": 0.08,
-     "fg_pct": 0.429
-    },
     "hook": {
      "share": 0.08,
      "fg_pct": 0.571
+    },
+    "jumper": {
+     "share": 0.08,
+     "fg_pct": 0.429
     }
    },
    "pid": 4278049,
    "player": "Daniel Gafford",
    "team": "DAL",
    "games": 17
+  },
+  {
+   "fga": 87,
+   "pts_per_shot": 0.816,
+   "xpts_per_shot": 1.055,
+   "shot_making": -0.239,
+   "assisted_share": 0.438,
+   "zones": {
+    "rim": {
+     "share": 0.287,
+     "fg_pct": 0.64,
+     "fga": 25
+    },
+    "paint": {
+     "share": 0.195,
+     "fg_pct": 0.235,
+     "fga": 17
+    },
+    "mid": {
+     "share": 0.115,
+     "fg_pct": 0.5,
+     "fga": 10
+    },
+    "corner3": {
+     "share": 0.103,
+     "fg_pct": 0.0,
+     "fga": 9
+    },
+    "arc3": {
+     "share": 0.299,
+     "fg_pct": 0.269,
+     "fga": 26
+    }
+   },
+   "shot_types": {
+    "layup": {
+     "share": 0.46,
+     "fg_pct": 0.475
+    },
+    "jumper": {
+     "share": 0.345,
+     "fg_pct": 0.167
+    },
+    "pullup": {
+     "share": 0.138,
+     "fg_pct": 0.583
+    }
+   },
+   "pid": 3032979,
+   "player": "Dennis Schroder",
+   "team": "CHA",
+   "games": 9
   },
   {
    "fga": 87,
@@ -20595,58 +20647,6 @@
    "player": "Ziaire Williams",
    "team": "LAL",
    "games": 14
-  },
-  {
-   "fga": 87,
-   "pts_per_shot": 0.816,
-   "xpts_per_shot": 1.055,
-   "shot_making": -0.239,
-   "assisted_share": 0.438,
-   "zones": {
-    "rim": {
-     "share": 0.287,
-     "fg_pct": 0.64,
-     "fga": 25
-    },
-    "paint": {
-     "share": 0.195,
-     "fg_pct": 0.235,
-     "fga": 17
-    },
-    "mid": {
-     "share": 0.115,
-     "fg_pct": 0.5,
-     "fga": 10
-    },
-    "corner3": {
-     "share": 0.103,
-     "fg_pct": 0.0,
-     "fga": 9
-    },
-    "arc3": {
-     "share": 0.299,
-     "fg_pct": 0.269,
-     "fga": 26
-    }
-   },
-   "shot_types": {
-    "layup": {
-     "share": 0.46,
-     "fg_pct": 0.475
-    },
-    "jumper": {
-     "share": 0.345,
-     "fg_pct": 0.167
-    },
-    "pullup": {
-     "share": 0.138,
-     "fg_pct": 0.583
-    }
-   },
-   "pid": 3032979,
-   "player": "Dennis Schroder",
-   "team": "CHA",
-   "games": 9
   },
   {
    "fga": 87,
@@ -21130,13 +21130,13 @@
      "share": 0.157,
      "fg_pct": 0.462
     },
-    "pullup": {
-     "share": 0.096,
-     "fg_pct": 0.375
-    },
     "stepback": {
      "share": 0.096,
      "fg_pct": 0.25
+    },
+    "pullup": {
+     "share": 0.096,
+     "fg_pct": 0.375
     },
     "fadeaway": {
      "share": 0.06,
@@ -21198,58 +21198,6 @@
   },
   {
    "fga": 82,
-   "pts_per_shot": 1.293,
-   "xpts_per_shot": 1.282,
-   "shot_making": 0.011,
-   "assisted_share": 0.906,
-   "zones": {
-    "rim": {
-     "share": 0.537,
-     "fg_pct": 0.818,
-     "fga": 44
-    },
-    "paint": {
-     "share": 0.439,
-     "fg_pct": 0.444,
-     "fga": 36
-    },
-    "mid": {
-     "share": 0.012,
-     "fg_pct": 1.0,
-     "fga": 1
-    },
-    "corner3": {
-     "share": 0.0,
-     "fg_pct": null,
-     "fga": 0
-    },
-    "arc3": {
-     "share": 0.012,
-     "fg_pct": 0.0,
-     "fga": 1
-    }
-   },
-   "shot_types": {
-    "dunk": {
-     "share": 0.463,
-     "fg_pct": 0.895
-    },
-    "layup": {
-     "share": 0.354,
-     "fg_pct": 0.448
-    },
-    "tip": {
-     "share": 0.134,
-     "fg_pct": 0.455
-    }
-   },
-   "pid": 4397077,
-   "player": "Jaxson Hayes",
-   "team": "UTA",
-   "games": 15
-  },
-  {
-   "fga": 82,
    "pts_per_shot": 1.037,
    "xpts_per_shot": 1.055,
    "shot_making": -0.018,
@@ -21302,6 +21250,58 @@
   },
   {
    "fga": 82,
+   "pts_per_shot": 1.293,
+   "xpts_per_shot": 1.282,
+   "shot_making": 0.011,
+   "assisted_share": 0.906,
+   "zones": {
+    "rim": {
+     "share": 0.537,
+     "fg_pct": 0.818,
+     "fga": 44
+    },
+    "paint": {
+     "share": 0.439,
+     "fg_pct": 0.444,
+     "fga": 36
+    },
+    "mid": {
+     "share": 0.012,
+     "fg_pct": 1.0,
+     "fga": 1
+    },
+    "corner3": {
+     "share": 0.0,
+     "fg_pct": null,
+     "fga": 0
+    },
+    "arc3": {
+     "share": 0.012,
+     "fg_pct": 0.0,
+     "fga": 1
+    }
+   },
+   "shot_types": {
+    "dunk": {
+     "share": 0.463,
+     "fg_pct": 0.895
+    },
+    "layup": {
+     "share": 0.354,
+     "fg_pct": 0.448
+    },
+    "tip": {
+     "share": 0.134,
+     "fg_pct": 0.455
+    }
+   },
+   "pid": 4397077,
+   "player": "Jaxson Hayes",
+   "team": "UTA",
+   "games": 15
+  },
+  {
+   "fga": 82,
    "pts_per_shot": 1.268,
    "xpts_per_shot": 1.348,
    "shot_making": -0.08,
@@ -21334,13 +21334,13 @@
     }
    },
    "shot_types": {
-    "dunk": {
-     "share": 0.341,
-     "fg_pct": 0.857
-    },
     "tip": {
      "share": 0.341,
      "fg_pct": 0.607
+    },
+    "dunk": {
+     "share": 0.341,
+     "fg_pct": 0.857
     },
     "layup": {
      "share": 0.28,
@@ -21351,54 +21351,6 @@
    "player": "Moussa Diabate",
    "team": "CHA",
    "games": 13
-  },
-  {
-   "fga": 82,
-   "pts_per_shot": 0.89,
-   "xpts_per_shot": 0.991,
-   "shot_making": -0.101,
-   "assisted_share": 0.576,
-   "zones": {
-    "rim": {
-     "share": 0.183,
-     "fg_pct": 0.467,
-     "fga": 15
-    },
-    "paint": {
-     "share": 0.463,
-     "fg_pct": 0.5,
-     "fga": 38
-    },
-    "mid": {
-     "share": 0.049,
-     "fg_pct": 0.0,
-     "fga": 4
-    },
-    "corner3": {
-     "share": 0.098,
-     "fg_pct": 0.375,
-     "fga": 8
-    },
-    "arc3": {
-     "share": 0.207,
-     "fg_pct": 0.235,
-     "fga": 17
-    }
-   },
-   "shot_types": {
-    "layup": {
-     "share": 0.622,
-     "fg_pct": 0.49
-    },
-    "jumper": {
-     "share": 0.28,
-     "fg_pct": 0.304
-    }
-   },
-   "pid": 4397040,
-   "player": "Brandon Williams",
-   "team": "GSW",
-   "games": 10
   },
   {
    "fga": 82,
@@ -21457,6 +21409,106 @@
    "games": 17
   },
   {
+   "fga": 82,
+   "pts_per_shot": 0.89,
+   "xpts_per_shot": 0.991,
+   "shot_making": -0.101,
+   "assisted_share": 0.576,
+   "zones": {
+    "rim": {
+     "share": 0.183,
+     "fg_pct": 0.467,
+     "fga": 15
+    },
+    "paint": {
+     "share": 0.463,
+     "fg_pct": 0.5,
+     "fga": 38
+    },
+    "mid": {
+     "share": 0.049,
+     "fg_pct": 0.0,
+     "fga": 4
+    },
+    "corner3": {
+     "share": 0.098,
+     "fg_pct": 0.375,
+     "fga": 8
+    },
+    "arc3": {
+     "share": 0.207,
+     "fg_pct": 0.235,
+     "fga": 17
+    }
+   },
+   "shot_types": {
+    "layup": {
+     "share": 0.622,
+     "fg_pct": 0.49
+    },
+    "jumper": {
+     "share": 0.28,
+     "fg_pct": 0.304
+    }
+   },
+   "pid": 4397040,
+   "player": "Brandon Williams",
+   "team": "GSW",
+   "games": 10
+  },
+  {
+   "fga": 81,
+   "pts_per_shot": 0.741,
+   "xpts_per_shot": 1.022,
+   "shot_making": -0.281,
+   "assisted_share": 0.731,
+   "zones": {
+    "rim": {
+     "share": 0.148,
+     "fg_pct": 0.333,
+     "fga": 12
+    },
+    "paint": {
+     "share": 0.383,
+     "fg_pct": 0.387,
+     "fga": 31
+    },
+    "mid": {
+     "share": 0.025,
+     "fg_pct": 1.0,
+     "fga": 2
+    },
+    "corner3": {
+     "share": 0.185,
+     "fg_pct": 0.333,
+     "fga": 15
+    },
+    "arc3": {
+     "share": 0.259,
+     "fg_pct": 0.143,
+     "fga": 21
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.37,
+     "fg_pct": 0.2
+    },
+    "layup": {
+     "share": 0.358,
+     "fg_pct": 0.379
+    },
+    "pullup": {
+     "share": 0.16,
+     "fg_pct": 0.538
+    }
+   },
+   "pid": 5239561,
+   "player": "Jase Richardson",
+   "team": "ORL",
+   "games": 12
+  },
+  {
    "fga": 81,
    "pts_per_shot": 0.975,
    "xpts_per_shot": 1.1,
@@ -21511,58 +21563,6 @@
    "player": "Noah Clowney",
    "team": "BKN",
    "games": 15
-  },
-  {
-   "fga": 81,
-   "pts_per_shot": 0.741,
-   "xpts_per_shot": 1.022,
-   "shot_making": -0.281,
-   "assisted_share": 0.731,
-   "zones": {
-    "rim": {
-     "share": 0.148,
-     "fg_pct": 0.333,
-     "fga": 12
-    },
-    "paint": {
-     "share": 0.383,
-     "fg_pct": 0.387,
-     "fga": 31
-    },
-    "mid": {
-     "share": 0.025,
-     "fg_pct": 1.0,
-     "fga": 2
-    },
-    "corner3": {
-     "share": 0.185,
-     "fg_pct": 0.333,
-     "fga": 15
-    },
-    "arc3": {
-     "share": 0.259,
-     "fg_pct": 0.143,
-     "fga": 21
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.37,
-     "fg_pct": 0.2
-    },
-    "layup": {
-     "share": 0.358,
-     "fg_pct": 0.379
-    },
-    "pullup": {
-     "share": 0.16,
-     "fg_pct": 0.538
-    }
-   },
-   "pid": 5239561,
-   "player": "Jase Richardson",
-   "team": "ORL",
-   "games": 12
   },
   {
    "fga": 80,
@@ -21774,11 +21774,11 @@
      "share": 0.139,
      "fg_pct": 0.636
     },
-    "tip": {
+    "stepback": {
      "share": 0.089,
      "fg_pct": 0.286
     },
-    "stepback": {
+    "tip": {
      "share": 0.089,
      "fg_pct": 0.286
     }
@@ -21846,62 +21846,6 @@
   },
   {
    "fga": 78,
-   "pts_per_shot": 1.192,
-   "xpts_per_shot": 1.205,
-   "shot_making": -0.013,
-   "assisted_share": 0.891,
-   "zones": {
-    "rim": {
-     "share": 0.577,
-     "fg_pct": 0.733,
-     "fga": 45
-    },
-    "paint": {
-     "share": 0.41,
-     "fg_pct": 0.375,
-     "fga": 32
-    },
-    "mid": {
-     "share": 0.0,
-     "fg_pct": null,
-     "fga": 0
-    },
-    "corner3": {
-     "share": 0.0,
-     "fg_pct": null,
-     "fga": 0
-    },
-    "arc3": {
-     "share": 0.013,
-     "fg_pct": 1.0,
-     "fga": 1
-    }
-   },
-   "shot_types": {
-    "hook": {
-     "share": 0.372,
-     "fg_pct": 0.379
-    },
-    "layup": {
-     "share": 0.282,
-     "fg_pct": 0.636
-    },
-    "dunk": {
-     "share": 0.205,
-     "fg_pct": 0.938
-    },
-    "tip": {
-     "share": 0.128,
-     "fg_pct": 0.5
-    }
-   },
-   "pid": 4600663,
-   "player": "Zach Edey",
-   "team": "MEM",
-   "games": 13
-  },
-  {
-   "fga": 78,
    "pts_per_shot": 1.051,
    "xpts_per_shot": 1.003,
    "shot_making": 0.048,
@@ -21958,66 +21902,6 @@
   },
   {
    "fga": 78,
-   "pts_per_shot": 1.179,
-   "xpts_per_shot": 1.167,
-   "shot_making": 0.012,
-   "assisted_share": 0.644,
-   "zones": {
-    "rim": {
-     "share": 0.564,
-     "fg_pct": 0.795,
-     "fga": 44
-    },
-    "paint": {
-     "share": 0.295,
-     "fg_pct": 0.261,
-     "fga": 23
-    },
-    "mid": {
-     "share": 0.077,
-     "fg_pct": 0.333,
-     "fga": 6
-    },
-    "corner3": {
-     "share": 0.0,
-     "fg_pct": null,
-     "fga": 0
-    },
-    "arc3": {
-     "share": 0.064,
-     "fg_pct": 0.4,
-     "fga": 5
-    }
-   },
-   "shot_types": {
-    "layup": {
-     "share": 0.308,
-     "fg_pct": 0.5
-    },
-    "tip": {
-     "share": 0.192,
-     "fg_pct": 0.667
-    },
-    "dunk": {
-     "share": 0.192,
-     "fg_pct": 0.867
-    },
-    "jumper": {
-     "share": 0.103,
-     "fg_pct": 0.375
-    },
-    "hook": {
-     "share": 0.103,
-     "fg_pct": 0.5
-    }
-   },
-   "pid": 4432170,
-   "player": "Isaiah Jackson",
-   "team": "LAC",
-   "games": 14
-  },
-  {
-   "fga": 78,
    "pts_per_shot": 1.051,
    "xpts_per_shot": 1.087,
    "shot_making": -0.036,
@@ -22065,21 +21949,81 @@
    "games": 15
   },
   {
-   "fga": 77,
-   "pts_per_shot": 0.922,
-   "xpts_per_shot": 1.042,
-   "shot_making": -0.12,
-   "assisted_share": 0.645,
+   "fga": 78,
+   "pts_per_shot": 1.179,
+   "xpts_per_shot": 1.167,
+   "shot_making": 0.012,
+   "assisted_share": 0.644,
    "zones": {
     "rim": {
-     "share": 0.26,
-     "fg_pct": 0.6,
-     "fga": 20
+     "share": 0.564,
+     "fg_pct": 0.795,
+     "fga": 44
     },
     "paint": {
-     "share": 0.338,
-     "fg_pct": 0.385,
-     "fga": 26
+     "share": 0.295,
+     "fg_pct": 0.261,
+     "fga": 23
+    },
+    "mid": {
+     "share": 0.077,
+     "fg_pct": 0.333,
+     "fga": 6
+    },
+    "corner3": {
+     "share": 0.0,
+     "fg_pct": null,
+     "fga": 0
+    },
+    "arc3": {
+     "share": 0.064,
+     "fg_pct": 0.4,
+     "fga": 5
+    }
+   },
+   "shot_types": {
+    "layup": {
+     "share": 0.308,
+     "fg_pct": 0.5
+    },
+    "dunk": {
+     "share": 0.192,
+     "fg_pct": 0.867
+    },
+    "tip": {
+     "share": 0.192,
+     "fg_pct": 0.667
+    },
+    "hook": {
+     "share": 0.103,
+     "fg_pct": 0.5
+    },
+    "jumper": {
+     "share": 0.103,
+     "fg_pct": 0.375
+    }
+   },
+   "pid": 4432170,
+   "player": "Isaiah Jackson",
+   "team": "LAC",
+   "games": 14
+  },
+  {
+   "fga": 78,
+   "pts_per_shot": 1.192,
+   "xpts_per_shot": 1.205,
+   "shot_making": -0.013,
+   "assisted_share": 0.891,
+   "zones": {
+    "rim": {
+     "share": 0.577,
+     "fg_pct": 0.733,
+     "fga": 45
+    },
+    "paint": {
+     "share": 0.41,
+     "fg_pct": 0.375,
+     "fga": 32
     },
     "mid": {
      "share": 0.0,
@@ -22087,38 +22031,38 @@
      "fga": 0
     },
     "corner3": {
-     "share": 0.195,
-     "fg_pct": 0.333,
-     "fga": 15
+     "share": 0.0,
+     "fg_pct": null,
+     "fga": 0
     },
     "arc3": {
-     "share": 0.208,
-     "fg_pct": 0.25,
-     "fga": 16
+     "share": 0.013,
+     "fg_pct": 1.0,
+     "fga": 1
     }
    },
    "shot_types": {
-    "layup": {
-     "share": 0.403,
-     "fg_pct": 0.548
+    "hook": {
+     "share": 0.372,
+     "fg_pct": 0.379
     },
-    "jumper": {
-     "share": 0.351,
-     "fg_pct": 0.333
+    "layup": {
+     "share": 0.282,
+     "fg_pct": 0.636
+    },
+    "dunk": {
+     "share": 0.205,
+     "fg_pct": 0.938
     },
     "tip": {
-     "share": 0.065,
-     "fg_pct": 0.6
-    },
-    "pullup": {
-     "share": 0.065,
-     "fg_pct": 0.0
+     "share": 0.128,
+     "fg_pct": 0.5
     }
    },
-   "pid": 4997536,
-   "player": "Gui Santos",
-   "team": "GSW",
-   "games": 14
+   "pid": 4600663,
+   "player": "Zach Edey",
+   "team": "MEM",
+   "games": 13
   },
   {
    "fga": 77,
@@ -22181,56 +22125,60 @@
    "games": 16
   },
   {
-   "fga": 76,
-   "pts_per_shot": 0.829,
-   "xpts_per_shot": 1.032,
-   "shot_making": -0.203,
-   "assisted_share": 0.5,
+   "fga": 77,
+   "pts_per_shot": 0.922,
+   "xpts_per_shot": 1.042,
+   "shot_making": -0.12,
+   "assisted_share": 0.645,
    "zones": {
     "rim": {
-     "share": 0.145,
-     "fg_pct": 0.727,
-     "fga": 11
-    },
-    "paint": {
-     "share": 0.263,
-     "fg_pct": 0.3,
+     "share": 0.26,
+     "fg_pct": 0.6,
      "fga": 20
     },
+    "paint": {
+     "share": 0.338,
+     "fg_pct": 0.385,
+     "fga": 26
+    },
     "mid": {
-     "share": 0.079,
-     "fg_pct": 0.167,
-     "fga": 6
+     "share": 0.0,
+     "fg_pct": null,
+     "fga": 0
     },
     "corner3": {
-     "share": 0.145,
-     "fg_pct": 0.091,
-     "fga": 11
+     "share": 0.195,
+     "fg_pct": 0.333,
+     "fga": 15
     },
     "arc3": {
-     "share": 0.368,
-     "fg_pct": 0.357,
-     "fga": 28
+     "share": 0.208,
+     "fg_pct": 0.25,
+     "fga": 16
     }
    },
    "shot_types": {
-    "jumper": {
-     "share": 0.395,
-     "fg_pct": 0.267
-    },
     "layup": {
-     "share": 0.263,
-     "fg_pct": 0.45
+     "share": 0.403,
+     "fg_pct": 0.548
+    },
+    "jumper": {
+     "share": 0.351,
+     "fg_pct": 0.333
+    },
+    "tip": {
+     "share": 0.065,
+     "fg_pct": 0.6
     },
     "pullup": {
-     "share": 0.25,
-     "fg_pct": 0.263
+     "share": 0.065,
+     "fg_pct": 0.0
     }
    },
-   "pid": 4432165,
-   "player": "Jalen Suggs",
-   "team": "ORL",
-   "games": 8
+   "pid": 4997536,
+   "player": "Gui Santos",
+   "team": "GSW",
+   "games": 14
   },
   {
    "fga": 76,
@@ -22283,6 +22231,58 @@
    "player": "Luka Garza",
    "team": "BOS",
    "games": 17
+  },
+  {
+   "fga": 76,
+   "pts_per_shot": 0.829,
+   "xpts_per_shot": 1.032,
+   "shot_making": -0.203,
+   "assisted_share": 0.5,
+   "zones": {
+    "rim": {
+     "share": 0.145,
+     "fg_pct": 0.727,
+     "fga": 11
+    },
+    "paint": {
+     "share": 0.263,
+     "fg_pct": 0.3,
+     "fga": 20
+    },
+    "mid": {
+     "share": 0.079,
+     "fg_pct": 0.167,
+     "fga": 6
+    },
+    "corner3": {
+     "share": 0.145,
+     "fg_pct": 0.091,
+     "fga": 11
+    },
+    "arc3": {
+     "share": 0.368,
+     "fg_pct": 0.357,
+     "fga": 28
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.395,
+     "fg_pct": 0.267
+    },
+    "layup": {
+     "share": 0.263,
+     "fg_pct": 0.45
+    },
+    "pullup": {
+     "share": 0.25,
+     "fg_pct": 0.263
+    }
+   },
+   "pid": 4432165,
+   "player": "Jalen Suggs",
+   "team": "ORL",
+   "games": 8
   },
   {
    "fga": 76,
@@ -22510,6 +22510,58 @@
   },
   {
    "fga": 73,
+   "pts_per_shot": 1.274,
+   "xpts_per_shot": 1.056,
+   "shot_making": 0.218,
+   "assisted_share": 0.882,
+   "zones": {
+    "rim": {
+     "share": 0.082,
+     "fg_pct": 0.667,
+     "fga": 6
+    },
+    "paint": {
+     "share": 0.137,
+     "fg_pct": 0.4,
+     "fga": 10
+    },
+    "mid": {
+     "share": 0.041,
+     "fg_pct": 0.333,
+     "fga": 3
+    },
+    "corner3": {
+     "share": 0.411,
+     "fg_pct": 0.5,
+     "fga": 30
+    },
+    "arc3": {
+     "share": 0.329,
+     "fg_pct": 0.417,
+     "fga": 24
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.726,
+     "fg_pct": 0.491
+    },
+    "layup": {
+     "share": 0.137,
+     "fg_pct": 0.4
+    },
+    "pullup": {
+     "share": 0.096,
+     "fg_pct": 0.429
+    }
+   },
+   "pid": 2581018,
+   "player": "Kentavious Caldwell-Pope",
+   "team": "PHI",
+   "games": 17
+  },
+  {
+   "fga": 73,
    "pts_per_shot": 0.89,
    "xpts_per_shot": 1.024,
    "shot_making": -0.134,
@@ -22615,58 +22667,6 @@
    "player": "Max Strus",
    "team": "LAC",
    "games": 9
-  },
-  {
-   "fga": 73,
-   "pts_per_shot": 1.274,
-   "xpts_per_shot": 1.056,
-   "shot_making": 0.218,
-   "assisted_share": 0.882,
-   "zones": {
-    "rim": {
-     "share": 0.082,
-     "fg_pct": 0.667,
-     "fga": 6
-    },
-    "paint": {
-     "share": 0.137,
-     "fg_pct": 0.4,
-     "fga": 10
-    },
-    "mid": {
-     "share": 0.041,
-     "fg_pct": 0.333,
-     "fga": 3
-    },
-    "corner3": {
-     "share": 0.411,
-     "fg_pct": 0.5,
-     "fga": 30
-    },
-    "arc3": {
-     "share": 0.329,
-     "fg_pct": 0.417,
-     "fga": 24
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.726,
-     "fg_pct": 0.491
-    },
-    "layup": {
-     "share": 0.137,
-     "fg_pct": 0.4
-    },
-    "pullup": {
-     "share": 0.096,
-     "fg_pct": 0.429
-    }
-   },
-   "pid": 2581018,
-   "player": "Kentavious Caldwell-Pope",
-   "team": "PHI",
-   "games": 17
   },
   {
    "fga": 72,
@@ -22778,58 +22778,6 @@
   },
   {
    "fga": 71,
-   "pts_per_shot": 0.958,
-   "xpts_per_shot": 1.166,
-   "shot_making": -0.208,
-   "assisted_share": 0.857,
-   "zones": {
-    "rim": {
-     "share": 0.296,
-     "fg_pct": 0.667,
-     "fga": 21
-    },
-    "paint": {
-     "share": 0.042,
-     "fg_pct": 0.667,
-     "fga": 3
-    },
-    "mid": {
-     "share": 0.028,
-     "fg_pct": 0.0,
-     "fga": 2
-    },
-    "corner3": {
-     "share": 0.394,
-     "fg_pct": 0.321,
-     "fga": 28
-    },
-    "arc3": {
-     "share": 0.239,
-     "fg_pct": 0.176,
-     "fga": 17
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.634,
-     "fg_pct": 0.267
-    },
-    "layup": {
-     "share": 0.211,
-     "fg_pct": 0.6
-    },
-    "dunk": {
-     "share": 0.085,
-     "fg_pct": 1.0
-    }
-   },
-   "pid": 4683689,
-   "player": "Jordan Walsh",
-   "team": "BOS",
-   "games": 17
-  },
-  {
-   "fga": 71,
    "pts_per_shot": 0.944,
    "xpts_per_shot": 1.102,
    "shot_making": -0.158,
@@ -22879,6 +22827,58 @@
    "player": "GG Jackson",
    "team": "MEM",
    "games": 12
+  },
+  {
+   "fga": 71,
+   "pts_per_shot": 0.958,
+   "xpts_per_shot": 1.166,
+   "shot_making": -0.208,
+   "assisted_share": 0.857,
+   "zones": {
+    "rim": {
+     "share": 0.296,
+     "fg_pct": 0.667,
+     "fga": 21
+    },
+    "paint": {
+     "share": 0.042,
+     "fg_pct": 0.667,
+     "fga": 3
+    },
+    "mid": {
+     "share": 0.028,
+     "fg_pct": 0.0,
+     "fga": 2
+    },
+    "corner3": {
+     "share": 0.394,
+     "fg_pct": 0.321,
+     "fga": 28
+    },
+    "arc3": {
+     "share": 0.239,
+     "fg_pct": 0.176,
+     "fga": 17
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.634,
+     "fg_pct": 0.267
+    },
+    "layup": {
+     "share": 0.211,
+     "fg_pct": 0.6
+    },
+    "dunk": {
+     "share": 0.085,
+     "fg_pct": 1.0
+    }
+   },
+   "pid": 4683689,
+   "player": "Jordan Walsh",
+   "team": "BOS",
+   "games": 17
   },
   {
    "fga": 71,
@@ -23298,19 +23298,75 @@
      "share": 0.176,
      "fg_pct": 0.5
     },
-    "hook": {
-     "share": 0.074,
-     "fg_pct": 0.4
-    },
     "fadeaway": {
      "share": 0.074,
      "fg_pct": 0.0
+    },
+    "hook": {
+     "share": 0.074,
+     "fg_pct": 0.4
     }
    },
    "pid": 6585,
    "player": "Andre Drummond",
    "team": "NYK",
    "games": 17
+  },
+  {
+   "fga": 67,
+   "pts_per_shot": 1.06,
+   "xpts_per_shot": 1.032,
+   "shot_making": 0.028,
+   "assisted_share": 0.68,
+   "zones": {
+    "rim": {
+     "share": 0.06,
+     "fg_pct": 0.25,
+     "fga": 4
+    },
+    "paint": {
+     "share": 0.104,
+     "fg_pct": 0.429,
+     "fga": 7
+    },
+    "mid": {
+     "share": 0.119,
+     "fg_pct": 0.0,
+     "fga": 8
+    },
+    "corner3": {
+     "share": 0.343,
+     "fg_pct": 0.435,
+     "fga": 23
+    },
+    "arc3": {
+     "share": 0.373,
+     "fg_pct": 0.44,
+     "fga": 25
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.552,
+     "fg_pct": 0.351
+    },
+    "pullup": {
+     "share": 0.179,
+     "fg_pct": 0.417
+    },
+    "stepback": {
+     "share": 0.104,
+     "fg_pct": 0.571
+    },
+    "layup": {
+     "share": 0.075,
+     "fg_pct": 0.2
+    }
+   },
+   "pid": 4845374,
+   "player": "Bub Carrington",
+   "team": "WAS",
+   "games": 15
   },
   {
    "fga": 67,
@@ -23411,62 +23467,6 @@
    "player": "Marcus Smart",
    "team": "HOU",
    "games": 11
-  },
-  {
-   "fga": 67,
-   "pts_per_shot": 1.06,
-   "xpts_per_shot": 1.032,
-   "shot_making": 0.028,
-   "assisted_share": 0.68,
-   "zones": {
-    "rim": {
-     "share": 0.06,
-     "fg_pct": 0.25,
-     "fga": 4
-    },
-    "paint": {
-     "share": 0.104,
-     "fg_pct": 0.429,
-     "fga": 7
-    },
-    "mid": {
-     "share": 0.119,
-     "fg_pct": 0.0,
-     "fga": 8
-    },
-    "corner3": {
-     "share": 0.343,
-     "fg_pct": 0.435,
-     "fga": 23
-    },
-    "arc3": {
-     "share": 0.373,
-     "fg_pct": 0.44,
-     "fga": 25
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.552,
-     "fg_pct": 0.351
-    },
-    "pullup": {
-     "share": 0.179,
-     "fg_pct": 0.417
-    },
-    "stepback": {
-     "share": 0.104,
-     "fg_pct": 0.571
-    },
-    "layup": {
-     "share": 0.075,
-     "fg_pct": 0.2
-    }
-   },
-   "pid": 4845374,
-   "player": "Bub Carrington",
-   "team": "WAS",
-   "games": 15
   },
   {
    "fga": 67,
@@ -23690,6 +23690,58 @@
   },
   {
    "fga": 62,
+   "pts_per_shot": 1.306,
+   "xpts_per_shot": 1.148,
+   "shot_making": 0.158,
+   "assisted_share": 0.806,
+   "zones": {
+    "rim": {
+     "share": 0.403,
+     "fg_pct": 0.72,
+     "fga": 25
+    },
+    "paint": {
+     "share": 0.242,
+     "fg_pct": 0.6,
+     "fga": 15
+    },
+    "mid": {
+     "share": 0.0,
+     "fg_pct": null,
+     "fga": 0
+    },
+    "corner3": {
+     "share": 0.129,
+     "fg_pct": 0.375,
+     "fga": 8
+    },
+    "arc3": {
+     "share": 0.226,
+     "fg_pct": 0.429,
+     "fga": 14
+    }
+   },
+   "shot_types": {
+    "layup": {
+     "share": 0.452,
+     "fg_pct": 0.536
+    },
+    "jumper": {
+     "share": 0.371,
+     "fg_pct": 0.435
+    },
+    "dunk": {
+     "share": 0.097,
+     "fg_pct": 1.0
+    }
+   },
+   "pid": 4684806,
+   "player": "Taylor Hendricks",
+   "team": "MEM",
+   "games": 12
+  },
+  {
+   "fga": 62,
    "pts_per_shot": 1.274,
    "xpts_per_shot": 1.159,
    "shot_making": 0.115,
@@ -23746,6 +23798,58 @@
   },
   {
    "fga": 62,
+   "pts_per_shot": 1.242,
+   "xpts_per_shot": 1.019,
+   "shot_making": 0.223,
+   "assisted_share": 0.724,
+   "zones": {
+    "rim": {
+     "share": 0.032,
+     "fg_pct": 0.5,
+     "fga": 2
+    },
+    "paint": {
+     "share": 0.129,
+     "fg_pct": 0.625,
+     "fga": 8
+    },
+    "mid": {
+     "share": 0.113,
+     "fg_pct": 0.571,
+     "fga": 7
+    },
+    "corner3": {
+     "share": 0.323,
+     "fg_pct": 0.5,
+     "fga": 20
+    },
+    "arc3": {
+     "share": 0.403,
+     "fg_pct": 0.36,
+     "fga": 25
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.661,
+     "fg_pct": 0.39
+    },
+    "pullup": {
+     "share": 0.113,
+     "fg_pct": 0.714
+    },
+    "layup": {
+     "share": 0.113,
+     "fg_pct": 0.571
+    }
+   },
+   "pid": 3037789,
+   "player": "Bogdan Bogdanovic",
+   "team": "HOU",
+   "games": 15
+  },
+  {
+   "fga": 62,
    "pts_per_shot": 0.968,
    "xpts_per_shot": 1.195,
    "shot_making": -0.227,
@@ -23799,110 +23903,6 @@
    "player": "Noa Essengue",
    "team": "CHI",
    "games": 14
-  },
-  {
-   "fga": 62,
-   "pts_per_shot": 1.306,
-   "xpts_per_shot": 1.148,
-   "shot_making": 0.158,
-   "assisted_share": 0.806,
-   "zones": {
-    "rim": {
-     "share": 0.403,
-     "fg_pct": 0.72,
-     "fga": 25
-    },
-    "paint": {
-     "share": 0.242,
-     "fg_pct": 0.6,
-     "fga": 15
-    },
-    "mid": {
-     "share": 0.0,
-     "fg_pct": null,
-     "fga": 0
-    },
-    "corner3": {
-     "share": 0.129,
-     "fg_pct": 0.375,
-     "fga": 8
-    },
-    "arc3": {
-     "share": 0.226,
-     "fg_pct": 0.429,
-     "fga": 14
-    }
-   },
-   "shot_types": {
-    "layup": {
-     "share": 0.452,
-     "fg_pct": 0.536
-    },
-    "jumper": {
-     "share": 0.371,
-     "fg_pct": 0.435
-    },
-    "dunk": {
-     "share": 0.097,
-     "fg_pct": 1.0
-    }
-   },
-   "pid": 4684806,
-   "player": "Taylor Hendricks",
-   "team": "MEM",
-   "games": 12
-  },
-  {
-   "fga": 62,
-   "pts_per_shot": 1.242,
-   "xpts_per_shot": 1.019,
-   "shot_making": 0.223,
-   "assisted_share": 0.724,
-   "zones": {
-    "rim": {
-     "share": 0.032,
-     "fg_pct": 0.5,
-     "fga": 2
-    },
-    "paint": {
-     "share": 0.129,
-     "fg_pct": 0.625,
-     "fga": 8
-    },
-    "mid": {
-     "share": 0.113,
-     "fg_pct": 0.571,
-     "fga": 7
-    },
-    "corner3": {
-     "share": 0.323,
-     "fg_pct": 0.5,
-     "fga": 20
-    },
-    "arc3": {
-     "share": 0.403,
-     "fg_pct": 0.36,
-     "fga": 25
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.661,
-     "fg_pct": 0.39
-    },
-    "pullup": {
-     "share": 0.113,
-     "fg_pct": 0.714
-    },
-    "layup": {
-     "share": 0.113,
-     "fg_pct": 0.571
-    }
-   },
-   "pid": 3037789,
-   "player": "Bogdan Bogdanovic",
-   "team": "HOU",
-   "games": 15
   },
   {
    "fga": 62,
@@ -24006,54 +24006,6 @@
   },
   {
    "fga": 62,
-   "pts_per_shot": 0.984,
-   "xpts_per_shot": 1.022,
-   "shot_making": -0.038,
-   "assisted_share": 0.84,
-   "zones": {
-    "rim": {
-     "share": 0.048,
-     "fg_pct": 1.0,
-     "fga": 3
-    },
-    "paint": {
-     "share": 0.306,
-     "fg_pct": 0.526,
-     "fga": 19
-    },
-    "mid": {
-     "share": 0.016,
-     "fg_pct": 1.0,
-     "fga": 1
-    },
-    "corner3": {
-     "share": 0.323,
-     "fg_pct": 0.45,
-     "fga": 20
-    },
-    "arc3": {
-     "share": 0.306,
-     "fg_pct": 0.105,
-     "fga": 19
-    }
-   },
-   "shot_types": {
-    "jumper": {
-     "share": 0.629,
-     "fg_pct": 0.308
-    },
-    "layup": {
-     "share": 0.161,
-     "fg_pct": 0.5
-    }
-   },
-   "pid": 4278572,
-   "player": "Jamal Cain",
-   "team": "ORL",
-   "games": 13
-  },
-  {
-   "fga": 62,
    "pts_per_shot": 1.194,
    "xpts_per_shot": 0.991,
    "shot_making": 0.203,
@@ -24107,6 +24059,106 @@
    "player": "Tyrese Haliburton",
    "team": "IND",
    "games": 4
+  },
+  {
+   "fga": 62,
+   "pts_per_shot": 0.984,
+   "xpts_per_shot": 1.022,
+   "shot_making": -0.038,
+   "assisted_share": 0.84,
+   "zones": {
+    "rim": {
+     "share": 0.048,
+     "fg_pct": 1.0,
+     "fga": 3
+    },
+    "paint": {
+     "share": 0.306,
+     "fg_pct": 0.526,
+     "fga": 19
+    },
+    "mid": {
+     "share": 0.016,
+     "fg_pct": 1.0,
+     "fga": 1
+    },
+    "corner3": {
+     "share": 0.323,
+     "fg_pct": 0.45,
+     "fga": 20
+    },
+    "arc3": {
+     "share": 0.306,
+     "fg_pct": 0.105,
+     "fga": 19
+    }
+   },
+   "shot_types": {
+    "jumper": {
+     "share": 0.629,
+     "fg_pct": 0.308
+    },
+    "layup": {
+     "share": 0.161,
+     "fg_pct": 0.5
+    }
+   },
+   "pid": 4278572,
+   "player": "Jamal Cain",
+   "team": "ORL",
+   "games": 13
+  },
+  {
+   "fga": 61,
+   "pts_per_shot": 1.082,
+   "xpts_per_shot": 1.092,
+   "shot_making": -0.01,
+   "assisted_share": 0.594,
+   "zones": {
+    "rim": {
+     "share": 0.492,
+     "fg_pct": 0.6,
+     "fga": 30
+    },
+    "paint": {
+     "share": 0.328,
+     "fg_pct": 0.5,
+     "fga": 20
+    },
+    "mid": {
+     "share": 0.049,
+     "fg_pct": 0.667,
+     "fga": 3
+    },
+    "corner3": {
+     "share": 0.049,
+     "fg_pct": 0.667,
+     "fga": 3
+    },
+    "arc3": {
+     "share": 0.082,
+     "fg_pct": 0.0,
+     "fga": 5
+    }
+   },
+   "shot_types": {
+    "layup": {
+     "share": 0.393,
+     "fg_pct": 0.542
+    },
+    "tip": {
+     "share": 0.23,
+     "fg_pct": 0.571
+    },
+    "jumper": {
+     "share": 0.164,
+     "fg_pct": 0.5
+    }
+   },
+   "pid": 4277848,
+   "player": "Marvin Bagley III",
+   "team": "DEN",
+   "games": 14
   },
   {
    "fga": 61,
@@ -24163,58 +24215,6 @@
    "player": "Jabari Walker",
    "team": "PHI",
    "games": 12
-  },
-  {
-   "fga": 61,
-   "pts_per_shot": 1.082,
-   "xpts_per_shot": 1.092,
-   "shot_making": -0.01,
-   "assisted_share": 0.594,
-   "zones": {
-    "rim": {
-     "share": 0.492,
-     "fg_pct": 0.6,
-     "fga": 30
-    },
-    "paint": {
-     "share": 0.328,
-     "fg_pct": 0.5,
-     "fga": 20
-    },
-    "mid": {
-     "share": 0.049,
-     "fg_pct": 0.667,
-     "fga": 3
-    },
-    "corner3": {
-     "share": 0.049,
-     "fg_pct": 0.667,
-     "fga": 3
-    },
-    "arc3": {
-     "share": 0.082,
-     "fg_pct": 0.0,
-     "fga": 5
-    }
-   },
-   "shot_types": {
-    "layup": {
-     "share": 0.393,
-     "fg_pct": 0.542
-    },
-    "tip": {
-     "share": 0.23,
-     "fg_pct": 0.571
-    },
-    "jumper": {
-     "share": 0.164,
-     "fg_pct": 0.5
-    }
-   },
-   "pid": 4277848,
-   "player": "Marvin Bagley III",
-   "team": "DEN",
-   "games": 14
   },
   {
    "fga": 60,

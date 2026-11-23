@@ -136,6 +136,10 @@ def main(argv=None):
         rosters = sources.fetch_rosters()
         injuries = sources.fetch_injuries()
         kalshi = sources.fetch_kalshi()
+        props = sources.fetch_kalshi_props()
+        log["kalshi_props"] = {"error": props.get("error"), "ladders": len(props.get("ladders", [])),
+                               "with_main_line": sum(1 for l_ in props.get("ladders", []) if l_.get("main")),
+                               "diagnostics": props.get("diagnostics")}
     else:
         rosters, injuries, kalshi = sources.load_rosters(), sources.load_injuries(), sources.load_kalshi()
     log["sources"] = {

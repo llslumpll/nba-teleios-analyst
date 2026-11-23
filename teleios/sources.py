@@ -231,3 +231,89 @@ def fetch_kalshi() -> dict:
 
 def load_kalshi() -> dict:
     return _load(KALSHI_PATH, {"fetched_at": None, "games": []})
+
+
+# --- Kalshi player prop ladders ---------------------------------------------
+# Each rung "N+" (e.g. "Ty Jerome: 8+ assists") is the same bet as OVER N-0.5.
+# The ladder's main line is the tightly quoted rung priced nearest 50%, and
+# only rungs whose OVER chance is between 25% and 80% count (Prop Edge's rule).
+
+PROP_SERIES = {"KXNBAPTS": "pts", "KXNBAREB": "reb", "KXNBAAST": "ast", "KXNBA3PT": "fg3m", "KXNBAPRA": "pra"}
+PROPS_PATH = data.DATA / "kalshi_props.json"
+_RUNG_RE = re.compile(r"^(?P<name>.+?)(?::|\s+-)?\s+(?P<n>\d+)\+")
+
+
+def norm_name(s: str | None) -> str:
+    import unicodedata
+    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+    s = re.sub(r"[.'`]", "", s)
+    s = re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", s)
+    return re.sub(r"[^a-z]+", " ", s).strip()
+
+
+def _rung(m: dict):
+    n = _num(m.get("floor_strike"))
+    n = None if n is None else (int(n) if float(n).is_integer() else int(n + 0.5))
+    tail = (m.get("ticker") or "").rsplit("-", 1)[-1]
+    if n is None and tail.isdigit():
+        n = int(tail)
+    for f in ("yes_sub_title", "title", "subtitle"):
+        mm = _RUNG_RE.match((m.get(f) or "").strip())
+        if mm:
+            name = re.sub(r"^will\s+", "", mm.group("name").strip(), flags=re.I)
+            return name, (n if n is not None else int(mm.group("n")))
+    return None, n
+
+
+def fetch_kalshi_props() -> dict:
+    empty = {"fetched_at": None, "ladders": []}
+    try:
+        ladders: dict = {}
+        diag = {}
+        for series, stat in PROP_SERIES.items():
+            events, cursor = [], None
+            for _ in range(10):
+                p = {"series_ticker": series, "status": "open", "limit": 200, "with_nested_markets": "true"}
+                if cursor:
+                    p["cursor"] = cursor
+                d = _get("/events", p)
+                events += d.get("events") or []
+                cursor = d.get("cursor")
+                if not cursor or not d.get("events"):
+                    break
+            n_m = 0
+            for ev in events:
+                t = parse_event(ev.get("event_ticker"))
+                if not t:
+                    continue
+                away, home, day = t
+                mk = ev.get("markets")
+                if mk is None:
+                    mk = (_get("/markets", {"event_ticker": ev["event_ticker"], "status": "open", "limit": 1000}) or {}).get("markets") or []
+                    time.sleep(0.25)
+                for m in mk:
+                    name, n = _rung(m)
+                    if not name or n is None:
+                        continue
+                    bid, ask, mid = _prices(m)
+                    key = (norm_name(name), stat, day, home, away)
+                    lad = ladders.setdefault(key, {"player": name, "stat": stat, "date": day, "home": home, "away": away, "rungs": []})
+                    lad["rungs"].append({"n": n, "line": n - 0.5, "bid": bid, "ask": ask, "mid": mid})
+                    n_m += 1
+            diag[series] = f"{len(events)} events, {n_m} rungs"
+            time.sleep(0.3)
+        out_l = []
+        for lad in ladders.values():
+            lad["rungs"].sort(key=lambda r: r["n"])
+            ok = [r for r in lad["rungs"] if r["mid"] is not None and 0.25 <= r["mid"] <= 0.80]
+            lad["main"] = min(ok, key=lambda r: abs(r["mid"] - 0.5)) if ok else None
+            out_l.append(lad)
+        out = {"fetched_at": data.now_utc(), "error": None, "diagnostics": diag, "ladders": out_l}
+        PROPS_PATH.write_text(json.dumps(out, indent=0))
+        return out
+    except Exception as e:  # noqa: BLE001
+        return _keep_old(PROPS_PATH, empty, e)
+
+
+def load_kalshi_props() -> dict:
+    return _load(PROPS_PATH, {"fetched_at": None, "ladders": []})

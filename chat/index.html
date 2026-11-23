@@ -178,7 +178,7 @@ const TOOLS = [
      const sp = (D.shot_profiles.players || []).find(x => String(x.pid) === p.id) || null;
      const tr = D.tracking && D.tracking.players ? (D.tracking.players[p.name] || Object.entries(D.tracking.players).find(([n]) => n.toLowerCase() === p.name.toLowerCase())?.[1] || null) : null;
      return {player: p.name, rating: r, nba_tracking: tr, season_avg: avg(logs, 999), last5_avg: avg(logs, 5), shot_profile: sp, log_cols: D.player_logs.cols, game_log: logs, other_matches: m.length > 1 ? m.map(x => x.name).slice(0, 8) : undefined}; }},
-  {name: "player_projections", description: "Teleios's projected stat lines (if the player plays) for a date (ET, default today): minutes, points, rebounds, assists, threes, steals, blocks, turnovers, PRA, each with an 80% range, the player's season average for comparison, Questionable flag, and actual results once graded. Filter by team and/or player name. Ranges for steals/blocks are rough (mostly 0s and 1s).",
+  {name: "player_projections", description: "Teleios's projected stat lines (if the player plays) for a date (ET, default today): minutes, points, rebounds, assists, threes, steals, blocks, turnovers, PRA, each with an 80% range, the player's season average for comparison, Questionable flag, the Kalshi market's main line with its OVER chance next to Teleios's OVER chance at that same line (market.{stat}), and actual results once graded. Filter by team and/or player name. Ranges for steals/blocks are rough (mostly 0s and 1s).",
    inputSchema: {type: "object", properties: {date: {type: "string"}, team: {type: "string"}, player: {type: "string"}}},
    execute: ({date, team, player}) => { const P = D.player_projections || {}; const d = date || etDate(); const t = team ? teamCode(team) : null; const q = player ? String(player).toLowerCase() : null;
      const days = P[d] ? [d] : (q ? Object.keys(P).sort().reverse() : []);
@@ -205,7 +205,7 @@ const TOOLS = [
      if (!rows.length) return {note: "no such table", status: D.tracking.status};
      if (!stat) return {stats: Object.keys(rows[0]).filter(k => !["who", "team"].includes(k))};
      return {as_of: D.tracking.status && D.tracking.status.run_at, rows: rows.filter(r => r[stat] != null).sort((a, b) => ascending ? a[stat] - b[stat] : b[stat] - a[stat]).slice(0, limit)}; }},
-  {name: "scorecard", description: "How good Teleios has been. Games: live record, backfill of this season vs FanDuel closing line and Prop Edge, calibration, the 2025-26 backtest vs Elo. Players: live average miss per stat vs season averages, range coverage, and the 2025-26 player backtest vs Prop Edge's published numbers.",
+  {name: "scorecard", description: "How good Teleios has been. Games: live record, backfill of this season vs FanDuel closing line and Prop Edge, calibration, the 2025-26 backtest vs Elo. Players: live average miss per stat vs season averages, range coverage, Teleios vs Kalshi player lines (Brier on OVER, who was right when they disagreed), and the 2025-26 player backtest vs Prop Edge's published numbers.",
    inputSchema: {type: "object", properties: {}}, execute: () => D.scorecard},
   {name: "notebook", description: "Patterns notebook (repeated misses: confirmed / watching / faded, with the rule) and experiments run on the model (e.g. shot-luck adjustment, rejected).",
    inputSchema: {type: "object", properties: {}}, execute: () => ({notebook: D.notebook, experiments: D.experiments})},

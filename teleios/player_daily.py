@@ -16,7 +16,8 @@ import numpy as np
 import polars as pl
 
 from teleios import data
-from teleios.players import COMBOS, STATS, PlayerModel, PParams, interval
+from teleios.players import COMBOS, STATS, PlayerModel, PParams, chance_over, interval
+from teleios.sources import load_kalshi_props, norm_name
 
 DIR = data.DATA / "player_projections"
 PARAMS = data.DATA / "player_params.json"
@@ -105,11 +106,34 @@ def season_avgs(pg: pl.DataFrame, before: date) -> dict[int, dict]:
     return out
 
 
+MARKET_STATS = ("pts", "reb", "ast", "fg3m", "pra")
+
+
+def attach_market(players: list[dict], day: str, home: str, away: str, ladders: dict, var: dict) -> None:
+    """Kalshi's main line for each player stat, its price for OVER, and
+    Teleios's own chance of OVER at that same line."""
+    for p in players:
+        mk = {}
+        for s in MARKET_STATS:
+            lad = ladders.get((norm_name(p["player"]), s, day, home, away))
+            if not lad or not lad.get("main"):
+                continue
+            line = lad["main"]["line"]
+            st = s if s in STATS else "pts"
+            mk[s] = {"line": line, "market_p_over": round(lad["main"]["mid"], 4),
+                     "teleios_p_over": round(chance_over(st, p["proj"][s], var[s], line), 4)}
+        if mk:
+            p["market"] = mk
+
+
 def update(games: pl.DataFrame, pg: pl.DataFrame, slate: list[dict], now) -> int:
     """Write/refresh projections for un-tipped games in the slate."""
     if not slate:
         return 0
     proj = project(games, pg, slate)
+    var = load_params().var
+    ladders = {(l_["player_key"] if "player_key" in l_ else norm_name(l_["player"]), l_["stat"], l_["date"], l_["home"], l_["away"]): l_
+               for l_ in load_kalshi_props().get("ladders", [])}
     n = 0
     by_day: dict[str, list] = {}
     for g in slate:
@@ -124,6 +148,7 @@ def update(games: pl.DataFrame, pg: pl.DataFrame, slate: list[dict], now) -> int
             players = proj.get(g["game_id"], [])
             for p in players:
                 p["season_avg"] = base.get(p["pid"])
+            attach_market(players, day, g["home"], g["away"], ladders, var)
             recs[k] = {"game_id": g["game_id"], "date": day, "home": g["home"], "away": g["away"],
                        "tip_utc": g["tip_utc"], "frozen_at": data.now_utc(), "locked": False, "players": players}
             n += len(players)
@@ -165,6 +190,8 @@ def grade(games: pl.DataFrame, pg: pl.DataFrame) -> int:
                 p["actual"] = {s: act[s] for s in SHOW}
                 p["actual_minutes"] = round(b["min"], 1)
                 p["in80"] = {s: (p["range80"][s][0] <= act[s] <= p["range80"][s][1]) for s in SHOW if s in p["range80"]}
+                for s, mk in (p.get("market") or {}).items():
+                    mk["went_over"] = act[s] > mk["line"]
                 n += 1
             r["graded"] = True
             r["locked"] = True
@@ -185,7 +212,7 @@ def scorecard() -> dict:
                     rows.append(p)
     if not rows:
         return {"player_games": 0}
-    out = {"player_games": len(rows), "stats": {}}
+    out = {"player_games": len(rows), "stats": {}, "vs_kalshi": vs_market()}
     for s in SHOW:
         t = [abs(p["proj"][s] - p["actual"][s]) for p in rows]
         b = [abs(p["season_avg"][s] - p["actual"][s]) for p in rows if p.get("season_avg")]
@@ -195,4 +222,36 @@ def scorecard() -> dict:
                            "season_avg_miss_same_players": round(float(np.mean(b)), 3) if b else None,
                            "teleios_on_those_players": round(float(np.mean(bt)), 3) if bt else None,
                            "in_80pct_range": round(float(np.mean(cov)), 3) if cov else None}
+    return out
+
+
+def vs_market() -> dict:
+    """On every graded player stat with a Kalshi main line: whose chance of
+    OVER was more accurate (Brier), and when Teleios and the market disagreed
+    on the side, who was right."""
+    import math
+    rows = []
+    for f in sorted(DIR.glob("*.json")) if DIR.exists() else []:
+        for r in json.loads(f.read_text()).values():
+            for p in r.get("players", []):
+                for s, mk in (p.get("market") or {}).items():
+                    if "went_over" in mk:
+                        rows.append((s, mk))
+    out = {"note": "Kalshi main line (tight quote nearest 50%); OVER chance at that line. Brier: lower is better."}
+    for s in ("all",) + MARKET_STATS:
+        rr = [mk for st, mk in rows if s in ("all", st)]
+        if not rr:
+            continue
+        y = np.array([1.0 if mk["went_over"] else 0.0 for mk in rr])
+        t = np.array([mk["teleios_p_over"] for mk in rr])
+        m = np.array([mk["market_p_over"] for mk in rr])
+        diff = (t - y) ** 2 - (m - y) ** 2
+        se = diff.std(ddof=1) / math.sqrt(len(diff)) if len(diff) > 1 else float("nan")
+        z = float(diff.mean() / se) if se and se == se and se > 0 else 0.0
+        dis = [(tt, mm, yy) for tt, mm, yy in zip(t, m, y) if (tt >= 0.5) != (mm >= 0.5)]
+        out[s] = {"lines": len(rr), "teleios_brier": round(float(((t - y) ** 2).mean()), 4),
+                  "market_brier": round(float(((m - y) ** 2).mean()), 4), "z": round(z, 2),
+                  "verdict": "Teleios ahead" if z < -2 else "market ahead" if z > 2 else "too close to call yet",
+                  "over_rate": round(float(y.mean()), 3),
+                  "disagreements": len(dis), "teleios_right_when_disagreeing": sum(1 for tt, mm, yy in dis if (tt >= 0.5) == (yy == 1.0))}
     return out
