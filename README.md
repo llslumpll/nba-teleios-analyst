@@ -11,7 +11,7 @@ A personal NBA analytics lab. It predicts every game's winner and margin, freeze
 | Data | ESPN schedules and box scores (sportsdataverse), ESPN injuries and rosters, Kalshi game odds | `teleios/data.py`, `teleios/sources.py` |
 | Model | A team's strength is the sum of the players who will actually play, plus home court, rest, travel and altitude | `teleios/model.py` |
 | Daily run | Refresh, grade, re-fit, predict today and tomorrow, lock at tip-off | `teleios/daily.py`, `.github/workflows/daily.yml` |
-| Scorecard | Accuracy, Brier score, log loss, calibration, and Teleios vs the market | `teleios/scorecard.py` → `data/scorecard.json` |
+| Scorecard | Accuracy, Brier score, log loss, calibration, Teleios vs the market, record against the spread (Kalshi or ESPN line), and a log of every graded player projection with its over/under calls | `teleios/scorecard.py` → `data/scorecard.json` |
 | Notebook | Repeated misses that hold up in both halves of the games | `teleios/notebook.py` → `data/notebook.json` |
 
 ## The game model

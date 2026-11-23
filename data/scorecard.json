@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 23:24 UTC",
+ "updated": "2026-11-23 23:45 UTC",
  "overall": {
   "games": 0
  },
@@ -13,6 +13,9 @@
    "games": 0
   },
   "margin": {
+   "games": 0
+  },
+  "spread": {
    "games": 0
   },
   "last_30_days": {
@@ -261,8 +264,43 @@
    "actual_pick_margin",
    "margin_miss",
    "hit",
-   "market_pick_chance"
+   "market_pick_chance",
+   "spread_pick",
+   "spread_line",
+   "spread_result",
+   "home_score",
+   "away_score"
   ],
   "rows": []
+ },
+ "player_log": {
+  "cols": [
+   "date",
+   "player",
+   "team",
+   "opp",
+   "proj_min",
+   "min",
+   "pts",
+   "pts_a",
+   "reb",
+   "reb_a",
+   "ast",
+   "ast_a",
+   "fg3m",
+   "fg3m_a",
+   "pra",
+   "pra_a",
+   "in80",
+   "calls"
+  ],
+  "rows": [],
+  "summary": {
+   "player_games": 0,
+   "lines_called": 0,
+   "calls_right": 0,
+   "calls_by_stat": {}
+  },
+  "note": "calls = [stat, line, o/u, Teleios over chance, market over chance, 1 if right]; in80 = stats (of 5) inside the 80% range"
  }
 }

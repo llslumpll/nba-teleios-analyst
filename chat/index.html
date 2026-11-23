@@ -152,6 +152,7 @@ button.grow:hover{background:var(--panel)}
 .chip.dn,.chip.un,.chip.no{background:light-dark(#fde6e8,#3a1518);color:light-dark(#a3122a,#ff8a96)}
 .chip.ok,.chip.no{font-size:13px}
 .chip.eq{background:var(--track);color:var(--mute)}
+#resultsBody .chip{min-height:0;display:inline-block;margin:2px 4px 2px 0;cursor:default}
 .ptab td .pv{font-size:16px}
 .toggles{display:flex;flex-wrap:wrap;gap:6px 14px;align-self:center}
 .tg{flex-direction:row!important;align-items:center;gap:6px!important;font-size:14px!important;color:var(--ink)!important;min-height:44px}
@@ -255,12 +256,13 @@ button.grow:hover{background:var(--panel)}
 <div class="app">
   <header>
     <div><h1><span class="t">Teleios</span> vs <span class="b">the bettors</span></h1><div class="status" id="status">Loading data…</div></div>
-    <nav class="tabs" aria-label="Views"><a href="#board" id="tBoard">Board</a><a href="#game" id="tGame">Game</a><a href="#edges" id="tEdges">Edges</a><a href="#players" id="tPlayers">Players</a><a href="#health" id="tHealth">Model health</a><a href="#chat" id="tChat">Chat</a></nav>
+    <nav class="tabs" aria-label="Views"><a href="#board" id="tBoard">Board</a><a href="#game" id="tGame">Game</a><a href="#edges" id="tEdges">Edges</a><a href="#players" id="tPlayers">Players</a><a href="#results" id="tResults">Results</a><a href="#health" id="tHealth">Model health</a><a href="#chat" id="tChat">Chat</a></nav>
   </header>
   <section id="board" class="view" aria-label="Picks board"><div class="bw" id="boardBody"><p class="sub">Loading…</p></div></section>
   <section id="gameView" class="view" aria-label="Game breakdown" hidden><div class="bw" id="gameBody"></div></section>
   <section id="edgesView" class="view" aria-label="Edges" hidden><div class="bw" id="edgesBody"></div></section>
   <section id="playersView" class="view" aria-label="All player projections" hidden><div class="bw" id="playersBody"></div></section>
+  <section id="resultsView" class="view" aria-label="Results: every pick graded" hidden><div class="bw" id="resultsBody"></div></section>
   <section id="healthView" class="view" aria-label="Model health" hidden><div class="bw" id="healthBody"></div></section>
   <main id="chatView" hidden>
     <section class="chat">
@@ -394,6 +396,12 @@ const TOOLS = [
      return {as_of: D.tracking.status && D.tracking.status.run_at, rows: rows.filter(r => r[stat] != null).sort((a, b) => ascending ? a[stat] - b[stat] : b[stat] - a[stat]).slice(0, limit)}; }},
   {name: "scorecard", description: "How good Teleios has been. Games: live record, backfill of this season vs FanDuel closing line and Prop Edge, calibration, the 2025-26 backtest vs Elo. Players: live average miss per stat vs season averages, range coverage, Teleios vs Kalshi player lines (Brier on OVER, who was right when they disagreed), and the 2025-26 player backtest vs Prop Edge's published numbers.",
    inputSchema: {type: "object", properties: {}}, execute: () => D.scorecard},
+  {name: "graded_player_lines", description: "Every graded live player projection: projected vs actual minutes, pts, reb, ast, 3PM, PRA, how many of the 5 landed in the 80% range, and Teleios's over/under call on each Kalshi line (right or wrong). Filter by player name, team or date. Also returns the overall over/under record.",
+   inputSchema: {type: "object", properties: {player: {type: "string"}, team: {type: "string"}, date: {type: "string"}, limit: {type: "number"}}},
+   execute: ({player, team, date, limit = 40}) => { const G = D.graded_players || {}; const t = team ? teamCode(team) : null; const q = (player || "").toLowerCase();
+     const rows = (G.rows || []).filter(r => (!q || r[1].toLowerCase().includes(q)) && (!t || r[2] === t) && (!date || r[0] === date)).slice(0, limit)
+       .map(r => Object.fromEntries((G.cols || []).map((c, i) => [c, r[i]])));
+     return {summary: G.summary, note: G.note, rows}; }},
   {name: "notebook", description: "Patterns notebook (repeated misses: confirmed / watching / faded, with the rule) and experiments run on the model (e.g. shot-luck adjustment, rejected).",
    inputSchema: {type: "object", properties: {}}, execute: () => ({notebook: D.notebook, experiments: D.experiments})},
   {name: "injuries", description: "Current ESPN injury report, optionally for one team.",
@@ -457,7 +465,7 @@ function scoreHTML() {
 }
 
 /* ---------- board ---------- */
-const VIEWS = {board: ["#board", "#tBoard"], game: ["#gameView", "#tGame"], edges: ["#edgesView", "#tEdges"], players: ["#playersView", "#tPlayers"], health: ["#healthView", "#tHealth"], chat: ["#chatView", "#tChat"]};
+const VIEWS = {board: ["#board", "#tBoard"], game: ["#gameView", "#tGame"], edges: ["#edgesView", "#tEdges"], players: ["#playersView", "#tPlayers"], results: ["#resultsView", "#tResults"], health: ["#healthView", "#tHealth"], chat: ["#chatView", "#tChat"]};
 function showView() {
   const v = VIEWS[location.hash.slice(1)] ? location.hash.slice(1) : "board";
   for (const [k, [sec, tab]] of Object.entries(VIEWS)) { $(sec).hidden = k !== v; const a = $(tab); if (k === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); }
@@ -465,6 +473,7 @@ function showView() {
   if (v === "players" && !$("#pq")) renderPlayers();
   if (v === "game") renderGame();
   if (v === "edges" && !$("#efilters")) renderEdges();
+  if (v === "results" && !$("#rq")) renderResults();
   if (v === "health" && !$("#healthBody").dataset.done) { $("#healthBody").innerHTML = healthHTML(); $("#healthBody").dataset.done = "1"; }
   const sec = $(VIEWS[v][0]); if (sec.scrollTo) sec.scrollTo(0, 0);
 }
@@ -738,6 +747,46 @@ function drawEdges(all) {
   const bk = [0, 5, 10, 15, 20, 25, 30].map((lo, i, a) => ({lab: lo < 30 ? `${lo}–${lo + 5}` : "30+", n: rows.filter(x => x.gap >= lo && (lo === 30 || x.gap < lo + 5)).length}));
   const m = Math.max(1, ...bk.map(b => b.n));
   $("#ehist").innerHTML = bk.map(b => `<div style="display:grid;grid-template-columns:52px minmax(0,1fr) 34px;gap:8px;align-items:center;font-size:13px;font-variant-numeric:tabular-nums"><span>${b.lab}</span><div style="height:10px;background:var(--track);border-radius:3px"><div style="height:10px;border-radius:3px;background:var(--ink);width:${W(b.n / m * 100)}"></div></div><span style="text-align:right">${b.n}</span></div>`).join("");
+}
+
+/* ---------- results: every graded pick ---------- */
+const RS = {day: "", q: "", n: 60};
+function rec(w, l, p) { return `${w}–${l}${p ? "–" + p : ""}`; }
+function renderResults() {
+  const s = D.scorecard || {}; const L = (s.game_log || {}).rows || []; const G = D.graded_players || {}; const PR = G.rows || []; const sm = G.summary || {};
+  const days = [...new Set([...L.map(r => r[0]), ...PR.map(r => r[0])])].sort().reverse();
+  const gl = RS.day ? L.filter(r => r[0] === RS.day) : L; const pr = RS.day ? PR.filter(r => r[0] === RS.day) : PR;
+  const wW = gl.filter(r => r[8]).length, wL = gl.length - wW;
+  const sp = gl.filter(r => r[12]); const sW = sp.filter(r => r[12] === "win").length, sL = sp.filter(r => r[12] === "loss").length, sP = sp.length - sW - sL;
+  const calls = pr.flatMap(r => r[17] || []); const cR = calls.filter(c => c[5]).length;
+  const off = k => { const i = G.cols ? G.cols.indexOf(k) : -1; if (i < 0 || !pr.length) return null; return pr.reduce((a, r) => a + Math.abs(r[i] - r[i + 1]), 0) / pr.length; };
+  const in80 = pr.length ? pr.reduce((a, r) => a + r[16], 0) / (pr.length * 5) : null;
+  const ptsOff = off("pts");
+  const rate = (w, n) => n ? Math.round(w / n * 100) + "% right" : "nothing graded yet";
+  $("#resultsBody").innerHTML = `<div class="btop"><div><h2>Results</h2><div class="sub">Every real pick, locked before tip-off and checked against the final box score: who wins, the spread, and every player's stat line.</div></div>
+   <div class="pctl"><label>Day<select id="rday"><option value="">All days</option>${days.map(d => `<option value="${d}"${d === RS.day ? " selected" : ""}>${esc(niceDate(d))}</option>`).join("")}</select></label></div></div>
+  <div class="kv"><div><span>Who wins</span><b>${gl.length ? rec(wW, wL) : "–"}</b><span>${rate(wW, gl.length)}</span></div>
+   <div><span>Against the spread</span><b>${sp.length ? rec(sW, sL, sP) : "–"}</b><span>${sW + sL ? Math.round(sW / (sW + sL) * 100) + "% right · 52.4% beats the usual betting price" : "starts with games that have a line"}</span></div>
+   <div><span>Player over/under calls</span><b>${calls.length ? rec(cR, calls.length - cR) : "–"}</b><span>${rate(cR, calls.length)} on betting lines</span></div>
+   <div><span>Player points: off by</span><b>${ptsOff != null ? ptsOff.toFixed(1) : "–"}</b><span>${pr.length ? pr.length + " player-games · " + pct(in80) + " of stats inside the range" : "nothing graded yet"}</span></div></div>
+  <section class="sec"><h3>Games</h3><div class="small">Pick = who Teleios said would win. Spread = the side of the betting line Teleios's expected margin favoured.</div>
+   ${gl.length ? `<div style="overflow-x:auto"><table class="rt" style="min-width:720px"><tr><th>Date</th><th style="text-align:left">Game</th><th>Final</th><th>Pick</th><th>Chance</th><th>Winner</th><th>Expected</th><th>Actual</th><th>Spread pick</th><th>Spread</th></tr>${gl.map(r => `<tr><td>${esc(r[0].slice(5))}</td><td style="text-align:left">${esc(r[1])} @ ${esc(r[2])}</td><td>${r[13] != null ? `${r[14]}–${r[13]}` : "–"}</td><td><b>${esc(r[3])}</b></td><td>${pct(r[4])}</td><td><span class="chip ${r[8] ? "ok" : "no"}">${r[8] ? "✓" : "✗"}</span></td><td>${r[5] >= 0 ? "+" : ""}${r[5]}</td><td>${r[6] >= 0 ? "+" : ""}${r[6]}</td><td>${r[10] ? `${esc(r[10])} ${r[11] > 0 ? "+" : ""}${r[11]}` : '<span class="small">no line</span>'}</td><td>${r[12] ? `<span class="chip ${r[12] === "win" ? "ok" : r[12] === "loss" ? "no" : "eq"}">${r[12] === "win" ? "✓" : r[12] === "loss" ? "✗" : "push"}</span>` : "–"}</td></tr>`).join("")}</table></div>` : '<p class="small">No real games graded yet. The first ones are checked the morning after they\'re played.</p>'}</section>
+  <section class="sec"><h3>Every player projection</h3><div class="small">Projected → actual. Green call = Teleios's over/under on the betting line was right, red = wrong.</div>
+   <div class="pctl"><label>Player or team<input id="rq" type="search" value="${esc(RS.q)}" placeholder="e.g. Brunson or NYK" autocomplete="off"></label></div><div class="small" id="rcount"></div><div class="ptab" id="rptab"></div><div id="rmore"></div></section>`;
+  $("#rday").addEventListener("change", e => { RS.day = e.target.value; RS.n = 60; renderResults(); });
+  $("#rq").addEventListener("input", e => { RS.q = e.target.value; RS.n = 60; drawResultPlayers(pr); });
+  drawResultPlayers(pr);
+}
+function drawResultPlayers(pr) {
+  const q = RS.q.trim().toLowerCase(); const rows = q ? pr.filter(r => r[1].toLowerCase().includes(q) || (r[2] || "").toLowerCase() === q) : pr;
+  const cell = (p, a) => { const d = a - p; return `<td>${p}<span class="a ${Math.abs(d) < 0.5 ? "" : d > 0 ? "o" : "u"}">${a}</span></td>`; };
+  const SNm = {pts: "PTS", reb: "REB", ast: "AST", fg3m: "3PM", pra: "PRA"};
+  $("#rcount").textContent = pr.length ? `${rows.length} player-games` : "";
+  if (!pr.length) { $("#rptab").innerHTML = '<p class="small" style="padding:12px 0">No player lines graded yet. Every projected player shows up here the morning after his game.</p>'; $("#rmore").innerHTML = ""; return; }
+  const shown = rows.slice(0, RS.n);
+  $("#rptab").innerHTML = `<table><thead><tr><th>Player</th><th>Game</th><th>Min</th><th>PTS</th><th>REB</th><th>AST</th><th>3PM</th><th>PRA</th><th>In range</th><th style="text-align:left">Line calls</th></tr></thead><tbody>${shown.map(r => `<tr><td><b>${esc(r[1])}</b></td><td>${esc(r[0].slice(5))} ${esc(r[2])} v ${esc(r[3] || "")}</td>${cell(r[4], r[5])}${cell(r[6], r[7])}${cell(r[8], r[9])}${cell(r[10], r[11])}${cell(r[12], r[13])}${cell(r[14], r[15])}<td>${r[16]}/5</td><td style="text-align:left;white-space:normal">${(r[17] || []).map(c => `<span class="chip ${c[5] ? "ok" : "no"}" title="Teleios ${Math.round(c[3] * 100)}% over · bettors ${Math.round(c[4] * 100)}%">${SNm[c[0]] || c[0]} ${c[2] === "o" ? "o" : "u"}${c[1]} ${c[5] ? "✓" : "✗"}</span>`).join(" ") || '<span class="small">no line</span>'}</td></tr>`).join("")}</tbody></table>`;
+  $("#rmore").innerHTML = rows.length > RS.n ? `<button type="button" class="chip" id="rmorebtn" style="margin-top:10px">Show more (${rows.length - RS.n} left)</button>` : "";
+  const b = $("#rmorebtn"); if (b) b.addEventListener("click", () => { RS.n += 100; drawResultPlayers(pr); });
 }
 
 /* ---------- model health ---------- */

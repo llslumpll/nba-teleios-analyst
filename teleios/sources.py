@@ -229,6 +229,115 @@ def fetch_kalshi() -> dict:
         return _keep_old(KALSHI_PATH, empty, e)
 
 
+# --- point spreads ----------------------------------------------------------
+# Kalshi KXNBASPREAD: one market per "TEAM wins by over X.5". The main line is
+# the tightly quoted market priced nearest 50%. ESPN's scoreboard odds
+# ("MEM -3.5") are the fallback when Kalshi has no usable quote.
+SPREADS_PATH = data.DATA / "spreads.json"
+
+
+def _espn_spreads(days: list[str]) -> dict:
+    out = {}
+    for day in days:
+        try:
+            r = requests.get(f"{ESPN}/scoreboard", params={"dates": day.replace("-", "")}, timeout=20, headers=UA)
+            r.raise_for_status()
+            for ev in r.json().get("events", []):
+                comp = (ev.get("competitions") or [{}])[0]
+                side = {c.get("homeAway"): teams.canon((c.get("team") or {}).get("abbreviation"), "espn")
+                        for c in comp.get("competitors", [])}
+                home, away = side.get("home"), side.get("away")
+                odds = (comp.get("odds") or [{}])[0]
+                det = (odds.get("details") or "").strip()
+                if not home or not away or not det:
+                    continue
+                if det.upper().startswith("EVEN"):
+                    line = 0.0
+                else:
+                    m = re.match(r"^([A-Za-z]+)\s+([-+]?\d+(?:\.\d+)?)$", det)
+                    if not m:
+                        continue
+                    fav = teams.canon(m.group(1), "espn")
+                    v = float(m.group(2))
+                    if fav == home:
+                        line = v
+                    elif fav == away:
+                        line = -v
+                    else:
+                        continue
+                out[(day, home, away)] = {"date": day, "home": home, "away": away, "home_line": line,
+                                          "market_p_home_cover": None, "source": f"ESPN ({odds.get('provider', {}).get('name') or 'consensus'})"}
+        except Exception:  # noqa: BLE001
+            continue
+    return out
+
+
+def fetch_spreads(days: list[str]) -> dict:
+    """Main point spread for each game, from the home team's side
+    (home_line -4.5 = home favoured by 4.5), plus the market's chance the
+    home team covers when Kalshi quotes it."""
+    empty = {"fetched_at": None, "games": []}
+    try:
+        games, diag = {}, {}
+        try:
+            events, cursor = [], None
+            for _ in range(10):
+                p = {"series_ticker": "KXNBASPREAD", "status": "open", "limit": 200, "with_nested_markets": "true"}
+                if cursor:
+                    p["cursor"] = cursor
+                d = _get("/events", p)
+                events += d.get("events") or []
+                cursor = d.get("cursor")
+                if not cursor or not d.get("events"):
+                    break
+            for ev in events:
+                t = parse_event(ev.get("event_ticker"))
+                if not t:
+                    continue
+                away, home, day = t
+                mk = ev.get("markets")
+                if mk is None:
+                    mk = (_get("/markets", {"event_ticker": ev["event_ticker"], "limit": 200}) or {}).get("markets") or []
+                cands = []
+                for m in mk:
+                    tail = (m.get("ticker") or "").rsplit("-", 1)[-1]
+                    mm = re.match(r"^([A-Z]+?)(\d+)$", tail)
+                    if not mm:
+                        continue
+                    team = teams.canon(mm.group(1), "kalshi")
+                    strike = _num(m.get("floor_strike"))
+                    if strike is None:
+                        strike = int(mm.group(2)) - 0.5
+                    _, _, mid = _prices(m)
+                    if team in (home, away) and mid is not None and 0.2 <= mid <= 0.8:
+                        cands.append((abs(mid - 0.5), team, float(strike), mid))
+                if not cands:
+                    continue
+                _, team, strike, mid = min(cands)
+                if team == home:
+                    line, pc = -strike, mid
+                else:
+                    line, pc = strike, 1 - mid
+                games[(day, home, away)] = {"date": day, "home": home, "away": away, "home_line": line,
+                                            "market_p_home_cover": round(pc, 4), "source": "Kalshi", "event": ev.get("event_ticker")}
+            diag["kalshi"] = f"{len(events)} events, {len(games)} main lines"
+        except Exception as e:  # noqa: BLE001
+            diag["kalshi"] = f"failed: {type(e).__name__}: {str(e)[:120]}"
+        espn = _espn_spreads(days)
+        diag["espn"] = f"{len(espn)} lines"
+        for k, v in espn.items():
+            games.setdefault(k, v)
+        out = {"fetched_at": data.now_utc(), "error": None, "diagnostics": diag, "games": list(games.values())}
+        SPREADS_PATH.write_text(json.dumps(out, indent=1))
+        return out
+    except Exception as e:  # noqa: BLE001
+        return _keep_old(SPREADS_PATH, empty, e)
+
+
+def load_spreads() -> dict:
+    return _load(SPREADS_PATH, {"fetched_at": None, "games": []})
+
+
 def load_kalshi() -> dict:
     return _load(KALSHI_PATH, {"fetched_at": None, "games": []})
 

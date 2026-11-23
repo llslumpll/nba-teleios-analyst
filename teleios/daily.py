@@ -24,7 +24,7 @@ import polars as pl
 
 from teleios import data, notebook, pbp, player_daily, profiles, scorecard, sources, teams
 from teleios.backtest import offseason_before
-from teleios.model import Engine, Params, learn_box_beta
+from teleios.model import Engine, Params, learn_box_beta, phi
 
 ET = ZoneInfo("America/New_York")
 PRED_DIR = data.DATA / "predictions"
@@ -124,6 +124,15 @@ def grade(games: pl.DataFrame) -> int:
                            "margin_error": round(m - r["margin"], 1),   # + = home did better than projected
                            "margin_miss": round(abs(m - r["margin"]), 1),
                            "graded_at": data.now_utc()}
+            sp = r.get("spread")
+            if sp and sp.get("home_line") is not None:
+                cov = m + sp["home_line"]
+                home_res = "push" if cov == 0 else ("covered" if cov > 0 else "missed")
+                r["result"]["spread"] = {
+                    "home_line": sp["home_line"], "home": home_res,
+                    "pick": sp.get("pick"),
+                    "pick_result": (None if not sp.get("pick") else "push" if cov == 0 else
+                                    "win" if (cov > 0) == (sp["pick"] == r["home"]) else "loss")}
             r["locked"] = True
             changed = True
             n += 1
@@ -143,11 +152,16 @@ def main(argv=None):
         injuries = sources.fetch_injuries()
         kalshi = sources.fetch_kalshi()
         props = sources.fetch_kalshi_props()
+        _d0 = datetime.now(timezone.utc).astimezone(ET).date()
+        spreads = sources.fetch_spreads([str(_d0), str(_d0 + timedelta(days=1))])
+        log["spreads"] = {"error": spreads.get("error"), "games": len(spreads.get("games", [])),
+                          "diagnostics": spreads.get("diagnostics")}
         log["kalshi_props"] = {"error": props.get("error"), "ladders": len(props.get("ladders", [])),
                                "with_main_line": sum(1 for l_ in props.get("ladders", []) if l_.get("main")),
                                "diagnostics": props.get("diagnostics")}
     else:
         rosters, injuries, kalshi = sources.load_rosters(), sources.load_injuries(), sources.load_kalshi()
+        spreads = sources.load_spreads()
     log["sources"] = {
         "rosters": {"fetched_at": rosters.get("fetched_at"), "error": rosters.get("error"), "players": len(rosters.get("players", []))},
         "injuries": {"fetched_at": injuries.get("fetched_at"), "error": injuries.get("error"), "players": len(injuries.get("players", []))},
@@ -168,6 +182,7 @@ def main(argv=None):
     inj_by_pid = {p["pid"]: p for p in injuries.get("players", []) if p.get("pid")}
     inj_by_name = {(p.get("player") or "").lower(): p for p in injuries.get("players", [])}
     kal = {(g["date"], g["home"], g["away"]): g for g in kalshi.get("games", [])}
+    spr = {(g["date"], g["home"], g["away"]): g for g in spreads.get("games", [])}
 
     upcoming = games.filter(
         pl.col("date").is_in([today, today + timedelta(days=1)]) & ~pl.col("completed")
@@ -194,6 +209,21 @@ def main(argv=None):
             pick = g["home"] if ph >= 0.5 else g["away"]
             mk = kal.get((dkey, g["home"], g["away"]))
             prev = recs.get(k, {})
+            sp = spr.get((dkey, g["home"], g["away"]))
+            spread = None
+            if sp and sp.get("home_line") is not None:
+                hl_ = float(sp["home_line"])
+                if pr["margin"] + hl_ != 0:
+                    side = g["home"] if pr["margin"] + hl_ > 0 else g["away"]
+                    side_line = hl_ if side == g["home"] else -hl_
+                else:
+                    side, side_line = None, None
+                spread = {"home_line": hl_, "source": sp.get("source"),
+                          "market_p_home_cover": sp.get("market_p_home_cover"),
+                          "teleios_p_home_cover": round(phi((pr["margin"] + hl_) / eng.p.sigma), 4),
+                          "pick": side, "pick_line": side_line}
+            elif prev.get("spread"):
+                spread = prev["spread"]   # keep the last line seen if the source drops it
 
             def top(parts):
                 return [{"player": eng.names.get(pid), "minutes": round(mn, 1), "rating": round(v, 2),
@@ -205,6 +235,7 @@ def main(argv=None):
                 "p_home": round(ph, 4), "margin": round(pr["margin"], 2),
                 "pick": pick, "chance": round(max(ph, 1 - ph), 4),
                 "market_p_home": mk.get("p_home") if mk else None,
+                "spread": spread,
                 "edge_vs_market": (round(ph - mk["p_home"], 4) if mk and mk.get("p_home") is not None else None),
                 "why": {
                     "home_court_and_situation": {c: round(v, 2) for c, v in pr["situation"].items() if abs(v) > 0.005},
@@ -216,7 +247,8 @@ def main(argv=None):
                     "questionable": {g["home"]: h_q, g["away"]: a_q},
                 },
                 "first": prev.get("first") or {"at": data.now_utc(), "p_home": round(ph, 4),
-                                                "market_p_home": mk.get("p_home") if mk else None},
+                                                "market_p_home": mk.get("p_home") if mk else None,
+                                                "spread": spread},
                 "frozen_at": data.now_utc(),
                 "locked": False,
             }

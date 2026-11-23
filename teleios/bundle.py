@@ -110,6 +110,8 @@ def main():
             int(r["fgm"]), int(r["fga"]), int(r["fg3m"]), int(r["ftm"]), int(r["fta"]), int(r["pm"])])
 
     ratings = _j("ratings.json", {})
+    sc = _j("scorecard.json", {}) or {}
+    graded_players = sc.pop("player_log", None) or {"cols": [], "rows": [], "summary": {"player_games": 0}}
     bundle = {
         "built": data.now_utc(),
         "season": "2026-27",
@@ -133,7 +135,8 @@ def main():
                         "logs": {str(k): v for k, v in logs.items()}},
         "shot_profiles": _j("shot_profiles.json", {}),
         "tracking": tracking(),
-        "scorecard": _j("scorecard.json", {}),
+        "scorecard": sc,
+        "graded_players": graded_players,
         "notebook": _j("notebook.json", {}),
         "experiments": _j("experiments.json", {}),
         "retune_log": (_j("retune_log.json", []) or [])[-6:],
