@@ -1,0 +1,167 @@
+{
+ "tuned_on": "2024-25 regular season, projected 20+ min",
+ "tested_on": "2025-26 regular season, projected 20+ min (never seen in tuning)",
+ "params": {
+  "min_half_life": 3.0,
+  "season_carry": 0.3,
+  "team_pull": 0.7,
+  "blowout_cut": 0.15,
+  "pace_beta": 0.0,
+  "def_beta": 0.6,
+  "team_half_life": 12.0,
+  "rate_half_life": {
+   "pts": 25.0,
+   "reb": 25.0,
+   "ast": 25.0,
+   "fg3m": 60.0,
+   "stl": 220.0,
+   "blk": 25.0,
+   "tov": 140.0
+  },
+  "shrink_k": {
+   "pts": 10.0,
+   "reb": 10.0,
+   "ast": 10.0,
+   "fg3m": 10.0,
+   "stl": 800.0,
+   "blk": 10.0,
+   "tov": 50.0
+  },
+  "var": {
+   "pts": [
+    3.786192355047787,
+    0.0,
+    0.8
+   ],
+   "reb": [
+    1.260887843783631,
+    0.016252391492920418,
+    1.05
+   ],
+   "ast": [
+    1.2839954604987822,
+    0.0,
+    1.1
+   ],
+   "fg3m": [
+    1.4219815733258254,
+    0.0,
+    1.6
+   ],
+   "stl": [
+    1.0899757168981024,
+    0.06773241202971585,
+    1.6
+   ],
+   "blk": [
+    1.0401306202897411,
+    0.024975939636707436,
+    1.6
+   ],
+   "tov": [
+    1.181241805280506,
+    0.0,
+    1.5
+   ],
+   "pra": [
+    4.05973415555569,
+    0.0,
+    0.75
+   ]
+  }
+ },
+ "test_avg_miss": {
+  "rows": 16164,
+  "pts": 5.094,
+  "reb": 1.987,
+  "ast": 1.538,
+  "fg3m": 1.025,
+  "stl": 0.794,
+  "blk": 0.574,
+  "tov": 1.01,
+  "pra": 6.4
+ },
+ "prop_edge_published": {
+  "pts": 5.1,
+  "reb": 2.0,
+  "ast": 1.54,
+  "fg3m": 1.04,
+  "pra": 6.42
+ },
+ "baselines": {
+  "season_avg": {
+   "pts": 5.361,
+   "reb": 2.06,
+   "ast": 1.591,
+   "fg3m": 1.045,
+   "stl": 0.819,
+   "blk": 0.574,
+   "tov": 1.046,
+   "pra": 6.845
+  },
+  "teleios_same_rows_vs_season_avg": {
+   "pts": 5.085,
+   "reb": 1.984,
+   "ast": 1.536,
+   "fg3m": 1.026,
+   "stl": 0.796,
+   "blk": 0.574,
+   "tov": 1.009,
+   "pra": 6.382
+  },
+  "last10": {
+   "pts": 5.34,
+   "reb": 2.083,
+   "ast": 1.603,
+   "fg3m": 1.063,
+   "stl": 0.836,
+   "blk": 0.584,
+   "tov": 1.059,
+   "pra": 6.762
+  },
+  "teleios_same_rows_vs_last10": {
+   "pts": 5.085,
+   "reb": 1.984,
+   "ast": 1.536,
+   "fg3m": 1.026,
+   "stl": 0.796,
+   "blk": 0.574,
+   "tov": 1.009,
+   "pra": 6.382
+  }
+ },
+ "ranges": {
+  "pts": {
+   "in_50pct_range": 0.503,
+   "in_80pct_range": 0.798
+  },
+  "reb": {
+   "in_50pct_range": 0.503,
+   "in_80pct_range": 0.803
+  },
+  "ast": {
+   "in_50pct_range": 0.507,
+   "in_80pct_range": 0.799
+  },
+  "fg3m": {
+   "in_50pct_range": 0.554,
+   "in_80pct_range": 0.78
+  },
+  "stl": {
+   "in_50pct_range": 0.477,
+   "in_80pct_range": 0.708
+  },
+  "blk": {
+   "in_50pct_range": 0.434,
+   "in_80pct_range": 0.565
+  },
+  "tov": {
+   "in_50pct_range": 0.559,
+   "in_80pct_range": 0.803
+  },
+  "pra": {
+   "in_50pct_range": 0.501,
+   "in_80pct_range": 0.803
+  }
+ }
+}

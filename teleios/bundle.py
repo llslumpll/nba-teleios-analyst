@@ -75,6 +75,15 @@ def main():
         if d >= str(today - timedelta(days=14)):
             preds[d] = list(json.loads(f.read_text()).values())
 
+    pproj = {}
+    for f in sorted((data.DATA / "player_projections").glob("*.json")) if (data.DATA / "player_projections").exists() else []:
+        if f.stem >= str(today - timedelta(days=3)):
+            day = json.loads(f.read_text())
+            for g in day.values():
+                for p in g.get("players", []):
+                    p.pop("range50", None)
+            pproj[f.stem] = list(day.values())
+
     games = data.games().filter(pl.col("season") == data.CURRENT_SEASON)
     done = games.filter(pl.col("completed") & (pl.col("home_score") + pl.col("away_score") > 0))
     back = {g["game_id"]: g for g in (_j("backfill_2027.json", {}) or {}).get("games", [])}
@@ -114,6 +123,7 @@ def main():
         "players": ratings.get("players", []),
         "injuries": _j("injuries.json", {}),
         "predictions": preds,
+        "player_projections": pproj,
         "upcoming": upcoming,
         "results": {"cols": ["date", "home", "away", "home_score", "away_score", "teleios_p_home", "fanduel_close_p_home"],
                     "rows": results},

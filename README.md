@@ -2,7 +2,7 @@
 
 A personal NBA analytics lab. It predicts every game's winner and margin, freezes each prediction before tip-off, grades it after the game, and keeps score against the betting market. It is built on the foundation of [Prop Edge NBA](https://github.com/llslumpll/nba-prop-board): the same free data sources, and the same freeze-and-grade honesty. It runs free on GitHub Actions, so no computer needs to be on.
 
-**Status:** step 1 (data) and step 2 (game-winner model) are live. Step 3, the daily predictions and grading, is wired. The analyst chat comes next.
+**Status:** game predictions, player stat-line projections, daily grading, the scorecard, the patterns notebook, shot data, NBA.com tracking stats (from the Mac tracker), the analyst chat and the monthly retune are all live.
 
 ## How it works
 
@@ -60,6 +60,33 @@ On calibration, when Teleios said 80–90%, the favourite won 84.8% of the time.
 
 - The market is ahead so far, but the gap is not yet statistically clear (z = 1.1).
 - Most of the gap is October, when offseason roster changes made old player data less reliable: 62.4% vs 68.2%. In November it was 70.0% vs 71.3%.
+
+## The player model
+
+Built in `teleios/players.py`, with settings in `data/player_params.json`. Each line is "if he plays". A player who sits is void, not a miss.
+
+- **Minutes:** recency-weighted minutes (half-life of 3 games), scaled toward 240 team minutes among the players who will actually play, capped at 42. Starters lose minutes when the game model expects a blowout.
+- **Rates:** each stat's per-minute rate is recency-weighted, with a lighter carry-over from last season, and shrunk toward the league rate for his minutes role.
+- **Context:** how much the opponent allows of each stat (strength 0.6). Pace was tested and switched off.
+- **Ranges:** 50% and 80% ranges, calibrated on the tuning season.
+  - On 2025-26, the 80% range held 79.8% of points results and 80.3% of rebounds results.
+  - Steal and block ranges are rough, because those stats are mostly 0s and 1s.
+
+**Backtest:** tuned on 2024-25, tested on 2025-26. The sample is 16,164 regular-season player-games projected for 20+ minutes. Numbers are average miss.
+
+| | Points | Rebounds | Assists | Threes | PRA |
+|---|---|---|---|---|---|
+| **Teleios** | **5.09** | **1.99** | **1.54** | **1.03** | **6.40** |
+| Prop Edge (published) | 5.10 | 2.00 | 1.54 | 1.04 | 6.42 |
+| Season average so far | 5.36 | 2.06 | 1.59 | 1.05 | 6.85 |
+
+## Learning
+
+- **Monthly retune** (`teleios/retune.py`, `retune.yml`, the 1st of each month): re-fits the game and player settings on recent games. New settings are adopted only if they beat the current ones on the latest 30% of this season, which the search never saw.
+  - It skips itself until there are 300 held-out games.
+  - Every run is logged in `data/retune_log.json` with the old settings, so it can be undone.
+- **Patterns notebook:** repeated misses that hold up in both halves of the games.
+- **Experiments:** ideas tested before they are trusted, kept in `data/experiments.json`. For example, the shot-luck adjustment was tested and rejected.
 
 ## Honesty rules
 

@@ -83,7 +83,7 @@ details.slate-m{display:none}
         <details class="slate-m" id="slateM"><summary>Tonight's slate</summary><div id="slateMBody"></div></details>
         <div class="empty" id="empty">
           <h2>Ask about any game, team or player</h2>
-          <p>Teleios answers from its own data: tonight's predictions and why, team and player ratings, injuries, shot profiles, NBA.com camera-tracking stats, every game this season, and its scorecard against the market.</p>
+          <p>Teleios answers from its own data: tonight's predictions and why, projected stat lines for every player, team and player ratings, injuries, shot profiles, NBA.com camera-tracking stats, every game this season, and its scorecard against the market.</p>
           <div class="chips" id="chips"></div>
         </div>
       </div>
@@ -178,6 +178,13 @@ const TOOLS = [
      const sp = (D.shot_profiles.players || []).find(x => String(x.pid) === p.id) || null;
      const tr = D.tracking && D.tracking.players ? (D.tracking.players[p.name] || Object.entries(D.tracking.players).find(([n]) => n.toLowerCase() === p.name.toLowerCase())?.[1] || null) : null;
      return {player: p.name, rating: r, nba_tracking: tr, season_avg: avg(logs, 999), last5_avg: avg(logs, 5), shot_profile: sp, log_cols: D.player_logs.cols, game_log: logs, other_matches: m.length > 1 ? m.map(x => x.name).slice(0, 8) : undefined}; }},
+  {name: "player_projections", description: "Teleios's projected stat lines (if the player plays) for a date (ET, default today): minutes, points, rebounds, assists, threes, steals, blocks, turnovers, PRA, each with an 80% range, the player's season average for comparison, Questionable flag, and actual results once graded. Filter by team and/or player name. Ranges for steals/blocks are rough (mostly 0s and 1s).",
+   inputSchema: {type: "object", properties: {date: {type: "string"}, team: {type: "string"}, player: {type: "string"}}},
+   execute: ({date, team, player}) => { const P = D.player_projections || {}; const d = date || etDate(); const t = team ? teamCode(team) : null; const q = player ? String(player).toLowerCase() : null;
+     const days = P[d] ? [d] : (q ? Object.keys(P).sort().reverse() : []);
+     if (!days.length) return {note: "no player projections stored for " + d, dates_available: Object.keys(P)};
+     const out = []; for (const dd of days) for (const g of P[dd]) for (const p of g.players) { if (t && p.team !== t) continue; if (q && !(p.player || "").toLowerCase().includes(q)) continue; out.push({date: dd, game: `${g.away} @ ${g.home}`, locked: g.locked, ...p}); }
+     return out.length ? out.slice(0, 40) : {note: "no matching players"}; }},
   {name: "team_rankings", description: "All 30 teams ranked by Teleios strength tonight (points of margin vs an average team on a neutral floor), with healthy strength and who is out.",
    inputSchema: {type: "object", properties: {}},
    execute: () => Object.entries(D.teams).map(([c, t]) => ({team: c, name: t.name, rank: t.rank_now, strength_now: t.strength_now, strength_healthy: t.strength_healthy, out: t.out})).sort((a, b) => a.rank - b.rank)},
@@ -198,7 +205,7 @@ const TOOLS = [
      if (!rows.length) return {note: "no such table", status: D.tracking.status};
      if (!stat) return {stats: Object.keys(rows[0]).filter(k => !["who", "team"].includes(k))};
      return {as_of: D.tracking.status && D.tracking.status.run_at, rows: rows.filter(r => r[stat] != null).sort((a, b) => ascending ? a[stat] - b[stat] : b[stat] - a[stat]).slice(0, limit)}; }},
-  {name: "scorecard", description: "How good Teleios has been: live record, backfill of this season vs FanDuel closing line and Prop Edge, calibration, and the 2025-26 backtest vs Elo.",
+  {name: "scorecard", description: "How good Teleios has been. Games: live record, backfill of this season vs FanDuel closing line and Prop Edge, calibration, the 2025-26 backtest vs Elo. Players: live average miss per stat vs season averages, range coverage, and the 2025-26 player backtest vs Prop Edge's published numbers.",
    inputSchema: {type: "object", properties: {}}, execute: () => D.scorecard},
   {name: "notebook", description: "Patterns notebook (repeated misses: confirmed / watching / faded, with the rule) and experiments run on the model (e.g. shot-luck adjustment, rejected).",
    inputSchema: {type: "object", properties: {}}, execute: () => ({notebook: D.notebook, experiments: D.experiments})},
@@ -261,7 +268,7 @@ function scoreHTML() {
   const s = D.scorecard || {}; const live = (s.live || {}).metrics || {}; const b = (s.backfill_2026_27 || {}).vs_fanduel_close || {}; const bt = (s.backtest_2025_26 || {}).test || {};
   return `<h2>Scorecard</h2><div class="kpis"><div><span>Live</span><b class="big">${live.games ? pct(live.accuracy) : "–"}</b><span>${live.games || 0} games</span></div><div><span>This season*</span><b class="big">${b.teleios ? pct(b.teleios.accuracy) : "–"}</b><span>market ${b.fanduel_close ? pct(b.fanduel_close.accuracy) : "–"}</span></div><div><span>2025-26 test</span><b class="big">${bt.accuracy ? pct(bt.accuracy) : "–"}</b><span>${bt.games || ""} games</span></div></div><p class="note">*Backfill, made after the fact. Picked-winner rate shown; ask Teleios for Brier score and calibration.</p>`;
 }
-const CHIPS = ["Which game tonight does Teleios disagree with the market on most, and why?", "Rank the top 10 teams right now", "How has Teleios done so far against the market?", "Who's the most underrated player by the model?", "What patterns has the notebook found?"];
+const CHIPS = ["Which game tonight does Teleios disagree with the market on most, and why?", "What's Teleios projecting for the top scorers tonight?", "Rank the top 10 teams right now", "How has Teleios done so far against the market?", "Who's the most underrated player by the model?", "What patterns has the notebook found?"];
 
 function autosize() { const t = $("#q"); t.style.height = "auto"; t.style.height = Math.min(t.scrollHeight, 180) + "px"; }
 $("#q").addEventListener("input", autosize);

@@ -41,13 +41,15 @@ def offseason_before(d: date) -> date:
 
 
 def run_season(engine: Engine, season: int, played: dict, season_types=(2, 3, 5),
-               until: date | None = None, beta_cache: dict | None = None) -> list[dict]:
+               until: date | None = None, beta_cache: dict | None = None, since: date | None = None) -> list[dict]:
     g = engine.games.filter(
         (pl.col("season") == season) & pl.col("completed") & pl.col("season_type").is_in(list(season_types))
         & (pl.col("home_score") + pl.col("away_score") > 0)
     )
     if until:
         g = g.filter(pl.col("date") < until)
+    if since:
+        g = g.filter(pl.col("date") >= since)
     preds = []
     beta_cache = beta_cache if beta_cache is not None else {}
     for day, day_games in g.group_by("date", maintain_order=True):

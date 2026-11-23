@@ -261,5 +261,137 @@
     "WORLD"
    ]
   }
+ },
+ {
+  "run_at": "2026-11-23 21:35 UTC",
+  "sources": {
+   "rosters": {
+    "fetched_at": "2026-11-23 19:38 UTC",
+    "error": null,
+    "players": 528
+   },
+   "injuries": {
+    "fetched_at": "2026-11-23 19:38 UTC",
+    "error": null,
+    "players": 103
+   },
+   "kalshi": {
+    "fetched_at": "2026-11-23 19:38 UTC",
+    "error": null,
+    "games": 31
+   }
+  },
+  "graded": 0,
+  "predicted": 13,
+  "players_graded": 0,
+  "player_projections": 375,
+  "scorecard": {
+   "games": 0,
+   "accuracy": null,
+   "brier": null
+  },
+  "notebook_entries": 34,
+  "unmatched_team_names": {
+   "espn": [
+    "CAN",
+    "CHK",
+    "EAST",
+    "KEN",
+    "SHQ",
+    "STARS",
+    "STRIPES",
+    "TBD",
+    "WEST",
+    "WORLD"
+   ]
+  }
+ },
+ {
+  "run_at": "2026-11-23 21:35 UTC",
+  "sources": {
+   "rosters": {
+    "fetched_at": "2026-11-23 19:38 UTC",
+    "error": null,
+    "players": 528
+   },
+   "injuries": {
+    "fetched_at": "2026-11-23 19:38 UTC",
+    "error": null,
+    "players": 103
+   },
+   "kalshi": {
+    "fetched_at": "2026-11-23 19:38 UTC",
+    "error": null,
+    "games": 31
+   }
+  },
+  "graded": 0,
+  "predicted": 13,
+  "players_graded": 0,
+  "player_projections": 375,
+  "scorecard": {
+   "games": 0,
+   "accuracy": null,
+   "brier": null
+  },
+  "notebook_entries": 34,
+  "unmatched_team_names": {
+   "espn": [
+    "CAN",
+    "CHK",
+    "EAST",
+    "KEN",
+    "SHQ",
+    "STARS",
+    "STRIPES",
+    "TBD",
+    "WEST",
+    "WORLD"
+   ]
+  }
+ },
+ {
+  "run_at": "2026-11-23 21:38 UTC",
+  "sources": {
+   "rosters": {
+    "fetched_at": "2026-11-23 19:38 UTC",
+    "error": null,
+    "players": 528
+   },
+   "injuries": {
+    "fetched_at": "2026-11-23 19:38 UTC",
+    "error": null,
+    "players": 103
+   },
+   "kalshi": {
+    "fetched_at": "2026-11-23 19:38 UTC",
+    "error": null,
+    "games": 31
+   }
+  },
+  "graded": 0,
+  "predicted": 13,
+  "players_graded": 0,
+  "player_projections": 375,
+  "scorecard": {
+   "games": 0,
+   "accuracy": null,
+   "brier": null
+  },
+  "notebook_entries": 34,
+  "unmatched_team_names": {
+   "espn": [
+    "CAN",
+    "CHK",
+    "EAST",
+    "KEN",
+    "SHQ",
+    "STARS",
+    "STRIPES",
+    "TBD",
+    "WEST",
+    "WORLD"
+   ]
+  }
  }
 ]

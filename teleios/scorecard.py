@@ -130,6 +130,15 @@ def build() -> dict:
             "prop_edge": _metrics(back, "propedge_p_home"),
         },
     }
+    from teleios import player_daily
+    out["players_live"] = {"note": "Players projected 20+ minutes; average miss vs the season-average baseline on the same players.",
+                           **player_daily.scorecard()}
+    try:
+        pb = json.loads((data.DATA / "players_backtest.json").read_text())
+        out["players_backtest_2025_26"] = {k: pb[k] for k in ("tuned_on", "tested_on", "test_avg_miss", "prop_edge_published", "ranges")}
+        out["players_backtest_2025_26"]["season_avg_baseline"] = pb["baselines"]["season_avg"]
+    except Exception:  # noqa: BLE001
+        pass
     try:
         out["backtest_2025_26"] = {k: v for k, v in json.loads((data.DATA / "backtest.json").read_text()).items()
                                    if k in ("tuned_on", "tested_on", "chosen", "test", "calibration", "baselines")}

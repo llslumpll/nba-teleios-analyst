@@ -22,7 +22,7 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import polars as pl
 
-from teleios import data, notebook, pbp, profiles, scorecard, sources, teams
+from teleios import data, notebook, pbp, player_daily, profiles, scorecard, sources, teams
 from teleios.backtest import offseason_before
 from teleios.model import Engine, Params, learn_box_beta
 
@@ -163,6 +163,7 @@ def main(argv=None):
         pl.col("date").is_in([today, today + timedelta(days=1)]) & ~pl.col("completed")
     )
     made = 0
+    slate = []
     for day, day_games in upcoming.group_by("date", maintain_order=True):
         dkey = str(day[0])
         recs = load_day(dkey)
@@ -211,8 +212,18 @@ def main(argv=None):
             }
             recs[k] = rec
             made += 1
+            slate.append({"game_id": g["game_id"], "date": day[0], "home": g["home"], "away": g["away"],
+                          "tip_utc": str(tip), "margin": pr["margin"],
+                          "lineups": {g["home"]: hl, g["away"]: al},
+                          "questionable": {g["home"]: [x["pid"] for x in h_q], g["away"]: [x["pid"] for x in a_q]}})
         save_day(dkey, recs)
     log["predicted"] = made
+    player_daily.lock_started(games, now)
+    log["players_graded"] = player_daily.grade(games, pg)
+    try:
+        log["player_projections"] = player_daily.update(games, pg, slate, now)
+    except Exception as e:  # noqa: BLE001  (a player-model failure must not stop game predictions)
+        log["player_projections"] = f"failed: {type(e).__name__}: {str(e)[:200]}"
 
     write_ratings(eng, st, today, rosters, inj_by_pid, inj_by_name, pg_last)
     profiles.build()
