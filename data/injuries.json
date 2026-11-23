@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23 19:38 UTC",
+ "fetched_at": "2026-11-23 21:38 UTC",
  "error": null,
  "players": [
   {
@@ -48,22 +48,13 @@
    "date": "2026-09-21T19:50Z"
   },
   {
-   "player": "Paul George",
-   "pid": 4251,
-   "team": "BOS",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "George (rest) has been ruled out for Sunday's game against Golden State, Justin Turpin of WEEI.com reports.",
-   "date": "2026-11-23T15:07Z"
-  },
-  {
    "player": "Mitchell Robinson",
    "pid": 4351852,
    "team": "BOS",
    "status": "Out",
    "class": "out",
-   "comment": "Robinson (illness) has been ruled out for Sunday's game against Golden State, Justin Turpin of WEEI.com reports.",
-   "date": "2026-11-22T20:58Z"
+   "comment": "Robinson (illness) is out for Tuesday's game against Washington, Taylor Snow of the Celtics' official site reports.",
+   "date": "2026-11-23T21:09Z"
   },
   {
    "player": "Nolan Traore",
@@ -278,8 +269,8 @@
    "team": "GSW",
    "status": "Out",
    "class": "out",
-   "comment": "Williams (hamstring) is out for Sunday's game against the Celtics.",
-   "date": "2026-11-22T06:10Z"
+   "comment": "Head coach Steve Kerr said Monday that Williams (hamstring) is on track to return Wednesday against the Kings, Kenzo Fukuda of ClutchPoints.com reports.",
+   "date": "2026-11-23T20:52Z"
   },
   {
    "player": "Stephen Curry",
@@ -861,10 +852,10 @@
    "player": "Jaxson Hayes",
    "pid": 4397077,
    "team": "UTA",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Hayes (knee) has been ruled out for the remainder of Sunday's game against the Mavericks, Grant Afseth of DallasHoopsJournal.com reports.",
-   "date": "2026-11-23T15:06Z"
+   "status": "Out",
+   "class": "out",
+   "comment": "Hayes (knee) has been ruled out for Monday's game against the Lakers.",
+   "date": "2026-11-23T21:04Z"
   },
   {
    "player": "Jusuf Nurkic",

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23 19:38 UTC",
+ "fetched_at": "2026-11-23 21:38 UTC",
  "error": null,
  "failed_teams": [],
  "players": [
@@ -2748,6 +2748,12 @@
   {
    "player": "Ben Simmons",
    "pid": 3907387,
+   "team": "SAC",
+   "pos": "G"
+  },
+  {
+   "player": "Gabe Vincent",
+   "pid": 3137259,
    "team": "SAC",
    "pos": "G"
   },

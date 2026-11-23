@@ -3,7 +3,7 @@
   "away": "MEM",
   "chance": 0.6354,
   "date": "2026-11-23",
-  "edge_vs_market": -0.0625,
+  "edge_vs_market": -0.0604,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.425,
@@ -14,7 +14,7 @@
   "home": "CHA",
   "locked": false,
   "margin": -4.41,
-  "market_p_home": 0.4271,
+  "market_p_home": 0.425,
   "neutral": false,
   "p_home": 0.3646,
   "pick": "MEM",
@@ -209,7 +209,7 @@
   "away": "POR",
   "chance": 0.594,
   "date": "2026-11-23",
-  "edge_vs_market": -0.149,
+  "edge_vs_market": -0.169,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.5528,
@@ -220,7 +220,7 @@
   "home": "PHI",
   "locked": false,
   "margin": -3.03,
-  "market_p_home": 0.555,
+  "market_p_home": 0.575,
   "neutral": false,
   "p_home": 0.406,
   "pick": "POR",
@@ -412,7 +412,7 @@
   "away": "OKC",
   "chance": 0.7008,
   "date": "2026-11-23",
-  "edge_vs_market": -0.0358,
+  "edge_vs_market": -0.0274,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.375,
@@ -423,7 +423,7 @@
   "home": "IND",
   "locked": false,
   "margin": -6.72,
-  "market_p_home": 0.335,
+  "market_p_home": 0.3266,
   "neutral": false,
   "p_home": 0.2992,
   "pick": "OKC",
@@ -991,7 +991,7 @@
   "away": "CLE",
   "chance": 0.7643,
   "date": "2026-11-23",
-  "edge_vs_market": -0.0193,
+  "edge_vs_market": -0.0093,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.255,
@@ -1002,7 +1002,7 @@
   "home": "CHI",
   "locked": false,
   "margin": -9.18,
-  "market_p_home": 0.255,
+  "market_p_home": 0.245,
   "neutral": false,
   "p_home": 0.2357,
   "pick": "CLE",
@@ -1185,7 +1185,7 @@
   "away": "PHX",
   "chance": 0.6631,
   "date": "2026-11-23",
-  "edge_vs_market": -0.0839,
+  "edge_vs_market": -0.0781,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.415,
@@ -1196,7 +1196,7 @@
   "home": "NOP",
   "locked": false,
   "margin": -5.37,
-  "market_p_home": 0.4208,
+  "market_p_home": 0.415,
   "neutral": false,
   "p_home": 0.3369,
   "pick": "PHX",
@@ -1528,9 +1528,9 @@
  },
  "401910044": {
   "away": "UTA",
-  "chance": 0.8081,
+  "chance": 0.807,
   "date": "2026-11-23",
-  "edge_vs_market": -0.0569,
+  "edge_vs_market": -0.058,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.865,
@@ -1540,10 +1540,10 @@
   "game_id": 401910044,
   "home": "LAL",
   "locked": false,
-  "margin": 11.11,
+  "margin": 11.05,
   "market_p_home": 0.865,
   "neutral": false,
-  "p_home": 0.8081,
+  "p_home": 0.807,
   "pick": "LAL",
   "tip_utc": "2026-11-24 03:00:00+00:00",
   "why": {
@@ -1563,6 +1563,12 @@
      }
     ],
     "UTA": [
+     {
+      "minutes": 22.0,
+      "pid": 4397077,
+      "player": "Jaxson Hayes",
+      "status": "Out"
+     },
      {
       "minutes": 27.2,
       "pid": 4277961,
@@ -1585,13 +1591,7 @@
    },
    "questionable": {
     "LAL": [],
-    "UTA": [
-     {
-      "pid": 4397077,
-      "player": "Jaxson Hayes",
-      "status": "Day-To-Day"
-     }
-    ]
+    "UTA": []
    },
    "rest_days": {
     "LAL": 3,
@@ -1599,7 +1599,7 @@
    },
    "strength": {
     "LAL": 4.73,
-    "UTA": -2.36
+    "UTA": -2.3
    },
    "team_term": {
     "LAL": 1.03,
@@ -1658,52 +1658,52 @@
     ],
     "UTA": [
      {
-      "impact": 0.91,
-      "minutes": 20.5,
+      "impact": 0.96,
+      "minutes": 21.7,
       "player": "Mo Bamba",
       "rating": 2.13
      },
      {
-      "impact": 0.87,
-      "minutes": 20.0,
+      "impact": 0.92,
+      "minutes": 21.1,
       "player": "Josh Green",
       "rating": 2.08
      },
      {
-      "impact": 0.47,
-      "minutes": 21.6,
+      "impact": 0.5,
+      "minutes": 22.9,
       "player": "Svi Mykhailiuk",
       "rating": 1.04
      },
      {
-      "impact": 0.45,
-      "minutes": 31.2,
+      "impact": 0.48,
+      "minutes": 33.1,
       "player": "Keyonte George",
       "rating": 0.7
      },
      {
       "impact": 0.11,
-      "minutes": 17.6,
+      "minutes": 18.7,
       "player": "Josh Okogie",
       "rating": 0.29
      },
      {
       "impact": -0.01,
-      "minutes": 13.5,
-      "player": "Jaxson Hayes",
-      "rating": -0.04
-     },
-     {
-      "impact": -0.01,
-      "minutes": 1.9,
+      "minutes": 2.0,
       "player": "Harrison Ingram",
       "rating": -0.31
      },
      {
       "impact": -0.07,
-      "minutes": 3.0,
+      "minutes": 3.2,
       "player": "Kobe Bufkin",
       "rating": -1.06
+     },
+     {
+      "impact": -0.11,
+      "minutes": 29.7,
+      "player": "Darryn Peterson",
+      "rating": -0.17
      }
     ]
    }
@@ -1711,9 +1711,9 @@
  },
  "401910045": {
   "away": "SAS",
-  "chance": 0.8511,
+  "chance": 0.8497,
   "date": "2026-11-23",
-  "edge_vs_market": -0.0541,
+  "edge_vs_market": -0.0147,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.195,
@@ -1723,10 +1723,10 @@
   "game_id": 401910045,
   "home": "SAC",
   "locked": false,
-  "margin": -13.27,
-  "market_p_home": 0.203,
+  "margin": -13.2,
+  "market_p_home": 0.165,
   "neutral": false,
-  "p_home": 0.1489,
+  "p_home": 0.1503,
   "pick": "SAS",
   "tip_utc": "2026-11-24 03:00:00+00:00",
   "why": {
@@ -1789,7 +1789,7 @@
     "SAS": 2
    },
    "strength": {
-    "SAC": -5.73,
+    "SAC": -5.66,
     "SAS": 9.9
    },
    "team_term": {
@@ -1799,16 +1799,22 @@
    "top_players": {
     "SAC": [
      {
-      "impact": 0.37,
-      "minutes": 26.3,
+      "impact": 0.36,
+      "minutes": 25.7,
       "player": "Zach LaVine",
       "rating": 0.67
      },
      {
       "impact": 0.12,
-      "minutes": 13.3,
+      "minutes": 13.0,
       "player": "Malik Monk",
       "rating": 0.44
+     },
+     {
+      "impact": 0.01,
+      "minutes": 5.9,
+      "player": "Gabe Vincent",
+      "rating": 0.05
      },
      {
       "impact": 0.0,
@@ -1818,33 +1824,27 @@
      },
      {
       "impact": -0.04,
-      "minutes": 12.7,
+      "minutes": 12.4,
       "player": "Dylan Cardwell",
       "rating": -0.15
      },
      {
       "impact": -0.05,
-      "minutes": 4.2,
+      "minutes": 4.1,
       "player": "Mason Plumlee",
       "rating": -0.59
      },
      {
       "impact": -0.09,
-      "minutes": 28.1,
+      "minutes": 27.4,
       "player": "De'Andre Hunter",
       "rating": -0.15
      },
      {
-      "impact": -0.16,
-      "minutes": 26.0,
+      "impact": -0.15,
+      "minutes": 25.4,
       "player": "Domantas Sabonis",
       "rating": -0.29
-     },
-     {
-      "impact": -0.17,
-      "minutes": 15.8,
-      "player": "Leaky Black",
-      "rating": -0.52
      }
     ],
     "SAS": [
