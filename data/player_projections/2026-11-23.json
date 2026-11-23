@@ -2,12 +2,39 @@
  "401910036": {
   "away": "MEM",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 21:38 UTC",
+  "frozen_at": "2026-11-23 21:52 UTC",
   "game_id": 401910036,
   "home": "CHA",
   "locked": false,
   "players": [
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.305,
+      "teleios_p_over": 0.2921
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.3992
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.51,
+      "teleios_p_over": 0.5213
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.46,
+      "teleios_p_over": 0.4463
+     },
+     "reb": {
+      "line": 7.5,
+      "market_p_over": 0.55,
+      "teleios_p_over": 0.6138
+     }
+    },
     "minutes": 33.3,
     "opp": "MEM",
     "pid": 4396971,
@@ -104,6 +131,28 @@
     "team": "CHA"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.61,
+      "teleios_p_over": 0.6059
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.6474
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.395,
+      "teleios_p_over": 0.5176
+     },
+     "reb": {
+      "line": 9.5,
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.5837
+     }
+    },
     "minutes": 29.9,
     "opp": "MEM",
     "pid": 4433249,
@@ -200,6 +249,33 @@
     "team": "CHA"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.415,
+      "teleios_p_over": 0.3939
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.41,
+      "teleios_p_over": 0.2978
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.5113
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.305,
+      "teleios_p_over": 0.2918
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.6124
+     }
+    },
     "minutes": 29.2,
     "opp": "MEM",
     "pid": 4602025,
@@ -296,6 +372,33 @@
     "team": "CHA"
    },
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.4471
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.4467
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.5962
+     },
+     "pts": {
+      "line": 24.5,
+      "market_p_over": 0.375,
+      "teleios_p_over": 0.4389
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.41,
+      "teleios_p_over": 0.3985
+     }
+    },
     "minutes": 28.9,
     "opp": "CHA",
     "pid": 4065733,
@@ -392,6 +495,33 @@
     "team": "MEM"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.395,
+      "teleios_p_over": 0.3052
+     },
+     "fg3m": {
+      "line": 3.5,
+      "market_p_over": 0.425,
+      "teleios_p_over": 0.3113
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.3714
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.4843
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.345,
+      "teleios_p_over": 0.3217
+     }
+    },
     "minutes": 28.7,
     "opp": "MEM",
     "pid": 4433287,
@@ -488,6 +618,33 @@
     "team": "CHA"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.4164
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.375,
+      "teleios_p_over": 0.3723
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.5652
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.5608
+     },
+     "reb": {
+      "line": 7.5,
+      "market_p_over": 0.405,
+      "teleios_p_over": 0.4058
+     }
+    },
     "minutes": 28.3,
     "opp": "CHA",
     "pid": 4903027,
@@ -584,6 +741,33 @@
     "team": "MEM"
    },
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.6106
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.51,
+      "teleios_p_over": 0.5474
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.6394
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.6936
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.375,
+      "teleios_p_over": 0.3871
+     }
+    },
     "minutes": 26.5,
     "opp": "CHA",
     "pid": 4433083,
@@ -680,6 +864,23 @@
     "team": "MEM"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.476
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.6172
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.315,
+      "teleios_p_over": 0.326
+     }
+    },
     "minutes": 25.2,
     "opp": "CHA",
     "pid": 5112087,
@@ -872,6 +1073,28 @@
     "team": "MEM"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.3624
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.59,
+      "teleios_p_over": 0.4674
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.325,
+      "teleios_p_over": 0.333
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.4855
+     }
+    },
     "minutes": 22.6,
     "opp": "MEM",
     "pid": 2583632,
@@ -968,6 +1191,33 @@
     "team": "CHA"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.58,
+      "teleios_p_over": 0.4877
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.4022
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.3426
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.237
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.325,
+      "teleios_p_over": 0.3088
+     }
+    },
     "minutes": 21.5,
     "opp": "MEM",
     "pid": 4395651,
@@ -1064,6 +1314,18 @@
     "team": "CHA"
    },
    {
+    "market": {
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.415,
+      "teleios_p_over": 0.5022
+     },
+     "reb": {
+      "line": 7.5,
+      "market_p_over": 0.425,
+      "teleios_p_over": 0.4058
+     }
+    },
     "minutes": 21.0,
     "opp": "CHA",
     "pid": 4600663,
@@ -1160,6 +1422,23 @@
     "team": "MEM"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.61,
+      "teleios_p_over": 0.5142
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.46,
+      "teleios_p_over": 0.5118
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.625,
+      "teleios_p_over": 0.5631
+     }
+    },
     "minutes": 19.6,
     "opp": "CHA",
     "pid": 4684806,
@@ -1256,6 +1535,18 @@
     "team": "MEM"
    },
    {
+    "market": {
+     "pts": {
+      "line": 4.5,
+      "market_p_over": 0.49,
+      "teleios_p_over": 0.6002
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.6,
+      "teleios_p_over": 0.6904
+     }
+    },
     "minutes": 18.0,
     "opp": "MEM",
     "pid": 4576060,
@@ -1352,6 +1643,18 @@
     "team": "CHA"
    },
    {
+    "market": {
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.425,
+      "teleios_p_over": 0.4796
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.515,
+      "teleios_p_over": 0.4061
+     }
+    },
     "minutes": 17.9,
     "opp": "CHA",
     "pid": 4432810,
@@ -2413,12 +2716,39 @@
  "401910037": {
   "away": "POR",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 21:38 UTC",
+  "frozen_at": "2026-11-23 21:52 UTC",
   "game_id": 401910037,
   "home": "PHI",
   "locked": false,
   "players": [
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.56,
+      "teleios_p_over": 0.5215
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.4565
+     },
+     "pra": {
+      "line": 34.5,
+      "market_p_over": 0.58,
+      "teleios_p_over": 0.5469
+     },
+     "pts": {
+      "line": 24.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.4461
+     },
+     "reb": {
+      "line": 7.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.3253
+     }
+    },
     "minutes": 31.1,
     "opp": "PHI",
     "pid": 4683021,
@@ -2515,6 +2845,33 @@
     "team": "POR"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.4609
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.425,
+      "teleios_p_over": 0.401
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.4459
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.6876
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.34,
+      "teleios_p_over": 0.2796
+     }
+    },
     "minutes": 30.5,
     "opp": "PHI",
     "pid": 4431736,
@@ -2611,6 +2968,33 @@
     "team": "POR"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.425,
+      "teleios_p_over": 0.4257
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.515,
+      "teleios_p_over": 0.3715
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.375,
+      "teleios_p_over": 0.35
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.39,
+      "teleios_p_over": 0.3845
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.428
+     }
+    },
     "minutes": 29.7,
     "opp": "POR",
     "pid": 5124612,
@@ -2707,6 +3091,33 @@
     "team": "PHI"
    },
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.405,
+      "teleios_p_over": 0.316
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.3339
+     },
+     "pra": {
+      "line": 34.5,
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.2506
+     },
+     "pts": {
+      "line": 24.5,
+      "market_p_over": 0.515,
+      "teleios_p_over": 0.324
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.3222
+     }
+    },
     "minutes": 29.3,
     "opp": "POR",
     "pid": 4431678,
@@ -2803,6 +3214,33 @@
     "team": "PHI"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.6159
+     },
+     "fg3m": {
+      "line": 3.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.3249
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.4433
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.5367
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.4361
+     }
+    },
     "minutes": 28.7,
     "opp": "PHI",
     "pid": 6606,
@@ -2899,6 +3337,33 @@
     "team": "POR"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.41,
+      "teleios_p_over": 0.3657
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.3834
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.4499
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.519
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.4382
+     }
+    },
     "minutes": 27.6,
     "opp": "POR",
     "pid": 3917376,
@@ -2995,6 +3460,33 @@
     "team": "PHI"
    },
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.635,
+      "teleios_p_over": 0.4471
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.2213
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.3399
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.529
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.625,
+      "teleios_p_over": 0.4426
+     }
+    },
     "minutes": 27.0,
     "opp": "POR",
     "pid": 1966,
@@ -3091,6 +3583,33 @@
     "team": "PHI"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.6544
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.5474
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.6713
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.4927
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.5464
+     }
+    },
     "minutes": 26.8,
     "opp": "PHI",
     "pid": 3995,
@@ -3187,6 +3706,33 @@
     "team": "POR"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.51,
+      "teleios_p_over": 0.4239
+     },
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.645,
+      "teleios_p_over": 0.3549
+     },
+     "pra": {
+      "line": 34.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.2993
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.625,
+      "teleios_p_over": 0.4737
+     },
+     "reb": {
+      "line": 7.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.4145
+     }
+    },
     "minutes": 26.5,
     "opp": "POR",
     "pid": 3059318,
@@ -3283,6 +3829,33 @@
     "team": "PHI"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.5714
+     },
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.4852
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.5215
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.6447
+     },
+     "reb": {
+      "line": 11.5,
+      "market_p_over": 0.44,
+      "teleios_p_over": 0.4355
+     }
+    },
     "minutes": 25.7,
     "opp": "PHI",
     "pid": 5105565,
@@ -3379,6 +3952,33 @@
     "team": "POR"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.5497
+     },
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.665,
+      "teleios_p_over": 0.573
+     },
+     "pra": {
+      "line": 9.5,
+      "market_p_over": 0.625,
+      "teleios_p_over": 0.7485
+     },
+     "pts": {
+      "line": 4.5,
+      "market_p_over": 0.655,
+      "teleios_p_over": 0.7692
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.415,
+      "teleios_p_over": 0.4783
+     }
+    },
     "minutes": 24.7,
     "opp": "PHI",
     "pid": 5081727,
@@ -3571,6 +4171,33 @@
     "team": "PHI"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.5323
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.34
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.526
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.5886
+     },
+     "reb": {
+      "line": 1.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.6046
+     }
+    },
     "minutes": 22.8,
     "opp": "PHI",
     "pid": 4683678,
@@ -3763,6 +4390,33 @@
     "team": "PHI"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.3774
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.5075
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.405,
+      "teleios_p_over": 0.472
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.5925
+     },
+     "reb": {
+      "line": 1.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.5064
+     }
+    },
     "minutes": 20.4,
     "opp": "POR",
     "pid": 4351851,
@@ -5112,12 +5766,39 @@
  "401910038": {
   "away": "OKC",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 21:38 UTC",
+  "frozen_at": "2026-11-23 21:52 UTC",
   "game_id": 401910038,
   "home": "IND",
   "locked": false,
   "players": [
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.5173
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.5317
+     },
+     "pra": {
+      "line": 39.5,
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.6736
+     },
+     "pts": {
+      "line": 29.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.6841
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.58,
+      "teleios_p_over": 0.6047
+     }
+    },
     "minutes": 35.5,
     "opp": "IND",
     "pid": 4278073,
@@ -5214,6 +5895,33 @@
     "team": "OKC"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.4824
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.4652
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.59,
+      "teleios_p_over": 0.6852
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.7096
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.55,
+      "teleios_p_over": 0.5924
+     }
+    },
     "minutes": 33.1,
     "opp": "OKC",
     "pid": 3149673,
@@ -5310,6 +6018,33 @@
     "team": "IND"
    },
    {
+    "market": {
+     "ast": {
+      "line": 7.5,
+      "market_p_over": 0.45,
+      "teleios_p_over": 0.5174
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.5415
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.51,
+      "teleios_p_over": 0.6273
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.6249
+     },
+     "reb": {
+      "line": 1.5,
+      "market_p_over": 0.705,
+      "teleios_p_over": 0.7102
+     }
+    },
     "minutes": 32.7,
     "opp": "OKC",
     "pid": 4395712,
@@ -5406,6 +6141,33 @@
     "team": "IND"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.5667
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.4706
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.6653
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.56,
+      "teleios_p_over": 0.643
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.45,
+      "teleios_p_over": 0.5103
+     }
+    },
     "minutes": 30.6,
     "opp": "IND",
     "pid": 4683778,
@@ -5502,6 +6264,33 @@
     "team": "OKC"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.5366
+     },
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.655,
+      "teleios_p_over": 0.5174
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.51,
+      "teleios_p_over": 0.5425
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.365,
+      "teleios_p_over": 0.3884
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.515,
+      "teleios_p_over": 0.5312
+     }
+    },
     "minutes": 28.8,
     "opp": "IND",
     "pid": 4900671,
@@ -5598,6 +6387,28 @@
     "team": "OKC"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.58,
+      "teleios_p_over": 0.5448
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.4,
+      "teleios_p_over": 0.4672
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.61,
+      "teleios_p_over": 0.6731
+     },
+     "reb": {
+      "line": 9.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.4733
+     }
+    },
     "minutes": 26.6,
     "opp": "OKC",
     "pid": 4017837,
@@ -5694,6 +6505,28 @@
     "team": "IND"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.5585
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.52,
+      "teleios_p_over": 0.5087
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.4689
+     },
+     "reb": {
+      "line": 11.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.4635
+     }
+    },
     "minutes": 26.2,
     "opp": "IND",
     "pid": 4222252,
@@ -5790,6 +6623,23 @@
     "team": "OKC"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.47,
+      "teleios_p_over": 0.3277
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.44,
+      "teleios_p_over": 0.3633
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.5615
+     }
+    },
     "minutes": 26.2,
     "opp": "OKC",
     "pid": 3133603,
@@ -7235,12 +8085,39 @@
  "401910039": {
   "away": "MIL",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 21:38 UTC",
+  "frozen_at": "2026-11-23 21:52 UTC",
   "game_id": 401910039,
   "home": "TOR",
   "locked": false,
   "players": [
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.4761
+     },
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.625,
+      "teleios_p_over": 0.4366
+     },
+     "pra": {
+      "line": 34.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.4996
+     },
+     "pts": {
+      "line": 24.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.3728
+     },
+     "reb": {
+      "line": 7.5,
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.3996
+     }
+    },
     "minutes": 31.8,
     "opp": "MIL",
     "pid": 4433134,
@@ -7337,6 +8214,33 @@
     "team": "TOR"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.635,
+      "teleios_p_over": 0.5923
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.5,
+      "teleios_p_over": 0.4241
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.5,
+      "teleios_p_over": 0.4594
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.415,
+      "teleios_p_over": 0.3719
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.5431
+     }
+    },
     "minutes": 30.5,
     "opp": "MIL",
     "pid": 4684272,
@@ -7433,6 +8337,33 @@
     "team": "TOR"
    },
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.5173
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.53,
+      "teleios_p_over": 0.4328
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.48,
+      "teleios_p_over": 0.3865
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.3812
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.4729
+     }
+    },
     "minutes": 29.8,
     "opp": "MIL",
     "pid": 4395724,
@@ -7529,6 +8460,33 @@
     "team": "TOR"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.6,
+      "teleios_p_over": 0.4127
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.3266
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.46,
+      "teleios_p_over": 0.2362
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.54,
+      "teleios_p_over": 0.3385
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.4528
+     }
+    },
     "minutes": 23.9,
     "opp": "TOR",
     "pid": 4395725,
@@ -7625,6 +8583,28 @@
     "team": "MIL"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.5298
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.4475
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.5015
+     },
+     "reb": {
+      "line": 7.5,
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.4071
+     }
+    },
     "minutes": 23.4,
     "opp": "MIL",
     "pid": 3134908,
@@ -7721,6 +8701,33 @@
     "team": "TOR"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.5247
+     },
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.365,
+      "teleios_p_over": 0.2273
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.53,
+      "teleios_p_over": 0.3355
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.635,
+      "teleios_p_over": 0.5125
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.369
+     }
+    },
     "minutes": 22.2,
     "opp": "MIL",
     "pid": 5093267,
@@ -7817,6 +8824,33 @@
     "team": "TOR"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.635,
+      "teleios_p_over": 0.5373
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.2953
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.3254
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.62,
+      "teleios_p_over": 0.5644
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.635,
+      "teleios_p_over": 0.5243
+     }
+    },
     "minutes": 21.7,
     "opp": "TOR",
     "pid": 3134907,
@@ -7913,6 +8947,18 @@
     "team": "MIL"
    },
    {
+    "market": {
+     "ast": {
+      "line": 7.5,
+      "market_p_over": 0.275,
+      "teleios_p_over": 0.2103
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.37,
+      "teleios_p_over": 0.2936
+     }
+    },
     "minutes": 20.3,
     "opp": "MIL",
     "pid": 4432241,
@@ -8009,6 +9055,33 @@
     "team": "TOR"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.335,
+      "teleios_p_over": 0.2551
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.375,
+      "teleios_p_over": 0.2393
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.3456
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.655,
+      "teleios_p_over": 0.5899
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.423
+     }
+    },
     "minutes": 19.9,
     "opp": "TOR",
     "pid": 4432848,
@@ -8105,6 +9178,33 @@
     "team": "MIL"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.675,
+      "teleios_p_over": 0.5714
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.395,
+      "teleios_p_over": 0.2496
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.3613
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.61,
+      "teleios_p_over": 0.5425
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.41,
+      "teleios_p_over": 0.3468
+     }
+    },
     "minutes": 19.8,
     "opp": "TOR",
     "pid": 5082206,
@@ -8201,6 +9301,33 @@
     "team": "MIL"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.4908
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.2953
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.3868
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.355,
+      "teleios_p_over": 0.2557
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.2882
+     }
+    },
     "minutes": 19.8,
     "opp": "TOR",
     "pid": 3133628,
@@ -8297,6 +9424,18 @@
     "team": "MIL"
    },
    {
+    "market": {
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.415,
+      "teleios_p_over": 0.3147
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.375,
+      "teleios_p_over": 0.2568
+     }
+    },
     "minutes": 19.0,
     "opp": "MIL",
     "pid": 5149115,
@@ -8393,6 +9532,33 @@
     "team": "TOR"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.36
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.3178
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.2957
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.645,
+      "teleios_p_over": 0.4842
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.4342
+     }
+    },
     "minutes": 18.7,
     "opp": "TOR",
     "pid": 4591725,
@@ -8576,6 +9742,13 @@
     "team": "MIL"
    },
    {
+    "market": {
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.45,
+      "teleios_p_over": 0.4681
+     }
+    },
     "minutes": 18.3,
     "opp": "MIL",
     "pid": 4431893,
@@ -10291,12 +11464,39 @@
  "401910040": {
   "away": "BKN",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 21:38 UTC",
+  "frozen_at": "2026-11-23 21:52 UTC",
   "game_id": 401910040,
   "home": "MIN",
   "locked": false,
   "players": [
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.3902
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.3425
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.5188
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.39,
+      "teleios_p_over": 0.3396
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.4015
+     }
+    },
     "minutes": 30.8,
     "opp": "BKN",
     "pid": 4431671,
@@ -10393,6 +11593,33 @@
     "team": "MIN"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.4424
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.4781
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.5041
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.375,
+      "teleios_p_over": 0.3694
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.5346
+     }
+    },
     "minutes": 29.0,
     "opp": "BKN",
     "pid": 4397002,
@@ -10489,6 +11716,33 @@
     "team": "MIN"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.725,
+      "teleios_p_over": 0.6816
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.44,
+      "teleios_p_over": 0.3595
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.415,
+      "teleios_p_over": 0.3603
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.455
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.4148
+     }
+    },
     "minutes": 28.3,
     "opp": "BKN",
     "pid": 4433247,
@@ -10585,6 +11839,33 @@
     "team": "MIN"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.4691
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.3975
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.43,
+      "teleios_p_over": 0.3008
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.3867
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.5027
+     }
+    },
     "minutes": 27.2,
     "opp": "MIN",
     "pid": 4278104,
@@ -10681,6 +11962,33 @@
     "team": "BKN"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.665,
+      "teleios_p_over": 0.4716
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.2751
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.3342
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.3514
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.4236
+     }
+    },
     "minutes": 27.2,
     "opp": "MIN",
     "pid": 3064514,
@@ -10777,6 +12085,33 @@
     "team": "BKN"
    },
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.5173
+     },
+     "fg3m": {
+      "line": 3.5,
+      "market_p_over": 0.48,
+      "teleios_p_over": 0.4182
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.54,
+      "teleios_p_over": 0.4468
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.4212
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.2796
+     }
+    },
     "minutes": 26.4,
     "opp": "BKN",
     "pid": 4432816,
@@ -10873,6 +12208,28 @@
     "team": "MIN"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.4413
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.4562
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.3581
+     },
+     "reb": {
+      "line": 9.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.4466
+     }
+    },
     "minutes": 25.8,
     "opp": "BKN",
     "pid": 3032976,
@@ -10969,6 +12326,33 @@
     "team": "MIN"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.685,
+      "teleios_p_over": 0.676
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.3351
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.4405
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.405,
+      "teleios_p_over": 0.3845
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.405,
+      "teleios_p_over": 0.3719
+     }
+    },
     "minutes": 21.8,
     "opp": "BKN",
     "pid": 4432847,
@@ -11065,6 +12449,33 @@
     "team": "MIN"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.325,
+      "teleios_p_over": 0.2514
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.4365
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.4812
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.53,
+      "teleios_p_over": 0.485
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.295,
+      "teleios_p_over": 0.2429
+     }
+    },
     "minutes": 21.1,
     "opp": "MIN",
     "pid": 5175643,
@@ -11161,6 +12572,28 @@
     "team": "BKN"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.3808
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.4642
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.415,
+      "teleios_p_over": 0.4365
+     },
+     "reb": {
+      "line": 7.5,
+      "market_p_over": 0.515,
+      "teleios_p_over": 0.3971
+     }
+    },
     "minutes": 21.0,
     "opp": "MIN",
     "pid": 4432194,
@@ -11257,6 +12690,33 @@
     "team": "BKN"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.517
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.39,
+      "teleios_p_over": 0.3498
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.5808
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.4595
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.3927
+     }
+    },
     "minutes": 20.4,
     "opp": "MIN",
     "pid": 5107173,
@@ -11353,6 +12813,33 @@
     "team": "BKN"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.3279
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.4022
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.2489
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.415,
+      "teleios_p_over": 0.2365
+     },
+     "reb": {
+      "line": 1.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.4428
+     }
+    },
     "minutes": 20.0,
     "opp": "MIN",
     "pid": 5101761,
@@ -11641,6 +13128,23 @@
     "team": "MIN"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.4366
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.4,
+      "teleios_p_over": 0.4137
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.4342
+     }
+    },
     "minutes": 15.7,
     "opp": "MIN",
     "pid": 3150844,
@@ -13164,12 +14668,39 @@
  "401910041": {
   "away": "CLE",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 21:38 UTC",
+  "frozen_at": "2026-11-23 21:52 UTC",
   "game_id": 401910041,
   "home": "CHI",
   "locked": false,
   "players": [
    {
+    "market": {
+     "ast": {
+      "line": 7.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.3373
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.4293
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.54,
+      "teleios_p_over": 0.5554
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.415,
+      "teleios_p_over": 0.5041
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.36,
+      "teleios_p_over": 0.3468
+     }
+    },
     "minutes": 31.8,
     "opp": "CHI",
     "pid": 3992,
@@ -13266,6 +14797,33 @@
     "team": "CLE"
    },
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.41,
+      "teleios_p_over": 0.3527
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.417
+     },
+     "pra": {
+      "line": 34.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.4618
+     },
+     "pts": {
+      "line": 24.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.494
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.355,
+      "teleios_p_over": 0.2896
+     }
+    },
     "minutes": 29.8,
     "opp": "CHI",
     "pid": 3908809,
@@ -13362,6 +14920,33 @@
     "team": "CLE"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.625,
+      "teleios_p_over": 0.5546
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.2903
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.4806
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.4789
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.38,
+      "teleios_p_over": 0.3394
+     }
+    },
     "minutes": 26.8,
     "opp": "CLE",
     "pid": 4432822,
@@ -13458,6 +15043,33 @@
     "team": "CHI"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.6,
+      "teleios_p_over": 0.5667
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.44,
+      "teleios_p_over": 0.3413
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.5,
+      "teleios_p_over": 0.408
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.365,
+      "teleios_p_over": 0.2797
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.44,
+      "teleios_p_over": 0.3823
+     }
+    },
     "minutes": 26.7,
     "opp": "CLE",
     "pid": 4711294,
@@ -13554,6 +15166,33 @@
     "team": "CHI"
    },
    {
+    "market": {
+     "ast": {
+      "line": 9.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.398
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.3425
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.53,
+      "teleios_p_over": 0.394
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.44,
+      "teleios_p_over": 0.3217
+     },
+     "reb": {
+      "line": 7.5,
+      "market_p_over": 0.41,
+      "teleios_p_over": 0.329
+     }
+    },
     "minutes": 26.6,
     "opp": "CLE",
     "pid": 4871145,
@@ -13650,6 +15289,28 @@
     "team": "CHI"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.504
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.4653
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.4379
+     },
+     "reb": {
+      "line": 9.5,
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.3492
+     }
+    },
     "minutes": 25.8,
     "opp": "CHI",
     "pid": 4066328,
@@ -13746,6 +15407,33 @@
     "team": "CLE"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.6147
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.2878
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.4432
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.345,
+      "teleios_p_over": 0.3298
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.645,
+      "teleios_p_over": 0.581
+     }
+    },
     "minutes": 24.7,
     "opp": "CHI",
     "pid": 4576087,
@@ -13842,6 +15530,23 @@
     "team": "CLE"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.4909
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.4518
+     },
+     "reb": {
+      "line": 7.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.449
+     }
+    },
     "minutes": 24.2,
     "opp": "CLE",
     "pid": 4397189,
@@ -13938,6 +15643,33 @@
     "team": "CHI"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.35,
+      "teleios_p_over": 0.3939
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.4803
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.52,
+      "teleios_p_over": 0.7062
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.6458
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.405,
+      "teleios_p_over": 0.4674
+     }
+    },
     "minutes": 23.1,
     "opp": "CHI",
     "pid": 5023693,
@@ -14034,6 +15766,33 @@
     "team": "CLE"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.5272
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.5415
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.6506
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.6946
+     },
+     "reb": {
+      "line": 1.5,
+      "market_p_over": 0.655,
+      "teleios_p_over": 0.7084
+     }
+    },
     "minutes": 22.1,
     "opp": "CHI",
     "pid": 5041951,
@@ -14226,6 +15985,23 @@
     "team": "CLE"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.3686
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.3144
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.515,
+      "teleios_p_over": 0.3738
+     }
+    },
     "minutes": 20.4,
     "opp": "CLE",
     "pid": 2990984,
@@ -15854,12 +17630,39 @@
  "401910042": {
   "away": "PHX",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 21:38 UTC",
+  "frozen_at": "2026-11-23 21:52 UTC",
   "game_id": 401910042,
   "home": "NOP",
   "locked": false,
   "players": [
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.4354
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.4387
+     },
+     "pra": {
+      "line": 34.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.4191
+     },
+     "pts": {
+      "line": 24.5,
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.4851
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.45,
+      "teleios_p_over": 0.3375
+     }
+    },
     "minutes": 30.9,
     "opp": "NOP",
     "pid": 3136193,
@@ -15956,6 +17759,33 @@
     "team": "PHX"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.68,
+      "teleios_p_over": 0.6484
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.405,
+      "teleios_p_over": 0.3266
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.425,
+      "teleios_p_over": 0.4284
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.5767
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.41,
+      "teleios_p_over": 0.3379
+     }
+    },
     "minutes": 28.5,
     "opp": "PHX",
     "pid": 4397136,
@@ -16052,6 +17882,33 @@
     "team": "NOP"
    },
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.3307
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.3178
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.44,
+      "teleios_p_over": 0.3126
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.3092
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.3144
+     }
+    },
     "minutes": 27.3,
     "opp": "PHX",
     "pid": 5144091,
@@ -16148,6 +18005,28 @@
     "team": "NOP"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.345,
+      "teleios_p_over": 0.2679
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.53,
+      "teleios_p_over": 0.3608
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.463
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.515,
+      "teleios_p_over": 0.3749
+     }
+    },
     "minutes": 27.0,
     "opp": "PHX",
     "pid": 4395628,
@@ -16244,6 +18123,33 @@
     "team": "NOP"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.315,
+      "teleios_p_over": 0.3279
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.42,
+      "teleios_p_over": 0.365
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.405,
+      "teleios_p_over": 0.3874
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.5325
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.655,
+      "teleios_p_over": 0.5729
+     }
+    },
     "minutes": 26.8,
     "opp": "PHX",
     "pid": 4397688,
@@ -16340,6 +18246,33 @@
     "team": "NOP"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.59,
+      "teleios_p_over": 0.5448
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.476
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.543
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.5319
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.4118
+     }
+    },
     "minutes": 24.8,
     "opp": "NOP",
     "pid": 3155526,
@@ -16436,6 +18369,33 @@
     "team": "PHX"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.345,
+      "teleios_p_over": 0.3146
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.3763
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.425,
+      "teleios_p_over": 0.3879
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.47,
+      "teleios_p_over": 0.4442
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.4914
+     }
+    },
     "minutes": 24.3,
     "opp": "NOP",
     "pid": 4066383,
@@ -16532,6 +18492,33 @@
     "team": "PHX"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.41,
+      "teleios_p_over": 0.3335
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.381
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.518
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.48,
+      "teleios_p_over": 0.434
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.4454
+     }
+    },
     "minutes": 23.4,
     "opp": "NOP",
     "pid": 4437244,
@@ -16628,6 +18615,23 @@
     "team": "PHX"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.365,
+      "teleios_p_over": 0.2675
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.345,
+      "teleios_p_over": 0.2662
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.355,
+      "teleios_p_over": 0.2859
+     }
+    },
     "minutes": 22.9,
     "opp": "PHX",
     "pid": 4277813,
@@ -16724,6 +18728,28 @@
     "team": "NOP"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.3676
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.5219
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.315,
+      "teleios_p_over": 0.2407
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.4382
+     }
+    },
     "minutes": 22.1,
     "opp": "NOP",
     "pid": 4601023,
@@ -16820,6 +18846,33 @@
     "team": "PHX"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.56,
+      "teleios_p_over": 0.4625
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.3449
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.395,
+      "teleios_p_over": 0.3103
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.5081
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.39,
+      "teleios_p_over": 0.3183
+     }
+    },
     "minutes": 21.8,
     "opp": "NOP",
     "pid": 4278585,
@@ -16916,6 +18969,18 @@
     "team": "PHX"
    },
    {
+    "market": {
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.29,
+      "teleios_p_over": 0.2162
+     },
+     "reb": {
+      "line": 7.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.4269
+     }
+    },
     "minutes": 20.4,
     "opp": "PHX",
     "pid": 5061589,
@@ -17108,6 +19173,33 @@
     "team": "NOP"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.685,
+      "teleios_p_over": 0.6464
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.3998
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.5662
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.425,
+      "teleios_p_over": 0.4243
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.365,
+      "teleios_p_over": 0.3365
+     }
+    },
     "minutes": 19.8,
     "opp": "NOP",
     "pid": 4278402,
@@ -17204,6 +19296,28 @@
     "team": "PHX"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.63,
+      "teleios_p_over": 0.5595
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.4513
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.5637
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.5426
+     }
+    },
     "minutes": 19.5,
     "opp": "PHX",
     "pid": 4869780,
@@ -18832,12 +20946,39 @@
  "401910043": {
   "away": "LAC",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 21:38 UTC",
+  "frozen_at": "2026-11-23 21:52 UTC",
   "game_id": 401910043,
   "home": "HOU",
   "locked": false,
   "players": [
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.4861
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.46,
+      "teleios_p_over": 0.3614
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.5699
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.4387
+     },
+     "reb": {
+      "line": 1.5,
+      "market_p_over": 0.685,
+      "teleios_p_over": 0.555
+     }
+    },
     "minutes": 28.4,
     "opp": "HOU",
     "pid": 4396907,
@@ -18934,6 +21075,33 @@
     "team": "LAC"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.4661
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.3975
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.3963
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.4796
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.415,
+      "teleios_p_over": 0.2911
+     }
+    },
     "minutes": 27.9,
     "opp": "LAC",
     "pid": 3202,
@@ -19030,6 +21198,28 @@
     "team": "HOU"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.395,
+      "teleios_p_over": 0.3751
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.515,
+      "teleios_p_over": 0.4158
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.4575
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.625,
+      "teleios_p_over": 0.4971
+     }
+    },
     "minutes": 26.6,
     "opp": "LAC",
     "pid": 4684740,
@@ -19126,6 +21316,33 @@
     "team": "HOU"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.4746
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.4608
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.61,
+      "teleios_p_over": 0.5139
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.395
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.4133
+     }
+    },
     "minutes": 26.4,
     "opp": "LAC",
     "pid": 4432639,
@@ -19222,6 +21439,33 @@
     "team": "HOU"
    },
    {
+    "market": {
+     "ast": {
+      "line": 7.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.2059
+     },
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.3164
+     },
+     "pra": {
+      "line": 39.5,
+      "market_p_over": 0.395,
+      "teleios_p_over": 0.1688
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.3918
+     },
+     "reb": {
+      "line": 9.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.2418
+     }
+    },
     "minutes": 25.9,
     "opp": "LAC",
     "pid": 4871144,
@@ -19318,6 +21562,33 @@
     "team": "HOU"
    },
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.42,
+      "teleios_p_over": 0.3263
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.3614
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.6,
+      "teleios_p_over": 0.4984
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.415,
+      "teleios_p_over": 0.3593
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.355,
+      "teleios_p_over": 0.2652
+     }
+    },
     "minutes": 25.5,
     "opp": "LAC",
     "pid": 2991230,
@@ -19414,6 +21685,33 @@
     "team": "HOU"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.33,
+      "teleios_p_over": 0.3166
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.4229
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.41,
+      "teleios_p_over": 0.3703
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.375,
+      "teleios_p_over": 0.3211
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.635,
+      "teleios_p_over": 0.568
+     }
+    },
     "minutes": 24.7,
     "opp": "HOU",
     "pid": 4066648,
@@ -19510,6 +21808,23 @@
     "team": "LAC"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.62,
+      "teleios_p_over": 0.5475
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.365,
+      "teleios_p_over": 0.4453
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.48,
+      "teleios_p_over": 0.4491
+     }
+    },
     "minutes": 24.0,
     "opp": "HOU",
     "pid": 3936099,
@@ -19606,6 +21921,33 @@
     "team": "LAC"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.3,
+      "teleios_p_over": 0.2809
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.38,
+      "teleios_p_over": 0.31
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.533
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.4365
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.4891
+     }
+    },
     "minutes": 22.5,
     "opp": "HOU",
     "pid": 4065778,
@@ -19702,6 +22044,23 @@
     "team": "LAC"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.3763
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.645,
+      "teleios_p_over": 0.699
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.66,
+      "teleios_p_over": 0.5953
+     }
+    },
     "minutes": 22.4,
     "opp": "HOU",
     "pid": 3448,
@@ -19894,6 +22253,33 @@
     "team": "HOU"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.665,
+      "teleios_p_over": 0.5808
+     },
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.57,
+      "teleios_p_over": 0.4885
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.425,
+      "teleios_p_over": 0.4054
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.355,
+      "teleios_p_over": 0.3732
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.41,
+      "teleios_p_over": 0.37
+     }
+    },
     "minutes": 20.5,
     "opp": "HOU",
     "pid": 3913176,
@@ -20077,6 +22463,33 @@
     "team": "LAC"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.6,
+      "teleios_p_over": 0.569
+     },
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.655,
+      "teleios_p_over": 0.5174
+     },
+     "pra": {
+      "line": 9.5,
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.5602
+     },
+     "pts": {
+      "line": 4.5,
+      "market_p_over": 0.655,
+      "teleios_p_over": 0.6606
+     },
+     "reb": {
+      "line": 1.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.5401
+     }
+    },
     "minutes": 17.6,
     "opp": "LAC",
     "pid": 2990992,
@@ -20173,6 +22586,33 @@
     "team": "HOU"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.61,
+      "teleios_p_over": 0.6276
+     },
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.64,
+      "teleios_p_over": 0.5533
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.425,
+      "teleios_p_over": 0.5137
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.415,
+      "teleios_p_over": 0.5007
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.295,
+      "teleios_p_over": 0.3279
+     }
+    },
     "minutes": 17.6,
     "opp": "HOU",
     "pid": 5254165,
@@ -20269,6 +22709,33 @@
     "team": "LAC"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.6147
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.4499
+     },
+     "pra": {
+      "line": 9.5,
+      "market_p_over": 0.635,
+      "teleios_p_over": 0.6706
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.375,
+      "teleios_p_over": 0.4038
+     },
+     "reb": {
+      "line": 1.5,
+      "market_p_over": 0.52,
+      "teleios_p_over": 0.4514
+     }
+    },
     "minutes": 17.0,
     "opp": "LAC",
     "pid": 4711272,
@@ -21993,12 +24460,39 @@
  "401910044": {
   "away": "UTA",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 21:38 UTC",
+  "frozen_at": "2026-11-23 21:52 UTC",
   "game_id": 401910044,
   "home": "LAL",
   "locked": false,
   "players": [
    {
+    "market": {
+     "ast": {
+      "line": 7.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.4199
+     },
+     "fg3m": {
+      "line": 4.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.3719
+     },
+     "pra": {
+      "line": 49.5,
+      "market_p_over": 0.515,
+      "teleios_p_over": 0.4523
+     },
+     "pts": {
+      "line": 34.5,
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.4902
+     },
+     "reb": {
+      "line": 7.5,
+      "market_p_over": 0.395,
+      "teleios_p_over": 0.3549
+     }
+    },
     "minutes": 33.1,
     "opp": "UTA",
     "pid": 3945274,
@@ -22095,6 +24589,33 @@
     "team": "LAL"
    },
    {
+    "market": {
+     "ast": {
+      "line": 7.5,
+      "market_p_over": 0.45,
+      "teleios_p_over": 0.3497
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.425,
+      "teleios_p_over": 0.3668
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.5602
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.57,
+      "teleios_p_over": 0.5607
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.4729
+     }
+    },
     "minutes": 31.1,
     "opp": "LAL",
     "pid": 4433627,
@@ -22191,6 +24712,33 @@
     "team": "UTA"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.3486
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.441
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.49,
+      "teleios_p_over": 0.3034
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.62,
+      "teleios_p_over": 0.4506
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.4909
+     }
+    },
     "minutes": 29.3,
     "opp": "UTA",
     "pid": 4397014,
@@ -22287,6 +24835,28 @@
     "team": "LAL"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.4934
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.59,
+      "teleios_p_over": 0.5206
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.44,
+      "teleios_p_over": 0.4101
+     },
+     "reb": {
+      "line": 11.5,
+      "market_p_over": 0.42,
+      "teleios_p_over": 0.33
+     }
+    },
     "minutes": 27.5,
     "opp": "UTA",
     "pid": 4433136,
@@ -22383,6 +24953,33 @@
     "team": "LAL"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.5497
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.4274
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.57,
+      "teleios_p_over": 0.5376
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.4075
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.4118
+     }
+    },
     "minutes": 27.3,
     "opp": "LAL",
     "pid": 4873138,
@@ -22479,6 +25076,33 @@
     "team": "UTA"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.635,
+      "teleios_p_over": 0.4913
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.395,
+      "teleios_p_over": 0.2804
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.59,
+      "teleios_p_over": 0.4143
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.395,
+      "teleios_p_over": 0.2484
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.635,
+      "teleios_p_over": 0.5363
+     }
+    },
     "minutes": 27.0,
     "opp": "LAL",
     "pid": 5041955,
@@ -22671,6 +25295,33 @@
     "team": "UTA"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.5196
+     },
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.4293
+     },
+     "pra": {
+      "line": 9.5,
+      "market_p_over": 0.635,
+      "teleios_p_over": 0.6722
+     },
+     "pts": {
+      "line": 4.5,
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.6591
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.5414
+     }
+    },
     "minutes": 23.9,
     "opp": "UTA",
     "pid": 4592691,
@@ -22767,6 +25418,23 @@
     "team": "LAL"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.3952
+     },
+     "pts": {
+      "line": 4.5,
+      "market_p_over": 0.7,
+      "teleios_p_over": 0.7299
+     },
+     "reb": {
+      "line": 1.5,
+      "market_p_over": 0.695,
+      "teleios_p_over": 0.6537
+     }
+    },
     "minutes": 23.0,
     "opp": "UTA",
     "pid": 3907498,
@@ -22863,6 +25531,18 @@
     "team": "LAL"
    },
    {
+    "market": {
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.454
+     },
+     "reb": {
+      "line": 9.5,
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.2222
+     }
+    },
     "minutes": 21.7,
     "opp": "LAL",
     "pid": 4277919,
@@ -23055,6 +25735,18 @@
     "team": "UTA"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.365,
+      "teleios_p_over": 0.34
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.365,
+      "teleios_p_over": 0.4619
+     }
+    },
     "minutes": 20.9,
     "opp": "UTA",
     "pid": 4433137,
@@ -23151,6 +25843,28 @@
     "team": "LAL"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.395,
+      "teleios_p_over": 0.2978
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.58,
+      "teleios_p_over": 0.5472
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.491
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.64,
+      "teleios_p_over": 0.5953
+     }
+    },
     "minutes": 20.3,
     "opp": "UTA",
     "pid": 4278580,
@@ -23247,6 +25961,18 @@
     "team": "LAL"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.5157
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.7138
+     }
+    },
     "minutes": 20.3,
     "opp": "LAL",
     "pid": 5105839,
@@ -23343,6 +26069,33 @@
     "team": "UTA"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.295,
+      "teleios_p_over": 0.2514
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.36,
+      "teleios_p_over": 0.2751
+     },
+     "pra": {
+      "line": 14.5,
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.577
+     },
+     "pts": {
+      "line": 9.5,
+      "market_p_over": 0.645,
+      "teleios_p_over": 0.6361
+     },
+     "reb": {
+      "line": 1.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.5064
+     }
+    },
     "minutes": 18.2,
     "opp": "UTA",
     "pid": 4277811,
@@ -24770,12 +27523,39 @@
  "401910045": {
   "away": "SAS",
   "date": "2026-11-23",
-  "frozen_at": "2026-11-23 21:38 UTC",
+  "frozen_at": "2026-11-23 21:52 UTC",
   "game_id": 401910045,
   "home": "SAC",
   "locked": false,
   "players": [
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.625,
+      "teleios_p_over": 0.5018
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.3921
+     },
+     "pra": {
+      "line": 34.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.271
+     },
+     "pts": {
+      "line": 24.5,
+      "market_p_over": 0.425,
+      "teleios_p_over": 0.2825
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.405,
+      "teleios_p_over": 0.3413
+     }
+    },
     "minutes": 29.6,
     "opp": "SAS",
     "pid": 5142620,
@@ -24872,6 +27652,33 @@
     "team": "SAC"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.515,
+      "teleios_p_over": 0.4498
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.463
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.5021
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.46,
+      "teleios_p_over": 0.4556
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.5565
+     }
+    },
     "minutes": 29.3,
     "opp": "SAS",
     "pid": 4065732,
@@ -24968,6 +27775,33 @@
     "team": "SAC"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.405,
+      "teleios_p_over": 0.3638
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.38,
+      "teleios_p_over": 0.31
+     },
+     "pra": {
+      "line": 44.5,
+      "market_p_over": 0.51,
+      "teleios_p_over": 0.4412
+     },
+     "pts": {
+      "line": 29.5,
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.448
+     },
+     "reb": {
+      "line": 11.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.4625
+     }
+    },
     "minutes": 28.9,
     "opp": "SAC",
     "pid": 5104157,
@@ -25064,6 +27898,33 @@
     "team": "SAS"
    },
    {
+    "market": {
+     "ast": {
+      "line": 7.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.2872
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.61,
+      "teleios_p_over": 0.4206
+     },
+     "pra": {
+      "line": 34.5,
+      "market_p_over": 0.4,
+      "teleios_p_over": 0.2112
+     },
+     "pts": {
+      "line": 19.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.3216
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.3616
+     }
+    },
     "minutes": 28.1,
     "opp": "SAC",
     "pid": 4845367,
@@ -25160,6 +28021,33 @@
     "team": "SAS"
    },
    {
+    "market": {
+     "ast": {
+      "line": 3.5,
+      "market_p_over": 0.345,
+      "teleios_p_over": 0.2809
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.4476
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.4131
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.3009
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.5033
+     }
+    },
     "minutes": 27.6,
     "opp": "SAC",
     "pid": 4395630,
@@ -25256,6 +28144,33 @@
     "team": "SAS"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.665,
+      "teleios_p_over": 0.5643
+     },
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.3266
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.405,
+      "teleios_p_over": 0.3132
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.635,
+      "teleios_p_over": 0.5713
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.415,
+      "teleios_p_over": 0.3164
+     }
+    },
     "minutes": 26.3,
     "opp": "SAS",
     "pid": 3064440,
@@ -25352,6 +28267,33 @@
     "team": "SAC"
    },
    {
+    "market": {
+     "ast": {
+      "line": 1.5,
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.3804
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.2547
+     },
+     "pra": {
+      "line": 19.5,
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.2846
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.365,
+      "teleios_p_over": 0.1935
+     },
+     "reb": {
+      "line": 5.5,
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.2954
+     }
+    },
     "minutes": 26.3,
     "opp": "SAS",
     "pid": 4594327,
@@ -25448,6 +28390,33 @@
     "team": "SAC"
    },
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.4266
+     },
+     "fg3m": {
+      "line": 1.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.2802
+     },
+     "pra": {
+      "line": 24.5,
+      "market_p_over": 0.53,
+      "teleios_p_over": 0.3515
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.3852
+     },
+     "reb": {
+      "line": 3.5,
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.4324
+     }
+    },
     "minutes": 26.3,
     "opp": "SAC",
     "pid": 4066259,
@@ -25544,6 +28513,33 @@
     "team": "SAS"
    },
    {
+    "market": {
+     "ast": {
+      "line": 5.5,
+      "market_p_over": 0.37,
+      "teleios_p_over": 0.2165
+     },
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.265,
+      "teleios_p_over": 0.1705
+     },
+     "pra": {
+      "line": 29.5,
+      "market_p_over": 0.58,
+      "teleios_p_over": 0.3227
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.2929
+     },
+     "reb": {
+      "line": 11.5,
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.3511
+     }
+    },
     "minutes": 25.5,
     "opp": "SAS",
     "pid": 3155942,
@@ -25640,6 +28636,18 @@
     "team": "SAC"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 2.5,
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.4064
+     },
+     "pts": {
+      "line": 14.5,
+      "market_p_over": 0.375,
+      "teleios_p_over": 0.2502
+     }
+    },
     "minutes": 25.5,
     "opp": "SAC",
     "pid": 4592479,
