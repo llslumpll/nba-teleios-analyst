@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NBA Teleios Analyst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE work tool: an analyst's desk, calm and exact
+   IDEA the official scorer's sheet beside the press-row laptop
+   PICTURE the conversation itself, with tonight's slate as a ruled sheet beside it
+   COLOUR white ground, ink, hardwood orange accent, court-line grey
+   TYPE Barlow Condensed (scoreboard lettering) + Inter
+   LAYOUT laptop: chat left, slate sheet right; phone: slate folds above chat */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#121212);--ink:light-dark(#16181b,#ececec);--mute:light-dark(#5d636b,#a3a8ae);--line:light-dark(#e3e5e8,#2c2f33);--panel:light-dark(#f6f7f8,#1b1d20);--acc:light-dark(#d1500f,#ff7a3d);--accsoft:light-dark(#fbe9df,#3a2216);--good:light-dark(#147a3d,#4cc27a);--bad:light-dark(#b3261e,#ff7b72)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;overflow-x:clip}
+h1,h2{font-family:"Barlow Condensed",Inter,sans-serif;letter-spacing:-.01em;line-height:1.05;margin:0}
+h1{font-size:clamp(30px,4vw,40px)}
+h2{font-size:22px}
+.app{display:grid;grid-template-rows:auto 1fr;height:100%}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:8px 20px;padding:16px max(3vw,16px) 12px;border-bottom:3px solid var(--acc)}
+.status{color:var(--mute);font-size:14px}
+.status b{color:var(--ink);font-weight:600}
+main{display:grid;grid-template-columns:minmax(0,1fr) 360px;min-height:0}
+.chat{display:grid;grid-template-rows:1fr auto;min-height:0;border-right:1px solid var(--line)}
+.log{overflow-y:auto;padding:20px max(3vw,16px);display:flex;flex-direction:column;gap:16px}
+.msg{max-width:760px}
+.msg.you{align-self:flex-end;background:var(--accsoft);padding:10px 14px;border-radius:14px 14px 4px 14px}
+.msg.bot{align-self:flex-start}
+.msg.bot .who{font-family:"Barlow Condensed",sans-serif;font-weight:700;color:var(--acc);font-size:15px;margin-bottom:2px}
+.msg p{margin:0 0 .6em}.msg p:last-child{margin-bottom:0}
+.msg ul,.msg ol{margin:.2em 0 .6em;padding-left:1.3em}
+.msg table{border-collapse:collapse;font-size:14px;margin:.4em 0}
+.msg th,.msg td{border-bottom:1px solid var(--line);padding:4px 10px 4px 0;text-align:left}
+.msg td.n{text-align:right;font-variant-numeric:tabular-nums}
+.tw{overflow-x:auto}
+.used{color:var(--mute);font-size:13px;margin-top:6px}
+.err{color:var(--bad)}
+.empty{margin:auto 0;max-width:640px}
+.empty p{color:var(--mute)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chip{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:8px 14px;min-height:40px;cursor:pointer;text-align:left}
+.chip:hover{border-color:var(--acc)}
+form{display:flex;gap:10px;padding:12px max(3vw,16px) 16px;border-top:1px solid var(--line);background:var(--bg)}
+textarea{flex:1;font:inherit;font-size:16px;resize:none;border:1px solid var(--line);border-radius:12px;padding:11px 14px;background:var(--bg);color:var(--ink);min-height:48px;max-height:180px}
+textarea:focus,.chip:focus-visible,button:focus-visible{outline:2px solid var(--acc);outline-offset:1px}
+button.send{font:600 15px Inter,sans-serif;background:var(--acc);color:#fff;border:0;border-radius:12px;padding:0 20px;min-height:48px;cursor:pointer}
+button.send:disabled{opacity:.5;cursor:default}
+button.ghost{font:inherit;font-size:14px;background:none;border:1px solid var(--line);color:var(--mute);border-radius:10px;padding:6px 12px;min-height:36px;cursor:pointer}
+aside{overflow-y:auto;background:var(--panel);padding:18px 18px 24px}
+.sheet{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px}
+.sheet th{font-weight:500;color:var(--mute);text-align:left;border-bottom:2px solid var(--ink);padding:4px 4px 4px 0;font-size:13px}
+.sheet th.n,.sheet td.n{text-align:right}
+.sheet td{border-bottom:1px solid var(--line);padding:7px 4px 7px 0;font-variant-numeric:tabular-nums;white-space:nowrap}
+.sheet tr.g{cursor:pointer}.sheet tr.g:hover td{background:var(--bg)}
+.pick{font-weight:600}
+.diff{color:var(--acc);font-weight:600}
+.res-hit{color:var(--good)}.res-miss{color:var(--bad)}
+.card{margin-top:22px}
+.big{font-family:"Barlow Condensed",sans-serif;font-size:34px;font-weight:700;line-height:1}
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:10px}
+.kpis div span{display:block;color:var(--mute);font-size:13px}
+.note{color:var(--mute);font-size:13px;margin-top:8px}
+details.slate-m{display:none}
+@media(max-width:900px){main{grid-template-columns:minmax(0,1fr)}aside{display:none}.chat{border-right:0}details.slate-m{display:block;border-bottom:1px solid var(--line);padding:8px max(3vw,16px)}details.slate-m summary{cursor:pointer;min-height:36px;display:flex;align-items:center;font-weight:600}}
+@media(prefers-reduced-motion:no-preference){.msg{animation:in .18s ease-out}@keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1}}}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div><h1>NBA Teleios Analyst</h1></div>
+    <div class="status" id="status">Loading data…</div>
+  </header>
+  <main>
+    <section class="chat">
+      <div class="log" id="log" aria-live="polite">
+        <details class="slate-m" id="slateM"><summary>Tonight's slate</summary><div id="slateMBody"></div></details>
+        <div class="empty" id="empty">
+          <h2>Ask about any game, team or player</h2>
+          <p>Teleios answers from its own data: tonight's predictions and why, team and player ratings, injuries, shot profiles, every game this season, and its scorecard against the market.</p>
+          <div class="chips" id="chips"></div>
+        </div>
+      </div>
+      <form id="form">
+        <textarea id="q" rows="1" placeholder="Ask Teleios…" aria-label="Your question"></textarea>
+        <button class="send" id="send" type="submit">Ask</button>
+      </form>
+    </section>
+    <aside id="side">
+      <h2 id="slateTitle">Tonight</h2>
+      <div id="slateBody"></div>
+      <div class="card" id="score"></div>
+      <div class="card"><button class="ghost" id="clear" type="button">Start a new conversation</button></div>
+    </aside>
+  </main>
+</div>
+<script>
+{
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pct = x => x == null ? "–" : Math.round(x * 100) + "%";
+let D = null, sample = null, history = [], busy = false;
+
+const etDate = (d = new Date()) => new Intl.DateTimeFormat("en-CA", {timeZone: "America/New_York"}).format(d);
+const tipET = s => { try { return new Date(s.replace(" ", "T").replace(/\+00:00$/, "Z")).toLocaleTimeString("en-US", {timeZone: "America/Chicago", hour: "numeric", minute: "2-digit"}); } catch { return ""; } };
+
+/* ---------- tiny markdown: escape first, then **bold**, lists, tables ---------- */
+function md(text) {
+  const lines = esc(text).split("\n"); let out = "", list = null, table = [];
+  const flushT = () => { if (!table.length) return; const rows = table.filter(r => !/^\s*\|?\s*:?-{2,}/.test(r)).map(r => r.replace(/^\s*\||\|\s*$/g, "").split("|").map(c => c.trim()));
+    out += '<div class="tw"><table>' + rows.map((r, i) => "<tr>" + r.map(c => i ? `<td${/^[-+]?[\d.,%]+$/.test(c) ? ' class="n"' : ""}>${c}</td>` : `<th>${c}</th>`).join("") + "</tr>").join("") + "</table></div>"; table = []; };
+  const flushL = () => { if (list) { out += `</${list}>`; list = null; } };
+  for (const l of lines) {
+    if (/^\s*\|.*\|\s*$/.test(l)) { flushL(); table.push(l); continue; } flushT();
+    const ul = l.match(/^\s*[-*]\s+(.*)/), ol = l.match(/^\s*\d+[.)]\s+(.*)/);
+    if (ul || ol) { const t = ul ? "ul" : "ol"; if (list !== t) { flushL(); out += `<${t}>`; list = t; } out += `<li>${(ul || ol)[1]}</li>`; continue; }
+    flushL(); if (l.trim()) out += `<p>${l.replace(/^#+\s*/, "")}</p>`;
+  }
+  flushT(); flushL();
+  return out.replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
+}
+
+/* ---------- data helpers (the analyst's tools) ---------- */
+const TEAM_ALIAS = {GS:"GSW",NO:"NOP",NY:"NYK",SA:"SAS",UTAH:"UTA",WSH:"WAS",BRK:"BKN",PHO:"PHX"};
+function teamCode(q) {
+  if (!q) return null; const s = String(q).trim().toUpperCase();
+  if (D.teams[s]) return s; if (TEAM_ALIAS[s]) return TEAM_ALIAS[s];
+  for (const [c, t] of Object.entries(D.teams)) if (t.name.toUpperCase().includes(s)) return c;
+  return null;
+}
+function findPlayers(q) {
+  const s = String(q || "").toLowerCase().trim(); if (!s) return [];
+  return Object.entries(D.player_logs.names).filter(([, n]) => n.toLowerCase().includes(s)).map(([id, n]) => ({id, name: n}));
+}
+function avg(logs, from) {
+  const played = logs.filter(r => r[3] !== "DNP").slice(-from);
+  if (!played.length) return null; const cols = D.player_logs.cols; const o = {games: played.length};
+  ["min","pts","reb","ast","stl","blk","tov","fg3m","plus_minus"].forEach(c => { const i = cols.indexOf(c); o[c] = +(played.reduce((a, r) => a + r[i], 0) / played.length).toFixed(1); });
+  const s = c => played.reduce((a, r) => a + r[cols.indexOf(c)], 0);
+  o.fg_pct = s("fga") ? +(s("fgm") / s("fga")).toFixed(3) : null; o.ft_pct = s("fta") ? +(s("ftm") / s("fta")).toFixed(3) : null;
+  return o;
+}
+function gameRows(team) {
+  const R = D.results.rows; return R.filter(r => !team || r[1] === team || r[2] === team).map(r => ({date: r[0], home: r[1], away: r[2], score: `${r[2]} ${r[4]} @ ${r[1]} ${r[3]}`, winner: r[3] > r[4] ? r[1] : r[2], teleios_p_home: r[5], market_p_home: r[6]}));
+}
+function slim(p, full) {
+  const o = {date: p.date, tip_utc: p.tip_utc, away: p.away, home: p.home, teleios_p_home: p.p_home, market_p_home: p.market_p_home, pick: p.pick, chance: p.chance, margin_home: p.margin, locked: p.locked, result: p.result || null};
+  if (full) o.why = p.why, o.first = p.first; else o.out = p.why && p.why.out ? Object.fromEntries(Object.entries(p.why.out).map(([t, l]) => [t, l.map(x => x.player)])) : null;
+  return o;
+}
+const TOOLS = [
+  {name: "list_games", description: "Teleios predictions for one date (ET, YYYY-MM-DD; default today): each game's win chance for the home team, the market's (Kalshi) chance, pick, projected margin, who is out, and the result once graded.",
+   inputSchema: {type: "object", properties: {date: {type: "string"}}},
+   execute: ({date}) => { const d = date || etDate(); const list = D.predictions[d]; return list ? list.map(p => slim(p, false)) : {note: `no predictions stored for ${d}`, dates_available: Object.keys(D.predictions)}; }},
+  {name: "game_detail", description: "Full reasoning for one predicted game: home court and situation effects (rest, back-to-back, travel, altitude), team strengths, team terms, each side's top players by impact, players out/questionable, first vs latest prediction. Give a team code or name; optional date.",
+   inputSchema: {type: "object", properties: {team: {type: "string"}, date: {type: "string"}}, required: ["team"]},
+   execute: ({team, date}) => { const t = teamCode(team); if (!t) throw new Error("unknown team " + team);
+     const days = date ? [date] : Object.keys(D.predictions).sort().reverse();
+     for (const d of days) { const g = (D.predictions[d] || []).find(p => p.home === t || p.away === t); if (g) return slim(g, true); }
+     return {note: "no stored prediction for " + t}; }},
+  {name: "team_report", description: "Everything on one team: strength tonight and when healthy, league rank, team term, rotation with projected minutes and player ratings, players out/questionable, offense and defense shot profiles (season and last 10), and this season's results with Teleios's and the market's pre-game chances.",
+   inputSchema: {type: "object", properties: {team: {type: "string"}}, required: ["team"]},
+   execute: ({team}) => { const t = teamCode(team); if (!t) throw new Error("unknown team " + team);
+     const sp = (D.shot_profiles.teams || {})[t] || null;
+     return {team: t, ...D.teams[t], shot_profile: sp, league_shot_profile: D.shot_profiles.league, games: gameRows(t)}; }},
+  {name: "player_report", description: "One player: model rating (points of margin per 48 minutes vs average), box-score prior, current team, shot profile (zones, shot types, shot quality vs shot making), season and last-5 averages, and full game log this season.",
+   inputSchema: {type: "object", properties: {name: {type: "string"}}, required: ["name"]},
+   execute: ({name}) => { const m = findPlayers(name); if (!m.length) throw new Error("no player matching " + name);
+     if (m.length > 1 && !m.some(x => x.name.toLowerCase() === String(name).toLowerCase())) { if (m.length > 6) return {matches: m.slice(0, 12).map(x => x.name), note: "be more specific"}; }
+     const p = m.find(x => x.name.toLowerCase() === String(name).toLowerCase()) || m[0];
+     const logs = D.player_logs.logs[p.id] || []; const r = D.players.find(x => String(x.pid) === p.id) || null;
+     const sp = (D.shot_profiles.players || []).find(x => String(x.pid) === p.id) || null;
+     return {player: p.name, rating: r, season_avg: avg(logs, 999), last5_avg: avg(logs, 5), shot_profile: sp, log_cols: D.player_logs.cols, game_log: logs, other_matches: m.length > 1 ? m.map(x => x.name).slice(0, 8) : undefined}; }},
+  {name: "team_rankings", description: "All 30 teams ranked by Teleios strength tonight (points of margin vs an average team on a neutral floor), with healthy strength and who is out.",
+   inputSchema: {type: "object", properties: {}},
+   execute: () => Object.entries(D.teams).map(([c, t]) => ({team: c, name: t.name, rank: t.rank_now, strength_now: t.strength_now, strength_healthy: t.strength_healthy, out: t.out})).sort((a, b) => a.rank - b.rank)},
+  {name: "player_leaders", description: "Top players this season by a stat: rating, pts, reb, ast, stl, blk, fg3m, plus_minus, min (per game; min_games filter, default 8).",
+   inputSchema: {type: "object", properties: {stat: {type: "string"}, min_games: {type: "number"}, team: {type: "string"}, limit: {type: "number"}}, required: ["stat"]},
+   execute: ({stat, min_games = 8, team, limit = 15}) => { const t = team ? teamCode(team) : null;
+     if (stat === "rating") return D.players.filter(p => !t || p.team === t).slice(0, limit);
+     const rows = []; for (const [id, logs] of Object.entries(D.player_logs.logs)) { const a = avg(logs, 999); if (!a || a.games < min_games || a[stat] == null) continue; const tm = logs[logs.length - 1][1]; if (t && tm !== t) continue; rows.push({player: D.player_logs.names[id], team: tm, games: a.games, [stat]: a[stat], min: a.min}); }
+     return rows.sort((a, b) => b[stat] - a[stat]).slice(0, limit); }},
+  {name: "head_to_head", description: "Games between two teams this season, with Teleios and market pre-game chances.",
+   inputSchema: {type: "object", properties: {team_a: {type: "string"}, team_b: {type: "string"}}, required: ["team_a", "team_b"]},
+   execute: ({team_a, team_b}) => { const a = teamCode(team_a), b = teamCode(team_b); return gameRows(a).filter(g => g.home === b || g.away === b); }},
+  {name: "scorecard", description: "How good Teleios has been: live record, backfill of this season vs FanDuel closing line and Prop Edge, calibration, and the 2025-26 backtest vs Elo.",
+   inputSchema: {type: "object", properties: {}}, execute: () => D.scorecard},
+  {name: "notebook", description: "Patterns notebook (repeated misses: confirmed / watching / faded, with the rule) and experiments run on the model (e.g. shot-luck adjustment, rejected).",
+   inputSchema: {type: "object", properties: {}}, execute: () => ({notebook: D.notebook, experiments: D.experiments})},
+  {name: "injuries", description: "Current ESPN injury report, optionally for one team.",
+   inputSchema: {type: "object", properties: {team: {type: "string"}}},
+   execute: ({team}) => { const t = team ? teamCode(team) : null; return {fetched_at: D.injuries.fetched_at, players: (D.injuries.players || []).filter(p => !t || p.team === t).map(p => ({player: p.player, team: p.team, status: p.status, comment: p.comment}))}; }},
+  {name: "data_status", description: "When the data was built and the last pipeline runs (source errors, games graded).",
+   inputSchema: {type: "object", properties: {}}, execute: () => ({built: D.built, last_runs: D.last_runs, upcoming_next_7_days: D.upcoming})},
+];
+
+function brief() {
+  return `You are Teleios, a sharp, honest NBA analyst for one person. Today is ${etDate()} (US Eastern). Your data was built ${D.built}.
+You answer ONLY from your tools (call them; never invent numbers, injuries, scores or players). If the data doesn't cover something, say so plainly.
+Model: ${D.model.how} Settings: ${JSON.stringify(D.model.params)}. Situation effects in points: ${JSON.stringify(D.model.situation_effects)}.
+How to answer: lead with the answer, then the 2-4 numbers that matter, then the reasoning. Explain WHY using the model's parts (who is out, rest, travel, player ratings, shot profile). Compare to the market when relevant and say when Teleios disagrees. Be candid about uncertainty and sample size; the market is a tough benchmark and Teleios is not yet proven better than it. Never tell the user to bet; you're an analyst, not a tipster. Plain text, short paragraphs; a small markdown table only when comparing several rows. Use team codes like BOS, players' full names. Win chances as percentages.`;
+}
+
+/* ---------- UI ---------- */
+function addMsg(who, html) {
+  $("#empty")?.remove();
+  const el = document.createElement("div"); el.className = "msg " + who;
+  el.innerHTML = (who === "bot" ? '<div class="who">Teleios</div>' : "") + '<div class="body"></div>';
+  el.querySelector(".body").innerHTML = html; $("#log").appendChild(el); $("#log").scrollTop = 1e9; return el;
+}
+function save() { try { localStorage.setItem("teleios-chat", JSON.stringify(history.slice(-30))); } catch {} }
+
+async function ask(q) {
+  q = q.trim(); if (!q || busy) return;
+  if (!sample) { addMsg("bot", '<p class="err">The analyst needs Claude to answer, and that isn\'t available in this view. Open this page in Claude to chat.</p>'); return; }
+  busy = true; $("#send").disabled = true; $("#q").value = ""; autosize();
+  addMsg("you", md(q));
+  history.push({role: "user", content: q});
+  const el = addMsg("bot", "<p>Thinking…</p>"); const body = el.querySelector(".body"); const used = [];
+  const tools = TOOLS.map(t => ({...t, execute: async inp => { used.push(t.name.replace(/_/g, " ") + (inp && (inp.team || inp.name || inp.date || inp.stat) ? ": " + (inp.team || inp.name || inp.date || inp.stat) : "")); return t.execute(inp || {}); }}));
+  const msgs = history.map((m, i) => i === 0 && m.role === "user" ? {role: "user", content: brief() + "\n\nUser: " + m.content} : m);
+  try {
+    const res = await sample(msgs, {tools, cache: false, modelTier: "default", onText: ({text}) => { body.innerHTML = md(text); $("#log").scrollTop = 1e9; }});
+    body.innerHTML = md(res.text || "(no answer)");
+    history.push({role: "assistant", content: res.text || ""}); save();
+  } catch (e) {
+    history.pop();
+    const msg = e && e.code === "rate_limited" ? "Too many questions in a short time. Give it a minute and ask again." : e && e.code === "not_granted" ? "Claude access for this page was declined, so the analyst can't answer here." : "Something went wrong: " + (e && (e.message || e.code) || e);
+    body.innerHTML = `<p class="err">${esc(msg)}</p>`;
+  }
+  if (used.length) { const u = document.createElement("div"); u.className = "used"; u.textContent = "Looked at: " + [...new Set(used)].join(" · "); el.appendChild(u); }
+  busy = false; $("#send").disabled = false; $("#q").focus();
+}
+
+function slateHTML() {
+  const today = etDate(); const days = Object.keys(D.predictions).filter(d => d >= today).sort();
+  const d = days[0] || Object.keys(D.predictions).sort().pop(); const list = (D.predictions[d] || []).slice().sort((a, b) => a.tip_utc.localeCompare(b.tip_utc));
+  $("#slateTitle").textContent = d === today ? "Tonight" : "Games " + d;
+  if (!list.length) return '<p class="note">No games stored.</p>';
+  return '<table class="sheet"><tr><th>Game</th><th class="n">Teleios</th><th class="n">Market</th></tr>' + list.map(p => {
+    const mk = p.market_p_home == null ? null : (p.pick === p.home ? p.market_p_home : 1 - p.market_p_home);
+    const gap = mk == null ? 0 : p.chance - mk; const r = p.result;
+    return `<tr class="g" data-q="${esc(`Break down ${p.away} at ${p.home}: why does Teleios pick ${p.pick}?`)}"><td>${esc(p.away)} @ ${esc(p.home)}<br><span class="note">${r ? `<span class="${r.hit ? "res-hit" : "res-miss"}">${r.hit ? "Hit" : "Miss"}</span> ${esc(r.winner)} won` : esc(tipET(p.tip_utc)) + " CT"}</span></td><td class="n"><span class="pick">${esc(p.pick)}</span> ${pct(p.chance)}</td><td class="n ${Math.abs(gap) >= .06 ? "diff" : ""}">${pct(mk)}</td></tr>`; }).join("") + '</table><p class="note">Orange = Teleios and the market differ by 6+ points. Tap a game to ask about it.</p>';
+}
+function scoreHTML() {
+  const s = D.scorecard || {}; const live = (s.live || {}).metrics || {}; const b = (s.backfill_2026_27 || {}).vs_fanduel_close || {}; const bt = (s.backtest_2025_26 || {}).test || {};
+  return `<h2>Scorecard</h2><div class="kpis"><div><span>Live</span><b class="big">${live.games ? pct(live.accuracy) : "–"}</b><span>${live.games || 0} games</span></div><div><span>This season*</span><b class="big">${b.teleios ? pct(b.teleios.accuracy) : "–"}</b><span>market ${b.fanduel_close ? pct(b.fanduel_close.accuracy) : "–"}</span></div><div><span>2025-26 test</span><b class="big">${bt.accuracy ? pct(bt.accuracy) : "–"}</b><span>${bt.games || ""} games</span></div></div><p class="note">*Backfill, made after the fact. Picked-winner rate shown; ask Teleios for Brier score and calibration.</p>`;
+}
+const CHIPS = ["Which game tonight does Teleios disagree with the market on most, and why?", "Rank the top 10 teams right now", "How has Teleios done so far against the market?", "Who's the most underrated player by the model?", "What patterns has the notebook found?"];
+
+function autosize() { const t = $("#q"); t.style.height = "auto"; t.style.height = Math.min(t.scrollHeight, 180) + "px"; }
+$("#q").addEventListener("input", autosize);
+$("#q").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); ask($("#q").value); } });
+$("#form").addEventListener("submit", e => { e.preventDefault(); ask($("#q").value); });
+$("#clear").addEventListener("click", () => { history = []; save(); $("#log").querySelectorAll(".msg").forEach(m => m.remove()); });
+document.addEventListener("click", e => { const c = e.target.closest("[data-q]"); if (c) ask(c.dataset.q); });
+
+async function boot() {
+  try { D = await (await fetch("data.json", {cache: "no-store"})).json(); }
+  catch (e) { $("#status").textContent = "Couldn't load Teleios's data."; return; }
+  $("#status").innerHTML = `Data built <b>${esc(D.built)}</b> · ${D.results.rows.length} games this season`;
+  const s = slateHTML(); $("#slateBody").innerHTML = s; $("#slateMBody").innerHTML = s; $("#score").innerHTML = scoreHTML();
+  $("#chips").innerHTML = CHIPS.map(c => `<button class="chip" type="button" data-q="${esc(c)}">${esc(c)}</button>`).join("");
+  try { const h = JSON.parse(localStorage.getItem("teleios-chat") || "[]"); if (Array.isArray(h) && h.length) { history = h; h.forEach(m => addMsg(m.role === "user" ? "you" : "bot", md(m.content))); } } catch {}
+  sample = window.claude ? await window.claude.use("sample") : null;
+}
+boot();
+}
+</script>
+</body>
+</html>

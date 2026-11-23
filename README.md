@@ -77,3 +77,16 @@ python -m teleios.daily --no-fetch   # cached data only
 python -m teleios.backtest           # re-tune (slow, ~40 min)
 python -m teleios.backfill           # rebuild the 2026-27 backfill
 ```
+
+## The analyst chat
+
+The chat is a Claude artifact page (`chat/index.html`). It reads `chat/data.json`, which `python -m teleios.bundle` builds from everything in `data/`. A scheduled Claude task rebuilds that file and republishes it twice a day.
+
+The analyst answers only through its tools:
+- tonight's games and why each pick was made
+- team and player reports
+- rankings and leaders
+- head-to-head results
+- injuries
+- the scorecard
+- the notebook and experiments
