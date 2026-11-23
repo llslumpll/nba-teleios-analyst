@@ -26,6 +26,47 @@ def _j(name: str, default=None):
         return default
 
 
+DROP = {"PLAYER_ID", "TEAM_ID", "TEAM_NAME", "PLAYER_NAME", "TEAM_ABBREVIATION", "PLAYER_LAST_TEAM_ID",
+        "PLAYER_LAST_TEAM_ABBREVIATION", "TEAM_CITY", "TEAM_NICKNAME", "SEASON_YEAR", "W", "L", "PLAYER_POSITION",
+        "AGE", "GP_RANK", "G", "FG2A_FREQUENCY", "FG3A_FREQUENCY", "FGA_FREQUENCY"}
+
+
+def tracking() -> dict:
+    """NBA.com camera-tracking stats saved by the Mac tracker:
+    {"status", "players": {name: {table: {stat: value}}}, "teams": {code: {...}}}"""
+    import csv
+    from teleios import teams as T
+    folder = data.DATA / "tracking" / "latest"
+    out = {"status": _j("tracking/status.json", {}), "players": {}, "teams": {}}
+    if not folder.exists():
+        return out
+    for f in sorted(folder.glob("*.csv")):
+        kind, table = f.stem.split("_", 1)
+        with open(f) as fh:
+            for row in csv.DictReader(fh):
+                vals = {}
+                for k, v in row.items():
+                    if k in DROP or v in ("", None):
+                        continue
+                    try:
+                        vals[k.lower()] = round(float(v), 3)
+                    except ValueError:
+                        continue
+                if kind == "player":
+                    key = row.get("PLAYER_NAME") or row.get("PLAYER_NAME".lower())
+                    rec = out["players"].setdefault(key, {"team": T.canon(row.get("TEAM_ABBREVIATION") or row.get("PLAYER_LAST_TEAM_ABBREVIATION"), "kalshi")})
+                else:
+                    key = T.canon(row.get("TEAM_ABBREVIATION"), "kalshi") or T.canon(row.get("TEAM_NAME"), "espn")
+                    if not key:
+                        full = {v[0]: c for c, v in T.TEAMS.items()}
+                        key = full.get(row.get("TEAM_NAME"))
+                    if not key:
+                        continue
+                    rec = out["teams"].setdefault(key, {})
+                rec[table] = vals
+    return out
+
+
 def main():
     today = date.today()
     preds = {}
@@ -81,6 +122,7 @@ def main():
                         "names": {str(k): v for k, v in names.items()},
                         "logs": {str(k): v for k, v in logs.items()}},
         "shot_profiles": _j("shot_profiles.json", {}),
+        "tracking": tracking(),
         "scorecard": _j("scorecard.json", {}),
         "notebook": _j("notebook.json", {}),
         "experiments": _j("experiments.json", {}),

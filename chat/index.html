@@ -83,7 +83,7 @@ details.slate-m{display:none}
         <details class="slate-m" id="slateM"><summary>Tonight's slate</summary><div id="slateMBody"></div></details>
         <div class="empty" id="empty">
           <h2>Ask about any game, team or player</h2>
-          <p>Teleios answers from its own data: tonight's predictions and why, team and player ratings, injuries, shot profiles, every game this season, and its scorecard against the market.</p>
+          <p>Teleios answers from its own data: tonight's predictions and why, team and player ratings, injuries, shot profiles, NBA.com camera-tracking stats, every game this season, and its scorecard against the market.</p>
           <div class="chips" id="chips"></div>
         </div>
       </div>
@@ -168,7 +168,7 @@ const TOOLS = [
    inputSchema: {type: "object", properties: {team: {type: "string"}}, required: ["team"]},
    execute: ({team}) => { const t = teamCode(team); if (!t) throw new Error("unknown team " + team);
      const sp = (D.shot_profiles.teams || {})[t] || null;
-     return {team: t, ...D.teams[t], shot_profile: sp, league_shot_profile: D.shot_profiles.league, games: gameRows(t)}; }},
+     return {team: t, ...D.teams[t], shot_profile: sp, nba_tracking: (D.tracking && D.tracking.teams || {})[t] || null, league_shot_profile: D.shot_profiles.league, games: gameRows(t)}; }},
   {name: "player_report", description: "One player: model rating (points of margin per 48 minutes vs average), box-score prior, current team, shot profile (zones, shot types, shot quality vs shot making), season and last-5 averages, and full game log this season.",
    inputSchema: {type: "object", properties: {name: {type: "string"}}, required: ["name"]},
    execute: ({name}) => { const m = findPlayers(name); if (!m.length) throw new Error("no player matching " + name);
@@ -176,7 +176,8 @@ const TOOLS = [
      const p = m.find(x => x.name.toLowerCase() === String(name).toLowerCase()) || m[0];
      const logs = D.player_logs.logs[p.id] || []; const r = D.players.find(x => String(x.pid) === p.id) || null;
      const sp = (D.shot_profiles.players || []).find(x => String(x.pid) === p.id) || null;
-     return {player: p.name, rating: r, season_avg: avg(logs, 999), last5_avg: avg(logs, 5), shot_profile: sp, log_cols: D.player_logs.cols, game_log: logs, other_matches: m.length > 1 ? m.map(x => x.name).slice(0, 8) : undefined}; }},
+     const tr = D.tracking && D.tracking.players ? (D.tracking.players[p.name] || Object.entries(D.tracking.players).find(([n]) => n.toLowerCase() === p.name.toLowerCase())?.[1] || null) : null;
+     return {player: p.name, rating: r, nba_tracking: tr, season_avg: avg(logs, 999), last5_avg: avg(logs, 5), shot_profile: sp, log_cols: D.player_logs.cols, game_log: logs, other_matches: m.length > 1 ? m.map(x => x.name).slice(0, 8) : undefined}; }},
   {name: "team_rankings", description: "All 30 teams ranked by Teleios strength tonight (points of margin vs an average team on a neutral floor), with healthy strength and who is out.",
    inputSchema: {type: "object", properties: {}},
    execute: () => Object.entries(D.teams).map(([c, t]) => ({team: c, name: t.name, rank: t.rank_now, strength_now: t.strength_now, strength_healthy: t.strength_healthy, out: t.out})).sort((a, b) => a.rank - b.rank)},
@@ -189,6 +190,14 @@ const TOOLS = [
   {name: "head_to_head", description: "Games between two teams this season, with Teleios and market pre-game chances.",
    inputSchema: {type: "object", properties: {team_a: {type: "string"}, team_b: {type: "string"}}, required: ["team_a", "team_b"]},
    execute: ({team_a, team_b}) => { const a = teamCode(team_a), b = teamCode(team_b); return gameRows(a).filter(g => g.home === b || g.away === b); }},
+  {name: "tracking_leaders", description: "Rank players or teams by any NBA.com camera-tracking stat, season per game (shots by defender distance are season totals). Tables: speed_distance, drives, catch_shoot, pullup, passing, touches, rebounding, rim_defense, efficiency, paint_touch, post_touch, elbow_touch, shots_very_tight_0_2ft, shots_tight_2_4ft, shots_open_4_6ft, shots_wide_open_6ft_plus. Call with only a table to see its stat names.",
+   inputSchema: {type: "object", properties: {table: {type: "string"}, stat: {type: "string"}, who: {type: "string", enum: ["player", "team"]}, min_games: {type: "number"}, ascending: {type: "boolean"}, limit: {type: "number"}}, required: ["table"]},
+   execute: ({table, stat, who = "player", min_games = 8, ascending = false, limit = 15}) => {
+     const src = who === "team" ? (D.tracking.teams || {}) : (D.tracking.players || {});
+     const rows = Object.entries(src).map(([k, v]) => ({who: k, team: v.team, ...(v[table] || {})})).filter(r => r.gp != null && (who === "team" || r.gp >= min_games));
+     if (!rows.length) return {note: "no such table", status: D.tracking.status};
+     if (!stat) return {stats: Object.keys(rows[0]).filter(k => !["who", "team"].includes(k))};
+     return {as_of: D.tracking.status && D.tracking.status.run_at, rows: rows.filter(r => r[stat] != null).sort((a, b) => ascending ? a[stat] - b[stat] : b[stat] - a[stat]).slice(0, limit)}; }},
   {name: "scorecard", description: "How good Teleios has been: live record, backfill of this season vs FanDuel closing line and Prop Edge, calibration, and the 2025-26 backtest vs Elo.",
    inputSchema: {type: "object", properties: {}}, execute: () => D.scorecard},
   {name: "notebook", description: "Patterns notebook (repeated misses: confirmed / watching / faded, with the rule) and experiments run on the model (e.g. shot-luck adjustment, rejected).",
@@ -204,7 +213,7 @@ function brief() {
   return `You are Teleios, a sharp, honest NBA analyst for one person. Today is ${etDate()} (US Eastern). Your data was built ${D.built}.
 You answer ONLY from your tools (call them; never invent numbers, injuries, scores or players). If the data doesn't cover something, say so plainly.
 Model: ${D.model.how} Settings: ${JSON.stringify(D.model.params)}. Situation effects in points: ${JSON.stringify(D.model.situation_effects)}.
-How to answer: lead with the answer, then the 2-4 numbers that matter, then the reasoning. Explain WHY using the model's parts (who is out, rest, travel, player ratings, shot profile). Compare to the market when relevant and say when Teleios disagrees. Be candid about uncertainty and sample size; the market is a tough benchmark and Teleios is not yet proven better than it. Never tell the user to bet; you're an analyst, not a tipster. Plain text, short paragraphs; a small markdown table only when comparing several rows. Use team codes like BOS, players' full names. Win chances as percentages.`;
+How to answer: lead with the answer, then the 2-4 numbers that matter, then the reasoning. Explain WHY using the model's parts (who is out, rest, travel, player ratings) and the evidence (shot profiles from play-by-play; NBA.com camera tracking: drives, catch-and-shoot vs pull-up, defender distance, touches, speed, rim defense). Tracking and shot data are descriptive: they are NOT inputs to the win model, so say so if asked. Compare to the market when relevant and say when Teleios disagrees. Be candid about uncertainty and sample size; the market is a tough benchmark and Teleios is not yet proven better than it. Never tell the user to bet; you're an analyst, not a tipster. Plain text, short paragraphs; a small markdown table only when comparing several rows. Use team codes like BOS, players' full names. Win chances as percentages.`;
 }
 
 /* ---------- UI ---------- */
