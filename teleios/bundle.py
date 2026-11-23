@@ -136,6 +136,7 @@ def main():
         "scorecard": _j("scorecard.json", {}),
         "notebook": _j("notebook.json", {}),
         "experiments": _j("experiments.json", {}),
+        "retune_log": (_j("retune_log.json", []) or [])[-6:],
         "last_runs": (_j("run_log.json", []) or [])[-3:],
     }
     OUT.parent.mkdir(exist_ok=True)

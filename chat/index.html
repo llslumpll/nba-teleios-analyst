@@ -6,24 +6,27 @@
 <title>NBA Teleios Analyst</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-/* VOICE work tool: an analyst's desk, calm and exact
-   IDEA the official scorer's sheet beside the press-row laptop
-   PICTURE the conversation itself, with tonight's slate as a ruled sheet beside it
-   COLOUR white ground, ink, hardwood orange accent, court-line grey
-   TYPE Barlow Condensed (scoreboard lettering) + Inter
-   LAYOUT laptop: chat left, slate sheet right; phone: slate folds above chat */
-:root{color-scheme:light dark;--bg:light-dark(#ffffff,#121212);--ink:light-dark(#16181b,#ececec);--mute:light-dark(#5d636b,#a3a8ae);--line:light-dark(#e3e5e8,#2c2f33);--panel:light-dark(#f6f7f8,#1b1d20);--acc:light-dark(#d1500f,#ff7a3d);--accsoft:light-dark(#fbe9df,#3a2216);--good:light-dark(#147a3d,#4cc27a);--bad:light-dark(#b3261e,#ff7b72)}
+/* VOICE work tool: an analyst's desk, dense and exact
+   IDEA the newspaper box score: ruled tables, black rules, one red
+   PICTURE the tables and bars themselves: Teleios (red) beside the market (slate blue)
+   COLOUR white paper, black ink, box-score red, slate-blue market; night: ink paper, same idea
+   TYPE Oswald (headline lettering) + Source Sans 3 (text and numbers)
+   LAYOUT black masthead with tabs; each tab one ruled sheet; phone: tables scroll in their boxes */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#141414);--ink:light-dark(#111111,#eeeeee);--mute:light-dark(#555b62,#a6abb1);--line:light-dark(#dddddd,#2e2e2e);--panel:light-dark(#f5f5f4,#1d1d1d);--acc:light-dark(#c8102e,#ff5c6c);--accsoft:light-dark(#fde8ea,#3a1518);--good:light-dark(#147a3d,#4cc27a);--bad:light-dark(#b3261e,#ff7b72);--bar:#111111}
 :root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
 *{box-sizing:border-box;min-width:0}
 html,body{height:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;overflow-x:clip}
-h1,h2{font-family:"Barlow Condensed",Inter,sans-serif;letter-spacing:-.01em;line-height:1.05;margin:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Source Sans 3",system-ui,sans-serif;overflow-x:clip}
+h1,h2{font-family:Oswald,sans-serif;letter-spacing:-.01em;line-height:1.05;margin:0}
 h1{font-size:clamp(30px,4vw,40px)}
 h2{font-size:22px}
 .app{display:grid;grid-template-rows:auto minmax(0,1fr);height:100%}
-header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:8px 20px;padding:16px max(3vw,16px) 12px;border-bottom:3px solid var(--acc)}
+header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 20px;padding:10px max(3vw,16px);background:#111111;color:#ffffff}
+header h1{font-size:24px;font-weight:600;color:#ffffff}
+header .status{color:#b9bcc0;font-size:13px}
+header .status b{color:#ffffff}
 .status{color:var(--mute);font-size:14px}
 .status b{color:var(--ink);font-weight:600}
 main{display:grid;grid-template-columns:minmax(0,1fr) 360px;min-height:0}
@@ -32,7 +35,7 @@ main{display:grid;grid-template-columns:minmax(0,1fr) 360px;min-height:0}
 .msg{max-width:760px}
 .msg.you{align-self:flex-end;background:var(--accsoft);padding:10px 14px;border-radius:14px 14px 4px 14px}
 .msg.bot{align-self:flex-start}
-.msg.bot .who{font-family:"Barlow Condensed",sans-serif;font-weight:700;color:var(--acc);font-size:15px;margin-bottom:2px}
+.msg.bot .who{font-family:Oswald,sans-serif;font-weight:600;color:var(--acc);font-size:15px;margin-bottom:2px}
 .msg p{margin:0 0 .6em}.msg p:last-child{margin-bottom:0}
 .msg ul,.msg ol{margin:.2em 0 .6em;padding-left:1.3em}
 .msg table{border-collapse:collapse;font-size:14px;margin:.4em 0}
@@ -49,7 +52,7 @@ main{display:grid;grid-template-columns:minmax(0,1fr) 360px;min-height:0}
 form{display:flex;gap:10px;padding:12px max(3vw,16px) 16px;border-top:1px solid var(--line);background:var(--bg)}
 textarea{flex:1;font:inherit;font-size:16px;resize:none;border:1px solid var(--line);border-radius:12px;padding:11px 14px;background:var(--bg);color:var(--ink);min-height:48px;max-height:180px}
 textarea:focus,.chip:focus-visible,button:focus-visible{outline:2px solid var(--acc);outline-offset:1px}
-button.send{font:600 15px Inter,sans-serif;background:var(--acc);color:#fff;border:0;border-radius:12px;padding:0 20px;min-height:48px;cursor:pointer}
+button.send{font:600 15px "Source Sans 3",sans-serif;background:var(--acc);color:#fff;border:0;border-radius:12px;padding:0 20px;min-height:48px;cursor:pointer}
 button.send:disabled{opacity:.5;cursor:default}
 button.ghost{font:inherit;font-size:14px;background:none;border:1px solid var(--line);color:var(--mute);border-radius:10px;padding:6px 12px;min-height:36px;cursor:pointer}
 aside{overflow-y:auto;background:var(--panel);padding:18px 18px 24px}
@@ -62,7 +65,7 @@ aside{overflow-y:auto;background:var(--panel);padding:18px 18px 24px}
 .diff{color:var(--acc);font-weight:600}
 .res-hit{color:var(--good)}.res-miss{color:var(--bad)}
 .card{margin-top:22px}
-.big{font-family:"Barlow Condensed",sans-serif;font-size:34px;font-weight:700;line-height:1}
+.big{font-family:Oswald,sans-serif;font-size:34px;font-weight:600;line-height:1}
 .kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:10px}
 .kpis div span{display:block;color:var(--mute);font-size:13px}
 .note{color:var(--mute);font-size:13px;margin-top:8px}
@@ -70,33 +73,36 @@ details.slate-m{display:none}
 @media(max-width:900px){main{grid-template-columns:minmax(0,1fr)}aside{display:none}.chat{border-right:0}details.slate-m{display:block;border-bottom:1px solid var(--line);padding:8px max(3vw,16px)}details.slate-m summary{cursor:pointer;min-height:36px;display:flex;align-items:center;font-weight:600}}
 /* board */
 .tabs{display:flex;gap:4px;align-self:center}
-.tabs a{font:600 15px Inter,sans-serif;color:var(--mute);text-decoration:none;padding:8px 14px;border-radius:10px;min-height:40px;display:flex;align-items:center}
-.tabs a[aria-current=page]{color:var(--ink);background:var(--panel)}
+.tabs{flex-wrap:wrap}
+.tabs a{font:600 15px "Source Sans 3",sans-serif;color:#c9ccd0;text-decoration:none;padding:8px 10px;min-height:40px;display:flex;align-items:center;border-bottom:3px solid transparent}
+.tabs a:hover{color:#ffffff}
+.tabs a[aria-current=page]{color:#ffffff;border-bottom-color:#e8283f}
 .tabs a:focus-visible{outline:2px solid var(--acc)}
-#board,#playersView{overflow-y:auto;min-height:0}
-#board[hidden],#playersView[hidden],main[hidden]{display:none}
+.view{overflow-y:auto;min-height:0}
+.view[hidden],main[hidden]{display:none}
 .bw{max-width:1240px;margin:0 auto;padding:24px max(3vw,16px) 48px;display:flex;flex-direction:column;gap:36px}
 .btop{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px}
-.btop h2{font-size:clamp(32px,4.4vw,48px);line-height:1}
+.btop{border-bottom:3px double var(--ink);padding-bottom:12px}
+.btop h2{font-size:clamp(34px,4.6vw,52px);line-height:1;font-weight:600}
 .sub{color:var(--mute);font-size:14px;margin-top:4px}
 .strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:10px;overflow:hidden;flex:1 1 560px;max-width:720px}
 .strip>div{padding:10px 14px;border-right:1px solid var(--line)}.strip>div:last-child{border-right:0}
 .strip span{display:block;font-size:13px;color:var(--mute)}
-.strip b{display:block;font:700 28px/1.1 "Barlow Condensed",sans-serif}
+.strip b{display:block;font:600 28px/1.1 Oswald,sans-serif}
 .sec{display:flex;flex-direction:column;gap:10px}
-.sec h3{font:700 30px/1.05 "Barlow Condensed",sans-serif;margin:0}
+.sec h3{font:600 28px/1.05 Oswald,sans-serif;margin:0}
 .sechead{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px}
 .key{display:flex;gap:14px;font-size:13px;color:var(--mute);align-items:center}
 .key i{display:inline-block;width:14px;height:8px;border-radius:2px;margin-right:6px;vertical-align:middle}
 .tel{background:var(--acc)}.mkt{background:var(--blue2)}
-:root{--blue2:light-dark(#3a5f8f,#7fa6d6);--track:light-dark(#f1f2f4,#26292d);--rng:light-dark(#f6c9ae,#5a3420)}
+:root{--blue2:light-dark(#3a5f8f,#8db1de);--track:light-dark(#efefef,#262626);--rng:light-dark(#f5b8c1,#5a2229)}
 .gbox{overflow-x:auto;border-top:2px solid var(--ink)}
 .grow{display:grid;grid-template-columns:150px 70px minmax(220px,1fr) 64px 84px minmax(160px,1fr);gap:14px;padding:11px 0;border-bottom:1px solid var(--line);align-items:center;min-width:820px}
 .grow.h{font-size:13px;color:var(--mute);padding:8px 0}
 button.grow{font:inherit;color:inherit;background:none;border:0;border-bottom:1px solid var(--line);width:100%;text-align:left;cursor:pointer}
 button.grow:hover{background:var(--panel)}
 .gm b{display:block}.gm span,.small{font-size:13px;color:var(--mute)}
-.pk{font:700 24px "Barlow Condensed",sans-serif}
+.pk{font:600 24px Oswald,sans-serif}
 .bars{display:flex;flex-direction:column;gap:5px}
 .bar{display:grid;grid-template-columns:minmax(0,1fr) 44px;gap:8px;align-items:center;font-variant-numeric:tabular-nums}
 .bar>div{height:10px;background:var(--track);border-radius:5px}.bar>div>div{height:10px;border-radius:5px}
@@ -135,7 +141,34 @@ button.grow:hover{background:var(--panel)}
 .ptab tr.gh td{background:var(--panel);font-weight:600;text-align:left;padding:10px 8px}
 .ptab .mk{display:block;font-size:12px;color:var(--blue2)}
 .pname{font-weight:600}.pname button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left}.pname button:hover{color:var(--acc)}
-@media(max-width:600px){.strip{grid-template-columns:repeat(2,minmax(0,1fr))}.strip>div:nth-child(2){border-right:0}.strip>div:nth-child(-n+2){border-bottom:1px solid var(--line)}.lrow{grid-template-columns:minmax(0,1fr) 120px}}
+.cols{display:flex;flex-wrap:wrap;gap:28px}.cols>*{flex:1 1 340px;min-width:0}
+.rail{flex:1 1 220px;max-width:270px;display:flex;flex-direction:column;gap:6px}
+.rail button{font:inherit;display:flex;justify-content:space-between;gap:8px;padding:9px 12px;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;min-height:40px;font-variant-numeric:tabular-nums}
+.rail button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink);font-weight:600}
+.gmain{flex:999 1 640px;min-width:0;display:flex;flex-direction:column;gap:24px}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.kv>div{padding:12px 14px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 -1px -1px 0}
+.kv span{display:block;font-size:13px;color:var(--mute)}.kv b{display:block;font:600 30px/1.15 Oswald,sans-serif}
+.wf{display:grid;grid-template-columns:200px minmax(0,1fr) 56px;gap:10px;align-items:center;font-variant-numeric:tabular-nums}
+.wf>div:nth-child(2){height:14px;background:var(--track);border-radius:3px}.wf i{display:block;height:14px;border-radius:3px}
+.hist{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:4px;align-items:end;height:150px;border-bottom:1px solid var(--ink)}
+.hist i{display:block;border-radius:2px 2px 0 0}
+.histl{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:4px;font-size:12px;color:var(--mute);text-align:center}
+.rt{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+.rt th{font-weight:600;color:var(--mute);text-align:right;padding:6px 6px;border-top:2px solid var(--ink);border-bottom:1px solid var(--ink);font-size:13px;white-space:nowrap}
+.rt td{text-align:right;padding:7px 6px;border-bottom:1px solid var(--line)}
+.rt th:first-child,.rt td:first-child{text-align:left;padding-left:0}
+.note2{background:var(--panel);border-radius:8px;padding:12px 16px;font-size:15px}
+.warn{background:light-dark(#fff4e5,#2e2412);border:1px solid light-dark(#f1cf9c,#5a4520);border-radius:8px;padding:12px 16px;font-size:15px}
+.chipsF{display:flex;flex-wrap:wrap;gap:8px}
+.chipsF button{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:7px 14px;min-height:38px;cursor:pointer}
+.chipsF button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink);font-weight:600}
+.flag{color:light-dark(#8a5a00,#ffd27a)}
+.calrow{display:grid;grid-template-columns:76px minmax(0,1fr) 52px;gap:10px;align-items:center;font-size:14px;font-variant-numeric:tabular-nums}
+.calrow .b{display:flex;flex-direction:column;gap:3px}.calrow .b>div{height:9px;background:var(--track);border-radius:3px}.calrow .b i{display:block;height:9px;border-radius:3px}
+.sb{display:flex;flex-direction:column;gap:4px}
+.state-confirmed{color:var(--good);font-weight:600}.state-faded{color:var(--bad)}
+@media(max-width:600px){.wf{grid-template-columns:130px minmax(0,1fr) 50px}.rail{max-width:none}.strip{grid-template-columns:repeat(2,minmax(0,1fr))}.strip>div:nth-child(2){border-right:0}.strip>div:nth-child(-n+2){border-bottom:1px solid var(--line)}.lrow{grid-template-columns:minmax(0,1fr) 120px}}
 @media(prefers-reduced-motion:no-preference){.msg{animation:in .18s ease-out}@keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1}}}
 </style>
 </head>
@@ -143,10 +176,13 @@ button.grow:hover{background:var(--panel)}
 <div class="app">
   <header>
     <div><h1>NBA Teleios Analyst</h1><div class="status" id="status">Loading data…</div></div>
-    <nav class="tabs" aria-label="Views"><a href="#board" id="tBoard">Board</a><a href="#players" id="tPlayers">Players</a><a href="#chat" id="tChat">Chat</a></nav>
+    <nav class="tabs" aria-label="Views"><a href="#board" id="tBoard">Board</a><a href="#game" id="tGame">Game</a><a href="#edges" id="tEdges">Edges</a><a href="#players" id="tPlayers">Players</a><a href="#health" id="tHealth">Model health</a><a href="#chat" id="tChat">Chat</a></nav>
   </header>
-  <section id="board" aria-label="Picks board"><div class="bw" id="boardBody"><p class="sub">Loading…</p></div></section>
-  <section id="playersView" aria-label="All player projections" hidden><div class="bw" id="playersBody"></div></section>
+  <section id="board" class="view" aria-label="Picks board"><div class="bw" id="boardBody"><p class="sub">Loading…</p></div></section>
+  <section id="gameView" class="view" aria-label="Game breakdown" hidden><div class="bw" id="gameBody"></div></section>
+  <section id="edgesView" class="view" aria-label="Edges" hidden><div class="bw" id="edgesBody"></div></section>
+  <section id="playersView" class="view" aria-label="All player projections" hidden><div class="bw" id="playersBody"></div></section>
+  <section id="healthView" class="view" aria-label="Model health" hidden><div class="bw" id="healthBody"></div></section>
   <main id="chatView" hidden>
     <section class="chat">
       <div class="log" id="log" aria-live="polite">
@@ -340,11 +376,16 @@ function scoreHTML() {
 }
 
 /* ---------- board ---------- */
+const VIEWS = {board: ["#board", "#tBoard"], game: ["#gameView", "#tGame"], edges: ["#edgesView", "#tEdges"], players: ["#playersView", "#tPlayers"], health: ["#healthView", "#tHealth"], chat: ["#chatView", "#tChat"]};
 function showView() {
-  const v = location.hash === "#chat" ? "chat" : location.hash === "#players" ? "players" : "board";
-  $("#board").hidden = v !== "board"; $("#playersView").hidden = v !== "players"; $("#chatView").hidden = v !== "chat";
-  for (const [id, k] of [["#tBoard", "board"], ["#tPlayers", "players"], ["#tChat", "chat"]]) { const a = $(id); if (v === k) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); }
-  if (v === "players" && D && !$("#pq")) renderPlayers();
+  const v = VIEWS[location.hash.slice(1)] ? location.hash.slice(1) : "board";
+  for (const [k, [sec, tab]] of Object.entries(VIEWS)) { $(sec).hidden = k !== v; const a = $(tab); if (k === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); }
+  if (!D) return;
+  if (v === "players" && !$("#pq")) renderPlayers();
+  if (v === "game") renderGame();
+  if (v === "edges" && !$("#efilters")) renderEdges();
+  if (v === "health" && !$("#healthBody").dataset.done) { $("#healthBody").innerHTML = healthHTML(); $("#healthBody").dataset.done = "1"; }
+  const sec = $(VIEWS[v][0]); if (sec.scrollTo) sec.scrollTo(0, 0);
 }
 window.addEventListener("hashchange", showView);
 const SN = {pts: "pts", reb: "reb", ast: "ast", fg3m: "3PM", pra: "PRA"};
@@ -368,11 +409,11 @@ function boardHTML() {
     const gap = mk == null ? null : Math.round(p.chance * 100) - Math.round(mk * 100);
     const outs = Object.values((p.why || {}).out || {}).flat().filter(o => o.minutes >= 20).map(o => o.player).slice(0, 3).join(", ") || "—";
     const r = p.result; const when = r ? `<span class="${r.hit ? "res-hit" : "res-miss"}">${r.hit ? "Hit" : "Miss"}</span> · ${esc(r.winner)} won` : esc(tipET(p.tip_utc)) + " CT";
-    h += `<button class="grow" type="button" data-q="${esc(`Break down ${p.away} at ${p.home}: why does Teleios pick ${p.pick}?`)}"><div class="gm"><b>${esc(p.away)} @ ${esc(p.home)}</b><span>${when}</span></div><div class="pk">${esc(p.pick)}</div>
+    h += `<button class="grow" type="button" data-game="${p.game_id}"><div class="gm"><b>${esc(p.away)} @ ${esc(p.home)}</b><span>${when}</span></div><div class="pk">${esc(p.pick)}</div>
       <div class="bars"><div class="bar"><div><div class="tel" style="width:${W(p.chance * 100)}"></div></div><em><b>${pct(p.chance)}</b></em></div><div class="bar"><div><div class="mkt" style="width:${mk == null ? "0%" : W(mk * 100)}"></div></div><em style="color:var(--blue2)">${pct(mk)}</em></div></div>
       <div class="gap ${gap != null && Math.abs(gap) >= 6 ? "wide" : ""}"><span>${gap == null ? "–" : (gap > 0 ? "+" : "") + gap}</span></div><div class="det">by ${Math.abs(p.margin).toFixed(1)}</div><div class="det">${esc(outs)}</div></button>`;
   }
-  h += `</div><div class="small">Highlighted gap = Teleios and the market differ by 6+ points. Tap a game for the full breakdown in the chat.</div></section>`;
+  h += `</div><div class="small">Highlighted gap = Teleios and the market differ by 6+ points. Tap a game for its full breakdown.</div></section>`;
   // disagreements + tops
   const dis = []; for (const g of PP) for (const p of g.players) for (const [st, m] of Object.entries(p.market || {})) dis.push({p, st, m, d: Math.abs(m.teleios_p_over - m.market_p_over)});
   dis.sort((a, b) => b.d - a.d); const seen = new Set(); const dl = []; for (const x of dis) { if (seen.has(x.p.player)) continue; seen.add(x.p.player); dl.push(x); if (dl.length === 8) break; }
@@ -434,6 +475,119 @@ function drawPlayers() {
   $("#ptab").innerHTML = n ? `<table>${head}<tbody>${body}</tbody></table>` : `<p class="small" style="padding:12px 0">No players match.</p>`;
   $("#ptab").querySelectorAll("[data-sort]").forEach(b => b.addEventListener("click", e => { e.stopPropagation(); PS.sort = b.dataset.sort; $("#psort").value = PS.sort; drawPlayers(); }));
 }
+
+/* ---------- game breakdown ---------- */
+let GS = null;
+const phiN = x => 0.5 * (1 + erf(x / Math.SQRT2));
+function erf(x) { const t = 1 / (1 + 0.3275911 * Math.abs(x)); const y = 1 - (((((1.061405429 * t - 1.453152027) * t) + 1.421413741) * t - 0.284496736) * t + 0.254829592) * t * Math.exp(-x * x); return x >= 0 ? y : -y; }
+function slateDay() { const today = etDate(); const P = D.predictions || {}; return Object.keys(P).filter(d => d >= today).sort()[0] || Object.keys(P).sort().pop(); }
+function mktPick(p) { return p.market_p_home == null ? null : (p.pick === p.home ? p.market_p_home : 1 - p.market_p_home); }
+function renderGame() {
+  const day = slateDay(); const games = (D.predictions[day] || []).slice();
+  const gapOf = p => { const m = mktPick(p); return m == null ? 0 : p.chance - m; };
+  games.sort((a, b) => Math.abs(gapOf(b)) - Math.abs(gapOf(a)));
+  if (!GS || !games.some(g => String(g.game_id) === String(GS))) { if (!games.length) { $("#gameBody").innerHTML = '<p class="sub">No games stored.</p>'; return; } GS = String(games[0].game_id); }
+  const p = games.find(g => String(g.game_id) === String(GS)); const w = p.why || {}; const H = p.home, A = p.away, K = p.pick, O = K === H ? A : H;
+  const sg = (D.model.params || {}).sigma || 12.75; const sgn = K === H ? 1 : -1; const mK = sgn * p.margin;
+  const st = w.strength || {}, tt = w.team_term || {}, sit = w.home_court_and_situation || {};
+  const playersK = (st[K] - tt[K]) - (st[O] - tt[O]); const teamK = tt[K] - tt[O];
+  const sitLabel = {home_court: `${H} home court`, b2b: "Back-to-back", rested: "Rest (3+ days)", travel: "Travel", altitude: "Altitude"};
+  const parts = [["Players on the floor tonight", playersK], ["Team term (coaching, system)", teamK], ...Object.entries(sit).map(([k, v]) => [sitLabel[k] || k, sgn * v])];
+  const mx = Math.max(...parts.map(x => Math.abs(x[1])), 0.01);
+  const mk = mktPick(p); const first = p.first || {}; const mkOpen = first.market_p_home == null ? null : (K === H ? first.market_p_home : 1 - first.market_p_home);
+  const gap = mk == null ? null : Math.round((p.chance - mk) * 100);
+  const bins = []; for (let lo = -30; lo < 30; lo += 5) bins.push({lo, p: phiN((lo + 5 - mK) / sg) - phiN((lo - mK) / sg)});
+  const bmax = Math.max(...bins.map(b => b.p));
+  const noTeam = mK - teamK; const noTeamP = phiN(noTeam / sg);
+  let headline = mk == null ? `Teleios picks ${K}.` : (mk >= 0.5 ? `Teleios and the market both pick ${K}.` : `Teleios likes ${K}. The market likes ${O}.`);
+  if (mk != null && Math.abs(gap) < 4) headline = `Teleios and the market agree: ${K}.`;
+  const q = Object.values(w.questionable || {}).flat().map(x => x.player);
+  let note = `Most of the margin comes from ${Math.abs(teamK) > Math.abs(playersK) ? "the team term (how the teams have played beyond their rosters)" : "the players expected on the floor"}.`;
+  if (Math.abs(noTeamP - 0.5) < 0.06 && Math.abs(teamK) > 1.5) note += ` Without the team term this would be close to a coin flip (${K} ${Math.round(noTeamP * 100)}%), so the pick leans on how the teams have played beyond their rosters, which is a thin sample this early in the season.`;
+  if (q.length) note += ` Questionable: ${q.join(", ")} (counted at 65% of minutes), so news before tip-off can move this.`;
+  const tbl = (team) => `<table class="rt"><tr><th>Player</th><th>Min</th><th>Rating</th><th>Impact</th></tr>${((w.top_players || {})[team] || []).slice(0, 7).map(x => `<tr><td>${esc(x.player)}</td><td>${x.minutes.toFixed(0)}</td><td>${(x.rating >= 0 ? "+" : "") + x.rating.toFixed(2)}</td><td><b>${(x.impact >= 0 ? "+" : "") + x.impact.toFixed(2)}</b></td></tr>`).join("")}</table>`;
+  const avail = [...Object.entries(w.out || {}).flatMap(([t, l]) => l.filter(o => o.minutes >= 8).map(o => ({t, n: o.player, s: `Out · usually ${o.minutes.toFixed(0)} min`}))), ...Object.entries(w.questionable || {}).flatMap(([t, l]) => l.map(o => ({t, n: o.player, s: `${o.status} · counted at 65% of minutes`})))];
+  $("#gameBody").innerHTML = `<div class="cols" style="align-items:flex-start"><nav class="rail" aria-label="Games"><div class="small">Tonight, by disagreement with the market</div>${games.map(g => { const gg = mktPick(g) == null ? "–" : ((x => (x > 0 ? "+" : "") + x)(Math.round(gapOf(g) * 100))); return `<button type="button" data-game="${g.game_id}" aria-pressed="${String(g.game_id) === String(GS)}"><span>${esc(g.away)} @ ${esc(g.home)}</span><span>${gg}</span></button>`; }).join("")}</nav>
+  <div class="gmain"><div><div class="small">${esc(A)} at ${esc(H)} · ${esc(tipET(p.tip_utc))} CT${p.locked ? " · locked" : ""}</div><h2 style="font-size:clamp(28px,3.6vw,38px);font-weight:600;margin-top:4px">${esc(headline)}</h2>${p.result ? `<p class="det" style="margin:6px 0 0"><span class="${p.result.hit ? "res-hit" : "res-miss"}"><b>${p.result.hit ? "Hit" : "Miss"}</b></span> · final ${esc(A)} ${p.result.away_score}, ${esc(H)} ${p.result.home_score}</p>` : ""}</div>
+  <div class="kv"><div><span>Teleios: ${esc(K)} wins</span><b style="color:var(--acc)">${pct(p.chance)}</b></div><div><span>Market: ${esc(K)} wins</span><b style="color:var(--blue2)">${pct(mk)}</b><span>${mkOpen != null ? "opened " + pct(mkOpen) : ""}</span></div><div><span>Projected margin</span><b>${esc(K)} +${Math.abs(p.margin).toFixed(1)}</b></div><div><span>Gap vs market</span><b>${gap == null ? "–" : (gap > 0 ? "+" : "") + gap}</b><span>points of win chance</span></div></div>
+  <div class="cols"><section class="sec"><h3 style="font-size:22px">Where the ${Math.abs(p.margin).toFixed(1)}-point margin comes from</h3><div class="small">Points of margin for ${esc(K)}, from the model's own parts</div>
+   ${parts.map(([l, v]) => `<div class="wf"><div class="det">${esc(l)}</div><div><i style="width:${W(Math.abs(v) / mx * 100)};background:${v > 0 ? "var(--acc)" : "var(--mute)"}"></i></div><div style="text-align:right;font-weight:600">${(v >= 0 ? "+" : "") + v.toFixed(2)}</div></div>`).join("")}
+   <div class="wf" style="border-top:1px solid var(--ink);padding-top:6px"><div><b>Total</b></div><div style="background:none"></div><div style="text-align:right"><b>${(mK >= 0 ? "+" : "") + mK.toFixed(2)}</b></div></div></section>
+  <section class="sec"><h3 style="font-size:22px">Range of outcomes</h3><div class="small">Chance of each final margin for ${esc(K)}, in 5-point bins</div><div class="hist">${bins.map(b => `<div style="display:flex;flex-direction:column;justify-content:flex-end;height:150px"><i title="${Math.round(b.p * 100)}%" style="height:${W(b.p / bmax * 100)};background:${b.lo >= 0 ? "var(--acc)" : "var(--mute)"}"></i></div>`).join("")}</div><div class="histl">${bins.map(b => `<div>${b.lo > 0 ? "+" + b.lo : b.lo}</div>`).join("")}</div><div class="small">Red = ${esc(K)} wins, gray = ${esc(O)} wins. Typical miss on a game is about 11 points.</div></section></div>
+  <div class="cols"><section class="sec"><h3 style="font-size:22px">${esc(A)}: who drives it</h3>${tbl(A)}</section><section class="sec"><h3 style="font-size:22px">${esc(H)}: who drives it</h3>${tbl(H)}</section>
+  <section class="sec"><h3 style="font-size:22px">Availability</h3>${avail.length ? avail.map(a => `<div style="border-bottom:1px solid var(--line);padding:6px 0"><b>${esc(a.n)}</b> <span class="small">${esc(a.t)}</span><div class="small">${esc(a.s)}</div></div>`).join("") : '<p class="small">No one listed.</p>'}</section></div>
+  <div class="note2"><b>Analyst note.</b> ${esc(note)}</div>
+  <div><button class="send" type="button" data-q="${esc(`Break down ${A} at ${H}: why does Teleios pick ${K}, and what would change it?`)}">Ask Teleios about this game</button></div></div></div>`;
+}
+
+/* ---------- edges ---------- */
+let EF = {kind: "All", hide: false};
+const SNAME = {pts: "Points", reb: "Rebounds", ast: "Assists", fg3m: "Threes", pra: "PRA"};
+function edgeItems() {
+  const day = slateDay(); const out = [];
+  for (const p of (D.predictions[day] || [])) { const m = mktPick(p); if (m == null) continue; const q = Object.values((p.why || {}).questionable || {}).flat().length;
+    out.push({kind: "Games", item: `${p.away} @ ${p.home}`, what: `${p.pick} to win`, tel: p.chance, mkt: m, flags: q ? [`${q} questionable`] : [], game: p.game_id, res: p.result ? (p.result.hit ? "hit" : "miss") : null}); }
+  for (const g of ((D.player_projections || {})[day] || [])) for (const pl of g.players) for (const [st, m] of Object.entries(pl.market || {})) {
+    const over = m.teleios_p_over >= m.market_p_over; const fl = []; if (pl.questionable) fl.push("questionable"); if (pl.minutes < 20) fl.push("low minutes");
+    out.push({kind: SNAME[st], item: pl.player, team: pl.team, what: `${over ? "Over" : "Under"} ${m.line} · proj ${pl.proj[st].toFixed(1)}`, tel: over ? m.teleios_p_over : 1 - m.teleios_p_over, mkt: over ? m.market_p_over : 1 - m.market_p_over, flags: fl, q: `Why does Teleios disagree with Kalshi on ${pl.player} ${SNAME[st]} ${m.line}?`, res: m.went_over == null ? null : ((m.went_over === over) ? "hit" : "miss")}); }
+  for (const x of out) x.gap = (x.tel - x.mkt) * 100;
+  return out.sort((a, b) => b.gap - a.gap);
+}
+function renderEdges() {
+  const all = edgeItems(); const kinds = ["All", "Games", "Points", "Rebounds", "Assists", "Threes", "PRA"];
+  const sc = D.scorecard || {}; const vk = (sc.live || {}).vs_kalshi || {}; const pv = ((sc.players_live || {}).vs_kalshi || {}).all || {}; const bf = (sc.backfill_2026_27 || {}).vs_fanduel_close || {};
+  const n15 = all.filter(x => x.gap >= 15).length;
+  $("#edgesBody").innerHTML = `<div class="btop"><div><h2>Where Teleios and the market disagree</h2><div class="sub">Every game and Kalshi player line on the slate, ranked by the gap between Teleios's chance and the market's for the side Teleios prefers.</div></div>
+   <div class="strip" style="grid-template-columns:repeat(3,minmax(0,1fr));max-width:480px"><div><span>Compared</span><b>${all.length}</b></div><div><span>Gap 6+ pts</span><b>${all.filter(x => x.gap >= 6).length}</b></div><div><span>Gap 15+ pts</span><b style="color:var(--acc)">${n15}</b></div></div></div>
+   <div class="warn"><b>Read this first.</b> A gap is a disagreement, not an edge. Live record against the market so far: games ${vk.games ? `${vk.games} graded, Brier ${vk.teleios.brier} vs ${vk.kalshi.brier}` : "0 graded"}; player lines ${pv.lines ? `${pv.lines} graded, Brier ${pv.teleios_brier} vs ${pv.market_brier} (${pv.verdict})` : "0 graded"}. Until Teleios shows it beats the market, big gaps on player lines are as likely to be the model's ranges being off as the market being wrong.</div>
+   <div class="chipsF" id="efilters">${kinds.map(k => `<button type="button" data-kind="${k}" aria-pressed="${EF.kind === k}">${k}</button>`).join("")}<button type="button" id="ehide" aria-pressed="${EF.hide}" style="margin-left:auto">Hide flagged</button></div>
+   <div class="cols" style="align-items:flex-start"><section style="flex:999 1 700px;min-width:0"><div class="small" id="ecount"></div><div style="overflow-x:auto" id="etable"></div></section>
+   <aside style="flex:1 1 260px;min-width:0;display:flex;flex-direction:column;gap:18px"><section class="sec"><h3 style="font-size:22px">How big are the gaps?</h3><div class="small">Lines by gap size, in points</div><div id="ehist"></div></section>
+   <section class="sec"><h3 style="font-size:22px">Track record vs market</h3><table class="rt"><tr><th>Type</th><th>Graded</th><th>Brier T / mkt</th></tr>
+   <tr><td>Games, this season*</td><td>${bf.games || 0}</td><td>${bf.teleios ? bf.teleios.brier.toFixed(3) + " / " + bf.fanduel_close.brier.toFixed(3) : "–"}</td></tr>
+   <tr><td>Games, live</td><td>${vk.games || 0}</td><td>${vk.games ? vk.teleios.brier.toFixed(3) + " / " + vk.kalshi.brier.toFixed(3) : "–"}</td></tr>
+   <tr><td>Player lines, live</td><td>${pv.lines || 0}</td><td>${pv.lines ? pv.teleios_brier.toFixed(3) + " / " + pv.market_brier.toFixed(3) : "–"}</td></tr></table><div class="small">*Backfill, made after the fact. Lower Brier is better.</div></section></aside></div>`;
+  $("#efilters").querySelectorAll("[data-kind]").forEach(b => b.addEventListener("click", () => { EF.kind = b.dataset.kind; $("#efilters").querySelectorAll("[data-kind]").forEach(x => x.setAttribute("aria-pressed", String(x === b))); drawEdges(all); }));
+  $("#ehide").addEventListener("click", () => { EF.hide = !EF.hide; $("#ehide").setAttribute("aria-pressed", String(EF.hide)); drawEdges(all); });
+  drawEdges(all);
+}
+function drawEdges(all) {
+  const rows = all.filter(x => (EF.kind === "All" || x.kind === EF.kind) && (!EF.hide || !x.flags.length));
+  $("#ecount").textContent = `${rows.length} lines`;
+  $("#etable").innerHTML = `<table class="rt" style="min-width:720px"><tr><th>Type</th><th style="text-align:left">Player / game</th><th style="text-align:left">Side</th><th>Teleios</th><th>Market</th><th style="width:170px;text-align:left">Gap</th><th style="text-align:left">Flags</th></tr>${rows.slice(0, 60).map(x => `<tr><td class="small">${esc(x.kind)}</td><td style="text-align:left"><button type="button" ${x.game ? `data-game="${x.game}"` : `data-q="${esc(x.q)}"`} style="font:inherit;font-weight:600;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left">${esc(x.item)}</button>${x.team ? ` <span class="small">${esc(x.team)}</span>` : ""}</td><td style="text-align:left">${esc(x.what)}${x.res ? ` <span class="${x.res === "hit" ? "res-hit" : "res-miss"}">${x.res === "hit" ? "✓" : "✗"}</span>` : ""}</td><td style="color:var(--acc);font-weight:600">${pct(x.tel)}</td><td style="color:var(--blue2)">${pct(x.mkt)}</td><td style="text-align:left"><div style="display:flex;align-items:center;gap:8px"><div style="flex:1;height:8px;background:var(--track);border-radius:4px"><div style="height:8px;border-radius:4px;background:var(--acc);width:${W(x.gap / 30 * 100)}"></div></div><b style="width:32px;text-align:right">+${x.gap.toFixed(0)}</b></div></td><td style="text-align:left" class="flag">${esc(x.flags.join(" · ")) || "—"}</td></tr>`).join("")}</table>${rows.length > 60 ? `<p class="small">Showing the top 60 of ${rows.length}.</p>` : ""}`;
+  const bk = [0, 5, 10, 15, 20, 25, 30].map((lo, i, a) => ({lab: lo < 30 ? `${lo}–${lo + 5}` : "30+", n: rows.filter(x => x.gap >= lo && (lo === 30 || x.gap < lo + 5)).length}));
+  const m = Math.max(1, ...bk.map(b => b.n));
+  $("#ehist").innerHTML = bk.map(b => `<div style="display:grid;grid-template-columns:52px minmax(0,1fr) 34px;gap:8px;align-items:center;font-size:13px;font-variant-numeric:tabular-nums"><span>${b.lab}</span><div style="height:10px;background:var(--track);border-radius:3px"><div style="height:10px;border-radius:3px;background:var(--ink);width:${W(b.n / m * 100)}"></div></div><span style="text-align:right">${b.n}</span></div>`).join("");
+}
+
+/* ---------- model health ---------- */
+function healthHTML() {
+  const s = D.scorecard || {}; const bt = s.backtest_2025_26 || {}; const t = bt.test || {}; const elo = ((bt.baselines || {}).elo_538_style || {}).accuracy; const home = ((bt.baselines || {}).always_home_team || {}).accuracy;
+  const bf = (s.backfill_2026_27 || {}).vs_fanduel_close || {}; const live = (s.live || {}).metrics || {}; const pb = s.players_backtest_2025_26 || {}; const pl = s.players_live || {};
+  const calRows = (cal, label) => cal && cal.length ? cal.map(c => `<div class="calrow"><div>${esc(c.range)}<div class="small">${c.games} games</div></div><div class="b"><div><i style="width:${W(c.said * 100)};background:var(--mute)"></i></div><div><i style="width:${W(c.won * 100)};background:var(--acc)"></i></div></div><div style="text-align:right"><div class="small">${pct(c.said)}</div><b>${pct(c.won)}</b></div></div>`).join("") : `<p class="small">${label}</p>`;
+  const stats = [["pts", "Points"], ["reb", "Rebounds"], ["ast", "Assists"], ["fg3m", "Threes"], ["pra", "PRA"]];
+  const tm = pb.test_avg_miss || {}, pe = pb.prop_edge_published || {}, sa = pb.season_avg_baseline || {}, rg = pb.ranges || {};
+  const statRows = stats.map(([k, n]) => { const worst = Math.max(tm[k] || 0, pe[k] || 0, sa[k] || 0) || 1; const bar = (v, c, bold) => `<div style="display:grid;grid-template-columns:minmax(0,1fr) 40px;gap:6px;align-items:center"><div style="height:8px;background:var(--track);border-radius:3px"><div style="height:8px;border-radius:3px;background:${c};width:${W(v / worst * 100)}"></div></div><span style="font-size:12px;${bold ? "font-weight:700" : ""}">${v == null ? "–" : v.toFixed(2)}</span></div>`;
+    return `<div class="calrow" style="grid-template-columns:76px minmax(0,1fr) 52px;border-bottom:1px solid var(--line);padding-bottom:8px"><b>${n}</b><div class="sb">${bar(tm[k], "var(--acc)", true)}${bar(pe[k], "#6b7a8c")}${bar(sa[k], "light-dark(#c4c8cd,#555)")}</div><div style="text-align:right;font-weight:600">${rg[k] ? pct(rg[k].in_80pct_range) : "–"}</div></div>`; }).join("");
+  const plStats = pl.stats || {};
+  const nb = ((D.notebook || {}).entries || []).filter(e => !e.name.startsWith("team_") || e.state === "confirmed").slice(0, 8);
+  const ex = ((D.experiments || {}).experiments || []); const rl = (D.retune_log || []).slice().reverse();
+  return `<div class="btop"><div><h2>Can you trust it?</h2><div class="sub">How Teleios has done where the answer is known: backtests on 2025-26 (never seen in tuning), this season so far, and live predictions frozen before tip-off.</div></div></div>
+  <div class="kv"><div><span>Winners picked, 2025-26</span><b>${t.accuracy ? (t.accuracy * 100).toFixed(1) + "%" : "–"}</b><span>Elo ${elo ? (elo * 100).toFixed(1) + "%" : "–"} · home team ${home ? (home * 100).toFixed(1) + "%" : "–"}</span></div>
+  <div><span>This season vs market*</span><b>${bf.teleios ? pct(bf.teleios.accuracy) : "–"} <span style="display:inline;font-size:18px;color:var(--blue2)">/ ${bf.fanduel_close ? pct(bf.fanduel_close.accuracy) : "–"}</span></b><span>${bf.verdict ? esc(bf.verdict) + ` (z = ${bf.z})` : ""}</span></div>
+  <div><span>Points miss, 2025-26</span><b>${tm.pts ? tm.pts.toFixed(2) : "–"}</b><span>Prop Edge ${pe.pts != null ? pe.pts.toFixed(2) : "–"} · season avg ${sa.pts != null ? sa.pts.toFixed(2) : "–"}</span></div>
+  <div><span>Live games graded</span><b>${live.games || 0}</b><span>${live.games ? pct(live.accuracy) + " right · Brier " + live.brier : "first grades after tonight"}</span></div></div>
+  <div class="cols"><section class="sec"><h3 style="font-size:22px">Does 70% mean 70%?</h3><div class="small">Game picks, 2025-26: what Teleios said (gray) vs how often its favorite won (red)</div>${calRows(bt.calibration)}
+   <h3 style="font-size:18px;margin-top:8px">Live so far</h3>${calRows((s.live || {}).calibration, "No live games graded yet.")}</section>
+  <section class="sec"><h3 style="font-size:22px">Player projections: average miss</h3><div class="small">2025-26, players projected 20+ minutes. Shorter is better. Right column = share of results inside the 80% range.</div>${statRows}
+   <div class="key"><span><i class="tel"></i>Teleios</span><span><i style="background:#6b7a8c"></i>Prop Edge</span><span><i style="background:light-dark(#c4c8cd,#555)"></i>Season average</span></div>
+   <h3 style="font-size:18px;margin-top:8px">Live so far</h3>${pl.player_games ? `<table class="rt"><tr><th>Stat</th><th>Teleios miss</th><th>Season avg miss</th><th>In 80% range</th></tr>${stats.map(([k, n]) => plStats[k] ? `<tr><td>${n}</td><td><b>${plStats[k].teleios_on_those_players ?? plStats[k].teleios_avg_miss}</b></td><td>${plStats[k].season_avg_miss_same_players ?? "–"}</td><td>${plStats[k].in_80pct_range != null ? pct(plStats[k].in_80pct_range) : "–"}</td></tr>` : "").join("")}</table><div class="small">${pl.player_games} player-games graded</div>` : '<p class="small">No live player lines graded yet.</p>'}</section></div>
+  <div class="cols"><section class="sec"><h3 style="font-size:22px">Patterns notebook</h3><div class="small">A pattern is confirmed only when it holds in both halves of the graded games.</div><table class="rt"><tr><th>Pattern</th><th>Games</th><th>Avg miss</th><th>State</th></tr>${nb.map(e => `<tr><td>${esc(e.description)}</td><td>${e.games}</td><td>${e.avg_miss_points != null ? (e.avg_miss_points >= 0 ? "+" : "") + e.avg_miss_points.toFixed(1) + " pts" : "–"}</td><td class="state-${esc(e.state.split(" ")[0])}">${esc(e.state)}</td></tr>`).join("")}</table></section>
+  <section class="sec"><h3 style="font-size:22px">Experiments and retunes</h3>${ex.map(x => `<div style="border-bottom:1px solid var(--line);padding:6px 0"><b>${esc(x.id.replace(/_/g, " "))}</b> <span class="${/^Rejected/.test(x.decision) ? "res-miss" : "res-hit"}" style="font-weight:600">${/^Rejected/.test(x.decision) ? "rejected" : "adopted"}</span><div class="small">${esc(x.date)} · ${esc(x.decision)}</div></div>`).join("")}
+   ${rl.length ? rl.map(r => `<div style="border-bottom:1px solid var(--line);padding:6px 0"><b>Monthly retune</b> <span class="small">${esc(r.run_at)}</span><div class="small">games: ${esc((r.games || {}).state || r.state || "–")} · players: ${esc((r.players || {}).state || "–")}</div></div>`).join("") : `<div style="border-bottom:1px solid var(--line);padding:6px 0"><b>Monthly retune</b> <span class="small">first run Dec 1</span><div class="small">Adopts new settings only if they beat the current ones on recent games; waits for 300 held-out games.</div></div>`}
+   <div style="padding:6px 0"><b>NBA.com tracking stats</b> <span class="small">collecting since Nov 23</span><div class="small">Test planned once the Mac has saved a few weeks of daily snapshots.</div></div></section></div>
+  <div class="foot">*This season = backfill of ${bf.games || "–"} games with a market price, made after the fact, knowing who played. Lower Brier = more accurate chances.</div>`;
+}
 const CHIPS = ["Which game tonight does Teleios disagree with the market on most, and why?", "What's Teleios projecting for the top scorers tonight?", "Rank the top 10 teams right now", "How has Teleios done so far against the market?", "Who's the most underrated player by the model?", "What patterns has the notebook found?"];
 
 function autosize() { const t = $("#q"); t.style.height = "auto"; t.style.height = Math.min(t.scrollHeight, 180) + "px"; }
@@ -441,7 +595,8 @@ $("#q").addEventListener("input", autosize);
 $("#q").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); ask($("#q").value); } });
 $("#form").addEventListener("submit", e => { e.preventDefault(); ask($("#q").value); });
 $("#clear").addEventListener("click", () => { history = []; save(); $("#log").querySelectorAll(".msg").forEach(m => m.remove()); });
-document.addEventListener("click", e => { const c = e.target.closest("[data-q]"); if (!c) return; if (location.hash !== "#chat") location.hash = "chat"; showView(); ask(c.dataset.q); });
+document.addEventListener("click", e => { const gb = e.target.closest("[data-game]"); if (gb) { GS = gb.dataset.game; if (location.hash === "#game") renderGame(); else location.hash = "game"; return; }
+  const c = e.target.closest("[data-q]"); if (!c) return; if (location.hash !== "#chat") location.hash = "chat"; showView(); ask(c.dataset.q); });
 
 async function boot() {
   try { D = await (await fetch("data.json", {cache: "no-store"})).json(); }
