@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23 19:10 UTC",
+ "fetched_at": "2026-11-23 19:38 UTC",
  "error": null,
  "players": [
   {
@@ -543,21 +543,21 @@
    "date": "2026-11-22T18:05Z"
   },
   {
+   "player": "Jaylin Williams",
+   "pid": 4432823,
+   "team": "OKC",
+   "status": "Out",
+   "class": "out",
+   "comment": "Williams (back) has been ruled out for Monday's game against the Pacers",
+   "date": "2026-11-23T19:09Z"
+  },
+  {
    "player": "Nikola Topic",
    "pid": 5159925,
    "team": "OKC",
    "status": "Out",
    "class": "out",
    "comment": "Topic (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
-   "date": "2026-11-23T18:49Z"
-  },
-  {
-   "player": "Jaylin Williams",
-   "pid": 4432823,
-   "team": "OKC",
-   "status": "Out",
-   "class": "out",
-   "comment": "Williams (back) is listed as out for Sunday's game against Miami.",
    "date": "2026-11-23T18:49Z"
   },
   {
