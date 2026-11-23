@@ -22,7 +22,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-
 h1,h2{font-family:"Barlow Condensed",Inter,sans-serif;letter-spacing:-.01em;line-height:1.05;margin:0}
 h1{font-size:clamp(30px,4vw,40px)}
 h2{font-size:22px}
-.app{display:grid;grid-template-rows:auto 1fr;height:100%}
+.app{display:grid;grid-template-rows:auto minmax(0,1fr);height:100%}
 header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:8px 20px;padding:16px max(3vw,16px) 12px;border-bottom:3px solid var(--acc)}
 .status{color:var(--mute);font-size:14px}
 .status b{color:var(--ink);font-weight:600}
@@ -68,16 +68,67 @@ aside{overflow-y:auto;background:var(--panel);padding:18px 18px 24px}
 .note{color:var(--mute);font-size:13px;margin-top:8px}
 details.slate-m{display:none}
 @media(max-width:900px){main{grid-template-columns:minmax(0,1fr)}aside{display:none}.chat{border-right:0}details.slate-m{display:block;border-bottom:1px solid var(--line);padding:8px max(3vw,16px)}details.slate-m summary{cursor:pointer;min-height:36px;display:flex;align-items:center;font-weight:600}}
+/* board */
+.tabs{display:flex;gap:4px;align-self:center}
+.tabs a{font:600 15px Inter,sans-serif;color:var(--mute);text-decoration:none;padding:8px 14px;border-radius:10px;min-height:40px;display:flex;align-items:center}
+.tabs a[aria-current=page]{color:var(--ink);background:var(--panel)}
+.tabs a:focus-visible{outline:2px solid var(--acc)}
+#board{overflow-y:auto;min-height:0}
+#board[hidden],main[hidden]{display:none}
+.bw{max-width:1240px;margin:0 auto;padding:24px max(3vw,16px) 48px;display:flex;flex-direction:column;gap:36px}
+.btop{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px}
+.btop h2{font-size:clamp(32px,4.4vw,48px);line-height:1}
+.sub{color:var(--mute);font-size:14px;margin-top:4px}
+.strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:10px;overflow:hidden;flex:1 1 560px;max-width:720px}
+.strip>div{padding:10px 14px;border-right:1px solid var(--line)}.strip>div:last-child{border-right:0}
+.strip span{display:block;font-size:13px;color:var(--mute)}
+.strip b{display:block;font:700 28px/1.1 "Barlow Condensed",sans-serif}
+.sec{display:flex;flex-direction:column;gap:10px}
+.sec h3{font:700 30px/1.05 "Barlow Condensed",sans-serif;margin:0}
+.sechead{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px}
+.key{display:flex;gap:14px;font-size:13px;color:var(--mute);align-items:center}
+.key i{display:inline-block;width:14px;height:8px;border-radius:2px;margin-right:6px;vertical-align:middle}
+.tel{background:var(--acc)}.mkt{background:var(--blue2)}
+:root{--blue2:light-dark(#3a5f8f,#7fa6d6);--track:light-dark(#f1f2f4,#26292d);--rng:light-dark(#f6c9ae,#5a3420)}
+.gbox{overflow-x:auto;border-top:2px solid var(--ink)}
+.grow{display:grid;grid-template-columns:150px 70px minmax(220px,1fr) 64px 84px minmax(160px,1fr);gap:14px;padding:11px 0;border-bottom:1px solid var(--line);align-items:center;min-width:820px}
+.grow.h{font-size:13px;color:var(--mute);padding:8px 0}
+button.grow{font:inherit;color:inherit;background:none;border:0;border-bottom:1px solid var(--line);width:100%;text-align:left;cursor:pointer}
+button.grow:hover{background:var(--panel)}
+.gm b{display:block}.gm span,.small{font-size:13px;color:var(--mute)}
+.pk{font:700 24px "Barlow Condensed",sans-serif}
+.bars{display:flex;flex-direction:column;gap:5px}
+.bar{display:grid;grid-template-columns:minmax(0,1fr) 44px;gap:8px;align-items:center;font-variant-numeric:tabular-nums}
+.bar>div{height:10px;background:var(--track);border-radius:5px}.bar>div>div{height:10px;border-radius:5px}
+.bar em{font-style:normal;text-align:right}
+.gap{text-align:right;font-variant-numeric:tabular-nums;color:var(--mute)}
+.gap.wide span{background:var(--accsoft);color:light-dark(#9a3a08,#ffb08a);font-weight:600;padding:3px 8px;border-radius:6px}
+.two{display:flex;flex-wrap:wrap;gap:36px}.two>.sec{flex:1 1 480px;min-width:0}
+.list{border-top:2px solid var(--ink)}
+.lrow{display:grid;grid-template-columns:minmax(0,1fr) 160px;gap:14px;padding:11px 0;border-bottom:1px solid var(--line);align-items:center}
+.lrow .who{font-weight:600}.lrow .who span{font-weight:400;color:var(--mute)}
+.det{font-size:14px;color:light-dark(#3d4248,#c4c8cc);font-variant-numeric:tabular-nums}
+.tag{margin-left:6px;font-size:12px;font-weight:600;color:light-dark(#8a5a00,#ffd27a);background:light-dark(#fff3d6,#3a2e10);padding:2px 6px;border-radius:5px}
+.range{position:relative;height:14px;background:var(--track);border-radius:7px}
+.range i{position:absolute;top:0;height:14px;border-radius:7px;background:var(--rng)}
+.range b{position:absolute;top:2px;width:10px;height:10px;margin-left:-5px;border-radius:5px;background:var(--acc)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.rc{border:1px solid var(--line);border-radius:10px;padding:11px 14px;display:flex;flex-direction:column;gap:3px}
+.rc .t{display:flex;justify-content:space-between;align-items:center;font-weight:600}
+.hm{font-size:13px;font-weight:600;color:#fff;padding:2px 8px;border-radius:5px}.hm.hit{background:#147a3d}.hm.miss{background:#b3261e}
+.foot{font-size:13px;color:var(--mute);border-top:1px solid var(--line);padding-top:14px}
+@media(max-width:600px){.strip{grid-template-columns:repeat(2,minmax(0,1fr))}.strip>div:nth-child(2){border-right:0}.strip>div:nth-child(-n+2){border-bottom:1px solid var(--line)}.lrow{grid-template-columns:minmax(0,1fr) 120px}}
 @media(prefers-reduced-motion:no-preference){.msg{animation:in .18s ease-out}@keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1}}}
 </style>
 </head>
 <body>
 <div class="app">
   <header>
-    <div><h1>NBA Teleios Analyst</h1></div>
-    <div class="status" id="status">Loading data…</div>
+    <div><h1>NBA Teleios Analyst</h1><div class="status" id="status">Loading data…</div></div>
+    <nav class="tabs" aria-label="Views"><a href="#board" id="tBoard">Board</a><a href="#chat" id="tChat">Chat</a></nav>
   </header>
-  <main>
+  <section id="board" aria-label="Picks board"><div class="bw" id="boardBody"><p class="sub">Loading…</p></div></section>
+  <main id="chatView" hidden>
     <section class="chat">
       <div class="log" id="log" aria-live="polite">
         <details class="slate-m" id="slateM"><summary>Tonight's slate</summary><div id="slateMBody"></div></details>
@@ -268,6 +319,62 @@ function scoreHTML() {
   const s = D.scorecard || {}; const live = (s.live || {}).metrics || {}; const b = (s.backfill_2026_27 || {}).vs_fanduel_close || {}; const bt = (s.backtest_2025_26 || {}).test || {};
   return `<h2>Scorecard</h2><div class="kpis"><div><span>Live</span><b class="big">${live.games ? pct(live.accuracy) : "–"}</b><span>${live.games || 0} games</span></div><div><span>This season*</span><b class="big">${b.teleios ? pct(b.teleios.accuracy) : "–"}</b><span>market ${b.fanduel_close ? pct(b.fanduel_close.accuracy) : "–"}</span></div><div><span>2025-26 test</span><b class="big">${bt.accuracy ? pct(bt.accuracy) : "–"}</b><span>${bt.games || ""} games</span></div></div><p class="note">*Backfill, made after the fact. Picked-winner rate shown; ask Teleios for Brier score and calibration.</p>`;
 }
+
+/* ---------- board ---------- */
+function showView() {
+  const chat = location.hash === "#chat";
+  $("#board").hidden = chat; $("#chatView").hidden = !chat;
+  $("#tBoard").toggleAttribute("aria-current", !chat); $("#tChat").toggleAttribute("aria-current", chat);
+  if (chat) $("#tChat").setAttribute("aria-current", "page"); else $("#tBoard").setAttribute("aria-current", "page");
+}
+window.addEventListener("hashchange", showView);
+const SN = {pts: "pts", reb: "reb", ast: "ast", fg3m: "3PM", pra: "PRA"};
+const W = x => Math.max(0, Math.min(100, x)).toFixed(1) + "%";
+function niceDate(d) { try { return new Date(d + "T12:00:00Z").toLocaleDateString("en-US", {weekday: "short", month: "short", day: "numeric", timeZone: "UTC"}); } catch { return d; } }
+function boardHTML() {
+  const today = etDate(); const P = D.predictions || {}; const days = Object.keys(P).filter(d => d >= today).sort();
+  const day = days[0] || Object.keys(P).sort().pop(); const games = (P[day] || []).slice().sort((a, b) => a.tip_utc.localeCompare(b.tip_utc));
+  const PP = (D.player_projections || {})[day] || []; const nLines = PP.reduce((a, g) => a + g.players.length, 0);
+  const s = D.scorecard || {}; const live = (s.live || {}).metrics || {}; const bf = (s.backfill_2026_27 || {}).vs_fanduel_close || {}; const bt = (s.backtest_2025_26 || {}).test || {}; const pb = (s.players_backtest_2025_26 || {}).test_avg_miss || {};
+  const liveRec = live.games ? `${Math.round(live.accuracy * live.games)}–${live.games - Math.round(live.accuracy * live.games)}` : "0–0";
+  let h = `<div class="btop"><div><h2>${day === today ? "Tonight's board" : "Board"} · ${esc(niceDate(day))}</h2><div class="sub">${games.length} games · ${nLines} player lines · locked at tip-off · data ${esc(D.built)}</div></div>
+  <div class="strip"><div><span>Live record</span><b>${liveRec}</b><span>${live.games ? pct(live.accuracy) + " of winners" : "first grades tomorrow"}</span></div>
+  <div><span>This season*</span><b>${bf.teleios ? pct(bf.teleios.accuracy) : "–"}</b><span>market ${bf.fanduel_close ? pct(bf.fanduel_close.accuracy) : "–"}</span></div>
+  <div><span>2025-26 test</span><b>${bt.accuracy ? (bt.accuracy * 100).toFixed(1) + "%" : "–"}</b><span>winners picked</span></div>
+  <div><span>Points miss</span><b>${pb.pts ? pb.pts.toFixed(2) : "–"}</b><span>2025-26 test</span></div></div></div>`;
+  // games
+  h += `<section class="sec"><div class="sechead"><h3>Games</h3><div class="key"><span><i class="tel"></i>Teleios</span><span><i class="mkt"></i>Market (Kalshi)</span></div></div><div class="gbox"><div class="grow h"><div>Game</div><div>Pick</div><div>Win chance for the pick</div><div style="text-align:right">Gap</div><div>Margin</div><div>Key players out</div></div>`;
+  for (const p of games) {
+    const mk = p.market_p_home == null ? null : (p.pick === p.home ? p.market_p_home : 1 - p.market_p_home);
+    const gap = mk == null ? null : Math.round(p.chance * 100) - Math.round(mk * 100);
+    const outs = Object.values((p.why || {}).out || {}).flat().filter(o => o.minutes >= 20).map(o => o.player).slice(0, 3).join(", ") || "—";
+    const r = p.result; const when = r ? `<span class="${r.hit ? "res-hit" : "res-miss"}">${r.hit ? "Hit" : "Miss"}</span> · ${esc(r.winner)} won` : esc(tipET(p.tip_utc)) + " CT";
+    h += `<button class="grow" type="button" data-q="${esc(`Break down ${p.away} at ${p.home}: why does Teleios pick ${p.pick}?`)}"><div class="gm"><b>${esc(p.away)} @ ${esc(p.home)}</b><span>${when}</span></div><div class="pk">${esc(p.pick)}</div>
+      <div class="bars"><div class="bar"><div><div class="tel" style="width:${W(p.chance * 100)}"></div></div><em><b>${pct(p.chance)}</b></em></div><div class="bar"><div><div class="mkt" style="width:${mk == null ? "0%" : W(mk * 100)}"></div></div><em style="color:var(--blue2)">${pct(mk)}</em></div></div>
+      <div class="gap ${gap != null && Math.abs(gap) >= 6 ? "wide" : ""}"><span>${gap == null ? "–" : (gap > 0 ? "+" : "") + gap}</span></div><div class="det">by ${Math.abs(p.margin).toFixed(1)}</div><div class="det">${esc(outs)}</div></button>`;
+  }
+  h += `</div><div class="small">Highlighted gap = Teleios and the market differ by 6+ points. Tap a game for the full breakdown in the chat.</div></section>`;
+  // disagreements + tops
+  const dis = []; for (const g of PP) for (const p of g.players) for (const [st, m] of Object.entries(p.market || {})) dis.push({p, st, m, d: Math.abs(m.teleios_p_over - m.market_p_over)});
+  dis.sort((a, b) => b.d - a.d); const seen = new Set(); const dl = []; for (const x of dis) { if (seen.has(x.p.player)) continue; seen.add(x.p.player); dl.push(x); if (dl.length === 8) break; }
+  h += `<div class="two"><section class="sec"><h3>Biggest disagreements with Kalshi</h3><div class="small">Chance the player goes over Kalshi's main line. One line per player. Tap to ask why.</div><div class="list">`;
+  h += dl.length ? dl.map(({p, st, m}) => `<button class="lrow" type="button" style="width:100%;font:inherit;color:inherit;background:none;border:0;border-bottom:1px solid var(--line);text-align:left;cursor:pointer" data-q="${esc(`Why does Teleios disagree with Kalshi on ${p.player} ${SN[st]} ${m.line} tonight?`)}"><div><div class="who">${esc(p.player)} <span>${esc(p.team)}</span>${p.questionable ? '<span class="tag">Questionable</span>' : ""}</div><div class="det">${SN[st]} ${m.line} · projects ${p.proj[st].toFixed(1)} · Teleios leans <b>${m.teleios_p_over > m.market_p_over ? "Over" : "Under"}</b>${m.went_over != null ? ` · went ${m.went_over ? "over" : "under"}` : ""}</div></div>
+      <div class="bars"><div class="bar"><div><div class="tel" style="width:${W(m.teleios_p_over * 100)}"></div></div><em><b>${pct(m.teleios_p_over)}</b></em></div><div class="bar"><div><div class="mkt" style="width:${W(m.market_p_over * 100)}"></div></div><em style="color:var(--blue2)">${pct(m.market_p_over)}</em></div></div></button>`).join("") : `<p class="small">No Kalshi player lines matched yet for this slate.</p>`;
+  const tops = PP.flatMap(g => g.players).sort((a, b) => b.proj.pra - a.proj.pra).slice(0, 8); const SC = 50;
+  h += `</div></section><section class="sec"><h3>Top projected lines</h3><div class="small">Bar = 80% range for points on a 0–50 scale; dot = projection.</div><div class="list">`;
+  h += tops.map(p => { const r = p.range80.pts || [0, 0]; return `<div class="lrow"><div><div class="who">${esc(p.player)} <span>${esc(p.team)} vs ${esc(p.opp)}</span>${p.questionable ? '<span class="tag">Questionable</span>' : ""}</div><div class="det"><b>${p.proj.pts.toFixed(1)}</b> pts · ${p.proj.reb.toFixed(1)} reb · ${p.proj.ast.toFixed(1)} ast · ${p.proj.fg3m.toFixed(1)} 3PM${p.season_avg ? ` · season ${p.season_avg.pts.toFixed(1)} pts` : ""}${p.actual ? ` · scored <b>${p.actual.pts}</b>` : ""}</div></div>
+      <div><div class="range"><i style="left:${W(r[0] / SC * 100)};width:${W((r[1] - r[0]) / SC * 100)}"></i><b style="left:${W(p.proj.pts / SC * 100)}"></b></div><div class="small" style="text-align:right">80%: ${Math.round(r[0])}–${Math.round(r[1])}</div></div></div>`; }).join("");
+  h += `</div></section></div>`;
+  // last night: live graded if any, else backfill
+  const past = Object.keys(P).filter(d => d < day).sort(); let lastDay = null, rows = [], live2 = false;
+  for (let i = past.length - 1; i >= 0; i--) { const g = P[past[i]].filter(p => p.result); if (g.length) { lastDay = past[i]; live2 = true; rows = g.map(p => ({m: `${p.away} @ ${p.home}`, pick: p.pick, ch: p.chance, sc: `${p.away} ${p.result.away_score} – ${p.home} ${p.result.home_score}`, hit: p.result.hit})); break; } }
+  if (!rows.length) { const R = D.results.rows; const ld = R.filter(r => r[0] < day && r[5] != null).map(r => r[0]).sort().pop(); if (ld) { lastDay = ld; rows = R.filter(r => r[0] === ld && r[5] != null).map(r => { const pick = r[5] >= .5 ? r[1] : r[2]; return {m: `${r[2]} @ ${r[1]}`, pick, ch: Math.max(r[5], 1 - r[5]), sc: `${r[2]} ${r[4]} – ${r[1]} ${r[3]}`, hit: pick === (r[3] > r[4] ? r[1] : r[2])}; }); } }
+  if (rows.length) { const nh = rows.filter(r => r.hit).length;
+    h += `<section class="sec"><div class="sechead"><h3>Last night · ${nh}–${rows.length - nh}</h3><span class="small">${esc(niceDate(lastDay))} · ${live2 ? "live predictions, frozen before tip-off" : "from the backfill (made after the fact); live grades replace this once games are graded"}</span></div><div class="cards">`;
+    h += rows.map(r => `<div class="rc"><div class="t"><span>${esc(r.m)}</span><span class="hm ${r.hit ? "hit" : "miss"}">${r.hit ? "Hit" : "Miss"}</span></div><div class="det">Picked ${esc(r.pick)} at ${pct(r.ch)}</div><div class="small">${esc(r.sc)}</div></div>`).join("") + `</div></section>`; }
+  h += `<div class="foot">*This season = backfill of ${bf.games || "–"} games with a market price, made after the fact, knowing who played. Teleios is an analyst, not a tipster: these are predictions to study, not bets.</div>`;
+  return h;
+}
 const CHIPS = ["Which game tonight does Teleios disagree with the market on most, and why?", "What's Teleios projecting for the top scorers tonight?", "Rank the top 10 teams right now", "How has Teleios done so far against the market?", "Who's the most underrated player by the model?", "What patterns has the notebook found?"];
 
 function autosize() { const t = $("#q"); t.style.height = "auto"; t.style.height = Math.min(t.scrollHeight, 180) + "px"; }
@@ -275,17 +382,19 @@ $("#q").addEventListener("input", autosize);
 $("#q").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); ask($("#q").value); } });
 $("#form").addEventListener("submit", e => { e.preventDefault(); ask($("#q").value); });
 $("#clear").addEventListener("click", () => { history = []; save(); $("#log").querySelectorAll(".msg").forEach(m => m.remove()); });
-document.addEventListener("click", e => { const c = e.target.closest("[data-q]"); if (c) ask(c.dataset.q); });
+document.addEventListener("click", e => { const c = e.target.closest("[data-q]"); if (!c) return; if (location.hash !== "#chat") location.hash = "chat"; showView(); ask(c.dataset.q); });
 
 async function boot() {
   try { D = await (await fetch("data.json", {cache: "no-store"})).json(); }
-  catch (e) { $("#status").textContent = "Couldn't load Teleios's data."; return; }
+  catch (e) { $("#status").textContent = "Couldn't load Teleios's data."; $("#boardBody").innerHTML = '<p class="sub">Couldn\'t load Teleios\'s data.</p>'; return; }
   $("#status").innerHTML = `Data built <b>${esc(D.built)}</b> · ${D.results.rows.length} games this season`;
   const s = slateHTML(); $("#slateBody").innerHTML = s; $("#slateMBody").innerHTML = s; $("#score").innerHTML = scoreHTML();
+  $("#boardBody").innerHTML = boardHTML(); showView();
   $("#chips").innerHTML = CHIPS.map(c => `<button class="chip" type="button" data-q="${esc(c)}">${esc(c)}</button>`).join("");
   try { const h = JSON.parse(localStorage.getItem("teleios-chat") || "[]"); if (Array.isArray(h) && h.length) { history = h; h.forEach(m => addMsg(m.role === "user" ? "you" : "bot", md(m.content))); } } catch {}
   sample = window.claude ? await window.claude.use("sample") : null;
 }
+showView();
 boot();
 }
 </script>
