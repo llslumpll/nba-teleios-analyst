@@ -142,6 +142,8 @@ button.grow:hover{background:var(--panel)}
 .ptab .mk{display:block;font-size:12px;color:var(--blue2)}
 .legend{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-size:13px;color:var(--mute);border:1px solid var(--line);border-radius:8px;padding:10px 14px}
 .legend .lg-t{font-weight:600;color:var(--ink)}
+.legend>span{display:inline-flex;align-items:center;gap:6px}
+.legend .chip{flex:none}
 .chip{display:inline-block;font-size:12px;font-weight:600;line-height:1.2;padding:2px 7px;border-radius:5px;white-space:nowrap;font-variant-numeric:tabular-nums}
 .ptab td .chip{display:table;margin:3px 0 0 auto}
 .chip.up,.chip.ov,.chip.ok{background:light-dark(#e3f4e8,#14301d);color:light-dark(#11602f,#7fdca0)}
@@ -481,7 +483,7 @@ function cell(p, k) {
   if (k === "minutes") return `<td><b>${p.minutes.toFixed(0)}</b>${p.actual_minutes != null ? `<span class="r">played ${Math.round(p.actual_minutes)}</span>` : ""}</td>`;
   const v = p.proj[k]; const r = (p.range80 || {})[k]; const m = (p.market || {})[k]; const a = p.actual ? p.actual[k] : null;
   const avg = p.season_avg ? p.season_avg[k] : null; let vs = "";
-  if (avg != null) { const d = v - avg; const big = Math.abs(d) >= Math.max(0.3, 0.06 * Math.max(avg, 1)); vs = big ? `<span class="chip ${d > 0 ? "up" : "dn"}" title="Season average ${avg.toFixed(1)}">${d > 0 ? "▲" : "▼"} ${Math.abs(d).toFixed(1)}</span>` : `<span class="chip eq" title="Season average ${avg.toFixed(1)}">= avg</span>`; }
+  if (avg != null) { const d = v - avg; const big = Math.abs(d) >= Math.max(0.3, 0.06 * Math.max(avg, 1)); vs = big ? `<span class="chip ${d > 0 ? "up" : "dn"}" title="Season average ${avg.toFixed(1)}">${d > 0 ? "▲" : "▼"} ${Math.abs(d).toFixed(1)}</span>` : (PS.detail ? `<span class="chip eq" title="Season average ${avg.toFixed(1)}">= avg</span>` : ""); }
   let line = "";
   if (m) { const over = m.teleios_p_over >= 0.5; const ch = over ? m.teleios_p_over : 1 - m.teleios_p_over;
     line = `<span class="chip ${over ? "ov" : "un"}" title="Kalshi line ${m.line}; market ${pct(over ? m.market_p_over : 1 - m.market_p_over)}">${over ? "Over" : "Under"} ${m.line} · ${pct(ch)}</span>`;
