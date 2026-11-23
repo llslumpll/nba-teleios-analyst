@@ -73,8 +73,8 @@ details.slate-m{display:none}
 .tabs a{font:600 15px Inter,sans-serif;color:var(--mute);text-decoration:none;padding:8px 14px;border-radius:10px;min-height:40px;display:flex;align-items:center}
 .tabs a[aria-current=page]{color:var(--ink);background:var(--panel)}
 .tabs a:focus-visible{outline:2px solid var(--acc)}
-#board{overflow-y:auto;min-height:0}
-#board[hidden],main[hidden]{display:none}
+#board,#playersView{overflow-y:auto;min-height:0}
+#board[hidden],#playersView[hidden],main[hidden]{display:none}
 .bw{max-width:1240px;margin:0 auto;padding:24px max(3vw,16px) 48px;display:flex;flex-direction:column;gap:36px}
 .btop{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px}
 .btop h2{font-size:clamp(32px,4.4vw,48px);line-height:1}
@@ -117,6 +117,24 @@ button.grow:hover{background:var(--panel)}
 .rc .t{display:flex;justify-content:space-between;align-items:center;font-weight:600}
 .hm{font-size:13px;font-weight:600;color:#fff;padding:2px 8px;border-radius:5px}.hm.hit{background:#147a3d}.hm.miss{background:#b3261e}
 .foot{font-size:13px;color:var(--mute);border-top:1px solid var(--line);padding-top:14px}
+.pctl{display:flex;flex-wrap:wrap;gap:10px;align-items:end}
+.pctl label{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--mute)}
+.pctl input,.pctl select{font:inherit;font-size:16px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 12px;min-height:44px}
+.pctl input{width:min(260px,70vw)}
+.pctl input:focus,.pctl select:focus{outline:2px solid var(--acc);outline-offset:1px}
+.ptab{overflow-x:auto;border-top:2px solid var(--ink)}
+.ptab table{border-collapse:collapse;width:100%;min-width:980px;font-size:14px;font-variant-numeric:tabular-nums}
+.ptab th{font-weight:500;color:var(--mute);text-align:right;padding:8px 8px;border-bottom:1px solid var(--line);white-space:nowrap;position:sticky;top:0;background:var(--bg)}
+.ptab th:first-child,.ptab td:first-child,.ptab th:nth-child(2),.ptab td:nth-child(2){text-align:left}
+.ptab th button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:6px 0;min-height:32px}
+.ptab th button[aria-sort]{color:var(--ink);font-weight:600}
+.ptab td{padding:8px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap;vertical-align:top}
+.ptab td .r{display:block;font-size:12px;color:var(--mute)}
+.ptab td .a{display:block;font-size:12px;font-weight:600}
+.ptab td .a.o{color:var(--good)}.ptab td .a.u{color:var(--bad)}
+.ptab tr.gh td{background:var(--panel);font-weight:600;text-align:left;padding:10px 8px}
+.ptab .mk{display:block;font-size:12px;color:var(--blue2)}
+.pname{font-weight:600}.pname button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left}.pname button:hover{color:var(--acc)}
 @media(max-width:600px){.strip{grid-template-columns:repeat(2,minmax(0,1fr))}.strip>div:nth-child(2){border-right:0}.strip>div:nth-child(-n+2){border-bottom:1px solid var(--line)}.lrow{grid-template-columns:minmax(0,1fr) 120px}}
 @media(prefers-reduced-motion:no-preference){.msg{animation:in .18s ease-out}@keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1}}}
 </style>
@@ -125,9 +143,10 @@ button.grow:hover{background:var(--panel)}
 <div class="app">
   <header>
     <div><h1>NBA Teleios Analyst</h1><div class="status" id="status">Loading data…</div></div>
-    <nav class="tabs" aria-label="Views"><a href="#board" id="tBoard">Board</a><a href="#chat" id="tChat">Chat</a></nav>
+    <nav class="tabs" aria-label="Views"><a href="#board" id="tBoard">Board</a><a href="#players" id="tPlayers">Players</a><a href="#chat" id="tChat">Chat</a></nav>
   </header>
   <section id="board" aria-label="Picks board"><div class="bw" id="boardBody"><p class="sub">Loading…</p></div></section>
+  <section id="playersView" aria-label="All player projections" hidden><div class="bw" id="playersBody"></div></section>
   <main id="chatView" hidden>
     <section class="chat">
       <div class="log" id="log" aria-live="polite">
@@ -322,10 +341,10 @@ function scoreHTML() {
 
 /* ---------- board ---------- */
 function showView() {
-  const chat = location.hash === "#chat";
-  $("#board").hidden = chat; $("#chatView").hidden = !chat;
-  $("#tBoard").toggleAttribute("aria-current", !chat); $("#tChat").toggleAttribute("aria-current", chat);
-  if (chat) $("#tChat").setAttribute("aria-current", "page"); else $("#tBoard").setAttribute("aria-current", "page");
+  const v = location.hash === "#chat" ? "chat" : location.hash === "#players" ? "players" : "board";
+  $("#board").hidden = v !== "board"; $("#playersView").hidden = v !== "players"; $("#chatView").hidden = v !== "chat";
+  for (const [id, k] of [["#tBoard", "board"], ["#tPlayers", "players"], ["#tChat", "chat"]]) { const a = $(id); if (v === k) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); }
+  if (v === "players" && D && !$("#pq")) renderPlayers();
 }
 window.addEventListener("hashchange", showView);
 const SN = {pts: "pts", reb: "reb", ast: "ast", fg3m: "3PM", pra: "PRA"};
@@ -375,6 +394,46 @@ function boardHTML() {
   h += `<div class="foot">*This season = backfill of ${bf.games || "–"} games with a market price, made after the fact, knowing who played. Teleios is an analyst, not a tipster: these are predictions to study, not bets.</div>`;
   return h;
 }
+
+/* ---------- players: every projection ---------- */
+const PCOLS = [["minutes", "Min"], ["pts", "Pts"], ["reb", "Reb"], ["ast", "Ast"], ["fg3m", "3PM"], ["stl", "Stl"], ["blk", "Blk"], ["tov", "TO"], ["pra", "PRA"]];
+let PS = {sort: "pra", q: "", game: "", day: null, group: true};
+function renderPlayers() {
+  const P = D.player_projections || {}; const today = etDate(); const days = Object.keys(P).sort();
+  if (!PS.day) PS.day = days.filter(d => d >= today)[0] || days[days.length - 1];
+  const games = (P[PS.day] || []).slice().sort((a, b) => String(a.tip_utc).localeCompare(String(b.tip_utc)));
+  $("#playersBody").innerHTML = `<div class="btop"><div><h2>Every projection</h2><div class="sub">Each line means "if he plays". Small grey numbers = 80% range. Blue = Kalshi line and its over chance. After the game: actual, green if over the projection.</div></div></div>
+   <div class="pctl"><label>Date<select id="pday">${days.map(d => `<option value="${d}"${d === PS.day ? " selected" : ""}>${esc(niceDate(d))}</option>`).join("")}</select></label>
+   <label>Game<select id="pgame"><option value="">All games</option>${games.map(g => `<option value="${g.game_id}"${String(g.game_id) === PS.game ? " selected" : ""}>${esc(g.away)} @ ${esc(g.home)}</option>`).join("")}</select></label>
+   <label>Player or team<input id="pq" type="search" placeholder="e.g. Brunson or BOS" value="${esc(PS.q)}"></label>
+   <label>Sort by<select id="psort">${PCOLS.map(([k, n]) => `<option value="${k}"${k === PS.sort ? " selected" : ""}>${n}</option>`).join("")}</select></label>
+   <label>View<select id="pgroup"><option value="1"${PS.group ? " selected" : ""}>By game</option><option value="0"${!PS.group ? " selected" : ""}>One list</option></select></label></div>
+   <div class="small" id="pcount"></div><div class="ptab" id="ptab"></div>`;
+  const re = () => { PS.day = $("#pday").value; PS.game = $("#pgame").value; PS.q = $("#pq").value; PS.sort = $("#psort").value; PS.group = $("#pgroup").value === "1"; };
+  $("#pday").addEventListener("change", () => { re(); PS.game = ""; renderPlayers(); });
+  for (const id of ["#pgame", "#psort", "#pgroup"]) $(id).addEventListener("change", () => { re(); drawPlayers(); });
+  $("#pq").addEventListener("input", () => { re(); drawPlayers(); });
+  drawPlayers();
+}
+function cell(p, k) {
+  if (k === "minutes") return `<td>${p.minutes.toFixed(1)}${p.actual_minutes != null ? `<span class="r">played ${p.actual_minutes}</span>` : ""}</td>`;
+  const v = p.proj[k]; const r = (p.range80 || {})[k]; const m = (p.market || {})[k]; const a = p.actual ? p.actual[k] : null;
+  return `<td><b>${v.toFixed(1)}</b>${r ? `<span class="r">${Math.round(r[0])}–${Math.round(r[1])}</span>` : ""}${m ? `<span class="mk">${m.line} · ${pct(m.market_p_over)} / T ${pct(m.teleios_p_over)}</span>` : ""}${a != null ? `<span class="a ${a > v ? "o" : "u"}">${a}</span>` : ""}</td>`;
+}
+function drawPlayers() {
+  const P = D.player_projections || {}; const games = (P[PS.day] || []).filter(g => !PS.game || String(g.game_id) === PS.game).sort((a, b) => String(a.tip_utc).localeCompare(String(b.tip_utc)));
+  const q = PS.q.trim().toLowerCase(); const tq = q ? teamCode(q) : null;
+  const match = p => !q || (p.player || "").toLowerCase().includes(q) || (tq && (p.team === tq || p.opp === tq));
+  const key = p => PS.sort === "minutes" ? p.minutes : p.proj[PS.sort];
+  const head = `<thead><tr><th>Player</th><th>Team</th>${PCOLS.map(([k, n]) => `<th><button type="button" data-sort="${k}"${k === PS.sort ? ' aria-sort="descending"' : ""}>${n}</button></th>`).join("")}</tr></thead>`;
+  const row = p => `<tr><td class="pname"><button type="button" data-q="${esc(`What is Teleios projecting for ${p.player} tonight, and why?`)}">${esc(p.player)}</button>${p.questionable ? '<span class="tag">Questionable</span>' : ""}${p.result ? `<span class="r">${esc(p.result)}</span>` : ""}</td><td>${esc(p.team)} <span class="r">vs ${esc(p.opp)}</span></td>${PCOLS.map(([k]) => cell(p, k)).join("")}</tr>`;
+  let body = "", n = 0;
+  if (PS.group) for (const g of games) { const ps = g.players.filter(match).sort((a, b) => key(b) - key(a)); if (!ps.length) continue; n += ps.length; body += `<tr class="gh"><td colspan="${PCOLS.length + 2}">${esc(g.away)} @ ${esc(g.home)} · ${esc(tipET(g.tip_utc))} CT${g.locked ? " · locked" : ""}</td></tr>` + ps.map(row).join(""); }
+  else { const ps = games.flatMap(g => g.players).filter(match).sort((a, b) => key(b) - key(a)); n = ps.length; body = ps.map(row).join(""); }
+  $("#pcount").textContent = `${n} players`;
+  $("#ptab").innerHTML = n ? `<table>${head}<tbody>${body}</tbody></table>` : `<p class="small" style="padding:12px 0">No players match.</p>`;
+  $("#ptab").querySelectorAll("[data-sort]").forEach(b => b.addEventListener("click", e => { e.stopPropagation(); PS.sort = b.dataset.sort; $("#psort").value = PS.sort; drawPlayers(); }));
+}
 const CHIPS = ["Which game tonight does Teleios disagree with the market on most, and why?", "What's Teleios projecting for the top scorers tonight?", "Rank the top 10 teams right now", "How has Teleios done so far against the market?", "Who's the most underrated player by the model?", "What patterns has the notebook found?"];
 
 function autosize() { const t = $("#q"); t.style.height = "auto"; t.style.height = Math.min(t.scrollHeight, 180) + "px"; }
@@ -389,7 +448,7 @@ async function boot() {
   catch (e) { $("#status").textContent = "Couldn't load Teleios's data."; $("#boardBody").innerHTML = '<p class="sub">Couldn\'t load Teleios\'s data.</p>'; return; }
   $("#status").innerHTML = `Data built <b>${esc(D.built)}</b> · ${D.results.rows.length} games this season`;
   const s = slateHTML(); $("#slateBody").innerHTML = s; $("#slateMBody").innerHTML = s; $("#score").innerHTML = scoreHTML();
-  $("#boardBody").innerHTML = boardHTML(); showView();
+  $("#boardBody").innerHTML = boardHTML() + `<p class="small"><a href="#players">See every player projection →</a></p>`; showView();
   $("#chips").innerHTML = CHIPS.map(c => `<button class="chip" type="button" data-q="${esc(c)}">${esc(c)}</button>`).join("");
   try { const h = JSON.parse(localStorage.getItem("teleios-chat") || "[]"); if (Array.isArray(h) && h.length) { history = h; h.forEach(m => addMsg(m.role === "user" ? "you" : "bot", md(m.content))); } } catch {}
   sample = window.claude ? await window.claude.use("sample") : null;
