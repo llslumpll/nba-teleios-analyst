@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23 23:18 UTC",
+ "fetched_at": "2026-11-23 23:24 UTC",
  "error": null,
  "players": [
   {
@@ -100,24 +100,6 @@
    "class": "out",
    "comment": "Schroder has been diagnosed with a left hamstring strain and will be reevaluated in two weeks, Michael Scotto of HoopsHype.com reports.",
    "date": "2026-11-08T22:26Z"
-  },
-  {
-   "player": "Jalen Smith",
-   "pid": 4397189,
-   "team": "CHI",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Smith (illness) is probable for Monday's game against Cleveland.",
-   "date": "2026-11-23T18:40Z"
-  },
-  {
-   "player": "Nic Claxton",
-   "pid": 4278067,
-   "team": "CHI",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Claxton (illness) is questionable for Monday's game against Cleveland.",
-   "date": "2026-11-23T18:35Z"
   },
   {
    "player": "Norman Powell",
@@ -640,24 +622,6 @@
    "class": "out",
    "comment": "Embiid (illness) is out for Monday's game against Portland, Austin Krell of OnPattison.com reports.",
    "date": "2026-11-23T22:49Z"
-  },
-  {
-   "player": "Adem Bona",
-   "pid": 5105637,
-   "team": "PHI",
-   "status": "Out",
-   "class": "out",
-   "comment": "Bona (back) is listed as probable for Monday's game against the Trail Blazers.",
-   "date": "2026-11-22T22:22Z"
-  },
-  {
-   "player": "Jaylen Brown",
-   "pid": 3917376,
-   "team": "PHI",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Brown (hamstring) is listed as probable for Monday's game versus Portland.",
-   "date": "2026-11-22T22:17Z"
   },
   {
    "player": "Dean Wade",
