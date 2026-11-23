@@ -206,6 +206,48 @@ button.grow:hover{background:var(--panel)}
 .court .lab.a{left:10px}.court .lab.h{right:10px}
 .score3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
 @media(max-width:700px){.fo{grid-template-columns:1fr 1fr}.fo .mid{grid-column:1/-1;order:-1}.fo .num{font-size:36px}.score3{grid-template-columns:1fr}}
+.vsw{display:inline-flex;gap:4px;background:var(--card);padding:4px;border-radius:12px;align-self:flex-end}
+.vsw button{font:inherit;font-weight:600;font-size:14px;border:0;background:none;color:var(--mute);padding:7px 14px;border-radius:9px;cursor:pointer;min-height:36px}
+.vsw button[aria-pressed=true]{background:var(--court);color:#f4ecdf}
+.stabs{display:flex;flex-wrap:wrap;gap:6px}
+.stabs button{font:400 22px/1 "Bebas Neue",sans-serif;letter-spacing:.02em;border:2px solid var(--court);background:transparent;color:var(--ink);padding:10px 18px;border-radius:10px;cursor:pointer;min-height:44px}
+.stabs button[aria-selected=true]{background:var(--court);color:#f4ecdf}
+.pcards{display:flex;flex-direction:column;gap:12px}
+.pc{display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:18px;background:var(--card);border-radius:16px;padding:16px 18px;border-left:6px solid var(--line)}
+.pc.ov{border-left-color:#1f9d55}.pc.un{border-left-color:#d23b4d}.pc.flip{border-left-color:var(--mute)}
+.pc-main{display:flex;flex-direction:column;gap:8px;min-width:0}
+.pc-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.tb{font:700 12px "Work Sans",sans-serif;color:#fff;padding:3px 7px;border-radius:5px;letter-spacing:.02em}
+.pn{font:400 28px/1 "Bebas Neue",sans-serif;letter-spacing:.01em;background:none;border:0;padding:0;color:var(--ink);cursor:pointer;text-align:left}
+.pn:hover{color:var(--acc)}
+.pc-call{display:flex;flex-wrap:wrap;gap:12px 22px;align-items:center}
+.callbox{display:inline-block;font:400 30px/1 "Bebas Neue",sans-serif;letter-spacing:.02em;padding:8px 14px;border-radius:8px;border:2px solid var(--line);color:var(--ink);white-space:nowrap}
+.callbox.ov{background:light-dark(#dff4e7,#123a22);border-color:#1f9d55;color:light-dark(#0e5a2e,#8fe7b0)}
+.callbox.un{background:light-dark(#fde3e6,#3d151b);border-color:#d23b4d;color:light-dark(#9d1328,#ff9aa8)}
+.callbox.flip{background:var(--track);color:var(--mute);border-color:var(--line)}
+.callbox.sm{font-size:16px;padding:2px 8px;border-width:1.5px}
+.nums{display:flex;gap:18px;flex-wrap:wrap}
+.nums div{display:flex;flex-direction:column}
+.nums span,.facts span{font-size:12px;color:var(--mute);font-weight:600}
+.nums b{font:400 26px/1 "Bebas Neue",sans-serif}
+.nums b.pos{color:light-dark(#0e5a2e,#8fe7b0)}.nums b.neg{color:light-dark(#9d1328,#ff9aa8)}.nums b.muted{color:var(--mute)}
+.l10w{display:flex;flex-direction:column;gap:4px}
+.l10s{display:flex;flex-wrap:wrap;gap:4px}
+.l10{display:inline-flex;align-items:center;justify-content:center;min-width:32px;height:28px;padding:0 4px;border-radius:5px;font-weight:700;font-size:14px;font-variant-numeric:tabular-nums}
+.l10.o{background:light-dark(#dff4e7,#123a22);color:light-dark(#0e5a2e,#8fe7b0);border:1.5px solid #1f9d55}
+.l10.u{background:light-dark(#fde3e6,#3d151b);color:light-dark(#9d1328,#ff9aa8);border:1.5px solid #d23b4d}
+.legend .l10{min-width:26px;height:22px;font-size:12px}
+.pc-side{display:flex;flex-direction:column;gap:6px;align-items:flex-end;text-align:right}
+.pc-side .big{font:400 52px/1 "Bebas Neue",sans-serif}.pc-side .big small{font:600 14px "Work Sans",sans-serif;color:var(--mute)}
+.pc-side .big.ov{color:light-dark(#0e5a2e,#8fe7b0)}.pc-side .big.un{color:light-dark(#9d1328,#ff9aa8)}
+.pc-side .mk{color:var(--blue2);font-weight:600}
+.meter{display:flex;gap:3px}.meter i{width:12px;height:8px;border-radius:2px;background:var(--track)}
+.meter i.on.ov{background:#1f9d55}.meter i.on.un{background:#d23b4d}.meter i.on.flip{background:var(--mute)}
+.facts{display:flex;gap:16px;margin-top:4px}.facts div{display:flex;flex-direction:column;align-items:flex-end}.facts b{font:400 22px/1 "Bebas Neue",sans-serif}
+.why{font:600 14px "Work Sans",sans-serif;background:var(--acc);color:#fff;border:0;border-radius:9px;padding:8px 16px;cursor:pointer;min-height:40px;margin-top:4px}
+.resb{align-self:flex-start;font-size:14px;font-weight:600;padding:4px 10px;border-radius:7px;background:var(--track)}
+.resb.ok{background:light-dark(#dff4e7,#123a22);color:light-dark(#0e5a2e,#8fe7b0)}.resb.no{background:light-dark(#fde3e6,#3d151b);color:light-dark(#9d1328,#ff9aa8)}
+@media(max-width:700px){.pc{grid-template-columns:1fr}.pc-side{align-items:flex-start;text-align:left;flex-direction:row;flex-wrap:wrap;align-items:center;gap:10px 16px}.facts div{align-items:flex-start}.callbox{font-size:24px}}
 @media(prefers-reduced-motion:no-preference){.msg{animation:in .18s ease-out}@keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1}}}
 </style>
 </head>
@@ -479,12 +521,87 @@ function boardHTML() {
   return h;
 }
 
+/* ---------- players: Prop-Edge-style cards ---------- */
+let PS = {sort: "pra", q: "", game: "", day: null, group: true, more: false, detail: false, view: "cards", stat: "pts", order: "call", lined: false};
+const STATN = {pts: "points", reb: "rebounds", ast: "assists", fg3m: "threes", pra: "points + rebounds + assists"};
+const STATS_UI = [["pts", "Points"], ["reb", "Rebounds"], ["ast", "Assists"], ["fg3m", "Threes"], ["pra", "Pts+Reb+Ast"]];
+const LCOL = ["date", "team", "opp", "min", "pts", "reb", "ast", "stl", "blk", "tov", "fgm", "fga", "fg3m", "ftm", "fta", "plus_minus"];
+function lastN(pid, stat, before, n = 10) {
+  const L = ((D.player_logs || {}).logs || {})[String(pid)] || []; const c = LCOL;
+  const rows = L.filter(r => r[0] < before && r[3] !== "DNP");
+  return rows.slice(-n).map(r => ({d: r[0], opp: r[2], v: stat === "pra" ? r[c.indexOf("pts")] + r[c.indexOf("reb")] + r[c.indexOf("ast")] : r[c.indexOf(stat)]}));
+}
+function teamColor(t) { return ({ATL:"#C8102E",BKN:"#000000",BOS:"#008348",CHA:"#008CA8",CHI:"#CE1141",CLE:"#860038",DAL:"#0064B1",DEN:"#0E2240",DET:"#1D428A",GSW:"#1D428A",HOU:"#CE1141",IND:"#0C2340",LAC:"#12173F",LAL:"#552583",MEM:"#5D76A9",MIA:"#98002E",MIL:"#00471B",MIN:"#266092",NOP:"#0A2240",NYK:"#1D428A",OKC:"#007AC1",ORL:"#0150B5",PHI:"#1D428A",PHX:"#29127A",POR:"#E03A3E",SAC:"#5A2D81",SAS:"#000000",TOR:"#D91244",UTA:"#4E008E",WAS:"#E31837"})[t] || "#10302f"; }
+function renderPlayers() {
+  if (PS.view === "table") { renderPlayersTable(); const v = document.createElement("div"); v.innerHTML = viewSwitch(); $("#playersBody").prepend(v.firstElementChild); bindSwitch(); return; }
+  const P = D.player_projections || {}; const today = etDate(); const days = Object.keys(P).sort();
+  if (!PS.day) PS.day = days.filter(d => d >= today)[0] || days[days.length - 1];
+  const games = (P[PS.day] || []).slice().sort((a, b) => String(a.tip_utc).localeCompare(String(b.tip_utc)));
+  $("#playersBody").innerHTML = `${viewSwitch()}<div class="btop"><div><h2>Player picks</h2><div class="sub">${esc(niceDate(PS.day))} · what Teleios expects from every player (if he plays), against the betting line. Tap <b>Why?</b> for the reasoning.</div></div></div>
+   <div class="stabs" role="tablist">${STATS_UI.map(([k, n]) => `<button type="button" role="tab" data-stat="${k}" aria-selected="${PS.stat === k}">${n}</button>`).join("")}</div>
+   <div class="legend"><span class="lg-t">How to read a card</span><span><span class="callbox ov sm">OVER 22.5</span> Teleios thinks he beats the betting line</span><span><span class="callbox un sm">UNDER 8.5</span> thinks he falls short</span><span><span class="l10 o">27</span><span class="l10 u">14</span> his last 10 games: green = went over tonight's line</span></div>
+   <div class="pctl"><label>Date<select id="pday">${days.map(d => `<option value="${d}"${d === PS.day ? " selected" : ""}>${esc(niceDate(d))}</option>`).join("")}</select></label>
+   <label>Game<select id="pgame"><option value="">All games</option>${games.map(g => `<option value="${g.game_id}"${String(g.game_id) === PS.game ? " selected" : ""}>${esc(g.away)} @ ${esc(g.home)}</option>`).join("")}</select></label>
+   <label>Player or team<input id="pq" type="search" placeholder="e.g. Brunson or BOS" value="${esc(PS.q)}"></label>
+   <label>Order<select id="porder"><option value="call"${PS.order === "call" ? " selected" : ""}>Teleios's strongest calls</option><option value="gap"${PS.order === "gap" ? " selected" : ""}>Biggest disagreement with bettors</option><option value="proj"${PS.order === "proj" ? " selected" : ""}>Highest projection</option><option value="time"${PS.order === "time" ? " selected" : ""}>Game time</option></select></label>
+   <div class="toggles"><label class="tg"><input type="checkbox" id="plined"${PS.lined ? " checked" : ""}> Only players with a betting line</label></div></div>
+   <div class="small" id="pcount"></div><div class="pcards" id="pcards"></div>`;
+  bindSwitch();
+  $("#playersBody").querySelectorAll("[data-stat]").forEach(b => b.addEventListener("click", () => { PS.stat = b.dataset.stat; $("#playersBody").querySelectorAll("[data-stat]").forEach(x => x.setAttribute("aria-selected", String(x === b))); drawCards(); }));
+  const re = () => { PS.day = $("#pday").value; PS.game = $("#pgame").value; PS.q = $("#pq").value; PS.order = $("#porder").value; PS.lined = $("#plined").checked; };
+  $("#pday").addEventListener("change", () => { re(); PS.game = ""; renderPlayers(); });
+  for (const id of ["#pgame", "#porder", "#plined"]) $(id).addEventListener("change", () => { re(); drawCards(); });
+  $("#pq").addEventListener("input", () => { re(); drawCards(); });
+  drawCards();
+}
+function viewSwitch() { return `<div class="vsw" role="group" aria-label="View"><button type="button" data-view="cards" aria-pressed="${PS.view === "cards"}">Cards</button><button type="button" data-view="table" aria-pressed="${PS.view === "table"}">Full table</button></div>`; }
+function bindSwitch() { $("#playersBody").querySelectorAll("[data-view]").forEach(b => b.addEventListener("click", () => { PS.view = b.dataset.view; renderPlayers(); })); }
+function playerCard(g, p) {
+  const st = PS.stat; const v = p.proj[st]; const m = (p.market || {})[st]; const r = (p.range80 || {})[st]; const avg = p.season_avg ? p.season_avg[st] : null;
+  const l10 = lastN(p.pid, st, PS.day); const line = m ? m.line : null; const cmp = line != null ? line : v;
+  const hits = l10.filter(x => x.v > cmp).length;
+  const l5 = l10.slice(-5); const avg5 = l5.length ? l5.reduce((a, x) => a + x.v, 0) / l5.length : null;
+  let call = "none", callTxt = `PROJ ${v.toFixed(1)}`, tch = null, mch = null;
+  if (m) { const over = m.teleios_p_over >= 0.5; tch = over ? m.teleios_p_over : 1 - m.teleios_p_over; mch = over ? m.market_p_over : 1 - m.market_p_over;
+    if (tch < 0.53) { call = "flip"; callTxt = `COIN FLIP ${line}`; } else { call = over ? "ov" : "un"; callTxt = `${over ? "OVER" : "UNDER"} ${line}`; } }
+  const diff = line != null ? v - line : null;
+  const a = p.actual ? p.actual[st] : null;
+  let res = "";
+  if (a != null) { let right = null; if (call === "ov") right = a > line; else if (call === "un") right = a < line; res = `<div class="resb ${right == null ? "" : right ? "ok" : "no"}">${right == null ? "Final" : right ? "✓ Right" : "✗ Wrong"}: he had <b>${a}</b></div>`; }
+  else if (p.result) res = `<div class="resb">${esc(p.result)}</div>`;
+  const meter = tch == null ? "" : `<div class="meter">${Array.from({length: 10}, (_, i) => `<i class="${i < Math.round(tch * 10) ? "on " + call : ""}"></i>`).join("")}</div>`;
+  return `<article class="pc ${call}">
+   <div class="pc-main"><div class="pc-head"><span class="tb" style="background:${teamColor(p.team)}">${esc(p.team)}</span><button type="button" class="pn" data-q="${esc(`Why does Teleios expect ${p.player} to get ${v.toFixed(1)} ${STATN[st]} tonight${line != null ? ` against a line of ${line}` : ""}?`)}">${esc(p.player)}</button>${p.questionable ? '<span class="tag">Not sure to play</span>' : ""}</div>
+    <div class="small">${esc(STATN[st])} · ${p.team === g.home ? "vs" : "@"} ${esc(p.opp)} · ${esc(tipET(g.tip_utc))} CT · about ${Math.round(p.minutes)} min</div>
+    <div class="pc-call"><span class="callbox ${call}">${callTxt}</span>
+     <div class="nums"><div><span>Teleios</span><b>${v.toFixed(1)}</b></div>${line != null ? `<div><span>Line</span><b>${line}</b></div><div><span>Difference</span><b class="${diff > 0 ? "pos" : "neg"}">${diff > 0 ? "+" : ""}${diff.toFixed(1)}</b></div>` : `<div><span>Line</span><b class="muted">none</b></div>`}<div><span>Usually</span><b>${r ? `${Math.round(r[0])}–${Math.round(r[1])}` : "–"}</b></div></div></div>
+    <div class="l10w"><span class="small">Last ${l10.length} games${line != null ? ` · ${hits}/${l10.length} went over ${line}` : ` · ${hits}/${l10.length} beat ${v.toFixed(1)}`}</span><div class="l10s">${l10.length ? l10.map(x => `<span class="l10 ${x.v > cmp ? "o" : "u"}" title="${esc(x.d)} vs ${esc(x.opp || "")}">${x.v}</span>`).join("") : '<span class="small">No games yet this season</span>'}</div></div>
+    ${res}</div>
+   <div class="pc-side">${tch != null ? `<div class="big ${call}">${Math.round(tch * 100)}<small> in 100</small></div>${meter}<div class="small">Teleios's chance of the ${call === "un" ? "under" : "over"}</div><div class="small mk">Bettors: ${Math.round(mch * 100)} in 100</div>` : `<div class="big">${v.toFixed(1)}</div><div class="small">no betting line yet</div>`}
+    <div class="facts"><div><span>Season avg</span><b>${avg != null ? avg.toFixed(1) : "–"}</b></div><div><span>Last 5 avg</span><b>${avg5 != null ? avg5.toFixed(1) : "–"}</b></div></div>
+    <button type="button" class="why" data-q="${esc(`Why does Teleios expect ${p.player} to get ${v.toFixed(1)} ${STATN[st]} tonight${line != null ? ` against a line of ${line}` : ""}?`)}">Why?</button></div></article>`;
+}
+function drawCards() {
+  const P = D.player_projections || {}; const st = PS.stat;
+  const games = (P[PS.day] || []).filter(g => !PS.game || String(g.game_id) === PS.game);
+  const q = PS.q.trim().toLowerCase(); const tq = q ? teamCode(q) : null;
+  let items = games.flatMap(g => g.players.map(p => ({g, p}))).filter(({p}) => (!q || (p.player || "").toLowerCase().includes(q) || (tq && (p.team === tq || p.opp === tq))) && (!PS.lined || (p.market || {})[st]) && p.minutes >= 8);
+  const mk = x => (x.p.market || {})[st];
+  const callStr = x => { const m = mk(x); return m ? Math.abs(m.teleios_p_over - 0.5) : -1; };
+  const gapStr = x => { const m = mk(x); return m ? Math.abs(m.teleios_p_over - m.market_p_over) : -1; };
+  const ord = {call: (a, b) => callStr(b) - callStr(a) || b.p.proj[st] - a.p.proj[st], gap: (a, b) => gapStr(b) - gapStr(a), proj: (a, b) => b.p.proj[st] - a.p.proj[st], time: (a, b) => String(a.g.tip_utc).localeCompare(String(b.g.tip_utc)) || b.p.proj[st] - a.p.proj[st]}[PS.order];
+  items.sort(ord);
+  const shown = items.slice(0, 80);
+  $("#pcount").textContent = `${items.length} players${items.length > 80 ? " · showing the first 80 (search or pick a game to narrow)" : ""}`;
+  $("#pcards").innerHTML = shown.length ? shown.map(x => playerCard(x.g, x.p)).join("") : '<p class="small">No players match.</p>';
+}
+
 /* ---------- players: every projection ---------- */
 const PCOLS_MAIN = [["minutes", "Min"], ["pts", "Pts"], ["reb", "Reb"], ["ast", "Ast"], ["fg3m", "3PM"], ["pra", "PRA"]];
 const PCOLS_MORE = [["stl", "Stl"], ["blk", "Blk"], ["tov", "TO"]];
-let PS = {sort: "pra", q: "", game: "", day: null, group: true, more: false, detail: false};
+
 const pcols = () => PS.more ? [...PCOLS_MAIN, ...PCOLS_MORE] : PCOLS_MAIN;
-function renderPlayers() {
+function renderPlayersTable() {
   const P = D.player_projections || {}; const today = etDate(); const days = Object.keys(P).sort();
   if (!PS.day) PS.day = days.filter(d => d >= today)[0] || days[days.length - 1];
   const games = (P[PS.day] || []).slice().sort((a, b) => String(a.tip_utc).localeCompare(String(b.tip_utc)));
