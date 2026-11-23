@@ -114,9 +114,15 @@ def grade(games: pl.DataFrame) -> int:
             if (g["home_score"] or 0) + (g["away_score"] or 0) == 0:
                 continue
             m = g["home_score"] - g["away_score"]
+            sgn = 1 if r["pick"] == r["home"] else -1
             r["result"] = {"home_score": g["home_score"], "away_score": g["away_score"], "margin": m,
                            "winner": g["home"] if m > 0 else g["away"],
                            "hit": (r["pick"] == (g["home"] if m > 0 else g["away"])),
+                           # margin tracking: what Teleios projected vs what happened, from the pick's side
+                           "projected_pick_margin": round(sgn * r["margin"], 1),
+                           "actual_pick_margin": sgn * m,
+                           "margin_error": round(m - r["margin"], 1),   # + = home did better than projected
+                           "margin_miss": round(abs(m - r["margin"]), 1),
                            "graded_at": data.now_utc()}
             r["locked"] = True
             changed = True

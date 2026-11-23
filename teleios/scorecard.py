@@ -44,6 +44,20 @@ def _metrics(rows: list[dict], key: str = "p_home") -> dict:
     }
 
 
+def _margin(rows: list[dict]) -> dict:
+    """How close the projected margin was: average miss, share within 5 and
+    10 points, and bias (+ = home teams did better than projected)."""
+    rows = [r for r in rows if r.get("pred_margin") is not None]
+    if not rows:
+        return {"games": 0}
+    err = np.array([r["margin"] - r["pred_margin"] for r in rows], float)
+    return {"games": len(rows), "avg_miss": round(float(np.abs(err).mean()), 2),
+            "median_miss": round(float(np.median(np.abs(err))), 2),
+            "within_5": round(float((np.abs(err) <= 5).mean()), 3),
+            "within_10": round(float((np.abs(err) <= 10).mean()), 3),
+            "bias_home": round(float(err.mean()), 2)}
+
+
 def _calibration(rows: list[dict], key: str = "p_home") -> list[dict]:
     out = []
     bins = [(0.5, 0.6), (0.6, 0.7), (0.7, 0.8), (0.8, 0.9), (0.9, 1.01)]
@@ -118,12 +132,14 @@ def build() -> dict:
             "metrics": _metrics(live),
             "calibration": _calibration(live),
             "vs_kalshi": _vs_market(live, "market_p_home", "kalshi"),
+            "margin": _margin(live),
             "last_30_days": _metrics([r for r in live if r["date"] >= _days_ago(30)]),
         },
         "backfill_2026_27": {
             "note": ("Made after the fact, walk-forward (only earlier games used), knowing who played. "
                      "Benchmarks = FanDuel closing chance and Prop Edge's published chance (which is partly blended with the market), as Prop Edge saved them."),
             "metrics": _metrics(back),
+            "margin": _margin(back),
             "calibration": _calibration(back),
             "vs_fanduel_close": _vs_market(back, "market_p_home", "fanduel_close"),
             "vs_prop_edge": _vs_market(back, "propedge_p_home", "prop_edge"),
@@ -144,6 +160,17 @@ def build() -> dict:
                                    if k in ("tuned_on", "tested_on", "chosen", "test", "calibration", "baselines")}
     except Exception:  # noqa: BLE001
         pass
+    out["game_log"] = {"cols": ["date", "away", "home", "pick", "chance", "proj_pick_margin", "actual_pick_margin",
+                                "margin_miss", "hit", "market_pick_chance"],
+                       "rows": [[r["date"], r["away"], r["home"], (r["home"] if r["p_home"] >= 0.5 else r["away"]),
+                                 round(max(r["p_home"], 1 - r["p_home"]), 3),
+                                 round(r["pred_margin"] if r["p_home"] >= 0.5 else -r["pred_margin"], 1),
+                                 r["margin"] if r["p_home"] >= 0.5 else -r["margin"],
+                                 round(abs(r["margin"] - r["pred_margin"]), 1),
+                                 (r["margin"] > 0) == (r["p_home"] >= 0.5),
+                                 (None if r.get("market_p_home") is None else
+                                  round(r["market_p_home"] if r["p_home"] >= 0.5 else 1 - r["market_p_home"], 3))]
+                                for r in sorted(live, key=lambda x: (x["date"], x["game_id"]), reverse=True)]}
     OUT.write_text(json.dumps(out, indent=1))
     return out
 

@@ -129,7 +129,7 @@ button.grow:hover{background:var(--panel)}
 .pctl input{width:min(260px,70vw)}
 .pctl input:focus,.pctl select:focus{outline:2px solid var(--acc);outline-offset:1px}
 .ptab{overflow-x:auto;border-top:2px solid var(--ink)}
-.ptab table{border-collapse:collapse;width:100%;min-width:980px;font-size:14px;font-variant-numeric:tabular-nums}
+.ptab table{border-collapse:collapse;width:100%;min-width:760px;font-size:14px;font-variant-numeric:tabular-nums}
 .ptab th{font-weight:500;color:var(--mute);text-align:right;padding:8px 8px;border-bottom:1px solid var(--line);white-space:nowrap;position:sticky;top:0;background:var(--bg)}
 .ptab th:first-child,.ptab td:first-child,.ptab th:nth-child(2),.ptab td:nth-child(2){text-align:left}
 .ptab th button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:6px 0;min-height:32px}
@@ -140,6 +140,18 @@ button.grow:hover{background:var(--panel)}
 .ptab td .a.o{color:var(--good)}.ptab td .a.u{color:var(--bad)}
 .ptab tr.gh td{background:var(--panel);font-weight:600;text-align:left;padding:10px 8px}
 .ptab .mk{display:block;font-size:12px;color:var(--blue2)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-size:13px;color:var(--mute);border:1px solid var(--line);border-radius:8px;padding:10px 14px}
+.legend .lg-t{font-weight:600;color:var(--ink)}
+.chip{display:inline-block;font-size:12px;font-weight:600;line-height:1.2;padding:2px 7px;border-radius:5px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.ptab td .chip{display:table;margin:3px 0 0 auto}
+.chip.up,.chip.ov,.chip.ok{background:light-dark(#e3f4e8,#14301d);color:light-dark(#11602f,#7fdca0)}
+.chip.dn,.chip.un,.chip.no{background:light-dark(#fde6e8,#3a1518);color:light-dark(#a3122a,#ff8a96)}
+.chip.ok,.chip.no{font-size:13px}
+.chip.eq{background:var(--track);color:var(--mute)}
+.ptab td .pv{font-size:16px}
+.toggles{display:flex;flex-wrap:wrap;gap:6px 14px;align-self:center}
+.tg{flex-direction:row!important;align-items:center;gap:6px!important;font-size:14px!important;color:var(--ink)!important;min-height:44px}
+.tg input{width:18px;height:18px;min-height:0;accent-color:var(--acc)}
 .pname{font-weight:600}.pname button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left}.pname button:hover{color:var(--acc)}
 .cols{display:flex;flex-wrap:wrap;gap:28px}.cols>*{flex:1 1 340px;min-width:0}
 .rail{flex:1 1 220px;max-width:270px;display:flex;flex-direction:column;gap:6px}
@@ -413,7 +425,7 @@ function boardHTML() {
     const r = p.result; const when = r ? `<span class="${r.hit ? "res-hit" : "res-miss"}">${r.hit ? "Hit" : "Miss"}</span> · ${esc(r.winner)} won` : esc(tipET(p.tip_utc)) + " CT";
     h += `<button class="grow" type="button" data-game="${p.game_id}"><div class="gm"><b>${esc(p.away)} @ ${esc(p.home)}</b><span>${when}</span></div><div class="pk">${esc(p.pick)}</div>
       <div class="bars"><div class="bar"><div><div class="tel" style="width:${W(p.chance * 100)}"></div></div><em><b>${pct(p.chance)}</b></em></div><div class="bar"><div><div class="mkt" style="width:${mk == null ? "0%" : W(mk * 100)}"></div></div><em style="color:var(--blue2)">${pct(mk)}</em></div></div>
-      <div class="gap ${gap != null && Math.abs(gap) >= 6 ? "wide" : ""}"><span>${gap == null ? "–" : (gap > 0 ? "+" : "") + gap}</span></div><div class="det">by ${Math.abs(p.margin).toFixed(1)}</div><div class="det">${esc(outs)}</div></button>`;
+      <div class="gap ${gap != null && Math.abs(gap) >= 6 ? "wide" : ""}"><span>${gap == null ? "–" : (gap > 0 ? "+" : "") + gap}</span></div><div class="det">by ${Math.abs(p.margin).toFixed(1)}${r && r.actual_pick_margin != null ? `<span class="small" style="display:block">actual ${r.actual_pick_margin >= 0 ? "+" : ""}${r.actual_pick_margin}</span>` : ""}</div><div class="det">${esc(outs)}</div></button>`;
   }
   h += `</div><div class="small">Highlighted gap = Teleios and the market differ by 6+ points. Tap a game for its full breakdown.</div></section>`;
   // disagreements + tops
@@ -429,49 +441,68 @@ function boardHTML() {
   h += `</div></section></div>`;
   // last night: live graded if any, else backfill
   const past = Object.keys(P).filter(d => d < day).sort(); let lastDay = null, rows = [], live2 = false;
-  for (let i = past.length - 1; i >= 0; i--) { const g = P[past[i]].filter(p => p.result); if (g.length) { lastDay = past[i]; live2 = true; rows = g.map(p => ({m: `${p.away} @ ${p.home}`, pick: p.pick, ch: p.chance, sc: `${p.away} ${p.result.away_score} – ${p.home} ${p.result.home_score}`, hit: p.result.hit})); break; } }
+  for (let i = past.length - 1; i >= 0; i--) { const g = P[past[i]].filter(p => p.result); if (g.length) { lastDay = past[i]; live2 = true; rows = g.map(p => ({m: `${p.away} @ ${p.home}`, pick: p.pick, ch: p.chance, sc: `${p.away} ${p.result.away_score} – ${p.home} ${p.result.home_score}`, hit: p.result.hit, mg: p.result.projected_pick_margin != null ? `Projected ${p.pick} ${p.result.projected_pick_margin >= 0 ? "+" : ""}${p.result.projected_pick_margin} · actual ${p.result.actual_pick_margin >= 0 ? "+" : ""}${p.result.actual_pick_margin} · off by ${p.result.margin_miss}` : ""})); break; } }
   if (!rows.length) { const R = D.results.rows; const ld = R.filter(r => r[0] < day && r[5] != null).map(r => r[0]).sort().pop(); if (ld) { lastDay = ld; rows = R.filter(r => r[0] === ld && r[5] != null).map(r => { const pick = r[5] >= .5 ? r[1] : r[2]; return {m: `${r[2]} @ ${r[1]}`, pick, ch: Math.max(r[5], 1 - r[5]), sc: `${r[2]} ${r[4]} – ${r[1]} ${r[3]}`, hit: pick === (r[3] > r[4] ? r[1] : r[2])}; }); } }
   if (rows.length) { const nh = rows.filter(r => r.hit).length;
     h += `<section class="sec"><div class="sechead"><h3>Last night · ${nh}–${rows.length - nh}</h3><span class="small">${esc(niceDate(lastDay))} · ${live2 ? "live predictions, frozen before tip-off" : "from the backfill (made after the fact); live grades replace this once games are graded"}</span></div><div class="cards">`;
-    h += rows.map(r => `<div class="rc"><div class="t"><span>${esc(r.m)}</span><span class="hm ${r.hit ? "hit" : "miss"}">${r.hit ? "Hit" : "Miss"}</span></div><div class="det">Picked ${esc(r.pick)} at ${pct(r.ch)}</div><div class="small">${esc(r.sc)}</div></div>`).join("") + `</div></section>`; }
+    h += rows.map(r => `<div class="rc"><div class="t"><span>${esc(r.m)}</span><span class="hm ${r.hit ? "hit" : "miss"}">${r.hit ? "Hit" : "Miss"}</span></div><div class="det">Picked ${esc(r.pick)} at ${pct(r.ch)}</div><div class="small">${esc(r.sc)}</div>${r.mg ? `<div class="small">${esc(r.mg)}</div>` : ""}</div>`).join("") + `</div></section>`; }
   h += `<div class="foot">*This season = backfill of ${bf.games || "–"} games with a market price, made after the fact, knowing who played. Teleios is an analyst, not a tipster: these are predictions to study, not bets.</div>`;
   return h;
 }
 
 /* ---------- players: every projection ---------- */
-const PCOLS = [["minutes", "Min"], ["pts", "Pts"], ["reb", "Reb"], ["ast", "Ast"], ["fg3m", "3PM"], ["stl", "Stl"], ["blk", "Blk"], ["tov", "TO"], ["pra", "PRA"]];
-let PS = {sort: "pra", q: "", game: "", day: null, group: true};
+const PCOLS_MAIN = [["minutes", "Min"], ["pts", "Pts"], ["reb", "Reb"], ["ast", "Ast"], ["fg3m", "3PM"], ["pra", "PRA"]];
+const PCOLS_MORE = [["stl", "Stl"], ["blk", "Blk"], ["tov", "TO"]];
+let PS = {sort: "pra", q: "", game: "", day: null, group: true, more: false, detail: false};
+const pcols = () => PS.more ? [...PCOLS_MAIN, ...PCOLS_MORE] : PCOLS_MAIN;
 function renderPlayers() {
   const P = D.player_projections || {}; const today = etDate(); const days = Object.keys(P).sort();
   if (!PS.day) PS.day = days.filter(d => d >= today)[0] || days[days.length - 1];
   const games = (P[PS.day] || []).slice().sort((a, b) => String(a.tip_utc).localeCompare(String(b.tip_utc)));
-  $("#playersBody").innerHTML = `<div class="btop"><div><h2>Every projection</h2><div class="sub">Each line means "if he plays". Small grey numbers = 80% range. Blue = Kalshi line and its over chance. After the game: actual, green if over the projection.</div></div></div>
+  $("#playersBody").innerHTML = `<div class="btop"><div><h2>Every projection</h2><div class="sub">Each line means "if he plays". Tap a name to ask Teleios about him.</div></div></div>
+   <div class="legend"><span class="lg-t">How to read it</span>
+    <span><span class="chip up">▲ 2.1</span> above his season average</span><span><span class="chip dn">▼ 1.8</span> below it</span>
+    <span><span class="chip ov">Over 22.5 · 61%</span> Teleios leans over Kalshi's line</span><span><span class="chip un">Under 8.5 · 58%</span> leans under</span>
+    <span><span class="chip ok">✓ 27</span> after the game: Teleios's call was right</span><span><span class="chip no">✗ 19</span> it was wrong</span></div>
    <div class="pctl"><label>Date<select id="pday">${days.map(d => `<option value="${d}"${d === PS.day ? " selected" : ""}>${esc(niceDate(d))}</option>`).join("")}</select></label>
    <label>Game<select id="pgame"><option value="">All games</option>${games.map(g => `<option value="${g.game_id}"${String(g.game_id) === PS.game ? " selected" : ""}>${esc(g.away)} @ ${esc(g.home)}</option>`).join("")}</select></label>
    <label>Player or team<input id="pq" type="search" placeholder="e.g. Brunson or BOS" value="${esc(PS.q)}"></label>
-   <label>Sort by<select id="psort">${PCOLS.map(([k, n]) => `<option value="${k}"${k === PS.sort ? " selected" : ""}>${n}</option>`).join("")}</select></label>
-   <label>View<select id="pgroup"><option value="1"${PS.group ? " selected" : ""}>By game</option><option value="0"${!PS.group ? " selected" : ""}>One list</option></select></label></div>
+   <label>Sort by<select id="psort">${[...PCOLS_MAIN, ...PCOLS_MORE].map(([k, n]) => `<option value="${k}"${k === PS.sort ? " selected" : ""}>${n}</option>`).join("")}</select></label>
+   <label>View<select id="pgroup"><option value="1"${PS.group ? " selected" : ""}>By game</option><option value="0"${!PS.group ? " selected" : ""}>One list</option></select></label>
+   <div class="toggles"><label class="tg"><input type="checkbox" id="pmore"${PS.more ? " checked" : ""}> Steals, blocks, turnovers</label><label class="tg"><input type="checkbox" id="pdetail"${PS.detail ? " checked" : ""}> Ranges and market %</label></div></div>
    <div class="small" id="pcount"></div><div class="ptab" id="ptab"></div>`;
-  const re = () => { PS.day = $("#pday").value; PS.game = $("#pgame").value; PS.q = $("#pq").value; PS.sort = $("#psort").value; PS.group = $("#pgroup").value === "1"; };
+  const re = () => { PS.day = $("#pday").value; PS.game = $("#pgame").value; PS.q = $("#pq").value; PS.sort = $("#psort").value; PS.group = $("#pgroup").value === "1"; PS.more = $("#pmore").checked; PS.detail = $("#pdetail").checked; };
   $("#pday").addEventListener("change", () => { re(); PS.game = ""; renderPlayers(); });
-  for (const id of ["#pgame", "#psort", "#pgroup"]) $(id).addEventListener("change", () => { re(); drawPlayers(); });
+  for (const id of ["#pgame", "#psort", "#pgroup", "#pmore", "#pdetail"]) $(id).addEventListener("change", () => { re(); drawPlayers(); });
   $("#pq").addEventListener("input", () => { re(); drawPlayers(); });
   drawPlayers();
 }
 function cell(p, k) {
-  if (k === "minutes") return `<td>${p.minutes.toFixed(1)}${p.actual_minutes != null ? `<span class="r">played ${p.actual_minutes}</span>` : ""}</td>`;
+  if (k === "minutes") return `<td><b>${p.minutes.toFixed(0)}</b>${p.actual_minutes != null ? `<span class="r">played ${Math.round(p.actual_minutes)}</span>` : ""}</td>`;
   const v = p.proj[k]; const r = (p.range80 || {})[k]; const m = (p.market || {})[k]; const a = p.actual ? p.actual[k] : null;
-  return `<td><b>${v.toFixed(1)}</b>${r ? `<span class="r">${Math.round(r[0])}–${Math.round(r[1])}</span>` : ""}${m ? `<span class="mk">${m.line} · ${pct(m.market_p_over)} / T ${pct(m.teleios_p_over)}</span>` : ""}${a != null ? `<span class="a ${a > v ? "o" : "u"}">${a}</span>` : ""}</td>`;
+  const avg = p.season_avg ? p.season_avg[k] : null; let vs = "";
+  if (avg != null) { const d = v - avg; const big = Math.abs(d) >= Math.max(0.3, 0.06 * Math.max(avg, 1)); vs = big ? `<span class="chip ${d > 0 ? "up" : "dn"}" title="Season average ${avg.toFixed(1)}">${d > 0 ? "▲" : "▼"} ${Math.abs(d).toFixed(1)}</span>` : `<span class="chip eq" title="Season average ${avg.toFixed(1)}">= avg</span>`; }
+  let line = "";
+  if (m) { const over = m.teleios_p_over >= 0.5; const ch = over ? m.teleios_p_over : 1 - m.teleios_p_over;
+    line = `<span class="chip ${over ? "ov" : "un"}" title="Kalshi line ${m.line}; market ${pct(over ? m.market_p_over : 1 - m.market_p_over)}">${over ? "Over" : "Under"} ${m.line} · ${pct(ch)}</span>`;
+    if (PS.detail) line += `<span class="r">market ${pct(over ? m.market_p_over : 1 - m.market_p_over)}</span>`; }
+  let res = "";
+  if (a != null) { let right;
+    if (m) { const over = m.teleios_p_over >= 0.5; right = over ? a > m.line : a < m.line; }
+    else right = r ? (a >= r[0] && a <= r[1]) : null;
+    res = right == null ? `<span class="chip eq">${a}</span>` : `<span class="chip ${right ? "ok" : "no"}" title="${m ? "Teleios's over/under call vs Kalshi's line" : "Inside the 80% range?"}">${right ? "✓" : "✗"} ${a}</span>`; }
+  return `<td><b class="pv">${v.toFixed(1)}</b>${res}${vs}${line}${PS.detail && r ? `<span class="r">80%: ${Math.round(r[0])}–${Math.round(r[1])}</span>` : ""}</td>`;
 }
 function drawPlayers() {
   const P = D.player_projections || {}; const games = (P[PS.day] || []).filter(g => !PS.game || String(g.game_id) === PS.game).sort((a, b) => String(a.tip_utc).localeCompare(String(b.tip_utc)));
   const q = PS.q.trim().toLowerCase(); const tq = q ? teamCode(q) : null;
   const match = p => !q || (p.player || "").toLowerCase().includes(q) || (tq && (p.team === tq || p.opp === tq));
   const key = p => PS.sort === "minutes" ? p.minutes : p.proj[PS.sort];
-  const head = `<thead><tr><th>Player</th><th>Team</th>${PCOLS.map(([k, n]) => `<th><button type="button" data-sort="${k}"${k === PS.sort ? ' aria-sort="descending"' : ""}>${n}</button></th>`).join("")}</tr></thead>`;
-  const row = p => `<tr><td class="pname"><button type="button" data-q="${esc(`What is Teleios projecting for ${p.player} tonight, and why?`)}">${esc(p.player)}</button>${p.questionable ? '<span class="tag">Questionable</span>' : ""}${p.result ? `<span class="r">${esc(p.result)}</span>` : ""}</td><td>${esc(p.team)} <span class="r">vs ${esc(p.opp)}</span></td>${PCOLS.map(([k]) => cell(p, k)).join("")}</tr>`;
+  const C = pcols();
+  const head = `<thead><tr><th>Player</th><th>Team</th>${C.map(([k, n]) => `<th><button type="button" data-sort="${k}"${k === PS.sort ? ' aria-sort="descending"' : ""}>${n}${k === PS.sort ? " ▾" : ""}</button></th>`).join("")}</tr></thead>`;
+  const row = p => `<tr><td class="pname"><button type="button" data-q="${esc(`What is Teleios projecting for ${p.player} tonight, and why?`)}">${esc(p.player)}</button>${p.questionable ? '<span class="tag">Questionable</span>' : ""}${p.result ? `<span class="r">${esc(p.result)}</span>` : ""}</td><td>${esc(p.team)} <span class="r">vs ${esc(p.opp)}</span></td>${C.map(([k]) => cell(p, k)).join("")}</tr>`;
   let body = "", n = 0;
-  if (PS.group) for (const g of games) { const ps = g.players.filter(match).sort((a, b) => key(b) - key(a)); if (!ps.length) continue; n += ps.length; body += `<tr class="gh"><td colspan="${PCOLS.length + 2}">${esc(g.away)} @ ${esc(g.home)} · ${esc(tipET(g.tip_utc))} CT${g.locked ? " · locked" : ""}</td></tr>` + ps.map(row).join(""); }
+  if (PS.group) for (const g of games) { const ps = g.players.filter(match).sort((a, b) => key(b) - key(a)); if (!ps.length) continue; n += ps.length; body += `<tr class="gh"><td colspan="${C.length + 2}">${esc(g.away)} @ ${esc(g.home)} · ${esc(tipET(g.tip_utc))} CT${g.locked ? " · locked" : ""}${g.graded ? " · final" : ""}</td></tr>` + ps.map(row).join(""); }
   else { const ps = games.flatMap(g => g.players).filter(match).sort((a, b) => key(b) - key(a)); n = ps.length; body = ps.map(row).join(""); }
   $("#pcount").textContent = `${n} players`;
   $("#ptab").innerHTML = n ? `<table>${head}<tbody>${body}</tbody></table>` : `<p class="small" style="padding:12px 0">No players match.</p>`;
@@ -510,7 +541,7 @@ function renderGame() {
   const tbl = (team) => `<table class="rt"><tr><th>Player</th><th>Min</th><th>Rating</th><th>Impact</th></tr>${((w.top_players || {})[team] || []).slice(0, 7).map(x => `<tr><td>${esc(x.player)}</td><td>${x.minutes.toFixed(0)}</td><td>${(x.rating >= 0 ? "+" : "") + x.rating.toFixed(2)}</td><td><b>${(x.impact >= 0 ? "+" : "") + x.impact.toFixed(2)}</b></td></tr>`).join("")}</table>`;
   const avail = [...Object.entries(w.out || {}).flatMap(([t, l]) => l.filter(o => o.minutes >= 8).map(o => ({t, n: o.player, s: `Out · usually ${o.minutes.toFixed(0)} min`}))), ...Object.entries(w.questionable || {}).flatMap(([t, l]) => l.map(o => ({t, n: o.player, s: `${o.status} · counted at 65% of minutes`})))];
   $("#gameBody").innerHTML = `<div class="cols" style="align-items:flex-start"><nav class="rail" aria-label="Games"><div class="small">Tonight, by disagreement with the market</div>${games.map(g => { const gg = mktPick(g) == null ? "–" : ((x => (x > 0 ? "+" : "") + x)(Math.round(gapOf(g) * 100))); return `<button type="button" data-game="${g.game_id}" aria-pressed="${String(g.game_id) === String(GS)}"><span>${esc(g.away)} @ ${esc(g.home)}</span><span>${gg}</span></button>`; }).join("")}</nav>
-  <div class="gmain"><div><div class="small">${esc(A)} at ${esc(H)} · ${esc(tipET(p.tip_utc))} CT${p.locked ? " · locked" : ""}</div><h2 style="font-size:clamp(28px,3.6vw,38px);font-weight:600;margin-top:4px">${esc(headline)}</h2>${p.result ? `<p class="det" style="margin:6px 0 0"><span class="${p.result.hit ? "res-hit" : "res-miss"}"><b>${p.result.hit ? "Hit" : "Miss"}</b></span> · final ${esc(A)} ${p.result.away_score}, ${esc(H)} ${p.result.home_score}</p>` : ""}</div>
+  <div class="gmain"><div><div class="small">${esc(A)} at ${esc(H)} · ${esc(tipET(p.tip_utc))} CT${p.locked ? " · locked" : ""}</div><h2 style="font-size:clamp(28px,3.6vw,38px);font-weight:600;margin-top:4px">${esc(headline)}</h2>${p.result ? `<p class="det" style="margin:6px 0 0"><span class="chip ${p.result.hit ? "ok" : "no"}">${p.result.hit ? "✓ Hit" : "✗ Miss"}</span> Final ${esc(A)} ${p.result.away_score}, ${esc(H)} ${p.result.home_score}${p.result.projected_pick_margin != null ? ` · projected ${esc(K)} ${p.result.projected_pick_margin >= 0 ? "+" : ""}${p.result.projected_pick_margin}, actual ${p.result.actual_pick_margin >= 0 ? "+" : ""}${p.result.actual_pick_margin} (off by ${p.result.margin_miss})` : ""}</p>` : ""}</div>
   <div class="kv"><div><span>Teleios: ${esc(K)} wins</span><b style="color:var(--acc)">${pct(p.chance)}</b></div><div><span>Market: ${esc(K)} wins</span><b style="color:var(--blue2)">${pct(mk)}</b><span>${mkOpen != null ? "opened " + pct(mkOpen) : ""}</span></div><div><span>Projected margin</span><b>${esc(K)} +${Math.abs(p.margin).toFixed(1)}</b></div><div><span>Gap vs market</span><b>${gap == null ? "–" : (gap > 0 ? "+" : "") + gap}</b><span>points of win chance</span></div></div>
   <div class="cols"><section class="sec"><h3 style="font-size:22px">Where the ${Math.abs(p.margin).toFixed(1)}-point margin comes from</h3><div class="small">Points of margin for ${esc(K)}, from the model's own parts</div>
    ${parts.map(([l, v]) => `<div class="wf"><div class="det">${esc(l)}</div><div><i style="width:${W(Math.abs(v) / mx * 100)};background:${v > 0 ? "var(--acc)" : "var(--mute)"}"></i></div><div style="text-align:right;font-weight:600">${(v >= 0 ? "+" : "") + v.toFixed(2)}</div></div>`).join("")}
@@ -584,6 +615,12 @@ function healthHTML() {
   <section class="sec"><h3 style="font-size:22px">Player projections: average miss</h3><div class="small">2025-26, players projected 20+ minutes. Shorter is better. Right column = share of results inside the 80% range.</div>${statRows}
    <div class="key"><span><i class="tel"></i>Teleios</span><span><i style="background:#6b7a8c"></i>Prop Edge</span><span><i style="background:light-dark(#c4c8cd,#555)"></i>Season average</span></div>
    <h3 style="font-size:18px;margin-top:8px">Live so far</h3>${pl.player_games ? `<table class="rt"><tr><th>Stat</th><th>Teleios miss</th><th>Season avg miss</th><th>In 80% range</th></tr>${stats.map(([k, n]) => plStats[k] ? `<tr><td>${n}</td><td><b>${plStats[k].teleios_on_those_players ?? plStats[k].teleios_avg_miss}</b></td><td>${plStats[k].season_avg_miss_same_players ?? "–"}</td><td>${plStats[k].in_80pct_range != null ? pct(plStats[k].in_80pct_range) : "–"}</td></tr>` : "").join("")}</table><div class="small">${pl.player_games} player-games graded</div>` : '<p class="small">No live player lines graded yet.</p>'}</section></div>
+  <div class="cols"><section class="sec"><h3 style="font-size:22px">Projected margin: how close?</h3><div class="small">Points between Teleios's projected margin and the final margin</div>
+   <table class="rt"><tr><th>Set</th><th>Games</th><th>Avg miss</th><th>Within 5</th><th>Within 10</th><th>Home bias</th></tr>
+   ${[["Live", (s.live || {}).margin], ["This season*", (s.backfill_2026_27 || {}).margin], ["2025-26 test", t.margin_mae != null ? {games: t.games, avg_miss: t.margin_mae} : null]].map(([n, m]) => `<tr><td>${n}</td><td>${m && m.games ? m.games : 0}</td><td><b>${m && m.avg_miss != null ? m.avg_miss.toFixed(1) : "–"}</b></td><td>${m && m.within_5 != null ? pct(m.within_5) : "–"}</td><td>${m && m.within_10 != null ? pct(m.within_10) : "–"}</td><td>${m && m.bias_home != null ? (Math.abs(m.bias_home) < 0.05 ? "0.0" : (m.bias_home > 0 ? "+" : "") + m.bias_home.toFixed(1)) : "–"}</td></tr>`).join("")}</table>
+   <div class="small">Final margins swing a lot: even betting-market spreads typically miss by around 9–10 points. Home bias near 0 means no lean toward either side.</div></section>
+  <section class="sec"><h3 style="font-size:22px">Every live prediction</h3><div class="small">Frozen before tip-off, graded after the game. Newest first.</div>${(() => { const L = (s.game_log || {}).rows || []; if (!L.length) return '<p class="small">The first live games are graded tomorrow morning. Every one will be listed here.</p>';
+    return `<div style="overflow-x:auto;max-height:520px;overflow-y:auto"><table class="rt" style="min-width:560px"><tr><th>Date</th><th style="text-align:left">Game</th><th>Pick</th><th>Chance</th><th>Proj</th><th>Final</th><th>Miss</th><th></th></tr>${L.map(r => `<tr><td>${esc(r[0].slice(5))}</td><td style="text-align:left">${esc(r[1])} @ ${esc(r[2])}</td><td><b>${esc(r[3])}</b></td><td>${pct(r[4])}</td><td>${r[5] >= 0 ? "+" : ""}${r[5]}</td><td>${r[6] >= 0 ? "+" : ""}${r[6]}</td><td>${r[7]}</td><td><span class="chip ${r[8] ? "ok" : "no"}">${r[8] ? "✓" : "✗"}</span></td></tr>`).join("")}</table></div>`; })()}</section></div>
   <div class="cols"><section class="sec"><h3 style="font-size:22px">Patterns notebook</h3><div class="small">A pattern is confirmed only when it holds in both halves of the graded games.</div><table class="rt"><tr><th>Pattern</th><th>Games</th><th>Avg miss</th><th>State</th></tr>${nb.map(e => `<tr><td>${esc(e.description)}</td><td>${e.games}</td><td>${e.avg_miss_points != null ? (e.avg_miss_points >= 0 ? "+" : "") + e.avg_miss_points.toFixed(1) + " pts" : "–"}</td><td class="state-${esc(e.state.split(" ")[0])}">${esc(e.state)}</td></tr>`).join("")}</table></section>
   <section class="sec"><h3 style="font-size:22px">Experiments and retunes</h3>${ex.map(x => `<div style="border-bottom:1px solid var(--line);padding:6px 0"><b>${esc(x.id.replace(/_/g, " "))}</b> <span class="${/^Rejected/.test(x.decision) ? "res-miss" : "res-hit"}" style="font-weight:600">${/^Rejected/.test(x.decision) ? "rejected" : "adopted"}</span><div class="small">${esc(x.date)} · ${esc(x.decision)}</div></div>`).join("")}
    ${rl.length ? rl.map(r => `<div style="border-bottom:1px solid var(--line);padding:6px 0"><b>Monthly retune</b> <span class="small">${esc(r.run_at)}</span><div class="small">games: ${esc((r.games || {}).state || r.state || "–")} · players: ${esc((r.players || {}).state || "–")}</div></div>`).join("") : `<div style="border-bottom:1px solid var(--line);padding:6px 0"><b>Monthly retune</b> <span class="small">first run Dec 1</span><div class="small">Adopts new settings only if they beat the current ones on recent games; waits for 300 held-out games.</div></div>`}
