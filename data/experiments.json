@@ -1,0 +1,86 @@
+{
+ "experiments": [
+  {
+   "id": "shot_luck_adjustment",
+   "date": "2026-11-23",
+   "question": "Do predictions improve if part of each past game's shot-making luck (FG points above what a league-average shooter scores on the same shots) is removed from its margin before fitting?",
+   "method": "Walk-forward backtest, same settings as the live model; luck_weight 0 / 0.25 / 0.5 / 0.75. Decision made on the tuning season only.",
+   "results": [
+    {
+     "season": "2024-25 (tuning)",
+     "luck_weight": 0.0,
+     "games": 1321,
+     "accuracy": 0.6677,
+     "brier": 0.2066,
+     "log_loss": 0.5976,
+     "margin_mae": 10.8863
+    },
+    {
+     "season": "2024-25 (tuning)",
+     "luck_weight": 0.25,
+     "games": 1321,
+     "accuracy": 0.6639,
+     "brier": 0.2067,
+     "log_loss": 0.5979,
+     "margin_mae": 10.9127
+    },
+    {
+     "season": "2024-25 (tuning)",
+     "luck_weight": 0.5,
+     "games": 1321,
+     "accuracy": 0.6601,
+     "brier": 0.2089,
+     "log_loss": 0.6036,
+     "margin_mae": 11.0906
+    },
+    {
+     "season": "2024-25 (tuning)",
+     "luck_weight": 0.75,
+     "games": 1321,
+     "accuracy": 0.6593,
+     "brier": 0.2156,
+     "log_loss": 0.62,
+     "margin_mae": 11.4184
+    },
+    {
+     "season": "2025-26 (test)",
+     "luck_weight": 0.0,
+     "games": 1322,
+     "accuracy": 0.6997,
+     "brier": 0.2018,
+     "log_loss": 0.589,
+     "margin_mae": 11.2347
+    },
+    {
+     "season": "2025-26 (test)",
+     "luck_weight": 0.25,
+     "games": 1322,
+     "accuracy": 0.6876,
+     "brier": 0.2012,
+     "log_loss": 0.5875,
+     "margin_mae": 11.253
+    },
+    {
+     "season": "2025-26 (test)",
+     "luck_weight": 0.5,
+     "games": 1322,
+     "accuracy": 0.6868,
+     "brier": 0.2028,
+     "log_loss": 0.5911,
+     "margin_mae": 11.3952
+    },
+    {
+     "season": "2025-26 (test)",
+     "luck_weight": 0.75,
+     "games": 1322,
+     "accuracy": 0.6687,
+     "brier": 0.2086,
+     "log_loss": 0.6042,
+     "margin_mae": 11.6817
+    }
+   ],
+   "decision": "Rejected. On the tuning season 0 was best (log loss 0.5976 vs 0.5979 at 0.25, worse beyond). Shot data is kept as information for the analyst, not in the model.",
+   "note": "Shot luck here includes real shooting skill as well as streaks, which is a likely reason removing it doesn't help. A version that separates the two (player's own long-run shooting vs this game) is a candidate for a later test."
+  }
+ ]
+}

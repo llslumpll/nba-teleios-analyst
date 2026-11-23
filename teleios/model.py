@@ -44,6 +44,7 @@ class Params:
     prior_minutes: float = 400.0  # box rates are shrunk toward bench average by this many minutes
     min_half_life: float = 5.0    # games: projected minutes recency
     sigma: float = 12.5           # spread of real margins around the prediction
+    luck_weight: float = 0.0      # share of shot-making luck taken out of past margins (0 = off)
     box_beta: dict = field(default_factory=dict)  # per-48 box stat -> rating points
 
     def to_dict(self):
@@ -98,8 +99,9 @@ SIT_COLS = ("home_court", "b2b", "rested", "travel", "altitude")
 # ---------------------------------------------------------------------------
 
 class Engine:
-    def __init__(self, games: pl.DataFrame, pg: pl.DataFrame, params: Params):
+    def __init__(self, games: pl.DataFrame, pg: pl.DataFrame, params: Params, luck: dict | None = None):
         self.p = params
+        self.luck = luck or {}
         self.games = games.sort(["tip_utc", "game_id"])
         self.sit = situation(self.games)
         done = self.games.filter(pl.col("completed") & (pl.col("home_score") + pl.col("away_score") > 0))
@@ -129,7 +131,11 @@ class Engine:
             if gid not in by_game:
                 continue
             s = self.sit[gid]
-            y = float(np.clip(g["home_score"] - g["away_score"], -self.p.margin_cap, self.p.margin_cap))
+            raw = g["home_score"] - g["away_score"]
+            lk = self.luck.get(gid, {})
+            if self.p.luck_weight and g["home"] in lk and g["away"] in lk:
+                raw -= self.p.luck_weight * (lk[g["home"]] - lk[g["away"]])
+            y = float(np.clip(raw, -self.p.margin_cap, self.p.margin_cap))
             self.g_rows.append({
                 "gid": gid, "date": g["date"], "y": y,
                 "sit": np.array([s[c] for c in SIT_COLS]),

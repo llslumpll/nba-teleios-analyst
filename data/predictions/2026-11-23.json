@@ -9,7 +9,7 @@
    "market_p_home": 0.425,
    "p_home": 0.3646
   },
-  "frozen_at": "2026-11-23 19:10 UTC",
+  "frozen_at": "2026-11-23 19:37 UTC",
   "game_id": 401910036,
   "home": "CHA",
   "locked": false,
@@ -215,7 +215,7 @@
    "market_p_home": 0.5528,
    "p_home": 0.406
   },
-  "frozen_at": "2026-11-23 19:10 UTC",
+  "frozen_at": "2026-11-23 19:37 UTC",
   "game_id": 401910037,
   "home": "PHI",
   "locked": false,
@@ -418,7 +418,7 @@
    "market_p_home": 0.375,
    "p_home": 0.3559
   },
-  "frozen_at": "2026-11-23 19:10 UTC",
+  "frozen_at": "2026-11-23 19:37 UTC",
   "game_id": 401910038,
   "home": "IND",
   "locked": false,
@@ -647,7 +647,7 @@
    "market_p_home": 0.795,
    "p_home": 0.7576
   },
-  "frozen_at": "2026-11-23 19:10 UTC",
+  "frozen_at": "2026-11-23 19:37 UTC",
   "game_id": 401910039,
   "home": "TOR",
   "locked": false,
@@ -821,7 +821,7 @@
    "market_p_home": 0.825,
    "p_home": 0.8939
   },
-  "frozen_at": "2026-11-23 19:10 UTC",
+  "frozen_at": "2026-11-23 19:37 UTC",
   "game_id": 401910040,
   "home": "MIN",
   "locked": false,
@@ -997,7 +997,7 @@
    "market_p_home": 0.255,
    "p_home": 0.2421
   },
-  "frozen_at": "2026-11-23 19:10 UTC",
+  "frozen_at": "2026-11-23 19:37 UTC",
   "game_id": 401910041,
   "home": "CHI",
   "locked": false,
@@ -1191,7 +1191,7 @@
    "market_p_home": 0.415,
    "p_home": 0.3194
   },
-  "frozen_at": "2026-11-23 19:10 UTC",
+  "frozen_at": "2026-11-23 19:37 UTC",
   "game_id": 401910042,
   "home": "NOP",
   "locked": false,
@@ -1373,7 +1373,7 @@
    "market_p_home": 0.845,
    "p_home": 0.791
   },
-  "frozen_at": "2026-11-23 19:10 UTC",
+  "frozen_at": "2026-11-23 19:37 UTC",
   "game_id": 401910043,
   "home": "HOU",
   "locked": false,
@@ -1536,7 +1536,7 @@
    "market_p_home": 0.865,
    "p_home": 0.8081
   },
-  "frozen_at": "2026-11-23 19:10 UTC",
+  "frozen_at": "2026-11-23 19:37 UTC",
   "game_id": 401910044,
   "home": "LAL",
   "locked": false,
@@ -1719,7 +1719,7 @@
    "market_p_home": 0.195,
    "p_home": 0.1489
   },
-  "frozen_at": "2026-11-23 19:10 UTC",
+  "frozen_at": "2026-11-23 19:37 UTC",
   "game_id": 401910045,
   "home": "SAC",
   "locked": false,

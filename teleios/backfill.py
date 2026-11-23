@@ -12,7 +12,7 @@ from __future__ import annotations
 
 import json
 
-from teleios import data
+from teleios import data, pbp
 from teleios.backtest import lineups_played, offseason_before
 from teleios.daily import box_beta, load_params
 from teleios.model import Engine
@@ -23,7 +23,7 @@ SEED = data.DATA / "seed" / "propedge_moneyline_2027.json"
 def main():
     games, pg = data.games(), data.player_games()
     played = lineups_played(pg)
-    eng = Engine(games, pg, load_params())
+    eng = Engine(games, pg, load_params(), pbp.luck_by_game())
     try:
         seed = {g["game_id"]: g for g in json.loads(SEED.read_text())["games"]}
     except Exception:  # noqa: BLE001

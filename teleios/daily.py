@@ -22,7 +22,7 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import polars as pl
 
-from teleios import data, notebook, scorecard, sources, teams
+from teleios import data, notebook, pbp, profiles, scorecard, sources, teams
 from teleios.backtest import offseason_before
 from teleios.model import Engine, Params, learn_box_beta
 
@@ -132,6 +132,7 @@ def main(argv=None):
     log = {"run_at": data.now_utc()}
     if fetch:
         log["box_scores"] = [f'{r["url"].rsplit("/", 1)[-1]}: {r["state"]}' for r in data.refresh()]
+        log["play_by_play"] = [f'{r["season"]}: {r["state"]}' for r in pbp.refresh()]
         rosters = sources.fetch_rosters()
         injuries = sources.fetch_injuries()
         kalshi = sources.fetch_kalshi()
@@ -148,7 +149,7 @@ def main(argv=None):
 
     now = datetime.now(timezone.utc)
     today = now.astimezone(ET).date()
-    eng = Engine(games, pg, load_params())
+    eng = Engine(games, pg, load_params(), pbp.luck_by_game())
     eng.p.box_beta = box_beta(eng, today)
     st = eng.fit(today + timedelta(days=1))  # everything finished so far
 
@@ -214,6 +215,7 @@ def main(argv=None):
     log["predicted"] = made
 
     write_ratings(eng, st, today, rosters, inj_by_pid, inj_by_name, pg_last)
+    profiles.build()
     sc = scorecard.build()
     log["scorecard"] = {k: sc.get("overall", {}).get(k) for k in ("games", "accuracy", "brier")}
     nb = notebook.build()
