@@ -1,0 +1,393 @@
+{
+  "tuned_on": "2024-25 (all games, walk-forward)",
+  "tested_on": "2025-26 (never seen during tuning)",
+  "grid": [
+    {
+      "params": {
+        "half_life": 60.0,
+        "lam_player": 3.0,
+        "lam_team": 6.0,
+        "sigma": 14.75
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.6616199848599545,
+        "brier": 0.20898812847941164,
+        "log_loss": 0.6048407717914518,
+        "margin_mae": 11.06367897234759,
+        "margin_rmse": 14.162879193206292,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 60.0,
+        "lam_player": 3.0,
+        "lam_team": 20.0,
+        "sigma": 14.75
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.6623769871309614,
+        "brier": 0.20907487305065753,
+        "log_loss": 0.6051037724957103,
+        "margin_mae": 11.065194989589635,
+        "margin_rmse": 14.165343275425675,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 60.0,
+        "lam_player": 6.0,
+        "lam_team": 6.0,
+        "sigma": 13.5
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.6623769871309614,
+        "brier": 0.20771007146773787,
+        "log_loss": 0.6015077752860443,
+        "margin_mae": 11.006012588392503,
+        "margin_rmse": 14.092132018831835,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 60.0,
+        "lam_player": 6.0,
+        "lam_team": 20.0,
+        "sigma": 13.25
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.6631339894019682,
+        "brier": 0.2078110692039991,
+        "log_loss": 0.6018497268612913,
+        "margin_mae": 11.009883087881429,
+        "margin_rmse": 14.100454925199971,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 60.0,
+        "lam_player": 12.0,
+        "lam_team": 6.0,
+        "sigma": 12.5
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.663890991672975,
+        "brier": 0.20714205953780218,
+        "log_loss": 0.6000006281666703,
+        "margin_mae": 10.992094698684806,
+        "margin_rmse": 14.086595301533132,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 60.0,
+        "lam_player": 12.0,
+        "lam_team": 20.0,
+        "sigma": 12.0
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.668433005299016,
+        "brier": 0.20723036777722356,
+        "log_loss": 0.6003491987688953,
+        "margin_mae": 11.004117507540084,
+        "margin_rmse": 14.108489416094061,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 120.0,
+        "lam_player": 3.0,
+        "lam_team": 6.0,
+        "sigma": 14.75
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.6593489780469342,
+        "brier": 0.20811024624406646,
+        "log_loss": 0.6023313938360002,
+        "margin_mae": 11.004417797240443,
+        "margin_rmse": 14.090948091311823,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 120.0,
+        "lam_player": 3.0,
+        "lam_team": 20.0,
+        "sigma": 14.5
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.660105980317941,
+        "brier": 0.20814461537405682,
+        "log_loss": 0.602472209143626,
+        "margin_mae": 11.002874670480944,
+        "margin_rmse": 14.090292169732816,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 120.0,
+        "lam_player": 6.0,
+        "lam_team": 6.0,
+        "sigma": 13.5
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.6654049962149886,
+        "brier": 0.20677471266177502,
+        "log_loss": 0.5987334016614989,
+        "margin_mae": 10.926940140784303,
+        "margin_rmse": 14.008688186084928,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 120.0,
+        "lam_player": 6.0,
+        "lam_team": 20.0,
+        "sigma": 13.25
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.668433005299016,
+        "brier": 0.206819008060614,
+        "log_loss": 0.5989410530604367,
+        "margin_mae": 10.928081293250342,
+        "margin_rmse": 14.011820052653993,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 120.0,
+        "lam_player": 12.0,
+        "lam_team": 6.0,
+        "sigma": 12.5
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.6699470098410295,
+        "brier": 0.2062432199367624,
+        "log_loss": 0.5971623546203175,
+        "margin_mae": 10.904771530981847,
+        "margin_rmse": 13.999901993292298,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 120.0,
+        "lam_player": 12.0,
+        "lam_team": 20.0,
+        "sigma": 12.25
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.6737320211960636,
+        "brier": 0.20624054187475985,
+        "log_loss": 0.5973492858787083,
+        "margin_mae": 10.91383555170943,
+        "margin_rmse": 14.010837331191698,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 240.0,
+        "lam_player": 3.0,
+        "lam_team": 6.0,
+        "sigma": 14.75
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.6570779712339136,
+        "brier": 0.20825518818356215,
+        "log_loss": 0.602408586129475,
+        "margin_mae": 11.007762005555124,
+        "margin_rmse": 14.092277727764891,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 240.0,
+        "lam_player": 3.0,
+        "lam_team": 20.0,
+        "sigma": 14.75
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.6578349735049205,
+        "brier": 0.2082566182143113,
+        "log_loss": 0.6024863789995814,
+        "margin_mae": 11.005539982767822,
+        "margin_rmse": 14.089796545934048,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 240.0,
+        "lam_player": 6.0,
+        "lam_team": 6.0,
+        "sigma": 13.75
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.6676760030280091,
+        "brier": 0.20680097259869398,
+        "log_loss": 0.598572781380174,
+        "margin_mae": 10.913995607037188,
+        "margin_rmse": 13.993836756551943,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 240.0,
+        "lam_player": 6.0,
+        "lam_team": 20.0,
+        "sigma": 13.5
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.6676760030280091,
+        "brier": 0.20681791358945464,
+        "log_loss": 0.5986938819014139,
+        "margin_mae": 10.913345905737089,
+        "margin_rmse": 13.993819345858435,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 240.0,
+        "lam_player": 12.0,
+        "lam_team": 6.0,
+        "sigma": 12.75
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.6661619984859954,
+        "brier": 0.20618637650257524,
+        "log_loss": 0.5967350527951953,
+        "margin_mae": 10.87918162332232,
+        "margin_rmse": 13.973078741407585,
+        "home_win_rate": 0.5450416351249053
+      }
+    },
+    {
+      "params": {
+        "half_life": 240.0,
+        "lam_player": 12.0,
+        "lam_team": 20.0,
+        "sigma": 12.5
+      },
+      "tune": {
+        "games": 1321,
+        "accuracy": 0.6669190007570023,
+        "brier": 0.20617385495179189,
+        "log_loss": 0.5968537629590811,
+        "margin_mae": 10.884637447455287,
+        "margin_rmse": 13.977968670699516,
+        "home_win_rate": 0.5450416351249053
+      }
+    }
+  ],
+  "chosen": {
+    "half_life": 240.0,
+    "lam_player": 12.0,
+    "lam_team": 6.0,
+    "sigma": 12.75
+  },
+  "box_beta": {
+    "pts": 0.35501195009035125,
+    "reb": 0.110078679526743,
+    "oreb": -0.2151285766502315,
+    "ast": 0.11242158726536947,
+    "stl": 0.6313067789127503,
+    "blk": 0.22671983423665693,
+    "tov": -0.4481694407319389,
+    "pf": 0.05715820338105225,
+    "fga": -0.3969337448160242,
+    "fta": -0.14726316129886832,
+    "fg3m": 0.13491038558211282,
+    "_const": -1.562447403388233
+  },
+  "test": {
+    "games": 1322,
+    "accuracy": 0.699697428139183,
+    "brier": 0.2018489360154201,
+    "log_loss": 0.5891389826857982,
+    "margin_mae": 11.234732603421987,
+    "margin_rmse": 14.392816171957682,
+    "home_win_rate": 0.5552193645990923
+  },
+  "test_regular_season": {
+    "games": 1231,
+    "accuracy": 0.7059301380991064,
+    "brier": 0.1999045622785061,
+    "log_loss": 0.5848678561622107,
+    "margin_mae": 11.116513731299971,
+    "margin_rmse": 14.271895032627702,
+    "home_win_rate": 0.5548334687246141
+  },
+  "calibration": [
+    {
+      "range": "50-60%",
+      "games": 438,
+      "said": 0.551,
+      "won": 0.61
+    },
+    {
+      "range": "60-70%",
+      "games": 379,
+      "said": 0.647,
+      "won": 0.652
+    },
+    {
+      "range": "70-80%",
+      "games": 275,
+      "said": 0.745,
+      "won": 0.775
+    },
+    {
+      "range": "80-90%",
+      "games": 184,
+      "said": 0.851,
+      "won": 0.848
+    },
+    {
+      "range": "90-100%",
+      "games": 46,
+      "said": 0.928,
+      "won": 0.913
+    }
+  ],
+  "baselines": {
+    "elo_538_style": {
+      "games": 1322,
+      "accuracy": 0.6739788199697428,
+      "brier": 0.21098337408200787,
+      "log_loss": 0.612191955452014
+    },
+    "always_home_team": {
+      "accuracy": 0.5552193645990923
+    }
+  }
+}

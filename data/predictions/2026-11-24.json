@@ -1,0 +1,564 @@
+{
+ "401909314": {
+  "away": "DET",
+  "chance": 0.6229,
+  "date": "2026-11-24",
+  "edge_vs_market": -0.0679,
+  "first": {
+   "at": "2026-11-23 19:09 UTC",
+   "market_p_home": 0.445,
+   "p_home": 0.3771
+  },
+  "frozen_at": "2026-11-23 19:09 UTC",
+  "game_id": 401909314,
+  "home": "ORL",
+  "locked": false,
+  "margin": -3.99,
+  "market_p_home": 0.445,
+  "neutral": false,
+  "p_home": 0.3771,
+  "pick": "DET",
+  "tip_utc": "2026-11-25 00:00:00+00:00",
+  "why": {
+   "home_court_and_situation": {
+    "home_court": 1.37,
+    "travel": -0.24
+   },
+   "out": {
+    "DET": [
+     {
+      "minutes": 26.2,
+      "pid": 4433621,
+      "player": "Jalen Duren",
+      "status": "Out"
+     },
+     {
+      "minutes": 20.6,
+      "pid": 2990962,
+      "player": "Taurean Prince",
+      "status": "Out"
+     },
+     {
+      "minutes": 30.2,
+      "pid": 3157465,
+      "player": "Duncan Robinson",
+      "status": "Out"
+     }
+    ],
+    "ORL": [
+     {
+      "minutes": 36.4,
+      "pid": 4432573,
+      "player": "Paolo Banchero",
+      "status": "Out"
+     },
+     {
+      "minutes": 8.8,
+      "pid": 4065654,
+      "player": "Jonathan Isaac",
+      "status": "Out"
+     },
+     {
+      "minutes": 7.6,
+      "pid": 5214637,
+      "player": "Noah Penda",
+      "status": "Out"
+     }
+    ]
+   },
+   "questionable": {
+    "DET": [
+     {
+      "pid": 5258459,
+      "player": "Ebuka Okorie",
+      "status": "Day-To-Day"
+     }
+    ],
+    "ORL": []
+   },
+   "rest_days": {
+    "DET": 2,
+    "ORL": 2
+   },
+   "strength": {
+    "DET": 7.18,
+    "ORL": 2.05
+   },
+   "team_term": {
+    "DET": 3.02,
+    "ORL": 0.05
+   },
+   "top_players": {
+    "DET": [
+     {
+      "impact": 1.52,
+      "minutes": 26.2,
+      "player": "Kevin Huerter",
+      "rating": 2.79
+     },
+     {
+      "impact": 1.19,
+      "minutes": 22.9,
+      "player": "Paul Reed",
+      "rating": 2.51
+     },
+     {
+      "impact": 0.86,
+      "minutes": 13.8,
+      "player": "Isaiah Joe",
+      "rating": 3.0
+     },
+     {
+      "impact": 0.82,
+      "minutes": 17.3,
+      "player": "Javonte Green",
+      "rating": 2.27
+     },
+     {
+      "impact": 0.56,
+      "minutes": 27.6,
+      "player": "Ausar Thompson",
+      "rating": 0.97
+     },
+     {
+      "impact": 0.27,
+      "minutes": 12.9,
+      "player": "Ronald Holland II",
+      "rating": 1.02
+     },
+     {
+      "impact": 0.13,
+      "minutes": 7.3,
+      "player": "Chaz Lanier",
+      "rating": 0.83
+     },
+     {
+      "impact": -0.0,
+      "minutes": 3.7,
+      "player": "Tolu Smith",
+      "rating": -0.04
+     }
+    ],
+    "ORL": [
+     {
+      "impact": 1.09,
+      "minutes": 30.6,
+      "player": "Franz Wagner",
+      "rating": 1.72
+     },
+     {
+      "impact": 0.87,
+      "minutes": 25.1,
+      "player": "Jalen Suggs",
+      "rating": 1.67
+     },
+     {
+      "impact": 0.7,
+      "minutes": 29.7,
+      "player": "Desmond Bane",
+      "rating": 1.13
+     },
+     {
+      "impact": 0.55,
+      "minutes": 28.9,
+      "player": "Anthony Black",
+      "rating": 0.92
+     },
+     {
+      "impact": 0.3,
+      "minutes": 12.5,
+      "player": "Goga Bitadze",
+      "rating": 1.15
+     },
+     {
+      "impact": 0.28,
+      "minutes": 11.6,
+      "player": "Nikola Vucevic",
+      "rating": 1.15
+     },
+     {
+      "impact": 0.22,
+      "minutes": 26.8,
+      "player": "Wendell Carter Jr.",
+      "rating": 0.39
+     },
+     {
+      "impact": -0.03,
+      "minutes": 1.7,
+      "player": "Colin Castleton",
+      "rating": -0.96
+     }
+    ]
+   }
+  }
+ },
+ "401909315": {
+  "away": "BOS",
+  "chance": 0.7695,
+  "date": "2026-11-24",
+  "edge_vs_market": 0.0155,
+  "first": {
+   "at": "2026-11-23 19:09 UTC",
+   "market_p_home": 0.215,
+   "p_home": 0.2305
+  },
+  "frozen_at": "2026-11-23 19:09 UTC",
+  "game_id": 401909315,
+  "home": "WAS",
+  "locked": false,
+  "margin": -9.4,
+  "market_p_home": 0.215,
+  "neutral": false,
+  "p_home": 0.2305,
+  "pick": "BOS",
+  "tip_utc": "2026-11-25 01:00:00+00:00",
+  "why": {
+   "home_court_and_situation": {
+    "home_court": 1.37,
+    "travel": 1.65
+   },
+   "out": {
+    "BOS": [
+     {
+      "minutes": 16.5,
+      "pid": 4351852,
+      "player": "Mitchell Robinson",
+      "status": "Out"
+     }
+    ],
+    "WAS": [
+     {
+      "minutes": 1.0,
+      "pid": 4432187,
+      "player": "Reece Beekman",
+      "status": "Out"
+     },
+     {
+      "minutes": 21.1,
+      "pid": 4432907,
+      "player": "Justin Champagnie",
+      "status": "Out"
+     },
+     {
+      "minutes": 16.7,
+      "pid": 4997537,
+      "player": "Tristan Vukcevic",
+      "status": "Out"
+     },
+     {
+      "minutes": 26.6,
+      "pid": 4606840,
+      "player": "Jamir Watkins",
+      "status": "Out"
+     }
+    ]
+   },
+   "questionable": {
+    "BOS": [
+     {
+      "pid": 4251,
+      "player": "Paul George",
+      "status": "Day-To-Day"
+     }
+    ],
+    "WAS": []
+   },
+   "rest_days": {
+    "BOS": 2,
+    "WAS": 2
+   },
+   "strength": {
+    "BOS": 8.47,
+    "WAS": -3.96
+   },
+   "team_term": {
+    "BOS": 3.69,
+    "WAS": -4.22
+   },
+   "top_players": {
+    "BOS": [
+     {
+      "impact": 1.35,
+      "minutes": 30.3,
+      "player": "Jayson Tatum",
+      "rating": 2.13
+     },
+     {
+      "impact": 0.87,
+      "minutes": 24.9,
+      "player": "Payton Pritchard",
+      "rating": 1.68
+     },
+     {
+      "impact": 0.59,
+      "minutes": 21.6,
+      "player": "Neemias Queta",
+      "rating": 1.31
+     },
+     {
+      "impact": 0.58,
+      "minutes": 26.8,
+      "player": "Derrick White",
+      "rating": 1.05
+     },
+     {
+      "impact": 0.55,
+      "minutes": 18.9,
+      "player": "Sam Hauser",
+      "rating": 1.4
+     },
+     {
+      "impact": 0.35,
+      "minutes": 11.8,
+      "player": "Luka Garza",
+      "rating": 1.44
+     },
+     {
+      "impact": 0.29,
+      "minutes": 11.6,
+      "player": "Jordan Walsh",
+      "rating": 1.2
+     },
+     {
+      "impact": 0.27,
+      "minutes": 17.3,
+      "player": "Paul George",
+      "rating": 0.75
+     }
+    ],
+    "WAS": [
+     {
+      "impact": 1.98,
+      "minutes": 29.6,
+      "player": "Anthony Davis",
+      "rating": 3.21
+     },
+     {
+      "impact": 0.34,
+      "minutes": 29.8,
+      "player": "Kyshawn George",
+      "rating": 0.55
+     },
+     {
+      "impact": 0.27,
+      "minutes": 29.9,
+      "player": "AJ Dybantsa",
+      "rating": 0.43
+     },
+     {
+      "impact": 0.17,
+      "minutes": 9.3,
+      "player": "Deandre Ayton",
+      "rating": 0.88
+     },
+     {
+      "impact": 0.16,
+      "minutes": 22.9,
+      "player": "Alex Sarr",
+      "rating": 0.33
+     },
+     {
+      "impact": -0.0,
+      "minutes": 0.9,
+      "player": "Felix Okpara",
+      "rating": -0.21
+     },
+     {
+      "impact": -0.05,
+      "minutes": 20.8,
+      "player": "Bilal Coulibaly",
+      "rating": -0.11
+     },
+     {
+      "impact": -0.13,
+      "minutes": 4.4,
+      "player": "Tre Mann",
+      "rating": -1.42
+     }
+    ]
+   }
+  }
+ },
+ "401909316": {
+  "away": "DAL",
+  "chance": 0.6442,
+  "date": "2026-11-24",
+  "edge_vs_market": -0.1196,
+  "first": {
+   "at": "2026-11-23 19:09 UTC",
+   "market_p_home": 0.7638,
+   "p_home": 0.6442
+  },
+  "frozen_at": "2026-11-23 19:09 UTC",
+  "game_id": 401909316,
+  "home": "DEN",
+  "locked": false,
+  "margin": 4.71,
+  "market_p_home": 0.7638,
+  "neutral": false,
+  "p_home": 0.6442,
+  "pick": "DEN",
+  "tip_utc": "2026-11-25 03:00:00+00:00",
+  "why": {
+   "home_court_and_situation": {
+    "altitude": -0.69,
+    "home_court": 1.37,
+    "travel": -0.37
+   },
+   "out": {
+    "DAL": [
+     {
+      "minutes": 12.2,
+      "pid": 5279129,
+      "player": "Sergio de Larrea",
+      "status": "Out"
+     },
+     {
+      "minutes": 5.5,
+      "pid": 5106040,
+      "player": "Tobi Lawal",
+      "status": "Out"
+     },
+     {
+      "minutes": 12.0,
+      "pid": 4683688,
+      "player": "Dereck Lively II",
+      "status": "Out"
+     }
+    ],
+    "DEN": [
+     {
+      "minutes": 15.7,
+      "pid": 4432181,
+      "player": "Julian Strawther",
+      "status": "Out"
+     }
+    ]
+   },
+   "questionable": {
+    "DAL": [
+     {
+      "pid": 4278078,
+      "player": "P.J. Washington",
+      "status": "Day-To-Day"
+     }
+    ],
+    "DEN": []
+   },
+   "rest_days": {
+    "DAL": 2,
+    "DEN": 2
+   },
+   "strength": {
+    "DAL": 2.03,
+    "DEN": 6.43
+   },
+   "team_term": {
+    "DAL": -1.4,
+    "DEN": 1.94
+   },
+   "top_players": {
+    "DAL": [
+     {
+      "impact": 2.98,
+      "minutes": 27.4,
+      "player": "Kyrie Irving",
+      "rating": 5.23
+     },
+     {
+      "impact": 0.65,
+      "minutes": 28.9,
+      "player": "Cooper Flagg",
+      "rating": 1.07
+     },
+     {
+      "impact": 0.6,
+      "minutes": 20.0,
+      "player": "Zaccharie Risacher",
+      "rating": 1.43
+     },
+     {
+      "impact": 0.23,
+      "minutes": 16.5,
+      "player": "P.J. Washington",
+      "rating": 0.67
+     },
+     {
+      "impact": 0.22,
+      "minutes": 15.8,
+      "player": "Morez Johnson Jr.",
+      "rating": 0.68
+     },
+     {
+      "impact": 0.22,
+      "minutes": 14.9,
+      "player": "Santi Aldama",
+      "rating": 0.7
+     },
+     {
+      "impact": 0.03,
+      "minutes": 6.8,
+      "player": "Moussa Cisse",
+      "rating": 0.22
+     },
+     {
+      "impact": 0.02,
+      "minutes": 5.3,
+      "player": "Jett Howard",
+      "rating": 0.17
+     }
+    ],
+    "DEN": [
+     {
+      "impact": 2.09,
+      "minutes": 32.0,
+      "player": "Nikola Jokic",
+      "rating": 3.14
+     },
+     {
+      "impact": 1.34,
+      "minutes": 25.4,
+      "player": "Cameron Johnson",
+      "rating": 2.54
+     },
+     {
+      "impact": 0.69,
+      "minutes": 18.3,
+      "player": "DeMar DeRozan",
+      "rating": 1.82
+     },
+     {
+      "impact": 0.36,
+      "minutes": 24.9,
+      "player": "Aaron Gordon",
+      "rating": 0.68
+     },
+     {
+      "impact": 0.29,
+      "minutes": 28.1,
+      "player": "Christian Braun",
+      "rating": 0.5
+     },
+     {
+      "impact": 0.27,
+      "minutes": 31.7,
+      "player": "Jamal Murray",
+      "rating": 0.42
+     },
+     {
+      "impact": 0.08,
+      "minutes": 10.0,
+      "player": "Marvin Bagley III",
+      "rating": 0.37
+     },
+     {
+      "impact": 0.01,
+      "minutes": 16.4,
+      "player": "Spencer Jones",
+      "rating": 0.03
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,223 @@
+{
+ "fetched_at": "2026-11-23 18:03 UTC",
+ "error": null,
+ "games": [
+  {
+   "date": "2026-11-23",
+   "home": "CHA",
+   "away": "MEM",
+   "event": "KXNBAGAME-26NOV23MEMCHA",
+   "p_home": 0.425
+  },
+  {
+   "date": "2026-11-23",
+   "home": "PHI",
+   "away": "POR",
+   "event": "KXNBAGAME-26NOV23PORPHI",
+   "p_home": 0.5528
+  },
+  {
+   "date": "2026-11-23",
+   "home": "MIN",
+   "away": "BKN",
+   "event": "KXNBAGAME-26NOV23BKNMIN",
+   "p_home": 0.825
+  },
+  {
+   "date": "2026-11-23",
+   "home": "TOR",
+   "away": "MIL",
+   "event": "KXNBAGAME-26NOV23MILTOR",
+   "p_home": 0.795
+  },
+  {
+   "date": "2026-11-23",
+   "home": "IND",
+   "away": "OKC",
+   "event": "KXNBAGAME-26NOV23OKCIND",
+   "p_home": 0.375
+  },
+  {
+   "date": "2026-11-23",
+   "home": "CHI",
+   "away": "CLE",
+   "event": "KXNBAGAME-26NOV23CLECHI",
+   "p_home": 0.255
+  },
+  {
+   "date": "2026-11-23",
+   "home": "NOP",
+   "away": "PHX",
+   "event": "KXNBAGAME-26NOV23PHXNOP",
+   "p_home": 0.415
+  },
+  {
+   "date": "2026-11-23",
+   "home": "HOU",
+   "away": "LAC",
+   "event": "KXNBAGAME-26NOV23LACHOU",
+   "p_home": 0.845
+  },
+  {
+   "date": "2026-11-23",
+   "home": "SAC",
+   "away": "SAS",
+   "event": "KXNBAGAME-26NOV23SASSAC",
+   "p_home": 0.195
+  },
+  {
+   "date": "2026-11-23",
+   "home": "LAL",
+   "away": "UTA",
+   "event": "KXNBAGAME-26NOV23UTALAL",
+   "p_home": 0.865
+  },
+  {
+   "date": "2026-11-24",
+   "home": "ORL",
+   "away": "DET",
+   "event": "KXNBAGAME-26NOV24DETORL",
+   "p_home": 0.445
+  },
+  {
+   "date": "2026-11-24",
+   "home": "WAS",
+   "away": "BOS",
+   "event": "KXNBAGAME-26NOV24BOSWAS",
+   "p_home": 0.215
+  },
+  {
+   "date": "2026-11-24",
+   "home": "DEN",
+   "away": "DAL",
+   "event": "KXNBAGAME-26NOV24DALDEN",
+   "p_home": 0.7638
+  },
+  {
+   "date": "2026-11-25",
+   "home": "PHI",
+   "away": "MIA",
+   "event": "KXNBAGAME-26NOV25MIAPHI",
+   "p_home": 0.6318
+  },
+  {
+   "date": "2026-11-25",
+   "home": "CHA",
+   "away": "CHI",
+   "event": "KXNBAGAME-26NOV25CHICHA",
+   "p_home": 0.6263
+  },
+  {
+   "date": "2026-11-25",
+   "home": "NYK",
+   "away": "CLE",
+   "event": "KXNBAGAME-26NOV25CLENYK",
+   "p_home": 0.7136
+  },
+  {
+   "date": "2026-11-25",
+   "home": "OKC",
+   "away": "MIN",
+   "event": "KXNBAGAME-26NOV25MINOKC",
+   "p_home": 0.4975
+  },
+  {
+   "date": "2026-11-25",
+   "home": "MIL",
+   "away": "BKN",
+   "event": "KXNBAGAME-26NOV25BKNMIL",
+   "p_home": 0.5179
+  },
+  {
+   "date": "2026-11-25",
+   "home": "MEM",
+   "away": "LAC",
+   "event": "KXNBAGAME-26NOV25LACMEM",
+   "p_home": 0.7044
+  },
+  {
+   "date": "2026-11-25",
+   "home": "HOU",
+   "away": "PHX",
+   "event": "KXNBAGAME-26NOV25PHXHOU",
+   "p_home": 0.7638
+  },
+  {
+   "date": "2026-11-25",
+   "home": "GSW",
+   "away": "SAC",
+   "event": "KXNBAGAME-26NOV25SACGSW",
+   "p_home": 0.7662
+  },
+  {
+   "date": "2026-11-25",
+   "home": "POR",
+   "away": "SAS",
+   "event": "KXNBAGAME-26NOV25SASPOR",
+   "p_home": 0.3756
+  },
+  {
+   "date": "2026-11-27",
+   "home": "DET",
+   "away": "MIL",
+   "event": "KXNBAGAME-26NOV27MILDET",
+   "p_home": 0.8
+  },
+  {
+   "date": "2026-11-27",
+   "home": "IND",
+   "away": "PHI",
+   "event": "KXNBAGAME-26NOV27PHIIND",
+   "p_home": 0.3819
+  },
+  {
+   "date": "2026-11-27",
+   "home": "BOS",
+   "away": "ATL",
+   "event": "KXNBAGAME-26NOV27ATLBOS",
+   "p_home": 0.5891
+  },
+  {
+   "date": "2026-11-27",
+   "home": "PHX",
+   "away": "DAL",
+   "event": "KXNBAGAME-26NOV27DALPHX",
+   "p_home": 0.705
+  },
+  {
+   "date": "2026-11-27",
+   "home": "UTA",
+   "away": "DEN",
+   "event": "KXNBAGAME-26NOV27DENUTA",
+   "p_home": 0.1357
+  },
+  {
+   "date": "2026-11-27",
+   "home": "SAS",
+   "away": "LAL",
+   "event": "KXNBAGAME-26NOV27LALSAS",
+   "p_home": 0.6127
+  },
+  {
+   "date": "2026-11-27",
+   "home": "TOR",
+   "away": "BKN",
+   "event": "KXNBAGAME-26NOV27BKNTOR",
+   "p_home": null
+  },
+  {
+   "date": "2026-11-27",
+   "home": "LAC",
+   "away": "NOP",
+   "event": "KXNBAGAME-26NOV27NOPLAC",
+   "p_home": null
+  },
+  {
+   "date": "2026-11-28",
+   "home": "WAS",
+   "away": "ORL",
+   "event": "KXNBAGAME-26NOV28ORLWAS",
+   "p_home": null
+  }
+ ]
+}

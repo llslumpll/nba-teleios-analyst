@@ -1,0 +1,226 @@
+{
+ "updated": "2026-11-23 19:09 UTC",
+ "games_checked": 248,
+ "rule": "confirmed = same direction in both halves and |z| >= 2.5",
+ "entries": [
+  {
+   "name": "big_favourites",
+   "description": "Favourites the model gave 70%+",
+   "games": 111,
+   "avg_miss_points": -0.59,
+   "earlier_half": 1.23,
+   "later_half": -2.37,
+   "z": -0.42,
+   "state": "watching",
+   "reading": "Did 0.6 pts worse than predicted on average"
+  },
+  {
+   "name": "back_to_back",
+   "description": "Teams on the 2nd night of a back-to-back",
+   "games": 56,
+   "avg_miss_points": -0.51,
+   "earlier_half": -1.61,
+   "later_half": 0.59,
+   "z": -0.27,
+   "state": "watching",
+   "reading": "Did 0.5 pts worse than predicted on average"
+  },
+  {
+   "name": "home_court",
+   "description": "Home teams vs prediction",
+   "games": 248,
+   "avg_miss_points": -0.02,
+   "earlier_half": -0.42,
+   "later_half": 0.38,
+   "z": -0.02,
+   "state": "watching",
+   "reading": "Did 0.0 pts worse than predicted on average"
+  },
+  {
+   "name": "team_ATL",
+   "description": "ATL: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_BKN",
+   "description": "BKN: result vs prediction (all games)",
+   "games": 15,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_BOS",
+   "description": "BOS: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_CHA",
+   "description": "CHA: result vs prediction (all games)",
+   "games": 15,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_CHI",
+   "description": "CHI: result vs prediction (all games)",
+   "games": 16,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_CLE",
+   "description": "CLE: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_DAL",
+   "description": "DAL: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_DEN",
+   "description": "DEN: result vs prediction (all games)",
+   "games": 15,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_DET",
+   "description": "DET: result vs prediction (all games)",
+   "games": 16,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_GSW",
+   "description": "GSW: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_HOU",
+   "description": "HOU: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_IND",
+   "description": "IND: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_LAC",
+   "description": "LAC: result vs prediction (all games)",
+   "games": 15,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_LAL",
+   "description": "LAL: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_MEM",
+   "description": "MEM: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_MIA",
+   "description": "MIA: result vs prediction (all games)",
+   "games": 16,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_MIL",
+   "description": "MIL: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_MIN",
+   "description": "MIN: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_NOP",
+   "description": "NOP: result vs prediction (all games)",
+   "games": 18,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_NYK",
+   "description": "NYK: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_OKC",
+   "description": "OKC: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_ORL",
+   "description": "ORL: result vs prediction (all games)",
+   "games": 16,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_PHI",
+   "description": "PHI: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_PHX",
+   "description": "PHX: result vs prediction (all games)",
+   "games": 15,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_POR",
+   "description": "POR: result vs prediction (all games)",
+   "games": 16,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_SAC",
+   "description": "SAC: result vs prediction (all games)",
+   "games": 16,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_SAS",
+   "description": "SAS: result vs prediction (all games)",
+   "games": 17,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_TOR",
+   "description": "TOR: result vs prediction (all games)",
+   "games": 16,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_UTA",
+   "description": "UTA: result vs prediction (all games)",
+   "games": 18,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "team_WAS",
+   "description": "WAS: result vs prediction (all games)",
+   "games": 18,
+   "state": "not enough games yet"
+  },
+  {
+   "name": "altitude",
+   "description": "Denver and Utah at home",
+   "games": 17,
+   "state": "not enough games yet"
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+polars>=1.30
+pyarrow>=17
+requests>=2.31
+numpy>=1.26

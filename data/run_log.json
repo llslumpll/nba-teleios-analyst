@@ -1,0 +1,128 @@
+[
+ {
+  "run_at": "2026-11-23 19:00 UTC",
+  "sources": {
+   "rosters": {
+    "fetched_at": "2026-11-23 18:03 UTC",
+    "error": null,
+    "players": 528
+   },
+   "injuries": {
+    "fetched_at": "2026-11-23 18:03 UTC",
+    "error": null,
+    "players": 105
+   },
+   "kalshi": {
+    "fetched_at": "2026-11-23 18:03 UTC",
+    "error": null,
+    "games": 31
+   }
+  },
+  "graded": 0,
+  "predicted": 13,
+  "scorecard": {
+   "games": 0,
+   "accuracy": null,
+   "brier": null
+  },
+  "notebook_entries": 0,
+  "unmatched_team_names": {
+   "espn": [
+    "CAN",
+    "CHK",
+    "EAST",
+    "KEN",
+    "SHQ",
+    "STARS",
+    "STRIPES",
+    "TBD",
+    "WEST",
+    "WORLD"
+   ]
+  }
+ },
+ {
+  "run_at": "2026-11-23 19:09 UTC",
+  "sources": {
+   "rosters": {
+    "fetched_at": "2026-11-23 18:03 UTC",
+    "error": null,
+    "players": 528
+   },
+   "injuries": {
+    "fetched_at": "2026-11-23 18:03 UTC",
+    "error": null,
+    "players": 105
+   },
+   "kalshi": {
+    "fetched_at": "2026-11-23 18:03 UTC",
+    "error": null,
+    "games": 31
+   }
+  },
+  "graded": 0,
+  "predicted": 13,
+  "scorecard": {
+   "games": 0,
+   "accuracy": null,
+   "brier": null
+  },
+  "notebook_entries": 34,
+  "unmatched_team_names": {
+   "espn": [
+    "CAN",
+    "CHK",
+    "EAST",
+    "KEN",
+    "SHQ",
+    "STARS",
+    "STRIPES",
+    "TBD",
+    "WEST",
+    "WORLD"
+   ]
+  }
+ },
+ {
+  "run_at": "2026-11-23 19:09 UTC",
+  "sources": {
+   "rosters": {
+    "fetched_at": "2026-11-23 18:03 UTC",
+    "error": null,
+    "players": 528
+   },
+   "injuries": {
+    "fetched_at": "2026-11-23 18:03 UTC",
+    "error": null,
+    "players": 105
+   },
+   "kalshi": {
+    "fetched_at": "2026-11-23 18:03 UTC",
+    "error": null,
+    "games": 31
+   }
+  },
+  "graded": 0,
+  "predicted": 13,
+  "scorecard": {
+   "games": 0,
+   "accuracy": null,
+   "brier": null
+  },
+  "notebook_entries": 34,
+  "unmatched_team_names": {
+   "espn": [
+    "CAN",
+    "CHK",
+    "EAST",
+    "KEN",
+    "SHQ",
+    "STARS",
+    "STRIPES",
+    "TBD",
+    "WEST",
+    "WORLD"
+   ]
+  }
+ }
+]

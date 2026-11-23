@@ -1,0 +1,172 @@
+{
+ "updated": "2026-11-23 19:09 UTC",
+ "overall": {
+  "games": 0
+ },
+ "live": {
+  "note": "Frozen before tip-off with that day's injury report, graded after the game.",
+  "metrics": {
+   "games": 0
+  },
+  "calibration": [],
+  "vs_kalshi": {
+   "games": 0
+  },
+  "last_30_days": {
+   "games": 0
+  }
+ },
+ "backfill_2026_27": {
+  "note": "Made after the fact, walk-forward (only earlier games used), knowing who played. Benchmarks = FanDuel closing chance and Prop Edge's published chance (which is partly blended with the market), as Prop Edge saved them.",
+  "metrics": {
+   "games": 248,
+   "accuracy": 0.6694,
+   "brier": 0.2007,
+   "log_loss": 0.5857
+  },
+  "calibration": [
+   {
+    "range": "50-60%",
+    "games": 62,
+    "said": 0.549,
+    "won": 0.468
+   },
+   {
+    "range": "60-70%",
+    "games": 75,
+    "said": 0.647,
+    "won": 0.627
+   },
+   {
+    "range": "70-80%",
+    "games": 55,
+    "said": 0.742,
+    "won": 0.727
+   },
+   {
+    "range": "80-90%",
+    "games": 42,
+    "said": 0.837,
+    "won": 0.881
+   },
+   {
+    "range": "90-100%",
+    "games": 14,
+    "said": 0.922,
+    "won": 0.929
+   }
+  ],
+  "vs_fanduel_close": {
+   "games": 245,
+   "teleios": {
+    "games": 245,
+    "accuracy": 0.6735,
+    "brier": 0.1984,
+    "log_loss": 0.5808
+   },
+   "fanduel_close": {
+    "games": 245,
+    "accuracy": 0.702,
+    "brier": 0.1932,
+    "log_loss": 0.5684
+   },
+   "brier_gap": 0.0053,
+   "verdict": "too close to call yet",
+   "z": 1.11,
+   "disagreements": {
+    "games": 25,
+    "teleios_right": 9
+   }
+  },
+  "vs_prop_edge": {
+   "games": 245,
+   "teleios": {
+    "games": 245,
+    "accuracy": 0.6735,
+    "brier": 0.1984,
+    "log_loss": 0.5808
+   },
+   "prop_edge": {
+    "games": 245,
+    "accuracy": 0.6939,
+    "brier": 0.1939,
+    "log_loss": 0.5707
+   },
+   "brier_gap": 0.0046,
+   "verdict": "too close to call yet",
+   "z": 0.89,
+   "disagreements": {
+    "games": 23,
+    "teleios_right": 9
+   }
+  },
+  "prop_edge": {
+   "games": 245,
+   "accuracy": 0.6939,
+   "brier": 0.1939,
+   "log_loss": 0.5707
+  }
+ },
+ "backtest_2025_26": {
+  "tuned_on": "2024-25 (all games, walk-forward)",
+  "tested_on": "2025-26 (never seen during tuning)",
+  "chosen": {
+   "half_life": 240.0,
+   "lam_player": 12.0,
+   "lam_team": 6.0,
+   "sigma": 12.75
+  },
+  "test": {
+   "games": 1322,
+   "accuracy": 0.699697428139183,
+   "brier": 0.2018489360154201,
+   "log_loss": 0.5891389826857982,
+   "margin_mae": 11.234732603421987,
+   "margin_rmse": 14.392816171957682,
+   "home_win_rate": 0.5552193645990923
+  },
+  "calibration": [
+   {
+    "range": "50-60%",
+    "games": 438,
+    "said": 0.551,
+    "won": 0.61
+   },
+   {
+    "range": "60-70%",
+    "games": 379,
+    "said": 0.647,
+    "won": 0.652
+   },
+   {
+    "range": "70-80%",
+    "games": 275,
+    "said": 0.745,
+    "won": 0.775
+   },
+   {
+    "range": "80-90%",
+    "games": 184,
+    "said": 0.851,
+    "won": 0.848
+   },
+   {
+    "range": "90-100%",
+    "games": 46,
+    "said": 0.928,
+    "won": 0.913
+   }
+  ],
+  "baselines": {
+   "elo_538_style": {
+    "games": 1322,
+    "accuracy": 0.6739788199697428,
+    "brier": 0.21098337408200787,
+    "log_loss": 0.612191955452014
+   },
+   "always_home_team": {
+    "accuracy": 0.5552193645990923
+   }
+  }
+ }
+}
