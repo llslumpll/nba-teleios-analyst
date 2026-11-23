@@ -6,26 +6,27 @@
 <title>NBA Teleios Analyst</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-/* VOICE work tool: an analyst's desk, dense and exact
-   IDEA the newspaper box score: ruled tables, black rules, one red
-   PICTURE the tables and bars themselves: Teleios (red) beside the market (slate blue)
-   COLOUR white paper, black ink, box-score red, slate-blue market; night: ink paper, same idea
-   TYPE Oswald (headline lettering) + Source Sans 3 (text and numbers)
-   LAYOUT black masthead with tabs; each tab one ruled sheet; phone: tables scroll in their boxes */
-:root{color-scheme:light dark;--bg:light-dark(#ffffff,#141414);--ink:light-dark(#111111,#eeeeee);--mute:light-dark(#555b62,#a6abb1);--line:light-dark(#dddddd,#2e2e2e);--panel:light-dark(#f5f5f4,#1d1d1d);--acc:light-dark(#c8102e,#ff5c6c);--accsoft:light-dark(#fde8ea,#3a1518);--good:light-dark(#147a3d,#4cc27a);--bad:light-dark(#b3261e,#ff7b72);--bar:#111111}
+/* VOICE everyday analyst, plain English: anyone can read it
+   IDEA the court: Teleios vs the bettors, face to face across the floor
+   PICTURE head-to-head rows (Teleios coral left, bettors teal right) and a drawn half-court on each game
+   COLOUR maple sand ground, deep court teal, coral for Teleios, teal for the bettors; green/red only for over-under and right-wrong
+   TYPE Bebas Neue (arena lettering) + Work Sans
+   LAYOUT teal masthead with tabs; game list as a teal sidebar; phone: one column */
+:root{color-scheme:light dark;--bg:light-dark(#f4ecdf,#0c1d1c);--card:light-dark(#ffffff,#132a29);--ink:light-dark(#10302f,#ecf3f1);--mute:light-dark(#4d6563,#9fb6b3);--line:light-dark(#e2d5c0,#21403e);--panel:light-dark(#fbf6ee,#112523);--acc:light-dark(#d9482b,#ff8a6b);--accsoft:light-dark(#fde3da,#3a1c14);--good:light-dark(#11602f,#7fdca0);--bad:light-dark(#a3122a,#ff8a96);--court:#0f4c4a;--court2:#135c59;--maple:#d9a066}
 :root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
 *{box-sizing:border-box;min-width:0}
 html,body{height:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Source Sans 3",system-ui,sans-serif;overflow-x:clip}
-h1,h2{font-family:Oswald,sans-serif;letter-spacing:-.01em;line-height:1.05;margin:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Work Sans",system-ui,sans-serif;overflow-x:clip}
+h1,h2{font-family:"Bebas Neue",sans-serif;font-weight:400;letter-spacing:.01em;line-height:1;margin:0}
 h1{font-size:clamp(30px,4vw,40px)}
 h2{font-size:22px}
 .app{display:grid;grid-template-rows:auto minmax(0,1fr);height:100%}
-header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 20px;padding:10px max(3vw,16px);background:#111111;color:#ffffff}
-header h1{font-size:24px;font-weight:600;color:#ffffff}
-header .status{color:#b9bcc0;font-size:13px}
+header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 20px;padding:10px max(3vw,16px);background:var(--court);color:#f4ecdf}
+header h1{font-size:32px;font-weight:400;color:#f4ecdf;letter-spacing:.01em}
+header h1 .t{color:#ff8a6b}header h1 .b{color:#5fe0cf}
+header .status{color:#bcd3cf;font-size:13px}
 header .status b{color:#ffffff}
 .status{color:var(--mute);font-size:14px}
 .status b{color:var(--ink);font-weight:600}
@@ -35,7 +36,7 @@ main{display:grid;grid-template-columns:minmax(0,1fr) 360px;min-height:0}
 .msg{max-width:760px}
 .msg.you{align-self:flex-end;background:var(--accsoft);padding:10px 14px;border-radius:14px 14px 4px 14px}
 .msg.bot{align-self:flex-start}
-.msg.bot .who{font-family:Oswald,sans-serif;font-weight:600;color:var(--acc);font-size:15px;margin-bottom:2px}
+.msg.bot .who{font-family:"Bebas Neue",sans-serif;font-weight:600;color:var(--acc);font-size:15px;margin-bottom:2px}
 .msg p{margin:0 0 .6em}.msg p:last-child{margin-bottom:0}
 .msg ul,.msg ol{margin:.2em 0 .6em;padding-left:1.3em}
 .msg table{border-collapse:collapse;font-size:14px;margin:.4em 0}
@@ -52,7 +53,7 @@ main{display:grid;grid-template-columns:minmax(0,1fr) 360px;min-height:0}
 form{display:flex;gap:10px;padding:12px max(3vw,16px) 16px;border-top:1px solid var(--line);background:var(--bg)}
 textarea{flex:1;font:inherit;font-size:16px;resize:none;border:1px solid var(--line);border-radius:12px;padding:11px 14px;background:var(--bg);color:var(--ink);min-height:48px;max-height:180px}
 textarea:focus,.chip:focus-visible,button:focus-visible{outline:2px solid var(--acc);outline-offset:1px}
-button.send{font:600 15px "Source Sans 3",sans-serif;background:var(--acc);color:#fff;border:0;border-radius:12px;padding:0 20px;min-height:48px;cursor:pointer}
+button.send{font:600 15px "Work Sans",sans-serif;background:var(--acc);color:#fff;border:0;border-radius:12px;padding:0 20px;min-height:48px;cursor:pointer}
 button.send:disabled{opacity:.5;cursor:default}
 button.ghost{font:inherit;font-size:14px;background:none;border:1px solid var(--line);color:var(--mute);border-radius:10px;padding:6px 12px;min-height:36px;cursor:pointer}
 aside{overflow-y:auto;background:var(--panel);padding:18px 18px 24px}
@@ -65,7 +66,7 @@ aside{overflow-y:auto;background:var(--panel);padding:18px 18px 24px}
 .diff{color:var(--acc);font-weight:600}
 .res-hit{color:var(--good)}.res-miss{color:var(--bad)}
 .card{margin-top:22px}
-.big{font-family:Oswald,sans-serif;font-size:34px;font-weight:600;line-height:1}
+.big{font-family:"Bebas Neue",sans-serif;font-size:34px;font-weight:600;line-height:1}
 .kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:10px}
 .kpis div span{display:block;color:var(--mute);font-size:13px}
 .note{color:var(--mute);font-size:13px;margin-top:8px}
@@ -74,35 +75,36 @@ details.slate-m{display:none}
 /* board */
 .tabs{display:flex;gap:4px;align-self:center}
 .tabs{flex-wrap:wrap}
-.tabs a{font:600 15px "Source Sans 3",sans-serif;color:#c9ccd0;text-decoration:none;padding:8px 10px;min-height:40px;display:flex;align-items:center;border-bottom:3px solid transparent}
+.tabs a{font:600 15px "Work Sans",sans-serif;color:#cfe0dd;text-decoration:none;padding:8px 10px;min-height:40px;display:flex;align-items:center;border-bottom:3px solid transparent}
 .tabs a:hover{color:#ffffff}
-.tabs a[aria-current=page]{color:#ffffff;border-bottom-color:#e8283f}
+.tabs a[aria-current=page]{color:#ffffff;border-bottom-color:#ff8a6b}
 .tabs a:focus-visible{outline:2px solid var(--acc)}
 .view{overflow-y:auto;min-height:0}
 .view[hidden],main[hidden]{display:none}
 .bw{max-width:1240px;margin:0 auto;padding:24px max(3vw,16px) 48px;display:flex;flex-direction:column;gap:36px}
 .btop{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px}
-.btop{border-bottom:3px double var(--ink);padding-bottom:12px}
-.btop h2{font-size:clamp(34px,4.6vw,52px);line-height:1;font-weight:600}
+.btop{padding-bottom:4px}
+.btop h2{font-size:clamp(40px,5vw,60px);line-height:.95;font-weight:400}
 .sub{color:var(--mute);font-size:14px;margin-top:4px}
-.strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:10px;overflow:hidden;flex:1 1 560px;max-width:720px}
-.strip>div{padding:10px 14px;border-right:1px solid var(--line)}.strip>div:last-child{border-right:0}
+.strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:0;gap:10px;border-radius:0;overflow:visible;flex:1 1 560px;max-width:720px}
+.bw>.strip{flex:none;max-width:none}
+.strip>div{padding:12px 14px;background:var(--card);border-radius:14px;border-top:5px solid var(--court)}.strip>div.st{border-top-color:var(--acc)}.strip>div.sb{border-top-color:var(--blue2)}
 .strip span{display:block;font-size:13px;color:var(--mute)}
-.strip b{display:block;font:600 28px/1.1 Oswald,sans-serif}
+.strip b{display:block;font:400 38px/1 "Bebas Neue",sans-serif}
 .sec{display:flex;flex-direction:column;gap:10px}
-.sec h3{font:600 28px/1.05 Oswald,sans-serif;margin:0}
+.sec h3{font:400 34px/1 "Bebas Neue",sans-serif;margin:0}
 .sechead{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px}
 .key{display:flex;gap:14px;font-size:13px;color:var(--mute);align-items:center}
 .key i{display:inline-block;width:14px;height:8px;border-radius:2px;margin-right:6px;vertical-align:middle}
 .tel{background:var(--acc)}.mkt{background:var(--blue2)}
-:root{--blue2:light-dark(#3a5f8f,#8db1de);--track:light-dark(#efefef,#262626);--rng:light-dark(#f5b8c1,#5a2229)}
+:root{--blue2:light-dark(#0b7d70,#3fd0bd);--track:light-dark(#efe6d6,#1d3533);--rng:light-dark(#f8c8b8,#5a2a1f)}
 .gbox{overflow-x:auto;border-top:2px solid var(--ink)}
 .grow{display:grid;grid-template-columns:150px 70px minmax(220px,1fr) 64px 84px minmax(160px,1fr);gap:14px;padding:11px 0;border-bottom:1px solid var(--line);align-items:center;min-width:820px}
 .grow.h{font-size:13px;color:var(--mute);padding:8px 0}
 button.grow{font:inherit;color:inherit;background:none;border:0;border-bottom:1px solid var(--line);width:100%;text-align:left;cursor:pointer}
 button.grow:hover{background:var(--panel)}
 .gm b{display:block}.gm span,.small{font-size:13px;color:var(--mute)}
-.pk{font:600 24px Oswald,sans-serif}
+.pk{font:600 24px "Bebas Neue",sans-serif}
 .bars{display:flex;flex-direction:column;gap:5px}
 .bar{display:grid;grid-template-columns:minmax(0,1fr) 44px;gap:8px;align-items:center;font-variant-numeric:tabular-nums}
 .bar>div{height:10px;background:var(--track);border-radius:5px}.bar>div>div{height:10px;border-radius:5px}
@@ -110,7 +112,7 @@ button.grow:hover{background:var(--panel)}
 .gap{text-align:right;font-variant-numeric:tabular-nums;color:var(--mute)}
 .gap.wide span{background:var(--accsoft);color:light-dark(#9a3a08,#ffb08a);font-weight:600;padding:3px 8px;border-radius:6px}
 .two{display:flex;flex-wrap:wrap;gap:36px}.two>.sec{flex:1 1 480px;min-width:0}
-.list{border-top:2px solid var(--ink)}
+.list{background:var(--card);border-radius:14px;padding:0 14px}
 .lrow{display:grid;grid-template-columns:minmax(0,1fr) 160px;gap:14px;padding:11px 0;border-bottom:1px solid var(--line);align-items:center}
 .lrow .who{font-weight:600}.lrow .who span{font-weight:400;color:var(--mute)}
 .det{font-size:14px;color:light-dark(#3d4248,#c4c8cc);font-variant-numeric:tabular-nums}
@@ -119,7 +121,7 @@ button.grow:hover{background:var(--panel)}
 .range i{position:absolute;top:0;height:14px;border-radius:7px;background:var(--rng)}
 .range b{position:absolute;top:2px;width:10px;height:10px;margin-left:-5px;border-radius:5px;background:var(--acc)}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
-.rc{border:1px solid var(--line);border-radius:10px;padding:11px 14px;display:flex;flex-direction:column;gap:3px}
+.rc{background:var(--card);border:0;border-radius:14px;padding:11px 14px;display:flex;flex-direction:column;gap:3px}
 .rc .t{display:flex;justify-content:space-between;align-items:center;font-weight:600}
 .hm{font-size:13px;font-weight:600;color:#fff;padding:2px 8px;border-radius:5px}.hm.hit{background:#147a3d}.hm.miss{background:#b3261e}
 .foot{font-size:13px;color:var(--mute);border-top:1px solid var(--line);padding-top:14px}
@@ -128,9 +130,9 @@ button.grow:hover{background:var(--panel)}
 .pctl input,.pctl select{font:inherit;font-size:16px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 12px;min-height:44px}
 .pctl input{width:min(260px,70vw)}
 .pctl input:focus,.pctl select:focus{outline:2px solid var(--acc);outline-offset:1px}
-.ptab{overflow-x:auto;border-top:2px solid var(--ink)}
+.ptab{overflow-x:auto;background:var(--card);border-radius:14px;padding:0 12px}
 .ptab table{border-collapse:collapse;width:100%;min-width:760px;font-size:14px;font-variant-numeric:tabular-nums}
-.ptab th{font-weight:500;color:var(--mute);text-align:right;padding:8px 8px;border-bottom:1px solid var(--line);white-space:nowrap;position:sticky;top:0;background:var(--bg)}
+.ptab th{font-weight:500;color:var(--mute);text-align:right;padding:8px 8px;border-bottom:1px solid var(--line);white-space:nowrap;position:sticky;top:0;background:var(--card)}
 .ptab th:first-child,.ptab td:first-child,.ptab th:nth-child(2),.ptab td:nth-child(2){text-align:left}
 .ptab th button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:6px 0;min-height:32px}
 .ptab th button[aria-sort]{color:var(--ink);font-weight:600}
@@ -138,7 +140,7 @@ button.grow:hover{background:var(--panel)}
 .ptab td .r{display:block;font-size:12px;color:var(--mute)}
 .ptab td .a{display:block;font-size:12px;font-weight:600}
 .ptab td .a.o{color:var(--good)}.ptab td .a.u{color:var(--bad)}
-.ptab tr.gh td{background:var(--panel);font-weight:600;text-align:left;padding:10px 8px}
+.ptab tr.gh td{background:var(--court);color:#f4ecdf;font-weight:600;text-align:left;padding:10px 8px}
 .ptab .mk{display:block;font-size:12px;color:var(--blue2)}
 .legend{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-size:13px;color:var(--mute);border:1px solid var(--line);border-radius:8px;padding:10px 14px}
 .legend .lg-t{font-weight:600;color:var(--ink)}
@@ -157,22 +159,24 @@ button.grow:hover{background:var(--panel)}
 .pname{font-weight:600}.pname button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left}.pname button:hover{color:var(--acc)}
 .cols{display:flex;flex-wrap:wrap;gap:28px}.cols>*{flex:1 1 340px;min-width:0}
 .rail{flex:1 1 220px;max-width:270px;display:flex;flex-direction:column;gap:6px}
-.rail button{font:inherit;display:flex;justify-content:space-between;gap:8px;padding:9px 12px;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;min-height:40px;font-variant-numeric:tabular-nums}
-.rail button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink);font-weight:600}
+.rail{background:var(--court);color:#f4ecdf;border-radius:18px;padding:14px}
+.rail .small{color:#bcd3cf}
+.rail button{font:inherit;display:flex;justify-content:space-between;gap:8px;padding:9px 12px;border-radius:10px;border:0;background:var(--court2);color:#f4ecdf;cursor:pointer;min-height:42px;font-variant-numeric:tabular-nums;text-align:left}
+.rail button[aria-pressed=true]{background:#ff8a6b;color:#10302f;font-weight:700}
 .gmain{flex:999 1 640px;min-width:0;display:flex;flex-direction:column;gap:24px}
-.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));border:1px solid var(--line);border-radius:8px;overflow:hidden}
-.kv>div{padding:12px 14px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 -1px -1px 0}
-.kv span{display:block;font-size:13px;color:var(--mute)}.kv b{display:block;font:600 30px/1.15 Oswald,sans-serif}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.kv>div{padding:12px 14px;background:var(--card);border-radius:14px}
+.kv span{display:block;font-size:13px;color:var(--mute)}.kv b{display:block;font:400 40px/1 "Bebas Neue",sans-serif}
 .wf{display:grid;grid-template-columns:200px minmax(0,1fr) 56px;gap:10px;align-items:center;font-variant-numeric:tabular-nums}
 .wf>div:nth-child(2){height:14px;background:var(--track);border-radius:3px}.wf i{display:block;height:14px;border-radius:3px}
 .hist{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:4px;align-items:end;height:150px;border-bottom:1px solid var(--ink)}
 .hist i{display:block;border-radius:2px 2px 0 0}
 .histl{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:4px;font-size:12px;color:var(--mute);text-align:center}
 .rt{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
-.rt th{font-weight:600;color:var(--mute);text-align:right;padding:6px 6px;border-top:2px solid var(--ink);border-bottom:1px solid var(--ink);font-size:13px;white-space:nowrap}
+.rt th{font-weight:600;color:var(--mute);text-align:right;padding:6px 6px;border-bottom:2px solid var(--line);font-size:13px;white-space:nowrap}
 .rt td{text-align:right;padding:7px 6px;border-bottom:1px solid var(--line)}
 .rt th:first-child,.rt td:first-child{text-align:left;padding-left:0}
-.note2{background:var(--panel);border-radius:8px;padding:12px 16px;font-size:15px}
+.note2{background:var(--card);border-left:5px solid var(--acc);border-radius:10px;padding:12px 16px;font-size:15px}
 .warn{background:light-dark(#fff4e5,#2e2412);border:1px solid light-dark(#f1cf9c,#5a4520);border-radius:8px;padding:12px 16px;font-size:15px}
 .chipsF{display:flex;flex-wrap:wrap;gap:8px}
 .chipsF button{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:7px 14px;min-height:38px;cursor:pointer}
@@ -183,13 +187,32 @@ button.grow:hover{background:var(--panel)}
 .sb{display:flex;flex-direction:column;gap:4px}
 .state-confirmed{color:var(--good);font-weight:600}.state-faded{color:var(--bad)}
 @media(max-width:600px){.wf{grid-template-columns:130px minmax(0,1fr) 50px}.rail{max-width:none}.strip{grid-template-columns:repeat(2,minmax(0,1fr))}.strip>div:nth-child(2){border-right:0}.strip>div:nth-child(-n+2){border-bottom:1px solid var(--line)}.lrow{grid-template-columns:minmax(0,1fr) 120px}}
+.fo{display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,240px) minmax(0,1fr);gap:16px;align-items:center;background:var(--card);border-radius:16px;padding:14px 18px;border:0;width:100%;font:inherit;color:inherit;text-align:left;cursor:pointer}
+.fo:hover{outline:2px solid var(--acc)}
+.fo .side{display:flex;flex-direction:column;gap:4px}.fo .side.t{text-align:right}
+.fo .who{font-size:13px;font-weight:700}.fo .side.t .who{color:var(--acc)}.fo .side.m .who{color:var(--blue2)}
+.fo .num{font:400 44px/1 "Bebas Neue",sans-serif}.fo .num small{font:600 14px "Work Sans",sans-serif;color:var(--mute)}
+.fo .tr{height:8px;background:var(--track);border-radius:4px;display:flex}.fo .side.t .tr{justify-content:flex-end}
+.fo .tr i{display:block;height:8px;border-radius:4px}
+.fo .mid{text-align:center;display:flex;flex-direction:column;gap:3px}
+.fo .mid .mu{font:400 28px/1 "Bebas Neue",sans-serif}
+.agree{font-size:13px;font-weight:700}.agree.y{color:var(--good)}.agree.n{color:var(--bad)}
+.court{position:relative;background:var(--maple);border-radius:18px;height:170px;overflow:hidden}
+.court .c1{position:absolute;left:50%;top:0;bottom:0;width:3px;background:#f4ecdf}
+.court .c2{position:absolute;left:50%;top:50%;width:90px;height:90px;margin:-45px 0 0 -45px;border:3px solid #f4ecdf;border-radius:50%}
+.court .k{position:absolute;top:40px;width:min(160px,28%);height:90px;border:3px solid #f4ecdf;display:flex;align-items:center;padding:0 14px;font:400 42px/1 "Bebas Neue",sans-serif;color:#fff;box-sizing:border-box}
+.court .k.a{left:0;border-left:0}.court .k.h{right:0;border-right:0;justify-content:flex-end}
+.court .lab{position:absolute;bottom:8px;font-size:12px;font-weight:700;color:#10302f;background:rgba(244,236,223,.9);padding:2px 8px;border-radius:6px}
+.court .lab.a{left:10px}.court .lab.h{right:10px}
+.score3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media(max-width:700px){.fo{grid-template-columns:1fr 1fr}.fo .mid{grid-column:1/-1;order:-1}.fo .num{font-size:36px}.score3{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:no-preference){.msg{animation:in .18s ease-out}@keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1}}}
 </style>
 </head>
 <body>
 <div class="app">
   <header>
-    <div><h1>NBA Teleios Analyst</h1><div class="status" id="status">Loading data…</div></div>
+    <div><h1><span class="t">Teleios</span> vs <span class="b">the bettors</span></h1><div class="status" id="status">Loading data…</div></div>
     <nav class="tabs" aria-label="Views"><a href="#board" id="tBoard">Board</a><a href="#game" id="tGame">Game</a><a href="#edges" id="tEdges">Edges</a><a href="#players" id="tPlayers">Players</a><a href="#health" id="tHealth">Model health</a><a href="#chat" id="tChat">Chat</a></nav>
   </header>
   <section id="board" class="view" aria-label="Picks board"><div class="bw" id="boardBody"><p class="sub">Loading…</p></div></section>
@@ -342,7 +365,7 @@ function brief() {
   return `You are Teleios, a sharp, honest NBA analyst for one person. Today is ${etDate()} (US Eastern). Your data was built ${D.built}.
 You answer ONLY from your tools (call them; never invent numbers, injuries, scores or players). If the data doesn't cover something, say so plainly.
 Model: ${D.model.how} Settings: ${JSON.stringify(D.model.params)}. Situation effects in points: ${JSON.stringify(D.model.situation_effects)}.
-How to answer: lead with the answer, then the 2-4 numbers that matter, then the reasoning. Explain WHY using the model's parts (who is out, rest, travel, player ratings) and the evidence (shot profiles from play-by-play; NBA.com camera tracking: drives, catch-and-shoot vs pull-up, defender distance, touches, speed, rim defense). Tracking and shot data are descriptive: they are NOT inputs to the win model, so say so if asked. Compare to the market when relevant and say when Teleios disagrees. Be candid about uncertainty and sample size; the market is a tough benchmark and Teleios is not yet proven better than it. Never tell the user to bet; you're an analyst, not a tipster. Plain text, short paragraphs; a small markdown table only when comparing several rows. Use team codes like BOS, players' full names. Win chances as percentages.`;
+How to answer: lead with the answer, then the 2-4 numbers that matter, then the reasoning. Explain WHY using the model's parts (who is out, rest, travel, player ratings) and the evidence (shot profiles from play-by-play; NBA.com camera tracking: drives, catch-and-shoot vs pull-up, defender distance, touches, speed, rim defense). Tracking and shot data are descriptive: they are NOT inputs to the win model, so say so if asked. Compare to the market when relevant and say when Teleios disagrees. Be candid about uncertainty and sample size; the market is a tough benchmark and Teleios is not yet proven better than it. Never tell the user to bet; you're an analyst, not a tipster. Write for an average fan: plain words, short paragraphs, no jargon (don't say Brier, calibration, team term, regularised, prior); call the betting market "the bettors (Kalshi)"; give chances as "X in 100"; explain any number you use in a few words. A small markdown table only when comparing several rows. Use full team or player names.`;
 }
 
 /* ---------- UI ---------- */
@@ -381,14 +404,14 @@ function slateHTML() {
   const d = days[0] || Object.keys(D.predictions).sort().pop(); const list = (D.predictions[d] || []).slice().sort((a, b) => a.tip_utc.localeCompare(b.tip_utc));
   $("#slateTitle").textContent = d === today ? "Tonight" : "Games " + d;
   if (!list.length) return '<p class="note">No games stored.</p>';
-  return '<table class="sheet"><tr><th>Game</th><th class="n">Teleios</th><th class="n">Market</th></tr>' + list.map(p => {
+  return '<table class="sheet"><tr><th>Game</th><th class="n">Teleios</th><th class="n">Bettors</th></tr>' + list.map(p => {
     const mk = p.market_p_home == null ? null : (p.pick === p.home ? p.market_p_home : 1 - p.market_p_home);
     const gap = mk == null ? 0 : p.chance - mk; const r = p.result;
-    return `<tr class="g" data-q="${esc(`Break down ${p.away} at ${p.home}: why does Teleios pick ${p.pick}?`)}"><td>${esc(p.away)} @ ${esc(p.home)}<br><span class="note">${r ? `<span class="${r.hit ? "res-hit" : "res-miss"}">${r.hit ? "Hit" : "Miss"}</span> ${esc(r.winner)} won` : esc(tipET(p.tip_utc)) + " CT"}</span></td><td class="n"><span class="pick">${esc(p.pick)}</span> ${pct(p.chance)}</td><td class="n ${Math.abs(gap) >= .06 ? "diff" : ""}">${pct(mk)}</td></tr>`; }).join("") + '</table><p class="note">Orange = Teleios and the market differ by 6+ points. Tap a game to ask about it.</p>';
+    return `<tr class="g" data-q="${esc(`Break down ${p.away} at ${p.home}: why does Teleios pick ${p.pick}?`)}"><td>${esc(p.away)} @ ${esc(p.home)}<br><span class="note">${r ? `<span class="${r.hit ? "res-hit" : "res-miss"}">${r.hit ? "Hit" : "Miss"}</span> ${esc(r.winner)} won` : esc(tipET(p.tip_utc)) + " CT"}</span></td><td class="n"><span class="pick">${esc(p.pick)}</span> ${pct(p.chance)}</td><td class="n ${Math.abs(gap) >= .06 ? "diff" : ""}">${pct(mk)}</td></tr>`; }).join("") + '</table><p class="note">Coral = Teleios and the bettors differ by 6+ points. Tap a game to ask about it.</p>';
 }
 function scoreHTML() {
   const s = D.scorecard || {}; const live = (s.live || {}).metrics || {}; const b = (s.backfill_2026_27 || {}).vs_fanduel_close || {}; const bt = (s.backtest_2025_26 || {}).test || {};
-  return `<h2>Scorecard</h2><div class="kpis"><div><span>Live</span><b class="big">${live.games ? pct(live.accuracy) : "–"}</b><span>${live.games || 0} games</span></div><div><span>This season*</span><b class="big">${b.teleios ? pct(b.teleios.accuracy) : "–"}</b><span>market ${b.fanduel_close ? pct(b.fanduel_close.accuracy) : "–"}</span></div><div><span>2025-26 test</span><b class="big">${bt.accuracy ? pct(bt.accuracy) : "–"}</b><span>${bt.games || ""} games</span></div></div><p class="note">*Backfill, made after the fact. Picked-winner rate shown; ask Teleios for Brier score and calibration.</p>`;
+  return `<h2>Scorecard</h2><div class="kpis"><div><span>Live</span><b class="big">${live.games ? pct(live.accuracy) : "–"}</b><span>${live.games || 0} games</span></div><div><span>This season*</span><b class="big">${b.teleios ? pct(b.teleios.accuracy) : "–"}</b><span>bettors ${b.fanduel_close ? pct(b.fanduel_close.accuracy) : "–"}</span></div><div><span>Last season</span><b class="big">${bt.accuracy ? pct(bt.accuracy) : "–"}</b><span>${bt.games || ""} games</span></div></div><p class="note">How often Teleios picked the winner. *Look-back test made after the fact.</p>`;
 }
 
 /* ---------- board ---------- */
@@ -413,42 +436,46 @@ function boardHTML() {
   const PP = (D.player_projections || {})[day] || []; const nLines = PP.reduce((a, g) => a + g.players.length, 0);
   const s = D.scorecard || {}; const live = (s.live || {}).metrics || {}; const bf = (s.backfill_2026_27 || {}).vs_fanduel_close || {}; const bt = (s.backtest_2025_26 || {}).test || {}; const pb = (s.players_backtest_2025_26 || {}).test_avg_miss || {};
   const liveRec = live.games ? `${Math.round(live.accuracy * live.games)}–${live.games - Math.round(live.accuracy * live.games)}` : "0–0";
-  let h = `<div class="btop"><div><h2>${day === today ? "Tonight's board" : "Board"} · ${esc(niceDate(day))}</h2><div class="sub">${games.length} games · ${nLines} player lines · locked at tip-off · data ${esc(D.built)}</div></div>
-  <div class="strip"><div><span>Live record</span><b>${liveRec}</b><span>${live.games ? pct(live.accuracy) + " of winners" : "first grades tomorrow"}</span></div>
-  <div><span>This season*</span><b>${bf.teleios ? pct(bf.teleios.accuracy) : "–"}</b><span>market ${bf.fanduel_close ? pct(bf.fanduel_close.accuracy) : "–"}</span></div>
-  <div><span>2025-26 test</span><b>${bt.accuracy ? (bt.accuracy * 100).toFixed(1) + "%" : "–"}</b><span>winners picked</span></div>
-  <div><span>Points miss</span><b>${pb.pts ? pb.pts.toFixed(2) : "–"}</b><span>2025-26 test</span></div></div></div>`;
-  // games
-  h += `<section class="sec"><div class="sechead"><h3>Games</h3><div class="key"><span><i class="tel"></i>Teleios</span><span><i class="mkt"></i>Market (Kalshi)</span></div></div><div class="gbox"><div class="grow h"><div>Game</div><div>Pick</div><div>Win chance for the pick</div><div style="text-align:right">Gap</div><div>Margin</div><div>Key players out</div></div>`;
+  const splits = games.filter(p => { const m = mktPick(p); return m != null && m < 0.5; }).length;
+  const strong = games.filter(p => p.chance >= 0.75).length;
+  const in100 = x => x == null ? "–" : Math.round(x * 100);
+  let h = `<div class="btop"><div><h2>${day === today ? "Tonight" : esc(niceDate(day))}: who does each side expect to win?</h2><div class="sub">${esc(niceDate(day))} · ${games.length} games · ${strong} strong picks · Teleios and the bettors disagree on ${splits} · picks lock at tip-off</div></div></div>
+  <div class="strip"><div class="st"><span>Teleios right this season*</span><b>${bf.teleios ? in100(bf.teleios.accuracy) + " in 100" : "–"}</b><span>picking the winner</span></div>
+  <div class="sb"><span>Bettors right this season*</span><b>${bf.fanduel_close ? in100(bf.fanduel_close.accuracy) + " in 100" : "–"}</b><span>same games</span></div>
+  <div><span>Teleios live record</span><b>${liveRec}</b><span>${live.games ? "since Nov 23" : "first results tomorrow"}</span></div>
+  <div><span>Last season's test</span><b>${bt.accuracy ? in100(bt.accuracy) + " in 100" : "–"}</b><span>winners picked, 2025-26</span></div></div>`;
+  // games: face-off rows
+  h += `<section class="sec"><div class="sechead"><h3>Games</h3><div class="key"><span><i class="tel"></i>Teleios</span><span><i class="mkt"></i>Bettors (Kalshi)</span></div></div><div style="display:flex;flex-direction:column;gap:10px">`;
   for (const p of games) {
-    const mk = p.market_p_home == null ? null : (p.pick === p.home ? p.market_p_home : 1 - p.market_p_home);
-    const gap = mk == null ? null : Math.round(p.chance * 100) - Math.round(mk * 100);
-    const outs = Object.values((p.why || {}).out || {}).flat().filter(o => o.minutes >= 20).map(o => o.player).slice(0, 3).join(", ") || "—";
-    const r = p.result; const when = r ? `<span class="${r.hit ? "res-hit" : "res-miss"}">${r.hit ? "Hit" : "Miss"}</span> · ${esc(r.winner)} won` : esc(tipET(p.tip_utc)) + " CT";
-    h += `<button class="grow" type="button" data-game="${p.game_id}"><div class="gm"><b>${esc(p.away)} @ ${esc(p.home)}</b><span>${when}</span></div><div class="pk">${esc(p.pick)}</div>
-      <div class="bars"><div class="bar"><div><div class="tel" style="width:${W(p.chance * 100)}"></div></div><em><b>${pct(p.chance)}</b></em></div><div class="bar"><div><div class="mkt" style="width:${mk == null ? "0%" : W(mk * 100)}"></div></div><em style="color:var(--blue2)">${pct(mk)}</em></div></div>
-      <div class="gap ${gap != null && Math.abs(gap) >= 6 ? "wide" : ""}"><span>${gap == null ? "–" : (gap > 0 ? "+" : "") + gap}</span></div><div class="det">by ${Math.abs(p.margin).toFixed(1)}${r && r.actual_pick_margin != null ? `<span class="small" style="display:block">actual ${r.actual_pick_margin >= 0 ? "+" : ""}${r.actual_pick_margin}</span>` : ""}</div><div class="det">${esc(outs)}</div></button>`;
+    const mk = mktPick(p); const other = p.pick === p.home ? p.away : p.home;
+    const outs = Object.values((p.why || {}).out || {}).flat().filter(o => o.minutes >= 20).map(o => o.player).slice(0, 2);
+    const r = p.result;
+    let ag = mk == null ? "" : (mk < 0.5 ? `<div class="agree n">✗ Bettors favor ${esc(other)}</div>` : `<div class="agree y">✓ Bettors agree</div>`);
+    const res = r ? `<div><span class="chip ${r.hit ? "ok" : "no"}">${r.hit ? "✓ Teleios was right" : "✗ Teleios was wrong"}</span></div><div class="small">${esc(r.winner)} won by ${Math.abs(r.margin)}${r.projected_pick_margin != null ? ` · expected ${esc(p.pick)} by ${Math.abs(r.projected_pick_margin)}` : ""}</div>` : `<div class="small">Expected: ${esc(p.pick)} by about ${Math.round(Math.abs(p.margin))}${outs.length ? ` · ${esc(outs.join(", "))} out` : ""}</div>`;
+    h += `<button class="fo" type="button" data-game="${p.game_id}"><div class="side t"><div class="who">Teleios</div><div class="num">${in100(p.chance)}<small> in 100</small></div><div class="tr"><i style="width:${W(p.chance * 100)};background:var(--acc)"></i></div></div>
+      <div class="mid"><div class="small">${r ? "Final" : esc(tipET(p.tip_utc)) + " CT"}</div><div class="mu">${esc(p.away)} @ ${esc(p.home)}</div><div>Pick: <b>${esc(p.pick)}</b> to win</div>${ag}${res}</div>
+      <div class="side m"><div class="who">Bettors</div><div class="num">${in100(mk)}<small> in 100</small></div><div class="tr"><i style="width:${mk == null ? "0%" : W(mk * 100)};background:var(--blue2)"></i></div></div></button>`;
   }
-  h += `</div><div class="small">Highlighted gap = Teleios and the market differ by 6+ points. Tap a game for its full breakdown.</div></section>`;
+  h += `</div><div class="small">Both numbers are each side's chance that <b>Teleios's pick</b> wins. Tap a game for the full story.</div></section>`;
   // disagreements + tops
   const dis = []; for (const g of PP) for (const p of g.players) for (const [st, m] of Object.entries(p.market || {})) dis.push({p, st, m, d: Math.abs(m.teleios_p_over - m.market_p_over)});
   dis.sort((a, b) => b.d - a.d); const seen = new Set(); const dl = []; for (const x of dis) { if (seen.has(x.p.player)) continue; seen.add(x.p.player); dl.push(x); if (dl.length === 8) break; }
-  h += `<div class="two"><section class="sec"><h3>Biggest disagreements with Kalshi</h3><div class="small">Chance the player goes over Kalshi's main line. One line per player. Tap to ask why.</div><div class="list">`;
-  h += dl.length ? dl.map(({p, st, m}) => `<button class="lrow" type="button" style="width:100%;font:inherit;color:inherit;background:none;border:0;border-bottom:1px solid var(--line);text-align:left;cursor:pointer" data-q="${esc(`Why does Teleios disagree with Kalshi on ${p.player} ${SN[st]} ${m.line} tonight?`)}"><div><div class="who">${esc(p.player)} <span>${esc(p.team)}</span>${p.questionable ? '<span class="tag">Questionable</span>' : ""}</div><div class="det">${SN[st]} ${m.line} · projects ${p.proj[st].toFixed(1)} · Teleios leans <b>${m.teleios_p_over > m.market_p_over ? "Over" : "Under"}</b>${m.went_over != null ? ` · went ${m.went_over ? "over" : "under"}` : ""}</div></div>
+  h += `<div class="two"><section class="sec"><h3>Where Teleios and the bettors disagree on players</h3><div class="small">Chance the player goes <b>over</b> the betting line: Teleios (coral) vs bettors (teal). Tap one to ask why.</div><div class="list">`;
+  h += dl.length ? dl.map(({p, st, m}) => `<button class="lrow" type="button" style="width:100%;font:inherit;color:inherit;background:none;border:0;border-bottom:1px solid var(--line);text-align:left;cursor:pointer" data-q="${esc(`Why does Teleios disagree with Kalshi on ${p.player} ${SN[st]} ${m.line} tonight?`)}"><div><div class="who">${esc(p.player)} <span>${esc(p.team)}</span>${p.questionable ? '<span class="tag">Questionable</span>' : ""}</div><div class="det">${SN[st]} ${m.line} · projects ${p.proj[st].toFixed(1)} · Teleios leans <b>${m.teleios_p_over > m.market_p_over ? "over" : "under"}</b>${m.went_over != null ? ` · went ${m.went_over ? "over" : "under"}` : ""}</div></div>
       <div class="bars"><div class="bar"><div><div class="tel" style="width:${W(m.teleios_p_over * 100)}"></div></div><em><b>${pct(m.teleios_p_over)}</b></em></div><div class="bar"><div><div class="mkt" style="width:${W(m.market_p_over * 100)}"></div></div><em style="color:var(--blue2)">${pct(m.market_p_over)}</em></div></div></button>`).join("") : `<p class="small">No Kalshi player lines matched yet for this slate.</p>`;
   const tops = PP.flatMap(g => g.players).sort((a, b) => b.proj.pra - a.proj.pra).slice(0, 8); const SC = 50;
-  h += `</div></section><section class="sec"><h3>Top projected lines</h3><div class="small">Bar = 80% range for points on a 0–50 scale; dot = projection.</div><div class="list">`;
+  h += `</div></section><section class="sec"><h3>Top scorers tonight</h3><div class="small">Dot = expected points. Shaded bar = where he usually lands (8 times in 10), on a 0–50 scale.</div><div class="list">`;
   h += tops.map(p => { const r = p.range80.pts || [0, 0]; return `<div class="lrow"><div><div class="who">${esc(p.player)} <span>${esc(p.team)} vs ${esc(p.opp)}</span>${p.questionable ? '<span class="tag">Questionable</span>' : ""}</div><div class="det"><b>${p.proj.pts.toFixed(1)}</b> pts · ${p.proj.reb.toFixed(1)} reb · ${p.proj.ast.toFixed(1)} ast · ${p.proj.fg3m.toFixed(1)} 3PM${p.season_avg ? ` · season ${p.season_avg.pts.toFixed(1)} pts` : ""}${p.actual ? ` · scored <b>${p.actual.pts}</b>` : ""}</div></div>
-      <div><div class="range"><i style="left:${W(r[0] / SC * 100)};width:${W((r[1] - r[0]) / SC * 100)}"></i><b style="left:${W(p.proj.pts / SC * 100)}"></b></div><div class="small" style="text-align:right">80%: ${Math.round(r[0])}–${Math.round(r[1])}</div></div></div>`; }).join("");
+      <div><div class="range"><i style="left:${W(r[0] / SC * 100)};width:${W((r[1] - r[0]) / SC * 100)}"></i><b style="left:${W(p.proj.pts / SC * 100)}"></b></div><div class="small" style="text-align:right">usually ${Math.round(r[0])}–${Math.round(r[1])}</div></div></div>`; }).join("");
   h += `</div></section></div>`;
   // last night: live graded if any, else backfill
   const past = Object.keys(P).filter(d => d < day).sort(); let lastDay = null, rows = [], live2 = false;
   for (let i = past.length - 1; i >= 0; i--) { const g = P[past[i]].filter(p => p.result); if (g.length) { lastDay = past[i]; live2 = true; rows = g.map(p => ({m: `${p.away} @ ${p.home}`, pick: p.pick, ch: p.chance, sc: `${p.away} ${p.result.away_score} – ${p.home} ${p.result.home_score}`, hit: p.result.hit, mg: p.result.projected_pick_margin != null ? `Projected ${p.pick} ${p.result.projected_pick_margin >= 0 ? "+" : ""}${p.result.projected_pick_margin} · actual ${p.result.actual_pick_margin >= 0 ? "+" : ""}${p.result.actual_pick_margin} · off by ${p.result.margin_miss}` : ""})); break; } }
   if (!rows.length) { const R = D.results.rows; const ld = R.filter(r => r[0] < day && r[5] != null).map(r => r[0]).sort().pop(); if (ld) { lastDay = ld; rows = R.filter(r => r[0] === ld && r[5] != null).map(r => { const pick = r[5] >= .5 ? r[1] : r[2]; return {m: `${r[2]} @ ${r[1]}`, pick, ch: Math.max(r[5], 1 - r[5]), sc: `${r[2]} ${r[4]} – ${r[1]} ${r[3]}`, hit: pick === (r[3] > r[4] ? r[1] : r[2])}; }); } }
   if (rows.length) { const nh = rows.filter(r => r.hit).length;
-    h += `<section class="sec"><div class="sechead"><h3>Last night · ${nh}–${rows.length - nh}</h3><span class="small">${esc(niceDate(lastDay))} · ${live2 ? "live predictions, frozen before tip-off" : "from the backfill (made after the fact); live grades replace this once games are graded"}</span></div><div class="cards">`;
+    h += `<section class="sec"><div class="sechead"><h3>Last night · ${nh}–${rows.length - nh}</h3><span class="small">${esc(niceDate(lastDay))} · ${live2 ? "Teleios's real picks, locked before tip-off" : "a look-back test made after the fact; real results replace this from tomorrow"}</span></div><div class="cards">`;
     h += rows.map(r => `<div class="rc"><div class="t"><span>${esc(r.m)}</span><span class="hm ${r.hit ? "hit" : "miss"}">${r.hit ? "Hit" : "Miss"}</span></div><div class="det">Picked ${esc(r.pick)} at ${pct(r.ch)}</div><div class="small">${esc(r.sc)}</div>${r.mg ? `<div class="small">${esc(r.mg)}</div>` : ""}</div>`).join("") + `</div></section>`; }
-  h += `<div class="foot">*This season = backfill of ${bf.games || "–"} games with a market price, made after the fact, knowing who played. Teleios is an analyst, not a tipster: these are predictions to study, not bets.</div>`;
+  h += `<div class="foot">*This season = a look-back test on ${bf.games || "–"} games, made after the fact. Teleios is an analyst, not a tipster: these are predictions to study, not betting advice.</div>`;
   return h;
 }
 
@@ -461,17 +488,17 @@ function renderPlayers() {
   const P = D.player_projections || {}; const today = etDate(); const days = Object.keys(P).sort();
   if (!PS.day) PS.day = days.filter(d => d >= today)[0] || days[days.length - 1];
   const games = (P[PS.day] || []).slice().sort((a, b) => String(a.tip_utc).localeCompare(String(b.tip_utc)));
-  $("#playersBody").innerHTML = `<div class="btop"><div><h2>Every projection</h2><div class="sub">Each line means "if he plays". Tap a name to ask Teleios about him.</div></div></div>
+  $("#playersBody").innerHTML = `<div class="btop"><div><h2>Every player tonight</h2><div class="sub">What Teleios expects each player to do tonight (if he plays). Tap a name to ask Teleios why.</div></div></div>
    <div class="legend"><span class="lg-t">How to read it</span>
     <span><span class="chip up">▲ 2.1</span> above his season average</span><span><span class="chip dn">▼ 1.8</span> below it</span>
-    <span><span class="chip ov">Over 22.5 · 61%</span> Teleios leans over Kalshi's line</span><span><span class="chip un">Under 8.5 · 58%</span> leans under</span>
+    <span><span class="chip ov">Over 22.5 · 61%</span> Teleios thinks he goes over the betting line (61 in 100)</span><span><span class="chip un">Under 8.5 · 58%</span> leans under</span>
     <span><span class="chip ok">✓ 27</span> after the game: Teleios's call was right</span><span><span class="chip no">✗ 19</span> it was wrong</span></div>
    <div class="pctl"><label>Date<select id="pday">${days.map(d => `<option value="${d}"${d === PS.day ? " selected" : ""}>${esc(niceDate(d))}</option>`).join("")}</select></label>
    <label>Game<select id="pgame"><option value="">All games</option>${games.map(g => `<option value="${g.game_id}"${String(g.game_id) === PS.game ? " selected" : ""}>${esc(g.away)} @ ${esc(g.home)}</option>`).join("")}</select></label>
    <label>Player or team<input id="pq" type="search" placeholder="e.g. Brunson or BOS" value="${esc(PS.q)}"></label>
    <label>Sort by<select id="psort">${[...PCOLS_MAIN, ...PCOLS_MORE].map(([k, n]) => `<option value="${k}"${k === PS.sort ? " selected" : ""}>${n}</option>`).join("")}</select></label>
    <label>View<select id="pgroup"><option value="1"${PS.group ? " selected" : ""}>By game</option><option value="0"${!PS.group ? " selected" : ""}>One list</option></select></label>
-   <div class="toggles"><label class="tg"><input type="checkbox" id="pmore"${PS.more ? " checked" : ""}> Steals, blocks, turnovers</label><label class="tg"><input type="checkbox" id="pdetail"${PS.detail ? " checked" : ""}> Ranges and market %</label></div></div>
+   <div class="toggles"><label class="tg"><input type="checkbox" id="pmore"${PS.more ? " checked" : ""}> Steals, blocks, turnovers</label><label class="tg"><input type="checkbox" id="pdetail"${PS.detail ? " checked" : ""}> Show "usually between" and bettors' numbers</label></div></div>
    <div class="small" id="pcount"></div><div class="ptab" id="ptab"></div>`;
   const re = () => { PS.day = $("#pday").value; PS.game = $("#pgame").value; PS.q = $("#pq").value; PS.sort = $("#psort").value; PS.group = $("#pgroup").value === "1"; PS.more = $("#pmore").checked; PS.detail = $("#pdetail").checked; };
   $("#pday").addEventListener("change", () => { re(); PS.game = ""; renderPlayers(); });
@@ -487,13 +514,13 @@ function cell(p, k) {
   let line = "";
   if (m) { const over = m.teleios_p_over >= 0.5; const ch = over ? m.teleios_p_over : 1 - m.teleios_p_over;
     line = `<span class="chip ${over ? "ov" : "un"}" title="Kalshi line ${m.line}; market ${pct(over ? m.market_p_over : 1 - m.market_p_over)}">${over ? "Over" : "Under"} ${m.line} · ${pct(ch)}</span>`;
-    if (PS.detail) line += `<span class="r">market ${pct(over ? m.market_p_over : 1 - m.market_p_over)}</span>`; }
+    if (PS.detail) line += `<span class="r">bettors ${pct(over ? m.market_p_over : 1 - m.market_p_over)}</span>`; }
   let res = "";
   if (a != null) { let right;
     if (m) { const over = m.teleios_p_over >= 0.5; right = over ? a > m.line : a < m.line; }
     else right = r ? (a >= r[0] && a <= r[1]) : null;
     res = right == null ? `<span class="chip eq">${a}</span>` : `<span class="chip ${right ? "ok" : "no"}" title="${m ? "Teleios's over/under call vs Kalshi's line" : "Inside the 80% range?"}">${right ? "✓" : "✗"} ${a}</span>`; }
-  return `<td><b class="pv">${v.toFixed(1)}</b>${res}${vs}${line}${PS.detail && r ? `<span class="r">80%: ${Math.round(r[0])}–${Math.round(r[1])}</span>` : ""}</td>`;
+  return `<td><b class="pv">${v.toFixed(1)}</b>${res}${vs}${line}${PS.detail && r ? `<span class="r">usually ${Math.round(r[0])}–${Math.round(r[1])}</span>` : ""}</td>`;
 }
 function drawPlayers() {
   const P = D.player_projections || {}; const games = (P[PS.day] || []).filter(g => !PS.game || String(g.game_id) === PS.game).sort((a, b) => String(a.tip_utc).localeCompare(String(b.tip_utc)));
@@ -527,31 +554,32 @@ function renderGame() {
   const st = w.strength || {}, tt = w.team_term || {}, sit = w.home_court_and_situation || {};
   const playersK = (st[K] - tt[K]) - (st[O] - tt[O]); const teamK = tt[K] - tt[O];
   const sitLabel = {home_court: `${H} home court`, b2b: "Back-to-back", rested: "Rest (3+ days)", travel: "Travel", altitude: "Altitude"};
-  const parts = [["Players on the floor tonight", playersK], ["Team term (coaching, system)", teamK], ...Object.entries(sit).map(([k, v]) => [sitLabel[k] || k, sgn * v])];
+  const parts = [["Players on the floor tonight", playersK], ["How the team plays beyond its roster (coaching, system)", teamK], ...Object.entries(sit).map(([k, v]) => [sitLabel[k] || k, sgn * v])];
   const mx = Math.max(...parts.map(x => Math.abs(x[1])), 0.01);
   const mk = mktPick(p); const first = p.first || {}; const mkOpen = first.market_p_home == null ? null : (K === H ? first.market_p_home : 1 - first.market_p_home);
   const gap = mk == null ? null : Math.round((p.chance - mk) * 100);
   const bins = []; for (let lo = -30; lo < 30; lo += 5) bins.push({lo, p: phiN((lo + 5 - mK) / sg) - phiN((lo - mK) / sg)});
   const bmax = Math.max(...bins.map(b => b.p));
   const noTeam = mK - teamK; const noTeamP = phiN(noTeam / sg);
-  let headline = mk == null ? `Teleios picks ${K}.` : (mk >= 0.5 ? `Teleios and the market both pick ${K}.` : `Teleios likes ${K}. The market likes ${O}.`);
-  if (mk != null && Math.abs(gap) < 4) headline = `Teleios and the market agree: ${K}.`;
+  let headline = mk == null ? `Teleios picks ${K}.` : (mk >= 0.5 ? `Teleios and the bettors both pick ${K}.` : `Teleios likes ${K}. The bettors like ${O}.`);
+  if (mk != null && Math.abs(gap) < 4) headline = `Teleios and the bettors agree: ${K}.`;
   const q = Object.values(w.questionable || {}).flat().map(x => x.player);
-  let note = `Most of the margin comes from ${Math.abs(teamK) > Math.abs(playersK) ? "the team term (how the teams have played beyond their rosters)" : "the players expected on the floor"}.`;
-  if (Math.abs(noTeamP - 0.5) < 0.06 && Math.abs(teamK) > 1.5) note += ` Without the team term this would be close to a coin flip (${K} ${Math.round(noTeamP * 100)}%), so the pick leans on how the teams have played beyond their rosters, which is a thin sample this early in the season.`;
-  if (q.length) note += ` Questionable: ${q.join(", ")} (counted at 65% of minutes), so news before tip-off can move this.`;
-  const tbl = (team) => `<table class="rt"><tr><th>Player</th><th>Min</th><th>Rating</th><th>Impact</th></tr>${((w.top_players || {})[team] || []).slice(0, 7).map(x => `<tr><td>${esc(x.player)}</td><td>${x.minutes.toFixed(0)}</td><td>${(x.rating >= 0 ? "+" : "") + x.rating.toFixed(2)}</td><td><b>${(x.impact >= 0 ? "+" : "") + x.impact.toFixed(2)}</b></td></tr>`).join("")}</table>`;
-  const avail = [...Object.entries(w.out || {}).flatMap(([t, l]) => l.filter(o => o.minutes >= 8).map(o => ({t, n: o.player, s: `Out · usually ${o.minutes.toFixed(0)} min`}))), ...Object.entries(w.questionable || {}).flatMap(([t, l]) => l.map(o => ({t, n: o.player, s: `${o.status} · counted at 65% of minutes`})))];
-  $("#gameBody").innerHTML = `<div class="cols" style="align-items:flex-start"><nav class="rail" aria-label="Games"><div class="small">Tonight, by disagreement with the market</div>${games.map(g => { const gg = mktPick(g) == null ? "–" : ((x => (x > 0 ? "+" : "") + x)(Math.round(gapOf(g) * 100))); return `<button type="button" data-game="${g.game_id}" aria-pressed="${String(g.game_id) === String(GS)}"><span>${esc(g.away)} @ ${esc(g.home)}</span><span>${gg}</span></button>`; }).join("")}</nav>
+  let note = `Most of Teleios's edge comes from ${Math.abs(teamK) > Math.abs(playersK) ? "how the two teams have played beyond their rosters (coaching, system, chemistry)" : "the players expected on the floor tonight"}.`;
+  if (Math.abs(noTeamP - 0.5) < 0.06 && Math.abs(teamK) > 1.5) note += ` Going by the players alone, it would be close to a coin flip (${K} ${Math.round(noTeamP * 100)} in 100). This early in the season that's only a few weeks of evidence, so treat it with care.`;
+  if (q.length) note += ` Not sure to play: ${q.join(", ")}. Teleios counts them for about two-thirds of their usual minutes, so news before tip-off can change this.`;
+  const tbl = (team) => `<table class="rt"><tr><th>Player</th><th>Minutes</th><th>Player value</th><th>Adds tonight</th></tr>${((w.top_players || {})[team] || []).slice(0, 7).map(x => `<tr><td>${esc(x.player)}</td><td>${x.minutes.toFixed(0)}</td><td>${(x.rating >= 0 ? "+" : "") + x.rating.toFixed(2)}</td><td><b>${(x.impact >= 0 ? "+" : "") + x.impact.toFixed(2)}</b></td></tr>`).join("")}</table>`;
+  const avail = [...Object.entries(w.out || {}).flatMap(([t, l]) => l.filter(o => o.minutes >= 8).map(o => ({t, n: o.player, s: `Out · usually plays ${o.minutes.toFixed(0)} min`}))), ...Object.entries(w.questionable || {}).flatMap(([t, l]) => l.map(o => ({t, n: o.player, s: `${o.status} · not sure to play`})))];
+  $("#gameBody").innerHTML = `<div class="cols" style="align-items:flex-start"><nav class="rail" aria-label="Games"><div class="small">Tonight's games, biggest disagreements first</div>${games.map(g => { const gg = mktPick(g) == null ? "–" : ((x => (x > 0 ? "+" : "") + x)(Math.round(gapOf(g) * 100))); return `<button type="button" data-game="${g.game_id}" aria-pressed="${String(g.game_id) === String(GS)}"><span>${esc(g.away)} @ ${esc(g.home)}</span><span>${gg}</span></button>`; }).join("")}</nav>
   <div class="gmain"><div><div class="small">${esc(A)} at ${esc(H)} · ${esc(tipET(p.tip_utc))} CT${p.locked ? " · locked" : ""}</div><h2 style="font-size:clamp(28px,3.6vw,38px);font-weight:600;margin-top:4px">${esc(headline)}</h2>${p.result ? `<p class="det" style="margin:6px 0 0"><span class="chip ${p.result.hit ? "ok" : "no"}">${p.result.hit ? "✓ Hit" : "✗ Miss"}</span> Final ${esc(A)} ${p.result.away_score}, ${esc(H)} ${p.result.home_score}${p.result.projected_pick_margin != null ? ` · projected ${esc(K)} ${p.result.projected_pick_margin >= 0 ? "+" : ""}${p.result.projected_pick_margin}, actual ${p.result.actual_pick_margin >= 0 ? "+" : ""}${p.result.actual_pick_margin} (off by ${p.result.margin_miss})` : ""}</p>` : ""}</div>
-  <div class="kv"><div><span>Teleios: ${esc(K)} wins</span><b style="color:var(--acc)">${pct(p.chance)}</b></div><div><span>Market: ${esc(K)} wins</span><b style="color:var(--blue2)">${pct(mk)}</b><span>${mkOpen != null ? "opened " + pct(mkOpen) : ""}</span></div><div><span>Projected margin</span><b>${esc(K)} +${Math.abs(p.margin).toFixed(1)}</b></div><div><span>Gap vs market</span><b>${gap == null ? "–" : (gap > 0 ? "+" : "") + gap}</b><span>points of win chance</span></div></div>
-  <div class="cols"><section class="sec"><h3 style="font-size:22px">Where the ${Math.abs(p.margin).toFixed(1)}-point margin comes from</h3><div class="small">Points of margin for ${esc(K)}, from the model's own parts</div>
+  <div class="court" aria-hidden="true"><div class="c1"></div><div class="c2"></div><div class="k a" style="background:${K === A ? "var(--acc)" : "var(--court)"}">${esc(A)}</div><div class="k h" style="background:${K === H ? "var(--acc)" : "var(--court)"}">${esc(H)}</div><span class="lab a">Away</span><span class="lab h">Home</span></div>
+  <div class="kv"><div style="border-top:5px solid var(--acc)"><span>Teleios: ${esc(K)} wins</span><b style="color:var(--acc)">${Math.round(p.chance * 100)} in 100</b></div><div style="border-top:5px solid var(--blue2)"><span>Bettors: ${esc(K)} wins</span><b style="color:var(--blue2)">${mk == null ? "–" : Math.round(mk * 100) + " in 100"}</b><span>${mkOpen != null ? "earlier today: " + Math.round(mkOpen * 100) + " in 100" : ""}</span></div><div><span>Expected to win by</span><b>${Math.round(Math.abs(p.margin))} pts</b><span>${esc(K)}</span></div><div><span>Teleios vs bettors</span><b>${gap == null ? "–" : (gap > 0 ? "+" : "") + gap}</b><span>${gap == null ? "" : gap > 0 ? "Teleios is more confident" : "the bettors are more confident"}</span></div></div>
+  <div class="cols"><section class="sec"><h3>Why ${esc(K)} by about ${Math.round(Math.abs(mK))}</h3><div class="small">Each line adds or takes away points from ${esc(K)}'s expected winning margin</div>
    ${parts.map(([l, v]) => `<div class="wf"><div class="det">${esc(l)}</div><div><i style="width:${W(Math.abs(v) / mx * 100)};background:${v > 0 ? "var(--acc)" : "var(--mute)"}"></i></div><div style="text-align:right;font-weight:600">${(v >= 0 ? "+" : "") + v.toFixed(2)}</div></div>`).join("")}
    <div class="wf" style="border-top:1px solid var(--ink);padding-top:6px"><div><b>Total</b></div><div style="background:none"></div><div style="text-align:right"><b>${(mK >= 0 ? "+" : "") + mK.toFixed(2)}</b></div></div></section>
-  <section class="sec"><h3 style="font-size:22px">Range of outcomes</h3><div class="small">Chance of each final margin for ${esc(K)}, in 5-point bins</div><div class="hist">${bins.map(b => `<div style="display:flex;flex-direction:column;justify-content:flex-end;height:150px"><i title="${Math.round(b.p * 100)}%" style="height:${W(b.p / bmax * 100)};background:${b.lo >= 0 ? "var(--acc)" : "var(--mute)"}"></i></div>`).join("")}</div><div class="histl">${bins.map(b => `<div>${b.lo > 0 ? "+" + b.lo : b.lo}</div>`).join("")}</div><div class="small">Red = ${esc(K)} wins, gray = ${esc(O)} wins. Typical miss on a game is about 11 points.</div></section></div>
-  <div class="cols"><section class="sec"><h3 style="font-size:22px">${esc(A)}: who drives it</h3>${tbl(A)}</section><section class="sec"><h3 style="font-size:22px">${esc(H)}: who drives it</h3>${tbl(H)}</section>
-  <section class="sec"><h3 style="font-size:22px">Availability</h3>${avail.length ? avail.map(a => `<div style="border-bottom:1px solid var(--line);padding:6px 0"><b>${esc(a.n)}</b> <span class="small">${esc(a.t)}</span><div class="small">${esc(a.s)}</div></div>`).join("") : '<p class="small">No one listed.</p>'}</section></div>
-  <div class="note2"><b>Analyst note.</b> ${esc(note)}</div>
+  <section class="sec"><h3>What could happen</h3><div class="small">How likely each final score difference is, from ${esc(K)}'s side</div><div class="hist">${bins.map(b => `<div style="display:flex;flex-direction:column;justify-content:flex-end;height:150px"><i title="${Math.round(b.p * 100)}%" style="height:${W(b.p / bmax * 100)};background:${b.lo >= 0 ? "var(--acc)" : "var(--mute)"}"></i></div>`).join("")}</div><div class="histl">${bins.map(b => `<div>${b.lo > 0 ? "+" + b.lo : b.lo}</div>`).join("")}</div><div class="small">Coral = ${esc(K)} wins, gray = ${esc(O)} wins. NBA games swing a lot: the final margin usually lands within about 11 points of the expectation.</div></section></div>
+  <div class="cols"><section class="sec"><h3>${esc(A)}: who matters most</h3>${tbl(A)}</section><section class="sec"><h3>${esc(H)}: who matters most</h3>${tbl(H)}</section>
+  <section class="sec"><h3>Who's out</h3>${avail.length ? avail.map(a => `<div style="border-bottom:1px solid var(--line);padding:6px 0"><b>${esc(a.n)}</b> <span class="small">${esc(a.t)}</span><div class="small">${esc(a.s)}</div></div>`).join("") : '<p class="small">No one listed.</p>'}</section></div>
+  <div class="note2"><b>In plain terms.</b> ${esc(note)}</div>
   <div><button class="send" type="button" data-q="${esc(`Break down ${A} at ${H}: why does Teleios pick ${K}, and what would change it?`)}">Ask Teleios about this game</button></div></div></div>`;
 }
 
@@ -572,16 +600,16 @@ function renderEdges() {
   const all = edgeItems(); const kinds = ["All", "Games", "Points", "Rebounds", "Assists", "Threes", "PRA"];
   const sc = D.scorecard || {}; const vk = (sc.live || {}).vs_kalshi || {}; const pv = ((sc.players_live || {}).vs_kalshi || {}).all || {}; const bf = (sc.backfill_2026_27 || {}).vs_fanduel_close || {};
   const n15 = all.filter(x => x.gap >= 15).length;
-  $("#edgesBody").innerHTML = `<div class="btop"><div><h2>Where Teleios and the market disagree</h2><div class="sub">Every game and Kalshi player line on the slate, ranked by the gap between Teleios's chance and the market's for the side Teleios prefers.</div></div>
-   <div class="strip" style="grid-template-columns:repeat(3,minmax(0,1fr));max-width:480px"><div><span>Compared</span><b>${all.length}</b></div><div><span>Gap 6+ pts</span><b>${all.filter(x => x.gap >= 6).length}</b></div><div><span>Gap 15+ pts</span><b style="color:var(--acc)">${n15}</b></div></div></div>
-   <div class="warn"><b>Read this first.</b> A gap is a disagreement, not an edge. Live record against the market so far: games ${vk.games ? `${vk.games} graded, Brier ${vk.teleios.brier} vs ${vk.kalshi.brier}` : "0 graded"}; player lines ${pv.lines ? `${pv.lines} graded, Brier ${pv.teleios_brier} vs ${pv.market_brier} (${pv.verdict})` : "0 graded"}. Until Teleios shows it beats the market, big gaps on player lines are as likely to be the model's ranges being off as the market being wrong.</div>
+  $("#edgesBody").innerHTML = `<div class="btop"><div><h2>Where Teleios and the bettors disagree</h2><div class="sub">Every game and player betting line tonight, biggest disagreement first. Each number is the chance that Teleios's side comes true.</div></div>
+   <div class="strip" style="grid-template-columns:repeat(3,minmax(0,1fr));max-width:480px"><div><span>Compared</span><b>${all.length}</b></div><div><span>Differ by 6+</span><b>${all.filter(x => x.gap >= 6).length}</b></div><div class="st"><span>Differ by 15+</span><b style="color:var(--acc)">${n15}</b></div></div></div>
+   <div class="warn"><b>Read this first.</b> A disagreement is not a sure thing. The bettors are hard to beat, and Teleios hasn't proven it beats them yet: ${vk.games ? `${vk.games} games checked so far` : "no games checked yet"}, ${pv.lines ? `${pv.lines} player lines checked (${esc(pv.verdict)})` : "no player lines checked yet"}. Big differences on player lines can just as easily mean Teleios is off as the bettors.</div>
    <div class="chipsF" id="efilters">${kinds.map(k => `<button type="button" data-kind="${k}" aria-pressed="${EF.kind === k}">${k}</button>`).join("")}<button type="button" id="ehide" aria-pressed="${EF.hide}" style="margin-left:auto">Hide flagged</button></div>
    <div class="cols" style="align-items:flex-start"><section style="flex:999 1 700px;min-width:0"><div class="small" id="ecount"></div><div style="overflow-x:auto" id="etable"></div></section>
-   <aside style="flex:1 1 260px;min-width:0;display:flex;flex-direction:column;gap:18px"><section class="sec"><h3 style="font-size:22px">How big are the gaps?</h3><div class="small">Lines by gap size, in points</div><div id="ehist"></div></section>
-   <section class="sec"><h3 style="font-size:22px">Track record vs market</h3><table class="rt"><tr><th>Type</th><th>Graded</th><th>Brier T / mkt</th></tr>
-   <tr><td>Games, this season*</td><td>${bf.games || 0}</td><td>${bf.teleios ? bf.teleios.brier.toFixed(3) + " / " + bf.fanduel_close.brier.toFixed(3) : "–"}</td></tr>
+   <aside style="flex:1 1 260px;min-width:0;display:flex;flex-direction:column;gap:18px"><section class="sec"><h3>How big are the differences?</h3><div class="small">Number of lines by how far apart Teleios and the bettors are</div><div id="ehist"></div></section>
+   <section class="sec"><h3>Who's been more accurate?</h3><table class="rt"><tr><th>Type</th><th>Checked</th><th>Teleios / bettors</th></tr>
+   <tr><td>Games, look-back*</td><td>${bf.games || 0}</td><td>${bf.teleios ? bf.teleios.brier.toFixed(3) + " / " + bf.fanduel_close.brier.toFixed(3) : "–"}</td></tr>
    <tr><td>Games, live</td><td>${vk.games || 0}</td><td>${vk.games ? vk.teleios.brier.toFixed(3) + " / " + vk.kalshi.brier.toFixed(3) : "–"}</td></tr>
-   <tr><td>Player lines, live</td><td>${pv.lines || 0}</td><td>${pv.lines ? pv.teleios_brier.toFixed(3) + " / " + pv.market_brier.toFixed(3) : "–"}</td></tr></table><div class="small">*Backfill, made after the fact. Lower Brier is better.</div></section></aside></div>`;
+   <tr><td>Player lines, live</td><td>${pv.lines || 0}</td><td>${pv.lines ? pv.teleios_brier.toFixed(3) + " / " + pv.market_brier.toFixed(3) : "–"}</td></tr></table><div class="small">Accuracy score: lower is better. *Look-back test made after the fact.</div></section></aside></div>`;
   $("#efilters").querySelectorAll("[data-kind]").forEach(b => b.addEventListener("click", () => { EF.kind = b.dataset.kind; $("#efilters").querySelectorAll("[data-kind]").forEach(x => x.setAttribute("aria-pressed", String(x === b))); drawEdges(all); }));
   $("#ehide").addEventListener("click", () => { EF.hide = !EF.hide; $("#ehide").setAttribute("aria-pressed", String(EF.hide)); drawEdges(all); });
   drawEdges(all);
@@ -589,7 +617,7 @@ function renderEdges() {
 function drawEdges(all) {
   const rows = all.filter(x => (EF.kind === "All" || x.kind === EF.kind) && (!EF.hide || !x.flags.length));
   $("#ecount").textContent = `${rows.length} lines`;
-  $("#etable").innerHTML = `<table class="rt" style="min-width:720px"><tr><th>Type</th><th style="text-align:left">Player / game</th><th style="text-align:left">Side</th><th>Teleios</th><th>Market</th><th style="width:170px;text-align:left">Gap</th><th style="text-align:left">Flags</th></tr>${rows.slice(0, 60).map(x => `<tr><td class="small">${esc(x.kind)}</td><td style="text-align:left"><button type="button" ${x.game ? `data-game="${x.game}"` : `data-q="${esc(x.q)}"`} style="font:inherit;font-weight:600;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left">${esc(x.item)}</button>${x.team ? ` <span class="small">${esc(x.team)}</span>` : ""}</td><td style="text-align:left">${esc(x.what)}${x.res ? ` <span class="${x.res === "hit" ? "res-hit" : "res-miss"}">${x.res === "hit" ? "✓" : "✗"}</span>` : ""}</td><td style="color:var(--acc);font-weight:600">${pct(x.tel)}</td><td style="color:var(--blue2)">${pct(x.mkt)}</td><td style="text-align:left"><div style="display:flex;align-items:center;gap:8px"><div style="flex:1;height:8px;background:var(--track);border-radius:4px"><div style="height:8px;border-radius:4px;background:var(--acc);width:${W(x.gap / 30 * 100)}"></div></div><b style="width:32px;text-align:right">+${x.gap.toFixed(0)}</b></div></td><td style="text-align:left" class="flag">${esc(x.flags.join(" · ")) || "—"}</td></tr>`).join("")}</table>${rows.length > 60 ? `<p class="small">Showing the top 60 of ${rows.length}.</p>` : ""}`;
+  $("#etable").innerHTML = `<table class="rt" style="min-width:720px"><tr><th>Type</th><th style="text-align:left">Player / game</th><th style="text-align:left">Teleios says</th><th>Teleios</th><th>Bettors</th><th style="width:170px;text-align:left">Difference</th><th style="text-align:left">Watch out</th></tr>${rows.slice(0, 60).map(x => `<tr><td class="small">${esc(x.kind)}</td><td style="text-align:left"><button type="button" ${x.game ? `data-game="${x.game}"` : `data-q="${esc(x.q)}"`} style="font:inherit;font-weight:600;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left">${esc(x.item)}</button>${x.team ? ` <span class="small">${esc(x.team)}</span>` : ""}</td><td style="text-align:left">${esc(x.what)}${x.res ? ` <span class="${x.res === "hit" ? "res-hit" : "res-miss"}">${x.res === "hit" ? "✓" : "✗"}</span>` : ""}</td><td style="color:var(--acc);font-weight:600">${pct(x.tel)}</td><td style="color:var(--blue2)">${pct(x.mkt)}</td><td style="text-align:left"><div style="display:flex;align-items:center;gap:8px"><div style="flex:1;height:8px;background:var(--track);border-radius:4px"><div style="height:8px;border-radius:4px;background:var(--acc);width:${W(x.gap / 30 * 100)}"></div></div><b style="width:32px;text-align:right">+${x.gap.toFixed(0)}</b></div></td><td style="text-align:left" class="flag">${esc(x.flags.join(" · ")) || "—"}</td></tr>`).join("")}</table>${rows.length > 60 ? `<p class="small">Showing the top 60 of ${rows.length}.</p>` : ""}`;
   const bk = [0, 5, 10, 15, 20, 25, 30].map((lo, i, a) => ({lab: lo < 30 ? `${lo}–${lo + 5}` : "30+", n: rows.filter(x => x.gap >= lo && (lo === 30 || x.gap < lo + 5)).length}));
   const m = Math.max(1, ...bk.map(b => b.n));
   $("#ehist").innerHTML = bk.map(b => `<div style="display:grid;grid-template-columns:52px minmax(0,1fr) 34px;gap:8px;align-items:center;font-size:13px;font-variant-numeric:tabular-nums"><span>${b.lab}</span><div style="height:10px;background:var(--track);border-radius:3px"><div style="height:10px;border-radius:3px;background:var(--ink);width:${W(b.n / m * 100)}"></div></div><span style="text-align:right">${b.n}</span></div>`).join("");
@@ -607,29 +635,29 @@ function healthHTML() {
   const plStats = pl.stats || {};
   const nb = ((D.notebook || {}).entries || []).filter(e => !e.name.startsWith("team_") || e.state === "confirmed").slice(0, 8);
   const ex = ((D.experiments || {}).experiments || []); const rl = (D.retune_log || []).slice().reverse();
-  return `<div class="btop"><div><h2>Can you trust it?</h2><div class="sub">How Teleios has done where the answer is known: backtests on 2025-26 (never seen in tuning), this season so far, and live predictions frozen before tip-off.</div></div></div>
-  <div class="kv"><div><span>Winners picked, 2025-26</span><b>${t.accuracy ? (t.accuracy * 100).toFixed(1) + "%" : "–"}</b><span>Elo ${elo ? (elo * 100).toFixed(1) + "%" : "–"} · home team ${home ? (home * 100).toFixed(1) + "%" : "–"}</span></div>
-  <div><span>This season vs market*</span><b>${bf.teleios ? pct(bf.teleios.accuracy) : "–"} <span style="display:inline;font-size:18px;color:var(--blue2)">/ ${bf.fanduel_close ? pct(bf.fanduel_close.accuracy) : "–"}</span></b><span>${bf.verdict ? esc(bf.verdict) + ` (z = ${bf.z})` : ""}</span></div>
-  <div><span>Points miss, 2025-26</span><b>${tm.pts ? tm.pts.toFixed(2) : "–"}</b><span>Prop Edge ${pe.pts != null ? pe.pts.toFixed(2) : "–"} · season avg ${sa.pts != null ? sa.pts.toFixed(2) : "–"}</span></div>
-  <div><span>Live games graded</span><b>${live.games || 0}</b><span>${live.games ? pct(live.accuracy) + " right · Brier " + live.brier : "first grades after tonight"}</span></div></div>
-  <div class="cols"><section class="sec"><h3 style="font-size:22px">Does 70% mean 70%?</h3><div class="small">Game picks, 2025-26: what Teleios said (gray) vs how often its favorite won (red)</div>${calRows(bt.calibration)}
-   <h3 style="font-size:18px;margin-top:8px">Live so far</h3>${calRows((s.live || {}).calibration, "No live games graded yet.")}</section>
-  <section class="sec"><h3 style="font-size:22px">Player projections: average miss</h3><div class="small">2025-26, players projected 20+ minutes. Shorter is better. Right column = share of results inside the 80% range.</div>${statRows}
-   <div class="key"><span><i class="tel"></i>Teleios</span><span><i style="background:#6b7a8c"></i>Prop Edge</span><span><i style="background:light-dark(#c4c8cd,#555)"></i>Season average</span></div>
-   <h3 style="font-size:18px;margin-top:8px">Live so far</h3>${pl.player_games ? `<table class="rt"><tr><th>Stat</th><th>Teleios miss</th><th>Season avg miss</th><th>In 80% range</th></tr>${stats.map(([k, n]) => plStats[k] ? `<tr><td>${n}</td><td><b>${plStats[k].teleios_on_those_players ?? plStats[k].teleios_avg_miss}</b></td><td>${plStats[k].season_avg_miss_same_players ?? "–"}</td><td>${plStats[k].in_80pct_range != null ? pct(plStats[k].in_80pct_range) : "–"}</td></tr>` : "").join("")}</table><div class="small">${pl.player_games} player-games graded</div>` : '<p class="small">No live player lines graded yet.</p>'}</section></div>
-  <div class="cols"><section class="sec"><h3 style="font-size:22px">Projected margin: how close?</h3><div class="small">Points between Teleios's projected margin and the final margin</div>
-   <table class="rt"><tr><th>Set</th><th>Games</th><th>Avg miss</th><th>Within 5</th><th>Within 10</th><th>Home bias</th></tr>
-   ${[["Live", (s.live || {}).margin], ["This season*", (s.backfill_2026_27 || {}).margin], ["2025-26 test", t.margin_mae != null ? {games: t.games, avg_miss: t.margin_mae} : null]].map(([n, m]) => `<tr><td>${n}</td><td>${m && m.games ? m.games : 0}</td><td><b>${m && m.avg_miss != null ? m.avg_miss.toFixed(1) : "–"}</b></td><td>${m && m.within_5 != null ? pct(m.within_5) : "–"}</td><td>${m && m.within_10 != null ? pct(m.within_10) : "–"}</td><td>${m && m.bias_home != null ? (Math.abs(m.bias_home) < 0.05 ? "0.0" : (m.bias_home > 0 ? "+" : "") + m.bias_home.toFixed(1)) : "–"}</td></tr>`).join("")}</table>
-   <div class="small">Final margins swing a lot: even betting-market spreads typically miss by around 9–10 points. Home bias near 0 means no lean toward either side.</div></section>
-  <section class="sec"><h3 style="font-size:22px">Every live prediction</h3><div class="small">Frozen before tip-off, graded after the game. Newest first.</div>${(() => { const L = (s.game_log || {}).rows || []; if (!L.length) return '<p class="small">The first live games are graded tomorrow morning. Every one will be listed here.</p>';
-    return `<div style="overflow-x:auto;max-height:520px;overflow-y:auto"><table class="rt" style="min-width:560px"><tr><th>Date</th><th style="text-align:left">Game</th><th>Pick</th><th>Chance</th><th>Proj</th><th>Final</th><th>Miss</th><th></th></tr>${L.map(r => `<tr><td>${esc(r[0].slice(5))}</td><td style="text-align:left">${esc(r[1])} @ ${esc(r[2])}</td><td><b>${esc(r[3])}</b></td><td>${pct(r[4])}</td><td>${r[5] >= 0 ? "+" : ""}${r[5]}</td><td>${r[6] >= 0 ? "+" : ""}${r[6]}</td><td>${r[7]}</td><td><span class="chip ${r[8] ? "ok" : "no"}">${r[8] ? "✓" : "✗"}</span></td></tr>`).join("")}</table></div>`; })()}</section></div>
-  <div class="cols"><section class="sec"><h3 style="font-size:22px">Patterns notebook</h3><div class="small">A pattern is confirmed only when it holds in both halves of the graded games.</div><table class="rt"><tr><th>Pattern</th><th>Games</th><th>Avg miss</th><th>State</th></tr>${nb.map(e => `<tr><td>${esc(e.description)}</td><td>${e.games}</td><td>${e.avg_miss_points != null ? (e.avg_miss_points >= 0 ? "+" : "") + e.avg_miss_points.toFixed(1) + " pts" : "–"}</td><td class="state-${esc(e.state.split(" ")[0])}">${esc(e.state)}</td></tr>`).join("")}</table></section>
-  <section class="sec"><h3 style="font-size:22px">Experiments and retunes</h3>${ex.map(x => `<div style="border-bottom:1px solid var(--line);padding:6px 0"><b>${esc(x.id.replace(/_/g, " "))}</b> <span class="${/^Rejected/.test(x.decision) ? "res-miss" : "res-hit"}" style="font-weight:600">${/^Rejected/.test(x.decision) ? "rejected" : "adopted"}</span><div class="small">${esc(x.date)} · ${esc(x.decision)}</div></div>`).join("")}
+  return `<div class="btop"><div><h2>Can you trust it?</h2><div class="sub">How Teleios has done on games where we already know the answer: last season (as a test), this season so far, and its real picks locked before tip-off.</div></div></div>
+  <div class="kv"><div><span>Last season's test: winners picked</span><b>${t.accuracy ? (t.accuracy * 100).toFixed(1) + "%" : "–"}</b><span>Elo ${elo ? (elo * 100).toFixed(1) + "%" : "–"} · home team ${home ? (home * 100).toFixed(1) + "%" : "–"}</span></div>
+  <div><span>This season: Teleios / bettors*</span><b>${bf.teleios ? pct(bf.teleios.accuracy) : "–"} <span style="display:inline;font-size:18px;color:var(--blue2)">/ ${bf.fanduel_close ? pct(bf.fanduel_close.accuracy) : "–"}</span></b><span>${bf.verdict ? (bf.verdict === "too close to call yet" ? "too close to call yet" : esc(bf.verdict)) : ""}</span></div>
+  <div><span>Player points: usually off by</span><b>${tm.pts ? tm.pts.toFixed(2) : "–"}</b><span>Prop Edge ${pe.pts != null ? pe.pts.toFixed(2) : "–"} · season avg ${sa.pts != null ? sa.pts.toFixed(2) : "–"}</span></div>
+  <div><span>Real picks checked</span><b>${live.games || 0}</b><span>${live.games ? Math.round(live.accuracy * 100) + " in 100 right" : "first results tomorrow"}</span></div></div>
+  <div class="cols"><section class="sec"><h3>When Teleios says 70 in 100, does it happen about 70 times?</h3><div class="small">Last season: what Teleios said (gray) vs how often its pick actually won (coral). Close bars = honest numbers.</div>${calRows(bt.calibration)}
+   <h3 style="font-size:26px;margin-top:8px">Real picks so far</h3>${calRows((s.live || {}).calibration, "No live games graded yet.")}</section>
+  <section class="sec"><h3>How close are the player predictions?</h3><div class="small">Last season, average amount off (shorter is better). Right column: how often the result landed in Teleios's "usually between" range (aim: 80 in 100).</div>${statRows}
+   <div class="key"><span><i class="tel"></i>Teleios</span><span><i style="background:#6b7a8c"></i>Prop Edge</span><span><i style="background:light-dark(#c4c8cd,#555)"></i>Just using his season average</span></div>
+   <h3 style="font-size:26px;margin-top:8px">Real picks so far</h3>${pl.player_games ? `<table class="rt"><tr><th>Stat</th><th>Teleios off by</th><th>Season average off by</th><th>In "usually" range</th></tr>${stats.map(([k, n]) => plStats[k] ? `<tr><td>${n}</td><td><b>${plStats[k].teleios_on_those_players ?? plStats[k].teleios_avg_miss}</b></td><td>${plStats[k].season_avg_miss_same_players ?? "–"}</td><td>${plStats[k].in_80pct_range != null ? pct(plStats[k].in_80pct_range) : "–"}</td></tr>` : "").join("")}</table><div class="small">${pl.player_games} player-games graded</div>` : '<p class="small">No live player lines graded yet.</p>'}</section></div>
+  <div class="cols"><section class="sec"><h3>How close is the expected winning margin?</h3><div class="small">Points between what Teleios expected and the real final margin</div>
+   <table class="rt"><tr><th>Set</th><th>Games</th><th>Usually off by</th><th>Within 5 pts</th><th>Within 10 pts</th><th>Leans home?</th></tr>
+   ${[["Real picks", (s.live || {}).margin], ["Look-back*", (s.backfill_2026_27 || {}).margin], ["Last season", t.margin_mae != null ? {games: t.games, avg_miss: t.margin_mae} : null]].map(([n, m]) => `<tr><td>${n}</td><td>${m && m.games ? m.games : 0}</td><td><b>${m && m.avg_miss != null ? m.avg_miss.toFixed(1) : "–"}</b></td><td>${m && m.within_5 != null ? pct(m.within_5) : "–"}</td><td>${m && m.within_10 != null ? pct(m.within_10) : "–"}</td><td>${m && m.bias_home != null ? (Math.abs(m.bias_home) < 0.05 ? "0.0" : (m.bias_home > 0 ? "+" : "") + m.bias_home.toFixed(1)) : "–"}</td></tr>`).join("")}</table>
+   <div class="small">Final margins swing a lot: even betting-market spreads typically miss by around 9–10 points. "Leans home?" near 0 means it doesn't favor home or away teams.</div></section>
+  <section class="sec"><h3>Every real pick</h3><div class="small">Locked before tip-off, checked after the game. Newest first.</div>${(() => { const L = (s.game_log || {}).rows || []; if (!L.length) return '<p class="small">The first live games are graded tomorrow morning. Every one will be listed here.</p>';
+    return `<div style="overflow-x:auto;max-height:520px;overflow-y:auto"><table class="rt" style="min-width:560px"><tr><th>Date</th><th style="text-align:left">Game</th><th>Pick</th><th>Chance</th><th>Expected</th><th>Final</th><th>Off by</th><th></th></tr>${L.map(r => `<tr><td>${esc(r[0].slice(5))}</td><td style="text-align:left">${esc(r[1])} @ ${esc(r[2])}</td><td><b>${esc(r[3])}</b></td><td>${pct(r[4])}</td><td>${r[5] >= 0 ? "+" : ""}${r[5]}</td><td>${r[6] >= 0 ? "+" : ""}${r[6]}</td><td>${r[7]}</td><td><span class="chip ${r[8] ? "ok" : "no"}">${r[8] ? "✓" : "✗"}</span></td></tr>`).join("")}</table></div>`; })()}</section></div>
+  <div class="cols"><section class="sec"><h3>Patterns Teleios is watching</h3><div class="small">A pattern only counts once it shows up in both the earlier and the later games.</div><table class="rt"><tr><th>Pattern</th><th>Games</th><th>Off by</th><th>Status</th></tr>${nb.map(e => `<tr><td>${esc(e.description)}</td><td>${e.games}</td><td>${e.avg_miss_points != null ? (e.avg_miss_points >= 0 ? "+" : "") + e.avg_miss_points.toFixed(1) + " pts" : "–"}</td><td class="state-${esc(e.state.split(" ")[0])}">${esc(e.state)}</td></tr>`).join("")}</table></section>
+  <section class="sec"><h3>Ideas tested</h3>${ex.map(x => `<div style="border-bottom:1px solid var(--line);padding:6px 0"><b>${esc(x.id.replace(/_/g, " "))}</b> <span class="${/^Rejected/.test(x.decision) ? "res-miss" : "res-hit"}" style="font-weight:600">${/^Rejected/.test(x.decision) ? "rejected" : "adopted"}</span><div class="small">${esc(x.date)} · ${esc(x.decision)}</div></div>`).join("")}
    ${rl.length ? rl.map(r => `<div style="border-bottom:1px solid var(--line);padding:6px 0"><b>Monthly retune</b> <span class="small">${esc(r.run_at)}</span><div class="small">games: ${esc((r.games || {}).state || r.state || "–")} · players: ${esc((r.players || {}).state || "–")}</div></div>`).join("") : `<div style="border-bottom:1px solid var(--line);padding:6px 0"><b>Monthly retune</b> <span class="small">first run Dec 1</span><div class="small">Adopts new settings only if they beat the current ones on recent games; waits for 300 held-out games.</div></div>`}
    <div style="padding:6px 0"><b>NBA.com tracking stats</b> <span class="small">collecting since Nov 23</span><div class="small">Test planned once the Mac has saved a few weeks of daily snapshots.</div></div></section></div>
-  <div class="foot">*This season = backfill of ${bf.games || "–"} games with a market price, made after the fact, knowing who played. Lower Brier = more accurate chances.</div>`;
+  <div class="foot">*Look-back = a test on this season's first ${bf.games || "–"} games, made after the fact. Real picks are the ones locked before tip-off.</div>`;
 }
-const CHIPS = ["Which game tonight does Teleios disagree with the market on most, and why?", "What's Teleios projecting for the top scorers tonight?", "Rank the top 10 teams right now", "How has Teleios done so far against the market?", "Who's the most underrated player by the model?", "What patterns has the notebook found?"];
+const CHIPS = ["Which game tonight does Teleios disagree with the bettors on most, and why?", "What's Teleios projecting for the top scorers tonight?", "Rank the top 10 teams right now", "How has Teleios done so far against the bettors?", "Who's the most underrated player by the model?", "What patterns is Teleios watching?"];
 
 function autosize() { const t = $("#q"); t.style.height = "auto"; t.style.height = Math.min(t.scrollHeight, 180) + "px"; }
 $("#q").addEventListener("input", autosize);
@@ -646,7 +674,7 @@ async function boot() {
   $("#status").innerHTML = `Data built <b>${esc(D.built)}</b> · ${D.results.rows.length} games this season`;
   const s = slateHTML(); $("#slateBody").innerHTML = s; $("#slateMBody").innerHTML = s; $("#score").innerHTML = scoreHTML();
   if (ON_GITHUB) { const t = $("#tChat"); t.href = CLAUDE_URL + "#chat"; t.target = "_blank"; t.rel = "noopener"; t.textContent = "Chat ↗"; }
-  $("#boardBody").innerHTML = boardHTML() + `<p class="small"><a href="#players">See every player projection →</a></p>`; showView();
+  $("#boardBody").innerHTML = boardHTML() + `<p class="small"><a href="#players">See every player →</a></p>`; showView();
   $("#chips").innerHTML = CHIPS.map(c => `<button class="chip" type="button" data-q="${esc(c)}">${esc(c)}</button>`).join("");
   try { const h = JSON.parse(localStorage.getItem("teleios-chat") || "[]"); if (Array.isArray(h) && h.length) { history = h; h.forEach(m => addMsg(m.role === "user" ? "you" : "bot", md(m.content))); } } catch {}
   sample = window.claude ? await window.claude.use("sample") : null;
