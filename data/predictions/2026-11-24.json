@@ -3,24 +3,24 @@
   "away": "DET",
   "chance": 0.6347,
   "date": "2026-11-24",
-  "edge_vs_market": -0.0797,
+  "edge_vs_market": -0.087,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.445,
    "p_home": 0.3771
   },
-  "frozen_at": "2026-11-24 16:56 UTC",
+  "frozen_at": "2026-11-24 18:02 UTC",
   "game_id": 401909314,
   "home": "ORL",
   "locked": false,
   "margin": -4.39,
-  "market_p_home": 0.445,
+  "market_p_home": 0.4523,
   "neutral": false,
   "p_home": 0.3653,
   "pick": "DET",
   "spread": {
    "home_line": 2.5,
-   "market_p_home_cover": 0.505,
+   "market_p_home_cover": 0.515,
    "pick": "DET",
    "pick_line": -2.5,
    "source": "Kalshi",
@@ -208,22 +208,22 @@
  },
  "401909315": {
   "away": "BOS",
-  "chance": 0.7708,
+  "chance": 0.7697,
   "date": "2026-11-24",
-  "edge_vs_market": 0.0181,
+  "edge_vs_market": 0.0153,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.215,
    "p_home": 0.2305
   },
-  "frozen_at": "2026-11-24 16:56 UTC",
+  "frozen_at": "2026-11-24 18:02 UTC",
   "game_id": 401909315,
   "home": "WAS",
   "locked": false,
-  "margin": -9.46,
-  "market_p_home": 0.2111,
+  "margin": -9.41,
+  "market_p_home": 0.215,
   "neutral": false,
-  "p_home": 0.2292,
+  "p_home": 0.2303,
   "pick": "BOS",
   "spread": {
    "home_line": 10.5,
@@ -231,7 +231,7 @@
    "pick": "WAS",
    "pick_line": 10.5,
    "source": "Kalshi",
-   "teleios_p_home_cover": 0.5327
+   "teleios_p_home_cover": 0.5341
   },
   "tip_utc": "2026-11-25 01:00:00+00:00",
   "why": {
@@ -277,7 +277,13 @@
    },
    "questionable": {
     "BOS": [],
-    "WAS": []
+    "WAS": [
+     {
+      "pid": 4432819,
+      "player": "Tre Mann",
+      "status": "Day-To-Day"
+     }
+    ]
    },
    "rest_days": {
     "BOS": 2,
@@ -285,7 +291,7 @@
    },
    "strength": {
     "BOS": 8.51,
-    "WAS": -3.99
+    "WAS": -3.94
    },
    "team_term": {
     "BOS": 3.73,
@@ -344,32 +350,32 @@
     ],
     "WAS": [
      {
-      "impact": 1.98,
-      "minutes": 29.6,
+      "impact": 1.99,
+      "minutes": 29.8,
       "player": "Anthony Davis",
       "rating": 3.2
      },
      {
       "impact": 0.34,
-      "minutes": 29.8,
+      "minutes": 30.0,
       "player": "Kyshawn George",
       "rating": 0.55
      },
      {
       "impact": 0.26,
-      "minutes": 29.9,
+      "minutes": 30.1,
       "player": "AJ Dybantsa",
       "rating": 0.41
      },
      {
       "impact": 0.17,
-      "minutes": 9.3,
+      "minutes": 9.4,
       "player": "Deandre Ayton",
       "rating": 0.89
      },
      {
       "impact": 0.15,
-      "minutes": 22.9,
+      "minutes": 23.0,
       "player": "Alex Sarr",
       "rating": 0.31
      },
@@ -381,13 +387,13 @@
      },
      {
       "impact": -0.05,
-      "minutes": 20.8,
+      "minutes": 20.9,
       "player": "Bilal Coulibaly",
       "rating": -0.11
      },
      {
-      "impact": -0.13,
-      "minutes": 4.4,
+      "impact": -0.08,
+      "minutes": 2.9,
       "player": "Tre Mann",
       "rating": -1.42
      }
@@ -399,24 +405,24 @@
   "away": "DAL",
   "chance": 0.6519,
   "date": "2026-11-24",
-  "edge_vs_market": -0.0703,
+  "edge_vs_market": -0.0667,
   "first": {
    "at": "2026-11-23 19:09 UTC",
    "market_p_home": 0.7638,
    "p_home": 0.6442
   },
-  "frozen_at": "2026-11-24 16:56 UTC",
+  "frozen_at": "2026-11-24 18:02 UTC",
   "game_id": 401909316,
   "home": "DEN",
   "locked": false,
   "margin": 4.98,
-  "market_p_home": 0.7222,
+  "market_p_home": 0.7186,
   "neutral": false,
   "p_home": 0.6519,
   "pick": "DEN",
   "spread": {
    "home_line": -8.5,
-   "market_p_home_cover": 0.49,
+   "market_p_home_cover": 0.485,
    "pick": "DAL",
    "pick_line": 8.5,
    "source": "Kalshi",

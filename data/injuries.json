@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24 16:56 UTC",
+ "fetched_at": "2026-11-24 18:02 UTC",
  "error": null,
  "players": [
   {
@@ -408,6 +408,15 @@
    "date": "2026-11-23T15:04Z"
   },
   {
+   "player": "Donte DiVincenzo",
+   "pid": 3934673,
+   "team": "MIN",
+   "status": "Out",
+   "class": "out",
+   "comment": "DiVincenzo (Achilles) has been cleared for team basketball activities and is targeting a return to game action in January, Jon Krawczynski of The Athletic reports.",
+   "date": "2026-11-24T17:10Z"
+  },
+  {
    "player": "Jaylen Clark",
    "pid": 4432247,
    "team": "MIN",
@@ -424,15 +433,6 @@
    "class": "out",
    "comment": "Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced.",
    "date": "2026-10-29T18:33Z"
-  },
-  {
-   "player": "Donte DiVincenzo",
-   "pid": 3934673,
-   "team": "MIN",
-   "status": "Out",
-   "class": "out",
-   "comment": "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports.",
-   "date": "2026-10-05T20:53Z"
   },
   {
    "player": "Trendon Watford",
@@ -784,6 +784,15 @@
    "class": "out",
    "comment": "Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-to-8 weeks, per Shams Charania of ESPN.",
    "date": "2026-10-27T19:25Z"
+  },
+  {
+   "player": "Tre Mann",
+   "pid": 4432819,
+   "team": "WAS",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Mann (illness) has been downgraded to questionable for Tuesday's game against Boston.",
+   "date": "2026-11-24T16:47Z"
   },
   {
    "player": "Tristan Vukcevic",
