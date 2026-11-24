@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24 18:02 UTC",
+ "fetched_at": "2026-11-24 20:53 UTC",
  "error": null,
  "players": [
   {
@@ -111,6 +111,15 @@
    "date": "2026-11-08T22:26Z"
   },
   {
+   "player": "Jalen Smith",
+   "pid": 4397189,
+   "team": "CHI",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Smith (illness) is listed as questionable for Wednesday's game against the Hornets.",
+   "date": "2026-11-24T18:21Z"
+  },
+  {
    "player": "Norman Powell",
    "pid": 2595516,
    "team": "CHI",
@@ -197,8 +206,26 @@
    "team": "DET",
    "status": "Out",
    "class": "out",
-   "comment": "Okorie (oblique) won't play Tuesday in Orlando.",
-   "date": "2026-11-23T22:10Z"
+   "comment": "The Pistons announced Tuesday that Okorie (oblique) will miss at least two weeks, per Eric Vincent of ClutchPoints.com.",
+   "date": "2026-11-24T18:37Z"
+  },
+  {
+   "player": "Taurean Prince",
+   "pid": 2990962,
+   "team": "DET",
+   "status": "Out",
+   "class": "out",
+   "comment": "Prince underwent arthroscopic right knee surgery Nov. 18 and will be re-evaluated in four weeks, Eric Vincent of ClutchPoints.com reports.",
+   "date": "2026-11-24T18:33Z"
+  },
+  {
+   "player": "Duncan Robinson",
+   "pid": 3157465,
+   "team": "DET",
+   "status": "Out",
+   "class": "out",
+   "comment": "Robinson (quadriceps) is considered day-to-day as he progresses in his rehab, Eric Vincent of ClutchPoints.com reports.",
+   "date": "2026-11-24T18:30Z"
   },
   {
    "player": "Jalen Duren",
@@ -206,8 +233,8 @@
    "team": "DET",
    "status": "Out",
    "class": "out",
-   "comment": "Duren (hamstring) has been ruled out for Tuesday's game against the Magic.",
-   "date": "2026-11-23T22:08Z"
+   "comment": "Duren (hamstring) is being assigned to the Motor City Cruise on Wednesday for practice as he ramps up for a return, Eric Vincent of ClutchPoints.com reports.",
+   "date": "2026-11-24T18:27Z"
   },
   {
    "player": "Cade Cunningham",
@@ -217,24 +244,6 @@
    "class": "questionable",
    "comment": "Cunningham (knee) is probable for Tuesday's game against the Orlando.",
    "date": "2026-11-23T22:07Z"
-  },
-  {
-   "player": "Taurean Prince",
-   "pid": 2990962,
-   "team": "DET",
-   "status": "Out",
-   "class": "out",
-   "comment": "Prince (knee) underwent surgery to address lingering issues and has no timeline for a return, Hunter Patterson of The Athletic reports.",
-   "date": "2026-11-20T23:02Z"
-  },
-  {
-   "player": "Duncan Robinson",
-   "pid": 3157465,
-   "team": "DET",
-   "status": "Out",
-   "class": "out",
-   "comment": "Robinson will be re-evaluated in one week due to a left quadriceps strain, Coty M. Davis of The Detroit News reports.",
-   "date": "2026-11-17T16:25Z"
   },
   {
    "player": "Brandon Williams",
@@ -287,8 +296,8 @@
    "team": "IND",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "McConnell (hamstring) was assigned to the G League's Noblesville Boom on Tuesday.",
-   "date": "2026-11-24T16:02Z"
+   "comment": "McConnell (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Shams Charania of ESPN reports.",
+   "date": "2026-11-24T19:43Z"
   },
   {
    "player": "Tyrese Haliburton",
@@ -296,8 +305,8 @@
    "team": "IND",
    "status": "Out",
    "class": "out",
-   "comment": "Haliburton (hamstring) was assigned to the G League's Noblesville Boom on Tuesday.",
-   "date": "2026-11-24T15:57Z"
+   "comment": "Haliburton (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Tony East of Forbes.com reports.",
+   "date": "2026-11-24T19:41Z"
   },
   {
    "player": "Aaron Nesmith",
@@ -404,8 +413,8 @@
    "team": "MIA",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "Antetokounmpo (groin) won't play in Sunday's game against Oklahoma City, Clemente Almanza of USA Today reports.",
-   "date": "2026-11-23T15:04Z"
+   "comment": "Antetokounmpo (groin) participated in most of Tuesday's practice, Zachary Weinberger of ClutchPoints.com reports.",
+   "date": "2026-11-24T18:56Z"
   },
   {
    "player": "Donte DiVincenzo",
@@ -462,13 +471,13 @@
    "date": "2026-11-13T20:19Z"
   },
   {
-   "player": "Miles McBride",
-   "pid": 4431823,
+   "player": "Jordan Clarkson",
+   "pid": 2528426,
    "team": "NYK",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "McBride (abdomen) has been ruled out for Sunday's game against the Pacers.",
-   "date": "2026-11-23T15:07Z"
+   "status": "Out",
+   "class": "out",
+   "comment": "Clarkson (foot) didn't participate in Tuesday's practice, Jared Schwartz of the New York Post reports.",
+   "date": "2026-11-24T18:48Z"
   },
   {
    "player": "OG Anunoby",
@@ -476,17 +485,17 @@
    "team": "NYK",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "Anunoby (calf) won't play Sunday against the Pacers.",
-   "date": "2026-11-23T15:07Z"
+   "comment": "Anunoby (calf) did not participate in Tuesday's practice, Jared Schwartz of the New York Post reports.",
+   "date": "2026-11-24T18:42Z"
   },
   {
-   "player": "Jordan Clarkson",
-   "pid": 2528426,
+   "player": "Miles McBride",
+   "pid": 4431823,
    "team": "NYK",
-   "status": "Out",
-   "class": "out",
-   "comment": "Clarkson (foot) has been ruled out for Sunday's game against Indiana.",
-   "date": "2026-11-22T18:05Z"
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "McBride (groin) practiced Tuesday, per Jared Schwartz of the New York Post.",
+   "date": "2026-11-24T18:40Z"
   },
   {
    "player": "Jaylin Williams",
