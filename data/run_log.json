@@ -1052,5 +1052,76 @@
     "WORLD"
    ]
   }
+ },
+ {
+  "run_at": "2026-11-24 10:24 UTC",
+  "box_scores": [
+   "nba_schedule_2027.parquet: ok",
+   "player_box_2027.parquet: ok"
+  ],
+  "play_by_play": [
+   "2027: ok"
+  ],
+  "spreads": {
+   "error": null,
+   "games": 7,
+   "diagnostics": {
+    "kalshi": "7 events, 7 main lines",
+    "espn": "7 lines"
+   }
+  },
+  "kalshi_props": {
+   "error": null,
+   "ladders": 0,
+   "with_main_line": 0,
+   "diagnostics": {
+    "KXNBAPTS": "0 events, 0 rungs",
+    "KXNBAREB": "0 events, 0 rungs",
+    "KXNBAAST": "0 events, 0 rungs",
+    "KXNBA3PT": "0 events, 0 rungs",
+    "KXNBAPRA": "0 events, 0 rungs"
+   }
+  },
+  "sources": {
+   "rosters": {
+    "fetched_at": "2026-11-24 10:24 UTC",
+    "error": null,
+    "players": 529
+   },
+   "injuries": {
+    "fetched_at": "2026-11-24 10:24 UTC",
+    "error": null,
+    "players": 92
+   },
+   "kalshi": {
+    "fetched_at": "2026-11-24 10:24 UTC",
+    "error": null,
+    "games": 30
+   }
+  },
+  "graded": 0,
+  "predicted": 12,
+  "players_graded": 0,
+  "player_projections": 355,
+  "scorecard": {
+   "games": 0,
+   "accuracy": null,
+   "brier": null
+  },
+  "notebook_entries": 34,
+  "unmatched_team_names": {
+   "espn": [
+    "CAN",
+    "CHK",
+    "EAST",
+    "KEN",
+    "SHQ",
+    "STARS",
+    "STRIPES",
+    "TBD",
+    "WEST",
+    "WORLD"
+   ]
+  }
  }
 ]
