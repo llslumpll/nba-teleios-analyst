@@ -15,7 +15,7 @@ from datetime import date
 import numpy as np
 import polars as pl
 
-from teleios import data
+from teleios import calibrate, data
 from teleios.players import COMBOS, STATS, PlayerModel, PParams, chance_over, interval
 from teleios.sources import load_kalshi_props, norm_name
 
@@ -111,7 +111,9 @@ MARKET_STATS = ("pts", "reb", "ast", "fg3m", "pra")
 
 def attach_market(players: list[dict], day: str, home: str, away: str, ladders: dict, var: dict) -> None:
     """Kalshi's main line for each player stat, its price for OVER, and
-    Teleios's own chance of OVER at that same line."""
+    Teleios's own chance of OVER at that same line (raw, and corrected by
+    teleios/calibrate.py once a correction has passed its held-out test)."""
+    cal = calibrate.load()
     for p in players:
         mk = {}
         for s in MARKET_STATS:
@@ -120,8 +122,10 @@ def attach_market(players: list[dict], day: str, home: str, away: str, ladders: 
                 continue
             line = lad["main"]["line"]
             st = s if s in STATS else "pts"
+            raw = chance_over(st, p["proj"][s], var[s], line)
             mk[s] = {"line": line, "market_p_over": round(lad["main"]["mid"], 4),
-                     "teleios_p_over": round(chance_over(st, p["proj"][s], var[s], line), 4)}
+                     "teleios_p_over": round(calibrate.apply(raw, s, cal), 4),   # corrected if a correction has earned its place
+                     "teleios_p_over_raw": round(raw, 4)}
         if mk:
             p["market"] = mk
 

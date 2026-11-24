@@ -81,6 +81,18 @@
    ],
    "decision": "Rejected. On the tuning season 0 was best (log loss 0.5976 vs 0.5979 at 0.25, worse beyond). Shot data is kept as information for the analyst, not in the model.",
    "note": "Shot luck here includes real shooting skill as well as streaks, which is a likely reason removing it doesn't help. A version that separates the two (player's own long-run shooting vs this game) is a candidate for a later test."
+  },
+  {
+   "id": "over_under_calibration",
+   "date": "2026-11-24",
+   "question": "Teleios's player projections sat right on the betting lines for rebounds, assists and threes on Nov 23, yet it called the under 55-60% of the time and lost to the bettors on 575 lines. Does a learned correction of its over/under chances fix that?",
+   "method": "Daily, automatic (teleios/calibrate.py): logistic recalibration of Teleios's raw chance of OVER, fit on older nights, tested on the newest nights it never saw. Adopted only if the held-out Brier score improves by at least 0.002; dropped again if it stops earning its place.",
+   "results": [
+    {
+     "note": "Waiting for 3 graded nights and 1,200 lines. Dry run on Nov 23 split into pretend nights: held-out Brier 0.2525 -> 0.2356 (machinery check only)."
+    }
+   ],
+   "decision": "Pending: decided automatically once enough nights are graded."
   }
  ]
 }
