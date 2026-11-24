@@ -6,6 +6,7 @@ name: Daily run (data, grading, predictions)
 on:
   schedule:
     - cron: "50 10 * * *"
+    - cron: "45 13 * * *"   # sportsdataverse posts last night's box scores around 12:40 UTC
     - cron: "10 16 * * *"
     - cron: "10 21 * * *"
     - cron: "10 23 * * *"
