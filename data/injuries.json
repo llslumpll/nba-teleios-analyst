@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-23 23:24 UTC",
+ "fetched_at": "2026-11-24 05:16 UTC",
  "error": null,
  "players": [
   {
@@ -66,6 +66,24 @@
    "date": "2026-11-23T15:22Z"
   },
   {
+   "player": "Grant Williams",
+   "pid": 4066218,
+   "team": "CHA",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Williams (hamstring) won't play Monday's game against the Grizzlies.",
+   "date": "2026-11-24T04:32Z"
+  },
+  {
+   "player": "Ryan Kalkbrenner",
+   "pid": 4576060,
+   "team": "CHA",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Kalkbrenner has been ruled out for the rest of Monday's game against Memphis due to left hip soreness. He'll end with two rebounds in nine minutes.",
+   "date": "2026-11-24T02:14Z"
+  },
+  {
    "player": "Grayson Allen",
    "pid": 3135045,
    "team": "CHA",
@@ -73,15 +91,6 @@
    "class": "out",
    "comment": "Allen (concussion) has been ruled out for Monday's game against the Grizzlies.",
    "date": "2026-11-22T22:08Z"
-  },
-  {
-   "player": "Grant Williams",
-   "pid": 4066218,
-   "team": "CHA",
-   "status": "Out",
-   "class": "out",
-   "comment": "Williams (hamstring) won't play Monday's game against the Grizzlies.",
-   "date": "2026-11-22T22:05Z"
   },
   {
    "player": "Kon Knueppel",
@@ -120,15 +129,6 @@
    "date": "2026-11-12T21:35Z"
   },
   {
-   "player": "Jaylon Tyson",
-   "pid": 4683747,
-   "team": "CLE",
-   "status": "Out",
-   "class": "out",
-   "comment": "Tyson (ankle) is probable for Monday's game against the Bulls.",
-   "date": "2026-11-22T21:51Z"
-  },
-  {
    "player": "Nae'Qwan Tomlin",
    "pid": 5106268,
    "team": "CLE",
@@ -147,22 +147,22 @@
    "date": "2026-11-16T22:06Z"
   },
   {
-   "player": "P.J. Washington",
-   "pid": 4278078,
-   "team": "DAL",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Washington (illness) has been ruled out for Sunday's game against the Jazz.",
-   "date": "2026-11-23T15:05Z"
-  },
-  {
    "player": "Tobi Lawal",
    "pid": 5106040,
    "team": "DAL",
    "status": "Out",
    "class": "out",
-   "comment": "Lawal (groin) has been ruled out for Sunday's game against the Jazz.",
-   "date": "2026-11-22T19:04Z"
+   "comment": "Lawal (groin) is out for Tuesday's game against Denver.",
+   "date": "2026-11-23T23:25Z"
+  },
+  {
+   "player": "P.J. Washington",
+   "pid": 4278078,
+   "team": "DAL",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Washington (illness) is questionable for Tuesday's game against the Nuggets.",
+   "date": "2026-11-23T23:21Z"
   },
   {
    "player": "Dereck Lively II",
@@ -190,15 +190,6 @@
    "class": "out",
    "comment": "Biberovic (heel) is out for Wednesday's game against the Warriors.",
    "date": "2026-11-17T22:42Z"
-  },
-  {
-   "player": "Julian Strawther",
-   "pid": 4432181,
-   "team": "DEN",
-   "status": "Out",
-   "class": "out",
-   "comment": "Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated in six weeks, Vinny Benedetto of The Denver Gazette reports.",
-   "date": "2026-10-17T00:52Z"
   },
   {
    "player": "Ebuka Okorie",
@@ -291,22 +282,31 @@
    "date": "2026-10-16T16:11Z"
   },
   {
-   "player": "T.J. McConnell",
-   "pid": 2530530,
-   "team": "IND",
-   "status": "Out",
-   "class": "out",
-   "comment": "McConnell is out for Monday's game against the Thunder due to left hamstring soreness.",
-   "date": "2026-11-23T18:25Z"
-  },
-  {
    "player": "Aaron Nesmith",
    "pid": 4396909,
    "team": "IND",
-   "status": "Out",
-   "class": "out",
+   "status": "Day-To-Day",
+   "class": "questionable",
    "comment": "Nesmith is out for Monday's game against the Thunder due to right foot soreness.",
-   "date": "2026-11-23T18:22Z"
+   "date": "2026-11-24T04:40Z"
+  },
+  {
+   "player": "T.J. McConnell",
+   "pid": 2530530,
+   "team": "IND",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "McConnell is out for Monday's game against the Thunder due to left hamstring soreness.",
+   "date": "2026-11-24T04:40Z"
+  },
+  {
+   "player": "Larry Nance Jr.",
+   "pid": 2580365,
+   "team": "IND",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Nance exited Monday's game against the Thunder due to a sore right ankle and he will not return, Tony East of Forbes.com reports.",
+   "date": "2026-11-24T02:00Z"
   },
   {
    "player": "Tyrese Haliburton",
@@ -359,8 +359,17 @@
    "team": "LAL",
    "status": "Out",
    "class": "out",
-   "comment": "Reaves (heel) has been ruled out for Monday's game against the Jazz, Jovan Buha of The Athletic reports.",
-   "date": "2026-11-23T01:09Z"
+   "comment": "Coach JJ Redick stated Monday that the team is optimistic Reaves (heel) will return for Friday's game against San Antonio, Daniel Starkand of LakersNation.com reports.",
+   "date": "2026-11-24T01:31Z"
+  },
+  {
+   "player": "Cameron Boozer",
+   "pid": 5041935,
+   "team": "MEM",
+   "status": "Out",
+   "class": "out",
+   "comment": "Boozer (ankle) will be re-evaluated in four weeks, Brett Siegel of ClutchPoints.com reports.",
+   "date": "2026-11-23T23:07Z"
   },
   {
    "player": "Jerami Grant",
@@ -370,15 +379,6 @@
    "class": "out",
    "comment": "Grant was diagnosed with a grade 1 left calf strain and will be re-evaluated in two weeks.",
    "date": "2026-11-23T04:04Z"
-  },
-  {
-   "player": "Cameron Boozer",
-   "pid": 5041935,
-   "team": "MEM",
-   "status": "Out",
-   "class": "out",
-   "comment": "Boozer (ankle) won't play Monday's game against the Hornets.",
-   "date": "2026-11-22T22:18Z"
   },
   {
    "player": "GG Jackson",
@@ -444,15 +444,6 @@
    "date": "2026-10-05T20:53Z"
   },
   {
-   "player": "Zion Williamson",
-   "pid": 4395628,
-   "team": "NOP",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Williamson (thigh) is probable for Monday's game against Phoenix.",
-   "date": "2026-11-22T20:50Z"
-  },
-  {
    "player": "Trendon Watford",
    "pid": 4431675,
    "team": "NOP",
@@ -510,10 +501,19 @@
    "player": "Jaylin Williams",
    "pid": 4432823,
    "team": "OKC",
-   "status": "Out",
-   "class": "out",
+   "status": "Day-To-Day",
+   "class": "questionable",
    "comment": "Williams (back) has been ruled out for Monday's game against the Pacers",
-   "date": "2026-11-23T19:09Z"
+   "date": "2026-11-24T04:36Z"
+  },
+  {
+   "player": "Aday Mara",
+   "pid": 5174983,
+   "team": "OKC",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Mara (shin) has been ruled out for Monday's game against the Pacers.",
+   "date": "2026-11-24T04:36Z"
   },
   {
    "player": "Nikola Topic",
@@ -523,15 +523,6 @@
    "class": "out",
    "comment": "Topic (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
    "date": "2026-11-23T18:49Z"
-  },
-  {
-   "player": "Aday Mara",
-   "pid": 5174983,
-   "team": "OKC",
-   "status": "Out",
-   "class": "out",
-   "comment": "Mara (shin) has been ruled out for Monday's game against the Pacers.",
-   "date": "2026-11-23T18:45Z"
   },
   {
    "player": "Jalen Williams",
@@ -618,19 +609,10 @@
    "player": "Joel Embiid",
    "pid": 3059318,
    "team": "PHI",
-   "status": "Out",
-   "class": "out",
-   "comment": "Embiid (illness) is out for Monday's game against Portland, Austin Krell of OnPattison.com reports.",
-   "date": "2026-11-23T22:49Z"
-  },
-  {
-   "player": "Dean Wade",
-   "pid": 3912848,
-   "team": "PHI",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "Wade (hamstring) is listed as probable for Monday's game against Portland.",
-   "date": "2026-11-22T22:15Z"
+   "comment": "Embiid (illness) is out for Monday's game against Portland, Austin Krell of OnPattison.com reports.",
+   "date": "2026-11-24T04:33Z"
   },
   {
    "player": "Ariel Hukporti",
@@ -705,31 +687,22 @@
    "date": "2026-10-21T04:22Z"
   },
   {
-   "player": "Victor Wembanyama",
-   "pid": 5104157,
-   "team": "SAS",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Wembanyama (back) is questionable for Monday's game against the Kings, Jared Weiss of The Athletic reports.",
-   "date": "2026-11-23T04:52Z"
-  },
-  {
    "player": "De'Aaron Fox",
    "pid": 4066259,
    "team": "SAS",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Fox is questionable for Monday's game against the Kings due to a right shin contusion, Jared Weiss of The Athletic reports.",
-   "date": "2026-11-23T01:39Z"
+   "status": "Out",
+   "class": "out",
+   "comment": "Fox (shin) has been ruled out for Monday's game against the Kings, Jeff McDonald of the San Antonio Express-News reports.",
+   "date": "2026-11-24T01:24Z"
   },
   {
-   "player": "Jordan McLaughlin",
-   "pid": 3134916,
+   "player": "Victor Wembanyama",
+   "pid": 5104157,
    "team": "SAS",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "McLaughlin (shoulder) is listed as questionable for Monday's game against the Kings.",
-   "date": "2026-11-23T01:38Z"
+   "status": "Out",
+   "class": "out",
+   "comment": "Wembanyama (back) won't play Monday against the Kings, Jeff McDonald of the San Antonio Express-News reports.",
+   "date": "2026-11-24T01:24Z"
   },
   {
    "player": "Dylan Harper",

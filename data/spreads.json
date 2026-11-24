@@ -1,0 +1,55 @@
+{
+ "fetched_at": "2026-11-24 05:17 UTC",
+ "error": null,
+ "diagnostics": {
+  "kalshi": "5 events, 5 main lines",
+  "espn": "3 lines"
+ },
+ "games": [
+  {
+   "date": "2026-11-23",
+   "home": "SAC",
+   "away": "SAS",
+   "home_line": 14.5,
+   "market_p_home_cover": 0.545,
+   "source": "Kalshi",
+   "event": "KXNBASPREAD-26NOV23SASSAC"
+  },
+  {
+   "date": "2026-11-23",
+   "home": "LAL",
+   "away": "UTA",
+   "home_line": -11.5,
+   "market_p_home_cover": 0.455,
+   "source": "Kalshi",
+   "event": "KXNBASPREAD-26NOV23UTALAL"
+  },
+  {
+   "date": "2026-11-24",
+   "home": "ORL",
+   "away": "DET",
+   "home_line": 2.5,
+   "market_p_home_cover": 0.51,
+   "source": "Kalshi",
+   "event": "KXNBASPREAD-26NOV24DETORL"
+  },
+  {
+   "date": "2026-11-24",
+   "home": "WAS",
+   "away": "BOS",
+   "home_line": 10.5,
+   "market_p_home_cover": 0.495,
+   "source": "Kalshi",
+   "event": "KXNBASPREAD-26NOV24BOSWAS"
+  },
+  {
+   "date": "2026-11-24",
+   "home": "DEN",
+   "away": "DAL",
+   "home_line": -8.5,
+   "market_p_home_cover": 0.485,
+   "source": "Kalshi",
+   "event": "KXNBASPREAD-26NOV24DALDEN"
+  }
+ ]
+}
