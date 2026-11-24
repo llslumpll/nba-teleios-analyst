@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24 10:24 UTC",
+ "fetched_at": "2026-11-24 16:50 UTC",
  "error": null,
  "players": [
   {
@@ -282,21 +282,30 @@
    "date": "2026-10-16T16:11Z"
   },
   {
+   "player": "T.J. McConnell",
+   "pid": 2530530,
+   "team": "IND",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "McConnell (hamstring) was assigned to the G League's Noblesville Boom on Tuesday.",
+   "date": "2026-11-24T16:02Z"
+  },
+  {
+   "player": "Tyrese Haliburton",
+   "pid": 4396993,
+   "team": "IND",
+   "status": "Out",
+   "class": "out",
+   "comment": "Haliburton (hamstring) was assigned to the G League's Noblesville Boom on Tuesday.",
+   "date": "2026-11-24T15:57Z"
+  },
+  {
    "player": "Aaron Nesmith",
    "pid": 4396909,
    "team": "IND",
    "status": "Day-To-Day",
    "class": "questionable",
    "comment": "Nesmith is out for Monday's game against the Thunder due to right foot soreness.",
-   "date": "2026-11-24T04:40Z"
-  },
-  {
-   "player": "T.J. McConnell",
-   "pid": 2530530,
-   "team": "IND",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "McConnell is out for Monday's game against the Thunder due to left hamstring soreness.",
    "date": "2026-11-24T04:40Z"
   },
   {
@@ -307,24 +316,6 @@
    "class": "questionable",
    "comment": "Nance exited Monday's game against the Thunder due to a sore right ankle and he will not return, Tony East of Forbes.com reports.",
    "date": "2026-11-24T02:00Z"
-  },
-  {
-   "player": "Tyrese Haliburton",
-   "pid": 4396993,
-   "team": "IND",
-   "status": "Out",
-   "class": "out",
-   "comment": "Haliburton (hamstring) is expected to miss at least two more weeks, Shams Charania of ESPN reports.",
-   "date": "2026-11-20T20:41Z"
-  },
-  {
-   "player": "Johnny Furphy",
-   "pid": 5157066,
-   "team": "IND",
-   "status": "Out",
-   "class": "out",
-   "comment": "Furphy (knee) is practicing with the G League's Noblesville Boom, per Alex Golden of SI.com.",
-   "date": "2026-10-30T19:06Z"
   },
   {
    "player": "Ben Sheppard",
