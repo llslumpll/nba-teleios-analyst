@@ -22,7 +22,7 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import polars as pl
 
-from teleios import calibrate, data, notebook, pbp, player_daily, profiles, scorecard, sources, teams
+from teleios import calibrate, data, lineblend, notebook, pbp, player_daily, profiles, scorecard, sources, teams
 from teleios.backtest import offseason_before
 from teleios.model import Engine, Params, learn_box_beta, phi
 
@@ -262,6 +262,10 @@ def main(argv=None):
     log["predicted"] = made
     player_daily.lock_started(games, now)
     log["players_graded"] = player_daily.grade(games, pg)
+    try:
+        log["line_blend"] = lineblend.update(player_daily.load_params().var)["state"]
+    except Exception as e:  # noqa: BLE001
+        log["line_blend"] = f"failed: {type(e).__name__}: {str(e)[:160]}"
     try:
         log["ou_calibration"] = calibrate.update()["state"]
     except Exception as e:  # noqa: BLE001

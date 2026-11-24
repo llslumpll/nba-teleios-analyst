@@ -15,7 +15,7 @@ from datetime import date
 import numpy as np
 import polars as pl
 
-from teleios import calibrate, data
+from teleios import calibrate, data, lineblend
 from teleios.players import COMBOS, STATS, PlayerModel, PParams, chance_over, interval
 from teleios.sources import load_kalshi_props, norm_name
 
@@ -114,6 +114,7 @@ def attach_market(players: list[dict], day: str, home: str, away: str, ladders: 
     Teleios's own chance of OVER at that same line (raw, and corrected by
     teleios/calibrate.py once a correction has passed its held-out test)."""
     cal = calibrate.load()
+    blend_cfg = lineblend.load()
     for p in players:
         mk = {}
         for s in MARKET_STATS:
@@ -122,6 +123,14 @@ def attach_market(players: list[dict], day: str, home: str, away: str, ladders: 
                 continue
             line = lad["main"]["line"]
             st = s if s in STATS else "pts"
+            if blend_cfg.get("active"):   # line blend, only once it has passed its held-out test
+                own = (p.get("proj_raw") or {}).get(s, p["proj"][s])
+                new = lineblend.blend(own, line, lad["main"]["mid"], s, var[s], blend_cfg)
+                if new != own:
+                    p.setdefault("proj_raw", {})[s] = round(own, 2)
+                    p["proj"][s] = round(new, 2)
+                    p.setdefault("range50", {})[s] = [round(x, 1) for x in interval(st, new, var[s], 0.5)]
+                    p.setdefault("range80", {})[s] = [round(x, 1) for x in interval(st, new, var[s], 0.8)]
             raw = chance_over(st, p["proj"][s], var[s], line)
             mk[s] = {"line": line, "market_p_over": round(lad["main"]["mid"], 4),
                      "teleios_p_over": round(calibrate.apply(raw, s, cal), 4),   # corrected if a correction has earned its place

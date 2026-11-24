@@ -140,6 +140,7 @@ def main():
         "notebook": _j("notebook.json", {}),
         "experiments": _j("experiments.json", {}),
         "retune_log": (_j("retune_log.json", []) or [])[-6:],
+        "line_blend": {"active": _j("line_blend.json", {}), "log": (_j("line_blend_log.json", []) or [])[-5:]},
         "ou_calibration": {"active": _j("ou_calibration.json", {}), "log": (_j("calibration_log.json", []) or [])[-5:]},
         "last_runs": (_j("run_log.json", []) or [])[-3:],
     }

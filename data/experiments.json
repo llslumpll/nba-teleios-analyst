@@ -93,6 +93,18 @@
     }
    ],
    "decision": "Pending: decided automatically once enough nights are graded."
+  },
+  {
+   "id": "line_blend",
+   "date": "2026-11-24",
+   "question": "Prop Edge blends about 20% of the betting line into its player projections and was more accurate than Teleios on Nov 23 (points 4.55 vs 4.77, PRA 5.52 vs 5.95). Does blending part of the market's center into Teleios's projections help?",
+   "method": "Daily, automatic (teleios/lineblend.py): one blend weight per stat (0-80%), chosen on older nights, tested on the newest nights it never saw. Adopted only if the average miss improves by at least 0.5% with no stat more than 1% worse.",
+   "results": [
+    {
+     "note": "Waiting for 3 graded nights and 1,200 lines. Dry run on Nov 23 split into pretend nights: chose 60-80% blends; held-out average miss 3.4% lower (machinery check only)."
+    }
+   ],
+   "decision": "Pending: decided automatically once enough nights are graded."
   }
  ]
 }
