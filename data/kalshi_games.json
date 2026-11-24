@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24 16:50 UTC",
+ "fetched_at": "2026-11-24 16:56 UTC",
  "error": null,
  "games": [
   {
@@ -112,14 +112,14 @@
    "home": "MIL",
    "away": "BKN",
    "event": "KXNBAGAME-26NOV25BKNMIL",
-   "p_home": 0.5126,
+   "p_home": 0.51,
    "home_bid_ask": [
     0.5,
     0.52
    ],
    "away_bid_ask": [
     0.48,
-    0.49
+    0.5
    ]
   },
   {
@@ -142,14 +142,14 @@
    "home": "HOU",
    "away": "PHX",
    "event": "KXNBAGAME-26NOV25PHXHOU",
-   "p_home": 0.7612,
+   "p_home": 0.765,
    "home_bid_ask": [
     0.76,
     0.77
    ],
    "away_bid_ask": [
     0.23,
-    0.25
+    0.24
    ]
   },
   {
@@ -277,9 +277,9 @@
    "home": "PHX",
    "away": "DAL",
    "event": "KXNBAGAME-26NOV27DALPHX",
-   "p_home": null,
+   "p_home": 0.645,
    "home_bid_ask": [
-    0.58,
+    0.6,
     0.69
    ],
    "away_bid_ask": [
@@ -292,10 +292,10 @@
    "home": "UTA",
    "away": "DEN",
    "event": "KXNBAGAME-26NOV27DENUTA",
-   "p_home": 0.2129,
+   "p_home": 0.209,
    "home_bid_ask": [
     0.2,
-    0.23
+    0.22
    ],
    "away_bid_ask": [
     0.78,
@@ -337,14 +337,14 @@
    "home": "LAC",
    "away": "NOP",
    "event": "KXNBAGAME-26NOV27NOPLAC",
-   "p_home": 0.635,
+   "p_home": 0.6345,
    "home_bid_ask": [
-    0.55,
-    0.66
+    0.6,
+    0.65
    ],
    "away_bid_ask": [
     0.34,
-    0.39
+    0.38
    ]
   },
   {
@@ -352,13 +352,13 @@
    "home": "WAS",
    "away": "ORL",
    "event": "KXNBAGAME-26NOV28ORLWAS",
-   "p_home": null,
+   "p_home": 0.32,
    "home_bid_ask": [
     0.25,
-    0.38
+    0.42
    ],
    "away_bid_ask": [
-    0.62,
+    0.63,
     0.73
    ]
   },
@@ -370,7 +370,7 @@
    "p_home": null,
    "home_bid_ask": [
     0.55,
-    0.8
+    0.81
    ],
    "away_bid_ask": [
     0.21,
@@ -442,14 +442,14 @@
    "home": "SAC",
    "away": "MIN",
    "event": "KXNBAGAME-26NOV29MINSAC",
-   "p_home": null,
+   "p_home": 0.255,
    "home_bid_ask": [
-    0.18,
-    0.29
+    0.21,
+    0.3
    ],
    "away_bid_ask": [
     0.69,
-    0.81
+    0.8
    ]
   }
  ]

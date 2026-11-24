@@ -2,7 +2,7 @@
  "401909314": {
   "away": "DET",
   "date": "2026-11-24",
-  "frozen_at": "2026-11-24 16:51 UTC",
+  "frozen_at": "2026-11-24 16:56 UTC",
   "game_id": 401909314,
   "home": "ORL",
   "locked": false,
@@ -12,27 +12,32 @@
      "ast": {
       "line": 7.5,
       "market_p_over": 0.555,
-      "teleios_p_over": 0.5576
+      "teleios_p_over": 0.5576,
+      "teleios_p_over_raw": 0.5576
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.605,
-      "teleios_p_over": 0.4951
+      "market_p_over": 0.61,
+      "teleios_p_over": 0.4951,
+      "teleios_p_over_raw": 0.4951
      },
      "pra": {
       "line": 39.5,
       "market_p_over": 0.47,
-      "teleios_p_over": 0.3869
+      "teleios_p_over": 0.3869,
+      "teleios_p_over_raw": 0.3869
      },
      "pts": {
       "line": 24.5,
       "market_p_over": 0.535,
-      "teleios_p_over": 0.4451
+      "teleios_p_over": 0.4451,
+      "teleios_p_over_raw": 0.4451
      },
      "reb": {
       "line": 5.5,
       "market_p_over": 0.445,
-      "teleios_p_over": 0.3586
+      "teleios_p_over": 0.3586,
+      "teleios_p_over_raw": 0.3586
      }
     },
     "minutes": 33.4,
@@ -135,27 +140,32 @@
      "ast": {
       "line": 3.5,
       "market_p_over": 0.645,
-      "teleios_p_over": 0.6861
+      "teleios_p_over": 0.6861,
+      "teleios_p_over_raw": 0.6861
      },
      "fg3m": {
       "line": 1.5,
       "market_p_over": 0.61,
-      "teleios_p_over": 0.5157
+      "teleios_p_over": 0.5157,
+      "teleios_p_over_raw": 0.5157
      },
      "pra": {
       "line": 24.5,
-      "market_p_over": 0.455,
-      "teleios_p_over": 0.5
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.5,
+      "teleios_p_over_raw": 0.5
      },
      "pts": {
       "line": 14.5,
       "market_p_over": 0.545,
-      "teleios_p_over": 0.5547
+      "teleios_p_over": 0.5547,
+      "teleios_p_over_raw": 0.5547
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.605,
-      "teleios_p_over": 0.5448
+      "teleios_p_over": 0.5448,
+      "teleios_p_over_raw": 0.5448
      }
     },
     "minutes": 33.1,
@@ -258,27 +268,32 @@
      "ast": {
       "line": 7.5,
       "market_p_over": 0.375,
-      "teleios_p_over": 0.2884
+      "teleios_p_over": 0.2884,
+      "teleios_p_over_raw": 0.2884
      },
      "fg3m": {
       "line": 1.5,
       "market_p_over": 0.405,
-      "teleios_p_over": 0.2827
+      "teleios_p_over": 0.2827,
+      "teleios_p_over_raw": 0.2827
      },
      "pra": {
       "line": 34.5,
       "market_p_over": 0.585,
-      "teleios_p_over": 0.4689
+      "teleios_p_over": 0.4689,
+      "teleios_p_over_raw": 0.4689
      },
      "pts": {
       "line": 24.5,
       "market_p_over": 0.41,
-      "teleios_p_over": 0.3545
+      "teleios_p_over": 0.3545,
+      "teleios_p_over_raw": 0.3545
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.6,
-      "teleios_p_over": 0.5426
+      "market_p_over": 0.625,
+      "teleios_p_over": 0.5426,
+      "teleios_p_over_raw": 0.5426
      }
     },
     "minutes": 31.9,
@@ -381,27 +396,32 @@
      "ast": {
       "line": 3.5,
       "market_p_over": 0.62,
-      "teleios_p_over": 0.5749
+      "teleios_p_over": 0.5749,
+      "teleios_p_over_raw": 0.5749
      },
      "fg3m": {
       "line": 1.5,
       "market_p_over": 0.485,
-      "teleios_p_over": 0.3998
+      "teleios_p_over": 0.3998,
+      "teleios_p_over_raw": 0.3998
      },
      "pra": {
       "line": 24.5,
       "market_p_over": 0.46,
-      "teleios_p_over": 0.4549
+      "teleios_p_over": 0.4549,
+      "teleios_p_over_raw": 0.4549
      },
      "pts": {
       "line": 14.5,
       "market_p_over": 0.48,
-      "teleios_p_over": 0.5096
+      "teleios_p_over": 0.5096,
+      "teleios_p_over_raw": 0.5096
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.65,
-      "teleios_p_over": 0.6334
+      "teleios_p_over": 0.6334,
+      "teleios_p_over_raw": 0.6334
      }
     },
     "minutes": 31.2,
@@ -503,28 +523,33 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.34,
-      "teleios_p_over": 0.2959
+      "market_p_over": 0.335,
+      "teleios_p_over": 0.2959,
+      "teleios_p_over_raw": 0.2959
      },
      "fg3m": {
       "line": 3.5,
       "market_p_over": 0.445,
-      "teleios_p_over": 0.2977
+      "teleios_p_over": 0.2977,
+      "teleios_p_over_raw": 0.2977
      },
      "pra": {
       "line": 24.5,
       "market_p_over": 0.48,
-      "teleios_p_over": 0.4515
+      "teleios_p_over": 0.4515,
+      "teleios_p_over_raw": 0.4515
      },
      "pts": {
       "line": 19.5,
-      "market_p_over": 0.37,
-      "teleios_p_over": 0.3655
+      "market_p_over": 0.365,
+      "teleios_p_over": 0.3655,
+      "teleios_p_over_raw": 0.3655
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.525,
-      "teleios_p_over": 0.4873
+      "teleios_p_over": 0.4873,
+      "teleios_p_over_raw": 0.4873
      }
     },
     "minutes": 30.8,
@@ -627,22 +652,26 @@
      "ast": {
       "line": 3.5,
       "market_p_over": 0.64,
-      "teleios_p_over": 0.6657
+      "teleios_p_over": 0.6657,
+      "teleios_p_over_raw": 0.6657
      },
      "pra": {
       "line": 24.5,
       "market_p_over": 0.455,
-      "teleios_p_over": 0.472
+      "teleios_p_over": 0.472,
+      "teleios_p_over_raw": 0.472
      },
      "pts": {
       "line": 9.5,
       "market_p_over": 0.585,
-      "teleios_p_over": 0.6087
+      "teleios_p_over": 0.6087,
+      "teleios_p_over_raw": 0.6087
      },
      "reb": {
       "line": 7.5,
       "market_p_over": 0.535,
-      "teleios_p_over": 0.5152
+      "teleios_p_over": 0.5152,
+      "teleios_p_over_raw": 0.5152
      }
     },
     "minutes": 29.7,
@@ -745,27 +774,32 @@
      "ast": {
       "line": 3.5,
       "market_p_over": 0.305,
-      "teleios_p_over": 0.3751
+      "teleios_p_over": 0.3751,
+      "teleios_p_over_raw": 0.3751
      },
      "fg3m": {
       "line": 1.5,
       "market_p_over": 0.565,
-      "teleios_p_over": 0.4543
+      "teleios_p_over": 0.4543,
+      "teleios_p_over_raw": 0.4543
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.385,
-      "teleios_p_over": 0.429
+      "market_p_over": 0.38,
+      "teleios_p_over": 0.429,
+      "teleios_p_over_raw": 0.429
      },
      "pts": {
       "line": 9.5,
       "market_p_over": 0.635,
-      "teleios_p_over": 0.6436
+      "teleios_p_over": 0.6436,
+      "teleios_p_over_raw": 0.6436
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.435,
-      "teleios_p_over": 0.4174
+      "teleios_p_over": 0.4174,
+      "teleios_p_over_raw": 0.4174
      }
     },
     "minutes": 29.5,
@@ -868,27 +902,32 @@
      "ast": {
       "line": 1.5,
       "market_p_over": 0.44,
-      "teleios_p_over": 0.3833
+      "teleios_p_over": 0.3833,
+      "teleios_p_over_raw": 0.3833
      },
      "fg3m": {
       "line": 0.5,
       "market_p_over": 0.56,
-      "teleios_p_over": 0.3952
+      "teleios_p_over": 0.3952,
+      "teleios_p_over_raw": 0.3952
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.535,
-      "teleios_p_over": 0.4974
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.4974,
+      "teleios_p_over_raw": 0.4974
      },
      "pts": {
       "line": 9.5,
       "market_p_over": 0.56,
-      "teleios_p_over": 0.5873
+      "teleios_p_over": 0.5873,
+      "teleios_p_over_raw": 0.5873
      },
      "reb": {
       "line": 7.5,
       "market_p_over": 0.575,
-      "teleios_p_over": 0.4343
+      "teleios_p_over": 0.4343,
+      "teleios_p_over_raw": 0.4343
      }
     },
     "minutes": 27.5,
@@ -991,27 +1030,32 @@
      "ast": {
       "line": 1.5,
       "market_p_over": 0.44,
-      "teleios_p_over": 0.3833
+      "teleios_p_over": 0.3833,
+      "teleios_p_over_raw": 0.3833
      },
      "fg3m": {
       "line": 2.5,
       "market_p_over": 0.415,
-      "teleios_p_over": 0.3118
+      "teleios_p_over": 0.3118,
+      "teleios_p_over_raw": 0.3118
      },
      "pra": {
       "line": 14.5,
-      "market_p_over": 0.565,
-      "teleios_p_over": 0.5962
+      "market_p_over": 0.56,
+      "teleios_p_over": 0.5962,
+      "teleios_p_over_raw": 0.5962
      },
      "pts": {
       "line": 9.5,
       "market_p_over": 0.57,
-      "teleios_p_over": 0.6208
+      "teleios_p_over": 0.6208,
+      "teleios_p_over_raw": 0.6208
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.485,
-      "teleios_p_over": 0.4472
+      "teleios_p_over": 0.4472,
+      "teleios_p_over_raw": 0.4472
      }
     },
     "minutes": 25.4,
@@ -1113,28 +1157,33 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.54,
-      "teleios_p_over": 0.4806
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.4806,
+      "teleios_p_over_raw": 0.4806
      },
      "fg3m": {
       "line": 1.5,
       "market_p_over": 0.53,
-      "teleios_p_over": 0.3715
+      "teleios_p_over": 0.3715,
+      "teleios_p_over_raw": 0.3715
      },
      "pra": {
       "line": 19.5,
       "market_p_over": 0.485,
-      "teleios_p_over": 0.3697
+      "teleios_p_over": 0.3697,
+      "teleios_p_over_raw": 0.3697
      },
      "pts": {
       "line": 9.5,
       "market_p_over": 0.585,
-      "teleios_p_over": 0.494
+      "teleios_p_over": 0.494,
+      "teleios_p_over_raw": 0.494
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.585,
-      "teleios_p_over": 0.5312
+      "teleios_p_over": 0.5312,
+      "teleios_p_over_raw": 0.5312
      }
     },
     "minutes": 24.6,
@@ -1237,12 +1286,14 @@
      "pts": {
       "line": 9.5,
       "market_p_over": 0.535,
-      "teleios_p_over": 0.643
+      "teleios_p_over": 0.643,
+      "teleios_p_over_raw": 0.643
      },
      "reb": {
       "line": 7.5,
       "market_p_over": 0.39,
-      "teleios_p_over": 0.3946
+      "teleios_p_over": 0.3946,
+      "teleios_p_over_raw": 0.3946
      }
     },
     "minutes": 24.0,
@@ -1345,27 +1396,32 @@
      "ast": {
       "line": 1.5,
       "market_p_over": 0.265,
-      "teleios_p_over": 0.186
+      "teleios_p_over": 0.186,
+      "teleios_p_over_raw": 0.186
      },
      "fg3m": {
       "line": 0.5,
       "market_p_over": 0.65,
-      "teleios_p_over": 0.559
+      "teleios_p_over": 0.559,
+      "teleios_p_over_raw": 0.559
      },
      "pra": {
       "line": 14.5,
-      "market_p_over": 0.635,
-      "teleios_p_over": 0.6141
+      "market_p_over": 0.63,
+      "teleios_p_over": 0.6141,
+      "teleios_p_over_raw": 0.6141
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.55,
-      "teleios_p_over": 0.5893
+      "market_p_over": 0.54,
+      "teleios_p_over": 0.5893,
+      "teleios_p_over_raw": 0.5893
      },
      "reb": {
       "line": 5.5,
       "market_p_over": 0.485,
-      "teleios_p_over": 0.3823
+      "teleios_p_over": 0.3823,
+      "teleios_p_over_raw": 0.3823
      }
     },
     "minutes": 22.8,
@@ -1659,13 +1715,15 @@
     "market": {
      "fg3m": {
       "line": 2.5,
-      "market_p_over": 0.38,
-      "teleios_p_over": 0.3026
+      "market_p_over": 0.375,
+      "teleios_p_over": 0.3026,
+      "teleios_p_over_raw": 0.3026
      },
      "pts": {
       "line": 9.5,
       "market_p_over": 0.61,
-      "teleios_p_over": 0.4665
+      "teleios_p_over": 0.4665,
+      "teleios_p_over_raw": 0.4665
      }
     },
     "minutes": 16.3,
@@ -2825,7 +2883,7 @@
  "401909315": {
   "away": "BOS",
   "date": "2026-11-24",
-  "frozen_at": "2026-11-24 16:51 UTC",
+  "frozen_at": "2026-11-24 16:56 UTC",
   "game_id": 401909315,
   "home": "WAS",
   "locked": false,
@@ -2834,28 +2892,33 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.57,
-      "teleios_p_over": 0.5618
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.5618,
+      "teleios_p_over_raw": 0.5618
      },
      "fg3m": {
       "line": 2.5,
       "market_p_over": 0.43,
-      "teleios_p_over": 0.3795
+      "teleios_p_over": 0.3795,
+      "teleios_p_over_raw": 0.3795
      },
      "pra": {
       "line": 24.5,
-      "market_p_over": 0.425,
-      "teleios_p_over": 0.5078
+      "market_p_over": 0.42,
+      "teleios_p_over": 0.5078,
+      "teleios_p_over_raw": 0.5078
      },
      "pts": {
       "line": 14.5,
       "market_p_over": 0.525,
-      "teleios_p_over": 0.5874
+      "teleios_p_over": 0.5874,
+      "teleios_p_over_raw": 0.5874
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.585,
-      "teleios_p_over": 0.6108
+      "teleios_p_over": 0.6108,
+      "teleios_p_over_raw": 0.6108
      }
     },
     "minutes": 32.0,
@@ -2958,27 +3021,32 @@
      "ast": {
       "line": 3.5,
       "market_p_over": 0.37,
-      "teleios_p_over": 0.2884
+      "teleios_p_over": 0.2884,
+      "teleios_p_over_raw": 0.2884
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.4,
-      "teleios_p_over": 0.2007
+      "market_p_over": 0.395,
+      "teleios_p_over": 0.2007,
+      "teleios_p_over_raw": 0.2007
      },
      "pra": {
       "line": 24.5,
       "market_p_over": 0.555,
-      "teleios_p_over": 0.4912
+      "teleios_p_over": 0.4912,
+      "teleios_p_over_raw": 0.4912
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.595,
-      "teleios_p_over": 0.5261
+      "market_p_over": 0.59,
+      "teleios_p_over": 0.5261,
+      "teleios_p_over_raw": 0.5261
      },
      "reb": {
       "line": 7.5,
       "market_p_over": 0.385,
-      "teleios_p_over": 0.3624
+      "teleios_p_over": 0.3624,
+      "teleios_p_over_raw": 0.3624
      }
     },
     "minutes": 31.7,
@@ -3080,28 +3148,33 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.62,
-      "teleios_p_over": 0.5667
+      "market_p_over": 0.63,
+      "teleios_p_over": 0.5667,
+      "teleios_p_over_raw": 0.5667
      },
      "fg3m": {
       "line": 0.5,
       "market_p_over": 0.535,
-      "teleios_p_over": 0.3632
+      "teleios_p_over": 0.3632,
+      "teleios_p_over_raw": 0.3632
      },
      "pra": {
       "line": 34.5,
       "market_p_over": 0.445,
-      "teleios_p_over": 0.4546
+      "teleios_p_over": 0.4546,
+      "teleios_p_over_raw": 0.4546
      },
      "pts": {
       "line": 19.5,
       "market_p_over": 0.605,
-      "teleios_p_over": 0.6051
+      "teleios_p_over": 0.6051,
+      "teleios_p_over_raw": 0.6051
      },
      "reb": {
       "line": 9.5,
-      "market_p_over": 0.53,
-      "teleios_p_over": 0.4755
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.4755,
+      "teleios_p_over_raw": 0.4755
      }
     },
     "minutes": 31.1,
@@ -3203,28 +3276,33 @@
     "market": {
      "ast": {
       "line": 5.5,
-      "market_p_over": 0.625,
-      "teleios_p_over": 0.5435
+      "market_p_over": 0.61,
+      "teleios_p_over": 0.5435,
+      "teleios_p_over_raw": 0.5435
      },
      "fg3m": {
       "line": 2.5,
       "market_p_over": 0.57,
-      "teleios_p_over": 0.3975
+      "teleios_p_over": 0.3975,
+      "teleios_p_over_raw": 0.3975
      },
      "pra": {
       "line": 39.5,
       "market_p_over": 0.525,
-      "teleios_p_over": 0.3914
+      "teleios_p_over": 0.3914,
+      "teleios_p_over_raw": 0.3914
      },
      "pts": {
       "line": 24.5,
-      "market_p_over": 0.58,
-      "teleios_p_over": 0.4422
+      "market_p_over": 0.57,
+      "teleios_p_over": 0.4422,
+      "teleios_p_over_raw": 0.4422
      },
      "reb": {
       "line": 7.5,
-      "market_p_over": 0.51,
-      "teleios_p_over": 0.4232
+      "market_p_over": 0.515,
+      "teleios_p_over": 0.4232,
+      "teleios_p_over_raw": 0.4232
      }
     },
     "minutes": 30.0,
@@ -3327,27 +3405,32 @@
      "ast": {
       "line": 7.5,
       "market_p_over": 0.525,
-      "teleios_p_over": 0.4747
+      "teleios_p_over": 0.4747,
+      "teleios_p_over_raw": 0.4747
      },
      "fg3m": {
       "line": 1.5,
       "market_p_over": 0.605,
-      "teleios_p_over": 0.476
+      "teleios_p_over": 0.476,
+      "teleios_p_over_raw": 0.476
      },
      "pra": {
       "line": 24.5,
       "market_p_over": 0.525,
-      "teleios_p_over": 0.5238
+      "teleios_p_over": 0.5238,
+      "teleios_p_over_raw": 0.5238
      },
      "pts": {
       "line": 14.5,
       "market_p_over": 0.535,
-      "teleios_p_over": 0.5272
+      "teleios_p_over": 0.5272,
+      "teleios_p_over_raw": 0.5272
      },
      "reb": {
       "line": 1.5,
       "market_p_over": 0.635,
-      "teleios_p_over": 0.6578
+      "teleios_p_over": 0.6578,
+      "teleios_p_over_raw": 0.6578
      }
     },
     "minutes": 29.8,
@@ -3450,27 +3533,32 @@
      "ast": {
       "line": 5.5,
       "market_p_over": 0.355,
-      "teleios_p_over": 0.3102
+      "teleios_p_over": 0.3102,
+      "teleios_p_over_raw": 0.3102
      },
      "fg3m": {
-      "line": 2.5,
-      "market_p_over": 0.365,
-      "teleios_p_over": 0.2712
+      "line": 1.5,
+      "market_p_over": 0.645,
+      "teleios_p_over": 0.4387,
+      "teleios_p_over_raw": 0.4387
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.58,
-      "teleios_p_over": 0.4948
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.4948,
+      "teleios_p_over_raw": 0.4948
      },
      "pts": {
       "line": 14.5,
       "market_p_over": 0.405,
-      "teleios_p_over": 0.3291
+      "teleios_p_over": 0.3291,
+      "teleios_p_over_raw": 0.3291
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.425,
-      "teleios_p_over": 0.3585
+      "teleios_p_over": 0.3585,
+      "teleios_p_over_raw": 0.3585
      }
     },
     "minutes": 26.4,
@@ -3573,27 +3661,32 @@
      "ast": {
       "line": 3.5,
       "market_p_over": 0.485,
-      "teleios_p_over": 0.422
+      "teleios_p_over": 0.422,
+      "teleios_p_over_raw": 0.422
      },
      "fg3m": {
       "line": 2.5,
-      "market_p_over": 0.53,
-      "teleios_p_over": 0.3992
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.3992,
+      "teleios_p_over_raw": 0.3992
      },
      "pra": {
       "line": 29.5,
       "market_p_over": 0.415,
-      "teleios_p_over": 0.2908
+      "teleios_p_over": 0.2908,
+      "teleios_p_over_raw": 0.2908
      },
      "pts": {
       "line": 19.5,
       "market_p_over": 0.46,
-      "teleios_p_over": 0.3368
+      "teleios_p_over": 0.3368,
+      "teleios_p_over_raw": 0.3368
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.435,
-      "teleios_p_over": 0.3557
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.3557,
+      "teleios_p_over_raw": 0.3557
      }
     },
     "minutes": 26.1,
@@ -3696,27 +3789,32 @@
      "ast": {
       "line": 3.5,
       "market_p_over": 0.635,
-      "teleios_p_over": 0.5518
+      "teleios_p_over": 0.5518,
+      "teleios_p_over_raw": 0.5518
      },
      "fg3m": {
       "line": 1.5,
       "market_p_over": 0.59,
-      "teleios_p_over": 0.4845
+      "teleios_p_over": 0.4845,
+      "teleios_p_over_raw": 0.4845
      },
      "pra": {
       "line": 19.5,
       "market_p_over": 0.535,
-      "teleios_p_over": 0.5067
+      "teleios_p_over": 0.5067,
+      "teleios_p_over_raw": 0.5067
      },
      "pts": {
       "line": 14.5,
       "market_p_over": 0.39,
-      "teleios_p_over": 0.3732
+      "teleios_p_over": 0.3732,
+      "teleios_p_over_raw": 0.3732
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.355,
-      "teleios_p_over": 0.3528
+      "teleios_p_over": 0.3528,
+      "teleios_p_over_raw": 0.3528
      }
     },
     "minutes": 24.8,
@@ -3819,27 +3917,26 @@
      "ast": {
       "line": 1.5,
       "market_p_over": 0.51,
-      "teleios_p_over": 0.4609
+      "teleios_p_over": 0.4609,
+      "teleios_p_over_raw": 0.4609
      },
      "fg3m": {
       "line": 1.5,
       "market_p_over": 0.405,
-      "teleios_p_over": 0.2726
-     },
-     "pra": {
-      "line": 14.5,
-      "market_p_over": 0.69,
-      "teleios_p_over": 0.7155
+      "teleios_p_over": 0.2726,
+      "teleios_p_over_raw": 0.2726
      },
      "pts": {
       "line": 9.5,
       "market_p_over": 0.495,
-      "teleios_p_over": 0.5925
+      "teleios_p_over": 0.5925,
+      "teleios_p_over_raw": 0.5925
      },
      "reb": {
       "line": 5.5,
       "market_p_over": 0.555,
-      "teleios_p_over": 0.5666
+      "teleios_p_over": 0.5666,
+      "teleios_p_over_raw": 0.5666
      }
     },
     "minutes": 24.1,
@@ -3942,22 +4039,20 @@
      "ast": {
       "line": 1.5,
       "market_p_over": 0.585,
-      "teleios_p_over": 0.5373
-     },
-     "pra": {
-      "line": 19.5,
-      "market_p_over": 0.64,
-      "teleios_p_over": 0.4801
+      "teleios_p_over": 0.5373,
+      "teleios_p_over_raw": 0.5373
      },
      "pts": {
       "line": 9.5,
       "market_p_over": 0.595,
-      "teleios_p_over": 0.5133
+      "teleios_p_over": 0.5133,
+      "teleios_p_over_raw": 0.5133
      },
      "reb": {
       "line": 9.5,
-      "market_p_over": 0.44,
-      "teleios_p_over": 0.2497
+      "market_p_over": 0.45,
+      "teleios_p_over": 0.2497,
+      "teleios_p_over_raw": 0.2497
      }
     },
     "minutes": 22.2,
@@ -4060,27 +4155,32 @@
      "ast": {
       "line": 1.5,
       "market_p_over": 0.385,
-      "teleios_p_over": 0.2918
+      "teleios_p_over": 0.2918,
+      "teleios_p_over_raw": 0.2918
      },
      "fg3m": {
       "line": 0.5,
       "market_p_over": 0.56,
-      "teleios_p_over": 0.3794
+      "teleios_p_over": 0.3794,
+      "teleios_p_over_raw": 0.3794
      },
      "pra": {
       "line": 9.5,
-      "market_p_over": 0.64,
-      "teleios_p_over": 0.6679
+      "market_p_over": 0.635,
+      "teleios_p_over": 0.6679,
+      "teleios_p_over_raw": 0.6679
      },
      "pts": {
       "line": 4.5,
-      "market_p_over": 0.685,
-      "teleios_p_over": 0.7184
+      "market_p_over": 0.68,
+      "teleios_p_over": 0.7184,
+      "teleios_p_over_raw": 0.7184
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.48,
-      "teleios_p_over": 0.5068
+      "teleios_p_over": 0.5068,
+      "teleios_p_over_raw": 0.5068
      }
     },
     "minutes": 21.9,
@@ -4566,18 +4666,21 @@
     "market": {
      "fg3m": {
       "line": 0.5,
-      "market_p_over": 0.53,
-      "teleios_p_over": 0.2985
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.2985,
+      "teleios_p_over_raw": 0.2985
      },
      "pts": {
       "line": 4.5,
-      "market_p_over": 0.56,
-      "teleios_p_over": 0.4501
+      "market_p_over": 0.55,
+      "teleios_p_over": 0.4501,
+      "teleios_p_over_raw": 0.4501
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.5,
-      "teleios_p_over": 0.326
+      "market_p_over": 0.49,
+      "teleios_p_over": 0.326,
+      "teleios_p_over_raw": 0.326
      }
     },
     "minutes": 13.3,
@@ -6016,7 +6119,7 @@
  "401909316": {
   "away": "DAL",
   "date": "2026-11-24",
-  "frozen_at": "2026-11-24 16:51 UTC",
+  "frozen_at": "2026-11-24 16:56 UTC",
   "game_id": 401909316,
   "home": "DEN",
   "locked": false,
@@ -6025,28 +6128,33 @@
     "market": {
      "ast": {
       "line": 9.5,
-      "market_p_over": 0.53,
-      "teleios_p_over": 0.419
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.419,
+      "teleios_p_over_raw": 0.419
      },
      "fg3m": {
       "line": 1.5,
       "market_p_over": 0.4,
-      "teleios_p_over": 0.3327
+      "teleios_p_over": 0.3327,
+      "teleios_p_over_raw": 0.3327
      },
      "pra": {
       "line": 49.5,
-      "market_p_over": 0.425,
-      "teleios_p_over": 0.3011
+      "market_p_over": 0.42,
+      "teleios_p_over": 0.3011,
+      "teleios_p_over_raw": 0.3011
      },
      "pts": {
       "line": 24.5,
       "market_p_over": 0.56,
-      "teleios_p_over": 0.4576
+      "teleios_p_over": 0.4576,
+      "teleios_p_over_raw": 0.4576
      },
      "reb": {
       "line": 11.5,
-      "market_p_over": 0.535,
-      "teleios_p_over": 0.4035
+      "market_p_over": 0.54,
+      "teleios_p_over": 0.4035,
+      "teleios_p_over_raw": 0.4035
      }
     },
     "minutes": 32.4,
@@ -6148,28 +6256,33 @@
     "market": {
      "ast": {
       "line": 5.5,
-      "market_p_over": 0.6,
-      "teleios_p_over": 0.4933
+      "market_p_over": 0.61,
+      "teleios_p_over": 0.4933,
+      "teleios_p_over_raw": 0.4933
      },
      "fg3m": {
       "line": 2.5,
       "market_p_over": 0.49,
-      "teleios_p_over": 0.4672
+      "teleios_p_over": 0.4672,
+      "teleios_p_over_raw": 0.4672
      },
      "pra": {
       "line": 34.5,
       "market_p_over": 0.485,
-      "teleios_p_over": 0.463
+      "teleios_p_over": 0.463,
+      "teleios_p_over_raw": 0.463
      },
      "pts": {
       "line": 24.5,
       "market_p_over": 0.435,
-      "teleios_p_over": 0.4466
+      "teleios_p_over": 0.4466,
+      "teleios_p_over_raw": 0.4466
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.63,
-      "teleios_p_over": 0.6031
+      "market_p_over": 0.64,
+      "teleios_p_over": 0.6031,
+      "teleios_p_over_raw": 0.6031
      }
     },
     "minutes": 32.0,
@@ -6272,27 +6385,32 @@
      "ast": {
       "line": 5.5,
       "market_p_over": 0.595,
-      "teleios_p_over": 0.4732
+      "teleios_p_over": 0.4732,
+      "teleios_p_over_raw": 0.4732
      },
      "fg3m": {
       "line": 1.5,
       "market_p_over": 0.515,
-      "teleios_p_over": 0.3253
+      "teleios_p_over": 0.3253,
+      "teleios_p_over_raw": 0.3253
      },
      "pra": {
-      "line": 34.5,
-      "market_p_over": 0.59,
-      "teleios_p_over": 0.4661
+      "line": 39.5,
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.2813,
+      "teleios_p_over_raw": 0.2813
      },
      "pts": {
       "line": 24.5,
       "market_p_over": 0.46,
-      "teleios_p_over": 0.3841
+      "teleios_p_over": 0.3841,
+      "teleios_p_over_raw": 0.3841
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.595,
-      "teleios_p_over": 0.5166
+      "market_p_over": 0.59,
+      "teleios_p_over": 0.5166,
+      "teleios_p_over_raw": 0.5166
      }
     },
     "minutes": 30.1,
@@ -6394,28 +6512,33 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.705,
-      "teleios_p_over": 0.6212
+      "market_p_over": 0.71,
+      "teleios_p_over": 0.6212,
+      "teleios_p_over_raw": 0.6212
      },
      "fg3m": {
       "line": 1.5,
       "market_p_over": 0.45,
-      "teleios_p_over": 0.3153
+      "teleios_p_over": 0.3153,
+      "teleios_p_over_raw": 0.3153
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.56,
-      "teleios_p_over": 0.441
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.441,
+      "teleios_p_over_raw": 0.441
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.4,
-      "teleios_p_over": 0.3291
+      "market_p_over": 0.395,
+      "teleios_p_over": 0.3291,
+      "teleios_p_over_raw": 0.3291
      },
      "reb": {
       "line": 5.5,
       "market_p_over": 0.345,
-      "teleios_p_over": 0.2681
+      "teleios_p_over": 0.2681,
+      "teleios_p_over_raw": 0.2681
      }
     },
     "minutes": 28.5,
@@ -6517,28 +6640,33 @@
     "market": {
      "ast": {
       "line": 5.5,
-      "market_p_over": 0.38,
-      "teleios_p_over": 0.2757
+      "market_p_over": 0.375,
+      "teleios_p_over": 0.2757,
+      "teleios_p_over_raw": 0.2757
      },
      "fg3m": {
       "line": 3.5,
-      "market_p_over": 0.425,
-      "teleios_p_over": 0.3067
+      "market_p_over": 0.43,
+      "teleios_p_over": 0.3067,
+      "teleios_p_over_raw": 0.3067
      },
      "pra": {
       "line": 29.5,
-      "market_p_over": 0.56,
-      "teleios_p_over": 0.4586
+      "market_p_over": 0.54,
+      "teleios_p_over": 0.4586,
+      "teleios_p_over_raw": 0.4586
      },
      "pts": {
       "line": 24.5,
-      "market_p_over": 0.375,
-      "teleios_p_over": 0.3117
+      "market_p_over": 0.365,
+      "teleios_p_over": 0.3117,
+      "teleios_p_over_raw": 0.3117
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.54,
-      "teleios_p_over": 0.4711
+      "teleios_p_over": 0.4711,
+      "teleios_p_over_raw": 0.4711
      }
     },
     "minutes": 28.4,
@@ -6640,28 +6768,33 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.66,
-      "teleios_p_over": 0.6169
+      "market_p_over": 0.65,
+      "teleios_p_over": 0.6169,
+      "teleios_p_over_raw": 0.6169
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.62,
-      "teleios_p_over": 0.441
+      "market_p_over": 0.625,
+      "teleios_p_over": 0.441,
+      "teleios_p_over_raw": 0.441
      },
      "pra": {
       "line": 19.5,
       "market_p_over": 0.46,
-      "teleios_p_over": 0.3725
+      "teleios_p_over": 0.3725,
+      "teleios_p_over_raw": 0.3725
      },
      "pts": {
       "line": 14.5,
       "market_p_over": 0.395,
-      "teleios_p_over": 0.3096
+      "teleios_p_over": 0.3096,
+      "teleios_p_over_raw": 0.3096
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.515,
-      "teleios_p_over": 0.4061
+      "teleios_p_over": 0.4061,
+      "teleios_p_over_raw": 0.4061
      }
     },
     "minutes": 25.5,
@@ -6764,27 +6897,32 @@
      "ast": {
       "line": 1.5,
       "market_p_over": 0.65,
-      "teleios_p_over": 0.5969
+      "teleios_p_over": 0.5969,
+      "teleios_p_over_raw": 0.5969
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.41,
-      "teleios_p_over": 0.2827
+      "market_p_over": 0.405,
+      "teleios_p_over": 0.2827,
+      "teleios_p_over_raw": 0.2827
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.595,
-      "teleios_p_over": 0.4621
+      "market_p_over": 0.58,
+      "teleios_p_over": 0.4621,
+      "teleios_p_over_raw": 0.4621
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.445,
-      "teleios_p_over": 0.3271
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.3271,
+      "teleios_p_over_raw": 0.3271
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.44,
-      "teleios_p_over": 0.3453
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.3453,
+      "teleios_p_over_raw": 0.3453
      }
     },
     "minutes": 25.3,
@@ -6887,27 +7025,32 @@
      "ast": {
       "line": 1.5,
       "market_p_over": 0.41,
-      "teleios_p_over": 0.3473
+      "teleios_p_over": 0.3473,
+      "teleios_p_over_raw": 0.3473
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.595,
-      "teleios_p_over": 0.3905
+      "market_p_over": 0.59,
+      "teleios_p_over": 0.3905,
+      "teleios_p_over_raw": 0.3905
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.48,
-      "teleios_p_over": 0.4492
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.4492,
+      "teleios_p_over_raw": 0.4492
      },
      "pts": {
       "line": 14.5,
       "market_p_over": 0.36,
-      "teleios_p_over": 0.3217
+      "teleios_p_over": 0.3217,
+      "teleios_p_over_raw": 0.3217
      },
      "reb": {
       "line": 5.5,
       "market_p_over": 0.445,
-      "teleios_p_over": 0.4585
+      "teleios_p_over": 0.4585,
+      "teleios_p_over_raw": 0.4585
      }
     },
     "minutes": 24.9,
@@ -7009,23 +7152,27 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.685,
-      "teleios_p_over": 0.6585
+      "market_p_over": 0.68,
+      "teleios_p_over": 0.6585,
+      "teleios_p_over_raw": 0.6585
      },
      "fg3m": {
       "line": 0.5,
       "market_p_over": 0.565,
-      "teleios_p_over": 0.4752
+      "teleios_p_over": 0.4752,
+      "teleios_p_over_raw": 0.4752
      },
      "pts": {
       "line": 4.5,
-      "market_p_over": 0.6,
-      "teleios_p_over": 0.6766
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.6766,
+      "teleios_p_over_raw": 0.6766
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.47,
-      "teleios_p_over": 0.4819
+      "teleios_p_over": 0.4819,
+      "teleios_p_over_raw": 0.4819
      }
     },
     "minutes": 22.0,
@@ -7128,22 +7275,26 @@
      "ast": {
       "line": 1.5,
       "market_p_over": 0.53,
-      "teleios_p_over": 0.5144
+      "teleios_p_over": 0.5144,
+      "teleios_p_over_raw": 0.5144
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.415,
-      "teleios_p_over": 0.3596
+      "market_p_over": 0.41,
+      "teleios_p_over": 0.3596,
+      "teleios_p_over_raw": 0.3596
      },
      "pts": {
       "line": 9.5,
       "market_p_over": 0.485,
-      "teleios_p_over": 0.4842
+      "teleios_p_over": 0.4842,
+      "teleios_p_over_raw": 0.4842
      },
      "reb": {
       "line": 7.5,
-      "market_p_over": 0.405,
-      "teleios_p_over": 0.2488
+      "market_p_over": 0.4,
+      "teleios_p_over": 0.2488,
+      "teleios_p_over_raw": 0.2488
      }
     },
     "minutes": 21.6,
@@ -7244,24 +7395,28 @@
    {
     "market": {
      "fg3m": {
-      "line": 0.5,
-      "market_p_over": 0.65,
-      "teleios_p_over": 0.5296
+      "line": 1.5,
+      "market_p_over": 0.35,
+      "teleios_p_over": 0.2878,
+      "teleios_p_over_raw": 0.2878
      },
      "pra": {
       "line": 14.5,
-      "market_p_over": 0.45,
-      "teleios_p_over": 0.5
+      "market_p_over": 0.445,
+      "teleios_p_over": 0.5,
+      "teleios_p_over_raw": 0.5
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.43,
-      "teleios_p_over": 0.4477
+      "market_p_over": 0.44,
+      "teleios_p_over": 0.4477,
+      "teleios_p_over_raw": 0.4477
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.54,
-      "teleios_p_over": 0.62
+      "teleios_p_over": 0.62,
+      "teleios_p_over_raw": 0.62
      }
     },
     "minutes": 21.4,
@@ -7364,27 +7519,32 @@
      "ast": {
       "line": 3.5,
       "market_p_over": 0.365,
-      "teleios_p_over": 0.3751
+      "teleios_p_over": 0.3751,
+      "teleios_p_over_raw": 0.3751
      },
      "fg3m": {
       "line": 0.5,
       "market_p_over": 0.565,
-      "teleios_p_over": 0.3873
+      "teleios_p_over": 0.3873,
+      "teleios_p_over_raw": 0.3873
      },
      "pra": {
       "line": 14.5,
-      "market_p_over": 0.6,
-      "teleios_p_over": 0.6003
+      "market_p_over": 0.585,
+      "teleios_p_over": 0.6003,
+      "teleios_p_over_raw": 0.6003
      },
      "pts": {
       "line": 9.5,
       "market_p_over": 0.52,
-      "teleios_p_over": 0.5603
+      "teleios_p_over": 0.5603,
+      "teleios_p_over_raw": 0.5603
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.365,
-      "teleios_p_over": 0.3145
+      "teleios_p_over": 0.3145,
+      "teleios_p_over_raw": 0.3145
      }
     },
     "minutes": 21.1,
@@ -7583,27 +7743,32 @@
      "ast": {
       "line": 1.5,
       "market_p_over": 0.64,
-      "teleios_p_over": 0.6297
+      "teleios_p_over": 0.6297,
+      "teleios_p_over_raw": 0.6297
      },
      "fg3m": {
       "line": 0.5,
       "market_p_over": 0.335,
-      "teleios_p_over": 0.1758
+      "teleios_p_over": 0.1758,
+      "teleios_p_over_raw": 0.1758
      },
      "pra": {
       "line": 14.5,
       "market_p_over": 0.495,
-      "teleios_p_over": 0.4297
+      "teleios_p_over": 0.4297,
+      "teleios_p_over_raw": 0.4297
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.53,
-      "teleios_p_over": 0.491
+      "market_p_over": 0.54,
+      "teleios_p_over": 0.491,
+      "teleios_p_over_raw": 0.491
      },
      "reb": {
       "line": 1.5,
       "market_p_over": 0.54,
-      "teleios_p_over": 0.4542
+      "teleios_p_over": 0.4542,
+      "teleios_p_over_raw": 0.4542
      }
     },
     "minutes": 17.6,
