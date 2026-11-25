@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24 20:53 UTC",
+ "fetched_at": "2026-11-25 00:35 UTC",
  "error": null,
  "players": [
   {
@@ -66,22 +66,31 @@
    "date": "2026-11-23T15:22Z"
   },
   {
-   "player": "Grant Williams",
-   "pid": 4066218,
-   "team": "CHA",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Williams (hamstring) won't play Monday's game against the Grizzlies.",
-   "date": "2026-11-24T04:32Z"
-  },
-  {
    "player": "Ryan Kalkbrenner",
    "pid": 4576060,
    "team": "CHA",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "Kalkbrenner has been ruled out for the rest of Monday's game against Memphis due to left hip soreness. He'll end with two rebounds in nine minutes.",
-   "date": "2026-11-24T02:14Z"
+   "comment": "Kalkbrenner (hip) is doubtful to play Wednesday against the Bulls.",
+   "date": "2026-11-24T22:33Z"
+  },
+  {
+   "player": "Dennis Schroder",
+   "pid": 3032979,
+   "team": "CHA",
+   "status": "Out",
+   "class": "out",
+   "comment": "Schroder (hamstring) is out for Wednesday's game the Bulls.",
+   "date": "2026-11-24T22:32Z"
+  },
+  {
+   "player": "Sion James",
+   "pid": 4602025,
+   "team": "CHA",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "James is probable for Wednesday's game against the Bulls due to general soreness.",
+   "date": "2026-11-24T22:30Z"
   },
   {
    "player": "Grayson Allen",
@@ -89,8 +98,8 @@
    "team": "CHA",
    "status": "Out",
    "class": "out",
-   "comment": "Allen (concussion) has been ruled out for Monday's game against the Grizzlies.",
-   "date": "2026-11-22T22:08Z"
+   "comment": "Allen (concussion) is listed as questionable for Wednesday's game versus Chicago.",
+   "date": "2026-11-24T22:29Z"
   },
   {
    "player": "Kon Knueppel",
@@ -100,15 +109,6 @@
    "class": "out",
    "comment": "Knueppel (hamstring) was diagnosed with a left hamstring strain Sunday and will be re-evaluated in four weeks.",
    "date": "2026-11-08T22:31Z"
-  },
-  {
-   "player": "Dennis Schroder",
-   "pid": 3032979,
-   "team": "CHA",
-   "status": "Out",
-   "class": "out",
-   "comment": "Schroder has been diagnosed with a left hamstring strain and will be reevaluated in two weeks, Michael Scotto of HoopsHype.com reports.",
-   "date": "2026-11-08T22:26Z"
   },
   {
    "player": "Jalen Smith",
@@ -201,6 +201,15 @@
    "date": "2026-11-17T22:42Z"
   },
   {
+   "player": "Cade Cunningham",
+   "pid": 4432166,
+   "team": "DET",
+   "status": "Out",
+   "class": "out",
+   "comment": "Cunningham (knee) is listed as out for Tuesday's game against Orlando.",
+   "date": "2026-11-24T23:36Z"
+  },
+  {
    "player": "Ebuka Okorie",
    "pid": 5258459,
    "team": "DET",
@@ -237,13 +246,13 @@
    "date": "2026-11-24T18:27Z"
   },
   {
-   "player": "Cade Cunningham",
-   "pid": 4432166,
-   "team": "DET",
+   "player": "Yaxel Lendeborg",
+   "pid": 5175737,
+   "team": "GSW",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "Cunningham (knee) is probable for Tuesday's game against the Orlando.",
-   "date": "2026-11-23T22:07Z"
+   "comment": "Lendeborg is questionable for Wednesday's game against the Kings with an illness.",
+   "date": "2026-11-24T23:20Z"
   },
   {
    "player": "Brandon Williams",
@@ -251,8 +260,8 @@
    "team": "GSW",
    "status": "Out",
    "class": "out",
-   "comment": "Head coach Steve Kerr said Monday that Williams (hamstring) is on track to return Wednesday against the Kings, Kenzo Fukuda of ClutchPoints.com reports.",
-   "date": "2026-11-23T20:52Z"
+   "comment": "Head coach Steve Kerr said Tuesday that Williams (hamstring) is questionable to play Wednesday against the Kings, per Dalton Johnson of NBC Sports Bay Area.",
+   "date": "2026-11-24T20:58Z"
   },
   {
    "player": "Stephen Curry",
@@ -363,6 +372,15 @@
    "date": "2026-11-24T01:31Z"
   },
   {
+   "player": "Scotty Pippen Jr.",
+   "pid": 4431785,
+   "team": "MEM",
+   "status": "Out",
+   "class": "out",
+   "comment": "Pippen (back) is out for Wednesday's game against the Clippers.",
+   "date": "2026-11-24T23:04Z"
+  },
+  {
    "player": "Cameron Boozer",
    "pid": 5041935,
    "team": "MEM",
@@ -390,15 +408,6 @@
    "date": "2026-11-17T23:18Z"
   },
   {
-   "player": "Scotty Pippen Jr.",
-   "pid": 4431785,
-   "team": "MEM",
-   "status": "Out",
-   "class": "out",
-   "comment": "Pippen (back) is progressing in his recovery but is still considered week-to-week.",
-   "date": "2026-11-16T17:16Z"
-  },
-  {
    "player": "Richie Saunders",
    "pid": 5105462,
    "team": "MEM",
@@ -413,8 +422,8 @@
    "team": "MIA",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "Antetokounmpo (groin) participated in most of Tuesday's practice, Zachary Weinberger of ClutchPoints.com reports.",
-   "date": "2026-11-24T18:56Z"
+   "comment": "Antetokounmpo (groin) is questionable for Wednesday's game in Philadelphia.",
+   "date": "2026-11-24T22:07Z"
   },
   {
    "player": "Donte DiVincenzo",
@@ -471,49 +480,49 @@
    "date": "2026-11-13T20:19Z"
   },
   {
-   "player": "Jordan Clarkson",
-   "pid": 2528426,
-   "team": "NYK",
-   "status": "Out",
-   "class": "out",
-   "comment": "Clarkson (foot) didn't participate in Tuesday's practice, Jared Schwartz of the New York Post reports.",
-   "date": "2026-11-24T18:48Z"
-  },
-  {
-   "player": "OG Anunoby",
-   "pid": 3934719,
-   "team": "NYK",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Anunoby (calf) did not participate in Tuesday's practice, Jared Schwartz of the New York Post reports.",
-   "date": "2026-11-24T18:42Z"
-  },
-  {
    "player": "Miles McBride",
    "pid": 4431823,
    "team": "NYK",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "McBride (groin) practiced Tuesday, per Jared Schwartz of the New York Post.",
-   "date": "2026-11-24T18:40Z"
+   "comment": "McBride (adductor) is listed as questionable for Wednesday's game versus Cleveland.",
+   "date": "2026-11-24T21:56Z"
   },
   {
-   "player": "Jaylin Williams",
-   "pid": 4432823,
-   "team": "OKC",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Williams (back) has been ruled out for Monday's game against the Pacers",
-   "date": "2026-11-24T04:36Z"
+   "player": "Jordan Clarkson",
+   "pid": 2528426,
+   "team": "NYK",
+   "status": "Out",
+   "class": "out",
+   "comment": "Clarkson (foot) is out for Wednesday's game against Cleveland.",
+   "date": "2026-11-24T21:56Z"
   },
   {
-   "player": "Aday Mara",
-   "pid": 5174983,
-   "team": "OKC",
+   "player": "Josh Hart",
+   "pid": 3062679,
+   "team": "NYK",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "Mara (shin) has been ruled out for Monday's game against the Pacers.",
-   "date": "2026-11-24T04:36Z"
+   "comment": "Hart (shoulder) is listed as questionable for Wednesday's game against Cleveland.",
+   "date": "2026-11-24T21:54Z"
+  },
+  {
+   "player": "OG Anunoby",
+   "pid": 3934719,
+   "team": "NYK",
+   "status": "Out",
+   "class": "out",
+   "comment": "Anunoby (calf) is out for Wednesday's game against Cleveland.",
+   "date": "2026-11-24T21:53Z"
+  },
+  {
+   "player": "Karl-Anthony Towns",
+   "pid": 3136195,
+   "team": "NYK",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Towns (knee) is questionable for Wednesday's game against Cleveland.",
+   "date": "2026-11-24T21:50Z"
   },
   {
    "player": "Nikola Topic",
@@ -521,8 +530,26 @@
    "team": "OKC",
    "status": "Out",
    "class": "out",
-   "comment": "Topic (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
-   "date": "2026-11-23T18:49Z"
+   "comment": "Topic (hip) is listed as out for Wednesday's game versus Minnesota.",
+   "date": "2026-11-24T23:29Z"
+  },
+  {
+   "player": "Jaylin Williams",
+   "pid": 4432823,
+   "team": "OKC",
+   "status": "Out",
+   "class": "out",
+   "comment": "Williams (back) is listed as out for Wednesday's game against Minnesota.",
+   "date": "2026-11-24T23:24Z"
+  },
+  {
+   "player": "Aday Mara",
+   "pid": 5174983,
+   "team": "OKC",
+   "status": "Out",
+   "class": "out",
+   "comment": "Mara (leg) is out for Wednesday's game versus the Timberwolves.",
+   "date": "2026-11-24T23:19Z"
   },
   {
    "player": "Jalen Williams",
@@ -532,15 +559,6 @@
    "class": "out",
    "comment": "Williams (ankle) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
    "date": "2026-11-23T18:43Z"
-  },
-  {
-   "player": "Alex Caruso",
-   "pid": 2991350,
-   "team": "OKC",
-   "status": "Out",
-   "class": "out",
-   "comment": "Caruso (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
-   "date": "2026-11-23T18:38Z"
   },
   {
    "player": "Thomas Sorber",
@@ -611,8 +629,8 @@
    "team": "PHI",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "Embiid (illness) is out for Monday's game against Portland, Austin Krell of OnPattison.com reports.",
-   "date": "2026-11-24T04:33Z"
+   "comment": "Embiid (illness) is listed as doubtful for Wednesday's game versus Miami.",
+   "date": "2026-11-24T22:09Z"
   },
   {
    "player": "Ariel Hukporti",
@@ -732,6 +750,15 @@
    "date": "2026-10-05T21:43Z"
   },
   {
+   "player": "Kawhi Leonard",
+   "pid": 6450,
+   "team": "TOR",
+   "status": "Out",
+   "class": "out",
+   "comment": "Leonard has begun individual on-court workouts following treatment to address swelling in his left knee, and he will be re-evaluated in one week, Marc J. Spears of ESPN.com reports.",
+   "date": "2026-11-24T21:15Z"
+  },
+  {
    "player": "Nate Bittle",
    "pid": 4432586,
    "team": "TOR",
@@ -739,15 +766,6 @@
    "class": "out",
    "comment": "Bittle (foot) has been ruled out for Monday's game against the Bucks, Blake Murphy of Sportsnet.ca reports.",
    "date": "2026-11-22T21:13Z"
-  },
-  {
-   "player": "Kawhi Leonard",
-   "pid": 6450,
-   "team": "TOR",
-   "status": "Out",
-   "class": "out",
-   "comment": "Leonard (knee) could return in the next few weeks, per Shams Charania of ESPN.",
-   "date": "2026-11-20T20:42Z"
   },
   {
    "player": "RJ Barrett",

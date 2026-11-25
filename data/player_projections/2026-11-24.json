@@ -5,7 +5,7 @@
   "frozen_at": "2026-11-24 20:53 UTC",
   "game_id": 401909314,
   "home": "ORL",
-  "locked": false,
+  "locked": true,
   "players": [
    {
     "market": {
@@ -2901,7 +2901,7 @@
  "401909315": {
   "away": "BOS",
   "date": "2026-11-24",
-  "frozen_at": "2026-11-24 20:53 UTC",
+  "frozen_at": "2026-11-25 00:35 UTC",
   "game_id": 401909315,
   "home": "WAS",
   "locked": false,
@@ -2911,32 +2911,32 @@
      "ast": {
       "line": 3.5,
       "market_p_over": 0.575,
-      "teleios_p_over": 0.5618,
-      "teleios_p_over_raw": 0.5618
+      "teleios_p_over": 0.5601,
+      "teleios_p_over_raw": 0.5601
      },
      "fg3m": {
       "line": 2.5,
-      "market_p_over": 0.435,
+      "market_p_over": 0.42,
       "teleios_p_over": 0.3795,
       "teleios_p_over_raw": 0.3795
      },
      "pra": {
       "line": 24.5,
-      "market_p_over": 0.445,
-      "teleios_p_over": 0.5083,
-      "teleios_p_over_raw": 0.5083
+      "market_p_over": 0.41,
+      "teleios_p_over": 0.506,
+      "teleios_p_over_raw": 0.506
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.515,
-      "teleios_p_over": 0.5874,
-      "teleios_p_over_raw": 0.5874
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.5858,
+      "teleios_p_over_raw": 0.5858
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.605,
-      "teleios_p_over": 0.6108,
-      "teleios_p_over_raw": 0.6108
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.6093,
+      "teleios_p_over_raw": 0.6093
      }
     },
     "minutes": 32.0,
@@ -2944,14 +2944,14 @@
     "pid": 5174563,
     "player": "Kyshawn George",
     "proj": {
-     "ast": 4.17,
+     "ast": 4.16,
      "blk": 1.0,
      "fg3m": 2.39,
-     "pra": 24.68,
-     "pts": 16.04,
-     "reb": 4.47,
-     "stl": 0.87,
-     "tov": 2.68
+     "pra": 24.63,
+     "pts": 16.01,
+     "reb": 4.46,
+     "stl": 0.86,
+     "tov": 2.67
     },
     "questionable": false,
     "range50": {
@@ -2999,15 +2999,15 @@
      ],
      "fg3m": [
       0.0,
-      6.0
+      5.0
      ],
      "pra": [
-      13.6,
-      35.8
+      13.5,
+      35.7
      ],
      "pts": [
       7.1,
-      25.0
+      24.9
      ],
      "reb": [
       2.0,
@@ -3038,33 +3038,33 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.355,
-      "teleios_p_over": 0.2884,
-      "teleios_p_over_raw": 0.2884
+      "market_p_over": 0.345,
+      "teleios_p_over": 0.2865,
+      "teleios_p_over_raw": 0.2865
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.395,
-      "teleios_p_over": 0.2033,
-      "teleios_p_over_raw": 0.2033
+      "market_p_over": 0.355,
+      "teleios_p_over": 0.2007,
+      "teleios_p_over_raw": 0.2007
      },
      "pra": {
       "line": 24.5,
-      "market_p_over": 0.55,
-      "teleios_p_over": 0.4912,
-      "teleios_p_over_raw": 0.4912
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.4889,
+      "teleios_p_over_raw": 0.4889
      },
      "pts": {
       "line": 14.5,
       "market_p_over": 0.595,
-      "teleios_p_over": 0.5267,
-      "teleios_p_over_raw": 0.5267
+      "teleios_p_over": 0.5243,
+      "teleios_p_over_raw": 0.5243
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.605,
-      "teleios_p_over": 0.6173,
-      "teleios_p_over_raw": 0.6173
+      "market_p_over": 0.6,
+      "teleios_p_over": 0.6161,
+      "teleios_p_over_raw": 0.6161
      }
     },
     "minutes": 31.7,
@@ -3072,14 +3072,14 @@
     "pid": 5142718,
     "player": "AJ Dybantsa",
     "proj": {
-     "ast": 2.67,
+     "ast": 2.66,
      "blk": 0.32,
-     "fg3m": 0.84,
-     "pra": 24.31,
-     "pts": 14.95,
-     "reb": 6.7,
+     "fg3m": 0.83,
+     "pra": 24.26,
+     "pts": 14.91,
+     "reb": 6.69,
      "stl": 1.02,
-     "tov": 2.22
+     "tov": 2.21
     },
     "questionable": false,
     "range50": {
@@ -3101,7 +3101,7 @@
      ],
      "pts": [
       10.4,
-      19.5
+      19.4
      ],
      "reb": [
       4.0,
@@ -3130,12 +3130,12 @@
       3.0
      ],
      "pra": [
-      13.3,
+      13.2,
       35.3
      ],
      "pts": [
       6.3,
-      23.6
+      23.5
      ],
      "reb": [
       3.0,
@@ -3166,33 +3166,33 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.635,
+      "market_p_over": 0.615,
       "teleios_p_over": 0.5667,
       "teleios_p_over_raw": 0.5667
      },
      "fg3m": {
       "line": 0.5,
-      "market_p_over": 0.545,
+      "market_p_over": 0.535,
       "teleios_p_over": 0.3632,
       "teleios_p_over_raw": 0.3632
      },
      "pra": {
       "line": 34.5,
       "market_p_over": 0.425,
-      "teleios_p_over": 0.4546,
-      "teleios_p_over_raw": 0.4546
+      "teleios_p_over": 0.4518,
+      "teleios_p_over_raw": 0.4518
      },
      "pts": {
       "line": 19.5,
-      "market_p_over": 0.565,
-      "teleios_p_over": 0.6051,
-      "teleios_p_over_raw": 0.6051
+      "market_p_over": 0.575,
+      "teleios_p_over": 0.6033,
+      "teleios_p_over_raw": 0.6033
      },
      "reb": {
       "line": 9.5,
-      "market_p_over": 0.54,
-      "teleios_p_over": 0.4765,
-      "teleios_p_over_raw": 0.4765
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.4733,
+      "teleios_p_over_raw": 0.4733
      }
     },
     "minutes": 31.1,
@@ -3203,10 +3203,10 @@
      "ast": 2.08,
      "blk": 1.07,
      "fg3m": 0.7,
-     "pra": 33.35,
-     "pts": 21.66,
-     "reb": 9.61,
-     "stl": 0.97,
+     "pra": 33.28,
+     "pts": 21.62,
+     "reb": 9.58,
+     "stl": 0.96,
      "tov": 2.01
     },
     "questionable": false,
@@ -3224,8 +3224,8 @@
       1.0
      ],
      "pra": [
-      26.6,
-      40.2
+      26.5,
+      40.1
      ],
      "pts": [
       16.2,
@@ -3259,10 +3259,10 @@
      ],
      "pra": [
       20.4,
-      46.3
+      46.2
      ],
      "pts": [
-      11.3,
+      11.2,
       32.0
      ],
      "reb": [
@@ -3295,32 +3295,32 @@
      "ast": {
       "line": 5.5,
       "market_p_over": 0.605,
-      "teleios_p_over": 0.5435,
-      "teleios_p_over_raw": 0.5435
+      "teleios_p_over": 0.5422,
+      "teleios_p_over_raw": 0.5422
      },
      "fg3m": {
       "line": 2.5,
-      "market_p_over": 0.575,
+      "market_p_over": 0.555,
       "teleios_p_over": 0.3975,
       "teleios_p_over_raw": 0.3975
      },
      "pra": {
       "line": 39.5,
       "market_p_over": 0.525,
-      "teleios_p_over": 0.3918,
-      "teleios_p_over_raw": 0.3918
+      "teleios_p_over": 0.3887,
+      "teleios_p_over_raw": 0.3887
      },
      "pts": {
       "line": 24.5,
       "market_p_over": 0.575,
-      "teleios_p_over": 0.4427,
-      "teleios_p_over_raw": 0.4427
+      "teleios_p_over": 0.4398,
+      "teleios_p_over_raw": 0.4398
      },
      "reb": {
       "line": 7.5,
-      "market_p_over": 0.525,
-      "teleios_p_over": 0.4232,
-      "teleios_p_over_raw": 0.4232
+      "market_p_over": 0.515,
+      "teleios_p_over": 0.4219,
+      "teleios_p_over_raw": 0.4219
      }
     },
     "minutes": 30.0,
@@ -3328,14 +3328,14 @@
     "pid": 4065648,
     "player": "Jayson Tatum",
     "proj": {
-     "ast": 6.12,
-     "blk": 0.45,
+     "ast": 6.11,
+     "blk": 0.44,
      "fg3m": 2.49,
-     "pra": 36.6,
-     "pts": 23.29,
-     "reb": 7.19,
+     "pra": 36.52,
+     "pts": 23.23,
+     "reb": 7.18,
      "stl": 0.97,
-     "tov": 2.43
+     "tov": 2.42
     },
     "questionable": false,
     "range50": {
@@ -3352,12 +3352,12 @@
       4.0
      ],
      "pra": [
-      29.5,
-      43.7
+      29.4,
+      43.6
      ],
      "pts": [
       17.6,
-      29.0
+      28.9
      ],
      "reb": [
       5.0,
@@ -3369,7 +3369,7 @@
      ],
      "tov": [
       1.0,
-      4.0
+      3.0
      ]
     },
     "range80": {
@@ -3386,8 +3386,8 @@
       6.0
      ],
      "pra": [
-      23.1,
-      50.1
+      23.0,
+      50.0
      ],
      "pts": [
       12.5,
@@ -3422,33 +3422,33 @@
     "market": {
      "ast": {
       "line": 7.5,
-      "market_p_over": 0.535,
-      "teleios_p_over": 0.4747,
-      "teleios_p_over_raw": 0.4747
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.4722,
+      "teleios_p_over_raw": 0.4722
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.615,
+      "market_p_over": 0.605,
       "teleios_p_over": 0.476,
       "teleios_p_over_raw": 0.476
      },
      "pra": {
       "line": 24.5,
-      "market_p_over": 0.53,
-      "teleios_p_over": 0.5242,
-      "teleios_p_over_raw": 0.5242
+      "market_p_over": 0.5,
+      "teleios_p_over": 0.5215,
+      "teleios_p_over_raw": 0.5215
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.475,
-      "teleios_p_over": 0.5272,
-      "teleios_p_over_raw": 0.5272
+      "market_p_over": 0.485,
+      "teleios_p_over": 0.5255,
+      "teleios_p_over_raw": 0.5255
      },
      "reb": {
       "line": 1.5,
-      "market_p_over": 0.675,
-      "teleios_p_over": 0.6578,
-      "teleios_p_over_raw": 0.6578
+      "market_p_over": 0.695,
+      "teleios_p_over": 0.6557,
+      "teleios_p_over_raw": 0.6557
      }
     },
     "minutes": 29.8,
@@ -3456,12 +3456,12 @@
     "pid": 4277905,
     "player": "Trae Young",
     "proj": {
-     "ast": 7.6,
+     "ast": 7.58,
      "blk": 0.1,
      "fg3m": 1.97,
-     "pra": 25.03,
-     "pts": 14.96,
-     "reb": 2.47,
+     "pra": 24.97,
+     "pts": 14.93,
+     "reb": 2.46,
      "stl": 0.94,
      "tov": 2.93
     },
@@ -3515,11 +3515,11 @@
      ],
      "pra": [
       13.8,
-      36.2
+      36.1
      ],
      "pts": [
       6.3,
-      23.6
+      23.5
      ],
      "reb": [
       0.0,
@@ -3550,33 +3550,33 @@
     "market": {
      "ast": {
       "line": 5.5,
-      "market_p_over": 0.355,
-      "teleios_p_over": 0.3102,
-      "teleios_p_over_raw": 0.3102
+      "market_p_over": 0.325,
+      "teleios_p_over": 0.3088,
+      "teleios_p_over_raw": 0.3088
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.63,
-      "teleios_p_over": 0.4387,
-      "teleios_p_over_raw": 0.4387
+      "market_p_over": 0.635,
+      "teleios_p_over": 0.4365,
+      "teleios_p_over_raw": 0.4365
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.585,
-      "teleios_p_over": 0.4948,
-      "teleios_p_over_raw": 0.4948
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.4927,
+      "teleios_p_over_raw": 0.4927
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.41,
-      "teleios_p_over": 0.3291,
-      "teleios_p_over_raw": 0.3291
+      "market_p_over": 0.405,
+      "teleios_p_over": 0.3278,
+      "teleios_p_over_raw": 0.3278
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.445,
-      "teleios_p_over": 0.3585,
-      "teleios_p_over_raw": 0.3585
+      "teleios_p_over": 0.3566,
+      "teleios_p_over_raw": 0.3566
      }
     },
     "minutes": 26.4,
@@ -3584,14 +3584,14 @@
     "pid": 3078576,
     "player": "Derrick White",
     "proj": {
-     "ast": 4.51,
-     "blk": 0.62,
-     "fg3m": 1.8,
-     "pra": 19.4,
-     "pts": 11.85,
-     "reb": 3.04,
+     "ast": 4.5,
+     "blk": 0.61,
+     "fg3m": 1.79,
+     "pra": 19.36,
+     "pts": 11.83,
+     "reb": 3.03,
      "stl": 0.93,
-     "tov": 1.33
+     "tov": 1.32
     },
     "questionable": false,
     "range50": {
@@ -3609,7 +3609,7 @@
      ],
      "pra": [
       14.2,
-      24.6
+      24.5
      ],
      "pts": [
       7.8,
@@ -3642,8 +3642,8 @@
       4.0
      ],
      "pra": [
-      9.6,
-      29.3
+      9.5,
+      29.2
      ],
      "pts": [
       4.2,
@@ -3678,33 +3678,33 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.485,
-      "teleios_p_over": 0.422,
-      "teleios_p_over_raw": 0.422
+      "market_p_over": 0.495,
+      "teleios_p_over": 0.4201,
+      "teleios_p_over_raw": 0.4201
      },
      "fg3m": {
       "line": 2.5,
-      "market_p_over": 0.55,
-      "teleios_p_over": 0.3992,
-      "teleios_p_over_raw": 0.3992
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.3975,
+      "teleios_p_over_raw": 0.3975
      },
      "pra": {
       "line": 29.5,
-      "market_p_over": 0.425,
-      "teleios_p_over": 0.2913,
-      "teleios_p_over_raw": 0.2913
+      "market_p_over": 0.43,
+      "teleios_p_over": 0.2887,
+      "teleios_p_over_raw": 0.2887
      },
      "pts": {
       "line": 19.5,
-      "market_p_over": 0.47,
-      "teleios_p_over": 0.3373,
-      "teleios_p_over_raw": 0.3373
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.3351,
+      "teleios_p_over_raw": 0.3351
      },
      "reb": {
       "line": 5.5,
       "market_p_over": 0.455,
-      "teleios_p_over": 0.3557,
-      "teleios_p_over_raw": 0.3557
+      "teleios_p_over": 0.3542,
+      "teleios_p_over_raw": 0.3542
      }
     },
     "minutes": 26.1,
@@ -3712,14 +3712,14 @@
     "pid": 4251,
     "player": "Paul George",
     "proj": {
-     "ast": 3.38,
+     "ast": 3.37,
      "blk": 0.33,
-     "fg3m": 2.5,
-     "pra": 24.73,
-     "pts": 16.53,
-     "reb": 4.82,
+     "fg3m": 2.49,
+     "pra": 24.67,
+     "pts": 16.49,
+     "reb": 4.81,
      "stl": 1.33,
-     "tov": 1.75
+     "tov": 1.74
     },
     "questionable": false,
     "range50": {
@@ -3736,11 +3736,11 @@
       4.0
      ],
      "pra": [
-      18.9,
-      30.6
+      18.8,
+      30.5
      ],
      "pts": [
-      11.8,
+      11.7,
       21.3
      ],
      "reb": [
@@ -3774,8 +3774,8 @@
       35.8
      ],
      "pts": [
-      7.5,
-      25.6
+      7.4,
+      25.5
      ],
      "reb": [
       2.0,
@@ -3806,33 +3806,33 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.63,
-      "teleios_p_over": 0.5518,
-      "teleios_p_over_raw": 0.5518
+      "market_p_over": 0.61,
+      "teleios_p_over": 0.5501,
+      "teleios_p_over_raw": 0.5501
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.615,
-      "teleios_p_over": 0.4845,
-      "teleios_p_over_raw": 0.4845
+      "market_p_over": 0.625,
+      "teleios_p_over": 0.4824,
+      "teleios_p_over_raw": 0.4824
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.565,
-      "teleios_p_over": 0.5072,
-      "teleios_p_over_raw": 0.5072
+      "market_p_over": 0.56,
+      "teleios_p_over": 0.5052,
+      "teleios_p_over_raw": 0.5052
      },
      "pts": {
       "line": 14.5,
       "market_p_over": 0.415,
-      "teleios_p_over": 0.3739,
-      "teleios_p_over_raw": 0.3739
+      "teleios_p_over": 0.3719,
+      "teleios_p_over_raw": 0.3719
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.375,
-      "teleios_p_over": 0.3528,
-      "teleios_p_over_raw": 0.3528
+      "teleios_p_over": 0.3509,
+      "teleios_p_over_raw": 0.3509
      }
     },
     "minutes": 24.8,
@@ -3840,12 +3840,12 @@
     "pid": 4066354,
     "player": "Payton Pritchard",
     "proj": {
-     "ast": 4.11,
+     "ast": 4.1,
      "blk": 0.13,
-     "fg3m": 2.01,
-     "pra": 19.64,
-     "pts": 12.52,
-     "reb": 3.01,
+     "fg3m": 2.0,
+     "pra": 19.6,
+     "pts": 12.49,
+     "reb": 3.0,
      "stl": 0.72,
      "tov": 1.06
     },
@@ -3865,11 +3865,11 @@
      ],
      "pra": [
       14.4,
-      24.9
+      24.8
      ],
      "pts": [
-      8.4,
-      16.7
+      8.3,
+      16.6
      ],
      "reb": [
       2.0,
@@ -3934,33 +3934,33 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.485,
+      "market_p_over": 0.435,
       "teleios_p_over": 0.4609,
       "teleios_p_over_raw": 0.4609
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.395,
-      "teleios_p_over": 0.2726,
-      "teleios_p_over_raw": 0.2726
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.27,
+      "teleios_p_over_raw": 0.27
      },
      "pra": {
-      "line": 19.5,
-      "market_p_over": 0.365,
-      "teleios_p_over": 0.4637,
-      "teleios_p_over_raw": 0.4637
+      "line": 14.5,
+      "market_p_over": 0.58,
+      "teleios_p_over": 0.7139,
+      "teleios_p_over_raw": 0.7139
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.485,
-      "teleios_p_over": 0.5925,
-      "teleios_p_over_raw": 0.5925
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.5912,
+      "teleios_p_over_raw": 0.5912
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.565,
-      "teleios_p_over": 0.5666,
-      "teleios_p_over_raw": 0.5666
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.5652,
+      "teleios_p_over_raw": 0.5652
      }
     },
     "minutes": 24.1,
@@ -3969,11 +3969,11 @@
     "player": "Alex Sarr",
     "proj": {
      "ast": 1.67,
-     "blk": 1.16,
-     "fg3m": 1.11,
-     "pra": 18.81,
-     "pts": 10.84,
-     "reb": 6.3,
+     "blk": 1.15,
+     "fg3m": 1.1,
+     "pra": 18.77,
+     "pts": 10.82,
+     "reb": 6.29,
      "stl": 0.73,
      "tov": 1.38
     },
@@ -4062,27 +4062,27 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.58,
+      "market_p_over": 0.575,
       "teleios_p_over": 0.5373,
       "teleios_p_over_raw": 0.5373
      },
      "pra": {
       "line": 19.5,
       "market_p_over": 0.635,
-      "teleios_p_over": 0.4801,
-      "teleios_p_over_raw": 0.4801
+      "teleios_p_over": 0.478,
+      "teleios_p_over_raw": 0.478
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.605,
-      "teleios_p_over": 0.5133,
-      "teleios_p_over_raw": 0.5133
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.5118,
+      "teleios_p_over_raw": 0.5118
      },
      "reb": {
       "line": 9.5,
-      "market_p_over": 0.435,
-      "teleios_p_over": 0.2497,
-      "teleios_p_over_raw": 0.2497
+      "market_p_over": 0.405,
+      "teleios_p_over": 0.2477,
+      "teleios_p_over_raw": 0.2477
      }
     },
     "minutes": 22.2,
@@ -4093,10 +4093,10 @@
      "ast": 1.96,
      "blk": 0.97,
      "fg3m": 0.17,
-     "pra": 19.12,
-     "pts": 9.68,
-     "reb": 7.48,
-     "stl": 0.67,
+     "pra": 19.08,
+     "pts": 9.66,
+     "reb": 7.46,
+     "stl": 0.66,
      "tov": 1.03
     },
     "questionable": false,
@@ -4114,8 +4114,8 @@
       0.0
      ],
      "pra": [
-      14.0,
-      24.3
+      13.9,
+      24.2
      ],
      "pts": [
       6.0,
@@ -4149,7 +4149,7 @@
      ],
      "pra": [
       9.3,
-      28.9
+      28.8
      ],
      "pts": [
       2.7,
@@ -4184,33 +4184,33 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.375,
+      "market_p_over": 0.365,
       "teleios_p_over": 0.2918,
       "teleios_p_over_raw": 0.2918
      },
      "fg3m": {
       "line": 0.5,
-      "market_p_over": 0.57,
+      "market_p_over": 0.535,
       "teleios_p_over": 0.3794,
       "teleios_p_over_raw": 0.3794
      },
      "pra": {
       "line": 9.5,
-      "market_p_over": 0.635,
-      "teleios_p_over": 0.6679,
-      "teleios_p_over_raw": 0.6679
+      "market_p_over": 0.625,
+      "teleios_p_over": 0.6663,
+      "teleios_p_over_raw": 0.6663
      },
      "pts": {
       "line": 4.5,
-      "market_p_over": 0.67,
-      "teleios_p_over": 0.7184,
-      "teleios_p_over_raw": 0.7184
+      "market_p_over": 0.665,
+      "teleios_p_over": 0.7172,
+      "teleios_p_over_raw": 0.7172
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.495,
-      "teleios_p_over": 0.5068,
-      "teleios_p_over_raw": 0.5068
+      "market_p_over": 0.46,
+      "teleios_p_over": 0.5051,
+      "teleios_p_over_raw": 0.5051
      }
     },
     "minutes": 21.9,
@@ -4219,11 +4219,11 @@
     "player": "Bilal Coulibaly",
     "proj": {
      "ast": 1.1,
-     "blk": 0.84,
+     "blk": 0.83,
      "fg3m": 0.74,
-     "pra": 12.14,
-     "pts": 7.2,
-     "reb": 3.84,
+     "pra": 12.11,
+     "pts": 7.18,
+     "reb": 3.83,
      "stl": 0.79,
      "tov": 1.0
     },
@@ -4312,19 +4312,19 @@
     "market": {
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.615,
-      "teleios_p_over": 0.4866,
-      "teleios_p_over_raw": 0.4866
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.4845,
+      "teleios_p_over_raw": 0.4845
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.31,
-      "teleios_p_over": 0.3616,
-      "teleios_p_over_raw": 0.3616
+      "market_p_over": 0.305,
+      "teleios_p_over": 0.3598,
+      "teleios_p_over_raw": 0.3598
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.395,
+      "market_p_over": 0.355,
       "teleios_p_over": 0.3643,
       "teleios_p_over_raw": 0.3643
      }
@@ -4336,9 +4336,9 @@
     "proj": {
      "ast": 1.23,
      "blk": 0.13,
-     "fg3m": 2.02,
-     "pra": 12.09,
-     "pts": 7.78,
+     "fg3m": 2.01,
+     "pra": 12.06,
+     "pts": 7.76,
      "reb": 3.07,
      "stl": 0.53,
      "tov": 0.26
@@ -4359,11 +4359,11 @@
      ],
      "pra": [
       8.0,
-      16.2
+      16.1
      ],
      "pts": [
       4.5,
-      11.1
+      11.0
      ],
      "reb": [
       2.0,
@@ -4393,10 +4393,10 @@
      ],
      "pra": [
       4.3,
-      19.9
+      19.8
      ],
      "pts": [
-      1.6,
+      1.5,
       14.0
      ],
      "reb": [
@@ -4425,6 +4425,20 @@
     "team": "BOS"
    },
    {
+    "market": {
+     "fg3m": {
+      "line": 0.5,
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.4219,
+      "teleios_p_over_raw": 0.4219
+     },
+     "pts": {
+      "line": 4.5,
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.6526,
+      "teleios_p_over_raw": 0.6526
+     }
+    },
     "minutes": 17.0,
     "opp": "BOS",
     "pid": 6609,
@@ -4432,9 +4446,9 @@
     "proj": {
      "ast": 1.68,
      "blk": 0.04,
-     "fg3m": 0.86,
-     "pra": 10.31,
-     "pts": 6.21,
+     "fg3m": 0.85,
+     "pra": 10.28,
+     "pts": 6.2,
      "reb": 2.41,
      "stl": 0.49,
      "tov": 1.2
@@ -4492,7 +4506,7 @@
       17.5
      ],
      "pts": [
-      0.7,
+      0.6,
       11.8
      ],
      "reb": [
@@ -4529,9 +4543,9 @@
      "ast": 0.91,
      "blk": 0.08,
      "fg3m": 1.12,
-     "pra": 9.32,
-     "pts": 6.72,
-     "reb": 1.69,
+     "pra": 9.29,
+     "pts": 6.71,
+     "reb": 1.68,
      "stl": 0.44,
      "tov": 0.83
     },
@@ -4555,7 +4569,7 @@
      ],
      "pts": [
       3.7,
-      9.8
+      9.7
      ],
      "reb": [
       1.0,
@@ -4625,9 +4639,9 @@
      "ast": 1.28,
      "blk": 0.06,
      "fg3m": 0.97,
-     "pra": 8.95,
-     "pts": 4.64,
-     "reb": 3.03,
+     "pra": 8.93,
+     "pts": 4.63,
+     "reb": 3.02,
      "stl": 0.59,
      "tov": 0.47
     },
@@ -4647,7 +4661,7 @@
      ],
      "pra": [
       5.4,
-      12.5
+      12.4
      ],
      "pts": [
       2.1,
@@ -4680,7 +4694,7 @@
       3.0
      ],
      "pra": [
-      2.3,
+      2.2,
       15.6
      ],
      "pts": [
@@ -4716,21 +4730,21 @@
     "market": {
      "fg3m": {
       "line": 0.5,
-      "market_p_over": 0.545,
+      "market_p_over": 0.535,
       "teleios_p_over": 0.2985,
       "teleios_p_over_raw": 0.2985
      },
      "pts": {
       "line": 4.5,
-      "market_p_over": 0.55,
-      "teleios_p_over": 0.4501,
-      "teleios_p_over_raw": 0.4501
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.4489,
+      "teleios_p_over_raw": 0.4489
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.49,
-      "teleios_p_over": 0.326,
-      "teleios_p_over_raw": 0.326
+      "market_p_over": 0.46,
+      "teleios_p_over": 0.3241,
+      "teleios_p_over_raw": 0.3241
      }
     },
     "minutes": 13.3,
@@ -4741,9 +4755,9 @@
      "ast": 0.62,
      "blk": 0.26,
      "fg3m": 0.55,
-     "pra": 7.55,
-     "pts": 4.06,
-     "reb": 2.87,
+     "pra": 7.54,
+     "pts": 4.05,
+     "reb": 2.86,
      "stl": 0.52,
      "tov": 0.57
     },
@@ -4801,7 +4815,7 @@
      ],
      "pts": [
       0.0,
-      8.6
+      8.5
      ],
      "reb": [
       1.0,
@@ -4834,11 +4848,11 @@
     "pid": 4433188,
     "player": "Devin Carter",
     "proj": {
-     "ast": 1.87,
+     "ast": 1.86,
      "blk": 0.14,
      "fg3m": 0.52,
-     "pra": 10.26,
-     "pts": 5.83,
+     "pra": 10.23,
+     "pts": 5.82,
      "reb": 2.55,
      "stl": 0.52,
      "tov": 0.91
@@ -4933,11 +4947,11 @@
      "ast": 1.32,
      "blk": 0.28,
      "fg3m": 0.7,
-     "pra": 10.15,
-     "pts": 5.78,
-     "reb": 3.05,
+     "pra": 10.12,
+     "pts": 5.77,
+     "reb": 3.04,
      "stl": 0.39,
-     "tov": 0.5
+     "tov": 0.49
     },
     "questionable": false,
     "range50": {
@@ -4958,7 +4972,7 @@
       13.9
      ],
      "pts": [
-      3.0,
+      2.9,
       8.6
      ],
      "reb": [
@@ -4989,7 +5003,7 @@
      ],
      "pra": [
       3.0,
-      17.3
+      17.2
      ],
      "pts": [
       0.4,
@@ -5026,10 +5040,10 @@
     "pid": 3195,
     "player": "Mike Conley",
     "proj": {
-     "ast": 1.83,
+     "ast": 1.82,
      "blk": 0.12,
      "fg3m": 0.86,
-     "pra": 7.3,
+     "pra": 7.28,
      "pts": 4.16,
      "reb": 1.3,
      "stl": 0.47,
@@ -5055,7 +5069,7 @@
      ],
      "pts": [
       1.8,
-      6.6
+      6.5
      ],
      "reb": [
       0.0,
@@ -5084,7 +5098,7 @@
       3.0
      ],
      "pra": [
-      1.3,
+      1.2,
       13.3
      ],
      "pts": [
@@ -5125,8 +5139,8 @@
      "ast": 0.44,
      "blk": 0.1,
      "fg3m": 0.45,
-     "pra": 5.81,
-     "pts": 3.2,
+     "pra": 5.79,
+     "pts": 3.19,
      "reb": 2.17,
      "stl": 0.44,
      "tov": 0.31
@@ -5221,7 +5235,7 @@
      "ast": 0.84,
      "blk": 0.5,
      "fg3m": 0.1,
-     "pra": 6.38,
+     "pra": 6.37,
      "pts": 2.7,
      "reb": 2.84,
      "stl": 0.38,
@@ -5243,7 +5257,7 @@
      ],
      "pra": [
       3.4,
-      9.4
+      9.3
      ],
      "pts": [
       0.8,
@@ -5308,11 +5322,11 @@
      "ast": 1.34,
      "blk": 0.07,
      "fg3m": 0.76,
-     "pra": 5.64,
-     "pts": 3.35,
+     "pra": 5.62,
+     "pts": 3.34,
      "reb": 0.95,
      "stl": 0.27,
-     "tov": 0.67
+     "tov": 0.66
     },
     "questionable": false,
     "range50": {
@@ -5404,9 +5418,9 @@
      "ast": 0.49,
      "blk": 0.11,
      "fg3m": 0.28,
-     "pra": 6.47,
-     "pts": 3.72,
-     "reb": 2.26,
+     "pra": 6.46,
+     "pts": 3.71,
+     "reb": 2.25,
      "stl": 0.3,
      "tov": 0.41
     },
@@ -5460,7 +5474,7 @@
      ],
      "pra": [
       0.8,
-      12.2
+      12.1
      ],
      "pts": [
       0.0,
@@ -5500,7 +5514,7 @@
      "ast": 0.42,
      "blk": 0.22,
      "fg3m": 0.01,
-     "pra": 6.1,
+     "pra": 6.08,
      "pts": 2.93,
      "reb": 2.74,
      "stl": 0.21,
@@ -5560,7 +5574,7 @@
      ],
      "pts": [
       0.0,
-      6.8
+      6.7
      ],
      "reb": [
       1.0,
@@ -5596,8 +5610,8 @@
      "ast": 0.69,
      "blk": 0.14,
      "fg3m": 0.34,
-     "pra": 4.92,
-     "pts": 2.81,
+     "pra": 4.91,
+     "pts": 2.8,
      "reb": 1.42,
      "stl": 0.33,
      "tov": 0.38
@@ -5692,9 +5706,9 @@
      "ast": 0.22,
      "blk": 0.12,
      "fg3m": 0.26,
-     "pra": 5.79,
-     "pts": 3.22,
-     "reb": 2.35,
+     "pra": 5.77,
+     "pts": 3.21,
+     "reb": 2.34,
      "stl": 0.28,
      "tov": 0.54
     },
@@ -5713,7 +5727,7 @@
       0.0
      ],
      "pra": [
-      3.0,
+      2.9,
       8.6
      ],
      "pts": [
@@ -5748,7 +5762,7 @@
      ],
      "pra": [
       0.4,
-      11.2
+      11.1
      ],
      "pts": [
       0.0,
@@ -5785,11 +5799,11 @@
     "pid": 5144126,
     "player": "Will Riley",
     "proj": {
-     "ast": 0.57,
+     "ast": 0.56,
      "blk": 0.05,
      "fg3m": 0.35,
-     "pra": 4.79,
-     "pts": 3.22,
+     "pra": 4.78,
+     "pts": 3.21,
      "reb": 1.0,
      "stl": 0.23,
      "tov": 0.41
@@ -5884,8 +5898,8 @@
      "ast": 0.49,
      "blk": 0.07,
      "fg3m": 0.6,
-     "pra": 4.28,
-     "pts": 2.93,
+     "pra": 4.27,
+     "pts": 2.92,
      "reb": 0.86,
      "stl": 0.26,
      "tov": 0.27
@@ -5981,7 +5995,7 @@
      "blk": 0.09,
      "fg3m": 0.1,
      "pra": 3.23,
-     "pts": 1.88,
+     "pts": 1.87,
      "reb": 0.97,
      "stl": 0.17,
      "tov": 0.22
@@ -6036,7 +6050,7 @@
      ],
      "pra": [
       0.0,
-      7.3
+      7.2
      ],
      "pts": [
       0.0,
@@ -6076,8 +6090,8 @@
      "ast": 0.52,
      "blk": 0.09,
      "fg3m": 0.29,
-     "pra": 2.69,
-     "pts": 1.68,
+     "pra": 2.68,
+     "pts": 1.67,
      "reb": 0.49,
      "stl": 0.17,
      "tov": 0.35
@@ -6132,7 +6146,7 @@
      ],
      "pra": [
       0.0,
-      6.4
+      6.3
      ],
      "pts": [
       0.0,
@@ -6169,7 +6183,7 @@
  "401909316": {
   "away": "DAL",
   "date": "2026-11-24",
-  "frozen_at": "2026-11-24 20:53 UTC",
+  "frozen_at": "2026-11-25 00:35 UTC",
   "game_id": 401909316,
   "home": "DEN",
   "locked": false,
@@ -6178,9 +6192,9 @@
     "market": {
      "ast": {
       "line": 9.5,
-      "market_p_over": 0.52,
-      "teleios_p_over": 0.419,
-      "teleios_p_over_raw": 0.419
+      "market_p_over": 0.515,
+      "teleios_p_over": 0.4168,
+      "teleios_p_over_raw": 0.4168
      },
      "fg3m": {
       "line": 1.5,
@@ -6191,20 +6205,20 @@
      "pra": {
       "line": 49.5,
       "market_p_over": 0.425,
-      "teleios_p_over": 0.3011,
-      "teleios_p_over_raw": 0.3011
+      "teleios_p_over": 0.2982,
+      "teleios_p_over_raw": 0.2982
      },
      "pts": {
       "line": 24.5,
-      "market_p_over": 0.555,
-      "teleios_p_over": 0.4576,
-      "teleios_p_over_raw": 0.4576
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.4552,
+      "teleios_p_over_raw": 0.4552
      },
      "reb": {
       "line": 11.5,
-      "market_p_over": 0.555,
-      "teleios_p_over": 0.4035,
-      "teleios_p_over_raw": 0.4035
+      "market_p_over": 0.535,
+      "teleios_p_over": 0.4006,
+      "teleios_p_over_raw": 0.4006
      }
     },
     "minutes": 32.4,
@@ -6212,19 +6226,19 @@
     "pid": 3112335,
     "player": "Nikola Jokic",
     "proj": {
-     "ast": 9.07,
+     "ast": 9.05,
      "blk": 0.83,
      "fg3m": 1.35,
-     "pra": 43.5,
-     "pts": 23.6,
-     "reb": 10.84,
+     "pra": 43.41,
+     "pts": 23.55,
+     "reb": 10.81,
      "stl": 1.29,
-     "tov": 3.29
+     "tov": 3.28
     },
     "questionable": false,
     "range50": {
      "ast": [
-      7.0,
+      6.0,
       11.0
      ],
      "blk": [
@@ -6237,11 +6251,11 @@
      ],
      "pra": [
       35.7,
-      51.3
+      51.2
      ],
      "pts": [
       17.9,
-      29.3
+      29.2
      ],
      "reb": [
       8.0,
@@ -6252,7 +6266,7 @@
       2.0
      ],
      "tov": [
-      2.0,
+      1.0,
       5.0
      ]
     },
@@ -6270,11 +6284,11 @@
       4.0
      ],
      "pra": [
-      28.8,
-      58.3
+      28.7,
+      58.1
      ],
      "pts": [
-      12.8,
+      12.7,
       34.4
      ],
      "reb": [
@@ -6307,32 +6321,32 @@
      "ast": {
       "line": 5.5,
       "market_p_over": 0.605,
-      "teleios_p_over": 0.4933,
-      "teleios_p_over_raw": 0.4933
+      "teleios_p_over": 0.4919,
+      "teleios_p_over_raw": 0.4919
      },
      "fg3m": {
       "line": 2.5,
       "market_p_over": 0.495,
-      "teleios_p_over": 0.4672,
-      "teleios_p_over_raw": 0.4672
+      "teleios_p_over": 0.4655,
+      "teleios_p_over_raw": 0.4655
      },
      "pra": {
       "line": 34.5,
       "market_p_over": 0.485,
-      "teleios_p_over": 0.463,
-      "teleios_p_over_raw": 0.463
+      "teleios_p_over": 0.4598,
+      "teleios_p_over_raw": 0.4598
      },
      "pts": {
       "line": 24.5,
-      "market_p_over": 0.43,
-      "teleios_p_over": 0.4466,
-      "teleios_p_over_raw": 0.4466
+      "market_p_over": 0.415,
+      "teleios_p_over": 0.4442,
+      "teleios_p_over_raw": 0.4442
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.64,
-      "teleios_p_over": 0.6031,
-      "teleios_p_over_raw": 0.6031
+      "market_p_over": 0.655,
+      "teleios_p_over": 0.6016,
+      "teleios_p_over_raw": 0.6016
      }
     },
     "minutes": 32.0,
@@ -6340,12 +6354,12 @@
     "pid": 3936299,
     "player": "Jamal Murray",
     "proj": {
-     "ast": 5.76,
+     "ast": 5.75,
      "blk": 0.73,
-     "fg3m": 2.89,
-     "pra": 33.56,
-     "pts": 23.37,
-     "reb": 4.42,
+     "fg3m": 2.88,
+     "pra": 33.48,
+     "pts": 23.32,
+     "reb": 4.41,
      "stl": 1.01,
      "tov": 2.18
     },
@@ -6365,7 +6379,7 @@
      ],
      "pra": [
       26.7,
-      40.4
+      40.3
      ],
      "pts": [
       17.7,
@@ -6398,12 +6412,12 @@
       6.0
      ],
      "pra": [
-      20.6,
-      46.5
+      20.5,
+      46.4
      ],
      "pts": [
-      12.6,
-      34.2
+      12.5,
+      34.1
      ],
      "reb": [
       1.0,
@@ -6435,32 +6449,32 @@
      "ast": {
       "line": 5.5,
       "market_p_over": 0.595,
-      "teleios_p_over": 0.4732,
-      "teleios_p_over_raw": 0.4732
+      "teleios_p_over": 0.4718,
+      "teleios_p_over_raw": 0.4718
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.535,
-      "teleios_p_over": 0.3253,
-      "teleios_p_over_raw": 0.3253
+      "market_p_over": 0.565,
+      "teleios_p_over": 0.3228,
+      "teleios_p_over_raw": 0.3228
      },
      "pra": {
       "line": 39.5,
-      "market_p_over": 0.425,
-      "teleios_p_over": 0.2813,
-      "teleios_p_over_raw": 0.2813
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.2788,
+      "teleios_p_over_raw": 0.2788
      },
      "pts": {
       "line": 24.5,
-      "market_p_over": 0.495,
-      "teleios_p_over": 0.3841,
-      "teleios_p_over_raw": 0.3841
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.3817,
+      "teleios_p_over_raw": 0.3817
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.595,
-      "teleios_p_over": 0.5166,
-      "teleios_p_over_raw": 0.5166
+      "market_p_over": 0.605,
+      "teleios_p_over": 0.5138,
+      "teleios_p_over_raw": 0.5138
      }
     },
     "minutes": 30.1,
@@ -6468,14 +6482,14 @@
     "pid": 5041939,
     "player": "Cooper Flagg",
     "proj": {
-     "ast": 5.62,
+     "ast": 5.61,
      "blk": 0.65,
-     "fg3m": 1.32,
-     "pra": 33.64,
-     "pts": 22.09,
-     "reb": 5.93,
+     "fg3m": 1.31,
+     "pra": 33.57,
+     "pts": 22.04,
+     "reb": 5.91,
      "stl": 1.13,
-     "tov": 2.35
+     "tov": 2.34
     },
     "questionable": false,
     "range50": {
@@ -6492,11 +6506,11 @@
       2.0
      ],
      "pra": [
-      26.8,
-      40.5
+      26.7,
+      40.4
      ],
      "pts": [
-      16.6,
+      16.5,
       27.6
      ],
      "reb": [
@@ -6526,12 +6540,12 @@
       4.0
      ],
      "pra": [
-      20.7,
-      46.6
+      20.6,
+      46.5
      ],
      "pts": [
       11.6,
-      32.6
+      32.5
      ],
      "reb": [
       2.0,
@@ -6562,33 +6576,33 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.705,
-      "teleios_p_over": 0.6212,
-      "teleios_p_over_raw": 0.6212
+      "market_p_over": 0.69,
+      "teleios_p_over": 0.619,
+      "teleios_p_over_raw": 0.619
      },
      "fg3m": {
       "line": 1.5,
       "market_p_over": 0.455,
-      "teleios_p_over": 0.3153,
-      "teleios_p_over_raw": 0.3153
+      "teleios_p_over": 0.3128,
+      "teleios_p_over_raw": 0.3128
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.555,
-      "teleios_p_over": 0.441,
-      "teleios_p_over_raw": 0.441
+      "market_p_over": 0.545,
+      "teleios_p_over": 0.4389,
+      "teleios_p_over_raw": 0.4389
      },
      "pts": {
       "line": 14.5,
       "market_p_over": 0.385,
-      "teleios_p_over": 0.3291,
-      "teleios_p_over_raw": 0.3291
+      "teleios_p_over": 0.3271,
+      "teleios_p_over_raw": 0.3271
      },
      "reb": {
       "line": 5.5,
       "market_p_over": 0.355,
-      "teleios_p_over": 0.2681,
-      "teleios_p_over_raw": 0.2681
+      "teleios_p_over": 0.2667,
+      "teleios_p_over_raw": 0.2667
      }
     },
     "minutes": 28.5,
@@ -6596,12 +6610,12 @@
     "pid": 4431767,
     "player": "Christian Braun",
     "proj": {
-     "ast": 2.32,
+     "ast": 2.31,
      "blk": 0.32,
-     "fg3m": 1.28,
-     "pra": 18.39,
-     "pts": 11.85,
-     "reb": 4.22,
+     "fg3m": 1.27,
+     "pra": 18.35,
+     "pts": 11.82,
+     "reb": 4.21,
      "stl": 1.15,
      "tov": 0.98
     },
@@ -6655,7 +6669,7 @@
      ],
      "pra": [
       8.8,
-      28.0
+      27.9
      ],
      "pts": [
       4.2,
@@ -6691,32 +6705,32 @@
      "ast": {
       "line": 5.5,
       "market_p_over": 0.375,
-      "teleios_p_over": 0.2757,
-      "teleios_p_over_raw": 0.2757
+      "teleios_p_over": 0.2743,
+      "teleios_p_over_raw": 0.2743
      },
      "fg3m": {
       "line": 3.5,
-      "market_p_over": 0.435,
-      "teleios_p_over": 0.3067,
-      "teleios_p_over_raw": 0.3067
+      "market_p_over": 0.425,
+      "teleios_p_over": 0.3052,
+      "teleios_p_over_raw": 0.3052
      },
      "pra": {
       "line": 29.5,
-      "market_p_over": 0.57,
-      "teleios_p_over": 0.4586,
-      "teleios_p_over_raw": 0.4586
+      "market_p_over": 0.59,
+      "teleios_p_over": 0.456,
+      "teleios_p_over_raw": 0.456
      },
      "pts": {
       "line": 24.5,
-      "market_p_over": 0.385,
-      "teleios_p_over": 0.3117,
-      "teleios_p_over_raw": 0.3117
+      "market_p_over": 0.395,
+      "teleios_p_over": 0.3098,
+      "teleios_p_over_raw": 0.3098
      },
      "reb": {
       "line": 3.5,
       "market_p_over": 0.525,
-      "teleios_p_over": 0.4711,
-      "teleios_p_over_raw": 0.4711
+      "teleios_p_over": 0.4692,
+      "teleios_p_over_raw": 0.4692
      }
     },
     "minutes": 28.4,
@@ -6724,12 +6738,12 @@
     "pid": 6442,
     "player": "Kyrie Irving",
     "proj": {
-     "ast": 4.27,
+     "ast": 4.26,
      "blk": 0.34,
-     "fg3m": 2.78,
-     "pra": 28.53,
-     "pts": 20.62,
-     "reb": 3.64,
+     "fg3m": 2.77,
+     "pra": 28.47,
+     "pts": 20.58,
+     "reb": 3.63,
      "stl": 0.94,
      "tov": 1.52
     },
@@ -6753,7 +6767,7 @@
      ],
      "pts": [
       15.3,
-      26.0
+      25.9
      ],
      "reb": [
       2.0,
@@ -6782,8 +6796,8 @@
       6.0
      ],
      "pra": [
-      16.6,
-      40.5
+      16.5,
+      40.4
      ],
      "pts": [
       10.5,
@@ -6818,33 +6832,33 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.655,
+      "market_p_over": 0.645,
       "teleios_p_over": 0.6169,
       "teleios_p_over_raw": 0.6169
      },
      "fg3m": {
       "line": 1.5,
       "market_p_over": 0.625,
-      "teleios_p_over": 0.441,
-      "teleios_p_over_raw": 0.441
+      "teleios_p_over": 0.4387,
+      "teleios_p_over_raw": 0.4387
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.455,
-      "teleios_p_over": 0.3725,
-      "teleios_p_over_raw": 0.3725
+      "market_p_over": 0.44,
+      "teleios_p_over": 0.3703,
+      "teleios_p_over_raw": 0.3703
      },
      "pts": {
       "line": 14.5,
       "market_p_over": 0.385,
-      "teleios_p_over": 0.3096,
-      "teleios_p_over_raw": 0.3096
+      "teleios_p_over": 0.3083,
+      "teleios_p_over_raw": 0.3083
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.515,
-      "teleios_p_over": 0.4061,
-      "teleios_p_over_raw": 0.4061
+      "market_p_over": 0.505,
+      "teleios_p_over": 0.4042,
+      "teleios_p_over_raw": 0.4042
      }
     },
     "minutes": 25.5,
@@ -6854,10 +6868,10 @@
     "proj": {
      "ast": 2.3,
      "blk": 0.15,
-     "fg3m": 1.81,
-     "pra": 17.15,
-     "pts": 11.56,
-     "reb": 3.29,
+     "fg3m": 1.8,
+     "pra": 17.11,
+     "pts": 11.54,
+     "reb": 3.28,
      "stl": 0.87,
      "tov": 1.07
     },
@@ -6876,12 +6890,12 @@
       3.0
      ],
      "pra": [
-      12.3,
+      12.2,
       22.0
      ],
      "pts": [
       7.6,
-      15.6
+      15.5
      ],
      "reb": [
       2.0,
@@ -6946,33 +6960,33 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.655,
+      "market_p_over": 0.665,
       "teleios_p_over": 0.5969,
       "teleios_p_over_raw": 0.5969
      },
      "fg3m": {
       "line": 1.5,
-      "market_p_over": 0.4,
+      "market_p_over": 0.405,
       "teleios_p_over": 0.2827,
       "teleios_p_over_raw": 0.2827
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.58,
-      "teleios_p_over": 0.4621,
-      "teleios_p_over_raw": 0.4621
+      "market_p_over": 0.595,
+      "teleios_p_over": 0.4599,
+      "teleios_p_over_raw": 0.4599
      },
      "pts": {
       "line": 14.5,
-      "market_p_over": 0.425,
-      "teleios_p_over": 0.3271,
-      "teleios_p_over_raw": 0.3271
+      "market_p_over": 0.435,
+      "teleios_p_over": 0.3258,
+      "teleios_p_over_raw": 0.3258
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.44,
-      "teleios_p_over": 0.3453,
-      "teleios_p_over_raw": 0.3453
+      "market_p_over": 0.455,
+      "teleios_p_over": 0.3438,
+      "teleios_p_over_raw": 0.3438
      }
     },
     "minutes": 25.3,
@@ -6983,9 +6997,9 @@
      "ast": 2.21,
      "blk": 0.38,
      "fg3m": 1.15,
-     "pra": 18.78,
-     "pts": 11.82,
-     "reb": 4.75,
+     "pra": 18.74,
+     "pts": 11.8,
+     "reb": 4.74,
      "stl": 0.76,
      "tov": 1.15
     },
@@ -7004,12 +7018,12 @@
       2.0
      ],
      "pra": [
-      13.7,
-      23.9
+      13.6,
+      23.8
      ],
      "pts": [
       7.8,
-      15.9
+      15.8
      ],
      "reb": [
       3.0,
@@ -7039,10 +7053,10 @@
      ],
      "pra": [
       9.1,
-      28.5
+      28.4
      ],
      "pts": [
-      4.2,
+      4.1,
       19.5
      ],
      "reb": [
@@ -7074,33 +7088,33 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.405,
+      "market_p_over": 0.395,
       "teleios_p_over": 0.3473,
       "teleios_p_over_raw": 0.3473
      },
      "fg3m": {
       "line": 1.5,
       "market_p_over": 0.595,
-      "teleios_p_over": 0.3905,
-      "teleios_p_over_raw": 0.3905
+      "teleios_p_over": 0.3881,
+      "teleios_p_over_raw": 0.3881
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.48,
-      "teleios_p_over": 0.4492,
-      "teleios_p_over_raw": 0.4492
+      "market_p_over": 0.475,
+      "teleios_p_over": 0.447,
+      "teleios_p_over_raw": 0.447
      },
      "pts": {
       "line": 14.5,
       "market_p_over": 0.355,
-      "teleios_p_over": 0.3217,
-      "teleios_p_over_raw": 0.3217
+      "teleios_p_over": 0.3197,
+      "teleios_p_over_raw": 0.3197
      },
      "reb": {
       "line": 5.5,
-      "market_p_over": 0.45,
-      "teleios_p_over": 0.4585,
-      "teleios_p_over_raw": 0.4585
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.4571,
+      "teleios_p_over_raw": 0.4571
      }
     },
     "minutes": 24.9,
@@ -7109,13 +7123,13 @@
     "player": "P.J. Washington",
     "proj": {
      "ast": 1.28,
-     "blk": 0.8,
-     "fg3m": 1.59,
-     "pra": 18.54,
-     "pts": 11.74,
-     "reb": 5.52,
+     "blk": 0.79,
+     "fg3m": 1.58,
+     "pra": 18.5,
+     "pts": 11.71,
+     "reb": 5.51,
      "stl": 0.7,
-     "tov": 1.28
+     "tov": 1.27
     },
     "questionable": true,
     "range50": {
@@ -7132,12 +7146,12 @@
       2.0
      ],
      "pra": [
-      13.5,
+      13.4,
       23.6
      ],
      "pts": [
       7.7,
-      15.8
+      15.7
      ],
      "reb": [
       3.0,
@@ -7167,11 +7181,11 @@
      ],
      "pra": [
       8.9,
-      28.2
+      28.1
      ],
      "pts": [
       4.1,
-      19.4
+      19.3
      ],
      "reb": [
       2.0,
@@ -7202,7 +7216,7 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.68,
+      "market_p_over": 0.7,
       "teleios_p_over": 0.6585,
       "teleios_p_over_raw": 0.6585
      },
@@ -7215,20 +7229,20 @@
      "pra": {
       "line": 9.5,
       "market_p_over": 0.66,
-      "teleios_p_over": 0.699,
-      "teleios_p_over_raw": 0.699
+      "teleios_p_over": 0.6976,
+      "teleios_p_over_raw": 0.6976
      },
      "pts": {
       "line": 4.5,
-      "market_p_over": 0.595,
-      "teleios_p_over": 0.6766,
-      "teleios_p_over_raw": 0.6766
+      "market_p_over": 0.615,
+      "teleios_p_over": 0.676,
+      "teleios_p_over_raw": 0.676
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.47,
-      "teleios_p_over": 0.4819,
-      "teleios_p_over_raw": 0.4819
+      "market_p_over": 0.465,
+      "teleios_p_over": 0.4801,
+      "teleios_p_over_raw": 0.4801
      }
     },
     "minutes": 22.0,
@@ -7239,9 +7253,9 @@
      "ast": 2.5,
      "blk": 0.13,
      "fg3m": 1.0,
-     "pra": 12.75,
-     "pts": 6.54,
-     "reb": 3.7,
+     "pra": 12.72,
+     "pts": 6.53,
+     "reb": 3.69,
      "stl": 0.81,
      "tov": 0.85
     },
@@ -7294,7 +7308,7 @@
       3.0
      ],
      "pra": [
-      4.8,
+      4.7,
       20.7
      ],
      "pts": [
@@ -7331,26 +7345,26 @@
      "ast": {
       "line": 1.5,
       "market_p_over": 0.545,
-      "teleios_p_over": 0.5144,
-      "teleios_p_over_raw": 0.5144
+      "teleios_p_over": 0.5118,
+      "teleios_p_over_raw": 0.5118
      },
      "pra": {
       "line": 19.5,
-      "market_p_over": 0.43,
-      "teleios_p_over": 0.3596,
-      "teleios_p_over_raw": 0.3596
+      "market_p_over": 0.4,
+      "teleios_p_over": 0.3574,
+      "teleios_p_over_raw": 0.3574
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.485,
-      "teleios_p_over": 0.4842,
-      "teleios_p_over_raw": 0.4842
+      "market_p_over": 0.48,
+      "teleios_p_over": 0.4819,
+      "teleios_p_over_raw": 0.4819
      },
      "reb": {
-      "line": 7.5,
-      "market_p_over": 0.38,
-      "teleios_p_over": 0.2488,
-      "teleios_p_over_raw": 0.2488
+      "line": 5.5,
+      "market_p_over": 0.625,
+      "teleios_p_over": 0.4914,
+      "teleios_p_over_raw": 0.4914
      }
     },
     "minutes": 21.6,
@@ -7358,14 +7372,14 @@
     "pid": 4278049,
     "player": "Daniel Gafford",
     "proj": {
-     "ast": 1.87,
+     "ast": 1.86,
      "blk": 1.37,
      "fg3m": 0.09,
-     "pra": 16.92,
-     "pts": 9.29,
-     "reb": 5.76,
+     "pra": 16.88,
+     "pts": 9.26,
+     "reb": 5.75,
      "stl": 0.67,
-     "tov": 1.11
+     "tov": 1.1
     },
     "questionable": false,
     "range50": {
@@ -7382,12 +7396,12 @@
       0.0
      ],
      "pra": [
-      12.1,
-      21.8
+      12.0,
+      21.7
      ],
      "pts": [
       5.7,
-      12.9
+      12.8
      ],
      "reb": [
       4.0,
@@ -7452,33 +7466,33 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.295,
+      "market_p_over": 0.275,
       "teleios_p_over": 0.3042,
       "teleios_p_over_raw": 0.3042
      },
      "fg3m": {
       "line": 0.5,
       "market_p_over": 0.645,
-      "teleios_p_over": 0.5296,
-      "teleios_p_over_raw": 0.5296
+      "teleios_p_over": 0.5266,
+      "teleios_p_over_raw": 0.5266
      },
      "pra": {
       "line": 14.5,
-      "market_p_over": 0.405,
-      "teleios_p_over": 0.5,
-      "teleios_p_over_raw": 0.5
+      "market_p_over": 0.385,
+      "teleios_p_over": 0.4976,
+      "teleios_p_over_raw": 0.4976
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.37,
-      "teleios_p_over": 0.4477,
-      "teleios_p_over_raw": 0.4477
+      "market_p_over": 0.355,
+      "teleios_p_over": 0.4461,
+      "teleios_p_over_raw": 0.4461
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.52,
-      "teleios_p_over": 0.62,
-      "teleios_p_over_raw": 0.62
+      "market_p_over": 0.525,
+      "teleios_p_over": 0.6185,
+      "teleios_p_over_raw": 0.6185
      }
     },
     "minutes": 21.4,
@@ -7488,10 +7502,10 @@
     "proj": {
      "ast": 1.14,
      "blk": 0.64,
-     "fg3m": 1.17,
-     "pra": 14.5,
-     "pts": 8.82,
-     "reb": 4.53,
+     "fg3m": 1.16,
+     "pra": 14.46,
+     "pts": 8.8,
+     "reb": 4.52,
      "stl": 0.74,
      "tov": 0.86
     },
@@ -7511,7 +7525,7 @@
      ],
      "pra": [
       10.0,
-      19.0
+      18.9
      ],
      "pts": [
       5.3,
@@ -7580,31 +7594,31 @@
     "market": {
      "ast": {
       "line": 3.5,
-      "market_p_over": 0.36,
+      "market_p_over": 0.365,
       "teleios_p_over": 0.3751,
       "teleios_p_over_raw": 0.3751
      },
      "fg3m": {
       "line": 0.5,
-      "market_p_over": 0.575,
+      "market_p_over": 0.585,
       "teleios_p_over": 0.3873,
       "teleios_p_over_raw": 0.3873
      },
      "pra": {
       "line": 14.5,
-      "market_p_over": 0.6,
-      "teleios_p_over": 0.6003,
-      "teleios_p_over_raw": 0.6003
+      "market_p_over": 0.58,
+      "teleios_p_over": 0.5988,
+      "teleios_p_over_raw": 0.5988
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.535,
-      "teleios_p_over": 0.5603,
-      "teleios_p_over_raw": 0.5603
+      "market_p_over": 0.52,
+      "teleios_p_over": 0.559,
+      "teleios_p_over_raw": 0.559
      },
      "reb": {
       "line": 3.5,
-      "market_p_over": 0.365,
+      "market_p_over": 0.385,
       "teleios_p_over": 0.3145,
       "teleios_p_over_raw": 0.3145
      }
@@ -7617,8 +7631,8 @@
      "ast": 3.13,
      "blk": 0.09,
      "fg3m": 0.76,
-     "pra": 16.29,
-     "pts": 10.35,
+     "pra": 16.26,
+     "pts": 10.33,
      "reb": 2.81,
      "stl": 0.81,
      "tov": 1.25
@@ -7672,7 +7686,7 @@
       2.0
      ],
      "pra": [
-      7.3,
+      7.2,
       25.3
      ],
      "pts": [
@@ -7710,14 +7724,14 @@
     "pid": 4896372,
     "player": "Walter Clayton Jr.",
     "proj": {
-     "ast": 3.9,
+     "ast": 3.89,
      "blk": 0.17,
      "fg3m": 1.34,
-     "pra": 14.95,
-     "pts": 8.39,
+     "pra": 14.92,
+     "pts": 8.38,
      "reb": 2.66,
      "stl": 0.61,
-     "tov": 1.53
+     "tov": 1.52
     },
     "questionable": false,
     "range50": {
@@ -7773,7 +7787,7 @@
      ],
      "pts": [
       1.9,
-      14.9
+      14.8
      ],
      "reb": [
       0.0,
@@ -7804,31 +7818,31 @@
     "market": {
      "ast": {
       "line": 1.5,
-      "market_p_over": 0.635,
+      "market_p_over": 0.63,
       "teleios_p_over": 0.6297,
       "teleios_p_over_raw": 0.6297
      },
      "fg3m": {
       "line": 0.5,
-      "market_p_over": 0.325,
+      "market_p_over": 0.315,
       "teleios_p_over": 0.1758,
       "teleios_p_over_raw": 0.1758
      },
      "pra": {
       "line": 14.5,
-      "market_p_over": 0.505,
-      "teleios_p_over": 0.4297,
-      "teleios_p_over_raw": 0.4297
+      "market_p_over": 0.5,
+      "teleios_p_over": 0.4278,
+      "teleios_p_over_raw": 0.4278
      },
      "pts": {
       "line": 9.5,
-      "market_p_over": 0.545,
-      "teleios_p_over": 0.491,
-      "teleios_p_over_raw": 0.491
+      "market_p_over": 0.555,
+      "teleios_p_over": 0.4888,
+      "teleios_p_over_raw": 0.4888
      },
      "reb": {
       "line": 1.5,
-      "market_p_over": 0.55,
+      "market_p_over": 0.545,
       "teleios_p_over": 0.4542,
       "teleios_p_over_raw": 0.4542
      }
@@ -7841,10 +7855,10 @@
      "ast": 2.36,
      "blk": 0.16,
      "fg3m": 0.3,
-     "pra": 13.37,
-     "pts": 9.38,
+     "pra": 13.34,
+     "pts": 9.35,
      "reb": 1.63,
-     "stl": 0.57,
+     "stl": 0.56,
      "tov": 0.78
     },
     "questionable": false,
@@ -7862,12 +7876,12 @@
       0.0
      ],
      "pra": [
-      9.1,
-      17.7
+      9.0,
+      17.6
      ],
      "pts": [
       5.8,
-      13.0
+      12.9
      ],
      "reb": [
       1.0,
@@ -7934,12 +7948,12 @@
     "pid": 4873153,
     "player": "Morez Johnson Jr.",
     "proj": {
-     "ast": 1.44,
+     "ast": 1.43,
      "blk": 0.13,
      "fg3m": 0.29,
-     "pra": 12.18,
-     "pts": 6.17,
-     "reb": 4.57,
+     "pra": 12.15,
+     "pts": 6.16,
+     "reb": 4.56,
      "stl": 0.56,
      "tov": 1.1
     },
@@ -7958,11 +7972,11 @@
       0.0
      ],
      "pra": [
-      8.1,
+      8.0,
       16.3
      ],
      "pts": [
-      3.3,
+      3.2,
       9.1
      ],
      "reb": [
@@ -7993,7 +8007,7 @@
      ],
      "pra": [
       4.4,
-      20.0
+      19.9
      ],
      "pts": [
       0.6,
@@ -8033,9 +8047,9 @@
      "ast": 0.63,
      "blk": 0.49,
      "fg3m": 0.68,
-     "pra": 6.68,
+     "pra": 6.67,
      "pts": 3.73,
-     "reb": 2.32,
+     "reb": 2.31,
      "stl": 0.53,
      "tov": 0.49
     },
@@ -8089,7 +8103,7 @@
      ],
      "pra": [
       0.9,
-      12.5
+      12.4
      ],
      "pts": [
       0.0,
@@ -8126,12 +8140,12 @@
     "pid": 4432181,
     "player": "Julian Strawther",
     "proj": {
-     "ast": 1.07,
+     "ast": 1.06,
      "blk": 0.13,
      "fg3m": 1.04,
-     "pra": 10.31,
-     "pts": 7.23,
-     "reb": 2.02,
+     "pra": 10.29,
+     "pts": 7.21,
+     "reb": 2.01,
      "stl": 0.51,
      "tov": 0.67
     },
@@ -8216,9 +8230,9 @@
      "ast": 0.87,
      "blk": 0.19,
      "fg3m": 1.05,
-     "pra": 7.8,
-     "pts": 5.08,
-     "reb": 1.85,
+     "pra": 7.78,
+     "pts": 5.07,
+     "reb": 1.84,
      "stl": 0.39,
      "tov": 0.61
     },
@@ -8271,11 +8285,11 @@
       3.0
      ],
      "pra": [
-      1.6,
+      1.5,
       14.0
      ],
      "pts": [
-      0.1,
+      0.0,
       10.1
      ],
      "reb": [
@@ -8312,9 +8326,9 @@
      "ast": 0.29,
      "blk": 0.4,
      "fg3m": 0.55,
-     "pra": 8.66,
-     "pts": 4.81,
-     "reb": 3.56,
+     "pra": 8.64,
+     "pts": 4.8,
+     "reb": 3.55,
      "stl": 0.44,
      "tov": 0.53
     },
@@ -8408,8 +8422,8 @@
      "ast": 1.1,
      "blk": 0.23,
      "fg3m": 0.8,
-     "pra": 10.0,
-     "pts": 6.07,
+     "pra": 9.98,
+     "pts": 6.06,
      "reb": 2.82,
      "stl": 0.38,
      "tov": 0.61
@@ -8434,7 +8448,7 @@
      ],
      "pts": [
       3.2,
-      9.0
+      8.9
      ],
      "reb": [
       1.0,
@@ -8464,11 +8478,11 @@
      ],
      "pra": [
       2.9,
-      17.1
+      17.0
      ],
      "pts": [
       0.6,
-      11.6
+      11.5
      ],
      "reb": [
       1.0,
@@ -8504,8 +8518,8 @@
      "ast": 1.33,
      "blk": 0.06,
      "fg3m": 0.76,
-     "pra": 6.15,
-     "pts": 3.91,
+     "pra": 6.14,
+     "pts": 3.9,
      "reb": 0.91,
      "stl": 0.32,
      "tov": 0.54
@@ -8597,12 +8611,12 @@
     "pid": 4277848,
     "player": "Marvin Bagley III",
     "proj": {
-     "ast": 0.5,
+     "ast": 0.49,
      "blk": 0.42,
      "fg3m": 0.18,
-     "pra": 8.35,
-     "pts": 4.88,
-     "reb": 2.97,
+     "pra": 8.33,
+     "pts": 4.87,
+     "reb": 2.96,
      "stl": 0.3,
      "tov": 0.45
     },
@@ -8696,8 +8710,8 @@
      "ast": 0.32,
      "blk": 0.02,
      "fg3m": 0.2,
-     "pra": 5.1,
-     "pts": 3.4,
+     "pra": 5.09,
+     "pts": 3.39,
      "reb": 1.38,
      "stl": 0.31,
      "tov": 0.45
@@ -8718,7 +8732,7 @@
      ],
      "pra": [
       2.4,
-      7.8
+      7.7
      ],
      "pts": [
       1.2,
@@ -8792,9 +8806,9 @@
      "ast": 0.5,
      "blk": 0.19,
      "fg3m": 0.47,
-     "pra": 6.92,
-     "pts": 4.89,
-     "reb": 1.54,
+     "pra": 6.91,
+     "pts": 4.88,
+     "reb": 1.53,
      "stl": 0.34,
      "tov": 0.49
     },
@@ -8888,7 +8902,7 @@
      "ast": 1.69,
      "blk": 0.08,
      "fg3m": 0.36,
-     "pra": 4.41,
+     "pra": 4.4,
      "pts": 1.99,
      "reb": 0.72,
      "stl": 0.33,
@@ -8984,7 +8998,7 @@
      "ast": 2.17,
      "blk": 0.03,
      "fg3m": 0.33,
-     "pra": 6.05,
+     "pra": 6.03,
      "pts": 2.84,
      "reb": 1.03,
      "stl": 0.25,
@@ -9005,7 +9019,7 @@
       0.0
      ],
      "pra": [
-      3.2,
+      3.1,
       8.9
      ],
      "pts": [
@@ -9082,7 +9096,7 @@
      "fg3m": 0.06,
      "pra": 2.07,
      "pts": 1.03,
-     "reb": 0.66,
+     "reb": 0.65,
      "stl": 0.2,
      "tov": 0.38
     },
@@ -9176,7 +9190,7 @@
      "ast": 0.28,
      "blk": 0.19,
      "fg3m": 0.16,
-     "pra": 3.27,
+     "pra": 3.26,
      "pts": 1.85,
      "reb": 1.13,
      "stl": 0.19,
@@ -9202,7 +9216,7 @@
      ],
      "pts": [
       0.3,
-      3.5
+      3.4
      ],
      "reb": [
       0.0,
@@ -9273,7 +9287,7 @@
      "blk": 0.26,
      "fg3m": 0.01,
      "pra": 3.15,
-     "pts": 1.49,
+     "pts": 1.48,
      "reb": 1.55,
      "stl": 0.14,
      "tov": 0.23
@@ -9368,8 +9382,8 @@
      "ast": 0.25,
      "blk": 0.05,
      "fg3m": 0.35,
-     "pra": 2.63,
-     "pts": 1.91,
+     "pra": 2.62,
+     "pts": 1.9,
      "reb": 0.47,
      "stl": 0.12,
      "tov": 0.14
@@ -9424,7 +9438,7 @@
      ],
      "pra": [
       0.0,
-      6.3
+      6.2
      ],
      "pts": [
       0.0,
@@ -9536,7 +9550,7 @@
      ],
      "tov": [
       0.0,
-      1.0
+      0.0
      ]
     },
     "season_avg": {

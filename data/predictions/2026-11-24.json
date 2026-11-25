@@ -12,7 +12,7 @@
   "frozen_at": "2026-11-24 20:53 UTC",
   "game_id": 401909314,
   "home": "ORL",
-  "locked": false,
+  "locked": true,
   "margin": -4.39,
   "market_p_home": 0.4604,
   "neutral": false,
@@ -216,7 +216,7 @@
    "market_p_home": 0.215,
    "p_home": 0.2305
   },
-  "frozen_at": "2026-11-24 20:53 UTC",
+  "frozen_at": "2026-11-25 00:35 UTC",
   "game_id": 401909315,
   "home": "WAS",
   "locked": false,
@@ -226,12 +226,12 @@
   "p_home": 0.2303,
   "pick": "BOS",
   "spread": {
-   "home_line": 10.5,
-   "market_p_home_cover": 0.485,
+   "home_line": 11.5,
+   "market_p_home_cover": 0.515,
    "pick": "WAS",
-   "pick_line": 10.5,
+   "pick_line": 11.5,
    "source": "Kalshi",
-   "teleios_p_home_cover": 0.5341
+   "teleios_p_home_cover": 0.5652
   },
   "tip_utc": "2026-11-25 01:00:00+00:00",
   "why": {
@@ -411,7 +411,7 @@
    "market_p_home": 0.7638,
    "p_home": 0.6442
   },
-  "frozen_at": "2026-11-24 20:53 UTC",
+  "frozen_at": "2026-11-25 00:35 UTC",
   "game_id": 401909316,
   "home": "DEN",
   "locked": false,
