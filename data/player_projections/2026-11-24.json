@@ -2904,7 +2904,7 @@
   "frozen_at": "2026-11-25 00:35 UTC",
   "game_id": 401909315,
   "home": "WAS",
-  "locked": false,
+  "locked": true,
   "players": [
    {
     "market": {
@@ -6186,7 +6186,7 @@
   "frozen_at": "2026-11-25 00:35 UTC",
   "game_id": 401909316,
   "home": "DEN",
-  "locked": false,
+  "locked": true,
   "players": [
    {
     "market": {

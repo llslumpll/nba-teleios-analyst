@@ -1,927 +1,27 @@
 {
-"fetched_at": "2026-11-25 00:35 UTC",
+"fetched_at": "2026-11-25 04:06 UTC",
 "error": null,
 "diagnostics": {
-"KXNBAPTS": "3 events, 152 rungs",
-"KXNBAREB": "3 events, 161 rungs",
-"KXNBAAST": "3 events, 127 rungs",
-"KXNBA3PT": "3 events, 172 rungs",
-"KXNBAPRA": "3 events, 107 rungs"
+"KXNBAPTS": "3 events, 126 rungs",
+"KXNBAREB": "3 events, 144 rungs",
+"KXNBAAST": "3 events, 118 rungs",
+"KXNBA3PT": "3 events, 141 rungs",
+"KXNBAPRA": "3 events, 97 rungs"
 },
 "ladders": [
 {
-"player": "Franz Wagner",
+"player": "DeMar DeRozan",
 "stat": "pts",
 "date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.72,
-"ask": 0.74,
-"mid": 0.73
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.35,
-"ask": 0.45,
-"mid": null
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.23,
-"ask": 0.24,
-"mid": 0.235
-},
-{
-"n": 30,
-"line": 29.5,
-"bid": 0.07,
-"ask": 0.09,
-"mid": 0.08
-}
-],
-"main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.72,
-"ask": 0.74,
-"mid": 0.73
-}
-},
-{
-"player": "Cade Cunningham",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.44,
-"ask": 0.99,
-"mid": null
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.72,
-"ask": 0.79,
-"mid": 0.755
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.47,
-"ask": 0.52,
-"mid": 0.495
-},
-{
-"n": 30,
-"line": 29.5,
-"bid": 0.05,
-"ask": 0.29,
-"mid": null
-},
-{
-"n": 35,
-"line": 34.5,
-"bid": 0.04,
-"ask": 0.13,
-"mid": 0.085
-}
-],
-"main": {
-"n": 25,
-"line": 24.5,
-"bid": 0.47,
-"ask": 0.52,
-"mid": 0.495
-}
-},
-{
-"player": "Kevin Huerter",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
 "n": 10,
 "line": 9.5,
-"bid": 0.77,
-"ask": 0.81,
-"mid": 0.79
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.43,
-"ask": 0.44,
-"mid": 0.435
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.13,
-"ask": 0.14,
-"mid": 0.135
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": null,
-"ask": 0.16,
-"mid": null
-}
-],
-"main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.43,
-"ask": 0.44,
-"mid": 0.435
-}
-},
-{
-"player": "John Collins",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.61,
-"ask": 0.62,
-"mid": 0.615
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.22,
-"ask": 0.26,
-"mid": 0.24
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.07,
-"ask": 0.09,
-"mid": 0.08
-}
-],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.61,
-"ask": 0.62,
-"mid": 0.615
-}
-},
-{
-"player": "Ausar Thompson",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.52,
-"ask": 0.53,
-"mid": 0.525
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.16,
-"ask": 0.19,
-"mid": 0.175
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.04,
-"ask": 0.05,
-"mid": 0.045
-}
-],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.52,
-"ask": 0.53,
-"mid": 0.525
-}
-},
-{
-"player": "Daniss Jenkins",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.83,
-"ask": 0.85,
-"mid": 0.84
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.68,
-"ask": 0.69,
-"mid": 0.685
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.4,
-"ask": 0.41,
-"mid": 0.405
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.1,
-"ask": 0.14,
-"mid": 0.12000000000000001
-}
-],
-"main": {
-"n": 20,
-"line": 19.5,
-"bid": 0.4,
-"ask": 0.41,
-"mid": 0.405
-}
-},
-{
-"player": "Anthony Black",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.82,
-"ask": 0.83,
-"mid": 0.825
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.48,
-"ask": 0.5,
-"mid": 0.49
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.11,
-"ask": 0.22,
-"mid": null
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.03,
-"ask": 0.07,
-"mid": 0.05
-}
-],
-"main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.48,
-"ask": 0.5,
-"mid": 0.49
-}
-},
-{
-"player": "Wendell Carter Jr.",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.27,
-"ask": 0.36,
-"mid": 0.315
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.05,
-"ask": 0.12,
-"mid": 0.08499999999999999
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.04,
-"ask": 0.06,
-"mid": 0.05
-}
-],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.27,
-"ask": 0.36,
-"mid": 0.315
-}
-},
-{
-"player": "Paul Reed",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.89,
-"ask": 0.9,
-"mid": 0.895
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.54,
-"ask": 0.55,
-"mid": 0.545
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.11,
-"ask": 0.14,
-"mid": 0.125
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.03,
-"ask": 0.05,
-"mid": 0.04
-}
-],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.54,
-"ask": 0.55,
-"mid": 0.545
-}
-},
-{
-"player": "Jalen Suggs",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.31,
-"ask": 0.36,
-"mid": 0.33499999999999996
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.12,
-"ask": 0.14,
-"mid": 0.13
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.03,
-"ask": 0.05,
-"mid": 0.04
-}
-],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.31,
-"ask": 0.36,
-"mid": 0.33499999999999996
-}
-},
-{
-"player": "Isaiah Joe",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.75,
-"ask": 0.76,
-"mid": 0.755
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.4,
-"ask": 0.43,
-"mid": 0.41500000000000004
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.17,
-"ask": 0.19,
-"mid": 0.18
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.05,
-"ask": 0.1,
-"mid": 0.07500000000000001
-}
-],
-"main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.4,
-"ask": 0.43,
-"mid": 0.41500000000000004
-}
-},
-{
-"player": "Tristan da Silva",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.86,
-"ask": 0.87,
-"mid": 0.865
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.39,
-"ask": 0.43,
-"mid": 0.41000000000000003
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.1,
-"ask": 0.18,
-"mid": 0.14
-}
-],
-"main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.39,
-"ask": 0.43,
-"mid": 0.41000000000000003
-}
-},
-{
-"player": "Desmond Bane",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.9,
-"ask": 0.95,
-"mid": 0.925
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.72,
-"ask": 0.74,
-"mid": 0.73
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.32,
-"ask": 0.45,
-"mid": null
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.12,
-"ask": 0.18,
-"mid": 0.15
-}
-],
-"main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.72,
-"ask": 0.74,
-"mid": 0.73
-}
-},
-{
-"player": "Nikola Vu\u010devi\u0107",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.22,
-"ask": 0.53,
-"mid": null
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.17,
-"ask": 0.2,
-"mid": 0.185
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.03,
-"ask": 0.06,
-"mid": 0.045
-}
-],
-"main": null
-},
-{
-"player": "Javonte Green",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.3,
-"ask": 0.73,
-"mid": null
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.31,
-"ask": 0.37,
-"mid": 0.33999999999999997
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.04,
-"ask": 0.15,
-"mid": null
-}
-],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.31,
-"ask": 0.37,
-"mid": 0.33999999999999997
-}
-},
-{
-"player": "Goga Bitadze",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.22,
-"ask": 0.59,
-"mid": null
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.04,
+"bid": 0.46,
 "ask": 0.47,
-"mid": null
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.01,
-"ask": 0.15,
-"mid": null
-}
-],
-"main": null
-},
-{
-"player": "Kyshawn George",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.77,
-"ask": 0.8,
-"mid": 0.785
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.5,
-"ask": 0.51,
-"mid": 0.505
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.22,
-"ask": 0.24,
-"mid": 0.22999999999999998
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.07,
-"ask": 0.08,
-"mid": 0.07500000000000001
-}
-],
-"main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.5,
-"ask": 0.51,
-"mid": 0.505
-}
-},
-{
-"player": "Neemias Queta",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.59,
-"ask": 0.6,
-"mid": 0.595
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.25,
-"ask": 0.26,
-"mid": 0.255
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.07,
-"ask": 0.08,
-"mid": 0.07500000000000001
-}
-],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.59,
-"ask": 0.6,
-"mid": 0.595
-}
-},
-{
-"player": "Bilal Coulibaly",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.65,
-"ask": 0.68,
-"mid": 0.665
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.23,
-"ask": 0.24,
-"mid": 0.235
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.05,
-"ask": 0.06,
-"mid": 0.055
-}
-],
-"main": {
-"n": 5,
-"line": 4.5,
-"bid": 0.65,
-"ask": 0.68,
-"mid": 0.665
-}
-},
-{
-"player": "Trae Young",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.76,
-"ask": 0.77,
-"mid": 0.765
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.48,
-"ask": 0.49,
-"mid": 0.485
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.21,
-"ask": 0.23,
-"mid": 0.22
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.09,
-"ask": 0.1,
-"mid": 0.095
-}
-],
-"main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.48,
-"ask": 0.49,
-"mid": 0.485
-}
-},
-{
-"player": "Anthony Davis",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.78,
-"ask": 0.79,
-"mid": 0.785
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.57,
-"ask": 0.58,
-"mid": 0.575
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.31,
-"ask": 0.32,
-"mid": 0.315
-},
-{
-"n": 30,
-"line": 29.5,
-"bid": 0.11,
-"ask": 0.12,
-"mid": 0.11499999999999999
-}
-],
-"main": {
-"n": 20,
-"line": 19.5,
-"bid": 0.57,
-"ask": 0.58,
-"mid": 0.575
-}
-},
-{
-"player": "Jayson Tatum",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.8,
-"ask": 0.81,
-"mid": 0.805
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.57,
-"ask": 0.58,
-"mid": 0.575
-},
-{
-"n": 30,
-"line": 29.5,
-"bid": 0.32,
-"ask": 0.33,
-"mid": 0.325
-},
-{
-"n": 35,
-"line": 34.5,
-"bid": 0.14,
-"ask": 0.16,
-"mid": 0.15000000000000002
-}
-],
-"main": {
-"n": 25,
-"line": 24.5,
-"bid": 0.57,
-"ask": 0.58,
-"mid": 0.575
-}
-},
-{
-"player": "Alex Sarr",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.8,
-"ask": 0.81,
-"mid": 0.805
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.45,
-"ask": 0.46,
-"mid": 0.455
+"mid": 0.46499999999999997
 },
 {
 "n": 15,
@@ -933,158 +33,165 @@
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.02,
-"ask": 0.05,
-"mid": 0.035
-}
-],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.45,
-"ask": 0.46,
-"mid": 0.455
-}
-},
-{
-"player": "Hugo Gonz\u00e1lez",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.54,
-"ask": 0.55,
-"mid": 0.545
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.15,
-"ask": 0.17,
-"mid": 0.16
-},
-{
-"n": 15,
-"line": 14.5,
 "bid": 0.03,
 "ask": 0.04,
 "mid": 0.035
 }
 ],
 "main": {
-"n": 5,
-"line": 4.5,
-"bid": 0.54,
-"ask": 0.55,
-"mid": 0.545
+"n": 10,
+"line": 9.5,
+"bid": 0.46,
+"ask": 0.47,
+"mid": 0.46499999999999997
 }
 },
 {
-"player": "AJ Dybantsa",
+"player": "Cameron Johnson",
 "stat": "pts",
 "date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
 "n": 10,
 "line": 9.5,
-"bid": 0.83,
-"ask": 0.84,
-"mid": 0.835
+"bid": 0.91,
+"ask": 0.93,
+"mid": 0.92
 },
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.59,
-"ask": 0.6,
-"mid": 0.595
+"bid": 0.46,
+"ask": 0.48,
+"mid": 0.47
 },
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.26,
-"ask": 0.27,
-"mid": 0.265
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.09,
-"ask": 0.1,
-"mid": 0.095
+"bid": 0.1,
+"ask": 0.12,
+"mid": 0.11
 }
 ],
 "main": {
 "n": 15,
 "line": 14.5,
-"bid": 0.59,
-"ask": 0.6,
-"mid": 0.595
+"bid": 0.46,
+"ask": 0.48,
+"mid": 0.47
 }
 },
 {
-"player": "Paul George",
+"player": "Cooper Flagg",
 "stat": "pts",
 "date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.9,
-"ask": 0.91,
-"mid": 0.905
-},
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.72,
-"ask": 0.73,
-"mid": 0.725
+"bid": 0.91,
+"ask": 0.92,
+"mid": 0.915
 },
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.45,
-"ask": 0.46,
-"mid": 0.455
+"bid": 0.66,
+"ask": 0.67,
+"mid": 0.665
 },
 {
 "n": 25,
 "line": 24.5,
-"bid": 0.23,
-"ask": 0.24,
-"mid": 0.235
+"bid": 0.3,
+"ask": 0.31,
+"mid": 0.305
 },
 {
 "n": 30,
 "line": 29.5,
-"bid": 0.08,
-"ask": 0.09,
-"mid": 0.08499999999999999
+"bid": 0.1,
+"ask": 0.11,
+"mid": 0.10500000000000001
+},
+{
+"n": 35,
+"line": 34.5,
+"bid": 0.03,
+"ask": 0.04,
+"mid": 0.035
 }
 ],
 "main": {
 "n": 20,
 "line": 19.5,
-"bid": 0.45,
-"ask": 0.46,
-"mid": 0.455
+"bid": 0.66,
+"ask": 0.67,
+"mid": 0.665
 }
 },
 {
-"player": "Payton Pritchard",
+"player": "Nikola Joki\u0107",
 "stat": "pts",
 "date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.76,
+"ask": 0.77,
+"mid": 0.765
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.49,
+"ask": 0.5,
+"mid": 0.495
+},
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.19,
+"ask": 0.2,
+"mid": 0.195
+},
+{
+"n": 35,
+"line": 34.5,
+"bid": 0.07,
+"ask": 0.08,
+"mid": 0.07500000000000001
+}
+],
+"main": {
+"n": 25,
+"line": 24.5,
+"bid": 0.49,
+"ask": 0.5,
+"mid": 0.495
+}
+},
+{
+"player": "Caleb Martin",
+"stat": "pts",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.99,
+"ask": null,
+"mid": null
+},
 {
 "n": 10,
 "line": 9.5,
@@ -1095,77 +202,63 @@
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.41,
-"ask": 0.42,
-"mid": 0.415
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.15,
-"ask": 0.17,
-"mid": 0.16
+"bid": 0.12,
+"ask": 0.15,
+"mid": 0.135
 }
 ],
 "main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.41,
-"ask": 0.42,
-"mid": 0.415
-}
-},
-{
-"player": "Derrick White",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
 "n": 10,
 "line": 9.5,
-"bid": 0.72,
+"bid": 0.71,
 "ask": 0.73,
-"mid": 0.725
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.4,
-"ask": 0.41,
-"mid": 0.405
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.16,
-"ask": 0.17,
-"mid": 0.165
-}
-],
-"main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.4,
-"ask": 0.41,
-"mid": 0.405
+"mid": 0.72
 }
 },
 {
-"player": "Sam Hauser",
+"player": "Zaccharie Risacher",
 "stat": "pts",
 "date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
 "n": 5,
 "line": 4.5,
-"bid": 0.7,
-"ask": 0.72,
-"mid": 0.71
+"bid": 0.57,
+"ask": 0.58,
+"mid": 0.575
 },
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.16,
+"ask": 0.17,
+"mid": 0.165
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.04,
+"ask": 0.05,
+"mid": 0.045
+}
+],
+"main": {
+"n": 5,
+"line": 4.5,
+"bid": 0.57,
+"ask": 0.58,
+"mid": 0.575
+}
+},
+{
+"player": "Christian Braun",
+"stat": "pts",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
 {
 "n": 10,
 "line": 9.5,
@@ -1179,6 +272,13 @@
 "bid": 0.1,
 "ask": 0.11,
 "mid": 0.10500000000000001
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.02,
+"ask": 0.03,
+"mid": 0.025
 }
 ],
 "main": {
@@ -1187,323 +287,6 @@
 "bid": 0.3,
 "ask": 0.31,
 "mid": 0.305
-}
-},
-{
-"player": "Khris Middleton",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.52,
-"ask": 0.55,
-"mid": 0.535
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.14,
-"ask": 0.15,
-"mid": 0.14500000000000002
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.02,
-"ask": 0.03,
-"mid": 0.025
-}
-],
-"main": {
-"n": 5,
-"line": 4.5,
-"bid": 0.52,
-"ask": 0.55,
-"mid": 0.535
-}
-},
-{
-"player": "DeMar DeRozan",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.55,
-"ask": 0.56,
-"mid": 0.555
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.24,
-"ask": 0.25,
-"mid": 0.245
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.08,
-"ask": 0.09,
-"mid": 0.08499999999999999
-}
-],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.55,
-"ask": 0.56,
-"mid": 0.555
-}
-},
-{
-"player": "Cameron Johnson",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.7,
-"ask": 0.71,
-"mid": 0.705
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.38,
-"ask": 0.39,
-"mid": 0.385
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.13,
-"ask": 0.14,
-"mid": 0.135
-}
-],
-"main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.38,
-"ask": 0.39,
-"mid": 0.385
-}
-},
-{
-"player": "Cooper Flagg",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.88,
-"ask": 0.91,
-"mid": 0.895
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.71,
-"ask": 0.72,
-"mid": 0.715
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.5,
-"ask": 0.51,
-"mid": 0.505
-},
-{
-"n": 30,
-"line": 29.5,
-"bid": 0.26,
-"ask": 0.27,
-"mid": 0.265
-},
-{
-"n": 35,
-"line": 34.5,
-"bid": 0.12,
-"ask": 0.13,
-"mid": 0.125
-}
-],
-"main": {
-"n": 25,
-"line": 24.5,
-"bid": 0.5,
-"ask": 0.51,
-"mid": 0.505
-}
-},
-{
-"player": "Nikola Joki\u0107",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.78,
-"ask": 0.79,
-"mid": 0.785
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.54,
-"ask": 0.55,
-"mid": 0.545
-},
-{
-"n": 30,
-"line": 29.5,
-"bid": 0.29,
-"ask": 0.3,
-"mid": 0.295
-},
-{
-"n": 35,
-"line": 34.5,
-"bid": 0.13,
-"ask": 0.14,
-"mid": 0.135
-}
-],
-"main": {
-"n": 25,
-"line": 24.5,
-"bid": 0.54,
-"ask": 0.55,
-"mid": 0.545
-}
-},
-{
-"player": "Caleb Martin",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.61,
-"ask": 0.62,
-"mid": 0.615
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.19,
-"ask": 0.2,
-"mid": 0.195
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.04,
-"ask": 0.05,
-"mid": 0.045
-}
-],
-"main": {
-"n": 5,
-"line": 4.5,
-"bid": 0.61,
-"ask": 0.62,
-"mid": 0.615
-}
-},
-{
-"player": "Zaccharie Risacher",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.74,
-"ask": 0.75,
-"mid": 0.745
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.35,
-"ask": 0.36,
-"mid": 0.355
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.13,
-"ask": 0.14,
-"mid": 0.135
-}
-],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.35,
-"ask": 0.36,
-"mid": 0.355
-}
-},
-{
-"player": "Christian Braun",
-"stat": "pts",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.71,
-"ask": 0.72,
-"mid": 0.715
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.38,
-"ask": 0.39,
-"mid": 0.385
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.13,
-"ask": 0.14,
-"mid": 0.135
-}
-],
-"main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.38,
-"ask": 0.39,
-"mid": 0.385
 }
 },
 {
@@ -1516,31 +299,38 @@
 {
 "n": 10,
 "line": 9.5,
-"bid": 0.66,
-"ask": 0.67,
-"mid": 0.665
+"bid": null,
+"ask": null,
+"mid": null
 },
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.35,
-"ask": 0.36,
-"mid": 0.355
+"bid": 0.95,
+"ask": 0.96,
+"mid": 0.955
 },
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.13,
-"ask": 0.15,
-"mid": 0.14
+"bid": 0.55,
+"ask": 0.56,
+"mid": 0.555
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.16,
+"ask": 0.2,
+"mid": 0.18
 }
 ],
 "main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.35,
-"ask": 0.36,
-"mid": 0.355
+"n": 20,
+"line": 19.5,
+"bid": 0.55,
+"ask": 0.56,
+"mid": 0.555
 }
 },
 {
@@ -1553,38 +343,38 @@
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.84,
-"ask": 0.86,
-"mid": 0.85
+"bid": 0.76,
+"ask": 0.77,
+"mid": 0.765
 },
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.66,
-"ask": 0.67,
-"mid": 0.665
+"bid": 0.44,
+"ask": 0.45,
+"mid": 0.445
 },
 {
 "n": 25,
 "line": 24.5,
-"bid": 0.41,
-"ask": 0.42,
-"mid": 0.415
+"bid": 0.22,
+"ask": 0.23,
+"mid": 0.225
 },
 {
 "n": 30,
 "line": 29.5,
-"bid": 0.19,
-"ask": 0.2,
-"mid": 0.195
+"bid": 0.06,
+"ask": 0.07,
+"mid": 0.065
 }
 ],
 "main": {
-"n": 25,
-"line": 24.5,
-"bid": 0.41,
-"ask": 0.42,
-"mid": 0.415
+"n": 20,
+"line": 19.5,
+"bid": 0.44,
+"ask": 0.45,
+"mid": 0.445
 }
 },
 {
@@ -1597,31 +387,31 @@
 {
 "n": 10,
 "line": 9.5,
-"bid": 0.76,
-"ask": 0.77,
-"mid": 0.765
+"bid": 0.42,
+"ask": 0.43,
+"mid": 0.425
 },
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.43,
-"ask": 0.44,
-"mid": 0.435
+"bid": 0.18,
+"ask": 0.19,
+"mid": 0.185
 },
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.17,
-"ask": 0.18,
-"mid": 0.175
+"bid": 0.06,
+"ask": 0.08,
+"mid": 0.07
 }
 ],
 "main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.43,
-"ask": 0.44,
-"mid": 0.435
+"n": 10,
+"line": 9.5,
+"bid": 0.42,
+"ask": 0.43,
+"mid": 0.425
 }
 },
 {
@@ -1634,38 +424,38 @@
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.83,
-"ask": 0.84,
-"mid": 0.835
-},
-{
-"n": 20,
-"line": 19.5,
 "bid": 0.63,
 "ask": 0.64,
 "mid": 0.635
 },
 {
+"n": 20,
+"line": 19.5,
+"bid": 0.24,
+"ask": 0.26,
+"mid": 0.25
+},
+{
 "n": 25,
 "line": 24.5,
-"bid": 0.39,
-"ask": 0.4,
-"mid": 0.395
+"bid": 0.11,
+"ask": 0.12,
+"mid": 0.11499999999999999
 },
 {
 "n": 30,
 "line": 29.5,
-"bid": 0.19,
-"ask": 0.2,
-"mid": 0.195
+"bid": 0.02,
+"ask": 0.03,
+"mid": 0.025
 }
 ],
 "main": {
-"n": 25,
-"line": 24.5,
-"bid": 0.39,
-"ask": 0.4,
-"mid": 0.395
+"n": 15,
+"line": 14.5,
+"bid": 0.63,
+"ask": 0.64,
+"mid": 0.635
 }
 },
 {
@@ -1676,33 +466,40 @@
 "away": "DAL",
 "rungs": [
 {
+"n": 5,
+"line": 4.5,
+"bid": 0.99,
+"ask": null,
+"mid": null
+},
+{
 "n": 10,
 "line": 9.5,
-"bid": 0.51,
-"ask": 0.53,
-"mid": 0.52
+"bid": 0.5,
+"ask": 0.52,
+"mid": 0.51
 },
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.22,
-"ask": 0.23,
-"mid": 0.225
+"bid": 0.11,
+"ask": 0.14,
+"mid": 0.125
 },
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.07,
-"ask": 0.08,
-"mid": 0.07500000000000001
+"bid": 0.03,
+"ask": 0.04,
+"mid": 0.035
 }
 ],
 "main": {
 "n": 10,
 "line": 9.5,
-"bid": 0.51,
-"ask": 0.53,
-"mid": 0.52
+"bid": 0.5,
+"ask": 0.52,
+"mid": 0.51
 }
 },
 {
@@ -1715,712 +512,1113 @@
 {
 "n": 5,
 "line": 4.5,
-"bid": 0.83,
+"bid": 0.81,
 "ask": 0.84,
-"mid": 0.835
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.47,
-"ask": 0.49,
-"mid": 0.48
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.17,
-"ask": 0.19,
-"mid": 0.18
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.04,
-"ask": 0.06,
-"mid": 0.05
-}
-],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.47,
-"ask": 0.49,
-"mid": 0.48
-}
-},
-{
-"player": "Franz Wagner",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.99,
-"ask": null,
-"mid": null
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.66,
-"ask": 0.68,
-"mid": 0.67
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.32,
-"ask": 0.46,
-"mid": null
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.1,
-"ask": 0.16,
-"mid": 0.13
-}
-],
-"main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.66,
-"ask": 0.68,
-"mid": 0.67
-}
-},
-{
-"player": "Cade Cunningham",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.49,
-"ask": 0.99,
-"mid": null
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.68,
-"ask": 0.8,
-"mid": null
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.07,
-"ask": 0.45,
-"mid": null
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.19,
-"ask": 0.68,
-"mid": null
-}
-],
-"main": null
-},
-{
-"player": "Kevin Huerter",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.99,
-"ask": null,
-"mid": null
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.7,
-"ask": 0.72,
-"mid": 0.71
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.48,
-"ask": 0.63,
-"mid": null
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.01,
-"ask": 0.09,
-"mid": 0.049999999999999996
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.7,
-"ask": 0.72,
-"mid": 0.71
-}
-},
-{
-"player": "John Collins",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.52,
-"ask": 0.99,
-"mid": null
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.57,
-"ask": 0.77,
-"mid": null
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.26,
-"ask": 0.4,
-"mid": null
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.08,
-"ask": 0.19,
-"mid": null
-}
-],
-"main": null
-},
-{
-"player": "Ausar Thompson",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.9,
-"ask": 0.91,
-"mid": 0.905
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.7,
-"ask": 0.71,
-"mid": 0.705
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.53,
-"ask": 0.55,
-"mid": 0.54
+"mid": 0.825
 },
 {
 "n": 10,
 "line": 9.5,
 "bid": 0.25,
-"ask": 0.33,
-"mid": 0.29000000000000004
+"ask": 0.26,
+"mid": 0.255
 },
 {
-"n": 12,
-"line": 11.5,
-"bid": 0.06,
-"ask": 0.16,
-"mid": 0.11
+"n": 15,
+"line": 14.5,
+"bid": 0.03,
+"ask": 0.05,
+"mid": 0.04
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.01,
+"ask": 0.02,
+"mid": 0.015
 }
 ],
 "main": {
-"n": 8,
-"line": 7.5,
-"bid": 0.53,
-"ask": 0.55,
-"mid": 0.54
+"n": 10,
+"line": 9.5,
+"bid": 0.25,
+"ask": 0.26,
+"mid": 0.255
 }
 },
 {
-"player": "Daniss Jenkins",
-"stat": "reb",
+"player": "Morez Johnson Jr.",
+"stat": "pts",
 "date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
-"n": 2,
-"line": 1.5,
-"bid": 0.8,
-"ask": 0.87,
-"mid": 0.835
+"n": 5,
+"line": 4.5,
+"bid": 0.75,
+"ask": 0.78,
+"mid": 0.765
 },
 {
-"n": 4,
-"line": 3.5,
-"bid": 0.58,
-"ask": 0.59,
-"mid": 0.585
+"n": 10,
+"line": 9.5,
+"bid": 0.19,
+"ask": 0.2,
+"mid": 0.195
 },
 {
-"n": 6,
-"line": 5.5,
+"n": 15,
+"line": 14.5,
+"bid": 0.02,
+"ask": 0.03,
+"mid": 0.025
+}
+],
+"main": {
+"n": 5,
+"line": 4.5,
+"bid": 0.75,
+"ask": 0.78,
+"mid": 0.765
+}
+},
+{
+"player": "Davion Mitchell",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.78,
+"ask": 0.83,
+"mid": 0.8049999999999999
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.51,
+"ask": 0.54,
+"mid": 0.525
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.21,
+"ask": 0.25,
+"mid": 0.22999999999999998
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.04,
+"ask": 0.1,
+"mid": 0.07
+}
+],
+"main": {
+"n": 15,
+"line": 14.5,
+"bid": 0.51,
+"ask": 0.54,
+"mid": 0.525
+}
+},
+{
+"player": "VJ Edgecombe",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.74,
+"ask": 0.79,
+"mid": 0.765
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.44,
+"ask": 0.48,
+"mid": 0.45999999999999996
+},
+{
+"n": 20,
+"line": 19.5,
 "bid": 0.18,
 "ask": 0.22,
 "mid": 0.2
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.08,
-"ask": 0.09,
-"mid": 0.08499999999999999
 }
 ],
 "main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.58,
-"ask": 0.59,
-"mid": 0.585
+"n": 15,
+"line": 14.5,
+"bid": 0.44,
+"ask": 0.48,
+"mid": 0.45999999999999996
 }
 },
 {
-"player": "Anthony Black",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"player": "Klay Thompson",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
 "rungs": [
 {
-"n": 2,
-"line": 1.5,
-"bid": 0.55,
-"ask": 0.97,
-"mid": null
+"n": 10,
+"line": 9.5,
+"bid": 0.66,
+"ask": 0.72,
+"mid": 0.69
 },
 {
-"n": 4,
-"line": 3.5,
+"n": 15,
+"line": 14.5,
 "bid": 0.38,
-"ask": 0.62,
+"ask": 0.43,
+"mid": 0.405
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.15,
+"ask": 0.22,
+"mid": 0.185
+}
+],
+"main": {
+"n": 15,
+"line": 14.5,
+"bid": 0.38,
+"ask": 0.43,
+"mid": 0.405
+}
+},
+{
+"player": "Jaylen Brown",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.83,
+"ask": 0.88,
+"mid": 0.855
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.62,
+"ask": 0.67,
+"mid": 0.645
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.35,
+"ask": 0.41,
+"mid": 0.38
+},
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.17,
+"ask": 0.21,
+"mid": 0.19
+}
+],
+"main": {
+"n": 25,
+"line": 24.5,
+"bid": 0.35,
+"ask": 0.41,
+"mid": 0.38
+}
+},
+{
+"player": "LeBron James",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.9,
+"ask": 0.95,
+"mid": 0.925
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.7,
+"ask": 0.74,
+"mid": 0.72
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.39,
+"ask": 0.46,
+"mid": 0.42500000000000004
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.2,
+"ask": 0.23,
+"mid": 0.21500000000000002
+}
+],
+"main": {
+"n": 20,
+"line": 19.5,
+"bid": 0.39,
+"ask": 0.46,
+"mid": 0.42500000000000004
+}
+},
+{
+"player": "Giannis Antetokounmpo",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.58,
+"ask": 0.89,
 "mid": null
 },
 {
-"n": 6,
-"line": 5.5,
-"bid": 0.13,
-"ask": 0.32,
-"mid": null
+"n": 25,
+"line": 24.5,
+"bid": 0.64,
+"ask": 0.72,
+"mid": 0.6799999999999999
 },
 {
-"n": 8,
-"line": 7.5,
-"bid": 0.04,
+"n": 30,
+"line": 29.5,
+"bid": 0.45,
+"ask": 0.5,
+"mid": 0.475
+},
+{
+"n": 35,
+"line": 34.5,
+"bid": 0.26,
 "ask": 0.3,
+"mid": 0.28
+},
+{
+"n": 40,
+"line": 39.5,
+"bid": 0.03,
+"ask": 0.16,
 "mid": null
+}
+],
+"main": {
+"n": 30,
+"line": 29.5,
+"bid": 0.45,
+"ask": 0.5,
+"mid": 0.475
+}
+},
+{
+"player": "Pelle Larsson",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.64,
+"ask": 0.67,
+"mid": 0.655
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.31,
+"ask": 0.35,
+"mid": 0.32999999999999996
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.11,
+"ask": 0.14,
+"mid": 0.125
+}
+],
+"main": {
+"n": 10,
+"line": 9.5,
+"bid": 0.64,
+"ask": 0.67,
+"mid": 0.655
+}
+},
+{
+"player": "Tyrese Maxey",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.75,
+"ask": 0.81,
+"mid": 0.78
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.46,
+"ask": 0.58,
+"mid": null
+},
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.31,
+"ask": 0.35,
+"mid": 0.32999999999999996
+},
+{
+"n": 35,
+"line": 34.5,
+"bid": 0.12,
+"ask": 0.17,
+"mid": 0.14500000000000002
+}
+],
+"main": {
+"n": 30,
+"line": 29.5,
+"bid": 0.31,
+"ask": 0.35,
+"mid": 0.32999999999999996
+}
+},
+{
+"player": "Bam Adebayo",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.89,
+"ask": 0.93,
+"mid": 0.91
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.7,
+"ask": 0.73,
+"mid": 0.715
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.36,
+"ask": 0.45,
+"mid": 0.405
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.18,
+"ask": 0.22,
+"mid": 0.2
+}
+],
+"main": {
+"n": 20,
+"line": 19.5,
+"bid": 0.36,
+"ask": 0.45,
+"mid": 0.405
+}
+},
+{
+"player": "Kenrich Williams",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.42,
+"ask": 0.84,
+"mid": null
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.29,
+"ask": 0.45,
+"mid": null
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.11,
+"ask": 0.17,
+"mid": 0.14
 }
 ],
 "main": null
 },
 {
-"player": "Wendell Carter Jr.",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"player": "LaMelo Ball",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
 "rungs": [
 {
-"n": 4,
-"line": 3.5,
+"n": 10,
+"line": 9.5,
+"bid": 0.7,
+"ask": 0.91,
+"mid": null
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.6,
+"ask": 0.72,
+"mid": null
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.34,
+"ask": 0.46,
+"mid": null
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.16,
+"ask": 0.22,
+"mid": 0.19
+}
+],
+"main": null
+},
+{
+"player": "Ajay Mitchell",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.64,
+"ask": 0.92,
+"mid": null
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.58,
+"ask": 0.71,
+"mid": null
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.3,
+"ask": 0.41,
+"mid": null
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.14,
+"ask": 0.19,
+"mid": 0.165
+}
+],
+"main": null
+},
+{
+"player": "Jaden McDaniels",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.62,
+"ask": 0.92,
+"mid": null
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.55,
+"ask": 0.71,
+"mid": null
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.3,
+"ask": 0.4,
+"mid": null
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.12,
+"ask": 0.19,
+"mid": 0.155
+}
+],
+"main": null
+},
+{
+"player": "Isaiah Hartenstein",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.56,
+"ask": 0.86,
+"mid": null
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.45,
+"ask": 0.48,
+"mid": 0.46499999999999997
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.12,
+"ask": 0.17,
+"mid": 0.14500000000000002
+}
+],
+"main": {
+"n": 10,
+"line": 9.5,
+"bid": 0.45,
+"ask": 0.48,
+"mid": 0.46499999999999997
+}
+},
+{
+"player": "Ayo Dosunmu",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.63,
+"ask": 0.92,
+"mid": null
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.59,
+"ask": 0.71,
+"mid": null
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.32,
+"ask": 0.42,
+"mid": 0.37
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.14,
+"ask": 0.19,
+"mid": 0.165
+}
+],
+"main": {
+"n": 20,
+"line": 19.5,
+"bid": 0.32,
+"ask": 0.42,
+"mid": 0.37
+}
+},
+{
+"player": "Trey Lyles",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.5,
+"ask": 0.64,
+"mid": null
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.12,
+"ask": 0.23,
+"mid": null
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.03,
+"ask": 0.08,
+"mid": 0.055
+}
+],
+"main": null
+},
+{
+"player": "Jonathan Kuminga",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.68,
+"ask": 0.81,
+"mid": null
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.46,
+"ask": 0.48,
+"mid": 0.47
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.16,
+"ask": 0.21,
+"mid": 0.185
+}
+],
+"main": {
+"n": 15,
+"line": 14.5,
+"bid": 0.46,
+"ask": 0.48,
+"mid": 0.47
+}
+},
+{
+"player": "Shai Gilgeous-Alexander",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.67,
+"ask": 0.83,
+"mid": null
+},
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.47,
+"ask": 0.63,
+"mid": null
+},
+{
+"n": 35,
+"line": 34.5,
+"bid": 0.27,
+"ask": 0.41,
+"mid": null
+},
+{
+"n": 40,
+"line": 39.5,
+"bid": 0.12,
+"ask": 0.22,
+"mid": 0.16999999999999998
+}
+],
+"main": null
+},
+{
+"player": "Jared McCain",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.74,
+"ask": 0.85,
+"mid": null
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.5,
+"ask": 0.57,
+"mid": 0.5349999999999999
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.23,
+"ask": 0.3,
+"mid": 0.265
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.08,
+"ask": 0.13,
+"mid": 0.10500000000000001
+}
+],
+"main": {
+"n": 15,
+"line": 14.5,
+"bid": 0.5,
+"ask": 0.57,
+"mid": 0.5349999999999999
+}
+},
+{
+"player": "Terrence Shannon Jr.",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.57,
+"ask": 0.7,
+"mid": null
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.27,
+"ask": 0.37,
+"mid": 0.32
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.12,
+"ask": 0.17,
+"mid": 0.14500000000000002
+}
+],
+"main": {
+"n": 15,
+"line": 14.5,
+"bid": 0.27,
+"ask": 0.37,
+"mid": 0.32
+}
+},
+{
+"player": "Rudy Gobert",
+"stat": "pts",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.43,
+"ask": 0.86,
+"mid": null
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.35,
+"ask": 0.47,
+"mid": null
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.12,
+"ask": 0.16,
+"mid": 0.14
+}
+],
+"main": null
+},
+{
+"player": "DeMar DeRozan",
+"stat": "reb",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
 "bid": 0.99,
 "ask": null,
 "mid": null
 },
 {
-"n": 6,
-"line": 5.5,
-"bid": 0.85,
+"n": 4,
+"line": 3.5,
+"bid": 0.93,
 "ask": null,
 "mid": null
 },
 {
-"n": 8,
-"line": 7.5,
-"bid": 0.56,
-"ask": 0.59,
-"mid": 0.575
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.2,
-"ask": 0.36,
-"mid": null
-},
-{
-"n": 12,
-"line": 11.5,
-"bid": 0.15,
-"ask": 0.19,
-"mid": 0.16999999999999998
-}
-],
-"main": {
-"n": 8,
-"line": 7.5,
-"bid": 0.56,
-"ask": 0.59,
-"mid": 0.575
-}
-},
-{
-"player": "Paul Reed",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.59,
-"ask": 0.9,
-"mid": null
-},
-{
 "n": 6,
 "line": 5.5,
-"bid": 0.57,
-"ask": 0.65,
-"mid": 0.61
+"bid": 0.34,
+"ask": 0.37,
+"mid": 0.355
 },
 {
 "n": 8,
 "line": 7.5,
-"bid": 0.15,
-"ask": 0.39,
-"mid": null
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.09,
-"ask": 0.24,
+"bid": null,
+"ask": 0.21,
 "mid": null
 }
 ],
 "main": {
 "n": 6,
 "line": 5.5,
-"bid": 0.57,
-"ask": 0.65,
-"mid": 0.61
+"bid": 0.34,
+"ask": 0.37,
+"mid": 0.355
 }
 },
 {
-"player": "Jalen Suggs",
+"player": "Cameron Johnson",
 "stat": "reb",
 "date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.57,
-"ask": 0.98,
+"bid": 0.99,
+"ask": null,
 "mid": null
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.5,
-"ask": 0.62,
-"mid": null
+"bid": 0.53,
+"ask": 0.56,
+"mid": 0.545
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.12,
-"ask": 0.26,
-"mid": null
+"bid": 0.08,
+"ask": 0.16,
+"mid": 0.12
 },
 {
 "n": 8,
 "line": 7.5,
 "bid": 0.02,
-"ask": 0.08,
-"mid": 0.05
-}
-],
-"main": null
-},
-{
-"player": "Tristan da Silva",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.83,
-"ask": 0.93,
-"mid": null
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.23,
-"ask": 0.51,
-"mid": null
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.04,
-"ask": 0.21,
-"mid": null
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.05,
-"ask": 0.22,
-"mid": null
-}
-],
-"main": null
-},
-{
-"player": "Desmond Bane",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.51,
-"ask": 0.95,
-"mid": null
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.39,
-"ask": 0.49,
-"mid": 0.44
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.04,
-"ask": 0.28,
-"mid": null
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.03,
-"ask": 0.04,
-"mid": 0.035
+"ask": 0.03,
+"mid": 0.025
 }
 ],
 "main": {
 "n": 4,
 "line": 3.5,
-"bid": 0.39,
-"ask": 0.49,
-"mid": 0.44
+"bid": 0.53,
+"ask": 0.56,
+"mid": 0.545
 }
 },
 {
-"player": "Nikola Vu\u010devi\u0107",
+"player": "Cooper Flagg",
 "stat": "reb",
 "date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
-"n": 2,
-"line": 1.5,
-"bid": 0.14,
+"n": 4,
+"line": 3.5,
+"bid": 0.97,
 "ask": 0.98,
-"mid": null
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.06,
-"ask": 0.59,
-"mid": null
+"mid": 0.975
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.03,
-"ask": 0.29,
-"mid": null
+"bid": 0.66,
+"ask": 0.68,
+"mid": 0.67
 },
 {
 "n": 8,
 "line": 7.5,
-"bid": 0.03,
-"ask": 0.1,
-"mid": 0.065
-}
-],
-"main": null
-},
-{
-"player": "Kyshawn George",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.87,
-"ask": 0.91,
-"mid": 0.89
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.61,
-"ask": 0.62,
-"mid": 0.615
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.28,
-"ask": 0.29,
-"mid": 0.28500000000000003
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.09,
-"ask": 0.1,
-"mid": 0.095
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.61,
-"ask": 0.62,
-"mid": 0.615
-}
-},
-{
-"player": "Neemias Queta",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.94,
-"ask": 0.95,
-"mid": 0.945
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.83,
-"ask": 0.84,
-"mid": 0.835
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.62,
-"ask": 0.63,
-"mid": 0.625
+"bid": 0.22,
+"ask": 0.26,
+"mid": 0.24
 },
 {
 "n": 10,
 "line": 9.5,
-"bid": 0.4,
-"ask": 0.41,
-"mid": 0.405
+"bid": 0.09,
+"ask": 0.11,
+"mid": 0.1
+}
+],
+"main": {
+"n": 6,
+"line": 5.5,
+"bid": 0.66,
+"ask": 0.68,
+"mid": 0.67
+}
+},
+{
+"player": "Nikola Joki\u0107",
+"stat": "reb",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.86,
+"ask": 0.88,
+"mid": 0.87
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.65,
+"ask": 0.66,
+"mid": 0.655
 },
 {
 "n": 12,
 "line": 11.5,
-"bid": 0.21,
-"ask": 0.22,
-"mid": 0.215
+"bid": 0.28,
+"ask": 0.35,
+"mid": 0.315
+},
+{
+"n": 14,
+"line": 13.5,
+"bid": 0.12,
+"ask": 0.18,
+"mid": 0.15
+},
+{
+"n": 16,
+"line": 15.5,
+"bid": 0.05,
+"ask": 0.07,
+"mid": 0.060000000000000005
 }
 ],
 "main": {
 "n": 10,
 "line": 9.5,
-"bid": 0.4,
-"ask": 0.41,
-"mid": 0.405
+"bid": 0.65,
+"ask": 0.66,
+"mid": 0.655
 }
 },
 {
-"player": "Bilal Coulibaly",
+"player": "Caleb Martin",
 "stat": "reb",
 "date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.8,
-"ask": 0.84,
-"mid": 0.8200000000000001
+"bid": 0.96,
+"ask": null,
+"mid": null
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.45,
-"ask": 0.47,
-"mid": 0.45999999999999996
+"bid": 0.54,
+"ask": 0.55,
+"mid": 0.545
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.16,
-"ask": 0.18,
-"mid": 0.16999999999999998
+"bid": 0.12,
+"ask": 0.15,
+"mid": 0.135
 },
 {
 "n": 8,
@@ -2433,676 +1631,9 @@
 "main": {
 "n": 4,
 "line": 3.5,
-"bid": 0.45,
-"ask": 0.47,
-"mid": 0.45999999999999996
-}
-},
-{
-"player": "Trae Young",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.69,
-"ask": 0.7,
-"mid": 0.695
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.25,
-"ask": 0.26,
-"mid": 0.255
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.05,
-"ask": 0.07,
-"mid": 0.060000000000000005
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.69,
-"ask": 0.7,
-"mid": 0.695
-}
-},
-{
-"player": "Anthony Davis",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.88,
-"ask": 0.9,
-"mid": 0.89
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.75,
-"ask": 0.76,
-"mid": 0.755
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.53,
-"ask": 0.54,
-"mid": 0.535
-},
-{
-"n": 12,
-"line": 11.5,
-"bid": 0.32,
-"ask": 0.33,
-"mid": 0.325
-},
-{
-"n": 14,
-"line": 13.5,
-"bid": 0.16,
-"ask": 0.17,
-"mid": 0.165
-}
-],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.53,
-"ask": 0.54,
-"mid": 0.535
-}
-},
-{
-"player": "Jayson Tatum",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.93,
-"ask": 0.94,
-"mid": 0.935
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.75,
-"ask": 0.76,
-"mid": 0.755
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.51,
-"ask": 0.52,
-"mid": 0.515
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.28,
-"ask": 0.29,
-"mid": 0.28500000000000003
-},
-{
-"n": 12,
-"line": 11.5,
-"bid": 0.13,
-"ask": 0.14,
-"mid": 0.135
-}
-],
-"main": {
-"n": 8,
-"line": 7.5,
-"bid": 0.51,
-"ask": 0.52,
-"mid": 0.515
-}
-},
-{
-"player": "Alex Sarr",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.89,
-"ask": 0.97,
-"mid": 0.9299999999999999
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.79,
-"ask": 0.81,
-"mid": 0.8
-},
-{
-"n": 6,
-"line": 5.5,
 "bid": 0.54,
 "ask": 0.55,
 "mid": 0.545
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.28,
-"ask": 0.31,
-"mid": 0.29500000000000004
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.1,
-"ask": 0.14,
-"mid": 0.12000000000000001
-}
-],
-"main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.54,
-"ask": 0.55,
-"mid": 0.545
-}
-},
-{
-"player": "Hugo Gonz\u00e1lez",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.76,
-"ask": 0.81,
-"mid": 0.785
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.45,
-"ask": 0.47,
-"mid": 0.45999999999999996
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.19,
-"ask": 0.21,
-"mid": 0.2
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.05,
-"ask": 0.07,
-"mid": 0.060000000000000005
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.45,
-"ask": 0.47,
-"mid": 0.45999999999999996
-}
-},
-{
-"player": "AJ Dybantsa",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.82,
-"ask": 0.86,
-"mid": 0.84
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.59,
-"ask": 0.61,
-"mid": 0.6
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.31,
-"ask": 0.32,
-"mid": 0.315
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.14,
-"ask": 0.17,
-"mid": 0.15500000000000003
-}
-],
-"main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.59,
-"ask": 0.61,
-"mid": 0.6
-}
-},
-{
-"player": "Paul George",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.95,
-"ask": 0.96,
-"mid": 0.955
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.76,
-"ask": 0.77,
-"mid": 0.765
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.45,
-"ask": 0.46,
-"mid": 0.455
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.21,
-"ask": 0.22,
-"mid": 0.215
-}
-],
-"main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.45,
-"ask": 0.46,
-"mid": 0.455
-}
-},
-{
-"player": "Payton Pritchard",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.76,
-"ask": 0.78,
-"mid": 0.77
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.37,
-"ask": 0.38,
-"mid": 0.375
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.12,
-"ask": 0.13,
-"mid": 0.125
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.37,
-"ask": 0.38,
-"mid": 0.375
-}
-},
-{
-"player": "Derrick White",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.82,
-"ask": 0.83,
-"mid": 0.825
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.44,
-"ask": 0.45,
-"mid": 0.445
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.16,
-"ask": 0.17,
-"mid": 0.165
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.03,
-"ask": 0.04,
-"mid": 0.035
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.44,
-"ask": 0.45,
-"mid": 0.445
-}
-},
-{
-"player": "Sam Hauser",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.76,
-"ask": 0.78,
-"mid": 0.77
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.35,
-"ask": 0.36,
-"mid": 0.355
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.11,
-"ask": 0.13,
-"mid": 0.12
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.03,
-"ask": 0.04,
-"mid": 0.035
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.35,
-"ask": 0.36,
-"mid": 0.355
-}
-},
-{
-"player": "DeMar DeRozan",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.54,
-"ask": 0.55,
-"mid": 0.545
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.14,
-"ask": 0.17,
-"mid": 0.15500000000000003
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.02,
-"ask": 0.03,
-"mid": 0.025
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.54,
-"ask": 0.55,
-"mid": 0.545
-}
-},
-{
-"player": "Cameron Johnson",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.86,
-"ask": 0.87,
-"mid": 0.865
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.5,
-"ask": 0.51,
-"mid": 0.505
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.19,
-"ask": 0.2,
-"mid": 0.195
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.05,
-"ask": 0.07,
-"mid": 0.060000000000000005
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.5,
-"ask": 0.51,
-"mid": 0.505
-}
-},
-{
-"player": "Cooper Flagg",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.85,
-"ask": 0.88,
-"mid": 0.865
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.6,
-"ask": 0.61,
-"mid": 0.605
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.33,
-"ask": 0.35,
-"mid": 0.33999999999999997
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.15,
-"ask": 0.16,
-"mid": 0.155
-}
-],
-"main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.6,
-"ask": 0.61,
-"mid": 0.605
-}
-},
-{
-"player": "Nikola Joki\u0107",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.87,
-"ask": 0.88,
-"mid": 0.875
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.73,
-"ask": 0.74,
-"mid": 0.735
-},
-{
-"n": 12,
-"line": 11.5,
-"bid": 0.53,
-"ask": 0.54,
-"mid": 0.535
-},
-{
-"n": 14,
-"line": 13.5,
-"bid": 0.34,
-"ask": 0.36,
-"mid": 0.35
-},
-{
-"n": 16,
-"line": 15.5,
-"bid": 0.19,
-"ask": 0.2,
-"mid": 0.195
-}
-],
-"main": {
-"n": 12,
-"line": 11.5,
-"bid": 0.53,
-"ask": 0.54,
-"mid": 0.535
-}
-},
-{
-"player": "Caleb Martin",
-"stat": "reb",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.82,
-"ask": 0.83,
-"mid": 0.825
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.46,
-"ask": 0.47,
-"mid": 0.46499999999999997
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.17,
-"ask": 0.18,
-"mid": 0.175
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.05,
-"ask": 0.06,
-"mid": 0.055
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.46,
-"ask": 0.47,
-"mid": 0.46499999999999997
 }
 },
 {
@@ -3115,38 +1646,38 @@
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.84,
-"ask": 0.87,
-"mid": 0.855
+"bid": 0.99,
+"ask": null,
+"mid": null
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.52,
-"ask": 0.53,
-"mid": 0.525
+"bid": 0.83,
+"ask": 0.84,
+"mid": 0.835
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.23,
-"ask": 0.24,
-"mid": 0.235
+"bid": 0.33,
+"ask": 0.34,
+"mid": 0.335
 },
 {
 "n": 8,
 "line": 7.5,
-"bid": 0.07,
+"bid": 0.06,
 "ask": 0.08,
-"mid": 0.07500000000000001
+"mid": 0.07
 }
 ],
 "main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.52,
-"ask": 0.53,
-"mid": 0.525
+"n": 6,
+"line": 5.5,
+"bid": 0.33,
+"ask": 0.34,
+"mid": 0.335
 }
 },
 {
@@ -3159,38 +1690,38 @@
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.92,
-"ask": 0.94,
-"mid": 0.9299999999999999
+"bid": 0.94,
+"ask": 0.99,
+"mid": 0.965
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.67,
-"ask": 0.68,
-"mid": 0.675
+"bid": 0.63,
+"ask": 0.64,
+"mid": 0.635
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.35,
-"ask": 0.36,
-"mid": 0.355
+"bid": 0.19,
+"ask": 0.22,
+"mid": 0.20500000000000002
 },
 {
 "n": 8,
 "line": 7.5,
-"bid": 0.13,
-"ask": 0.14,
-"mid": 0.135
+"bid": 0.03,
+"ask": 0.06,
+"mid": 0.045
 }
 ],
 "main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.35,
-"ask": 0.36,
-"mid": 0.355
+"n": 4,
+"line": 3.5,
+"bid": 0.63,
+"ask": 0.64,
+"mid": 0.635
 }
 },
 {
@@ -3203,38 +1734,38 @@
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.95,
-"ask": 0.96,
-"mid": 0.955
+"bid": 0.99,
+"ask": null,
+"mid": null
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.76,
-"ask": 0.77,
-"mid": 0.765
+"bid": 0.87,
+"ask": 0.94,
+"mid": 0.905
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.46,
-"ask": 0.47,
-"mid": 0.46499999999999997
+"bid": 0.57,
+"ask": 0.61,
+"mid": 0.59
 },
 {
 "n": 8,
 "line": 7.5,
-"bid": 0.21,
-"ask": 0.22,
-"mid": 0.215
+"bid": 0.19,
+"ask": 0.25,
+"mid": 0.22
 }
 ],
 "main": {
 "n": 6,
 "line": 5.5,
-"bid": 0.46,
-"ask": 0.47,
-"mid": 0.46499999999999997
+"bid": 0.57,
+"ask": 0.61,
+"mid": 0.59
 }
 },
 {
@@ -3247,38 +1778,38 @@
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.92,
-"ask": 0.93,
-"mid": 0.925
+"bid": 0.99,
+"ask": null,
+"mid": null
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.65,
-"ask": 0.66,
-"mid": 0.655
+"bid": 0.69,
+"ask": 0.71,
+"mid": 0.7
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.32,
-"ask": 0.33,
-"mid": 0.325
+"bid": 0.22,
+"ask": 0.26,
+"mid": 0.24
 },
 {
 "n": 8,
 "line": 7.5,
-"bid": 0.12,
-"ask": 0.13,
-"mid": 0.125
+"bid": 0.04,
+"ask": 0.07,
+"mid": 0.05500000000000001
 }
 ],
 "main": {
 "n": 4,
 "line": 3.5,
-"bid": 0.65,
-"ask": 0.66,
-"mid": 0.655
+"bid": 0.69,
+"ask": 0.71,
+"mid": 0.7
 }
 },
 {
@@ -3291,38 +1822,38 @@
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.94,
-"ask": 0.95,
-"mid": 0.945
+"bid": 0.79,
+"ask": 0.96,
+"mid": null
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.75,
-"ask": 0.76,
-"mid": 0.755
+"bid": 0.49,
+"ask": 0.52,
+"mid": 0.505
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.45,
-"ask": 0.46,
-"mid": 0.455
+"bid": 0.19,
+"ask": 0.23,
+"mid": 0.21000000000000002
 },
 {
 "n": 8,
 "line": 7.5,
-"bid": 0.22,
-"ask": 0.23,
-"mid": 0.225
+"bid": 0.04,
+"ask": 0.07,
+"mid": 0.05500000000000001
 }
 ],
 "main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.45,
-"ask": 0.46,
-"mid": 0.455
+"n": 4,
+"line": 3.5,
+"bid": 0.49,
+"ask": 0.52,
+"mid": 0.505
 }
 },
 {
@@ -3335,38 +1866,38 @@
 {
 "n": 2,
 "line": 1.5,
+"bid": 0.99,
+"ask": null,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
 "bid": 0.87,
 "ask": 0.88,
 "mid": 0.875
 },
 {
-"n": 4,
-"line": 3.5,
-"bid": 0.52,
-"ask": 0.53,
-"mid": 0.525
-},
-{
 "n": 6,
 "line": 5.5,
-"bid": 0.2,
-"ask": 0.21,
-"mid": 0.20500000000000002
+"bid": 0.27,
+"ask": 0.29,
+"mid": 0.28
 },
 {
 "n": 8,
 "line": 7.5,
-"bid": 0.05,
-"ask": 0.06,
-"mid": 0.055
+"bid": 0.06,
+"ask": 0.08,
+"mid": 0.07
 }
 ],
 "main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.52,
-"ask": 0.53,
-"mid": 0.525
+"n": 6,
+"line": 5.5,
+"bid": 0.27,
+"ask": 0.29,
+"mid": 0.28
 }
 },
 {
@@ -3379,39 +1910,33 @@
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.77,
-"ask": 0.78,
-"mid": 0.775
+"bid": 0.33,
+"ask": 0.47,
+"mid": null
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.38,
-"ask": 0.39,
-"mid": 0.385
+"bid": 0.05,
+"ask": 0.12,
+"mid": 0.08499999999999999
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.13,
-"ask": 0.14,
-"mid": 0.135
+"bid": 0.01,
+"ask": 0.03,
+"mid": 0.02
 },
 {
 "n": 8,
 "line": 7.5,
-"bid": 0.03,
-"ask": 0.04,
-"mid": 0.035
+"bid": 0.01,
+"ask": 0.02,
+"mid": 0.015
 }
 ],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.38,
-"ask": 0.39,
-"mid": 0.385
-}
+"main": null
 },
 {
 "player": "Daniel Gafford",
@@ -3423,206 +1948,1021 @@
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.86,
-"ask": 0.88,
-"mid": 0.87
+"bid": 0.9,
+"ask": 0.91,
+"mid": 0.905
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.62,
-"ask": 0.63,
-"mid": 0.625
+"bid": 0.58,
+"ask": 0.6,
+"mid": 0.59
 },
 {
 "n": 8,
 "line": 7.5,
-"bid": 0.34,
-"ask": 0.37,
-"mid": 0.355
+"bid": 0.25,
+"ask": 0.26,
+"mid": 0.255
 },
 {
 "n": 10,
 "line": 9.5,
-"bid": 0.17,
-"ask": 0.19,
-"mid": 0.18
-},
-{
-"n": 12,
-"line": 11.5,
 "bid": 0.07,
 "ask": 0.08,
 "mid": 0.07500000000000001
-}
-],
-"main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.62,
-"ask": 0.63,
-"mid": 0.625
-}
-},
-{
-"player": "Franz Wagner",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.76,
-"ask": 0.92,
-"mid": null
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.5,
-"ask": 0.54,
-"mid": 0.52
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.11,
-"ask": 0.3,
-"mid": null
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.08,
-"ask": 0.13,
-"mid": 0.10500000000000001
-}
-],
-"main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.5,
-"ask": 0.54,
-"mid": 0.52
-}
-},
-{
-"player": "Cade Cunningham",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.85,
-"ask": 0.97,
-"mid": null
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.71,
-"ask": 0.84,
-"mid": null
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.51,
-"ask": 0.58,
-"mid": 0.5449999999999999
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.29,
-"ask": 0.33,
-"mid": 0.31
 },
 {
 "n": 12,
 "line": 11.5,
-"bid": 0.06,
-"ask": 0.15,
-"mid": 0.105
+"bid": 0.03,
+"ask": 0.04,
+"mid": 0.035
 }
 ],
 "main": {
-"n": 8,
-"line": 7.5,
-"bid": 0.51,
-"ask": 0.58,
-"mid": 0.5449999999999999
+"n": 6,
+"line": 5.5,
+"bid": 0.58,
+"ask": 0.6,
+"mid": 0.59
 }
 },
 {
-"player": "Kevin Huerter",
-"stat": "ast",
+"player": "Morez Johnson Jr.",
+"stat": "reb",
 "date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.99,
+"bid": null,
 "ask": null,
 "mid": null
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.81,
-"ask": 0.82,
-"mid": 0.815
+"bid": null,
+"ask": null,
+"mid": null
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.47,
-"ask": 0.5,
-"mid": 0.485
+"bid": 0.99,
+"ask": null,
+"mid": null
 },
 {
 "n": 8,
 "line": 7.5,
-"bid": 0.07,
-"ask": 0.31,
+"bid": 0.99,
+"ask": null,
+"mid": null
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.67,
+"ask": 0.7,
+"mid": 0.685
+},
+{
+"n": 12,
+"line": 11.5,
+"bid": 0.16,
+"ask": 0.29,
+"mid": null
+}
+],
+"main": {
+"n": 10,
+"line": 9.5,
+"bid": 0.67,
+"ask": 0.7,
+"mid": 0.685
+}
+},
+{
+"player": "Davion Mitchell",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.71,
+"ask": 0.86,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.44,
+"ask": 0.46,
+"mid": 0.45
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.14,
+"ask": 0.18,
+"mid": 0.16
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.02,
+"ask": 0.07,
+"mid": 0.045000000000000005
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.44,
+"ask": 0.46,
+"mid": 0.45
+}
+},
+{
+"player": "VJ Edgecombe",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.89,
+"ask": 0.98,
+"mid": 0.935
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.76,
+"ask": 0.83,
+"mid": 0.7949999999999999
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.52,
+"ask": 0.54,
+"mid": 0.53
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.25,
+"ask": 0.29,
+"mid": 0.27
+}
+],
+"main": {
+"n": 6,
+"line": 5.5,
+"bid": 0.52,
+"ask": 0.54,
+"mid": 0.53
+}
+},
+{
+"player": "Jaylen Brown",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.8,
+"ask": 0.87,
+"mid": 0.835
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.5,
+"ask": 0.58,
+"mid": 0.54
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.27,
+"ask": 0.33,
+"mid": 0.30000000000000004
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.11,
+"ask": 0.15,
+"mid": 0.13
+}
+],
+"main": {
+"n": 6,
+"line": 5.5,
+"bid": 0.5,
+"ask": 0.58,
+"mid": 0.54
+}
+},
+{
+"player": "LeBron James",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.83,
+"ask": 0.88,
+"mid": 0.855
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.6,
+"ask": 0.65,
+"mid": 0.625
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.35,
+"ask": 0.38,
+"mid": 0.365
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.16,
+"ask": 0.19,
+"mid": 0.175
+}
+],
+"main": {
+"n": 6,
+"line": 5.5,
+"bid": 0.6,
+"ask": 0.65,
+"mid": 0.625
+}
+},
+{
+"player": "Giannis Antetokounmpo",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.63,
+"ask": 0.91,
+"mid": null
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.71,
+"ask": 0.78,
+"mid": 0.745
+},
+{
+"n": 12,
+"line": 11.5,
+"bid": 0.47,
+"ask": 0.56,
+"mid": 0.515
+},
+{
+"n": 14,
+"line": 13.5,
+"bid": 0.3,
+"ask": 0.38,
+"mid": 0.33999999999999997
+},
+{
+"n": 16,
+"line": 15.5,
+"bid": 0.13,
+"ask": 0.22,
+"mid": 0.175
+}
+],
+"main": {
+"n": 12,
+"line": 11.5,
+"bid": 0.47,
+"ask": 0.56,
+"mid": 0.515
+}
+},
+{
+"player": "Pelle Larsson",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.79,
+"ask": 0.88,
+"mid": 0.835
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.49,
+"ask": 0.51,
+"mid": 0.5
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.21,
+"ask": 0.25,
+"mid": 0.22999999999999998
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.03,
+"ask": 0.1,
+"mid": 0.065
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.49,
+"ask": 0.51,
+"mid": 0.5
+}
+},
+{
+"player": "Tyrese Maxey",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.83,
+"ask": 0.89,
+"mid": 0.86
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.48,
+"ask": 0.52,
+"mid": 0.5
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.18,
+"ask": 0.21,
+"mid": 0.195
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.02,
+"ask": 0.08,
+"mid": 0.05
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.48,
+"ask": 0.52,
+"mid": 0.5
+}
+},
+{
+"player": "Bam Adebayo",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.9,
+"ask": 0.98,
+"mid": 0.94
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.79,
+"ask": 0.87,
+"mid": 0.8300000000000001
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.57,
+"ask": 0.67,
+"mid": null
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.39,
+"ask": 0.45,
+"mid": 0.42000000000000004
+},
+{
+"n": 12,
+"line": 11.5,
+"bid": 0.19,
+"ask": 0.25,
+"mid": 0.22
+}
+],
+"main": {
+"n": 10,
+"line": 9.5,
+"bid": 0.39,
+"ask": 0.45,
+"mid": 0.42000000000000004
+}
+},
+{
+"player": "Kenrich Williams",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.61,
+"ask": 0.97,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.57,
+"ask": 0.78,
+"mid": null
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.43,
+"ask": 0.46,
+"mid": 0.445
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.11,
+"ask": 0.22,
 "mid": null
 }
 ],
 "main": {
 "n": 6,
 "line": 5.5,
-"bid": 0.47,
-"ask": 0.5,
-"mid": 0.485
+"bid": 0.43,
+"ask": 0.46,
+"mid": 0.445
 }
 },
 {
-"player": "John Collins",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"player": "LaMelo Ball",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
 "rungs": [
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.17,
-"ask": 0.35,
+"bid": 0.68,
+"ask": 0.96,
 "mid": null
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.01,
+"bid": 0.62,
+"ask": 0.74,
+"mid": null
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.3,
+"ask": 0.4,
+"mid": null
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.12,
+"ask": 0.18,
+"mid": 0.15
+}
+],
+"main": null
+},
+{
+"player": "Ajay Mitchell",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.64,
+"ask": 0.91,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.56,
+"ask": 0.59,
+"mid": 0.575
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.2,
+"ask": 0.27,
+"mid": 0.23500000000000001
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.04,
 "ask": 0.09,
-"mid": 0.049999999999999996
+"mid": 0.065
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.56,
+"ask": 0.59,
+"mid": 0.575
+}
+},
+{
+"player": "Jaden McDaniels",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.77,
+"ask": 0.98,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.68,
+"ask": 0.79,
+"mid": null
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.46,
+"ask": 0.49,
+"mid": 0.475
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.18,
+"ask": 0.23,
+"mid": 0.20500000000000002
+}
+],
+"main": {
+"n": 6,
+"line": 5.5,
+"bid": 0.46,
+"ask": 0.49,
+"mid": 0.475
+}
+},
+{
+"player": "Isaiah Hartenstein",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.71,
+"ask": 0.86,
+"mid": null
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.53,
+"ask": 0.7,
+"mid": null
+},
+{
+"n": 12,
+"line": 11.5,
+"bid": 0.45,
+"ask": 0.47,
+"mid": 0.45999999999999996
+},
+{
+"n": 14,
+"line": 13.5,
+"bid": 0.2,
+"ask": 0.3,
+"mid": 0.25
+},
+{
+"n": 16,
+"line": 15.5,
+"bid": 0.09,
+"ask": 0.17,
+"mid": 0.13
+}
+],
+"main": {
+"n": 12,
+"line": 11.5,
+"bid": 0.45,
+"ask": 0.47,
+"mid": 0.45999999999999996
+}
+},
+{
+"player": "Ayo Dosunmu",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.62,
+"ask": 0.93,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.57,
+"ask": 0.65,
+"mid": 0.61
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.21,
+"ask": 0.31,
+"mid": 0.26
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.06,
+"ask": 0.11,
+"mid": 0.08499999999999999
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.57,
+"ask": 0.65,
+"mid": 0.61
+}
+},
+{
+"player": "Trey Lyles",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.55,
+"ask": 0.89,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.47,
+"ask": 0.48,
+"mid": 0.475
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.12,
+"ask": 0.21,
+"mid": 0.16499999999999998
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.02,
+"ask": 0.09,
+"mid": 0.055
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.47,
+"ask": 0.48,
+"mid": 0.475
+}
+},
+{
+"player": "Jonathan Kuminga",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.79,
+"ask": 0.98,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.69,
+"ask": 0.83,
+"mid": null
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.5,
+"ask": 0.53,
+"mid": 0.515
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.16,
+"ask": 0.27,
+"mid": null
+}
+],
+"main": {
+"n": 6,
+"line": 5.5,
+"bid": 0.5,
+"ask": 0.53,
+"mid": 0.515
+}
+},
+{
+"player": "Shai Gilgeous-Alexander",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.86,
+"ask": 0.95,
+"mid": 0.905
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.56,
+"ask": 0.68,
+"mid": null
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.25,
+"ask": 0.34,
+"mid": 0.29500000000000004
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.08,
+"ask": 0.12,
+"mid": 0.1
+}
+],
+"main": {
+"n": 6,
+"line": 5.5,
+"bid": 0.25,
+"ask": 0.34,
+"mid": 0.29500000000000004
+}
+},
+{
+"player": "Jared McCain",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.78,
+"ask": 0.88,
+"mid": 0.8300000000000001
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.46,
+"ask": 0.49,
+"mid": 0.475
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.14,
+"ask": 0.2,
+"mid": 0.17
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.02,
+"ask": 0.07,
+"mid": 0.045000000000000005
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.46,
+"ask": 0.49,
+"mid": 0.475
+}
+},
+{
+"player": "Terrence Shannon Jr.",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.77,
+"ask": 0.84,
+"mid": 0.8049999999999999
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.35,
+"ask": 0.41,
+"mid": 0.38
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.12,
+"ask": 0.16,
+"mid": 0.14
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.01,
+"ask": 0.06,
+"mid": 0.034999999999999996
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.35,
+"ask": 0.41,
+"mid": 0.38
+}
+},
+{
+"player": "Rudy Gobert",
+"stat": "reb",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.8,
+"ask": 0.94,
+"mid": null
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.71,
+"ask": 0.81,
+"mid": null
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.48,
+"ask": 0.64,
+"mid": null
+},
+{
+"n": 12,
+"line": 11.5,
+"bid": 0.29,
+"ask": 0.4,
+"mid": null
+},
+{
+"n": 14,
+"line": 13.5,
+"bid": 0.17,
+"ask": 0.24,
+"mid": 0.20500000000000002
+}
+],
+"main": null
+},
+{
+"player": "DeMar DeRozan",
+"stat": "ast",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.62,
+"ask": 0.9,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.1,
+"ask": 0.3,
+"mid": null
 },
 {
 "n": 6,
@@ -3635,11 +2975,225 @@
 "main": null
 },
 {
-"player": "Ausar Thompson",
+"player": "Cameron Johnson",
 "stat": "ast",
 "date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.86,
+"ask": null,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.25,
+"ask": 0.43,
+"mid": null
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.02,
+"ask": 0.04,
+"mid": 0.03
+}
+],
+"main": null
+},
+{
+"player": "Cooper Flagg",
+"stat": "ast",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 4,
+"line": 3.5,
+"bid": null,
+"ask": null,
+"mid": null
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.99,
+"ask": null,
+"mid": null
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.78,
+"ask": 0.79,
+"mid": 0.785
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.38,
+"ask": 0.4,
+"mid": 0.39
+},
+{
+"n": 12,
+"line": 11.5,
+"bid": 0.09,
+"ask": 0.14,
+"mid": 0.115
+},
+{
+"n": 14,
+"line": 13.5,
+"bid": 0.02,
+"ask": 0.04,
+"mid": 0.03
+}
+],
+"main": {
+"n": 10,
+"line": 9.5,
+"bid": 0.38,
+"ask": 0.4,
+"mid": 0.39
+}
+},
+{
+"player": "Nikola Joki\u0107",
+"stat": "ast",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.79,
+"ask": 0.81,
+"mid": 0.8
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.58,
+"ask": 0.59,
+"mid": 0.585
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.21,
+"ask": 0.26,
+"mid": 0.235
+},
+{
+"n": 12,
+"line": 11.5,
+"bid": 0.01,
+"ask": 0.09,
+"mid": 0.049999999999999996
+},
+{
+"n": 14,
+"line": 13.5,
+"bid": 0.01,
+"ask": 0.04,
+"mid": 0.025
+}
+],
+"main": {
+"n": 8,
+"line": 7.5,
+"bid": 0.58,
+"ask": 0.59,
+"mid": 0.585
+}
+},
+{
+"player": "Caleb Martin",
+"stat": "ast",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.94,
+"ask": null,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.3,
+"ask": 0.39,
+"mid": 0.345
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.04,
+"ask": 0.05,
+"mid": 0.045
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.3,
+"ask": 0.39,
+"mid": 0.345
+}
+},
+{
+"player": "Zaccharie Risacher",
+"stat": "ast",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.33,
+"ask": 0.41,
+"mid": 0.37
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.02,
+"ask": 0.11,
+"mid": 0.065
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": null,
+"ask": 0.09,
+"mid": null
+}
+],
+"main": {
+"n": 2,
+"line": 1.5,
+"bid": 0.33,
+"ask": 0.41,
+"mid": 0.37
+}
+},
+{
+"player": "Christian Braun",
+"stat": "ast",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
 "n": 2,
@@ -3651,224 +3205,134 @@
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.72,
-"ask": 0.92,
-"mid": null
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.69,
-"ask": 0.78,
-"mid": 0.735
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.42,
+"bid": 0.66,
 "ask": 0.67,
-"mid": null
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.04,
-"ask": 0.18,
-"mid": null
-}
-],
-"main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.69,
-"ask": 0.78,
-"mid": 0.735
-}
-},
-{
-"player": "Daniss Jenkins",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.89,
-"ask": 0.9,
-"mid": 0.895
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.75,
-"ask": 0.76,
-"mid": 0.755
+"mid": 0.665
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.52,
-"ask": 0.53,
-"mid": 0.525
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.19,
-"ask": 0.21,
-"mid": 0.2
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.03,
-"ask": 0.21,
-"mid": null
-}
-],
-"main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.52,
-"ask": 0.53,
-"mid": 0.525
-}
-},
-{
-"player": "Anthony Black",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.82,
-"ask": 0.89,
-"mid": 0.855
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.64,
-"ask": 0.68,
-"mid": 0.66
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.33,
-"ask": 0.49,
-"mid": null
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.08,
+"bid": 0.12,
 "ask": 0.13,
-"mid": 0.10500000000000001
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.64,
-"ask": 0.68,
-"mid": 0.66
-}
+"mid": 0.125
 },
 {
-"player": "Wendell Carter Jr.",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.13,
-"ask": 0.73,
-"mid": null
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.04,
-"ask": 0.07,
-"mid": 0.05500000000000001
-},
-{
-"n": 6,
-"line": 5.5,
+"n": 8,
+"line": 7.5,
 "bid": 0.01,
 "ask": 0.04,
 "mid": 0.025
 }
 ],
-"main": null
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.66,
+"ask": 0.67,
+"mid": 0.665
+}
 },
 {
-"player": "Jalen Suggs",
+"player": "P.J. Washington",
 "stat": "ast",
 "date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.73,
-"ask": null,
-"mid": null
+"bid": 0.24,
+"ask": 0.27,
+"mid": 0.255
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.35,
-"ask": 0.48,
-"mid": null
+"bid": 0.01,
+"ask": 0.03,
+"mid": 0.02
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.21,
-"ask": 0.45,
-"mid": null
+"bid": 0.01,
+"ask": 0.02,
+"mid": 0.015
+}
+],
+"main": {
+"n": 2,
+"line": 1.5,
+"bid": 0.24,
+"ask": 0.27,
+"mid": 0.255
+}
+},
+{
+"player": "Jamal Murray",
+"stat": "ast",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.57,
+"ask": 0.58,
+"mid": 0.575
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.23,
+"ask": 0.24,
+"mid": 0.235
 },
 {
 "n": 8,
 "line": 7.5,
-"bid": 0.01,
-"ask": 0.21,
-"mid": null
-}
-],
-"main": null
+"bid": 0.07,
+"ask": 0.08,
+"mid": 0.07500000000000001
 },
 {
-"player": "Tristan da Silva",
+"n": 10,
+"line": 9.5,
+"bid": 0.01,
+"ask": 0.03,
+"mid": 0.02
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.57,
+"ask": 0.58,
+"mid": 0.575
+}
+},
+{
+"player": "Aaron Gordon",
 "stat": "ast",
 "date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.25,
-"ask": 0.46,
-"mid": null
+"bid": 0.33,
+"ask": 0.34,
+"mid": 0.335
 },
 {
 "n": 4,
 "line": 3.5,
 "bid": 0.02,
-"ask": 0.49,
-"mid": null
+"ask": 0.06,
+"mid": 0.04
 },
 {
 "n": 6,
@@ -3878,308 +3342,71 @@
 "mid": 0.02
 }
 ],
-"main": null
+"main": {
+"n": 2,
+"line": 1.5,
+"bid": 0.33,
+"ask": 0.34,
+"mid": 0.335
+}
 },
 {
-"player": "Desmond Bane",
+"player": "Kyrie Irving",
 "stat": "ast",
 "date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.5,
-"ask": 0.59,
-"mid": 0.5449999999999999
+"bid": 0.59,
+"ask": 0.63,
+"mid": 0.61
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.18,
-"ask": 0.19,
-"mid": 0.185
+"bid": 0.25,
+"ask": 0.26,
+"mid": 0.255
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.04,
-"ask": 0.07,
-"mid": 0.05500000000000001
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.5,
-"ask": 0.59,
-"mid": 0.5449999999999999
-}
-},
-{
-"player": "Kyshawn George",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.88,
-"ask": 0.89,
-"mid": 0.885
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.57,
-"ask": 0.58,
-"mid": 0.575
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.24,
-"ask": 0.25,
-"mid": 0.245
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.06,
-"ask": 0.07,
-"mid": 0.065
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.57,
-"ask": 0.58,
-"mid": 0.575
-}
-},
-{
-"player": "Neemias Queta",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.57,
-"ask": 0.58,
-"mid": 0.575
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.16,
-"ask": 0.18,
-"mid": 0.16999999999999998
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.03,
-"ask": 0.05,
-"mid": 0.04
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.57,
-"ask": 0.58,
-"mid": 0.575
-}
-},
-{
-"player": "Bilal Coulibaly",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.35,
-"ask": 0.38,
-"mid": 0.365
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.06,
+"bid": 0.07,
 "ask": 0.08,
-"mid": 0.07
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": null,
-"ask": 0.04,
-"mid": null
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.35,
-"ask": 0.38,
-"mid": 0.365
-}
-},
-{
-"player": "Trae Young",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.92,
-"ask": 0.94,
-"mid": 0.9299999999999999
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.75,
-"ask": 0.76,
-"mid": 0.755
+"mid": 0.07500000000000001
 },
 {
 "n": 8,
 "line": 7.5,
-"bid": 0.47,
-"ask": 0.48,
-"mid": 0.475
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.26,
-"ask": 0.27,
-"mid": 0.265
-},
-{
-"n": 12,
-"line": 11.5,
-"bid": 0.11,
-"ask": 0.12,
-"mid": 0.11499999999999999
-}
-],
-"main": {
-"n": 8,
-"line": 7.5,
-"bid": 0.47,
-"ask": 0.48,
-"mid": 0.475
-}
-},
-{
-"player": "Anthony Davis",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.61,
-"ask": 0.62,
-"mid": 0.615
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.19,
-"ask": 0.2,
-"mid": 0.195
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.03,
-"ask": 0.05,
-"mid": 0.04
+"bid": 0.01,
+"ask": 0.03,
+"mid": 0.02
 }
 ],
 "main": {
 "n": 2,
 "line": 1.5,
-"bid": 0.61,
-"ask": 0.62,
-"mid": 0.615
+"bid": 0.59,
+"ask": 0.63,
+"mid": 0.61
 }
 },
 {
-"player": "Jayson Tatum",
+"player": "Naji Marshall",
 "stat": "ast",
 "date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.87,
-"ask": 0.88,
-"mid": 0.875
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.6,
-"ask": 0.61,
-"mid": 0.605
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.32,
-"ask": 0.33,
-"mid": 0.325
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.13,
-"ask": 0.15,
-"mid": 0.14
-}
-],
-"main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.6,
-"ask": 0.61,
-"mid": 0.605
-}
-},
-{
-"player": "Alex Sarr",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.43,
-"ask": 0.44,
-"mid": 0.435
+"bid": 0.4,
+"ask": 0.42,
+"mid": 0.41000000000000003
 },
 {
 "n": 4,
@@ -4191,665 +3418,17 @@
 {
 "n": 6,
 "line": 5.5,
-"bid": null,
-"ask": 0.04,
-"mid": null
+"bid": 0.01,
+"ask": 0.02,
+"mid": 0.015
 }
 ],
 "main": {
 "n": 2,
 "line": 1.5,
-"bid": 0.43,
-"ask": 0.44,
-"mid": 0.435
-}
-},
-{
-"player": "AJ Dybantsa",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.76,
-"ask": 0.77,
-"mid": 0.765
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.34,
-"ask": 0.35,
-"mid": 0.345
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.09,
-"ask": 0.1,
-"mid": 0.095
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.34,
-"ask": 0.35,
-"mid": 0.345
-}
-},
-{
-"player": "Paul George",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.86,
-"ask": 0.87,
-"mid": 0.865
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.49,
-"ask": 0.5,
-"mid": 0.495
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.17,
-"ask": 0.18,
-"mid": 0.175
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.04,
-"ask": 0.05,
-"mid": 0.045
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.49,
-"ask": 0.5,
-"mid": 0.495
-}
-},
-{
-"player": "Payton Pritchard",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.9,
-"ask": 0.91,
-"mid": 0.905
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.6,
-"ask": 0.62,
-"mid": 0.61
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.26,
-"ask": 0.28,
-"mid": 0.27
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.1,
-"ask": 0.11,
-"mid": 0.10500000000000001
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.6,
-"ask": 0.62,
-"mid": 0.61
-}
-},
-{
-"player": "Derrick White",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.93,
-"ask": 0.94,
-"mid": 0.935
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.67,
-"ask": 0.68,
-"mid": 0.675
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.32,
-"ask": 0.33,
-"mid": 0.325
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.12,
-"ask": 0.13,
-"mid": 0.125
-}
-],
-"main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.32,
-"ask": 0.33,
-"mid": 0.325
-}
-},
-{
-"player": "DeMar DeRozan",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.62,
-"ask": 0.64,
-"mid": 0.63
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.23,
-"ask": 0.25,
-"mid": 0.24
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.05,
-"ask": 0.07,
-"mid": 0.060000000000000005
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.62,
-"ask": 0.64,
-"mid": 0.63
-}
-},
-{
-"player": "Cameron Johnson",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.63,
-"ask": 0.66,
-"mid": 0.645
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.21,
-"ask": 0.23,
-"mid": 0.22
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.04,
-"ask": 0.07,
-"mid": 0.05500000000000001
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.63,
-"ask": 0.66,
-"mid": 0.645
-}
-},
-{
-"player": "Cooper Flagg",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.85,
-"ask": 0.86,
-"mid": 0.855
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.59,
-"ask": 0.6,
-"mid": 0.595
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.33,
-"ask": 0.34,
-"mid": 0.335
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.13,
-"ask": 0.15,
-"mid": 0.14
-}
-],
-"main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.59,
-"ask": 0.6,
-"mid": 0.595
-}
-},
-{
-"player": "Nikola Joki\u0107",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.89,
-"ask": 0.9,
-"mid": 0.895
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.74,
-"ask": 0.75,
-"mid": 0.745
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.51,
-"ask": 0.52,
-"mid": 0.515
-},
-{
-"n": 12,
-"line": 11.5,
-"bid": 0.29,
-"ask": 0.3,
-"mid": 0.295
-},
-{
-"n": 14,
-"line": 13.5,
-"bid": 0.13,
-"ask": 0.14,
-"mid": 0.135
-}
-],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.51,
-"ask": 0.52,
-"mid": 0.515
-}
-},
-{
-"player": "Caleb Martin",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.69,
-"ask": 0.71,
-"mid": 0.7
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.23,
-"ask": 0.25,
-"mid": 0.24
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.04,
-"ask": 0.06,
-"mid": 0.05
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.69,
-"ask": 0.71,
-"mid": 0.7
-}
-},
-{
-"player": "Zaccharie Risacher",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.26,
-"ask": 0.29,
-"mid": 0.275
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.02,
-"ask": 0.05,
-"mid": 0.035
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": null,
-"ask": 0.03,
-"mid": null
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.26,
-"ask": 0.29,
-"mid": 0.275
-}
-},
-{
-"player": "Christian Braun",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.68,
-"ask": 0.7,
-"mid": 0.69
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.26,
-"ask": 0.27,
-"mid": 0.265
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.05,
-"ask": 0.07,
-"mid": 0.060000000000000005
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.68,
-"ask": 0.7,
-"mid": 0.69
-}
-},
-{
-"player": "P.J. Washington",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.39,
-"ask": 0.4,
-"mid": 0.395
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.06,
-"ask": 0.08,
-"mid": 0.07
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": null,
-"ask": 0.03,
-"mid": null
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.39,
-"ask": 0.4,
-"mid": 0.395
-}
-},
-{
-"player": "Jamal Murray",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.86,
-"ask": 0.87,
-"mid": 0.865
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.6,
-"ask": 0.61,
-"mid": 0.605
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.33,
-"ask": 0.34,
-"mid": 0.335
-},
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.13,
-"ask": 0.15,
-"mid": 0.14
-}
-],
-"main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.6,
-"ask": 0.61,
-"mid": 0.605
-}
-},
-{
-"player": "Aaron Gordon",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.66,
-"ask": 0.67,
-"mid": 0.665
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.2,
-"ask": 0.21,
-"mid": 0.20500000000000002
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.03,
-"ask": 0.04,
-"mid": 0.035
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.66,
-"ask": 0.67,
-"mid": 0.665
-}
-},
-{
-"player": "Kyrie Irving",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.94,
-"ask": 0.95,
-"mid": 0.945
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.72,
-"ask": 0.73,
-"mid": 0.725
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.37,
-"ask": 0.38,
-"mid": 0.375
-},
-{
-"n": 8,
-"line": 7.5,
-"bid": 0.15,
-"ask": 0.16,
-"mid": 0.155
-}
-],
-"main": {
-"n": 6,
-"line": 5.5,
-"bid": 0.37,
-"ask": 0.38,
-"mid": 0.375
-}
-},
-{
-"player": "Naji Marshall",
-"stat": "ast",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.77,
-"ask": 0.78,
-"mid": 0.775
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.36,
-"ask": 0.37,
-"mid": 0.365
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.11,
-"ask": 0.12,
-"mid": 0.11499999999999999
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.36,
-"ask": 0.37,
-"mid": 0.365
+"bid": 0.4,
+"ask": 0.42,
+"mid": 0.41000000000000003
 }
 },
 {
@@ -4862,316 +3441,957 @@
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.54,
-"ask": 0.55,
-"mid": 0.545
+"bid": 0.99,
+"ask": null,
+"mid": null
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.12,
-"ask": 0.13,
-"mid": 0.125
+"bid": 0.54,
+"ask": 0.55,
+"mid": 0.545
 },
 {
 "n": 6,
 "line": 5.5,
-"bid": 0.02,
-"ask": 0.03,
-"mid": 0.025
+"bid": 0.07,
+"ask": 0.08,
+"mid": 0.07500000000000001
 }
 ],
 "main": {
-"n": 2,
-"line": 1.5,
+"n": 4,
+"line": 3.5,
 "bid": 0.54,
 "ask": 0.55,
 "mid": 0.545
 }
 },
 {
-"player": "Franz Wagner",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"player": "Davion Mitchell",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
 "rungs": [
 {
-"n": 1,
-"line": 0.5,
-"bid": 0.57,
-"ask": 0.65,
-"mid": 0.61
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.16,
-"ask": 0.49,
+"n": 4,
+"line": 3.5,
+"bid": 0.83,
+"ask": 0.97,
 "mid": null
 },
 {
-"n": 3,
-"line": 2.5,
-"bid": 0.09,
-"ask": 0.11,
-"mid": 0.1
+"n": 6,
+"line": 5.5,
+"bid": 0.78,
+"ask": 0.85,
+"mid": 0.815
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.57,
+"ask": 0.63,
+"mid": 0.6
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.34,
+"ask": 0.39,
+"mid": 0.365
+},
+{
+"n": 12,
+"line": 11.5,
+"bid": 0.16,
+"ask": 0.2,
+"mid": 0.18
+}
+],
+"main": {
+"n": 8,
+"line": 7.5,
+"bid": 0.57,
+"ask": 0.63,
+"mid": 0.6
+}
+},
+{
+"player": "VJ Edgecombe",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.79,
+"ask": 0.87,
+"mid": 0.8300000000000001
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.01,
-"ask": 0.06,
-"mid": 0.034999999999999996
+"bid": 0.46,
+"ask": 0.48,
+"mid": 0.47
 },
 {
-"n": 5,
-"line": 4.5,
-"bid": 0.01,
-"ask": 0.12,
+"n": 6,
+"line": 5.5,
+"bid": 0.15,
+"ask": 0.19,
+"mid": 0.16999999999999998
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.02,
+"ask": 0.06,
+"mid": 0.04
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.46,
+"ask": 0.48,
+"mid": 0.47
+}
+},
+{
+"player": "Jaylen Brown",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.84,
+"ask": 0.9,
+"mid": 0.87
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.48,
+"ask": 0.5,
+"mid": 0.49
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.16,
+"ask": 0.19,
+"mid": 0.175
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.03,
+"ask": 0.07,
+"mid": 0.05
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.48,
+"ask": 0.5,
+"mid": 0.49
+}
+},
+{
+"player": "LeBron James",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.84,
+"ask": 0.9,
+"mid": 0.87
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.61,
+"ask": 0.67,
+"mid": 0.64
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.33,
+"ask": 0.38,
+"mid": 0.355
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.14,
+"ask": 0.18,
+"mid": 0.16
+}
+],
+"main": {
+"n": 6,
+"line": 5.5,
+"bid": 0.61,
+"ask": 0.67,
+"mid": 0.64
+}
+},
+{
+"player": "Giannis Antetokounmpo",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.51,
+"ask": 0.98,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.51,
+"ask": 0.82,
+"mid": null
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.53,
+"ask": 0.57,
+"mid": 0.55
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.19,
+"ask": 0.3,
 "mid": null
 }
 ],
 "main": {
-"n": 1,
-"line": 0.5,
-"bid": 0.57,
-"ask": 0.65,
-"mid": 0.61
+"n": 6,
+"line": 5.5,
+"bid": 0.53,
+"ask": 0.57,
+"mid": 0.55
 }
 },
 {
-"player": "Cade Cunningham",
+"player": "Pelle Larsson",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.7,
+"ask": 0.86,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.43,
+"ask": 0.46,
+"mid": 0.445
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.14,
+"ask": 0.18,
+"mid": 0.16
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.03,
+"ask": 0.07,
+"mid": 0.05
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.43,
+"ask": 0.46,
+"mid": 0.445
+}
+},
+{
+"player": "Tyrese Maxey",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.87,
+"ask": 0.99,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.74,
+"ask": 0.82,
+"mid": 0.78
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.46,
+"ask": 0.48,
+"mid": 0.47
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.18,
+"ask": 0.22,
+"mid": 0.2
+}
+],
+"main": {
+"n": 6,
+"line": 5.5,
+"bid": 0.46,
+"ask": 0.48,
+"mid": 0.47
+}
+},
+{
+"player": "Bam Adebayo",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.81,
+"ask": 0.88,
+"mid": 0.845
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.45,
+"ask": 0.47,
+"mid": 0.45999999999999996
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.12,
+"ask": 0.17,
+"mid": 0.14500000000000002
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.03,
+"ask": 0.06,
+"mid": 0.045
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.45,
+"ask": 0.47,
+"mid": 0.45999999999999996
+}
+},
+{
+"player": "Kenrich Williams",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.51,
+"ask": 0.55,
+"mid": 0.53
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.09,
+"ask": 0.15,
+"mid": 0.12
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.01,
+"ask": 0.07,
+"mid": 0.04
+}
+],
+"main": {
+"n": 2,
+"line": 1.5,
+"bid": 0.51,
+"ask": 0.55,
+"mid": 0.53
+}
+},
+{
+"player": "LaMelo Ball",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.69,
+"ask": 0.86,
+"mid": null
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.54,
+"ask": 0.62,
+"mid": 0.5800000000000001
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.24,
+"ask": 0.34,
+"mid": null
+},
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.11,
+"ask": 0.15,
+"mid": 0.13
+}
+],
+"main": {
+"n": 6,
+"line": 5.5,
+"bid": 0.54,
+"ask": 0.62,
+"mid": 0.5800000000000001
+}
+},
+{
+"player": "Ajay Mitchell",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.82,
+"ask": 0.88,
+"mid": 0.85
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.47,
+"ask": 0.49,
+"mid": 0.48
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.12,
+"ask": 0.2,
+"mid": 0.16
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.04,
+"ask": 0.07,
+"mid": 0.05500000000000001
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.47,
+"ask": 0.49,
+"mid": 0.48
+}
+},
+{
+"player": "Jaden McDaniels",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.77,
+"ask": 0.83,
+"mid": 0.8
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.37,
+"ask": 0.41,
+"mid": 0.39
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.09,
+"ask": 0.13,
+"mid": 0.11
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.37,
+"ask": 0.41,
+"mid": 0.39
+}
+},
+{
+"player": "Isaiah Hartenstein",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.79,
+"ask": 0.89,
+"mid": 0.8400000000000001
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.47,
+"ask": 0.5,
+"mid": 0.485
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.16,
+"ask": 0.19,
+"mid": 0.175
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.03,
+"ask": 0.06,
+"mid": 0.045
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.47,
+"ask": 0.5,
+"mid": 0.485
+}
+},
+{
+"player": "Ayo Dosunmu",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.71,
+"ask": 0.91,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.55,
+"ask": 0.58,
+"mid": 0.565
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.21,
+"ask": 0.26,
+"mid": 0.235
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.05,
+"ask": 0.08,
+"mid": 0.065
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.55,
+"ask": 0.58,
+"mid": 0.565
+}
+},
+{
+"player": "Jonathan Kuminga",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.64,
+"ask": 0.76,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.25,
+"ask": 0.3,
+"mid": 0.275
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.05,
+"ask": 0.08,
+"mid": 0.065
+}
+],
+"main": {
+"n": 4,
+"line": 3.5,
+"bid": 0.25,
+"ask": 0.3,
+"mid": 0.275
+}
+},
+{
+"player": "Shai Gilgeous-Alexander",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.77,
+"ask": 0.98,
+"mid": null
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.69,
+"ask": 0.79,
+"mid": null
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.46,
+"ask": 0.47,
+"mid": 0.46499999999999997
+},
+{
+"n": 8,
+"line": 7.5,
+"bid": 0.13,
+"ask": 0.22,
+"mid": 0.175
+}
+],
+"main": {
+"n": 6,
+"line": 5.5,
+"bid": 0.46,
+"ask": 0.47,
+"mid": 0.46499999999999997
+}
+},
+{
+"player": "Jared McCain",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.53,
+"ask": 0.55,
+"mid": 0.54
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.1,
+"ask": 0.14,
+"mid": 0.12000000000000001
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.01,
+"ask": 0.02,
+"mid": 0.015
+}
+],
+"main": {
+"n": 2,
+"line": 1.5,
+"bid": 0.53,
+"ask": 0.55,
+"mid": 0.54
+}
+},
+{
+"player": "Terrence Shannon Jr.",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.61,
+"ask": 0.69,
+"mid": 0.6499999999999999
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.19,
+"ask": 0.24,
+"mid": 0.215
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.03,
+"ask": 0.07,
+"mid": 0.05
+}
+],
+"main": {
+"n": 2,
+"line": 1.5,
+"bid": 0.61,
+"ask": 0.69,
+"mid": 0.6499999999999999
+}
+},
+{
+"player": "Rudy Gobert",
+"stat": "ast",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.46,
+"ask": 0.5,
+"mid": 0.48
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.09,
+"ask": 0.12,
+"mid": 0.105
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.01,
+"ask": 0.06,
+"mid": 0.034999999999999996
+}
+],
+"main": {
+"n": 2,
+"line": 1.5,
+"bid": 0.46,
+"ask": 0.5,
+"mid": 0.48
+}
+},
+{
+"player": "DeMar DeRozan",
 "stat": "fg3m",
 "date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
 "n": 1,
 "line": 0.5,
-"bid": 0.41,
-"ask": 0.92,
-"mid": null
+"bid": 0.13,
+"ask": 0.17,
+"mid": 0.15000000000000002
 },
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.55,
-"ask": 0.69,
-"mid": null
+"bid": 0.05,
+"ask": 0.06,
+"mid": 0.055
 },
 {
 "n": 3,
 "line": 2.5,
-"bid": 0.07,
-"ask": 0.37,
+"bid": null,
+"ask": 0.02,
 "mid": null
 },
 {
 "n": 4,
 "line": 3.5,
 "bid": null,
-"ask": 0.2,
+"ask": 0.01,
 "mid": null
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.01,
-"ask": 0.1,
-"mid": 0.055
 }
 ],
 "main": null
 },
 {
-"player": "Kevin Huerter",
+"player": "Cameron Johnson",
 "stat": "fg3m",
 "date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
 "n": 1,
 "line": 0.5,
-"bid": 0.64,
-"ask": 0.95,
+"bid": 0.99,
+"ask": null,
 "mid": null
 },
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.42,
-"ask": 0.49,
-"mid": 0.45499999999999996
+"bid": 0.99,
+"ask": null,
+"mid": null
 },
 {
 "n": 3,
 "line": 2.5,
-"bid": 0.11,
-"ask": 0.17,
-"mid": 0.14
+"bid": 0.65,
+"ask": 0.66,
+"mid": 0.655
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.03,
-"ask": 0.06,
-"mid": 0.045
+"bid": 0.24,
+"ask": 0.3,
+"mid": 0.27
 },
 {
 "n": 5,
 "line": 4.5,
-"bid": 0.02,
-"ask": 0.05,
-"mid": 0.035
+"bid": 0.06,
+"ask": 0.12,
+"mid": 0.09
 }
 ],
 "main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.42,
-"ask": 0.49,
-"mid": 0.45499999999999996
+"n": 3,
+"line": 2.5,
+"bid": 0.65,
+"ask": 0.66,
+"mid": 0.655
 }
 },
 {
-"player": "John Collins",
+"player": "Cooper Flagg",
 "stat": "fg3m",
 "date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"home": "DEN",
+"away": "DAL",
 "rungs": [
 {
 "n": 1,
 "line": 0.5,
-"bid": 0.52,
-"ask": 0.6,
-"mid": 0.56
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.15,
-"ask": 0.47,
-"mid": null
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.01,
-"ask": 0.14,
-"mid": null
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.01,
-"ask": 0.04,
-"mid": 0.025
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.01,
-"ask": 0.04,
-"mid": 0.025
-}
-],
-"main": {
-"n": 1,
-"line": 0.5,
-"bid": 0.52,
-"ask": 0.6,
-"mid": 0.56
-}
-},
-{
-"player": "Daniss Jenkins",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.64,
-"ask": 0.89,
+"bid": 0.99,
+"ask": null,
 "mid": null
 },
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.43,
-"ask": 0.5,
-"mid": 0.46499999999999997
+"bid": 0.59,
+"ask": 0.61,
+"mid": 0.6
 },
 {
 "n": 3,
 "line": 2.5,
-"bid": 0.22,
+"bid": 0.25,
 "ask": 0.26,
-"mid": 0.24
+"mid": 0.255
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.03,
-"ask": 0.13,
-"mid": 0.08
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.02,
-"ask": 0.05,
-"mid": 0.035
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.43,
-"ask": 0.5,
-"mid": 0.46499999999999997
-}
-},
-{
-"player": "Anthony Black",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.53,
-"ask": 0.72,
-"mid": null
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.3,
-"ask": 0.31,
-"mid": 0.305
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.03,
-"ask": 0.23,
-"mid": null
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.03,
-"ask": 0.07,
-"mid": 0.05
+"bid": 0.09,
+"ask": 0.1,
+"mid": 0.095
 },
 {
 "n": 5,
@@ -5184,1039 +4404,9 @@
 "main": {
 "n": 2,
 "line": 1.5,
-"bid": 0.3,
-"ask": 0.31,
-"mid": 0.305
-}
-},
-{
-"player": "Wendell Carter Jr.",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.39,
-"ask": 0.47,
-"mid": 0.43
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.11,
-"ask": 0.16,
-"mid": 0.135
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.02,
-"ask": 0.07,
-"mid": 0.045000000000000005
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.02,
-"ask": 0.09,
-"mid": 0.055
-}
-],
-"main": {
-"n": 1,
-"line": 0.5,
-"bid": 0.39,
-"ask": 0.47,
-"mid": 0.43
-}
-},
-{
-"player": "Jalen Suggs",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.51,
-"ask": 0.88,
-"mid": null
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.45,
-"ask": 0.46,
-"mid": 0.455
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.16,
-"ask": 0.2,
-"mid": 0.18
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.02,
-"ask": 0.07,
-"mid": 0.045000000000000005
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.03,
-"ask": 0.04,
-"mid": 0.035
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.45,
-"ask": 0.46,
-"mid": 0.455
-}
-},
-{
-"player": "Isaiah Joe",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.75,
-"ask": 0.91,
-"mid": null
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.65,
-"ask": 0.66,
-"mid": 0.655
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.35,
-"ask": 0.41,
-"mid": 0.38
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.31,
-"ask": 0.34,
-"mid": 0.325
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.1,
-"ask": 0.12,
-"mid": 0.11
-}
-],
-"main": {
-"n": 3,
-"line": 2.5,
-"bid": 0.35,
-"ask": 0.41,
-"mid": 0.38
-}
-},
-{
-"player": "Tristan da Silva",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.99,
-"ask": null,
-"mid": null
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.99,
-"ask": null,
-"mid": null
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.83,
-"ask": 0.87,
-"mid": 0.85
-},
-{
-"n": 4,
-"line": 3.5,
 "bid": 0.59,
-"ask": 0.75,
-"mid": null
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.23,
-"ask": 0.37,
-"mid": null
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": null,
-"ask": 0.36,
-"mid": null
-}
-],
-"main": null
-},
-{
-"player": "Desmond Bane",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.78,
-"ask": 0.84,
-"mid": 0.81
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.6,
-"ask": 0.64,
-"mid": 0.62
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.39,
-"ask": 0.6,
-"mid": null
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.12,
-"ask": 0.26,
-"mid": null
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.06,
-"ask": 0.24,
-"mid": null
-}
-],
-"main": {
-"n": 3,
-"line": 2.5,
-"bid": 0.6,
-"ask": 0.64,
-"mid": 0.62
-}
-},
-{
-"player": "Kyshawn George",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.88,
-"ask": 0.9,
-"mid": 0.89
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.67,
-"ask": 0.68,
-"mid": 0.675
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.41,
-"ask": 0.43,
-"mid": 0.42
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.21,
-"ask": 0.23,
-"mid": 0.22
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.1,
-"ask": 0.12,
-"mid": 0.11
-}
-],
-"main": {
-"n": 3,
-"line": 2.5,
-"bid": 0.41,
-"ask": 0.43,
-"mid": 0.42
-}
-},
-{
-"player": "Bilal Coulibaly",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.53,
-"ask": 0.54,
-"mid": 0.535
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.21,
-"ask": 0.23,
-"mid": 0.22
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.04,
-"ask": 0.07,
-"mid": 0.05500000000000001
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": null,
-"ask": 0.04,
-"mid": null
-}
-],
-"main": {
-"n": 1,
-"line": 0.5,
-"bid": 0.53,
-"ask": 0.54,
-"mid": 0.535
-}
-},
-{
-"player": "Trae Young",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.86,
-"ask": 0.88,
-"mid": 0.87
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.6,
 "ask": 0.61,
-"mid": 0.605
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.37,
-"ask": 0.38,
-"mid": 0.375
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.18,
-"ask": 0.19,
-"mid": 0.185
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.08,
-"ask": 0.09,
-"mid": 0.08499999999999999
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.6,
-"ask": 0.61,
-"mid": 0.605
-}
-},
-{
-"player": "Anthony Davis",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.53,
-"ask": 0.54,
-"mid": 0.535
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.17,
-"ask": 0.18,
-"mid": 0.175
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.05,
-"ask": 0.06,
-"mid": 0.055
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": null,
-"ask": 0.03,
-"mid": null
-}
-],
-"main": {
-"n": 1,
-"line": 0.5,
-"bid": 0.53,
-"ask": 0.54,
-"mid": 0.535
-}
-},
-{
-"player": "Jayson Tatum",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.94,
-"ask": 0.95,
-"mid": 0.945
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.78,
-"ask": 0.79,
-"mid": 0.785
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.54,
-"ask": 0.57,
-"mid": 0.5549999999999999
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.34,
-"ask": 0.35,
-"mid": 0.345
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.18,
-"ask": 0.19,
-"mid": 0.185
-}
-],
-"main": {
-"n": 3,
-"line": 2.5,
-"bid": 0.54,
-"ask": 0.57,
-"mid": 0.5549999999999999
-}
-},
-{
-"player": "Alex Sarr",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.68,
-"ask": 0.69,
-"mid": 0.685
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.38,
-"ask": 0.39,
-"mid": 0.385
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.13,
-"ask": 0.16,
-"mid": 0.14500000000000002
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.05,
-"ask": 0.07,
-"mid": 0.060000000000000005
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": null,
-"ask": 0.04,
-"mid": null
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.38,
-"ask": 0.39,
-"mid": 0.385
-}
-},
-{
-"player": "Hugo Gonz\u00e1lez",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.53,
-"ask": 0.54,
-"mid": 0.535
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.2,
-"ask": 0.23,
-"mid": 0.21500000000000002
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.07,
-"ask": 0.1,
-"mid": 0.085
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.01,
-"ask": 0.04,
-"mid": 0.025
-}
-],
-"main": {
-"n": 1,
-"line": 0.5,
-"bid": 0.53,
-"ask": 0.54,
-"mid": 0.535
-}
-},
-{
-"player": "AJ Dybantsa",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.67,
-"ask": 0.72,
-"mid": 0.6950000000000001
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.35,
-"ask": 0.36,
-"mid": 0.355
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.13,
-"ask": 0.15,
-"mid": 0.14
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.03,
-"ask": 0.07,
-"mid": 0.05
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": null,
-"ask": 0.04,
-"mid": null
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.35,
-"ask": 0.36,
-"mid": 0.355
-}
-},
-{
-"player": "Paul George",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.92,
-"ask": 0.93,
-"mid": 0.925
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.76,
-"ask": 0.77,
-"mid": 0.765
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.55,
-"ask": 0.56,
-"mid": 0.555
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.32,
-"ask": 0.33,
-"mid": 0.325
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.17,
-"ask": 0.18,
-"mid": 0.175
-}
-],
-"main": {
-"n": 3,
-"line": 2.5,
-"bid": 0.55,
-"ask": 0.56,
-"mid": 0.555
-}
-},
-{
-"player": "Payton Pritchard",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.84,
-"ask": 0.86,
-"mid": 0.85
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.62,
-"ask": 0.63,
-"mid": 0.625
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.37,
-"ask": 0.38,
-"mid": 0.375
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.18,
-"ask": 0.19,
-"mid": 0.185
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.09,
-"ask": 0.1,
-"mid": 0.095
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.62,
-"ask": 0.63,
-"mid": 0.625
-}
-},
-{
-"player": "Derrick White",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.85,
-"ask": 0.86,
-"mid": 0.855
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.63,
-"ask": 0.64,
-"mid": 0.635
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.36,
-"ask": 0.37,
-"mid": 0.365
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.17,
-"ask": 0.18,
-"mid": 0.175
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.07,
-"ask": 0.09,
-"mid": 0.08
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.63,
-"ask": 0.64,
-"mid": 0.635
-}
-},
-{
-"player": "Sam Hauser",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.85,
-"ask": 0.86,
-"mid": 0.855
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.59,
-"ask": 0.6,
-"mid": 0.595
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.36,
-"ask": 0.37,
-"mid": 0.365
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.16,
-"ask": 0.18,
-"mid": 0.16999999999999998
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.07,
-"ask": 0.09,
-"mid": 0.08
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.59,
-"ask": 0.6,
-"mid": 0.595
-}
-},
-{
-"player": "Khris Middleton",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.54,
-"ask": 0.57,
-"mid": 0.5549999999999999
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.22,
-"ask": 0.25,
-"mid": 0.235
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.07,
-"ask": 0.09,
-"mid": 0.08
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.01,
-"ask": 0.02,
-"mid": 0.015
-}
-],
-"main": {
-"n": 1,
-"line": 0.5,
-"bid": 0.54,
-"ask": 0.57,
-"mid": 0.5549999999999999
-}
-},
-{
-"player": "DeMar DeRozan",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.31,
-"ask": 0.32,
-"mid": 0.315
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.08,
-"ask": 0.09,
-"mid": 0.08499999999999999
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": null,
-"ask": 0.04,
-"mid": null
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": null,
-"ask": 0.03,
-"mid": null
-}
-],
-"main": {
-"n": 1,
-"line": 0.5,
-"bid": 0.31,
-"ask": 0.32,
-"mid": 0.315
-}
-},
-{
-"player": "Cameron Johnson",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.86,
-"ask": 0.87,
-"mid": 0.865
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.62,
-"ask": 0.63,
-"mid": 0.625
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.35,
-"ask": 0.37,
-"mid": 0.36
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.17,
-"ask": 0.19,
-"mid": 0.18
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.07,
-"ask": 0.08,
-"mid": 0.07500000000000001
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.62,
-"ask": 0.63,
-"mid": 0.625
-}
-},
-{
-"player": "Cooper Flagg",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.83,
-"ask": 0.85,
-"mid": 0.84
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.56,
-"ask": 0.57,
-"mid": 0.565
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.26,
-"ask": 0.27,
-"mid": 0.265
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.13,
-"ask": 0.14,
-"mid": 0.135
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.05,
-"ask": 0.06,
-"mid": 0.055
-}
-],
-"main": {
-"n": 2,
-"line": 1.5,
-"bid": 0.56,
-"ask": 0.57,
-"mid": 0.565
+"mid": 0.6
 }
 },
 {
@@ -6229,30 +4419,30 @@
 {
 "n": 1,
 "line": 0.5,
-"bid": 0.74,
-"ask": 0.76,
-"mid": 0.75
+"bid": 0.99,
+"ask": null,
+"mid": null
 },
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.4,
-"ask": 0.42,
-"mid": 0.41000000000000003
+"bid": 0.5,
+"ask": 0.52,
+"mid": 0.51
 },
 {
 "n": 3,
 "line": 2.5,
-"bid": 0.18,
-"ask": 0.19,
-"mid": 0.185
+"bid": 0.15,
+"ask": 0.2,
+"mid": 0.175
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.06,
-"ask": 0.07,
-"mid": 0.065
+"bid": 0.04,
+"ask": 0.05,
+"mid": 0.045
 },
 {
 "n": 5,
@@ -6265,9 +4455,9 @@
 "main": {
 "n": 2,
 "line": 1.5,
-"bid": 0.4,
-"ask": 0.42,
-"mid": 0.41000000000000003
+"bid": 0.5,
+"ask": 0.52,
+"mid": 0.51
 }
 },
 {
@@ -6280,9 +4470,257 @@
 {
 "n": 1,
 "line": 0.5,
-"bid": 0.56,
-"ask": 0.57,
-"mid": 0.565
+"bid": 0.99,
+"ask": null,
+"mid": null
+},
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.99,
+"ask": null,
+"mid": null
+},
+{
+"n": 3,
+"line": 2.5,
+"bid": 0.38,
+"ask": 0.4,
+"mid": 0.39
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.08,
+"ask": 0.12,
+"mid": 0.1
+}
+],
+"main": {
+"n": 3,
+"line": 2.5,
+"bid": 0.38,
+"ask": 0.4,
+"mid": 0.39
+}
+},
+{
+"player": "Zaccharie Risacher",
+"stat": "fg3m",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 1,
+"line": 0.5,
+"bid": 0.35,
+"ask": 0.36,
+"mid": 0.355
+},
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.08,
+"ask": 0.1,
+"mid": 0.09
+},
+{
+"n": 3,
+"line": 2.5,
+"bid": 0.01,
+"ask": 0.04,
+"mid": 0.025
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.01,
+"ask": 0.02,
+"mid": 0.015
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.01,
+"ask": 0.03,
+"mid": 0.02
+}
+],
+"main": {
+"n": 1,
+"line": 0.5,
+"bid": 0.35,
+"ask": 0.36,
+"mid": 0.355
+}
+},
+{
+"player": "Christian Braun",
+"stat": "fg3m",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 1,
+"line": 0.5,
+"bid": 0.47,
+"ask": 0.48,
+"mid": 0.475
+},
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.15,
+"ask": 0.16,
+"mid": 0.155
+},
+{
+"n": 3,
+"line": 2.5,
+"bid": 0.04,
+"ask": 0.06,
+"mid": 0.05
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": null,
+"ask": 0.03,
+"mid": null
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.01,
+"ask": 0.02,
+"mid": 0.015
+}
+],
+"main": {
+"n": 1,
+"line": 0.5,
+"bid": 0.47,
+"ask": 0.48,
+"mid": 0.475
+}
+},
+{
+"player": "P.J. Washington",
+"stat": "fg3m",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 1,
+"line": 0.5,
+"bid": 0.99,
+"ask": null,
+"mid": null
+},
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.64,
+"ask": 0.66,
+"mid": 0.65
+},
+{
+"n": 3,
+"line": 2.5,
+"bid": 0.25,
+"ask": 0.26,
+"mid": 0.255
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.04,
+"ask": 0.1,
+"mid": 0.07
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.03,
+"ask": 0.09,
+"mid": 0.06
+}
+],
+"main": {
+"n": 2,
+"line": 1.5,
+"bid": 0.64,
+"ask": 0.66,
+"mid": 0.65
+}
+},
+{
+"player": "Jamal Murray",
+"stat": "fg3m",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 1,
+"line": 0.5,
+"bid": 0.99,
+"ask": null,
+"mid": null
+},
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.75,
+"ask": 0.76,
+"mid": 0.755
+},
+{
+"n": 3,
+"line": 2.5,
+"bid": 0.45,
+"ask": 0.46,
+"mid": 0.455
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.21,
+"ask": 0.22,
+"mid": 0.215
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.07,
+"ask": 0.08,
+"mid": 0.07500000000000001
+}
+],
+"main": {
+"n": 3,
+"line": 2.5,
+"bid": 0.45,
+"ask": 0.46,
+"mid": 0.455
+}
+},
+{
+"player": "Aaron Gordon",
+"stat": "fg3m",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 1,
+"line": 0.5,
+"bid": 0.53,
+"ask": 0.54,
+"mid": 0.535
 },
 {
 "n": 2,
@@ -6294,13 +4732,20 @@
 {
 "n": 3,
 "line": 2.5,
-"bid": 0.08,
-"ask": 0.09,
-"mid": 0.08499999999999999
+"bid": 0.04,
+"ask": 0.05,
+"mid": 0.045
 },
 {
 "n": 4,
 "line": 3.5,
+"bid": 0.01,
+"ask": 0.03,
+"mid": 0.02
+},
+{
+"n": 5,
+"line": 4.5,
 "bid": 0.01,
 "ask": 0.02,
 "mid": 0.015
@@ -6309,221 +4754,323 @@
 "main": {
 "n": 1,
 "line": 0.5,
-"bid": 0.56,
-"ask": 0.57,
-"mid": 0.565
+"bid": 0.53,
+"ask": 0.54,
+"mid": 0.535
 }
 },
 {
-"player": "Zaccharie Risacher",
+"player": "Kyrie Irving",
 "stat": "fg3m",
 "date": "2026-11-24",
 "home": "DEN",
 "away": "DAL",
 "rungs": [
 {
-"n": 1,
-"line": 0.5,
-"bid": 0.64,
-"ask": 0.65,
-"mid": 0.645
-},
-{
 "n": 2,
 "line": 1.5,
-"bid": 0.28,
-"ask": 0.29,
-"mid": 0.28500000000000003
+"bid": 0.47,
+"ask": 0.48,
+"mid": 0.475
 },
 {
 "n": 3,
 "line": 2.5,
-"bid": 0.11,
-"ask": 0.12,
-"mid": 0.11499999999999999
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.04,
-"ask": 0.05,
-"mid": 0.045
-}
-],
-"main": {
-"n": 1,
-"line": 0.5,
-"bid": 0.64,
-"ask": 0.65,
-"mid": 0.645
-}
-},
-{
-"player": "Christian Braun",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.77,
-"ask": 0.78,
-"mid": 0.775
-},
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.45,
-"ask": 0.46,
-"mid": 0.455
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.2,
+"bid": 0.21,
 "ask": 0.22,
-"mid": 0.21000000000000002
+"mid": 0.215
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.07,
-"ask": 0.08,
-"mid": 0.07500000000000001
+"bid": 0.09,
+"ask": 0.1,
+"mid": 0.095
 },
 {
 "n": 5,
 "line": 4.5,
-"bid": 0.02,
-"ask": 0.03,
+"bid": 0.03,
+"ask": 0.05,
+"mid": 0.04
+},
+{
+"n": 6,
+"line": 5.5,
+"bid": 0.01,
+"ask": 0.02,
+"mid": 0.015
+}
+],
+"main": {
+"n": 2,
+"line": 1.5,
+"bid": 0.47,
+"ask": 0.48,
+"mid": 0.475
+}
+},
+{
+"player": "Naji Marshall",
+"stat": "fg3m",
+"date": "2026-11-24",
+"home": "DEN",
+"away": "DAL",
+"rungs": [
+{
+"n": 1,
+"line": 0.5,
+"bid": 0.99,
+"ask": null,
+"mid": null
+},
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.34,
+"ask": 0.36,
+"mid": 0.35
+},
+{
+"n": 3,
+"line": 2.5,
+"bid": 0.08,
+"ask": 0.09,
+"mid": 0.08499999999999999
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.01,
+"ask": 0.04,
 "mid": 0.025
 }
 ],
 "main": {
 "n": 2,
 "line": 1.5,
-"bid": 0.45,
-"ask": 0.46,
-"mid": 0.455
+"bid": 0.34,
+"ask": 0.36,
+"mid": 0.35
 }
 },
 {
-"player": "P.J. Washington",
+"player": "Davion Mitchell",
 "stat": "fg3m",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
 "rungs": [
 {
 "n": 1,
 "line": 0.5,
-"bid": 0.84,
-"ask": 0.85,
-"mid": 0.845
+"bid": 0.86,
+"ask": 0.88,
+"mid": 0.87
 },
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.59,
-"ask": 0.6,
-"mid": 0.595
+"bid": 0.62,
+"ask": 0.66,
+"mid": 0.64
 },
 {
 "n": 3,
 "line": 2.5,
-"bid": 0.32,
-"ask": 0.33,
-"mid": 0.325
+"bid": 0.37,
+"ask": 0.38,
+"mid": 0.375
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.15,
-"ask": 0.16,
-"mid": 0.155
+"bid": 0.18,
+"ask": 0.21,
+"mid": 0.195
 },
 {
 "n": 5,
 "line": 4.5,
-"bid": 0.06,
-"ask": 0.07,
-"mid": 0.065
+"bid": 0.07,
+"ask": 0.11,
+"mid": 0.09
+}
+],
+"main": {
+"n": 3,
+"line": 2.5,
+"bid": 0.37,
+"ask": 0.38,
+"mid": 0.375
+}
+},
+{
+"player": "VJ Edgecombe",
+"stat": "fg3m",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 1,
+"line": 0.5,
+"bid": 0.79,
+"ask": 0.8,
+"mid": 0.795
+},
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.51,
+"ask": 0.53,
+"mid": 0.52
+},
+{
+"n": 3,
+"line": 2.5,
+"bid": 0.24,
+"ask": 0.28,
+"mid": 0.26
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.1,
+"ask": 0.13,
+"mid": 0.115
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.03,
+"ask": 0.06,
+"mid": 0.045
 }
 ],
 "main": {
 "n": 2,
 "line": 1.5,
-"bid": 0.59,
-"ask": 0.6,
-"mid": 0.595
+"bid": 0.51,
+"ask": 0.53,
+"mid": 0.52
 }
 },
 {
-"player": "Jamal Murray",
+"player": "Klay Thompson",
 "stat": "fg3m",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
 "rungs": [
-{
-"n": 1,
-"line": 0.5,
-"bid": 0.91,
-"ask": 0.92,
-"mid": 0.915
-},
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.71,
-"ask": 0.72,
-"mid": 0.715
+"bid": 0.8,
+"ask": 0.84,
+"mid": 0.8200000000000001
 },
 {
 "n": 3,
 "line": 2.5,
-"bid": 0.49,
-"ask": 0.5,
-"mid": 0.495
+"bid": 0.65,
+"ask": 0.68,
+"mid": 0.665
 },
 {
 "n": 4,
 "line": 3.5,
-"bid": 0.28,
-"ask": 0.29,
+"bid": 0.47,
+"ask": 0.49,
+"mid": 0.48
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.26,
+"ask": 0.31,
 "mid": 0.28500000000000003
 },
 {
-"n": 5,
-"line": 4.5,
-"bid": 0.13,
-"ask": 0.14,
-"mid": 0.135
+"n": 6,
+"line": 5.5,
+"bid": 0.16,
+"ask": 0.19,
+"mid": 0.175
 }
 ],
 "main": {
-"n": 3,
-"line": 2.5,
-"bid": 0.49,
-"ask": 0.5,
-"mid": 0.495
+"n": 4,
+"line": 3.5,
+"bid": 0.47,
+"ask": 0.49,
+"mid": 0.48
 }
 },
 {
-"player": "Aaron Gordon",
+"player": "Jaylen Brown",
 "stat": "fg3m",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
 "rungs": [
 {
 "n": 1,
 "line": 0.5,
-"bid": 0.74,
+"bid": 0.8,
+"ask": 0.83,
+"mid": 0.815
+},
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.52,
+"ask": 0.55,
+"mid": 0.535
+},
+{
+"n": 3,
+"line": 2.5,
+"bid": 0.26,
+"ask": 0.28,
+"mid": 0.27
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.11,
+"ask": 0.13,
+"mid": 0.12
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.03,
+"ask": 0.07,
+"mid": 0.05
+}
+],
+"main": {
+"n": 2,
+"line": 1.5,
+"bid": 0.52,
+"ask": 0.55,
+"mid": 0.535
+}
+},
+{
+"player": "LeBron James",
+"stat": "fg3m",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 1,
+"line": 0.5,
+"bid": 0.72,
 "ask": 0.75,
-"mid": 0.745
+"mid": 0.735
 },
 {
 "n": 2,
@@ -6536,22 +5083,22 @@
 "n": 3,
 "line": 2.5,
 "bid": 0.17,
-"ask": 0.18,
-"mid": 0.175
+"ask": 0.19,
+"mid": 0.18
 },
 {
 "n": 4,
 "line": 3.5,
 "bid": 0.06,
-"ask": 0.07,
-"mid": 0.065
+"ask": 0.08,
+"mid": 0.07
 },
 {
 "n": 5,
 "line": 4.5,
-"bid": 0.02,
-"ask": 0.03,
-"mid": 0.025
+"bid": 0.01,
+"ask": 0.07,
+"mid": 0.04
 }
 ],
 "main": {
@@ -6563,884 +5110,608 @@
 }
 },
 {
-"player": "Kyrie Irving",
+"player": "Tyrese Maxey",
 "stat": "fg3m",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
-"rungs": [
-{
-"n": 2,
-"line": 1.5,
-"bid": 0.82,
-"ask": 0.83,
-"mid": 0.825
-},
-{
-"n": 3,
-"line": 2.5,
-"bid": 0.63,
-"ask": 0.64,
-"mid": 0.635
-},
-{
-"n": 4,
-"line": 3.5,
-"bid": 0.42,
-"ask": 0.43,
-"mid": 0.425
-},
-{
-"n": 5,
-"line": 4.5,
-"bid": 0.25,
-"ask": 0.26,
-"mid": 0.255
-},
-{
-"n": 6,
-"line": 5.5,
-"bid": 0.13,
-"ask": 0.15,
-"mid": 0.14
-}
-],
-"main": {
-"n": 4,
-"line": 3.5,
-"bid": 0.42,
-"ask": 0.43,
-"mid": 0.425
-}
-},
-{
-"player": "Naji Marshall",
-"stat": "fg3m",
-"date": "2026-11-24",
-"home": "DEN",
-"away": "DAL",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
 "rungs": [
 {
 "n": 1,
 "line": 0.5,
-"bid": 0.58,
-"ask": 0.59,
-"mid": 0.585
+"bid": 0.89,
+"ask": 0.92,
+"mid": 0.905
 },
 {
 "n": 2,
 "line": 1.5,
-"bid": 0.23,
-"ask": 0.24,
-"mid": 0.235
+"bid": 0.71,
+"ask": 0.75,
+"mid": 0.73
 },
 {
 "n": 3,
 "line": 2.5,
-"bid": 0.08,
-"ask": 0.09,
-"mid": 0.08499999999999999
+"bid": 0.49,
+"ask": 0.51,
+"mid": 0.5
 },
 {
 "n": 4,
 "line": 3.5,
+"bid": 0.28,
+"ask": 0.3,
+"mid": 0.29000000000000004
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.13,
+"ask": 0.17,
+"mid": 0.15000000000000002
+}
+],
+"main": {
+"n": 3,
+"line": 2.5,
+"bid": 0.49,
+"ask": 0.51,
+"mid": 0.5
+}
+},
+{
+"player": "Bam Adebayo",
+"stat": "fg3m",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 1,
+"line": 0.5,
+"bid": 0.68,
+"ask": 0.72,
+"mid": 0.7
+},
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.34,
+"ask": 0.35,
+"mid": 0.345
+},
+{
+"n": 3,
+"line": 2.5,
+"bid": 0.13,
+"ask": 0.16,
+"mid": 0.14500000000000002
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.04,
+"ask": 0.05,
+"mid": 0.045
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.01,
+"ask": 0.02,
+"mid": 0.015
+}
+],
+"main": {
+"n": 2,
+"line": 1.5,
+"bid": 0.34,
+"ask": 0.35,
+"mid": 0.345
+}
+},
+{
+"player": "Kenrich Williams",
+"stat": "fg3m",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 1,
+"line": 0.5,
+"bid": 0.7,
+"ask": 0.76,
+"mid": 0.73
+},
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.41,
+"ask": 0.44,
+"mid": 0.425
+},
+{
+"n": 3,
+"line": 2.5,
+"bid": 0.16,
+"ask": 0.21,
+"mid": 0.185
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.05,
+"ask": 0.1,
+"mid": 0.07500000000000001
+},
+{
+"n": 5,
+"line": 4.5,
 "bid": 0.01,
 "ask": 0.05,
 "mid": 0.030000000000000002
 }
 ],
 "main": {
-"n": 1,
-"line": 0.5,
-"bid": 0.58,
-"ask": 0.59,
-"mid": 0.585
-}
-},
-{
-"player": "Franz Wagner",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 30,
-"line": 29.5,
+"n": 2,
+"line": 1.5,
 "bid": 0.41,
-"ask": 0.8,
-"mid": null
-},
-{
-"n": 35,
-"line": 34.5,
-"bid": 0.43,
-"ask": 0.63,
-"mid": null
-},
-{
-"n": 40,
-"line": 39.5,
-"bid": 0.06,
-"ask": 0.38,
-"mid": null
+"ask": 0.44,
+"mid": 0.425
 }
-],
-"main": null
 },
 {
-"player": "Cade Cunningham",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
+"player": "LaMelo Ball",
+"stat": "fg3m",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
 "rungs": [
 {
-"n": 35,
-"line": 34.5,
-"bid": 0.15,
-"ask": 0.7,
+"n": 2,
+"line": 1.5,
+"bid": 0.78,
+"ask": 0.89,
 "mid": null
 },
 {
-"n": 40,
-"line": 39.5,
-"bid": 0.04,
-"ask": 0.46,
-"mid": null
-},
-{
-"n": 45,
-"line": 44.5,
-"bid": 0.14,
-"ask": 0.28,
-"mid": null
-}
-],
-"main": null
-},
-{
-"player": "Kevin Huerter",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.57,
-"ask": 0.64,
-"mid": 0.605
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.49,
-"ask": 0.67,
-"mid": null
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.51,
-"ask": 0.6,
-"mid": 0.5549999999999999
-}
-],
-"main": {
-"n": 25,
-"line": 24.5,
-"bid": 0.51,
-"ask": 0.6,
-"mid": 0.5549999999999999
-}
-},
-{
-"player": "John Collins",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.15,
-"ask": 0.94,
-"mid": null
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.12,
-"ask": 0.66,
-"mid": null
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.06,
-"ask": 0.69,
-"mid": null
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.02,
-"ask": 0.69,
-"mid": null
-}
-],
-"main": null
-},
-{
-"player": "Ausar Thompson",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.72,
-"ask": 0.77,
-"mid": 0.745
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.44,
-"ask": 0.74,
-"mid": null
-},
-{
-"n": 30,
-"line": 29.5,
-"bid": 0.38,
-"ask": 0.48,
-"mid": 0.43
-}
-],
-"main": {
-"n": 30,
-"line": 29.5,
-"bid": 0.38,
-"ask": 0.48,
-"mid": 0.43
-}
-},
-{
-"player": "Daniss Jenkins",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.68,
-"ask": 0.78,
-"mid": 0.73
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.47,
-"ask": 0.8,
-"mid": null
-},
-{
-"n": 30,
-"line": 29.5,
-"bid": 0.37,
-"ask": 0.74,
-"mid": null
-}
-],
-"main": {
-"n": 20,
-"line": 19.5,
-"bid": 0.68,
-"ask": 0.78,
-"mid": 0.73
-}
-},
-{
-"player": "Anthony Black",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.41,
-"ask": 0.74,
-"mid": null
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.35,
-"ask": 0.49,
-"mid": null
-},
-{
-"n": 30,
-"line": 29.5,
-"bid": 0.02,
-"ask": 0.25,
-"mid": null
-}
-],
-"main": null
-},
-{
-"player": "Wendell Carter Jr.",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.55,
-"ask": 0.92,
-"mid": null
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.29,
-"ask": 0.6,
-"mid": null
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.09,
-"ask": 0.32,
-"mid": null
-}
-],
-"main": null
-},
-{
-"player": "Jalen Suggs",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.07,
-"ask": 0.8,
-"mid": null
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.06,
-"ask": 0.48,
-"mid": null
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.02,
-"ask": 0.25,
-"mid": null
-}
-],
-"main": null
-},
-{
-"player": "Tristan da Silva",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 10,
-"line": 9.5,
-"bid": 0.73,
-"ask": 0.87,
-"mid": null
-},
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.18,
-"ask": 0.6,
-"mid": null
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.21,
-"ask": 0.31,
-"mid": 0.26
-}
-],
-"main": {
-"n": 20,
-"line": 19.5,
-"bid": 0.21,
-"ask": 0.31,
-"mid": 0.26
-}
-},
-{
-"player": "Desmond Bane",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "ORL",
-"away": "DET",
-"rungs": [
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.18,
-"ask": 0.76,
-"mid": null
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.32,
-"ask": 0.77,
-"mid": null
-},
-{
-"n": 30,
-"line": 29.5,
-"bid": 0.18,
-"ask": 0.7,
-"mid": null
-}
-],
-"main": null
-},
-{
-"player": "Kyshawn George",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 20,
-"line": 19.5,
+"n": 3,
+"line": 2.5,
 "bid": 0.67,
-"ask": 0.68,
-"mid": 0.675
+"ask": 0.73,
+"mid": 0.7
 },
 {
-"n": 25,
-"line": 24.5,
-"bid": 0.39,
-"ask": 0.43,
-"mid": 0.41000000000000003
+"n": 4,
+"line": 3.5,
+"bid": 0.5,
+"ask": 0.53,
+"mid": 0.515
 },
 {
-"n": 30,
-"line": 29.5,
-"bid": 0.21,
-"ask": 0.22,
-"mid": 0.215
-}
-],
-"main": {
-"n": 25,
-"line": 24.5,
-"bid": 0.39,
-"ask": 0.43,
-"mid": 0.41000000000000003
-}
+"n": 5,
+"line": 4.5,
+"bid": 0.31,
+"ask": 0.33,
+"mid": 0.32
 },
 {
-"player": "Neemias Queta",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.83,
-"ask": 0.86,
-"mid": 0.845
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.63,
-"ask": 0.64,
-"mid": 0.635
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.36,
-"ask": 0.37,
-"mid": 0.365
-},
-{
-"n": 30,
-"line": 29.5,
+"n": 6,
+"line": 5.5,
 "bid": 0.18,
 "ask": 0.2,
 "mid": 0.19
 }
 ],
 "main": {
-"n": 20,
-"line": 19.5,
-"bid": 0.63,
-"ask": 0.64,
+"n": 4,
+"line": 3.5,
+"bid": 0.5,
+"ask": 0.53,
+"mid": 0.515
+}
+},
+{
+"player": "Ajay Mitchell",
+"stat": "fg3m",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 1,
+"line": 0.5,
+"bid": 0.61,
+"ask": 0.66,
+"mid": 0.635
+},
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.3,
+"ask": 0.32,
+"mid": 0.31
+},
+{
+"n": 3,
+"line": 2.5,
+"bid": 0.1,
+"ask": 0.13,
+"mid": 0.115
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.02,
+"ask": 0.06,
+"mid": 0.04
+}
+],
+"main": {
+"n": 1,
+"line": 0.5,
+"bid": 0.61,
+"ask": 0.66,
 "mid": 0.635
 }
 },
 {
-"player": "Bilal Coulibaly",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
+"player": "Jaden McDaniels",
+"stat": "fg3m",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
 "rungs": [
 {
-"n": 10,
-"line": 9.5,
-"bid": 0.62,
-"ask": 0.63,
-"mid": 0.625
+"n": 1,
+"line": 0.5,
+"bid": 0.77,
+"ask": 0.83,
+"mid": 0.8
 },
 {
-"n": 15,
-"line": 14.5,
-"bid": 0.25,
-"ask": 0.28,
-"mid": 0.265
-}
-],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.62,
-"ask": 0.63,
-"mid": 0.625
-}
-},
-{
-"player": "Trae Young",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.74,
-"ask": 0.75,
-"mid": 0.745
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.49,
+"n": 2,
+"line": 1.5,
+"bid": 0.48,
 "ask": 0.51,
-"mid": 0.5
+"mid": 0.495
 },
 {
-"n": 30,
-"line": 29.5,
-"bid": 0.25,
-"ask": 0.28,
-"mid": 0.265
-}
-],
-"main": {
-"n": 25,
-"line": 24.5,
-"bid": 0.49,
-"ask": 0.51,
-"mid": 0.5
-}
-},
-{
-"player": "Anthony Davis",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 30,
-"line": 29.5,
-"bid": 0.6,
-"ask": 0.64,
-"mid": 0.62
-},
-{
-"n": 35,
-"line": 34.5,
-"bid": 0.42,
-"ask": 0.43,
-"mid": 0.425
-},
-{
-"n": 40,
-"line": 39.5,
-"bid": 0.24,
-"ask": 0.25,
+"n": 3,
+"line": 2.5,
+"bid": 0.23,
+"ask": 0.26,
 "mid": 0.245
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.09,
+"ask": 0.12,
+"mid": 0.105
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.03,
+"ask": 0.06,
+"mid": 0.045
 }
 ],
 "main": {
-"n": 35,
-"line": 34.5,
-"bid": 0.42,
-"ask": 0.43,
-"mid": 0.425
+"n": 2,
+"line": 1.5,
+"bid": 0.48,
+"ask": 0.51,
+"mid": 0.495
 }
 },
 {
-"player": "Jayson Tatum",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
+"player": "Ayo Dosunmu",
+"stat": "fg3m",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
 "rungs": [
 {
-"n": 35,
-"line": 34.5,
-"bid": 0.71,
-"ask": 0.72,
-"mid": 0.715
+"n": 1,
+"line": 0.5,
+"bid": 0.81,
+"ask": 0.87,
+"mid": 0.8400000000000001
 },
 {
-"n": 40,
-"line": 39.5,
-"bid": 0.52,
-"ask": 0.53,
-"mid": 0.525
+"n": 2,
+"line": 1.5,
+"bid": 0.56,
+"ask": 0.57,
+"mid": 0.565
 },
 {
-"n": 45,
-"line": 44.5,
-"bid": 0.32,
-"ask": 0.35,
-"mid": 0.33499999999999996
+"n": 3,
+"line": 2.5,
+"bid": 0.29,
+"ask": 0.32,
+"mid": 0.305
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.12,
+"ask": 0.15,
+"mid": 0.135
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.05,
+"ask": 0.07,
+"mid": 0.060000000000000005
 }
 ],
 "main": {
-"n": 40,
-"line": 39.5,
-"bid": 0.52,
-"ask": 0.53,
-"mid": 0.525
+"n": 2,
+"line": 1.5,
+"bid": 0.56,
+"ask": 0.57,
+"mid": 0.565
 }
 },
 {
-"player": "Alex Sarr",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
+"player": "Trey Lyles",
+"stat": "fg3m",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
 "rungs": [
 {
-"n": 10,
-"line": 9.5,
+"n": 1,
+"line": 0.5,
+"bid": 0.62,
+"ask": 0.67,
+"mid": 0.645
+},
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.27,
+"ask": 0.3,
+"mid": 0.28500000000000003
+},
+{
+"n": 3,
+"line": 2.5,
+"bid": 0.1,
+"ask": 0.12,
+"mid": 0.11
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.02,
+"ask": 0.06,
+"mid": 0.04
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": null,
+"ask": 0.05,
+"mid": null
+}
+],
+"main": {
+"n": 1,
+"line": 0.5,
+"bid": 0.62,
+"ask": 0.67,
+"mid": 0.645
+}
+},
+{
+"player": "Jonathan Kuminga",
+"stat": "fg3m",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 1,
+"line": 0.5,
+"bid": 0.74,
+"ask": 0.8,
+"mid": 0.77
+},
+{
+"n": 2,
+"line": 1.5,
+"bid": 0.45,
+"ask": 0.47,
+"mid": 0.45999999999999996
+},
+{
+"n": 3,
+"line": 2.5,
+"bid": 0.2,
+"ask": 0.23,
+"mid": 0.21500000000000002
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.08,
+"ask": 0.1,
+"mid": 0.09
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.03,
+"ask": 0.06,
+"mid": 0.045
+}
+],
+"main": {
+"n": 2,
+"line": 1.5,
+"bid": 0.45,
+"ask": 0.47,
+"mid": 0.45999999999999996
+}
+},
+{
+"player": "Shai Gilgeous-Alexander",
+"stat": "fg3m",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 1,
+"line": 0.5,
 "bid": 0.82,
 "ask": 0.88,
 "mid": 0.85
 },
 {
-"n": 15,
-"line": 14.5,
-"bid": 0.53,
+"n": 2,
+"line": 1.5,
+"bid": 0.61,
 "ask": 0.63,
-"mid": 0.5800000000000001
+"mid": 0.62
 },
 {
-"n": 20,
-"line": 19.5,
-"bid": 0.3,
-"ask": 0.36,
-"mid": 0.32999999999999996
+"n": 3,
+"line": 2.5,
+"bid": 0.33,
+"ask": 0.37,
+"mid": 0.35
 },
 {
-"n": 25,
-"line": 24.5,
-"bid": 0.11,
+"n": 4,
+"line": 3.5,
+"bid": 0.15,
 "ask": 0.18,
-"mid": 0.145
+"mid": 0.16499999999999998
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.06,
+"ask": 0.09,
+"mid": 0.075
 }
 ],
 "main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.53,
+"n": 2,
+"line": 1.5,
+"bid": 0.61,
 "ask": 0.63,
-"mid": 0.5800000000000001
+"mid": 0.62
 }
 },
 {
-"player": "AJ Dybantsa",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
+"player": "Jared McCain",
+"stat": "fg3m",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
 "rungs": [
 {
-"n": 20,
-"line": 19.5,
-"bid": 0.74,
-"ask": 0.75,
-"mid": 0.745
+"n": 1,
+"line": 0.5,
+"bid": 0.86,
+"ask": 0.93,
+"mid": 0.895
 },
 {
-"n": 25,
-"line": 24.5,
-"bid": 0.53,
-"ask": 0.54,
-"mid": 0.535
+"n": 2,
+"line": 1.5,
+"bid": 0.69,
+"ask": 0.74,
+"mid": 0.715
 },
 {
-"n": 30,
-"line": 29.5,
-"bid": 0.27,
-"ask": 0.3,
-"mid": 0.28500000000000003
+"n": 3,
+"line": 2.5,
+"bid": 0.47,
+"ask": 0.49,
+"mid": 0.48
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.26,
+"ask": 0.29,
+"mid": 0.275
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.12,
+"ask": 0.16,
+"mid": 0.14
 }
 ],
 "main": {
-"n": 25,
-"line": 24.5,
-"bid": 0.53,
-"ask": 0.54,
-"mid": 0.535
+"n": 3,
+"line": 2.5,
+"bid": 0.47,
+"ask": 0.49,
+"mid": 0.48
 }
 },
 {
-"player": "Paul George",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
+"player": "Terrence Shannon Jr.",
+"stat": "fg3m",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
 "rungs": [
 {
-"n": 25,
-"line": 24.5,
-"bid": 0.65,
-"ask": 0.67,
-"mid": 0.66
+"n": 1,
+"line": 0.5,
+"bid": 0.71,
+"ask": 0.77,
+"mid": 0.74
 },
 {
-"n": 30,
-"line": 29.5,
+"n": 2,
+"line": 1.5,
 "bid": 0.42,
 "ask": 0.44,
 "mid": 0.43
 },
 {
-"n": 35,
-"line": 34.5,
-"bid": 0.23,
-"ask": 0.24,
-"mid": 0.235
+"n": 3,
+"line": 2.5,
+"bid": 0.18,
+"ask": 0.22,
+"mid": 0.2
+},
+{
+"n": 4,
+"line": 3.5,
+"bid": 0.07,
+"ask": 0.1,
+"mid": 0.085
+},
+{
+"n": 5,
+"line": 4.5,
+"bid": 0.02,
+"ask": 0.05,
+"mid": 0.035
 }
 ],
 "main": {
-"n": 30,
-"line": 29.5,
+"n": 2,
+"line": 1.5,
 "bid": 0.42,
 "ask": 0.44,
 "mid": 0.43
-}
-},
-{
-"player": "Payton Pritchard",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.8,
-"ask": 0.81,
-"mid": 0.805
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.55,
-"ask": 0.57,
-"mid": 0.56
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.27,
-"ask": 0.31,
-"mid": 0.29000000000000004
-}
-],
-"main": {
-"n": 20,
-"line": 19.5,
-"bid": 0.55,
-"ask": 0.57,
-"mid": 0.56
-}
-},
-{
-"player": "Derrick White",
-"stat": "pra",
-"date": "2026-11-24",
-"home": "WAS",
-"away": "BOS",
-"rungs": [
-{
-"n": 15,
-"line": 14.5,
-"bid": 0.83,
-"ask": 0.84,
-"mid": 0.835
-},
-{
-"n": 20,
-"line": 19.5,
-"bid": 0.58,
-"ask": 0.61,
-"mid": 0.595
-},
-{
-"n": 25,
-"line": 24.5,
-"bid": 0.32,
-"ask": 0.34,
-"mid": 0.33
-}
-],
-"main": {
-"n": 20,
-"line": 19.5,
-"bid": 0.58,
-"ask": 0.61,
-"mid": 0.595
 }
 },
 {
@@ -7453,32 +5724,26 @@
 {
 "n": 10,
 "line": 9.5,
-"bid": 0.77,
-"ask": 0.81,
-"mid": 0.79
+"bid": 0.61,
+"ask": 0.98,
+"mid": null
 },
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.49,
-"ask": 0.51,
-"mid": 0.5
+"bid": 0.51,
+"ask": 0.89,
+"mid": null
 },
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.23,
-"ask": 0.26,
-"mid": 0.245
+"bid": 0.13,
+"ask": 0.64,
+"mid": null
 }
 ],
-"main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.49,
-"ask": 0.51,
-"mid": 0.5
-}
+"main": null
 },
 {
 "player": "Cameron Johnson",
@@ -7490,32 +5755,26 @@
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.7,
-"ask": 0.72,
-"mid": 0.71
+"bid": 0.45,
+"ask": 0.94,
+"mid": null
 },
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.43,
-"ask": 0.45,
-"mid": 0.44
+"bid": 0.19,
+"ask": 0.78,
+"mid": null
 },
 {
 "n": 25,
 "line": 24.5,
-"bid": 0.23,
-"ask": 0.26,
-"mid": 0.245
+"bid": 0.12,
+"ask": 0.63,
+"mid": null
 }
 ],
-"main": {
-"n": 20,
-"line": 19.5,
-"bid": 0.43,
-"ask": 0.45,
-"mid": 0.44
-}
+"main": null
 },
 {
 "player": "Cooper Flagg",
@@ -7527,39 +5786,33 @@
 {
 "n": 30,
 "line": 29.5,
-"bid": 0.79,
-"ask": 0.8,
-"mid": 0.795
+"bid": 0.67,
+"ask": 0.92,
+"mid": null
 },
 {
 "n": 35,
 "line": 34.5,
-"bid": 0.63,
-"ask": 0.64,
-"mid": 0.635
+"bid": 0.28,
+"ask": 0.7,
+"mid": null
 },
 {
 "n": 40,
 "line": 39.5,
-"bid": 0.43,
-"ask": 0.44,
-"mid": 0.435
+"bid": 0.18,
+"ask": 0.4,
+"mid": null
 },
 {
 "n": 45,
 "line": 44.5,
-"bid": 0.23,
-"ask": 0.26,
-"mid": 0.245
+"bid": 0.12,
+"ask": 0.17,
+"mid": 0.14500000000000002
 }
 ],
-"main": {
-"n": 40,
-"line": 39.5,
-"bid": 0.43,
-"ask": 0.44,
-"mid": 0.435
-}
+"main": null
 },
 {
 "player": "Nikola Joki\u0107",
@@ -7571,31 +5824,31 @@
 {
 "n": 45,
 "line": 44.5,
-"bid": 0.63,
-"ask": 0.64,
-"mid": 0.635
+"bid": 0.34,
+"ask": 0.42,
+"mid": 0.38
 },
 {
 "n": 50,
 "line": 49.5,
-"bid": 0.42,
-"ask": 0.43,
-"mid": 0.425
+"bid": 0.18,
+"ask": 0.25,
+"mid": 0.215
 },
 {
 "n": 55,
 "line": 54.5,
-"bid": 0.23,
-"ask": 0.24,
-"mid": 0.235
+"bid": 0.09,
+"ask": 0.12,
+"mid": 0.105
 }
 ],
 "main": {
-"n": 50,
-"line": 49.5,
-"bid": 0.42,
-"ask": 0.43,
-"mid": 0.425
+"n": 45,
+"line": 44.5,
+"bid": 0.34,
+"ask": 0.42,
+"mid": 0.38
 }
 },
 {
@@ -7608,25 +5861,19 @@
 {
 "n": 10,
 "line": 9.5,
-"bid": 0.64,
-"ask": 0.68,
-"mid": 0.66
+"bid": 0.99,
+"ask": null,
+"mid": null
 },
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.31,
-"ask": 0.35,
-"mid": 0.32999999999999996
+"bid": 0.15,
+"ask": 0.38,
+"mid": null
 }
 ],
-"main": {
-"n": 10,
-"line": 9.5,
-"bid": 0.64,
-"ask": 0.68,
-"mid": 0.66
-}
+"main": null
 },
 {
 "player": "Zaccharie Risacher",
@@ -7638,31 +5885,31 @@
 {
 "n": 10,
 "line": 9.5,
-"bid": 0.67,
-"ask": 0.72,
-"mid": 0.6950000000000001
+"bid": 0.28,
+"ask": 0.88,
+"mid": null
 },
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.36,
-"ask": 0.41,
-"mid": 0.385
+"bid": 0.3,
+"ask": 0.36,
+"mid": 0.32999999999999996
 },
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.16,
-"ask": 0.19,
-"mid": 0.175
+"bid": 0.06,
+"ask": 0.38,
+"mid": null
 }
 ],
 "main": {
 "n": 15,
 "line": 14.5,
-"bid": 0.36,
-"ask": 0.41,
-"mid": 0.385
+"bid": 0.3,
+"ask": 0.36,
+"mid": 0.32999999999999996
 }
 },
 {
@@ -7675,32 +5922,26 @@
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.79,
-"ask": 0.8,
-"mid": 0.795
+"bid": 0.37,
+"ask": 0.63,
+"mid": null
 },
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.54,
-"ask": 0.55,
-"mid": 0.545
+"bid": 0.14,
+"ask": 0.28,
+"mid": null
 },
 {
 "n": 25,
 "line": 24.5,
-"bid": 0.28,
-"ask": 0.29,
-"mid": 0.28500000000000003
+"bid": 0.11,
+"ask": 0.3,
+"mid": null
 }
 ],
-"main": {
-"n": 20,
-"line": 19.5,
-"bid": 0.54,
-"ask": 0.55,
-"mid": 0.545
-}
+"main": null
 },
 {
 "player": "P.J. Washington",
@@ -7712,32 +5953,26 @@
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.73,
-"ask": 0.74,
-"mid": 0.735
+"bid": 0.99,
+"ask": null,
+"mid": null
 },
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.47,
-"ask": 0.48,
-"mid": 0.475
+"bid": 0.53,
+"ask": 0.96,
+"mid": null
 },
 {
 "n": 25,
 "line": 24.5,
-"bid": 0.19,
-"ask": 0.22,
-"mid": 0.20500000000000002
+"bid": 0.14,
+"ask": 0.79,
+"mid": null
 }
 ],
-"main": {
-"n": 20,
-"line": 19.5,
-"bid": 0.47,
-"ask": 0.48,
-"mid": 0.475
-}
+"main": null
 },
 {
 "player": "Jamal Murray",
@@ -7749,32 +5984,26 @@
 {
 "n": 30,
 "line": 29.5,
-"bid": 0.71,
-"ask": 0.72,
-"mid": 0.715
+"bid": 0.23,
+"ask": 0.63,
+"mid": null
 },
 {
 "n": 35,
 "line": 34.5,
-"bid": 0.48,
-"ask": 0.49,
-"mid": 0.485
+"bid": 0.09,
+"ask": 0.19,
+"mid": 0.14
 },
 {
 "n": 40,
 "line": 39.5,
-"bid": 0.27,
-"ask": 0.29,
-"mid": 0.28
+"bid": 0.08,
+"ask": 0.09,
+"mid": 0.08499999999999999
 }
 ],
-"main": {
-"n": 35,
-"line": 34.5,
-"bid": 0.48,
-"ask": 0.49,
-"mid": 0.485
-}
+"main": null
 },
 {
 "player": "Aaron Gordon",
@@ -7786,32 +6015,26 @@
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.82,
-"ask": 0.83,
-"mid": 0.825
+"bid": 0.21,
+"ask": 0.4,
+"mid": null
 },
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.58,
-"ask": 0.61,
-"mid": 0.595
+"bid": 0.16,
+"ask": 0.17,
+"mid": 0.165
 },
 {
 "n": 25,
 "line": 24.5,
-"bid": 0.32,
-"ask": 0.34,
-"mid": 0.33
+"bid": 0.06,
+"ask": 0.18,
+"mid": null
 }
 ],
-"main": {
-"n": 20,
-"line": 19.5,
-"bid": 0.58,
-"ask": 0.61,
-"mid": 0.595
-}
+"main": null
 },
 {
 "player": "Kyrie Irving",
@@ -7823,32 +6046,33 @@
 {
 "n": 25,
 "line": 24.5,
-"bid": 0.78,
-"ask": 0.79,
-"mid": 0.785
+"bid": 0.15,
+"ask": 0.61,
+"mid": null
 },
 {
 "n": 30,
 "line": 29.5,
-"bid": 0.58,
-"ask": 0.6,
-"mid": 0.59
+"bid": 0.12,
+"ask": 0.36,
+"mid": null
 },
 {
 "n": 35,
 "line": 34.5,
-"bid": 0.36,
-"ask": 0.37,
-"mid": 0.365
+"bid": 0.08,
+"ask": 0.09,
+"mid": 0.08499999999999999
+},
+{
+"n": 40,
+"line": 39.5,
+"bid": 0.05,
+"ask": 0.11,
+"mid": 0.08
 }
 ],
-"main": {
-"n": 30,
-"line": 29.5,
-"bid": 0.58,
-"ask": 0.6,
-"mid": 0.59
-}
+"main": null
 },
 {
 "player": "Naji Marshall",
@@ -7860,32 +6084,26 @@
 {
 "n": 10,
 "line": 9.5,
-"bid": 0.85,
-"ask": 0.86,
-"mid": 0.855
+"bid": 0.59,
+"ask": 0.88,
+"mid": null
 },
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.57,
-"ask": 0.59,
-"mid": 0.58
+"bid": 0.18,
+"ask": 0.39,
+"mid": null
 },
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.32,
-"ask": 0.33,
-"mid": 0.325
+"bid": 0.11,
+"ask": 0.13,
+"mid": 0.12
 }
 ],
-"main": {
-"n": 15,
-"line": 14.5,
-"bid": 0.57,
-"ask": 0.59,
-"mid": 0.58
-}
+"main": null
 },
 {
 "player": "Daniel Gafford",
@@ -7897,32 +6115,663 @@
 {
 "n": 15,
 "line": 14.5,
-"bid": 0.68,
-"ask": 0.69,
-"mid": 0.685
+"bid": 0.3,
+"ask": 0.77,
+"mid": null
 },
 {
 "n": 20,
 "line": 19.5,
-"bid": 0.39,
-"ask": 0.41,
-"mid": 0.4
+"bid": 0.18,
+"ask": 0.37,
+"mid": null
 },
 {
 "n": 25,
 "line": 24.5,
-"bid": 0.16,
-"ask": 0.19,
-"mid": 0.175
+"bid": 0.05,
+"ask": 0.39,
+"mid": null
+}
+],
+"main": null
+},
+{
+"player": "Davion Mitchell",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.76,
+"ask": 0.86,
+"mid": 0.81
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.55,
+"ask": 0.65,
+"mid": 0.6000000000000001
+},
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.36,
+"ask": 0.4,
+"mid": 0.38
+}
+],
+"main": {
+"n": 25,
+"line": 24.5,
+"bid": 0.55,
+"ask": 0.65,
+"mid": 0.6000000000000001
+}
+},
+{
+"player": "VJ Edgecombe",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.66,
+"ask": 0.72,
+"mid": 0.69
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.42,
+"ask": 0.47,
+"mid": 0.44499999999999995
+},
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.19,
+"ask": 0.25,
+"mid": 0.22
+}
+],
+"main": {
+"n": 25,
+"line": 24.5,
+"bid": 0.42,
+"ask": 0.47,
+"mid": 0.44499999999999995
+}
+},
+{
+"player": "Jaylen Brown",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.58,
+"ask": 0.65,
+"mid": 0.615
+},
+{
+"n": 35,
+"line": 34.5,
+"bid": 0.37,
+"ask": 0.42,
+"mid": 0.395
+},
+{
+"n": 40,
+"line": 39.5,
+"bid": 0.2,
+"ask": 0.24,
+"mid": 0.22
+}
+],
+"main": {
+"n": 35,
+"line": 34.5,
+"bid": 0.37,
+"ask": 0.42,
+"mid": 0.395
+}
+},
+{
+"player": "LeBron James",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.73,
+"ask": 0.83,
+"mid": 0.78
+},
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.58,
+"ask": 0.65,
+"mid": 0.615
+},
+{
+"n": 35,
+"line": 34.5,
+"bid": 0.37,
+"ask": 0.43,
+"mid": 0.4
+}
+],
+"main": {
+"n": 35,
+"line": 34.5,
+"bid": 0.37,
+"ask": 0.43,
+"mid": 0.4
+}
+},
+{
+"player": "Giannis Antetokounmpo",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 45,
+"line": 44.5,
+"bid": 0.33,
+"ask": 0.64,
+"mid": null
+},
+{
+"n": 50,
+"line": 49.5,
+"bid": 0.24,
+"ask": 0.47,
+"mid": null
+},
+{
+"n": 55,
+"line": 54.5,
+"bid": 0.06,
+"ask": 0.31,
+"mid": null
+}
+],
+"main": null
+},
+{
+"player": "Pelle Larsson",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.71,
+"ask": 0.78,
+"mid": 0.745
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.47,
+"ask": 0.52,
+"mid": 0.495
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.23,
+"ask": 0.28,
+"mid": 0.255
 }
 ],
 "main": {
 "n": 20,
 "line": 19.5,
-"bid": 0.39,
-"ask": 0.41,
-"mid": 0.4
+"bid": 0.47,
+"ask": 0.52,
+"mid": 0.495
 }
+},
+{
+"player": "Tyrese Maxey",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.69,
+"ask": 0.76,
+"mid": 0.725
+},
+{
+"n": 35,
+"line": 34.5,
+"bid": 0.5,
+"ask": 0.52,
+"mid": 0.51
+},
+{
+"n": 40,
+"line": 39.5,
+"bid": 0.29,
+"ask": 0.35,
+"mid": 0.31999999999999995
+}
+],
+"main": {
+"n": 35,
+"line": 34.5,
+"bid": 0.5,
+"ask": 0.52,
+"mid": 0.51
+}
+},
+{
+"player": "Bam Adebayo",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "PHI",
+"away": "MIA",
+"rungs": [
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.72,
+"ask": 0.8,
+"mid": 0.76
+},
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.44,
+"ask": 0.6,
+"mid": null
+},
+{
+"n": 35,
+"line": 34.5,
+"bid": 0.31,
+"ask": 0.37,
+"mid": 0.33999999999999997
+}
+],
+"main": {
+"n": 35,
+"line": 34.5,
+"bid": 0.31,
+"ask": 0.37,
+"mid": 0.33999999999999997
+}
+},
+{
+"player": "Kenrich Williams",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 10,
+"line": 9.5,
+"bid": 0.3,
+"ask": 0.86,
+"mid": null
+},
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.25,
+"ask": 0.61,
+"mid": null
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.16,
+"ask": 0.33,
+"mid": null
+}
+],
+"main": null
+},
+{
+"player": "LaMelo Ball",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.58,
+"ask": 0.76,
+"mid": null
+},
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.49,
+"ask": 0.54,
+"mid": 0.515
+},
+{
+"n": 35,
+"line": 34.5,
+"bid": 0.21,
+"ask": 0.32,
+"mid": null
+}
+],
+"main": {
+"n": 30,
+"line": 29.5,
+"bid": 0.49,
+"ask": 0.54,
+"mid": 0.515
+}
+},
+{
+"player": "Ajay Mitchell",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.64,
+"ask": 0.81,
+"mid": null
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.41,
+"ask": 0.58,
+"mid": null
+},
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.18,
+"ask": 0.33,
+"mid": null
+}
+],
+"main": null
+},
+{
+"player": "Jaden McDaniels",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.71,
+"ask": 0.83,
+"mid": null
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.44,
+"ask": 0.62,
+"mid": null
+},
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.22,
+"ask": 0.37,
+"mid": null
+}
+],
+"main": null
+},
+{
+"player": "Isaiah Hartenstein",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.6,
+"ask": 0.77,
+"mid": null
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.34,
+"ask": 0.52,
+"mid": null
+},
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.11,
+"ask": 0.26,
+"mid": null
+}
+],
+"main": null
+},
+{
+"player": "Ayo Dosunmu",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.67,
+"ask": 0.85,
+"mid": null
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.45,
+"ask": 0.62,
+"mid": null
+},
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.26,
+"ask": 0.37,
+"mid": null
+}
+],
+"main": null
+},
+{
+"player": "Jonathan Kuminga",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.52,
+"ask": 0.69,
+"mid": null
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.27,
+"ask": 0.43,
+"mid": null
+},
+{
+"n": 30,
+"line": 29.5,
+"bid": 0.13,
+"ask": 0.21,
+"mid": 0.16999999999999998
+}
+],
+"main": null
+},
+{
+"player": "Shai Gilgeous-Alexander",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 35,
+"line": 34.5,
+"bid": 0.64,
+"ask": 0.82,
+"mid": null
+},
+{
+"n": 40,
+"line": 39.5,
+"bid": 0.51,
+"ask": 0.64,
+"mid": null
+},
+{
+"n": 45,
+"line": 44.5,
+"bid": 0.27,
+"ask": 0.43,
+"mid": null
+}
+],
+"main": null
+},
+{
+"player": "Jared McCain",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.72,
+"ask": 0.84,
+"mid": null
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.43,
+"ask": 0.6,
+"mid": null
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.19,
+"ask": 0.35,
+"mid": null
+}
+],
+"main": null
+},
+{
+"player": "Terrence Shannon Jr.",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.56,
+"ask": 0.7,
+"mid": null
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.21,
+"ask": 0.44,
+"mid": null
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.12,
+"ask": 0.22,
+"mid": 0.16999999999999998
+}
+],
+"main": null
+},
+{
+"player": "Rudy Gobert",
+"stat": "pra",
+"date": "2026-11-25",
+"home": "OKC",
+"away": "MIN",
+"rungs": [
+{
+"n": 15,
+"line": 14.5,
+"bid": 0.51,
+"ask": 0.87,
+"mid": null
+},
+{
+"n": 20,
+"line": 19.5,
+"bid": 0.45,
+"ask": 0.63,
+"mid": null
+},
+{
+"n": 25,
+"line": 24.5,
+"bid": 0.18,
+"ask": 0.34,
+"mid": null
+}
+],
+"main": null
 }
 ]
 }
