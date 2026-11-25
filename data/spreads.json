@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25 09:07 UTC",
+ "fetched_at": "2026-11-25 20:13 UTC",
  "error": null,
  "diagnostics": {
   "kalshi": "9 events, 9 main lines",
@@ -20,7 +20,7 @@
    "home": "CHA",
    "away": "CHI",
    "home_line": -3.5,
-   "market_p_home_cover": 0.485,
+   "market_p_home_cover": 0.505,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25CHICHA"
   },
@@ -28,8 +28,8 @@
    "date": "2026-11-25",
    "home": "NYK",
    "away": "CLE",
-   "home_line": -3.5,
-   "market_p_home_cover": 0.495,
+   "home_line": -1.5,
+   "market_p_home_cover": 0.515,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25CLENYK"
   },
@@ -38,7 +38,7 @@
    "home": "OKC",
    "away": "MIN",
    "home_line": -1.5,
-   "market_p_home_cover": 0.485,
+   "market_p_home_cover": 0.515,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25MINOKC"
   },
@@ -47,7 +47,7 @@
    "home": "MIL",
    "away": "BKN",
    "home_line": -1.5,
-   "market_p_home_cover": 0.495,
+   "market_p_home_cover": 0.515,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25BKNMIL"
   },
@@ -55,8 +55,8 @@
    "date": "2026-11-25",
    "home": "MEM",
    "away": "LAC",
-   "home_line": -6.5,
-   "market_p_home_cover": 0.5,
+   "home_line": -7.5,
+   "market_p_home_cover": 0.485,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25LACMEM"
   },
@@ -64,8 +64,8 @@
    "date": "2026-11-25",
    "home": "HOU",
    "away": "PHX",
-   "home_line": -8.5,
-   "market_p_home_cover": 0.525,
+   "home_line": -9.5,
+   "market_p_home_cover": 0.495,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25PHXHOU"
   },
@@ -73,7 +73,7 @@
    "date": "2026-11-25",
    "home": "GSW",
    "away": "SAC",
-   "home_line": -5.5,
+   "home_line": -6.5,
    "market_p_home_cover": 0.525,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25SACGSW"
@@ -82,8 +82,8 @@
    "date": "2026-11-25",
    "home": "POR",
    "away": "SAS",
-   "home_line": 2.5,
-   "market_p_home_cover": 0.485,
+   "home_line": 3.5,
+   "market_p_home_cover": 0.515,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25SASPOR"
   }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25 09:06 UTC",
+ "fetched_at": "2026-11-25 20:13 UTC",
  "error": null,
  "players": [
   {
@@ -69,10 +69,19 @@
    "player": "Ryan Kalkbrenner",
    "pid": 4576060,
    "team": "CHA",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Kalkbrenner (hip) is doubtful to play Wednesday against the Bulls.",
-   "date": "2026-11-24T22:33Z"
+   "status": "Out",
+   "class": "out",
+   "comment": "Kalkbrenner (hip) has been ruled out for Wednesday's matchup with Chicago.",
+   "date": "2026-11-25T17:41Z"
+  },
+  {
+   "player": "Grayson Allen",
+   "pid": 3135045,
+   "team": "CHA",
+   "status": "Out",
+   "class": "out",
+   "comment": "Allen (concussion) has been ruled out for Wednesday's game against Chicago.",
+   "date": "2026-11-25T17:39Z"
   },
   {
    "player": "Dennis Schroder",
@@ -91,15 +100,6 @@
    "class": "questionable",
    "comment": "James is probable for Wednesday's game against the Bulls due to general soreness.",
    "date": "2026-11-24T22:30Z"
-  },
-  {
-   "player": "Grayson Allen",
-   "pid": 3135045,
-   "team": "CHA",
-   "status": "Out",
-   "class": "out",
-   "comment": "Allen (concussion) is listed as questionable for Wednesday's game versus Chicago.",
-   "date": "2026-11-24T22:29Z"
   },
   {
    "player": "Kon Knueppel",
@@ -195,10 +195,10 @@
    "player": "Cade Cunningham",
    "pid": 4432166,
    "team": "DET",
-   "status": "Out",
-   "class": "out",
+   "status": "Day-To-Day",
+   "class": "questionable",
    "comment": "Cunningham (knee) is listed as out for Tuesday's game against Orlando.",
-   "date": "2026-11-24T23:36Z"
+   "date": "2026-11-25T19:00Z"
   },
   {
    "player": "Ebuka Okorie",
@@ -444,6 +444,15 @@
    "date": "2026-10-29T18:33Z"
   },
   {
+   "player": "Julian Reese",
+   "pid": 4683742,
+   "team": "NOP",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "The Pelicans transferred Reese from the G League's Laketown Squadron, and he will be available for New Orleans' game against the Warriors on Monday.",
+   "date": "2026-11-25T16:11Z"
+  },
+  {
    "player": "Trendon Watford",
    "pid": 4431675,
    "team": "NOP",
@@ -471,13 +480,40 @@
    "date": "2026-11-13T20:19Z"
   },
   {
-   "player": "Miles McBride",
-   "pid": 4431823,
+   "player": "Josh Hart",
+   "pid": 3062679,
    "team": "NYK",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "McBride (adductor) is listed as questionable for Wednesday's game versus Cleveland.",
-   "date": "2026-11-24T21:56Z"
+   "comment": "Hart (shoulder) has been upgraded to probable for Wednesday's game against the Cavaliers.",
+   "date": "2026-11-25T17:57Z"
+  },
+  {
+   "player": "Miles McBride",
+   "pid": 4431823,
+   "team": "NYK",
+   "status": "Out",
+   "class": "out",
+   "comment": "McBride (adductor) has been ruled out for Wednesday's game against the Cavaliers.",
+   "date": "2026-11-25T17:57Z"
+  },
+  {
+   "player": "Karl-Anthony Towns",
+   "pid": 3136195,
+   "team": "NYK",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Towns (knee) is probable for Wednesday's game against Cleveland.",
+   "date": "2026-11-25T17:54Z"
+  },
+  {
+   "player": "Jalen Brunson",
+   "pid": 3934672,
+   "team": "NYK",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Brunson (illness) has been downgraded to questionable for Wednesday's game against the Cavaliers.",
+   "date": "2026-11-25T17:53Z"
   },
   {
    "player": "Jordan Clarkson",
@@ -489,15 +525,6 @@
    "date": "2026-11-24T21:56Z"
   },
   {
-   "player": "Josh Hart",
-   "pid": 3062679,
-   "team": "NYK",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Hart (shoulder) is listed as questionable for Wednesday's game against Cleveland.",
-   "date": "2026-11-24T21:54Z"
-  },
-  {
    "player": "OG Anunoby",
    "pid": 3934719,
    "team": "NYK",
@@ -505,15 +532,6 @@
    "class": "out",
    "comment": "Anunoby (calf) is out for Wednesday's game against Cleveland.",
    "date": "2026-11-24T21:53Z"
-  },
-  {
-   "player": "Karl-Anthony Towns",
-   "pid": 3136195,
-   "team": "NYK",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Towns (knee) is questionable for Wednesday's game against Cleveland.",
-   "date": "2026-11-24T21:50Z"
   },
   {
    "player": "Nikola Topic",
@@ -618,10 +636,10 @@
    "player": "Joel Embiid",
    "pid": 3059318,
    "team": "PHI",
-   "status": "Day-To-Day",
-   "class": "questionable",
+   "status": "Out",
+   "class": "out",
    "comment": "Embiid (illness) is listed as doubtful for Wednesday's game versus Miami.",
-   "date": "2026-11-24T22:09Z"
+   "date": "2026-11-25T20:05Z"
   },
   {
    "player": "Ariel Hukporti",
@@ -683,8 +701,8 @@
    "team": "SAC",
    "status": "Out",
    "class": "out",
-   "comment": "Raynaud (knee) is out for Wednesday's game against the Warriors.",
-   "date": "2026-11-25T04:21Z"
+   "comment": "Raynaud (knee) was assigned to the G League's Stockton Kings on Wednesday, James Ham of ESPN 1320 Sacramento reports.",
+   "date": "2026-11-25T16:25Z"
   },
   {
    "player": "Ben Simmons",
