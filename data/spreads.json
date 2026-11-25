@@ -1,26 +1,17 @@
 {
- "fetched_at": "2026-11-25 05:24 UTC",
+ "fetched_at": "2026-11-25 09:07 UTC",
  "error": null,
  "diagnostics": {
-  "kalshi": "10 events, 10 main lines",
+  "kalshi": "9 events, 9 main lines",
   "espn": "9 lines"
  },
  "games": [
-  {
-   "date": "2026-11-24",
-   "home": "DEN",
-   "away": "DAL",
-   "home_line": 15.5,
-   "market_p_home_cover": 0.51,
-   "source": "Kalshi",
-   "event": "KXNBASPREAD-26NOV24DALDEN"
-  },
   {
    "date": "2026-11-25",
    "home": "PHI",
    "away": "MIA",
    "home_line": -1.5,
-   "market_p_home_cover": 0.49,
+   "market_p_home_cover": 0.495,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25MIAPHI"
   },
@@ -29,7 +20,7 @@
    "home": "CHA",
    "away": "CHI",
    "home_line": -3.5,
-   "market_p_home_cover": 0.49,
+   "market_p_home_cover": 0.485,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25CHICHA"
   },
@@ -47,7 +38,7 @@
    "home": "OKC",
    "away": "MIN",
    "home_line": -1.5,
-   "market_p_home_cover": 0.505,
+   "market_p_home_cover": 0.485,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25MINOKC"
   },
@@ -65,7 +56,7 @@
    "home": "MEM",
    "away": "LAC",
    "home_line": -6.5,
-   "market_p_home_cover": 0.495,
+   "market_p_home_cover": 0.5,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25LACMEM"
   },
@@ -74,7 +65,7 @@
    "home": "HOU",
    "away": "PHX",
    "home_line": -8.5,
-   "market_p_home_cover": 0.52,
+   "market_p_home_cover": 0.525,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25PHXHOU"
   },
@@ -83,7 +74,7 @@
    "home": "GSW",
    "away": "SAC",
    "home_line": -5.5,
-   "market_p_home_cover": 0.52,
+   "market_p_home_cover": 0.525,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25SACGSW"
   },
@@ -92,7 +83,7 @@
    "home": "POR",
    "away": "SAS",
    "home_line": 2.5,
-   "market_p_home_cover": 0.475,
+   "market_p_home_cover": 0.485,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV25SASPOR"
   }
