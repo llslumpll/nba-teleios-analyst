@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-25 20:13 UTC",
+ "fetched_at": "2026-11-25 22:45 UTC",
  "error": null,
  "players": [
   {
@@ -93,15 +93,6 @@
    "date": "2026-11-24T22:32Z"
   },
   {
-   "player": "Sion James",
-   "pid": 4602025,
-   "team": "CHA",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "James is probable for Wednesday's game against the Bulls due to general soreness.",
-   "date": "2026-11-24T22:30Z"
-  },
-  {
    "player": "Kon Knueppel",
    "pid": 5061575,
    "team": "CHA",
@@ -114,10 +105,10 @@
    "player": "Jalen Smith",
    "pid": 4397189,
    "team": "CHI",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Smith (illness) is listed as questionable for Wednesday's game against the Hornets.",
-   "date": "2026-11-24T18:21Z"
+   "status": "Out",
+   "class": "out",
+   "comment": "Smith (illness) is listed as out for Wednesday's game against Charlotte.",
+   "date": "2026-11-25T22:07Z"
   },
   {
    "player": "Norman Powell",
@@ -359,8 +350,8 @@
    "team": "LAL",
    "status": "Out",
    "class": "out",
-   "comment": "Coach JJ Redick stated Monday that the team is optimistic Reaves (heel) will return for Friday's game against San Antonio, Daniel Starkand of LakersNation.com reports.",
-   "date": "2026-11-24T01:31Z"
+   "comment": "Reaves (heel) was a full participant in Wednesday's practice, Daniel Starkand of LakersNation.com reports.",
+   "date": "2026-11-25T20:33Z"
   },
   {
    "player": "Scotty Pippen Jr.",
@@ -406,15 +397,6 @@
    "class": "out",
    "comment": "Saunders signed a two-way contract with the Grizzlies on Saturday, Shams Charania of ESPN reports.",
    "date": "2026-11-07T17:24Z"
-  },
-  {
-   "player": "Giannis Antetokounmpo",
-   "pid": 3032977,
-   "team": "MIA",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Antetokounmpo (groin) is questionable for Wednesday's game in Philadelphia.",
-   "date": "2026-11-24T22:07Z"
   },
   {
    "player": "Donte DiVincenzo",
@@ -480,6 +462,15 @@
    "date": "2026-11-13T20:19Z"
   },
   {
+   "player": "Jalen Brunson",
+   "pid": 3934672,
+   "team": "NYK",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Brunson (illness) is probable for Wednesday's game against Cleveland.",
+   "date": "2026-11-25T21:35Z"
+  },
+  {
    "player": "Josh Hart",
    "pid": 3062679,
    "team": "NYK",
@@ -505,15 +496,6 @@
    "class": "questionable",
    "comment": "Towns (knee) is probable for Wednesday's game against Cleveland.",
    "date": "2026-11-25T17:54Z"
-  },
-  {
-   "player": "Jalen Brunson",
-   "pid": 3934672,
-   "team": "NYK",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Brunson (illness) has been downgraded to questionable for Wednesday's game against the Cavaliers.",
-   "date": "2026-11-25T17:53Z"
   },
   {
    "player": "Jordan Clarkson",
@@ -638,8 +620,8 @@
    "team": "PHI",
    "status": "Out",
    "class": "out",
-   "comment": "Embiid (illness) is listed as doubtful for Wednesday's game versus Miami.",
-   "date": "2026-11-25T20:05Z"
+   "comment": "Embiid (illness) is out for Wednesday's game against Miami, Ira Winderman of the South Florida Sun Sentinel reports.",
+   "date": "2026-11-25T20:07Z"
   },
   {
    "player": "Ariel Hukporti",
@@ -701,8 +683,17 @@
    "team": "SAC",
    "status": "Out",
    "class": "out",
-   "comment": "Raynaud (knee) was assigned to the G League's Stockton Kings on Wednesday, James Ham of ESPN 1320 Sacramento reports.",
-   "date": "2026-11-25T16:25Z"
+   "comment": "Raynaud (knee) was recalled from the G League's Stockton Kings on Wednesday, Marc J. Spears of ESPN.com reports.",
+   "date": "2026-11-25T21:38Z"
+  },
+  {
+   "player": "Zach LaVine",
+   "pid": 3064440,
+   "team": "SAC",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "LaVine (knee) has been downgraded to questionable for Wednesday's game against Golden State.",
+   "date": "2026-11-25T20:49Z"
   },
   {
    "player": "Ben Simmons",
