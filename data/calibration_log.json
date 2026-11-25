@@ -40,5 +40,11 @@
   "lines": 575,
   "nights": 1,
   "state": "waiting: 1/3 nights, 575/1200 lines"
+ },
+ {
+  "run_at": "2026-11-25 05:24 UTC",
+  "lines": 575,
+  "nights": 1,
+  "state": "waiting: 1/3 nights, 575/1200 lines"
  }
 ]
