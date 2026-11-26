@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26 03:29 UTC",
+ "fetched_at": "2026-11-26 04:56 UTC",
  "error": null,
  "failed_teams": [],
  "players": [
@@ -2318,6 +2318,12 @@
    "pid": 5214637,
    "team": "ORL",
    "pos": "F"
+  },
+  {
+   "player": "Kevin Porter Jr.",
+   "pid": 4397140,
+   "team": "ORL",
+   "pos": "G"
   },
   {
    "player": "Jase Richardson",
