@@ -6387,7 +6387,7 @@
   "frozen_at": "2026-11-26 00:13 UTC",
   "game_id": 401909319,
   "home": "NYK",
-  "locked": false,
+  "locked": true,
   "players": [
    {
     "market": {
@@ -9268,7 +9268,7 @@
   "frozen_at": "2026-11-26 00:13 UTC",
   "game_id": 401909320,
   "home": "OKC",
-  "locked": false,
+  "locked": true,
   "players": [
    {
     "market": {
@@ -12079,7 +12079,7 @@
   "frozen_at": "2026-11-26 00:13 UTC",
   "game_id": 401909321,
   "home": "MEM",
-  "locked": false,
+  "locked": true,
   "players": [
    {
     "market": {
@@ -15472,7 +15472,7 @@
   "frozen_at": "2026-11-26 00:13 UTC",
   "game_id": 401909322,
   "home": "MIL",
-  "locked": false,
+  "locked": true,
   "players": [
    {
     "market": {
@@ -19191,7 +19191,7 @@
   "frozen_at": "2026-11-26 00:13 UTC",
   "game_id": 401909323,
   "home": "HOU",
-  "locked": false,
+  "locked": true,
   "players": [
    {
     "market": {
@@ -22696,7 +22696,7 @@
   "frozen_at": "2026-11-26 00:13 UTC",
   "game_id": 401909324,
   "home": "GSW",
-  "locked": false,
+  "locked": true,
   "players": [
    {
     "market": {
@@ -25676,7 +25676,7 @@
   "frozen_at": "2026-11-26 00:13 UTC",
   "game_id": 401909325,
   "home": "POR",
-  "locked": false,
+  "locked": true,
   "players": [
    {
     "market": {
