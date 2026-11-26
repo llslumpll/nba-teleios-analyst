@@ -64,5 +64,11 @@
   "lines": 755,
   "nights": 2,
   "state": "waiting: 2/3 nights, 755/1200 lines"
+ },
+ {
+  "run_at": "2026-11-26 00:13 UTC",
+  "lines": 755,
+  "nights": 2,
+  "state": "waiting: 2/3 nights, 755/1200 lines"
  }
 ]
