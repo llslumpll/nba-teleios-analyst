@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26 04:56 UTC",
+ "fetched_at": "2026-11-26 08:52 UTC",
  "error": null,
  "players": [
   {
@@ -78,10 +78,10 @@
    "player": "Ryan Kalkbrenner",
    "pid": 4576060,
    "team": "CHA",
-   "status": "Out",
-   "class": "out",
+   "status": "Day-To-Day",
+   "class": "questionable",
    "comment": "Kalkbrenner (hip) has been ruled out for Wednesday's matchup with Chicago.",
-   "date": "2026-11-25T17:41Z"
+   "date": "2026-11-26T05:30Z"
   },
   {
    "player": "Grayson Allen",
@@ -114,10 +114,10 @@
    "player": "Jalen Smith",
    "pid": 4397189,
    "team": "CHI",
-   "status": "Out",
-   "class": "out",
+   "status": "Day-To-Day",
+   "class": "questionable",
    "comment": "Smith (illness) is listed as out for Wednesday's game against Charlotte.",
-   "date": "2026-11-25T22:07Z"
+   "date": "2026-11-26T05:29Z"
   },
   {
    "player": "Norman Powell",
@@ -471,6 +471,15 @@
    "date": "2026-11-13T20:19Z"
   },
   {
+   "player": "Miles McBride",
+   "pid": 4431823,
+   "team": "NYK",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "McBride (adductor) has been ruled out for Wednesday's game against the Cavaliers.",
+   "date": "2026-11-26T05:31Z"
+  },
+  {
    "player": "Andre Drummond",
    "pid": 6585,
    "team": "NYK",
@@ -487,15 +496,6 @@
    "class": "out",
    "comment": "Anunoby (calf) participated in on-court work for the first time since sustaining the injury, Ian Begley of SportsNet New York reports.",
    "date": "2026-11-25T23:19Z"
-  },
-  {
-   "player": "Miles McBride",
-   "pid": 4431823,
-   "team": "NYK",
-   "status": "Out",
-   "class": "out",
-   "comment": "McBride (adductor) has been ruled out for Wednesday's game against the Cavaliers.",
-   "date": "2026-11-25T17:57Z"
   },
   {
    "player": "Jordan Clarkson",
@@ -681,10 +681,10 @@
    "player": "Zach LaVine",
    "pid": 3064440,
    "team": "SAC",
-   "status": "Out",
-   "class": "out",
+   "status": "Day-To-Day",
+   "class": "questionable",
    "comment": "LaVine (knee) is listed as out for Wednesday's game versus the Warriors.",
-   "date": "2026-11-25T22:40Z"
+   "date": "2026-11-26T05:33Z"
   },
   {
    "player": "Maxime Raynaud",
@@ -708,10 +708,10 @@
    "player": "De'Aaron Fox",
    "pid": 4066259,
    "team": "SAS",
-   "status": "Out",
-   "class": "out",
+   "status": "Day-To-Day",
+   "class": "questionable",
    "comment": "Fox (shin) has been ruled out for Wednesday's game against Portland, Jeff McDonald of the San Antonio Express-News reports.",
-   "date": "2026-11-26T02:20Z"
+   "date": "2026-11-26T06:01Z"
   },
   {
    "player": "Dylan Harper",
