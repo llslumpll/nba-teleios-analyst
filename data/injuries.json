@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26 19:50 UTC",
+ "fetched_at": "2026-11-26 22:36 UTC",
  "error": null,
  "players": [
   {
@@ -62,8 +62,8 @@
    "team": "BKN",
    "status": "Out",
    "class": "out",
-   "comment": "Wagner (knee) will not return to Wednesday's game against the Bucks, C.J. Holmes of the New York Daily News reports.",
-   "date": "2026-11-26T02:48Z"
+   "comment": "Wagner (knee) won't be available for Friday's game against Toronto.",
+   "date": "2026-11-26T21:33Z"
   },
   {
    "player": "Nolan Traore",
@@ -192,6 +192,15 @@
    "date": "2026-11-17T22:42Z"
   },
   {
+   "player": "Cade Cunningham",
+   "pid": 4432166,
+   "team": "DET",
+   "status": "Out",
+   "class": "out",
+   "comment": "Cunningham (knee) is listed as out for Tuesday's game against Orlando.",
+   "date": "2026-11-26T22:20Z"
+  },
+  {
    "player": "Jalen Duren",
    "pid": 4433621,
    "team": "DET",
@@ -199,15 +208,6 @@
    "class": "out",
    "comment": "Detroit recalled Duren (hamstring) from the G League's Motor City Cruise on Wednesday.",
    "date": "2026-11-26T15:31Z"
-  },
-  {
-   "player": "Cade Cunningham",
-   "pid": 4432166,
-   "team": "DET",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Cunningham (knee) is listed as out for Tuesday's game against Orlando.",
-   "date": "2026-11-25T19:00Z"
   },
   {
    "player": "Ebuka Okorie",
@@ -399,6 +399,24 @@
    "date": "2026-11-07T17:24Z"
   },
   {
+   "player": "Giannis Antetokounmpo",
+   "pid": 3032977,
+   "team": "MIA",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Antetokounmpo is probable for Friday's game against the Knicks due to right groin tendinitis.",
+   "date": "2026-11-26T21:15Z"
+  },
+  {
+   "player": "Andrew Wiggins",
+   "pid": 3059319,
+   "team": "MIA",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Wiggins is probable for Friday's game against the Knicks due to a right ankle sprain.",
+   "date": "2026-11-26T21:08Z"
+  },
+  {
    "player": "LaMelo Ball",
    "pid": 4432816,
    "team": "MIN",
@@ -435,22 +453,13 @@
    "date": "2026-10-29T18:33Z"
   },
   {
-   "player": "Julian Reese",
-   "pid": 4683742,
-   "team": "NOP",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "The Pelicans transferred Reese from the G League's Laketown Squadron, and he will be available for New Orleans' game against the Warriors on Monday.",
-   "date": "2026-11-25T16:11Z"
-  },
-  {
    "player": "Trendon Watford",
    "pid": 4431675,
    "team": "NOP",
    "status": "Out",
    "class": "out",
-   "comment": "Watford (ankle) is out for Saturday's game against the Spurs.",
-   "date": "2026-11-21T18:21Z"
+   "comment": "Watford (ankle) is probable for Friday's game against the Clippers.",
+   "date": "2026-11-26T21:22Z"
   },
   {
    "player": "Bennedict Mathurin",
@@ -458,8 +467,17 @@
    "team": "NOP",
    "status": "Out",
    "class": "out",
-   "comment": "Mathurin (foot) has been ruled out for Friday's game against the Thunder.",
-   "date": "2026-11-19T21:07Z"
+   "comment": "Mathurin (foot) is doubtful for Friday's game against the Clippers.",
+   "date": "2026-11-26T21:21Z"
+  },
+  {
+   "player": "Julian Reese",
+   "pid": 4683742,
+   "team": "NOP",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "The Pelicans transferred Reese from the G League's Laketown Squadron, and he will be available for New Orleans' game against the Warriors on Monday.",
+   "date": "2026-11-25T16:11Z"
   },
   {
    "player": "Dejounte Murray",
@@ -476,26 +494,8 @@
    "team": "NYK",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "McBride (adductor) has been ruled out for Wednesday's game against the Cavaliers.",
-   "date": "2026-11-26T05:31Z"
-  },
-  {
-   "player": "Andre Drummond",
-   "pid": 6585,
-   "team": "NYK",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Drummond (head) did not return to Wednesday's 121-102 win over the Cavaliers.",
-   "date": "2026-11-26T03:40Z"
-  },
-  {
-   "player": "OG Anunoby",
-   "pid": 3934719,
-   "team": "NYK",
-   "status": "Out",
-   "class": "out",
-   "comment": "Anunoby (calf) participated in on-court work for the first time since sustaining the injury, Ian Begley of SportsNet New York reports.",
-   "date": "2026-11-25T23:19Z"
+   "comment": "McBride (groin) is questionable for Friday's game against the Heat.",
+   "date": "2026-11-26T22:11Z"
   },
   {
    "player": "Jordan Clarkson",
@@ -503,8 +503,26 @@
    "team": "NYK",
    "status": "Out",
    "class": "out",
-   "comment": "Clarkson (foot) is out for Wednesday's game against Cleveland.",
-   "date": "2026-11-24T21:56Z"
+   "comment": "Clarkson (foot) is questionable for Friday's game against the Heat.",
+   "date": "2026-11-26T22:03Z"
+  },
+  {
+   "player": "OG Anunoby",
+   "pid": 3934719,
+   "team": "NYK",
+   "status": "Out",
+   "class": "out",
+   "comment": "Anunoby (calf) is doubtful for Friday's game against the Heat.",
+   "date": "2026-11-26T21:57Z"
+  },
+  {
+   "player": "Andre Drummond",
+   "pid": 6585,
+   "team": "NYK",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Drummond (head) is questionable for Friday's game against the Heat.",
+   "date": "2026-11-26T21:51Z"
   },
   {
    "player": "Nikola Topic",
@@ -620,17 +638,17 @@
    "team": "PHI",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "Embiid (illness) is out for Wednesday's game against Miami, Ira Winderman of the South Florida Sun Sentinel reports.",
-   "date": "2026-11-26T01:06Z"
+   "comment": "Embiid (illness) is questionable for Friday's game against the Pacers.",
+   "date": "2026-11-26T22:16Z"
   },
   {
    "player": "Jaylen Brown",
    "pid": 3917376,
    "team": "PHI",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Brown (hamstring) will receive imaging, and the Sixers will provide an update Thursday, Ky Carlin of USA Today reports.",
-   "date": "2026-11-26T01:06Z"
+   "status": "Out",
+   "class": "out",
+   "comment": "Brown (hamstring) is out for Friday's game against the Pacers.",
+   "date": "2026-11-26T22:13Z"
   },
   {
    "player": "Ariel Hukporti",
@@ -748,6 +766,15 @@
    "class": "out",
    "comment": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports.",
    "date": "2026-10-05T21:43Z"
+  },
+  {
+   "player": "Alijah Martin",
+   "pid": 4702656,
+   "team": "TOR",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Martin is questionable for Friday's game against the Nets due to left knee soreness.",
+   "date": "2026-11-26T21:18Z"
   },
   {
    "player": "Kawhi Leonard",

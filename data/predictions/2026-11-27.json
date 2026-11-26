@@ -1,9 +1,9 @@
 {
  "401909326": {
   "away": "MIA",
-  "chance": 0.7494,
+  "chance": 0.7625,
   "date": "2026-11-27",
-  "edge_vs_market": 0.1424,
+  "edge_vs_market": 0.1615,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.59,
@@ -17,22 +17,22 @@
     "teleios_p_home_cover": 0.6317
    }
   },
-  "frozen_at": "2026-11-26 19:50 UTC",
+  "frozen_at": "2026-11-26 22:36 UTC",
   "game_id": 401909326,
   "home": "NYK",
   "locked": false,
-  "margin": 8.57,
-  "market_p_home": 0.607,
+  "margin": 9.11,
+  "market_p_home": 0.601,
   "neutral": false,
-  "p_home": 0.7494,
+  "p_home": 0.7625,
   "pick": "NYK",
   "spread": {
-   "home_line": -4.5,
-   "market_p_home_cover": 0.475,
+   "home_line": -3.5,
+   "market_p_home_cover": 0.51,
    "pick": "NYK",
-   "pick_line": -4.5,
+   "pick_line": -3.5,
    "source": "Kalshi",
-   "teleios_p_home_cover": 0.6254
+   "teleios_p_home_cover": 0.6699
   },
   "tip_utc": "2026-11-28 00:00:00+00:00",
   "why": {
@@ -58,7 +58,18 @@
     ]
    },
    "questionable": {
-    "MIA": [],
+    "MIA": [
+     {
+      "pid": 3032977,
+      "player": "Giannis Antetokounmpo",
+      "status": "Day-To-Day"
+     },
+     {
+      "pid": 3059319,
+      "player": "Andrew Wiggins",
+      "status": "Day-To-Day"
+     }
+    ],
     "NYK": [
      {
       "pid": 6585,
@@ -77,7 +88,7 @@
     "NYK": 2
    },
    "strength": {
-    "MIA": 3.48,
+    "MIA": 2.94,
     "NYK": 10.58
    },
    "team_term": {
@@ -87,52 +98,52 @@
    "top_players": {
     "MIA": [
      {
-      "impact": 1.68,
-      "minutes": 27.4,
+      "impact": 1.18,
+      "minutes": 19.2,
       "player": "Giannis Antetokounmpo",
       "rating": 2.95
      },
      {
-      "impact": 0.71,
-      "minutes": 27.6,
+      "impact": 0.76,
+      "minutes": 29.8,
       "player": "Bam Adebayo",
       "rating": 1.23
      },
      {
-      "impact": 0.52,
-      "minutes": 30.7,
+      "impact": 0.56,
+      "minutes": 33.1,
       "player": "Davion Mitchell",
       "rating": 0.81
      },
      {
-      "impact": 0.48,
-      "minutes": 8.9,
+      "impact": 0.52,
+      "minutes": 9.6,
       "player": "Myron Gardner",
       "rating": 2.58
      },
      {
-      "impact": 0.38,
-      "minutes": 18.9,
+      "impact": 0.41,
+      "minutes": 20.3,
       "player": "Ryan Conwell",
       "rating": 0.96
      },
      {
-      "impact": 0.25,
-      "minutes": 9.4,
+      "impact": 0.27,
+      "minutes": 10.1,
       "player": "Simone Fontecchio",
       "rating": 1.28
      },
      {
-      "impact": 0.24,
-      "minutes": 22.1,
-      "player": "Andrew Wiggins",
-      "rating": 0.52
-     },
-     {
-      "impact": 0.19,
-      "minutes": 3.7,
+      "impact": 0.2,
+      "minutes": 4.0,
       "player": "Dru Smith",
       "rating": 2.38
+     },
+     {
+      "impact": 0.17,
+      "minutes": 15.5,
+      "player": "Andrew Wiggins",
+      "rating": 0.52
      }
     ],
     "NYK": [
@@ -190,31 +201,31 @@
  },
  "401909327": {
   "away": "MIL",
-  "chance": 0.8836,
+  "chance": 0.8994,
   "date": "2026-11-27",
-  "edge_vs_market": 0.0586,
+  "edge_vs_market": 0.1444,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.8,
    "p_home": 0.8768,
    "spread": null
   },
-  "frozen_at": "2026-11-26 19:50 UTC",
+  "frozen_at": "2026-11-26 22:36 UTC",
   "game_id": 401909327,
   "home": "DET",
   "locked": false,
-  "margin": 15.21,
-  "market_p_home": 0.825,
+  "margin": 16.3,
+  "market_p_home": 0.755,
   "neutral": false,
-  "p_home": 0.8836,
+  "p_home": 0.8994,
   "pick": "DET",
   "spread": {
-   "home_line": -11.5,
-   "market_p_home_cover": 0.505,
+   "home_line": -9.5,
+   "market_p_home_cover": 0.5,
    "pick": "DET",
-   "pick_line": -11.5,
+   "pick_line": -9.5,
    "source": "Kalshi",
-   "teleios_p_home_cover": 0.6146
+   "teleios_p_home_cover": 0.703
   },
   "tip_utc": "2026-11-28 00:30:00+00:00",
   "why": {
@@ -225,6 +236,12 @@
    },
    "out": {
     "DET": [
+     {
+      "minutes": 35.9,
+      "pid": 4432166,
+      "player": "Cade Cunningham",
+      "status": "Out"
+     },
      {
       "minutes": 26.2,
       "pid": 4433621,
@@ -253,13 +270,7 @@
     "MIL": []
    },
    "questionable": {
-    "DET": [
-     {
-      "pid": 4432166,
-      "player": "Cade Cunningham",
-      "status": "Day-To-Day"
-     }
-    ],
+    "DET": [],
     "MIL": []
    },
    "rest_days": {
@@ -267,7 +278,7 @@
     "MIL": 2
    },
    "strength": {
-    "DET": 8.49,
+    "DET": 9.57,
     "MIL": -5.54
    },
    "team_term": {
@@ -277,50 +288,50 @@
    "top_players": {
     "DET": [
      {
-      "impact": 1.64,
-      "minutes": 28.2,
+      "impact": 1.81,
+      "minutes": 31.1,
       "player": "Kevin Huerter",
       "rating": 2.79
      },
      {
-      "impact": 1.24,
-      "minutes": 23.8,
+      "impact": 1.37,
+      "minutes": 26.2,
       "player": "Paul Reed",
       "rating": 2.51
      },
      {
-      "impact": 1.18,
-      "minutes": 16.4,
+      "impact": 1.31,
+      "minutes": 18.1,
       "player": "Isaiah Joe",
       "rating": 3.46
      },
      {
-      "impact": 1.01,
-      "minutes": 19.4,
+      "impact": 1.11,
+      "minutes": 21.4,
       "player": "Javonte Green",
       "rating": 2.49
      },
      {
-      "impact": 0.68,
-      "minutes": 29.2,
+      "impact": 0.75,
+      "minutes": 32.2,
       "player": "Ausar Thompson",
       "rating": 1.11
      },
      {
-      "impact": 0.35,
-      "minutes": 14.1,
+      "impact": 0.39,
+      "minutes": 15.5,
       "player": "Ronald Holland II",
       "rating": 1.21
      },
      {
-      "impact": 0.14,
-      "minutes": 7.6,
+      "impact": 0.16,
+      "minutes": 8.4,
       "player": "Chaz Lanier",
       "rating": 0.89
      },
      {
       "impact": -0.01,
-      "minutes": 3.9,
+      "minutes": 4.3,
       "player": "Tolu Smith",
       "rating": -0.08
      }
@@ -380,9 +391,9 @@
  },
  "401909328": {
   "away": "PHI",
-  "chance": 0.5052,
+  "chance": 0.5036,
   "date": "2026-11-27",
-  "edge_vs_market": 0.1052,
+  "edge_vs_market": 0.0835,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.41,
@@ -396,22 +407,22 @@
     "teleios_p_home_cover": 0.618
    }
   },
-  "frozen_at": "2026-11-26 19:50 UTC",
+  "frozen_at": "2026-11-26 22:36 UTC",
   "game_id": 401909328,
   "home": "IND",
   "locked": false,
-  "margin": 0.17,
-  "market_p_home": 0.4,
+  "margin": -0.12,
+  "market_p_home": 0.4129,
   "neutral": false,
-  "p_home": 0.5052,
-  "pick": "IND",
+  "p_home": 0.4964,
+  "pick": "PHI",
   "spread": {
    "home_line": 2.5,
-   "market_p_home_cover": 0.495,
+   "market_p_home_cover": 0.5,
    "pick": "IND",
    "pick_line": 2.5,
    "source": "Kalshi",
-   "teleios_p_home_cover": 0.5828
+   "teleios_p_home_cover": 0.5741
   },
   "tip_utc": "2026-11-28 00:30:00+00:00",
   "why": {
@@ -436,6 +447,12 @@
      }
     ],
     "PHI": [
+     {
+      "minutes": 31.0,
+      "pid": 3917376,
+      "player": "Jaylen Brown",
+      "status": "Out"
+     },
      {
       "minutes": 8.1,
       "pid": 4871141,
@@ -464,11 +481,6 @@
     ],
     "PHI": [
      {
-      "pid": 3917376,
-      "player": "Jaylen Brown",
-      "status": "Day-To-Day"
-     },
-     {
       "pid": 3059318,
       "player": "Joel Embiid",
       "status": "Day-To-Day"
@@ -481,7 +493,7 @@
    },
    "strength": {
     "IND": -0.44,
-    "PHI": 1.49
+    "PHI": 1.77
    },
    "team_term": {
     "IND": -2.31,
@@ -540,52 +552,52 @@
     ],
     "PHI": [
      {
-      "impact": 2.18,
-      "minutes": 28.2,
+      "impact": 2.34,
+      "minutes": 30.2,
       "player": "VJ Edgecombe",
       "rating": 3.72
      },
      {
-      "impact": 1.25,
-      "minutes": 28.5,
+      "impact": 1.34,
+      "minutes": 30.6,
       "player": "Tyrese Maxey",
       "rating": 2.1
      },
      {
-      "impact": 0.87,
-      "minutes": 16.6,
+      "impact": 0.93,
+      "minutes": 17.8,
       "player": "Joel Embiid",
       "rating": 2.51
      },
      {
-      "impact": 0.45,
-      "minutes": 21.4,
+      "impact": 0.49,
+      "minutes": 22.9,
       "player": "Dean Wade",
       "rating": 1.01
      },
      {
-      "impact": 0.41,
-      "minutes": 26.3,
+      "impact": 0.43,
+      "minutes": 28.1,
       "player": "LeBron James",
       "rating": 0.74
      },
      {
       "impact": -0.01,
-      "minutes": 17.3,
+      "minutes": 18.5,
       "player": "Anfernee Simons",
       "rating": -0.03
      },
      {
-      "impact": -0.01,
-      "minutes": 4.1,
+      "impact": -0.02,
+      "minutes": 4.4,
       "player": "Tacko Fall",
       "rating": -0.17
      },
      {
-      "impact": -0.04,
-      "minutes": 16.1,
-      "player": "Jaylen Brown",
-      "rating": -0.11
+      "impact": -0.07,
+      "minutes": 10.6,
+      "player": "Adem Bona",
+      "rating": -0.3
      }
     ]
    }
@@ -593,31 +605,31 @@
  },
  "401909329": {
   "away": "BKN",
-  "chance": 0.7382,
+  "chance": 0.7399,
   "date": "2026-11-27",
-  "edge_vs_market": 0.0019,
+  "edge_vs_market": 0.0049,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.755,
    "p_home": 0.7462,
    "spread": null
   },
-  "frozen_at": "2026-11-26 19:50 UTC",
+  "frozen_at": "2026-11-26 22:36 UTC",
   "game_id": 401909329,
   "home": "TOR",
   "locked": false,
-  "margin": 8.13,
-  "market_p_home": 0.7363,
+  "margin": 8.2,
+  "market_p_home": 0.735,
   "neutral": false,
-  "p_home": 0.7382,
+  "p_home": 0.7399,
   "pick": "TOR",
   "spread": {
    "home_line": -8.5,
-   "market_p_home_cover": 0.485,
+   "market_p_home_cover": 0.48,
    "pick": "BKN",
    "pick_line": 8.5,
    "source": "Kalshi",
-   "teleios_p_home_cover": 0.4885
+   "teleios_p_home_cover": 0.4906
   },
   "tip_utc": "2026-11-28 00:30:00+00:00",
   "why": {
@@ -658,7 +670,13 @@
    },
    "questionable": {
     "BKN": [],
-    "TOR": []
+    "TOR": [
+     {
+      "pid": 4702656,
+      "player": "Alijah Martin",
+      "status": "Day-To-Day"
+     }
+    ]
    },
    "rest_days": {
     "BKN": 2,
@@ -666,7 +684,7 @@
    },
    "strength": {
     "BKN": -5.36,
-    "TOR": 0.78
+    "TOR": 0.85
    },
    "team_term": {
     "BKN": -5.0,
@@ -725,50 +743,50 @@
     ],
     "TOR": [
      {
-      "impact": 0.86,
-      "minutes": 28.7,
+      "impact": 0.88,
+      "minutes": 29.2,
       "player": "Immanuel Quickley",
       "rating": 1.44
      },
      {
-      "impact": 0.54,
-      "minutes": 32.1,
+      "impact": 0.55,
+      "minutes": 32.6,
       "player": "Scottie Barnes",
       "rating": 0.8
      },
      {
-      "impact": 0.36,
-      "minutes": 22.6,
+      "impact": 0.37,
+      "minutes": 23.0,
       "player": "Jakob Poeltl",
       "rating": 0.76
      },
      {
       "impact": 0.11,
-      "minutes": 7.8,
+      "minutes": 7.9,
       "player": "Trayce Jackson-Davis",
       "rating": 0.65
      },
      {
       "impact": 0.09,
-      "minutes": 30.2,
+      "minutes": 30.7,
       "player": "Ja'Kobe Walter",
       "rating": 0.14
      },
      {
       "impact": 0.06,
-      "minutes": 18.4,
+      "minutes": 18.8,
       "player": "Allen Graves",
       "rating": 0.16
      },
      {
       "impact": -0.01,
-      "minutes": 2.2,
+      "minutes": 2.3,
       "player": "Jaden Bradley",
       "rating": -0.2
      },
      {
       "impact": -0.1,
-      "minutes": 3.7,
+      "minutes": 3.8,
       "player": "Kevin McCullar Jr.",
       "rating": -1.28
      }
@@ -780,7 +798,7 @@
   "away": "ATL",
   "chance": 0.7654,
   "date": "2026-11-27",
-  "edge_vs_market": 0.0004,
+  "edge_vs_market": -0.0034,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.755,
@@ -794,18 +812,18 @@
     "teleios_p_home_cover": 0.4895
    }
   },
-  "frozen_at": "2026-11-26 19:50 UTC",
+  "frozen_at": "2026-11-26 22:36 UTC",
   "game_id": 401909330,
   "home": "BOS",
   "locked": false,
   "margin": 9.23,
-  "market_p_home": 0.765,
+  "market_p_home": 0.7688,
   "neutral": false,
   "p_home": 0.7654,
   "pick": "BOS",
   "spread": {
    "home_line": -9.5,
-   "market_p_home_cover": 0.505,
+   "market_p_home_cover": 0.5,
    "pick": "ATL",
    "pick_line": 9.5,
    "source": "Kalshi",
@@ -977,25 +995,25 @@
   "away": "MEM",
   "chance": 0.7053,
   "date": "2026-11-27",
-  "edge_vs_market": 0.1282,
+  "edge_vs_market": 0.1211,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.605,
    "p_home": 0.7184,
    "spread": null
   },
-  "frozen_at": "2026-11-26 19:50 UTC",
+  "frozen_at": "2026-11-26 22:36 UTC",
   "game_id": 401909331,
   "home": "MIN",
   "locked": false,
   "margin": 6.88,
-  "market_p_home": 0.5771,
+  "market_p_home": 0.5842,
   "neutral": false,
   "p_home": 0.7053,
   "pick": "MIN",
   "spread": {
    "home_line": -3.5,
-   "market_p_home_cover": 0.49,
+   "market_p_home_cover": 0.495,
    "pick": "MIN",
    "pick_line": -3.5,
    "source": "Kalshi",
@@ -1190,19 +1208,19 @@
   "away": "DAL",
   "chance": 0.5389,
   "date": "2026-11-27",
-  "edge_vs_market": -0.0084,
+  "edge_vs_market": -0.0034,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.52,
    "p_home": 0.5457,
    "spread": null
   },
-  "frozen_at": "2026-11-26 19:50 UTC",
+  "frozen_at": "2026-11-26 22:36 UTC",
   "game_id": 401909332,
   "home": "PHX",
   "locked": false,
   "margin": 1.24,
-  "market_p_home": 0.5473,
+  "market_p_home": 0.5423,
   "neutral": false,
   "p_home": 0.5389,
   "pick": "PHX",
@@ -1375,7 +1393,7 @@
   "away": "LAL",
   "chance": 0.689,
   "date": "2026-11-27",
-  "edge_vs_market": 0.0472,
+  "edge_vs_market": 0.0504,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.6176,
@@ -1389,18 +1407,18 @@
     "teleios_p_home_cover": 0.5011
    }
   },
-  "frozen_at": "2026-11-26 19:50 UTC",
+  "frozen_at": "2026-11-26 22:36 UTC",
   "game_id": 401909333,
   "home": "SAS",
   "locked": false,
   "margin": 6.29,
-  "market_p_home": 0.6418,
+  "market_p_home": 0.6386,
   "neutral": false,
   "p_home": 0.689,
   "pick": "SAS",
   "spread": {
    "home_line": -5.5,
-   "market_p_home_cover": 0.51,
+   "market_p_home_cover": 0.5,
    "pick": "SAS",
    "pick_line": -5.5,
    "source": "Kalshi",
@@ -1567,7 +1585,7 @@
   "away": "DEN",
   "chance": 0.7425,
   "date": "2026-11-27",
-  "edge_vs_market": 0.0436,
+  "edge_vs_market": 0.0425,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.2032,
@@ -1581,12 +1599,12 @@
     "teleios_p_home_cover": 0.5412
    }
   },
-  "frozen_at": "2026-11-26 19:50 UTC",
+  "frozen_at": "2026-11-26 22:36 UTC",
   "game_id": 401909334,
   "home": "UTA",
   "locked": false,
   "margin": -8.3,
-  "market_p_home": 0.2139,
+  "market_p_home": 0.215,
   "neutral": false,
   "p_home": 0.2575,
   "pick": "DEN",
@@ -1765,7 +1783,7 @@
    "p_home": 0.6138,
    "spread": null
   },
-  "frozen_at": "2026-11-26 19:50 UTC",
+  "frozen_at": "2026-11-26 22:36 UTC",
   "game_id": 401909335,
   "home": "LAC",
   "locked": false,
@@ -1776,7 +1794,7 @@
   "pick": "LAC",
   "spread": {
    "home_line": -3.5,
-   "market_p_home_cover": 0.49,
+   "market_p_home_cover": 0.495,
    "pick": "NOP",
    "pick_line": 3.5,
    "source": "Kalshi",
@@ -1955,25 +1973,25 @@
   "away": "GSW",
   "chance": 0.7719,
   "date": "2026-11-27",
-  "edge_vs_market": 0.0169,
+  "edge_vs_market": 0.0081,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.735,
    "p_home": 0.7726,
    "spread": null
   },
-  "frozen_at": "2026-11-26 19:50 UTC",
+  "frozen_at": "2026-11-26 22:36 UTC",
   "game_id": 401909336,
   "home": "POR",
   "locked": false,
   "margin": 9.5,
-  "market_p_home": 0.755,
+  "market_p_home": 0.7638,
   "neutral": false,
   "p_home": 0.7719,
   "pick": "POR",
   "spread": {
    "home_line": -8.5,
-   "market_p_home_cover": 0.52,
+   "market_p_home_cover": 0.51,
    "pick": "POR",
    "pick_line": -8.5,
    "source": "Kalshi",

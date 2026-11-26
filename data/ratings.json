@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-26 19:50 UTC",
+ "as_of": "2026-11-26 22:36 UTC",
  "games_in_fit": 2464,
  "situation_effects": {
   "home_court": 1.407,
@@ -266,7 +266,7 @@
      "rating": -1.34
     }
    ],
-   "rank_now": 5
+   "rank_now": 6
   },
   "CHA": {
    "name": "Charlotte Hornets",
@@ -608,7 +608,7 @@
      "rating": -2.4
     }
    ],
-   "rank_now": 15
+   "rank_now": 14
   },
   "DEN": {
    "name": "Denver Nuggets",
@@ -708,86 +708,80 @@
   },
   "DET": {
    "name": "Detroit Pistons",
-   "strength_now": 8.49,
+   "strength_now": 9.57,
    "strength_healthy": 7.66,
    "team_term": 3.25,
    "out": [
+    "Cade Cunningham",
     "Jalen Duren",
     "Ebuka Okorie",
     "Taurean Prince",
     "Duncan Robinson"
    ],
-   "questionable": [
-    "Cade Cunningham"
-   ],
+   "questionable": [],
    "rotation": [
     {
      "player": "Kevin Huerter",
-     "minutes": 28.2,
+     "minutes": 31.1,
      "rating": 2.79
     },
     {
      "player": "Paul Reed",
-     "minutes": 23.8,
+     "minutes": 26.2,
      "rating": 2.51
     },
     {
      "player": "Isaiah Joe",
-     "minutes": 16.4,
+     "minutes": 18.1,
      "rating": 3.46
     },
     {
      "player": "Javonte Green",
-     "minutes": 19.4,
+     "minutes": 21.4,
      "rating": 2.49
     },
     {
      "player": "Ausar Thompson",
-     "minutes": 29.2,
+     "minutes": 32.2,
      "rating": 1.11
     },
     {
      "player": "Ronald Holland II",
-     "minutes": 14.1,
+     "minutes": 15.5,
      "rating": 1.21
     },
     {
      "player": "Chaz Lanier",
-     "minutes": 7.6,
+     "minutes": 8.4,
      "rating": 0.89
     },
     {
      "player": "Tolu Smith",
-     "minutes": 3.9,
+     "minutes": 4.3,
      "rating": -0.08
     },
     {
      "player": "Isaac Jones",
-     "minutes": 1.8,
+     "minutes": 2.0,
      "rating": -0.3
     },
     {
      "player": "Daniss Jenkins",
-     "minutes": 32.4,
+     "minutes": 35.7,
      "rating": -0.05
     },
     {
      "player": "Elijah Harkless",
-     "minutes": 17.5,
+     "minutes": 19.3,
      "rating": -0.33
     },
     {
      "player": "John Collins",
-     "minutes": 23.6,
+     "minutes": 26.0,
      "rating": -0.68
-    },
-    {
-     "player": "Cade Cunningham",
-     "minutes": 22.1,
-     "rating": -1.09
     }
    ],
-   "rank_now": 6
+   "rank_now": 4
   },
   "GSW": {
    "name": "Golden State Warriors",
@@ -964,7 +958,7 @@
      "rating": -1.87
     }
    ],
-   "rank_now": 4
+   "rank_now": 5
   },
   "IND": {
    "name": "Indiana Pacers",
@@ -1336,99 +1330,102 @@
   },
   "MIA": {
    "name": "Miami Heat",
-   "strength_now": 3.47,
+   "strength_now": 2.94,
    "strength_healthy": 3.47,
    "team_term": 1.02,
    "out": [],
-   "questionable": [],
+   "questionable": [
+    "Giannis Antetokounmpo",
+    "Andrew Wiggins"
+   ],
    "rotation": [
     {
      "player": "Giannis Antetokounmpo",
-     "minutes": 26.9,
+     "minutes": 18.8,
      "rating": 2.95
     },
     {
      "player": "Bam Adebayo",
-     "minutes": 27.2,
+     "minutes": 29.2,
      "rating": 1.23
     },
     {
      "player": "Davion Mitchell",
-     "minutes": 30.2,
+     "minutes": 32.5,
      "rating": 0.81
     },
     {
      "player": "Myron Gardner",
-     "minutes": 8.8,
+     "minutes": 9.4,
      "rating": 2.58
     },
     {
      "player": "Ryan Conwell",
-     "minutes": 18.6,
+     "minutes": 20.0,
      "rating": 0.96
     },
     {
      "player": "Simone Fontecchio",
-     "minutes": 9.2,
+     "minutes": 9.9,
      "rating": 1.28
     },
     {
-     "player": "Andrew Wiggins",
-     "minutes": 21.7,
-     "rating": 0.52
-    },
-    {
      "player": "Dru Smith",
-     "minutes": 3.7,
+     "minutes": 4.0,
      "rating": 2.38
     },
     {
+     "player": "Andrew Wiggins",
+     "minutes": 15.2,
+     "rating": 0.52
+    },
+    {
      "player": "Keshad Johnson",
-     "minutes": 7.9,
+     "minutes": 8.5,
      "rating": 0.35
     },
     {
      "player": "Bobby Portis",
-     "minutes": 15.6,
+     "minutes": 16.8,
      "rating": 0.04
     },
     {
      "player": "Vladislav Goldin",
-     "minutes": 1.0,
+     "minutes": 1.1,
      "rating": -0.2
     },
     {
      "player": "Tre Donaldson",
-     "minutes": 1.4,
+     "minutes": 1.5,
      "rating": -0.37
     },
     {
      "player": "Tim Hardaway Jr.",
-     "minutes": 6.4,
+     "minutes": 6.9,
      "rating": -0.21
     },
     {
      "player": "Nick Richards",
-     "minutes": 7.2,
+     "minutes": 7.7,
      "rating": -1.22
     },
     {
      "player": "Nikola Jovic",
-     "minutes": 10.4,
+     "minutes": 11.2,
      "rating": -0.9
     },
     {
      "player": "Pelle Larsson",
-     "minutes": 23.0,
+     "minutes": 24.7,
      "rating": -1.62
     },
     {
      "player": "Klay Thompson",
-     "minutes": 20.8,
+     "minutes": 22.4,
      "rating": -1.83
     }
    ],
-   "rank_now": 14
+   "rank_now": 15
   },
   "MIL": {
    "name": "Milwaukee Bucks",
@@ -1964,95 +1961,90 @@
   },
   "PHI": {
    "name": "Philadelphia 76ers",
-   "strength_now": 1.49,
+   "strength_now": 1.77,
    "strength_healthy": 1.61,
    "team_term": -1.9,
    "out": [
+    "Jaylen Brown",
     "Ariel Hukporti"
    ],
    "questionable": [
-    "Jaylen Brown",
     "Joel Embiid"
    ],
    "rotation": [
     {
      "player": "VJ Edgecombe",
-     "minutes": 28.2,
+     "minutes": 30.2,
      "rating": 3.72
     },
     {
      "player": "Tyrese Maxey",
-     "minutes": 28.5,
+     "minutes": 30.6,
      "rating": 2.1
     },
     {
      "player": "Joel Embiid",
-     "minutes": 16.6,
+     "minutes": 17.8,
      "rating": 2.51
     },
     {
      "player": "Dean Wade",
-     "minutes": 21.4,
+     "minutes": 22.9,
      "rating": 1.01
     },
     {
      "player": "LeBron James",
-     "minutes": 26.3,
+     "minutes": 28.1,
      "rating": 0.74
     },
     {
      "player": "Anfernee Simons",
-     "minutes": 17.3,
+     "minutes": 18.5,
      "rating": -0.03
     },
     {
      "player": "Tacko Fall",
-     "minutes": 4.1,
+     "minutes": 4.4,
      "rating": -0.17
     },
     {
-     "player": "Jaylen Brown",
-     "minutes": 16.1,
-     "rating": -0.11
-    },
-    {
      "player": "Adem Bona",
-     "minutes": 9.9,
+     "minutes": 10.6,
      "rating": -0.3
     },
     {
      "player": "Labaron Philon Jr.",
-     "minutes": 5.2,
+     "minutes": 5.6,
      "rating": -0.57
     },
     {
      "player": "Kentavious Caldwell-Pope",
-     "minutes": 19.8,
+     "minutes": 21.3,
      "rating": -0.27
     },
     {
      "player": "Jabari Walker",
-     "minutes": 12.6,
+     "minutes": 13.5,
      "rating": -0.48
     },
     {
      "player": "Dominick Barlow",
-     "minutes": 10.9,
+     "minutes": 11.7,
      "rating": -0.58
     },
     {
      "player": "Caleb Love",
-     "minutes": 7.7,
+     "minutes": 8.3,
      "rating": -0.87
     },
     {
      "player": "Justin Edwards",
-     "minutes": 5.4,
+     "minutes": 5.8,
      "rating": -2.13
     },
     {
      "player": "Rayan Rupert",
-     "minutes": 10.1,
+     "minutes": 10.8,
      "rating": -3.93
     }
    ],
@@ -2416,83 +2408,85 @@
   },
   "TOR": {
    "name": "Toronto Raptors",
-   "strength_now": 0.78,
+   "strength_now": 0.85,
    "strength_healthy": 3.45,
    "team_term": 0.42,
    "out": [
     "RJ Barrett",
     "Kawhi Leonard"
    ],
-   "questionable": [],
+   "questionable": [
+    "Alijah Martin"
+   ],
    "rotation": [
     {
      "player": "Immanuel Quickley",
-     "minutes": 28.7,
+     "minutes": 29.2,
      "rating": 1.44
     },
     {
      "player": "Scottie Barnes",
-     "minutes": 32.1,
+     "minutes": 32.6,
      "rating": 0.8
     },
     {
      "player": "Jakob Poeltl",
-     "minutes": 22.6,
+     "minutes": 23.0,
      "rating": 0.76
     },
     {
      "player": "Trayce Jackson-Davis",
-     "minutes": 7.8,
+     "minutes": 7.9,
      "rating": 0.65
     },
     {
      "player": "Ja'Kobe Walter",
-     "minutes": 30.2,
+     "minutes": 30.7,
      "rating": 0.14
     },
     {
      "player": "Allen Graves",
-     "minutes": 18.4,
+     "minutes": 18.8,
      "rating": 0.16
     },
     {
      "player": "Jaden Bradley",
-     "minutes": 2.2,
+     "minutes": 2.3,
      "rating": -0.2
     },
     {
      "player": "Kevin McCullar Jr.",
-     "minutes": 3.7,
+     "minutes": 3.8,
      "rating": -1.28
     },
     {
+     "player": "Alijah Martin",
+     "minutes": 7.7,
+     "rating": -0.7
+    },
+    {
      "player": "Jamison Battle",
-     "minutes": 16.8,
+     "minutes": 17.0,
      "rating": -0.33
     },
     {
      "player": "Collin Murray-Boyles",
-     "minutes": 22.2,
+     "minutes": 22.6,
      "rating": -0.27
     },
     {
-     "player": "Alijah Martin",
-     "minutes": 11.6,
-     "rating": -0.7
-    },
-    {
      "player": "Kyle Anderson",
-     "minutes": 7.0,
+     "minutes": 7.1,
      "rating": -1.72
     },
     {
      "player": "Jamal Shead",
-     "minutes": 21.2,
+     "minutes": 21.6,
      "rating": -0.99
     },
     {
      "player": "Malachi Smith",
-     "minutes": 15.6,
+     "minutes": 15.8,
      "rating": -1.36
     }
    ],
@@ -2823,20 +2817,20 @@
    "recent_minutes_weight": 1140.0
   },
   {
-   "pid": 4683692,
-   "player": "Cason Wallace",
-   "team": "OKC",
-   "rating": 2.79,
-   "box_prior": 0.83,
-   "recent_minutes_weight": 1353.0
-  },
-  {
    "pid": 4066372,
    "player": "Kevin Huerter",
    "team": "DET",
    "rating": 2.79,
    "box_prior": 0.16,
    "recent_minutes_weight": 1257.0
+  },
+  {
+   "pid": 4683692,
+   "player": "Cason Wallace",
+   "team": "OKC",
+   "rating": 2.79,
+   "box_prior": 0.83,
+   "recent_minutes_weight": 1353.0
   },
   {
    "pid": 3032976,
@@ -3055,20 +3049,20 @@
    "recent_minutes_weight": 1523.0
   },
   {
-   "pid": 4066211,
-   "player": "Robert Williams III",
-   "team": "POR",
-   "rating": 2.17,
-   "box_prior": 0.79,
-   "recent_minutes_weight": 750.0
-  },
-  {
    "pid": 4432811,
    "player": "Josh Green",
    "team": "UTA",
    "rating": 2.17,
    "box_prior": -0.57,
    "recent_minutes_weight": 894.0
+  },
+  {
+   "pid": 4066211,
+   "player": "Robert Williams III",
+   "team": "POR",
+   "rating": 2.17,
+   "box_prior": 0.79,
+   "recent_minutes_weight": 750.0
   },
   {
    "pid": 3138196,
@@ -3239,20 +3233,20 @@
    "recent_minutes_weight": 870.0
   },
   {
-   "pid": 3945274,
-   "player": "Luka Doncic",
-   "team": "LAL",
-   "rating": 1.73,
-   "box_prior": 1.78,
-   "recent_minutes_weight": 1678.0
-  },
-  {
    "pid": 4871144,
    "player": "Alperen Sengun",
    "team": "HOU",
    "rating": 1.73,
    "box_prior": 0.76,
    "recent_minutes_weight": 1910.0
+  },
+  {
+   "pid": 3945274,
+   "player": "Luka Doncic",
+   "team": "LAL",
+   "rating": 1.73,
+   "box_prior": 1.78,
+   "recent_minutes_weight": 1678.0
   },
   {
    "pid": 4433287,
@@ -3271,20 +3265,20 @@
    "recent_minutes_weight": 1213.0
   },
   {
-   "pid": 2991230,
-   "player": "Fred VanVleet",
-   "team": "HOU",
-   "rating": 1.68,
-   "box_prior": 1.05,
-   "recent_minutes_weight": 687.0
-  },
-  {
    "pid": 4066354,
    "player": "Payton Pritchard",
    "team": "BOS",
    "rating": 1.68,
    "box_prior": 0.72,
    "recent_minutes_weight": 1911.0
+  },
+  {
+   "pid": 2991230,
+   "player": "Fred VanVleet",
+   "team": "HOU",
+   "rating": 1.68,
+   "box_prior": 1.05,
+   "recent_minutes_weight": 687.0
   },
   {
    "pid": 4222252,
@@ -3343,14 +3337,6 @@
    "recent_minutes_weight": 1046.0
   },
   {
-   "pid": 4395723,
-   "player": "Keldon Johnson",
-   "team": "SAS",
-   "rating": 1.59,
-   "box_prior": 0.37,
-   "recent_minutes_weight": 1642.0
-  },
-  {
    "pid": 3934723,
    "player": "Thomas Bryant",
    "team": "CLE",
@@ -3359,12 +3345,12 @@
    "recent_minutes_weight": 671.0
   },
   {
-   "pid": 4395712,
-   "player": "Andrew Nembhard",
-   "team": "IND",
-   "rating": 1.58,
-   "box_prior": 0.24,
-   "recent_minutes_weight": 1527.0
+   "pid": 4395723,
+   "player": "Keldon Johnson",
+   "team": "SAS",
+   "rating": 1.59,
+   "box_prior": 0.37,
+   "recent_minutes_weight": 1642.0
   },
   {
    "pid": 3062679,
@@ -3373,6 +3359,14 @@
    "rating": 1.58,
    "box_prior": 0.53,
    "recent_minutes_weight": 2021.0
+  },
+  {
+   "pid": 4395712,
+   "player": "Andrew Nembhard",
+   "team": "IND",
+   "rating": 1.58,
+   "box_prior": 0.24,
+   "recent_minutes_weight": 1527.0
   },
   {
    "pid": 4566434,
@@ -3455,20 +3449,20 @@
    "recent_minutes_weight": 380.0
   },
   {
-   "pid": 2595516,
-   "player": "Norman Powell",
-   "team": "CHI",
-   "rating": 1.38,
-   "box_prior": 0.54,
-   "recent_minutes_weight": 1271.0
-  },
-  {
    "pid": 2530530,
    "player": "T.J. McConnell",
    "team": "IND",
    "rating": 1.38,
    "box_prior": 0.94,
    "recent_minutes_weight": 693.0
+  },
+  {
+   "pid": 2595516,
+   "player": "Norman Powell",
+   "team": "CHI",
+   "rating": 1.38,
+   "box_prior": 0.54,
+   "recent_minutes_weight": 1271.0
   },
   {
    "pid": 4601023,
@@ -3551,20 +3545,20 @@
    "recent_minutes_weight": 676.0
   },
   {
-   "pid": 4066261,
-   "player": "Bam Adebayo",
-   "team": "MIA",
-   "rating": 1.23,
-   "box_prior": 1.65,
-   "recent_minutes_weight": 1818.0
-  },
-  {
    "pid": 4592691,
    "player": "Jake LaRavia",
    "team": "LAL",
    "rating": 1.23,
    "box_prior": -0.2,
    "recent_minutes_weight": 1413.0
+  },
+  {
+   "pid": 4066261,
+   "player": "Bam Adebayo",
+   "team": "MIA",
+   "rating": 1.23,
+   "box_prior": 1.65,
+   "recent_minutes_weight": 1818.0
   },
   {
    "pid": 4683771,
@@ -3647,20 +3641,20 @@
    "recent_minutes_weight": 735.0
   },
   {
-   "pid": 4066320,
-   "player": "Desmond Bane",
-   "team": "ORL",
-   "rating": 1.07,
-   "box_prior": 0.65,
-   "recent_minutes_weight": 2108.0
-  },
-  {
    "pid": 4348700,
    "player": "Goga Bitadze",
    "team": "ORL",
    "rating": 1.07,
    "box_prior": 0.79,
    "recent_minutes_weight": 758.0
+  },
+  {
+   "pid": 4066320,
+   "player": "Desmond Bane",
+   "team": "ORL",
+   "rating": 1.07,
+   "box_prior": 0.65,
+   "recent_minutes_weight": 2108.0
   },
   {
    "pid": 4432822,
@@ -3703,20 +3697,20 @@
    "recent_minutes_weight": 129.0
   },
   {
-   "pid": 2990969,
-   "player": "Georges Niang",
-   "team": "GSW",
-   "rating": 1.01,
-   "box_prior": -0.41,
-   "recent_minutes_weight": 484.0
-  },
-  {
    "pid": 4066650,
    "player": "Zach Collins",
    "team": "CHI",
    "rating": 1.01,
    "box_prior": -0.04,
    "recent_minutes_weight": 311.0
+  },
+  {
+   "pid": 2990969,
+   "player": "Georges Niang",
+   "team": "GSW",
+   "rating": 1.01,
+   "box_prior": -0.41,
+   "recent_minutes_weight": 484.0
   },
   {
    "pid": 3912848,
@@ -3727,20 +3721,20 @@
    "recent_minutes_weight": 1270.0
   },
   {
-   "pid": 4395651,
-   "player": "Coby White",
-   "team": "CHA",
-   "rating": 1.0,
-   "box_prior": -0.42,
-   "recent_minutes_weight": 993.0
-  },
-  {
    "pid": 3064440,
    "player": "Zach LaVine",
    "team": "SAC",
    "rating": 1.0,
    "box_prior": -0.32,
    "recent_minutes_weight": 1217.0
+  },
+  {
+   "pid": 4395651,
+   "player": "Coby White",
+   "team": "CHA",
+   "rating": 1.0,
+   "box_prior": -0.42,
+   "recent_minutes_weight": 993.0
   },
   {
    "pid": 3133628,
@@ -3783,14 +3777,6 @@
    "recent_minutes_weight": 263.0
   },
   {
-   "pid": 4278129,
-   "player": "Deandre Ayton",
-   "team": "WAS",
-   "rating": 0.94,
-   "box_prior": 0.01,
-   "recent_minutes_weight": 1248.0
-  },
-  {
    "pid": 4351852,
    "player": "Mitchell Robinson",
    "team": "BOS",
@@ -3799,12 +3785,12 @@
    "recent_minutes_weight": 986.0
   },
   {
-   "pid": 4433249,
-   "player": "Moussa Diabate",
-   "team": "CHA",
-   "rating": 0.93,
-   "box_prior": 0.03,
-   "recent_minutes_weight": 1353.0
+   "pid": 4278129,
+   "player": "Deandre Ayton",
+   "team": "WAS",
+   "rating": 0.94,
+   "box_prior": 0.01,
+   "recent_minutes_weight": 1248.0
   },
   {
    "pid": 4433621,
@@ -3821,6 +3807,14 @@
    "rating": 0.93,
    "box_prior": 0.86,
    "recent_minutes_weight": 1121.0
+  },
+  {
+   "pid": 4433249,
+   "player": "Moussa Diabate",
+   "team": "CHA",
+   "rating": 0.93,
+   "box_prior": 0.03,
+   "recent_minutes_weight": 1353.0
   },
   {
    "pid": 4251,
@@ -3895,20 +3889,20 @@
    "recent_minutes_weight": 1616.0
   },
   {
-   "pid": 4278053,
-   "player": "Davion Mitchell",
-   "team": "MIA",
-   "rating": 0.81,
-   "box_prior": 0.62,
-   "recent_minutes_weight": 1646.0
-  },
-  {
    "pid": 4592492,
    "player": "Bones Hyland",
    "team": "MIN",
    "rating": 0.81,
    "box_prior": 0.98,
    "recent_minutes_weight": 837.0
+  },
+  {
+   "pid": 4278053,
+   "player": "Davion Mitchell",
+   "team": "MIA",
+   "rating": 0.81,
+   "box_prior": 0.62,
+   "recent_minutes_weight": 1646.0
   },
   {
    "pid": 4433134,
@@ -3959,6 +3953,14 @@
    "recent_minutes_weight": 349.0
   },
   {
+   "pid": 4432194,
+   "player": "Day'Ron Sharpe",
+   "team": "BKN",
+   "rating": 0.75,
+   "box_prior": 0.43,
+   "recent_minutes_weight": 962.0
+  },
+  {
    "pid": 3195,
    "player": "Mike Conley",
    "team": "BOS",
@@ -3973,14 +3975,6 @@
    "rating": 0.75,
    "box_prior": 0.06,
    "recent_minutes_weight": 1437.0
-  },
-  {
-   "pid": 4432194,
-   "player": "Day'Ron Sharpe",
-   "team": "BKN",
-   "rating": 0.75,
-   "box_prior": 0.43,
-   "recent_minutes_weight": 962.0
   },
   {
    "pid": 1966,
@@ -4063,20 +4057,20 @@
    "recent_minutes_weight": 680.0
   },
   {
-   "pid": 3102529,
-   "player": "Clint Capela",
-   "team": "HOU",
-   "rating": 0.68,
-   "box_prior": 0.1,
-   "recent_minutes_weight": 543.0
-  },
-  {
    "pid": 4017837,
    "player": "Ivica Zubac",
    "team": "IND",
    "rating": 0.68,
    "box_prior": 0.12,
    "recent_minutes_weight": 1148.0
+  },
+  {
+   "pid": 3102529,
+   "player": "Clint Capela",
+   "team": "HOU",
+   "rating": 0.68,
+   "box_prior": 0.1,
+   "recent_minutes_weight": 543.0
   },
   {
    "pid": 4398207,
@@ -4351,20 +4345,20 @@
    "recent_minutes_weight": 111.0
   },
   {
-   "pid": 3134907,
-   "player": "Kyle Kuzma",
-   "team": "MIL",
-   "rating": 0.37,
-   "box_prior": -0.51,
-   "recent_minutes_weight": 1465.0
-  },
-  {
    "pid": 4702177,
    "player": "Keon Ellis",
    "team": "BKN",
    "rating": 0.37,
    "box_prior": 0.41,
    "recent_minutes_weight": 1170.0
+  },
+  {
+   "pid": 3134907,
+   "player": "Kyle Kuzma",
+   "team": "MIL",
+   "rating": 0.37,
+   "box_prior": -0.51,
+   "recent_minutes_weight": 1465.0
   },
   {
    "pid": 4594326,
@@ -4519,20 +4513,20 @@
    "recent_minutes_weight": 384.0
   },
   {
-   "pid": 4278049,
-   "player": "Daniel Gafford",
-   "team": "DAL",
-   "rating": 0.2,
-   "box_prior": 0.65,
-   "recent_minutes_weight": 969.0
-  },
-  {
    "pid": 4277848,
    "player": "Marvin Bagley III",
    "team": "DEN",
    "rating": 0.2,
    "box_prior": 0.68,
    "recent_minutes_weight": 691.0
+  },
+  {
+   "pid": 4278049,
+   "player": "Daniel Gafford",
+   "team": "DAL",
+   "rating": 0.2,
+   "box_prior": 0.65,
+   "recent_minutes_weight": 969.0
   },
   {
    "pid": 4065663,
@@ -4679,20 +4673,20 @@
    "recent_minutes_weight": 116.0
   },
   {
-   "pid": 2578185,
-   "player": "Dorian Finney-Smith",
-   "team": "ATL",
-   "rating": 0.05,
-   "box_prior": -0.66,
-   "recent_minutes_weight": 547.0
-  },
-  {
    "pid": 5106258,
    "player": "Gradey Dick",
    "team": "LAC",
    "rating": 0.05,
    "box_prior": -0.09,
    "recent_minutes_weight": 757.0
+  },
+  {
+   "pid": 2578185,
+   "player": "Dorian Finney-Smith",
+   "team": "ATL",
+   "rating": 0.05,
+   "box_prior": -0.66,
+   "recent_minutes_weight": 547.0
   },
   {
    "pid": 4592435,
@@ -4767,20 +4761,20 @@
    "recent_minutes_weight": 43.0
   },
   {
-   "pid": 4277843,
-   "player": "Gary Trent Jr.",
-   "team": "MIL",
-   "rating": -0.03,
-   "box_prior": -0.01,
-   "recent_minutes_weight": 844.0
-  },
-  {
    "pid": 4351851,
    "player": "Anfernee Simons",
    "team": "PHI",
    "rating": -0.03,
    "box_prior": 0.41,
    "recent_minutes_weight": 1129.0
+  },
+  {
+   "pid": 4277843,
+   "player": "Gary Trent Jr.",
+   "team": "MIL",
+   "rating": -0.03,
+   "box_prior": -0.01,
+   "recent_minutes_weight": 844.0
   },
   {
    "pid": 5107968,
@@ -4879,20 +4873,20 @@
    "recent_minutes_weight": 20.0
   },
   {
-   "pid": 3934719,
-   "player": "OG Anunoby",
-   "team": "NYK",
-   "rating": -0.15,
-   "box_prior": 0.61,
-   "recent_minutes_weight": 2135.0
-  },
-  {
    "pid": 2583632,
    "player": "Royce O'Neale",
    "team": "CHA",
    "rating": -0.15,
    "box_prior": 0.19,
    "recent_minutes_weight": 1452.0
+  },
+  {
+   "pid": 3934719,
+   "player": "OG Anunoby",
+   "team": "NYK",
+   "rating": -0.15,
+   "box_prior": 0.61,
+   "recent_minutes_weight": 2135.0
   },
   {
    "pid": 4398390,
@@ -5159,20 +5153,20 @@
    "recent_minutes_weight": 964.0
   },
   {
-   "pid": 5105637,
-   "player": "Adem Bona",
-   "team": "PHI",
-   "rating": -0.3,
-   "box_prior": -0.53,
-   "recent_minutes_weight": 839.0
-  },
-  {
    "pid": 5061589,
    "player": "Yves Missi",
    "team": "NOP",
    "rating": -0.3,
    "box_prior": -0.14,
    "recent_minutes_weight": 880.0
+  },
+  {
+   "pid": 5105637,
+   "player": "Adem Bona",
+   "team": "PHI",
+   "rating": -0.3,
+   "box_prior": -0.53,
+   "recent_minutes_weight": 839.0
   },
   {
    "pid": 5107818,
@@ -5463,20 +5457,20 @@
    "recent_minutes_weight": 963.0
   },
   {
-   "pid": 2488653,
-   "player": "Mason Plumlee",
-   "team": "SAC",
-   "rating": -0.56,
-   "box_prior": -0.07,
-   "recent_minutes_weight": 213.0
-  },
-  {
    "pid": 4065778,
    "player": "Max Strus",
    "team": "LAC",
    "rating": -0.56,
    "box_prior": 0.39,
    "recent_minutes_weight": 905.0
+  },
+  {
+   "pid": 2488653,
+   "player": "Mason Plumlee",
+   "team": "SAC",
+   "rating": -0.56,
+   "box_prior": -0.07,
+   "recent_minutes_weight": 213.0
   },
   {
    "pid": 4432847,
