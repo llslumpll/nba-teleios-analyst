@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26 08:52 UTC",
+ "fetched_at": "2026-11-26 19:50 UTC",
  "error": null,
  "players": [
   {
@@ -53,8 +53,8 @@
    "team": "BOS",
    "status": "Out",
    "class": "out",
-   "comment": "Robinson (illness) is out for Tuesday's game against Washington, Taylor Snow of the Celtics' official site reports.",
-   "date": "2026-11-23T21:09Z"
+   "comment": "Robinson (illness) is questionable for Friday's game against the Hawks.",
+   "date": "2026-11-26T19:00Z"
   },
   {
    "player": "Moritz Wagner",
@@ -192,6 +192,15 @@
    "date": "2026-11-17T22:42Z"
   },
   {
+   "player": "Jalen Duren",
+   "pid": 4433621,
+   "team": "DET",
+   "status": "Out",
+   "class": "out",
+   "comment": "Detroit recalled Duren (hamstring) from the G League's Motor City Cruise on Wednesday.",
+   "date": "2026-11-26T15:31Z"
+  },
+  {
    "player": "Cade Cunningham",
    "pid": 4432166,
    "team": "DET",
@@ -226,15 +235,6 @@
    "class": "out",
    "comment": "Robinson (quadriceps) is considered day-to-day as he progresses in his rehab, Eric Vincent of ClutchPoints.com reports.",
    "date": "2026-11-24T18:30Z"
-  },
-  {
-   "player": "Jalen Duren",
-   "pid": 4433621,
-   "team": "DET",
-   "status": "Out",
-   "class": "out",
-   "comment": "Duren (hamstring) is being assigned to the Motor City Cruise on Wednesday for practice as he ramps up for a return, Eric Vincent of ClutchPoints.com reports.",
-   "date": "2026-11-24T18:27Z"
   },
   {
    "player": "Stephen Curry",
@@ -568,6 +568,15 @@
    "class": "out",
    "comment": "Holmgren underwent a biological treatment Friday to address a small patellar tendon tear and will miss at least 8-10 weeks, Nick Crain of Slam reports.",
    "date": "2026-10-31T01:02Z"
+  },
+  {
+   "player": "Colin Castleton",
+   "pid": 4397204,
+   "team": "ORL",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Castleton totaled five points (2-4 FG, 1-1 3Pt) and four rebounds in seven minutes during Tuesday's 132-116 preseason win over the Cavaliers.",
+   "date": "2026-11-26T16:10Z"
   },
   {
    "player": "Jonathan Isaac",

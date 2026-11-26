@@ -1,29 +1,18 @@
 {
- "updated": "2026-11-26 08:52 UTC",
- "games_checked": 261,
+ "updated": "2026-11-26 19:50 UTC",
+ "games_checked": 270,
  "rule": "confirmed = same direction in both halves and |z| >= 2.5",
  "entries": [
   {
    "name": "big_favourites",
    "description": "Favourites the model gave 70%+",
-   "games": 118,
-   "avg_miss_points": -0.66,
-   "earlier_half": 1.24,
-   "later_half": -2.56,
-   "z": -0.49,
+   "games": 120,
+   "avg_miss_points": -0.45,
+   "earlier_half": 1.52,
+   "later_half": -2.42,
+   "z": -0.34,
    "state": "watching",
-   "reading": "Did 0.7 pts worse than predicted on average"
-  },
-  {
-   "name": "home_court",
-   "description": "Home teams vs prediction",
-   "games": 261,
-   "avg_miss_points": -0.11,
-   "earlier_half": -0.63,
-   "later_half": 0.4,
-   "z": -0.13,
-   "state": "watching",
-   "reading": "Did 0.1 pts worse than predicted on average"
+   "reading": "Did 0.5 pts worse than predicted on average"
   },
   {
    "name": "back_to_back",
@@ -37,6 +26,17 @@
    "reading": "Did 0.2 pts worse than predicted on average"
   },
   {
+   "name": "home_court",
+   "description": "Home teams vs prediction",
+   "games": 270,
+   "avg_miss_points": 0.05,
+   "earlier_half": -0.68,
+   "later_half": 0.77,
+   "z": 0.05,
+   "state": "watching",
+   "reading": "Did 0.0 pts better than predicted on average"
+  },
+  {
    "name": "team_ATL",
    "description": "ATL: result vs prediction (all games)",
    "games": 17,
@@ -45,7 +45,7 @@
   {
    "name": "team_BKN",
    "description": "BKN: result vs prediction (all games)",
-   "games": 16,
+   "games": 17,
    "state": "not enough games yet"
   },
   {
@@ -57,19 +57,19 @@
   {
    "name": "team_CHA",
    "description": "CHA: result vs prediction (all games)",
-   "games": 16,
+   "games": 17,
    "state": "not enough games yet"
   },
   {
    "name": "team_CHI",
    "description": "CHI: result vs prediction (all games)",
-   "games": 17,
+   "games": 18,
    "state": "not enough games yet"
   },
   {
    "name": "team_CLE",
    "description": "CLE: result vs prediction (all games)",
-   "games": 18,
+   "games": 19,
    "state": "not enough games yet"
   },
   {
@@ -93,13 +93,13 @@
   {
    "name": "team_GSW",
    "description": "GSW: result vs prediction (all games)",
-   "games": 17,
+   "games": 18,
    "state": "not enough games yet"
   },
   {
    "name": "team_HOU",
    "description": "HOU: result vs prediction (all games)",
-   "games": 18,
+   "games": 19,
    "state": "not enough games yet"
   },
   {
@@ -111,7 +111,7 @@
   {
    "name": "team_LAC",
    "description": "LAC: result vs prediction (all games)",
-   "games": 16,
+   "games": 17,
    "state": "not enough games yet"
   },
   {
@@ -123,25 +123,25 @@
   {
    "name": "team_MEM",
    "description": "MEM: result vs prediction (all games)",
-   "games": 18,
+   "games": 19,
    "state": "not enough games yet"
   },
   {
    "name": "team_MIA",
    "description": "MIA: result vs prediction (all games)",
-   "games": 16,
+   "games": 17,
    "state": "not enough games yet"
   },
   {
    "name": "team_MIL",
    "description": "MIL: result vs prediction (all games)",
-   "games": 18,
+   "games": 19,
    "state": "not enough games yet"
   },
   {
    "name": "team_MIN",
    "description": "MIN: result vs prediction (all games)",
-   "games": 18,
+   "games": 19,
    "state": "not enough games yet"
   },
   {
@@ -153,13 +153,13 @@
   {
    "name": "team_NYK",
    "description": "NYK: result vs prediction (all games)",
-   "games": 17,
+   "games": 18,
    "state": "not enough games yet"
   },
   {
    "name": "team_OKC",
    "description": "OKC: result vs prediction (all games)",
-   "games": 18,
+   "games": 19,
    "state": "not enough games yet"
   },
   {
@@ -171,31 +171,31 @@
   {
    "name": "team_PHI",
    "description": "PHI: result vs prediction (all games)",
-   "games": 18,
+   "games": 19,
    "state": "not enough games yet"
   },
   {
    "name": "team_PHX",
    "description": "PHX: result vs prediction (all games)",
-   "games": 16,
+   "games": 17,
    "state": "not enough games yet"
   },
   {
    "name": "team_POR",
    "description": "POR: result vs prediction (all games)",
-   "games": 17,
+   "games": 18,
    "state": "not enough games yet"
   },
   {
    "name": "team_SAC",
    "description": "SAC: result vs prediction (all games)",
-   "games": 17,
+   "games": 18,
    "state": "not enough games yet"
   },
   {
    "name": "team_SAS",
    "description": "SAS: result vs prediction (all games)",
-   "games": 18,
+   "games": 19,
    "state": "not enough games yet"
   },
   {

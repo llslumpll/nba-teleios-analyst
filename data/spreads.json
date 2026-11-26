@@ -1,26 +1,44 @@
 {
- "fetched_at": "2026-11-26 08:52 UTC",
+ "fetched_at": "2026-11-26 19:50 UTC",
  "error": null,
  "diagnostics": {
-  "kalshi": "5 events, 4 main lines",
-  "espn": "5 lines"
+  "kalshi": "11 events, 11 main lines",
+  "espn": "11 lines"
  },
  "games": [
   {
    "date": "2026-11-27",
    "home": "NYK",
    "away": "MIA",
-   "home_line": -3.5,
-   "market_p_home_cover": 0.51,
+   "home_line": -4.5,
+   "market_p_home_cover": 0.475,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV27MIANYK"
   },
   {
    "date": "2026-11-27",
+   "home": "TOR",
+   "away": "BKN",
+   "home_line": -8.5,
+   "market_p_home_cover": 0.485,
+   "source": "Kalshi",
+   "event": "KXNBASPREAD-26NOV27BKNTOR"
+  },
+  {
+   "date": "2026-11-27",
+   "home": "DET",
+   "away": "MIL",
+   "home_line": -11.5,
+   "market_p_home_cover": 0.505,
+   "source": "Kalshi",
+   "event": "KXNBASPREAD-26NOV27MILDET"
+  },
+  {
+   "date": "2026-11-27",
    "home": "IND",
    "away": "PHI",
-   "home_line": 3.5,
-   "market_p_home_cover": 0.485,
+   "home_line": 2.5,
+   "market_p_home_cover": 0.495,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV27PHIIND"
   },
@@ -29,26 +47,63 @@
    "home": "BOS",
    "away": "ATL",
    "home_line": -9.5,
-   "market_p_home_cover": 0.495,
+   "market_p_home_cover": 0.505,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV27ATLBOS"
+  },
+  {
+   "date": "2026-11-27",
+   "home": "MIN",
+   "away": "MEM",
+   "home_line": -3.5,
+   "market_p_home_cover": 0.49,
+   "source": "Kalshi",
+   "event": "KXNBASPREAD-26NOV27MEMMIN"
+  },
+  {
+   "date": "2026-11-27",
+   "home": "PHX",
+   "away": "DAL",
+   "home_line": -2.5,
+   "market_p_home_cover": 0.51,
+   "source": "Kalshi",
+   "event": "KXNBASPREAD-26NOV27DALPHX"
   },
   {
    "date": "2026-11-27",
    "home": "UTA",
    "away": "DEN",
    "home_line": 9.5,
-   "market_p_home_cover": 0.495,
+   "market_p_home_cover": 0.49,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV27DENUTA"
   },
   {
    "date": "2026-11-27",
+   "home": "POR",
+   "away": "GSW",
+   "home_line": -8.5,
+   "market_p_home_cover": 0.52,
+   "source": "Kalshi",
+   "event": "KXNBASPREAD-26NOV27GSWPOR"
+  },
+  {
+   "date": "2026-11-27",
    "home": "SAS",
    "away": "LAL",
-   "home_line": -6.5,
-   "market_p_home_cover": null,
-   "source": "ESPN (DraftKings)"
+   "home_line": -5.5,
+   "market_p_home_cover": 0.51,
+   "source": "Kalshi",
+   "event": "KXNBASPREAD-26NOV27LALSAS"
+  },
+  {
+   "date": "2026-11-27",
+   "home": "LAC",
+   "away": "NOP",
+   "home_line": -3.5,
+   "market_p_home_cover": 0.49,
+   "source": "Kalshi",
+   "event": "KXNBASPREAD-26NOV27NOPLAC"
   }
  ]
 }
