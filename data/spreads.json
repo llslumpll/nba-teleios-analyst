@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27 03:36 UTC",
+ "fetched_at": "2026-11-27 04:56 UTC",
  "error": null,
  "diagnostics": {
   "kalshi": "11 events, 11 main lines",
@@ -29,7 +29,7 @@
    "home": "DET",
    "away": "MIL",
    "home_line": -8.5,
-   "market_p_home_cover": 0.51,
+   "market_p_home_cover": 0.515,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV27MILDET"
   },
@@ -100,8 +100,8 @@
    "date": "2026-11-27",
    "home": "LAC",
    "away": "NOP",
-   "home_line": -3.5,
-   "market_p_home_cover": 0.485,
+   "home_line": -2.5,
+   "market_p_home_cover": 0.525,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV27NOPLAC"
   }

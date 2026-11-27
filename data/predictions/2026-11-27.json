@@ -3,7 +3,7 @@
   "away": "MIA",
   "chance": 0.7625,
   "date": "2026-11-27",
-  "edge_vs_market": 0.1575,
+  "edge_vs_market": 0.1475,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.59,
@@ -17,12 +17,12 @@
     "teleios_p_home_cover": 0.6317
    }
   },
-  "frozen_at": "2026-11-27 03:36 UTC",
+  "frozen_at": "2026-11-27 04:56 UTC",
   "game_id": 401909326,
   "home": "NYK",
   "locked": false,
   "margin": 9.11,
-  "market_p_home": 0.605,
+  "market_p_home": 0.615,
   "neutral": false,
   "p_home": 0.7625,
   "pick": "NYK",
@@ -210,7 +210,7 @@
    "p_home": 0.8768,
    "spread": null
   },
-  "frozen_at": "2026-11-27 03:36 UTC",
+  "frozen_at": "2026-11-27 04:56 UTC",
   "game_id": 401909327,
   "home": "DET",
   "locked": false,
@@ -221,7 +221,7 @@
   "pick": "DET",
   "spread": {
    "home_line": -8.5,
-   "market_p_home_cover": 0.51,
+   "market_p_home_cover": 0.515,
    "pick": "DET",
    "pick_line": -8.5,
    "source": "Kalshi",
@@ -407,7 +407,7 @@
     "teleios_p_home_cover": 0.618
    }
   },
-  "frozen_at": "2026-11-27 03:36 UTC",
+  "frozen_at": "2026-11-27 04:56 UTC",
   "game_id": 401909328,
   "home": "IND",
   "locked": false,
@@ -614,7 +614,7 @@
    "p_home": 0.7462,
    "spread": null
   },
-  "frozen_at": "2026-11-27 03:36 UTC",
+  "frozen_at": "2026-11-27 04:56 UTC",
   "game_id": 401909329,
   "home": "TOR",
   "locked": false,
@@ -798,7 +798,7 @@
   "away": "ATL",
   "chance": 0.7654,
   "date": "2026-11-27",
-  "edge_vs_market": -0.0096,
+  "edge_vs_market": -0.0046,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.755,
@@ -812,12 +812,12 @@
     "teleios_p_home_cover": 0.4895
    }
   },
-  "frozen_at": "2026-11-27 03:36 UTC",
+  "frozen_at": "2026-11-27 04:56 UTC",
   "game_id": 401909330,
   "home": "BOS",
   "locked": false,
   "margin": 9.23,
-  "market_p_home": 0.775,
+  "market_p_home": 0.77,
   "neutral": false,
   "p_home": 0.7654,
   "pick": "BOS",
@@ -1002,7 +1002,7 @@
    "p_home": 0.7184,
    "spread": null
   },
-  "frozen_at": "2026-11-27 03:36 UTC",
+  "frozen_at": "2026-11-27 04:56 UTC",
   "game_id": 401909331,
   "home": "MIN",
   "locked": false,
@@ -1220,7 +1220,7 @@
    "p_home": 0.5457,
    "spread": null
   },
-  "frozen_at": "2026-11-27 03:36 UTC",
+  "frozen_at": "2026-11-27 04:56 UTC",
   "game_id": 401909332,
   "home": "PHX",
   "locked": false,
@@ -1412,7 +1412,7 @@
     "teleios_p_home_cover": 0.5011
    }
   },
-  "frozen_at": "2026-11-27 03:36 UTC",
+  "frozen_at": "2026-11-27 04:56 UTC",
   "game_id": 401909333,
   "home": "SAS",
   "locked": false,
@@ -1604,7 +1604,7 @@
     "teleios_p_home_cover": 0.5412
    }
   },
-  "frozen_at": "2026-11-27 03:36 UTC",
+  "frozen_at": "2026-11-27 04:56 UTC",
   "game_id": 401909334,
   "home": "UTA",
   "locked": false,
@@ -1788,7 +1788,7 @@
    "p_home": 0.6138,
    "spread": null
   },
-  "frozen_at": "2026-11-27 03:36 UTC",
+  "frozen_at": "2026-11-27 04:56 UTC",
   "game_id": 401909335,
   "home": "LAC",
   "locked": false,
@@ -1798,12 +1798,12 @@
   "p_home": 0.5913,
   "pick": "LAC",
   "spread": {
-   "home_line": -3.5,
-   "market_p_home_cover": 0.485,
-   "pick": "NOP",
-   "pick_line": 3.5,
+   "home_line": -2.5,
+   "market_p_home_cover": 0.525,
+   "pick": "LAC",
+   "pick_line": -2.5,
    "source": "Kalshi",
-   "teleios_p_home_cover": 0.4826
+   "teleios_p_home_cover": 0.5139
   },
   "tip_utc": "2026-11-28 02:30:00+00:00",
   "why": {
@@ -1985,7 +1985,7 @@
    "p_home": 0.7726,
    "spread": null
   },
-  "frozen_at": "2026-11-27 03:36 UTC",
+  "frozen_at": "2026-11-27 04:56 UTC",
   "game_id": 401909336,
   "home": "POR",
   "locked": false,

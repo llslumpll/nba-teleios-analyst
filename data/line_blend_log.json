@@ -254,5 +254,51 @@
    }
   },
   "state": "adopted: average miss 3.6% lower on held-out nights"
+ },
+ {
+  "run_at": "2026-11-27 04:56 UTC",
+  "lines": 1302,
+  "nights": 3,
+  "held_out_nights": [
+   "2026-11-25"
+  ],
+  "fit_nights": [
+   "2026-11-23",
+   "2026-11-24"
+  ],
+  "held_out_lines": 547,
+  "by_stat": {
+   "pts": {
+    "w": 0.8,
+    "held_out_raw_miss": 4.892,
+    "held_out_blended_miss": 4.633,
+    "change": 0.0529
+   },
+   "reb": {
+    "w": 0.3,
+    "held_out_raw_miss": 2.178,
+    "held_out_blended_miss": 2.164,
+    "change": 0.0065
+   },
+   "ast": {
+    "w": 0.7,
+    "held_out_raw_miss": 1.457,
+    "held_out_blended_miss": 1.42,
+    "change": 0.0252
+   },
+   "fg3m": {
+    "w": 0.6,
+    "held_out_raw_miss": 1.154,
+    "held_out_blended_miss": 1.115,
+    "change": 0.0333
+   },
+   "pra": {
+    "w": 0.7,
+    "held_out_raw_miss": 6.767,
+    "held_out_blended_miss": 6.362,
+    "change": 0.0599
+   }
+  },
+  "state": "adopted: average miss 3.6% lower on held-out nights"
  }
 ]

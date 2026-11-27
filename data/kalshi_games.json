@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27 03:36 UTC",
+ "fetched_at": "2026-11-27 04:56 UTC",
  "error": null,
  "games": [
   {
@@ -7,14 +7,14 @@
    "home": "NYK",
    "away": "MIA",
    "event": "KXNBAGAME-26NOV27MIANYK",
-   "p_home": 0.605,
+   "p_home": 0.615,
    "home_bid_ask": [
-    0.6,
-    0.61
+    0.61,
+    0.62
    ],
    "away_bid_ask": [
-    0.39,
-    0.4
+    0.38,
+    0.39
    ]
   },
   {
@@ -67,14 +67,14 @@
    "home": "BOS",
    "away": "ATL",
    "event": "KXNBAGAME-26NOV27ATLBOS",
-   "p_home": 0.775,
+   "p_home": 0.77,
    "home_bid_ask": [
-    0.77,
+    0.76,
     0.78
    ],
    "away_bid_ask": [
     0.22,
-    0.23
+    0.24
    ]
   },
   {
@@ -277,13 +277,13 @@
    "home": "MEM",
    "away": "LAL",
    "event": "KXNBAGAME-26NOV29LALMEM",
-   "p_home": 0.4439,
+   "p_home": 0.4307,
    "home_bid_ask": [
-    0.45,
-    0.46
+    0.43,
+    0.44
    ],
    "away_bid_ask": [
-    0.56,
+    0.57,
     0.58
    ]
   },
@@ -292,13 +292,13 @@
    "home": "UTA",
    "away": "PHX",
    "event": "KXNBAGAME-26NOV29PHXUTA",
-   "p_home": 0.3485,
+   "p_home": 0.3401,
    "home_bid_ask": [
     0.33,
-    0.36
+    0.34
    ],
    "away_bid_ask": [
-    0.63,
+    0.64,
     0.66
    ]
   },
@@ -307,13 +307,13 @@
    "home": "NYK",
    "away": "ATL",
    "event": "KXNBAGAME-26NOV29ATLNYK",
-   "p_home": 0.715,
+   "p_home": 0.72,
    "home_bid_ask": [
     0.71,
-    0.72
+    0.73
    ],
    "away_bid_ask": [
-    0.28,
+    0.27,
     0.29
    ]
   },
@@ -337,14 +337,14 @@
    "home": "POR",
    "away": "NOP",
    "event": "KXNBAGAME-26NOV29NOPPOR",
-   "p_home": 0.785,
+   "p_home": 0.79,
    "home_bid_ask": [
     0.78,
-    0.79
+    0.8
    ],
    "away_bid_ask": [
     0.2,
-    0.23
+    0.22
    ]
   },
   {
@@ -367,14 +367,14 @@
    "home": "GSW",
    "away": "LAC",
    "event": "KXNBAGAME-26NOV29LACGSW",
-   "p_home": 0.62,
+   "p_home": 0.6263,
    "home_bid_ask": [
     0.59,
     0.65
    ],
    "away_bid_ask": [
     0.35,
-    0.41
+    0.39
    ]
   },
   {
@@ -397,14 +397,14 @@
    "home": "DET",
    "away": "DEN",
    "event": "KXNBAGAME-26NOV30DENDET",
-   "p_home": 0.525,
+   "p_home": null,
    "home_bid_ask": [
-    0.47,
-    0.61
+    0.48,
+    0.68
    ],
    "away_bid_ask": [
-    0.44,
-    0.51
+    0.34,
+    0.49
    ]
   },
   {
@@ -418,7 +418,7 @@
     0.7
    ],
    "away_bid_ask": [
-    0.3,
+    0.29,
     0.58
    ]
   },
@@ -427,14 +427,14 @@
    "home": "HOU",
    "away": "LAL",
    "event": "KXNBAGAME-26NOV30LALHOU",
-   "p_home": 0.6256,
+   "p_home": null,
    "home_bid_ask": [
-    0.59,
-    0.68
+    0.53,
+    0.65
    ],
    "away_bid_ask": [
-    0.34,
-    0.42
+    0.35,
+    0.52
    ]
   },
   {
@@ -444,11 +444,11 @@
    "event": "KXNBAGAME-26NOV30OKCBKN",
    "p_home": null,
    "home_bid_ask": [
-    0.18,
-    0.31
+    0.17,
+    0.32
    ],
    "away_bid_ask": [
-    0.72,
+    0.7,
     0.84
    ]
   },
@@ -457,13 +457,13 @@
    "home": "DAL",
    "away": "BOS",
    "event": "KXNBAGAME-26NOV30BOSDAL",
-   "p_home": 0.3663,
+   "p_home": 0.37,
    "home_bid_ask": [
     0.32,
-    0.42
+    0.44
    ],
    "away_bid_ask": [
-    0.61,
+    0.59,
     0.67
    ]
   },
@@ -472,10 +472,10 @@
    "home": "MIL",
    "away": "SAS",
    "event": "KXNBAGAME-26NOV30SASMIL",
-   "p_home": 0.155,
+   "p_home": 0.1465,
    "home_bid_ask": [
-    0.13,
-    0.18
+    0.12,
+    0.17
    ],
    "away_bid_ask": [
     0.81,
@@ -489,12 +489,12 @@
    "event": "KXNBAGAME-26NOV30NOPSAC",
    "p_home": null,
    "home_bid_ask": [
-    0.34,
-    0.57
+    0.32,
+    0.56
    ],
    "away_bid_ask": [
     0.4,
-    0.68
+    0.66
    ]
   },
   {
@@ -504,12 +504,12 @@
    "event": "KXNBAGAME-26DEC01INDCLE",
    "p_home": null,
    "home_bid_ask": [
-    0.66,
-    0.79
+    0.69,
+    0.82
    ],
    "away_bid_ask": [
-    0.18,
-    0.34
+    0.21,
+    0.33
    ]
   },
   {
@@ -520,10 +520,10 @@
    "p_home": null,
    "home_bid_ask": [
     0.6,
-    0.76
+    0.74
    ],
    "away_bid_ask": [
-    0.24,
+    0.26,
     0.47
    ]
   },
@@ -534,12 +534,12 @@
    "event": "KXNBAGAME-26DEC01NYKCHI",
    "p_home": null,
    "home_bid_ask": [
-    0.22,
-    0.35
+    0.23,
+    0.37
    ],
    "away_bid_ask": [
-    0.65,
-    0.81
+    0.66,
+    0.79
    ]
   }
  ]
