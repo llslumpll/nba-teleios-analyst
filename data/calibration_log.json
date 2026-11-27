@@ -142,5 +142,32 @@
   "best": "B_per_stat",
   "gain": 0.0054,
   "state": "adopted B_per_stat: held-out Brier 0.2605 -> 0.2551"
+ },
+ {
+  "run_at": "2026-11-27 00:32 UTC",
+  "lines": 1302,
+  "nights": 3,
+  "held_out_nights": [
+   "2026-11-25"
+  ],
+  "fit_nights": [
+   "2026-11-23",
+   "2026-11-24"
+  ],
+  "held_out_lines": 547,
+  "raw_held_out_brier": 0.2605,
+  "candidates": {
+   "A_global": {
+    "held_out_brier": 0.2554,
+    "per_stat": false
+   },
+   "B_per_stat": {
+    "held_out_brier": 0.2551,
+    "per_stat": true
+   }
+  },
+  "best": "B_per_stat",
+  "gain": 0.0054,
+  "state": "adopted B_per_stat: held-out Brier 0.2605 -> 0.2551"
  }
 ]

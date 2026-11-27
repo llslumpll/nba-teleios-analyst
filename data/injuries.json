@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26 22:36 UTC",
+ "fetched_at": "2026-11-27 00:32 UTC",
  "error": null,
  "players": [
   {
@@ -8,8 +8,8 @@
    "team": "ATL",
    "status": "Out",
    "class": "out",
-   "comment": "Landale (hip) won't play Sunday against the Pistons.",
-   "date": "2026-11-21T22:12Z"
+   "comment": "Landale (hip) is out for Friday's game against the Celtics.",
+   "date": "2026-11-26T22:44Z"
   },
   {
    "player": "Asa Newell",
@@ -161,17 +161,8 @@
    "team": "DAL",
    "status": "Out",
    "class": "out",
-   "comment": "Lawal (groin) is out for Tuesday's game against Denver.",
-   "date": "2026-11-23T23:25Z"
-  },
-  {
-   "player": "Dereck Lively II",
-   "pid": 4683688,
-   "team": "DAL",
-   "status": "Out",
-   "class": "out",
-   "comment": "Head coach Dusty May said Friday that Lively (foot) is moving well and progressing in his recovery, and the big man told May he's \"close\" to returning, Mike Curtis of The Dallas Morning News reports.",
-   "date": "2026-11-20T19:31Z"
+   "comment": "Lawal (groin) is out for Friday's game against the Suns.",
+   "date": "2026-11-27T00:01Z"
   },
   {
    "player": "Sergio de Larrea",
@@ -179,8 +170,17 @@
    "team": "DAL",
    "status": "Out",
    "class": "out",
-   "comment": "De Larrea (knee) is listed as out for Wednesday's game against the Warriors.",
-   "date": "2026-11-17T22:53Z"
+   "comment": "De Larrea (knee) is out for Friday's game against the Suns.",
+   "date": "2026-11-26T23:59Z"
+  },
+  {
+   "player": "Dereck Lively II",
+   "pid": 4683688,
+   "team": "DAL",
+   "status": "Out",
+   "class": "out",
+   "comment": "Lively (foot) is out for Friday's game against the Suns.",
+   "date": "2026-11-26T23:56Z"
   },
   {
    "player": "Tarik Biberovic",
@@ -188,8 +188,17 @@
    "team": "DAL",
    "status": "Out",
    "class": "out",
-   "comment": "Biberovic (heel) is out for Wednesday's game against the Warriors.",
-   "date": "2026-11-17T22:42Z"
+   "comment": "Biberovic (heel) is out for Friday's game against the Suns.",
+   "date": "2026-11-26T23:53Z"
+  },
+  {
+   "player": "Duncan Robinson",
+   "pid": 3157465,
+   "team": "DET",
+   "status": "Out",
+   "class": "out",
+   "comment": "Robinson (quadriceps) is out for Friday's game against the Bucks.",
+   "date": "2026-11-26T22:26Z"
   },
   {
    "player": "Cade Cunningham",
@@ -197,8 +206,8 @@
    "team": "DET",
    "status": "Out",
    "class": "out",
-   "comment": "Cunningham (knee) is listed as out for Tuesday's game against Orlando.",
-   "date": "2026-11-26T22:20Z"
+   "comment": "Cunningham (knee) is out for Friday's game against the Bucks.",
+   "date": "2026-11-26T22:25Z"
   },
   {
    "player": "Jalen Duren",
@@ -226,15 +235,6 @@
    "class": "out",
    "comment": "Prince underwent arthroscopic right knee surgery Nov. 18 and will be re-evaluated in four weeks, Eric Vincent of ClutchPoints.com reports.",
    "date": "2026-11-24T18:33Z"
-  },
-  {
-   "player": "Duncan Robinson",
-   "pid": 3157465,
-   "team": "DET",
-   "status": "Out",
-   "class": "out",
-   "comment": "Robinson (quadriceps) is considered day-to-day as he progresses in his rehab, Eric Vincent of ClutchPoints.com reports.",
-   "date": "2026-11-24T18:30Z"
   },
   {
    "player": "Stephen Curry",
@@ -273,13 +273,31 @@
    "date": "2026-10-16T16:11Z"
   },
   {
+   "player": "Larry Nance Jr.",
+   "pid": 2580365,
+   "team": "IND",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Nance (ankle) is questionable for Friday's game against the 76ers.",
+   "date": "2026-11-26T22:43Z"
+  },
+  {
+   "player": "Aaron Nesmith",
+   "pid": 4396909,
+   "team": "IND",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Nesmith (foot) is questionable for Friday's game against the 76ers.",
+   "date": "2026-11-26T22:31Z"
+  },
+  {
    "player": "T.J. McConnell",
    "pid": 2530530,
    "team": "IND",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "McConnell (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Shams Charania of ESPN reports.",
-   "date": "2026-11-24T19:43Z"
+   "comment": "McConnell (hamstring) is questionable for Friday's game against the 76ers.",
+   "date": "2026-11-26T22:29Z"
   },
   {
    "player": "Tyrese Haliburton",
@@ -289,24 +307,6 @@
    "class": "out",
    "comment": "Haliburton (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Tony East of Forbes.com reports.",
    "date": "2026-11-24T19:41Z"
-  },
-  {
-   "player": "Aaron Nesmith",
-   "pid": 4396909,
-   "team": "IND",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Nesmith is out for Monday's game against the Thunder due to right foot soreness.",
-   "date": "2026-11-24T04:40Z"
-  },
-  {
-   "player": "Larry Nance Jr.",
-   "pid": 2580365,
-   "team": "IND",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Nance exited Monday's game against the Thunder due to a sore right ankle and he will not return, Tony East of Forbes.com reports.",
-   "date": "2026-11-24T02:00Z"
   },
   {
    "player": "Ben Sheppard",
@@ -341,8 +341,17 @@
    "team": "LAL",
    "status": "Out",
    "class": "out",
-   "comment": "Reaves (heel) was a full participant in Wednesday's practice, Daniel Starkand of LakersNation.com reports.",
-   "date": "2026-11-25T20:33Z"
+   "comment": "Reaves (heel) is questionable for Friday's game against the Spurs.",
+   "date": "2026-11-26T23:21Z"
+  },
+  {
+   "player": "Isaiah Stewart",
+   "pid": 4432810,
+   "team": "MEM",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Stewart is questionable for Friday's game against the Timberwolves due to right hip soreness.",
+   "date": "2026-11-26T23:27Z"
   },
   {
    "player": "Zach Edey",
@@ -350,8 +359,8 @@
    "team": "MEM",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "Edey (ankle) did not return to Wednesday's 115-97 win over the Clippers. He finished with seven points (3-4 FG, 1-1 FT), four rebounds, two assists and two blocks across nine minutes.",
-   "date": "2026-11-26T03:43Z"
+   "comment": "Edey (ankle) is questionable for Friday's game against the Timberwolves.",
+   "date": "2026-11-26T23:24Z"
   },
   {
    "player": "Scotty Pippen Jr.",
@@ -422,8 +431,8 @@
    "team": "MIN",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "Ball (ankle) did not return to Wednesday's 113-106 win over the Thunder.",
-   "date": "2026-11-26T03:37Z"
+   "comment": "Ball (ankle) is questionable for Friday's game against the Grizzlies.",
+   "date": "2026-11-26T23:14Z"
   },
   {
    "player": "Donte DiVincenzo",
@@ -732,22 +741,22 @@
    "date": "2026-10-21T04:22Z"
   },
   {
-   "player": "De'Aaron Fox",
-   "pid": 4066259,
-   "team": "SAS",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Fox (shin) has been ruled out for Wednesday's game against Portland, Jeff McDonald of the San Antonio Express-News reports.",
-   "date": "2026-11-26T06:01Z"
-  },
-  {
    "player": "Dylan Harper",
    "pid": 5037871,
    "team": "SAS",
    "status": "Out",
    "class": "out",
-   "comment": "Harper (hip) is expected to miss two to three weeks, Brett Siegel of ClutchPoints.com reports.",
-   "date": "2026-11-19T20:07Z"
+   "comment": "Harper (hip) is questionable for Friday's game against the Lakers.",
+   "date": "2026-11-26T23:41Z"
+  },
+  {
+   "player": "De'Aaron Fox",
+   "pid": 4066259,
+   "team": "SAS",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Fox (shin) is questionable for Friday's game against the Lakers.",
+   "date": "2026-11-26T23:35Z"
   },
   {
    "player": "Tobias Harris",
@@ -809,8 +818,8 @@
    "team": "UTA",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "Hayes (knee) has been ruled out for Monday's game against the Lakers.",
-   "date": "2026-11-24T06:07Z"
+   "comment": "Hayes (knee) is questionable for Friday's game against the Nuggets.",
+   "date": "2026-11-27T00:11Z"
   },
   {
    "player": "Jusuf Nurkic",
@@ -818,8 +827,8 @@
    "team": "UTA",
    "status": "Out",
    "class": "out",
-   "comment": "Nurkic (foot) has been cleared for on-court work and will be re-evaluated in one week.",
-   "date": "2026-11-20T22:40Z"
+   "comment": "Nurkic (foot) is questionable for Friday's game against the Nuggets.",
+   "date": "2026-11-27T00:08Z"
   },
   {
    "player": "Lauri Markkanen",
