@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27 19:40 UTC",
+ "fetched_at": "2026-11-27 22:20 UTC",
  "error": null,
  "diagnostics": {
   "kalshi": "11 events, 11 main lines",
@@ -38,7 +38,7 @@
    "home": "IND",
    "away": "PHI",
    "home_line": 3.5,
-   "market_p_home_cover": 0.505,
+   "market_p_home_cover": 0.51,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV27PHIIND"
   },
@@ -56,7 +56,7 @@
    "home": "MIN",
    "away": "MEM",
    "home_line": -2.5,
-   "market_p_home_cover": 0.515,
+   "market_p_home_cover": 0.52,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV27MEMMIN"
   },
@@ -74,7 +74,7 @@
    "home": "UTA",
    "away": "DEN",
    "home_line": 9.5,
-   "market_p_home_cover": 0.485,
+   "market_p_home_cover": 0.495,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV27DENUTA"
   },
@@ -92,7 +92,7 @@
    "home": "SAS",
    "away": "LAL",
    "home_line": -5.5,
-   "market_p_home_cover": 0.515,
+   "market_p_home_cover": 0.525,
    "source": "Kalshi",
    "event": "KXNBASPREAD-26NOV27LALSAS"
   },

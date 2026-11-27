@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27 19:40 UTC",
+ "fetched_at": "2026-11-27 22:20 UTC",
  "error": null,
  "players": [
   {
@@ -80,8 +80,8 @@
    "team": "CHA",
    "status": "Day-To-Day",
    "class": "questionable",
-   "comment": "Kalkbrenner (hip) has been ruled out for Wednesday's matchup with Chicago.",
-   "date": "2026-11-26T05:30Z"
+   "comment": "Kalkbrenner (hip) is probable for Saturday's matchup with Brooklyn.",
+   "date": "2026-11-27T22:04Z"
   },
   {
    "player": "Grayson Allen",
@@ -289,6 +289,15 @@
    "class": "out",
    "comment": "Butler (knee) could return sometime between January and February as he continues recovering from a torn right ACL, Anthony Slater of ESPN reports.",
    "date": "2026-10-16T16:11Z"
+  },
+  {
+   "player": "Steven Adams",
+   "pid": 2991235,
+   "team": "HOU",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Adams (knee) is questionable for Saturday's game against the 76ers.",
+   "date": "2026-11-27T22:06Z"
   },
   {
    "player": "Larry Nance Jr.",
@@ -613,6 +622,24 @@
    "class": "out",
    "comment": "Holmgren underwent a biological treatment Friday to address a small patellar tendon tear and will miss at least 8-10 weeks, Nick Crain of Slam reports.",
    "date": "2026-10-31T01:02Z"
+  },
+  {
+   "player": "Kevin Porter Jr.",
+   "pid": 4397140,
+   "team": "ORL",
+   "status": "Out",
+   "class": "out",
+   "comment": "Porter won't play Saturday against the Wizards as he's still in the process of getting up to speed on his conditioning.",
+   "date": "2026-11-27T21:08Z"
+  },
+  {
+   "player": "Anthony Black",
+   "pid": 4712849,
+   "team": "ORL",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Black (back) is questionable for Saturday's game against the Wizards.",
+   "date": "2026-11-27T21:05Z"
   },
   {
    "player": "Colin Castleton",

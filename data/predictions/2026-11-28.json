@@ -1,23 +1,23 @@
 {
  "401910046": {
   "away": "ORL",
-  "chance": 0.6394,
+  "chance": 0.6194,
   "date": "2026-11-28",
-  "edge_vs_market": -0.0305,
+  "edge_vs_market": -0.0105,
   "first": {
    "at": "2026-11-27 09:03 UTC",
    "market_p_home": 0.3911,
    "p_home": 0.3606,
    "spread": null
   },
-  "frozen_at": "2026-11-27 19:40 UTC",
+  "frozen_at": "2026-11-27 22:20 UTC",
   "game_id": 401910046,
   "home": "WAS",
   "locked": false,
-  "margin": -4.55,
+  "margin": -3.87,
   "market_p_home": 0.3911,
   "neutral": false,
-  "p_home": 0.3606,
+  "p_home": 0.3806,
   "pick": "ORL",
   "spread": null,
   "tip_utc": "2026-11-28 22:00:00+00:00",
@@ -44,6 +44,12 @@
       "minutes": 7.6,
       "pid": 5214637,
       "player": "Noah Penda",
+      "status": "Out"
+     },
+     {
+      "minutes": 31.8,
+      "pid": 4397140,
+      "player": "Kevin Porter Jr.",
       "status": "Out"
      }
     ],
@@ -77,6 +83,11 @@
    "questionable": {
     "ORL": [
      {
+      "pid": 4712849,
+      "player": "Anthony Black",
+      "status": "Day-To-Day"
+     },
+     {
       "pid": 4397204,
       "player": "Colin Castleton",
       "status": "Day-To-Day"
@@ -89,7 +100,7 @@
     "WAS": 4
    },
    "strength": {
-    "ORL": 2.34,
+    "ORL": 1.67,
     "WAS": -4.16
    },
    "team_term": {
@@ -99,52 +110,52 @@
    "top_players": {
     "ORL": [
      {
-      "impact": 0.91,
-      "minutes": 29.5,
+      "impact": 1.01,
+      "minutes": 32.5,
       "player": "Franz Wagner",
       "rating": 1.48
      },
      {
-      "impact": 0.75,
-      "minutes": 24.4,
+      "impact": 0.83,
+      "minutes": 26.9,
       "player": "Jalen Suggs",
       "rating": 1.47
      },
      {
       "impact": 0.66,
-      "minutes": 12.9,
-      "player": "Kevin Porter Jr.",
-      "rating": 2.47
-     },
-     {
-      "impact": 0.6,
-      "minutes": 28.3,
+      "minutes": 31.2,
       "player": "Desmond Bane",
       "rating": 1.01
      },
      {
-      "impact": 0.43,
-      "minutes": 27.0,
+      "impact": 0.31,
+      "minutes": 19.4,
       "player": "Anthony Black",
       "rating": 0.77
      },
      {
-      "impact": 0.28,
-      "minutes": 11.8,
+      "impact": 0.31,
+      "minutes": 13.0,
       "player": "Goga Bitadze",
       "rating": 1.15
      },
      {
-      "impact": 0.22,
-      "minutes": 11.1,
+      "impact": 0.24,
+      "minutes": 12.3,
       "player": "Nikola Vucevic",
       "rating": 0.94
      },
      {
-      "impact": 0.14,
-      "minutes": 26.3,
+      "impact": 0.15,
+      "minutes": 29.0,
       "player": "Wendell Carter Jr.",
       "rating": 0.25
+     },
+     {
+      "impact": -0.05,
+      "minutes": 2.3,
+      "player": "Colin Castleton",
+      "rating": -0.95
      }
     ],
     "WAS": [
@@ -204,19 +215,19 @@
   "away": "BKN",
   "chance": 0.711,
   "date": "2026-11-28",
-  "edge_vs_market": 0.021,
+  "edge_vs_market": 0.0175,
   "first": {
    "at": "2026-11-27 09:03 UTC",
    "market_p_home": 0.705,
    "p_home": 0.711,
    "spread": null
   },
-  "frozen_at": "2026-11-27 19:40 UTC",
+  "frozen_at": "2026-11-27 22:20 UTC",
   "game_id": 401910047,
   "home": "CHA",
   "locked": false,
   "margin": 7.09,
-  "market_p_home": 0.69,
+  "market_p_home": 0.6935,
   "neutral": false,
   "p_home": 0.711,
   "pick": "CHA",
@@ -395,19 +406,19 @@
   "away": "IND",
   "chance": 0.5892,
   "date": "2026-11-28",
-  "edge_vs_market": 0.0292,
+  "edge_vs_market": 0.0286,
   "first": {
    "at": "2026-11-27 09:03 UTC",
    "market_p_home": 0.5578,
    "p_home": 0.5886,
    "spread": null
   },
-  "frozen_at": "2026-11-27 19:40 UTC",
+  "frozen_at": "2026-11-27 22:20 UTC",
   "game_id": 401910048,
   "home": "CHI",
   "locked": false,
   "margin": 2.87,
-  "market_p_home": 0.56,
+  "market_p_home": 0.5606,
   "neutral": false,
   "p_home": 0.5892,
   "pick": "CHI",
@@ -601,19 +612,19 @@
   "away": "OKC",
   "chance": 0.8328,
   "date": "2026-11-28",
-  "edge_vs_market": -0.0028,
+  "edge_vs_market": -0.0061,
   "first": {
    "at": "2026-11-27 09:03 UTC",
    "market_p_home": 0.1741,
    "p_home": 0.167,
    "spread": null
   },
-  "frozen_at": "2026-11-27 19:40 UTC",
+  "frozen_at": "2026-11-27 22:20 UTC",
   "game_id": 401910049,
   "home": "MIL",
   "locked": false,
   "margin": -12.31,
-  "market_p_home": 0.17,
+  "market_p_home": 0.1733,
   "neutral": false,
   "p_home": 0.1672,
   "pick": "OKC",
@@ -796,23 +807,23 @@
  },
  "401910050": {
   "away": "PHI",
-  "chance": 0.8098,
+  "chance": 0.8095,
   "date": "2026-11-28",
-  "edge_vs_market": 0.046,
+  "edge_vs_market": 0.0445,
   "first": {
    "at": "2026-11-27 09:03 UTC",
    "market_p_home": 0.7512,
    "p_home": 0.8098,
    "spread": null
   },
-  "frozen_at": "2026-11-27 19:40 UTC",
+  "frozen_at": "2026-11-27 22:20 UTC",
   "game_id": 401910050,
   "home": "HOU",
   "locked": false,
-  "margin": 11.18,
-  "market_p_home": 0.7638,
+  "margin": 11.17,
+  "market_p_home": 0.765,
   "neutral": false,
-  "p_home": 0.8098,
+  "p_home": 0.8095,
   "pick": "HOU",
   "spread": null,
   "tip_utc": "2026-11-29 01:30:00+00:00",
@@ -841,7 +852,13 @@
     ]
    },
    "questionable": {
-    "HOU": [],
+    "HOU": [
+     {
+      "pid": 2991235,
+      "player": "Steven Adams",
+      "status": "Day-To-Day"
+     }
+    ],
     "PHI": [
      {
       "pid": 3059318,
@@ -855,7 +872,7 @@
     "PHI": 1
    },
    "strength": {
-    "HOU": 8.84,
+    "HOU": 8.82,
     "PHI": 1.78
    },
    "team_term": {
@@ -865,50 +882,50 @@
    "top_players": {
     "HOU": [
      {
-      "impact": 0.94,
-      "minutes": 26.2,
+      "impact": 0.96,
+      "minutes": 26.8,
       "player": "Alperen Sengun",
       "rating": 1.72
      },
      {
-      "impact": 0.9,
-      "minutes": 26.0,
+      "impact": 0.92,
+      "minutes": 26.6,
       "player": "Jabari Smith Jr.",
       "rating": 1.67
      },
      {
-      "impact": 0.9,
-      "minutes": 25.3,
+      "impact": 0.92,
+      "minutes": 25.9,
       "player": "Fred VanVleet",
       "rating": 1.7
      },
      {
-      "impact": 0.65,
-      "minutes": 18.3,
+      "impact": 0.66,
+      "minutes": 18.7,
       "player": "Marcus Smart",
       "rating": 1.7
      },
      {
       "impact": 0.32,
-      "minutes": 15.1,
-      "player": "Steven Adams",
-      "rating": 1.03
-     },
-     {
-      "impact": 0.31,
-      "minutes": 9.7,
+      "minutes": 9.9,
       "player": "Bogdan Bogdanovic",
       "rating": 1.52
      },
      {
-      "impact": 0.24,
-      "minutes": 19.5,
+      "impact": 0.25,
+      "minutes": 19.9,
       "player": "Tari Eason",
       "rating": 0.59
      },
      {
+      "impact": 0.21,
+      "minutes": 10.0,
+      "player": "Steven Adams",
+      "rating": 1.03
+     },
+     {
       "impact": 0.19,
-      "minutes": 26.6,
+      "minutes": 27.2,
       "player": "Amen Thompson",
       "rating": 0.34
      }
