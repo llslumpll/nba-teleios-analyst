@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27 00:32 UTC",
+ "fetched_at": "2026-11-27 03:36 UTC",
  "error": null,
  "players": [
   {
@@ -273,6 +273,15 @@
    "date": "2026-10-16T16:11Z"
   },
   {
+   "player": "Kelly Oubre Jr.",
+   "pid": 3133603,
+   "team": "IND",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Oubre is questionable for Friday's game against the 76ers due to a right hand laceration.",
+   "date": "2026-11-27T00:42Z"
+  },
+  {
    "player": "Larry Nance Jr.",
    "pid": 2580365,
    "team": "IND",
@@ -280,15 +289,6 @@
    "class": "questionable",
    "comment": "Nance (ankle) is questionable for Friday's game against the 76ers.",
    "date": "2026-11-26T22:43Z"
-  },
-  {
-   "player": "Aaron Nesmith",
-   "pid": 4396909,
-   "team": "IND",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Nesmith (foot) is questionable for Friday's game against the 76ers.",
-   "date": "2026-11-26T22:31Z"
   },
   {
    "player": "T.J. McConnell",
@@ -683,8 +683,8 @@
    "team": "POR",
    "status": "Out",
    "class": "out",
-   "comment": "Youngblood (heel) has been ruled out for Saturday's game against the Knicks.",
-   "date": "2026-11-20T22:18Z"
+   "comment": "Youngblood (heel) is out for Friday's game against the Warriors.",
+   "date": "2026-11-27T00:56Z"
   },
   {
    "player": "Vit Krejci",
