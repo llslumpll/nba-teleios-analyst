@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-28 03:14 UTC",
+ "fetched_at": "2026-11-28 04:42 UTC",
  "error": null,
  "players": [
   {
@@ -255,6 +255,15 @@
    "date": "2026-11-24T18:33Z"
   },
   {
+   "player": "Gui Santos",
+   "pid": 4997536,
+   "team": "GSW",
+   "status": "Out",
+   "class": "out",
+   "comment": "Santos exited Friday's game against the Trail Blazers with a knee injury in the second half and won't return.",
+   "date": "2026-11-28T04:19Z"
+  },
+  {
    "player": "Stephen Curry",
    "pid": 3975,
    "team": "GSW",
@@ -325,6 +334,15 @@
    "class": "out",
    "comment": "Head coach Rick Carlise confirmed Sheppard will miss \"months\" after undergoing surgery to repair a torn meniscus in his left knee, Tony East of Forbes.com reports.",
    "date": "2026-10-28T21:41Z"
+  },
+  {
+   "player": "Yanic Konan Niederhauser",
+   "pid": 5108024,
+   "team": "LAC",
+   "status": "Out",
+   "class": "out",
+   "comment": "Niederhauser suffered a right toe injury during Friday's game against the Pelicans and won't return, Joey Linn of SI.com reports.",
+   "date": "2026-11-28T04:17Z"
   },
   {
    "player": "Bradley Beal",
