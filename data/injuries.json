@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-28 00:00 UTC",
+ "fetched_at": "2026-11-28 03:14 UTC",
  "error": null,
  "players": [
   {
@@ -111,6 +111,15 @@
    "date": "2026-11-08T22:31Z"
   },
   {
+   "player": "Norman Powell",
+   "pid": 2595516,
+   "team": "CHI",
+   "status": "Out",
+   "class": "out",
+   "comment": "Powell (hamstring) is out for Saturday's game against the Pacers.",
+   "date": "2026-11-28T01:54Z"
+  },
+  {
    "player": "Noa Essengue",
    "pid": 5242496,
    "team": "CHI",
@@ -127,15 +136,6 @@
    "class": "questionable",
    "comment": "Smith (illness) is listed as probable for Saturday's game against Indiana.",
    "date": "2026-11-27T18:36Z"
-  },
-  {
-   "player": "Norman Powell",
-   "pid": 2595516,
-   "team": "CHI",
-   "status": "Out",
-   "class": "out",
-   "comment": "Powell has been diagnosed with a mild right hamstring strain and will be re-evaluated later this week.",
-   "date": "2026-11-22T15:25Z"
   },
   {
    "player": "Caleb Wilson",
@@ -168,10 +168,10 @@
    "player": "Kyrie Irving",
    "pid": 6442,
    "team": "DAL",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Irving (knee) is listed as questionable for Friday's game against the Suns due to left knee injury management.",
-   "date": "2026-11-27T19:07Z"
+   "status": "Out",
+   "class": "out",
+   "comment": "Irving (knee) has been ruled out for Friday's game against the Suns, Noah Weber of TheSmokingCuban.com reports.",
+   "date": "2026-11-28T00:30Z"
   },
   {
    "player": "Tobi Lawal",
@@ -260,8 +260,8 @@
    "team": "GSW",
    "status": "Out",
    "class": "out",
-   "comment": "Curry (abdomen) will be re-evaluated Friday after Thanksgiving, Anthony Slater of ESPN.com reports.",
-   "date": "2026-11-26T01:36Z"
+   "comment": "Curry (abdomen/oblique) has been ruled out for each of the Warriors' next three games, Anthony Slater of ESPN.com reports",
+   "date": "2026-11-28T00:47Z"
   },
   {
    "player": "Kristaps Porzingis",
@@ -309,15 +309,6 @@
    "date": "2026-11-27T23:02Z"
   },
   {
-   "player": "Larry Nance Jr.",
-   "pid": 2580365,
-   "team": "IND",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Nance (ankle) is probable for Friday's game against the 76ers.",
-   "date": "2026-11-27T18:07Z"
-  },
-  {
    "player": "Tyrese Haliburton",
    "pid": 4396993,
    "team": "IND",
@@ -357,19 +348,10 @@
    "player": "Isaiah Stewart",
    "pid": 4432810,
    "team": "MEM",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Stewart is questionable for Friday's game against the Timberwolves due to right hip soreness.",
-   "date": "2026-11-26T23:27Z"
-  },
-  {
-   "player": "Zach Edey",
-   "pid": 4600663,
-   "team": "MEM",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Edey (ankle) is questionable for Friday's game against the Timberwolves.",
-   "date": "2026-11-26T23:24Z"
+   "status": "Out",
+   "class": "out",
+   "comment": "Stewart (hip) is out for Friday's game against the Timberwolves, Jon Krawczynski of The Athletic reports.",
+   "date": "2026-11-28T00:26Z"
   },
   {
    "player": "Scotty Pippen Jr.",
@@ -462,22 +444,13 @@
    "date": "2026-10-29T18:33Z"
   },
   {
-   "player": "Trendon Watford",
-   "pid": 4431675,
-   "team": "NOP",
-   "status": "Out",
-   "class": "out",
-   "comment": "Watford (ankle) is probable for Friday's game against the Clippers.",
-   "date": "2026-11-26T21:22Z"
-  },
-  {
    "player": "Bennedict Mathurin",
    "pid": 4683634,
    "team": "NOP",
    "status": "Out",
    "class": "out",
-   "comment": "Mathurin (foot) is doubtful for Friday's game against the Clippers.",
-   "date": "2026-11-26T21:21Z"
+   "comment": "Mathurin (foot) is out for Friday's game against the Clippers.",
+   "date": "2026-11-28T01:22Z"
   },
   {
    "player": "Julian Reese",
@@ -597,6 +570,15 @@
    "date": "2026-10-31T01:02Z"
   },
   {
+   "player": "Colin Castleton",
+   "pid": 4397204,
+   "team": "ORL",
+   "status": "Out",
+   "class": "out",
+   "comment": "Castleton totaled five points (2-4 FG, 1-1 3Pt) and four rebounds in seven minutes during Tuesday's 132-116 preseason win over the Cavaliers.",
+   "date": "2026-11-28T01:53Z"
+  },
+  {
    "player": "Kevin Porter Jr.",
    "pid": 4397140,
    "team": "ORL",
@@ -613,15 +595,6 @@
    "class": "questionable",
    "comment": "Black (back) is questionable for Saturday's game against the Wizards.",
    "date": "2026-11-27T21:05Z"
-  },
-  {
-   "player": "Colin Castleton",
-   "pid": 4397204,
-   "team": "ORL",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Castleton totaled five points (2-4 FG, 1-1 3Pt) and four rebounds in seven minutes during Tuesday's 132-116 preseason win over the Cavaliers.",
-   "date": "2026-11-26T16:10Z"
   },
   {
    "player": "Jonathan Isaac",
@@ -676,15 +649,6 @@
    "class": "out",
    "comment": "Brown (hamstring) underwent an MRI that showed no signs of a new injury or re-aggravation, but he didn't travel with the team for the road trip, so he will miss the team's next two games, Kris Rhim of ESPN reports.",
    "date": "2026-11-27T23:15Z"
-  },
-  {
-   "player": "Joel Embiid",
-   "pid": 3059318,
-   "team": "PHI",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Embiid (illness) was at shootaround for the 76ers on Friday, Chris Hine of The Philly Inquirer reports.",
-   "date": "2026-11-27T16:32Z"
   },
   {
    "player": "Ariel Hukporti",
@@ -777,24 +741,6 @@
    "date": "2026-10-21T04:22Z"
   },
   {
-   "player": "Dylan Harper",
-   "pid": 5037871,
-   "team": "SAS",
-   "status": "Out",
-   "class": "out",
-   "comment": "Harper (hip) participated in Friday's morning shootaround, per Matt Guzman of SI.com.",
-   "date": "2026-11-27T18:51Z"
-  },
-  {
-   "player": "De'Aaron Fox",
-   "pid": 4066259,
-   "team": "SAS",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Fox (shin) is questionable for Friday's game against the Lakers.",
-   "date": "2026-11-26T23:35Z"
-  },
-  {
    "player": "Tobias Harris",
    "pid": 6440,
    "team": "SAS",
@@ -811,6 +757,15 @@
    "class": "out",
    "comment": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports.",
    "date": "2026-10-05T21:43Z"
+  },
+  {
+   "player": "Ja'Kobe Walter",
+   "pid": 4684272,
+   "team": "TOR",
+   "status": "Out",
+   "class": "out",
+   "comment": "Walter won't return to Friday's game against Brooklyn due to a right quad contusion, Josh Lewenberg of TSN.ca reports.",
+   "date": "2026-11-28T02:34Z"
   },
   {
    "player": "Kawhi Leonard",
@@ -843,28 +798,10 @@
    "player": "Mo Bamba",
    "pid": 4277919,
    "team": "UTA",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Bamba (illness) is listed as questionable for Friday's game against the Nuggets, according to the Jazz's injury report.",
-   "date": "2026-11-27T16:41Z"
-  },
-  {
-   "player": "Jaxson Hayes",
-   "pid": 4397077,
-   "team": "UTA",
-   "status": "Day-To-Day",
-   "class": "questionable",
-   "comment": "Hayes (knee) is questionable for Friday's game against the Nuggets.",
-   "date": "2026-11-27T00:11Z"
-  },
-  {
-   "player": "Jusuf Nurkic",
-   "pid": 3102530,
-   "team": "UTA",
    "status": "Out",
    "class": "out",
-   "comment": "Nurkic (foot) is questionable for Friday's game against the Nuggets.",
-   "date": "2026-11-27T00:08Z"
+   "comment": "Bamba (illness) has been ruled out for Friday's game against the Nuggets.",
+   "date": "2026-11-28T01:37Z"
   },
   {
    "player": "Lauri Markkanen",
