@@ -1,76 +1,16 @@
 {
- "fetched_at": "2026-11-28 04:42 UTC",
+ "fetched_at": "2026-11-28 08:25 UTC",
  "error": null,
  "games": [
-  {
-   "date": "2026-11-27",
-   "home": "UTA",
-   "away": "DEN",
-   "event": "KXNBAGAME-26NOV27DENUTA",
-   "p_home": 0.155,
-   "home_bid_ask": [
-    0.15,
-    0.16
-   ],
-   "away_bid_ask": [
-    0.84,
-    0.85
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "POR",
-   "away": "GSW",
-   "event": "KXNBAGAME-26NOV27GSWPOR",
-   "p_home": 0.955,
-   "home_bid_ask": [
-    0.95,
-    0.96
-   ],
-   "away_bid_ask": [
-    0.04,
-    0.05
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "SAS",
-   "away": "LAL",
-   "event": "KXNBAGAME-26NOV27LALSAS",
-   "p_home": 0.725,
-   "home_bid_ask": [
-    0.72,
-    0.73
-   ],
-   "away_bid_ask": [
-    0.27,
-    0.28
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "LAC",
-   "away": "NOP",
-   "event": "KXNBAGAME-26NOV27NOPLAC",
-   "p_home": 0.305,
-   "home_bid_ask": [
-    0.3,
-    0.31
-   ],
-   "away_bid_ask": [
-    0.69,
-    0.7
-   ]
-  },
   {
    "date": "2026-11-28",
    "home": "WAS",
    "away": "ORL",
    "event": "KXNBAGAME-26NOV28ORLWAS",
-   "p_home": 0.385,
+   "p_home": 0.3911,
    "home_bid_ask": [
-    0.38,
-    0.39
+    0.39,
+    0.4
    ],
    "away_bid_ask": [
     0.61,
@@ -82,14 +22,14 @@
    "home": "CHA",
    "away": "BKN",
    "event": "KXNBAGAME-26NOV28BKNCHA",
-   "p_home": 0.6816,
+   "p_home": 0.695,
    "home_bid_ask": [
-    0.68,
-    0.69
+    0.69,
+    0.7
    ],
    "away_bid_ask": [
-    0.31,
-    0.33
+    0.3,
+    0.31
    ]
   },
   {
@@ -97,13 +37,13 @@
    "home": "CHI",
    "away": "IND",
    "event": "KXNBAGAME-26NOV28INDCHI",
-   "p_home": 0.5657,
+   "p_home": 0.565,
    "home_bid_ask": [
-    0.55,
+    0.56,
     0.57
    ],
    "away_bid_ask": [
-    0.42,
+    0.43,
     0.44
    ]
   },
@@ -112,10 +52,10 @@
    "home": "MIL",
    "away": "OKC",
    "event": "KXNBAGAME-26NOV28OKCMIL",
-   "p_home": 0.175,
+   "p_home": 0.1832,
    "home_bid_ask": [
-    0.17,
-    0.18
+    0.18,
+    0.19
    ],
    "away_bid_ask": [
     0.82,
@@ -127,14 +67,14 @@
    "home": "HOU",
    "away": "PHI",
    "event": "KXNBAGAME-26NOV28PHIHOU",
-   "p_home": 0.805,
+   "p_home": 0.801,
    "home_bid_ask": [
     0.8,
     0.81
    ],
    "away_bid_ask": [
     0.19,
-    0.2
+    0.21
    ]
   },
   {
@@ -142,14 +82,14 @@
    "home": "CLE",
    "away": "MIA",
    "event": "KXNBAGAME-26NOV29MIACLE",
-   "p_home": 0.55,
+   "p_home": 0.525,
    "home_bid_ask": [
-    0.54,
-    0.56
+    0.51,
+    0.54
    ],
    "away_bid_ask": [
-    0.44,
-    0.46
+    0.46,
+    0.49
    ]
   },
   {
@@ -157,14 +97,14 @@
    "home": "SAS",
    "away": "BOS",
    "event": "KXNBAGAME-26NOV29BOSSAS",
-   "p_home": 0.597,
+   "p_home": 0.602,
    "home_bid_ask": [
-    0.59,
+    0.6,
     0.61
    ],
    "away_bid_ask": [
     0.39,
-    0.42
+    0.41
    ]
   },
   {
@@ -172,14 +112,14 @@
    "home": "MEM",
    "away": "LAL",
    "event": "KXNBAGAME-26NOV29LALMEM",
-   "p_home": 0.4179,
+   "p_home": 0.4089,
    "home_bid_ask": [
     0.41,
-    0.43
+    0.42
    ],
    "away_bid_ask": [
-    0.57,
-    0.6
+    0.59,
+    0.61
    ]
   },
   {
@@ -189,12 +129,12 @@
    "event": "KXNBAGAME-26NOV29PHXUTA",
    "p_home": 0.345,
    "home_bid_ask": [
-    0.34,
-    0.35
+    0.33,
+    0.36
    ],
    "away_bid_ask": [
-    0.64,
-    0.67
+    0.65,
+    0.66
    ]
   },
   {
@@ -202,10 +142,10 @@
    "home": "NYK",
    "away": "ATL",
    "event": "KXNBAGAME-26NOV29ATLNYK",
-   "p_home": 0.7015,
+   "p_home": 0.7,
    "home_bid_ask": [
     0.69,
-    0.72
+    0.71
    ],
    "away_bid_ask": [
     0.29,
@@ -217,14 +157,14 @@
    "home": "TOR",
    "away": "DEN",
    "event": "KXNBAGAME-26NOV29DENTOR",
-   "p_home": 0.4279,
+   "p_home": 0.3812,
    "home_bid_ask": [
-    0.42,
-    0.44
+    0.37,
+    0.4
    ],
    "away_bid_ask": [
-    0.56,
-    0.59
+    0.62,
+    0.63
    ]
   },
   {
@@ -232,14 +172,14 @@
    "home": "POR",
    "away": "NOP",
    "event": "KXNBAGAME-26NOV29NOPPOR",
-   "p_home": 0.806,
+   "p_home": 0.795,
    "home_bid_ask": [
-    0.8,
-    0.82
+    0.78,
+    0.81
    ],
    "away_bid_ask": [
-    0.18,
-    0.21
+    0.19,
+    0.22
    ]
   },
   {
@@ -247,13 +187,13 @@
    "home": "DET",
    "away": "ORL",
    "event": "KXNBAGAME-26NOV29ORLDET",
-   "p_home": 0.685,
+   "p_home": 0.695,
    "home_bid_ask": [
     0.68,
-    0.69
+    0.71
    ],
    "away_bid_ask": [
-    0.31,
+    0.29,
     0.32
    ]
   },
@@ -262,13 +202,13 @@
    "home": "GSW",
    "away": "LAC",
    "event": "KXNBAGAME-26NOV29LACGSW",
-   "p_home": 0.6207,
+   "p_home": 0.62,
    "home_bid_ask": [
-    0.62,
-    0.64
+    0.61,
+    0.63
    ],
    "away_bid_ask": [
-    0.38,
+    0.37,
     0.39
    ]
   },
@@ -277,14 +217,14 @@
    "home": "SAC",
    "away": "MIN",
    "event": "KXNBAGAME-26NOV29MINSAC",
-   "p_home": 0.209,
+   "p_home": 0.206,
    "home_bid_ask": [
-    0.19,
-    0.23
+    0.2,
+    0.21
    ],
    "away_bid_ask": [
     0.78,
-    0.81
+    0.8
    ]
   },
   {
@@ -292,14 +232,14 @@
    "home": "DET",
    "away": "DEN",
    "event": "KXNBAGAME-26NOV30DENDET",
-   "p_home": 0.55,
+   "p_home": 0.5323,
    "home_bid_ask": [
-    0.53,
-    0.57
+    0.52,
+    0.55
    ],
    "away_bid_ask": [
-    0.43,
-    0.47
+    0.46,
+    0.48
    ]
   },
   {
@@ -307,14 +247,14 @@
    "home": "CHA",
    "away": "WAS",
    "event": "KXNBAGAME-26NOV30WASCHA",
-   "p_home": 0.5891,
+   "p_home": 0.597,
    "home_bid_ask": [
-    0.58,
+    0.59,
     0.61
    ],
    "away_bid_ask": [
-    0.39,
-    0.44
+    0.38,
+    0.43
    ]
   },
   {
@@ -322,14 +262,14 @@
    "home": "HOU",
    "away": "LAL",
    "event": "KXNBAGAME-26NOV30LALHOU",
-   "p_home": 0.6884,
+   "p_home": 0.68,
    "home_bid_ask": [
-    0.68,
+    0.67,
     0.69
    ],
    "away_bid_ask": [
-    0.3,
-    0.32
+    0.31,
+    0.33
    ]
   },
   {
@@ -337,14 +277,14 @@
    "home": "BKN",
    "away": "OKC",
    "event": "KXNBAGAME-26NOV30OKCBKN",
-   "p_home": 0.1667,
+   "p_home": 0.215,
    "home_bid_ask": [
-    0.14,
-    0.19
+    0.15,
+    0.26
    ],
    "away_bid_ask": [
-    0.8,
-    0.85
+    0.74,
+    0.83
    ]
   },
   {
@@ -352,14 +292,14 @@
    "home": "DAL",
    "away": "BOS",
    "event": "KXNBAGAME-26NOV30BOSDAL",
-   "p_home": 0.3645,
+   "p_home": 0.393,
    "home_bid_ask": [
-    0.34,
+    0.39,
     0.4
    ],
    "away_bid_ask": [
-    0.62,
-    0.67
+    0.6,
+    0.62
    ]
   },
   {
@@ -367,10 +307,10 @@
    "home": "MIL",
    "away": "SAS",
    "event": "KXNBAGAME-26NOV30SASMIL",
-   "p_home": 0.1414,
+   "p_home": 0.1584,
    "home_bid_ask": [
-    0.13,
-    0.15
+    0.15,
+    0.17
    ],
    "away_bid_ask": [
     0.84,
@@ -382,14 +322,14 @@
    "home": "SAC",
    "away": "NOP",
    "event": "KXNBAGAME-26NOV30NOPSAC",
-   "p_home": 0.4596,
+   "p_home": 0.4619,
    "home_bid_ask": [
     0.44,
     0.47
    ],
    "away_bid_ask": [
     0.51,
-    0.56
+    0.55
    ]
   },
   {
@@ -399,12 +339,12 @@
    "event": "KXNBAGAME-26DEC01INDCLE",
    "p_home": null,
    "home_bid_ask": [
-    0.65,
-    0.78
+    0.64,
+    0.81
    ],
    "away_bid_ask": [
-    0.24,
-    0.37
+    0.21,
+    0.35
    ]
   },
   {
@@ -412,14 +352,14 @@
    "home": "PHI",
    "away": "MEM",
    "event": "KXNBAGAME-26DEC01MEMPHI",
-   "p_home": null,
+   "p_home": 0.639,
    "home_bid_ask": [
-    0.58,
-    0.73
+    0.61,
+    0.7
    ],
    "away_bid_ask": [
-    0.27,
-    0.46
+    0.33,
+    0.41
    ]
   },
   {
@@ -427,14 +367,14 @@
    "home": "MIA",
    "away": "ATL",
    "event": "KXNBAGAME-26DEC01ATLMIA",
-   "p_home": 0.645,
+   "p_home": 0.63,
    "home_bid_ask": [
     0.62,
-    0.67
+    0.64
    ],
    "away_bid_ask": [
-    0.33,
-    0.44
+    0.34,
+    0.4
    ]
   },
   {
@@ -442,14 +382,14 @@
    "home": "CHI",
    "away": "NYK",
    "event": "KXNBAGAME-26DEC01NYKCHI",
-   "p_home": null,
+   "p_home": 0.3234,
    "home_bid_ask": [
-    0.19,
-    0.37
+    0.29,
+    0.36
    ],
    "away_bid_ask": [
-    0.65,
-    0.83
+    0.63,
+    0.73
    ]
   },
   {
@@ -457,14 +397,14 @@
    "home": "HOU",
    "away": "TOR",
    "event": "KXNBAGAME-26DEC01TORHOU",
-   "p_home": null,
+   "p_home": 0.72,
    "home_bid_ask": [
-    0.6,
-    0.78
+    0.67,
+    0.77
    ],
    "away_bid_ask": [
-    0.24,
-    0.41
+    0.23,
+    0.37
    ]
   },
   {
@@ -474,12 +414,12 @@
    "event": "KXNBAGAME-26DEC01LACPHX",
    "p_home": null,
    "home_bid_ask": [
-    0.7,
-    0.82
+    0.63,
+    0.79
    ],
    "away_bid_ask": [
-    0.19,
-    0.34
+    0.2,
+    0.36
    ]
   },
   {
@@ -489,12 +429,12 @@
    "event": "KXNBAGAME-26DEC01UTAGSW",
    "p_home": null,
    "home_bid_ask": [
-    0.59,
-    0.75
+    0.63,
+    0.77
    ],
    "away_bid_ask": [
-    0.27,
-    0.4
+    0.24,
+    0.38
    ]
   },
   {
@@ -502,14 +442,14 @@
    "home": "POR",
    "away": "MIN",
    "event": "KXNBAGAME-26DEC01MINPOR",
-   "p_home": 0.55,
+   "p_home": null,
    "home_bid_ask": [
-    0.51,
-    0.59
+    0.49,
+    0.63
    ],
    "away_bid_ask": [
-    0.38,
-    0.53
+    0.39,
+    0.54
    ]
   },
   {
@@ -519,12 +459,12 @@
    "event": "KXNBAGAME-26DEC02ORLDAL",
    "p_home": null,
    "home_bid_ask": [
-    0.42,
-    0.62
+    0.48,
+    0.61
    ],
    "away_bid_ask": [
-    0.49,
-    0.6
+    0.4,
+    0.56
    ]
   }
  ]

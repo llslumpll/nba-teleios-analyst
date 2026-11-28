@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-28 04:42 UTC",
+ "fetched_at": "2026-11-28 08:25 UTC",
  "error": null,
  "players": [
   {
@@ -163,6 +163,15 @@
    "class": "out",
    "comment": "Mobley will receive treatment and participate in rehab after the team confirmed a diagnosis of a right great toe sprain, and he'll be re-evaluated in the next 7-to-10 days.",
    "date": "2026-11-16T22:06Z"
+  },
+  {
+   "player": "Caleb Martin",
+   "pid": 3138160,
+   "team": "DAL",
+   "status": "Day-To-Day",
+   "class": "questionable",
+   "comment": "Martin didn't return for the second half of Friday's win over the Suns due to a left ankle sprain, Grant Afseth of DallasHoopsJournal.com reports.",
+   "date": "2026-11-28T05:35Z"
   },
   {
    "player": "Kyrie Irving",
@@ -649,6 +658,24 @@
    "class": "out",
    "comment": "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high-ankle sprain, Shams Charania of ESPN reports.",
    "date": "2026-10-24T16:47Z"
+  },
+  {
+   "player": "Joel Embiid",
+   "pid": 3059318,
+   "team": "PHI",
+   "status": "Out",
+   "class": "out",
+   "comment": "Embiid has been ruled out for Saturday's game against the Rockets due to right foot plantar fasciitis management, Kris Rhim of ESPN.com reports.",
+   "date": "2026-11-28T05:48Z"
+  },
+  {
+   "player": "LeBron James",
+   "pid": 1966,
+   "team": "PHI",
+   "status": "Out",
+   "class": "out",
+   "comment": "James (back injury management) won't be available for Saturday's game against the Rockets, according to Kris Rhim of ESPN.",
+   "date": "2026-11-28T05:46Z"
   },
   {
    "player": "Dean Wade",
