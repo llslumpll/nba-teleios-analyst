@@ -20,7 +20,7 @@
   "frozen_at": "2026-11-27 22:20 UTC",
   "game_id": 401909326,
   "home": "NYK",
-  "locked": false,
+  "locked": true,
   "margin": 9.42,
   "market_p_home": 0.5821,
   "neutral": false,
@@ -212,7 +212,7 @@
    "p_home": 0.8768,
    "spread": null
   },
-  "frozen_at": "2026-11-27 22:20 UTC",
+  "frozen_at": "2026-11-28 00:00 UTC",
   "game_id": 401909327,
   "home": "DET",
   "locked": false,
@@ -223,7 +223,7 @@
   "pick": "DET",
   "spread": {
    "home_line": -9.5,
-   "market_p_home_cover": 0.515,
+   "market_p_home_cover": 0.525,
    "pick": "DET",
    "pick_line": -9.5,
    "source": "Kalshi",
@@ -400,9 +400,9 @@
  },
  "401909328": {
   "away": "PHI",
-  "chance": 0.5026,
+  "chance": 0.5054,
   "date": "2026-11-27",
-  "edge_vs_market": 0.1024,
+  "edge_vs_market": 0.0996,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.41,
@@ -416,22 +416,22 @@
     "teleios_p_home_cover": 0.618
    }
   },
-  "frozen_at": "2026-11-27 22:20 UTC",
+  "frozen_at": "2026-11-28 00:00 UTC",
   "game_id": 401909328,
   "home": "IND",
   "locked": false,
-  "margin": -0.08,
+  "margin": -0.17,
   "market_p_home": 0.395,
   "neutral": false,
-  "p_home": 0.4974,
+  "p_home": 0.4946,
   "pick": "PHI",
   "spread": {
    "home_line": 3.5,
-   "market_p_home_cover": 0.51,
+   "market_p_home_cover": 0.515,
    "pick": "IND",
    "pick_line": 3.5,
    "source": "Kalshi",
-   "teleios_p_home_cover": 0.6057
+   "teleios_p_home_cover": 0.6029
   },
   "tip_utc": "2026-11-28 00:30:00+00:00",
   "why": {
@@ -446,6 +446,12 @@
       "minutes": 33.0,
       "pid": 4396993,
       "player": "Tyrese Haliburton",
+      "status": "Out"
+     },
+     {
+      "minutes": 15.4,
+      "pid": 2530530,
+      "player": "T.J. McConnell",
       "status": "Out"
      },
      {
@@ -467,24 +473,20 @@
       "pid": 4871141,
       "player": "Ariel Hukporti",
       "status": "Out"
+     },
+     {
+      "minutes": 26.8,
+      "pid": 3912848,
+      "player": "Dean Wade",
+      "status": "Out"
      }
     ]
    },
    "questionable": {
     "IND": [
      {
-      "pid": 2530530,
-      "player": "T.J. McConnell",
-      "status": "Day-To-Day"
-     },
-     {
       "pid": 2580365,
       "player": "Larry Nance Jr.",
-      "status": "Day-To-Day"
-     },
-     {
-      "pid": 3133603,
-      "player": "Kelly Oubre Jr.",
       "status": "Day-To-Day"
      }
     ],
@@ -501,8 +503,8 @@
     "PHI": 2
    },
    "strength": {
-    "IND": -0.39,
-    "PHI": 1.78
+    "IND": -0.61,
+    "PHI": 1.65
    },
    "team_term": {
     "IND": -2.26,
@@ -512,31 +514,31 @@
     "IND": [
      {
       "impact": 1.11,
-      "minutes": 27.7,
+      "minutes": 27.8,
       "player": "Pascal Siakam",
       "rating": 1.92
      },
      {
-      "impact": 0.88,
-      "minutes": 28.2,
+      "impact": 0.89,
+      "minutes": 28.3,
       "player": "Andrew Nembhard",
       "rating": 1.51
      },
      {
       "impact": 0.67,
-      "minutes": 17.4,
+      "minutes": 17.5,
       "player": "Obi Toppin",
       "rating": 1.84
      },
      {
       "impact": 0.3,
-      "minutes": 24.9,
+      "minutes": 25.0,
       "player": "Aaron Nesmith",
       "rating": 0.57
      },
      {
       "impact": 0.29,
-      "minutes": 21.6,
+      "minutes": 21.7,
       "player": "Ivica Zubac",
       "rating": 0.65
      },
@@ -547,66 +549,66 @@
       "rating": 0.85
      },
      {
-      "impact": 0.25,
-      "minutes": 8.5,
-      "player": "T.J. McConnell",
-      "rating": 1.42
-     },
-     {
       "impact": 0.18,
       "minutes": 13.0,
       "player": "Jalen Slawson",
       "rating": 0.66
+     },
+     {
+      "impact": 0.07,
+      "minutes": 22.1,
+      "player": "Kelly Oubre Jr.",
+      "rating": 0.15
      }
     ],
     "PHI": [
      {
-      "impact": 2.33,
-      "minutes": 30.2,
+      "impact": 2.58,
+      "minutes": 33.4,
       "player": "VJ Edgecombe",
       "rating": 3.71
      },
      {
-      "impact": 1.33,
-      "minutes": 30.6,
+      "impact": 1.47,
+      "minutes": 33.8,
       "player": "Tyrese Maxey",
       "rating": 2.09
      },
      {
-      "impact": 0.93,
-      "minutes": 17.8,
+      "impact": 1.03,
+      "minutes": 19.6,
       "player": "Joel Embiid",
       "rating": 2.51
      },
      {
-      "impact": 0.47,
-      "minutes": 22.9,
-      "player": "Dean Wade",
-      "rating": 0.98
-     },
-     {
-      "impact": 0.43,
-      "minutes": 28.1,
+      "impact": 0.48,
+      "minutes": 31.1,
       "player": "LeBron James",
       "rating": 0.73
      },
      {
       "impact": -0.01,
-      "minutes": 18.5,
+      "minutes": 20.5,
       "player": "Anfernee Simons",
       "rating": -0.01
      },
      {
       "impact": -0.02,
-      "minutes": 4.4,
+      "minutes": 4.9,
       "player": "Tacko Fall",
       "rating": -0.18
      },
      {
       "impact": -0.07,
-      "minutes": 10.6,
+      "minutes": 11.7,
       "player": "Adem Bona",
       "rating": -0.3
+     },
+     {
+      "impact": -0.07,
+      "minutes": 6.2,
+      "player": "Labaron Philon Jr.",
+      "rating": -0.57
      }
     ]
    }
@@ -614,23 +616,23 @@
  },
  "401909329": {
   "away": "BKN",
-  "chance": 0.7397,
+  "chance": 0.738,
   "date": "2026-11-27",
-  "edge_vs_market": -0.0253,
+  "edge_vs_market": -0.017,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.755,
    "p_home": 0.7462,
    "spread": null
   },
-  "frozen_at": "2026-11-27 22:20 UTC",
+  "frozen_at": "2026-11-28 00:00 UTC",
   "game_id": 401909329,
   "home": "TOR",
   "locked": false,
-  "margin": 8.19,
-  "market_p_home": 0.765,
+  "margin": 8.12,
+  "market_p_home": 0.755,
   "neutral": false,
-  "p_home": 0.7397,
+  "p_home": 0.738,
   "pick": "TOR",
   "spread": {
    "home_line": -9.5,
@@ -638,7 +640,7 @@
    "pick": "BKN",
    "pick_line": 9.5,
    "source": "Kalshi",
-   "teleios_p_home_cover": 0.4591
+   "teleios_p_home_cover": 0.4571
   },
   "tip_utc": "2026-11-28 00:30:00+00:00",
   "why": {
@@ -679,13 +681,7 @@
    },
    "questionable": {
     "BKN": [],
-    "TOR": [
-     {
-      "pid": 4702656,
-      "player": "Alijah Martin",
-      "status": "Day-To-Day"
-     }
-    ]
+    "TOR": []
    },
    "rest_days": {
     "BKN": 2,
@@ -693,7 +689,7 @@
    },
    "strength": {
     "BKN": -5.37,
-    "TOR": 0.85
+    "TOR": 0.78
    },
    "team_term": {
     "BKN": -5.03,
@@ -752,50 +748,50 @@
     ],
     "TOR": [
      {
-      "impact": 0.88,
-      "minutes": 29.2,
+      "impact": 0.86,
+      "minutes": 28.7,
       "player": "Immanuel Quickley",
       "rating": 1.44
      },
      {
-      "impact": 0.55,
-      "minutes": 32.6,
+      "impact": 0.54,
+      "minutes": 32.1,
       "player": "Scottie Barnes",
       "rating": 0.8
      },
      {
       "impact": 0.36,
-      "minutes": 23.0,
+      "minutes": 22.6,
       "player": "Jakob Poeltl",
       "rating": 0.76
      },
      {
-      "impact": 0.12,
-      "minutes": 7.9,
+      "impact": 0.11,
+      "minutes": 7.8,
       "player": "Trayce Jackson-Davis",
       "rating": 0.7
      },
      {
       "impact": 0.08,
-      "minutes": 30.7,
+      "minutes": 30.2,
       "player": "Ja'Kobe Walter",
       "rating": 0.13
      },
      {
       "impact": 0.06,
-      "minutes": 18.8,
+      "minutes": 18.4,
       "player": "Allen Graves",
       "rating": 0.16
      },
      {
       "impact": -0.01,
-      "minutes": 2.3,
+      "minutes": 2.2,
       "player": "Jaden Bradley",
       "rating": -0.2
      },
      {
       "impact": -0.1,
-      "minutes": 3.8,
+      "minutes": 3.7,
       "player": "Kevin McCullar Jr.",
       "rating": -1.28
      }
@@ -821,7 +817,7 @@
     "teleios_p_home_cover": 0.4895
    }
   },
-  "frozen_at": "2026-11-27 22:20 UTC",
+  "frozen_at": "2026-11-28 00:00 UTC",
   "game_id": 401909330,
   "home": "BOS",
   "locked": false,
@@ -831,12 +827,12 @@
   "p_home": 0.7653,
   "pick": "BOS",
   "spread": {
-   "home_line": -8.5,
-   "market_p_home_cover": 0.515,
-   "pick": "BOS",
-   "pick_line": -8.5,
+   "home_line": -9.5,
+   "market_p_home_cover": 0.485,
+   "pick": "ATL",
+   "pick_line": 9.5,
    "source": "Kalshi",
-   "teleios_p_home_cover": 0.5226
+   "teleios_p_home_cover": 0.4914
   },
   "tip_utc": "2026-11-28 01:00:00+00:00",
   "why": {
@@ -1011,7 +1007,7 @@
    "p_home": 0.7184,
    "spread": null
   },
-  "frozen_at": "2026-11-27 22:20 UTC",
+  "frozen_at": "2026-11-28 00:00 UTC",
   "game_id": 401909331,
   "home": "MIN",
   "locked": false,
@@ -1022,7 +1018,7 @@
   "pick": "MIN",
   "spread": {
    "home_line": -2.5,
-   "market_p_home_cover": 0.52,
+   "market_p_home_cover": 0.515,
    "pick": "MIN",
    "pick_line": -2.5,
    "source": "Kalshi",
@@ -1229,7 +1225,7 @@
    "p_home": 0.5457,
    "spread": null
   },
-  "frozen_at": "2026-11-27 22:20 UTC",
+  "frozen_at": "2026-11-28 00:00 UTC",
   "game_id": 401909332,
   "home": "PHX",
   "locked": false,
@@ -1239,12 +1235,12 @@
   "p_home": 0.5703,
   "pick": "PHX",
   "spread": {
-   "home_line": -2.5,
-   "market_p_home_cover": 0.515,
+   "home_line": -3.5,
+   "market_p_home_cover": 0.495,
    "pick": "DAL",
-   "pick_line": 2.5,
+   "pick_line": 3.5,
    "source": "Kalshi",
-   "teleios_p_home_cover": 0.4925
+   "teleios_p_home_cover": 0.4613
   },
   "tip_utc": "2026-11-28 02:00:00+00:00",
   "why": {
@@ -1427,7 +1423,7 @@
     "teleios_p_home_cover": 0.5011
    }
   },
-  "frozen_at": "2026-11-27 22:20 UTC",
+  "frozen_at": "2026-11-28 00:00 UTC",
   "game_id": 401909333,
   "home": "SAS",
   "locked": false,
@@ -1598,7 +1594,7 @@
   "away": "DEN",
   "chance": 0.75,
   "date": "2026-11-27",
-  "edge_vs_market": 0.035,
+  "edge_vs_market": 0.0272,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.2032,
@@ -1612,12 +1608,12 @@
     "teleios_p_home_cover": 0.5412
    }
   },
-  "frozen_at": "2026-11-27 22:20 UTC",
+  "frozen_at": "2026-11-28 00:00 UTC",
   "game_id": 401909334,
   "home": "UTA",
   "locked": false,
   "margin": -8.6,
-  "market_p_home": 0.215,
+  "market_p_home": 0.2228,
   "neutral": false,
   "p_home": 0.25,
   "pick": "DEN",
@@ -1801,7 +1797,7 @@
    "p_home": 0.6138,
    "spread": null
   },
-  "frozen_at": "2026-11-27 22:20 UTC",
+  "frozen_at": "2026-11-28 00:00 UTC",
   "game_id": 401909335,
   "home": "LAC",
   "locked": false,
@@ -1991,29 +1987,29 @@
   "away": "GSW",
   "chance": 0.7256,
   "date": "2026-11-27",
-  "edge_vs_market": -0.0044,
+  "edge_vs_market": -0.0094,
   "first": {
    "at": "2026-11-26 08:52 UTC",
    "market_p_home": 0.735,
    "p_home": 0.7726,
    "spread": null
   },
-  "frozen_at": "2026-11-27 22:20 UTC",
+  "frozen_at": "2026-11-28 00:00 UTC",
   "game_id": 401909336,
   "home": "POR",
   "locked": false,
   "margin": 7.64,
-  "market_p_home": 0.73,
+  "market_p_home": 0.735,
   "neutral": false,
   "p_home": 0.7256,
   "pick": "POR",
   "spread": {
-   "home_line": -7.5,
-   "market_p_home_cover": 0.505,
-   "pick": "POR",
-   "pick_line": -7.5,
+   "home_line": -8.5,
+   "market_p_home_cover": 0.485,
+   "pick": "GSW",
+   "pick_line": 8.5,
    "source": "Kalshi",
-   "teleios_p_home_cover": 0.5045
+   "teleios_p_home_cover": 0.4732
   },
   "tip_utc": "2026-11-28 02:30:00+00:00",
   "why": {
